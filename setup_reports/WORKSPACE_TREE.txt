@@ -1,0 +1,171 @@
+mushroom-research-2026/
+|-- 00_project_management/
+|   |-- meetings/
+|   |   `-- .gitkeep
+|   |-- milestones/
+|   |   `-- .gitkeep
+|   |-- weekly_reports/
+|   |   `-- .gitkeep
+|   |-- DECISION_LOG.md
+|   |-- PROJECT_CHARTER.md
+|   |-- project_state.json
+|   |-- RESEARCH_STATUS.md
+|   `-- TASK_BOARD.md
+|-- 01_domain_research/
+|   |-- cultivation_workflows/
+|   |   `-- .gitkeep
+|   |-- environmental_factors/
+|   |   `-- .gitkeep
+|   |-- field_evidence/
+|   |   `-- .gitkeep
+|   |-- harvest_practices/
+|   |   `-- .gitkeep
+|   |-- pain_points/
+|   |   `-- .gitkeep
+|   |-- terminology/
+|   |   `-- .gitkeep
+|   `-- OPEN_QUESTIONS.md
+|-- 02_literature_review/
+|   |-- methodology_comparison/
+|   |   `-- .gitkeep
+|   |-- paper_summaries/
+|   |   `-- .gitkeep
+|   |-- papers/
+|   |   `-- .gitkeep
+|   |-- research_gap_analysis/
+|   |   `-- .gitkeep
+|   |-- PAPER_REGISTRY.csv
+|   `-- RESEARCH_GAP_MATRIX.csv
+|-- 03_dataset_discovery/
+|   |-- candidate_registry/
+|   |   `-- CANDIDATE_REGISTRY.csv
+|   |-- dataset_comparisons/
+|   |   `-- .gitkeep
+|   |-- excluded_datasets/
+|   |   `-- EXCLUDED_DATASETS.csv
+|   |-- screening_reports/
+|   |   `-- .gitkeep
+|   |-- source_verification/
+|   |   `-- .gitkeep
+|   `-- DATASET_SELECTION_CRITERIA.md
+|-- 04_dataset_candidates/
+|   |-- C01_substrate_contamination/
+|   |   |-- analysis/
+|   |   |   `-- .gitkeep
+|   |   |-- dataset_metadata/
+|   |   |   `-- .gitkeep
+|   |   |-- literature/
+|   |   |   `-- .gitkeep
+|   |   |-- qc/
+|   |   |   `-- .gitkeep
+|   |   |-- raw/
+|   |   |   `-- .gitkeep
+|   |   |-- reports/
+|   |   |   `-- .gitkeep
+|   |   |-- source/
+|   |   |   `-- .gitkeep
+|   |   `-- README.md
+|   `-- C02_mushr_harvest_readiness/
+|       |-- analysis/
+|       |   `-- .gitkeep
+|       |-- dataset_metadata/
+|       |   `-- .gitkeep
+|       |-- literature/
+|       |   `-- .gitkeep
+|       |-- qc/
+|       |   `-- .gitkeep
+|       |-- raw/
+|       |   `-- .gitkeep
+|       |-- reports/
+|       |   `-- .gitkeep
+|       |-- source/
+|       |   `-- .gitkeep
+|       `-- README.md
+|-- 05_research_protocols/
+|   |-- DATA_LEAKAGE_CHECKLIST.md
+|   |-- DATASET_QC_PROTOCOL.md
+|   |-- DATASET_SCREENING_PROTOCOL.md
+|   |-- EXPERIMENT_PROTOCOL.md
+|   |-- REPRODUCIBILITY_PROTOCOL.md
+|   `-- RESEARCH_GATES.md
+|-- 06_selected_research/
+|   `-- README.md
+|-- 07_source_code/
+|   |-- data/
+|   |   `-- .gitkeep
+|   |-- evaluation/
+|   |   `-- .gitkeep
+|   |-- features/
+|   |   `-- .gitkeep
+|   |-- models/
+|   |   `-- .gitkeep
+|   |-- training/
+|   |   `-- .gitkeep
+|   `-- utils/
+|       `-- .gitkeep
+|-- 08_experiments/
+|   |-- checkpoints/
+|   |   `-- .gitkeep
+|   |-- comparisons/
+|   |   `-- .gitkeep
+|   |-- configs/
+|   |   `-- .gitkeep
+|   |-- runs/
+|   |   `-- .gitkeep
+|   `-- experiment_registry.csv
+|-- 09_results/
+|   |-- error_analysis/
+|   |   `-- .gitkeep
+|   |-- metrics/
+|   |   `-- .gitkeep
+|   |-- reports/
+|   |   `-- .gitkeep
+|   |-- statistical_analysis/
+|   |   `-- .gitkeep
+|   `-- visualizations/
+|       `-- .gitkeep
+|-- 10_research_paper/
+|   |-- drafts/
+|   |   `-- .gitkeep
+|   |-- figures/
+|   |   `-- .gitkeep
+|   |-- outline/
+|   |   `-- .gitkeep
+|   |-- references/
+|   |   `-- .gitkeep
+|   |-- submission/
+|   |   `-- .gitkeep
+|   `-- tables/
+|       `-- .gitkeep
+|-- 11_field_validation/
+|   |-- deployment_feasibility/
+|   |   `-- .gitkeep
+|   |-- external_test_data/
+|   |   `-- .gitkeep
+|   |-- protocols/
+|   |   `-- .gitkeep
+|   `-- validation_reports/
+|       `-- .gitkeep
+|-- 12_reproducibility/
+|   |-- dependency_snapshots/
+|   |   `-- .gitkeep
+|   |-- environments/
+|   |   `-- .gitkeep
+|   |-- manifests/
+|   |   |-- EVIDENCE_TEMPLATE.md
+|   |   `-- workspace_requirements.json
+|   `-- CLOUD_EXECUTION_GUIDE.md
+|-- scripts/
+|   |-- show_project_status.py
+|   `-- validate_workspace.py
+|-- setup_reports/
+|   |-- validation_evidence.json
+|   |-- validation_output.txt
+|   |-- WORKSPACE_TREE.txt
+|   `-- WP-00_SETUP_REPORT.md
+|-- tests/
+|   `-- test_workspace.py
+|-- .gitattributes
+|-- .gitignore
+|-- README.md
+`-- START_HERE.md

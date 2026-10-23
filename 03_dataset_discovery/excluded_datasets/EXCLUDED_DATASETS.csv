@@ -1,0 +1,2 @@
+exclusion_id,dataset_name,source_identifier,source_url,exclusion_reason,exclusion_status,notes
+EX001,Annotated Oyster Mushroom Images,hf55tkx489,https://data.mendeley.com/datasets/hf55tkx489,Previous research direction DS-02 abandoned by user,EXCLUDED,"User-supplied identity; canonical identifier link recorded without retrieval or version claim. Do not restore, migrate, import or reuse artifacts/conclusions. No other exclusions confirmed."

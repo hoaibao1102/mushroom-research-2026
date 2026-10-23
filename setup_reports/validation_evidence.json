@@ -1,0 +1,287 @@
+{
+  "timestamp": "2026-10-23T16:32:15+07:00",
+  "python_version": "3.14.7 (main, Sep  1 2026, 14:17:30) [MSC v.1944 64 bit (AMD64)]",
+  "git_ignore_tests": [
+    {
+      "path": ".venv/Scripts/python.exe",
+      "expected_ignored": true,
+      "observed_ignored": true,
+      "pass_check": true,
+      "exit_code": 0,
+      "rule": ".gitignore:2:.venv/\t.venv/Scripts/python.exe"
+    },
+    {
+      "path": "__pycache__/example.pyc",
+      "expected_ignored": true,
+      "observed_ignored": true,
+      "pass_check": true,
+      "exit_code": 0,
+      "rule": ".gitignore:5:__pycache__/\t__pycache__/example.pyc"
+    },
+    {
+      "path": ".vscode/settings.json",
+      "expected_ignored": true,
+      "observed_ignored": true,
+      "pass_check": true,
+      "exit_code": 0,
+      "rule": ".gitignore:12:.vscode/\t.vscode/settings.json"
+    },
+    {
+      "path": ".idea/workspace.xml",
+      "expected_ignored": true,
+      "observed_ignored": true,
+      "pass_check": true,
+      "exit_code": 0,
+      "rule": ".gitignore:13:.idea/\t.idea/workspace.xml"
+    },
+    {
+      "path": ".env",
+      "expected_ignored": true,
+      "observed_ignored": true,
+      "pass_check": true,
+      "exit_code": 0,
+      "rule": ".gitignore:15:.env\t.env"
+    },
+    {
+      "path": ".env.local",
+      "expected_ignored": true,
+      "observed_ignored": true,
+      "pass_check": true,
+      "exit_code": 0,
+      "rule": ".gitignore:16:.env.*\t.env.local"
+    },
+    {
+      "path": "credentials.local.json",
+      "expected_ignored": true,
+      "observed_ignored": true,
+      "pass_check": true,
+      "exit_code": 0,
+      "rule": ".gitignore:20:credentials*.json\tcredentials.local.json"
+    },
+    {
+      "path": "04_dataset_candidates/C01_substrate_contamination/raw/probe.txt",
+      "expected_ignored": true,
+      "observed_ignored": true,
+      "pass_check": true,
+      "exit_code": 0,
+      "rule": ".gitignore:23:04_dataset_candidates/*/raw/**\t04_dataset_candidates/C01_substrate_contamination/raw/probe.txt"
+    },
+    {
+      "path": "04_dataset_candidates/C02_mushr_harvest_readiness/raw/probe.jpg",
+      "expected_ignored": true,
+      "observed_ignored": true,
+      "pass_check": true,
+      "exit_code": 0,
+      "rule": ".gitignore:36:*.jpg\t04_dataset_candidates/C02_mushr_harvest_readiness/raw/probe.jpg"
+    },
+    {
+      "path": "04_dataset_candidates/C01_substrate_contamination/processed/probe.csv",
+      "expected_ignored": true,
+      "observed_ignored": true,
+      "pass_check": true,
+      "exit_code": 0,
+      "rule": ".gitignore:25:04_dataset_candidates/*/processed/\t04_dataset_candidates/C01_substrate_contamination/processed/probe.csv"
+    },
+    {
+      "path": "08_experiments/checkpoints/probe.pt",
+      "expected_ignored": true,
+      "observed_ignored": true,
+      "pass_check": true,
+      "exit_code": 0,
+      "rule": ".gitignore:52:*.pt\t08_experiments/checkpoints/probe.pt"
+    },
+    {
+      "path": "08_experiments/runs/run001/metrics.json",
+      "expected_ignored": true,
+      "observed_ignored": true,
+      "pass_check": true,
+      "exit_code": 0,
+      "rule": ".gitignore:29:08_experiments/runs/**\t08_experiments/runs/run001/metrics.json"
+    },
+    {
+      "path": "11_field_validation/external_test_data/probe.jpg",
+      "expected_ignored": true,
+      "observed_ignored": true,
+      "pass_check": true,
+      "exit_code": 0,
+      "rule": ".gitignore:36:*.jpg\t11_field_validation/external_test_data/probe.jpg"
+    },
+    {
+      "path": "download.zip",
+      "expected_ignored": true,
+      "observed_ignored": true,
+      "pass_check": true,
+      "exit_code": 0,
+      "rule": ".gitignore:60:*.zip\tdownload.zip"
+    },
+    {
+      "path": "local_outputs/probe.txt",
+      "expected_ignored": true,
+      "observed_ignored": true,
+      "pass_check": true,
+      "exit_code": 0,
+      "rule": ".gitignore:74:local_outputs/\tlocal_outputs/probe.txt"
+    },
+    {
+      "path": "README.md",
+      "expected_ignored": false,
+      "observed_ignored": false,
+      "pass_check": true,
+      "exit_code": 1,
+      "rule": ""
+    },
+    {
+      "path": "03_dataset_discovery/candidate_registry/CANDIDATE_REGISTRY.csv",
+      "expected_ignored": false,
+      "observed_ignored": false,
+      "pass_check": true,
+      "exit_code": 1,
+      "rule": ""
+    },
+    {
+      "path": "03_dataset_discovery/excluded_datasets/EXCLUDED_DATASETS.csv",
+      "expected_ignored": false,
+      "observed_ignored": false,
+      "pass_check": true,
+      "exit_code": 1,
+      "rule": ""
+    },
+    {
+      "path": "04_dataset_candidates/C01_substrate_contamination/dataset_metadata/info.json",
+      "expected_ignored": false,
+      "observed_ignored": false,
+      "pass_check": true,
+      "exit_code": 1,
+      "rule": ""
+    },
+    {
+      "path": "04_dataset_candidates/C01_substrate_contamination/source/provenance.csv",
+      "expected_ignored": false,
+      "observed_ignored": false,
+      "pass_check": true,
+      "exit_code": 1,
+      "rule": ""
+    },
+    {
+      "path": "04_dataset_candidates/C01_substrate_contamination/raw/.gitkeep",
+      "expected_ignored": false,
+      "observed_ignored": false,
+      "pass_check": true,
+      "exit_code": 0,
+      "rule": ".gitignore:24:!04_dataset_candidates/*/raw/.gitkeep\t04_dataset_candidates/C01_substrate_contamination/raw/.gitkeep"
+    },
+    {
+      "path": "08_experiments/runs/.gitkeep",
+      "expected_ignored": false,
+      "observed_ignored": false,
+      "pass_check": true,
+      "exit_code": 0,
+      "rule": ".gitignore:30:!08_experiments/runs/.gitkeep\t08_experiments/runs/.gitkeep"
+    },
+    {
+      "path": "08_experiments/checkpoints/.gitkeep",
+      "expected_ignored": false,
+      "observed_ignored": false,
+      "pass_check": true,
+      "exit_code": 0,
+      "rule": ".gitignore:32:!08_experiments/checkpoints/.gitkeep\t08_experiments/checkpoints/.gitkeep"
+    },
+    {
+      "path": "11_field_validation/external_test_data/.gitkeep",
+      "expected_ignored": false,
+      "observed_ignored": false,
+      "pass_check": true,
+      "exit_code": 0,
+      "rule": ".gitignore:34:!11_field_validation/external_test_data/.gitkeep\t11_field_validation/external_test_data/.gitkeep"
+    },
+    {
+      "path": "08_experiments/configs/baseline.yaml",
+      "expected_ignored": false,
+      "observed_ignored": false,
+      "pass_check": true,
+      "exit_code": 1,
+      "rule": ""
+    },
+    {
+      "path": "09_results/reports/qc.md",
+      "expected_ignored": false,
+      "observed_ignored": false,
+      "pass_check": true,
+      "exit_code": 1,
+      "rule": ""
+    },
+    {
+      "path": "10_research_paper/figures/reviewed.png",
+      "expected_ignored": false,
+      "observed_ignored": false,
+      "pass_check": true,
+      "exit_code": 0,
+      "rule": ".gitignore:69:!10_research_paper/figures/*.png\t10_research_paper/figures/reviewed.png"
+    }
+  ],
+  "csv": [
+    {
+      "path": "02_literature_review/PAPER_REGISTRY.csv",
+      "columns": 10,
+      "rows": 1
+    },
+    {
+      "path": "02_literature_review/RESEARCH_GAP_MATRIX.csv",
+      "columns": 11,
+      "rows": 0
+    },
+    {
+      "path": "03_dataset_discovery/candidate_registry/CANDIDATE_REGISTRY.csv",
+      "columns": 14,
+      "rows": 2
+    },
+    {
+      "path": "03_dataset_discovery/excluded_datasets/EXCLUDED_DATASETS.csv",
+      "columns": 7,
+      "rows": 1
+    },
+    {
+      "path": "08_experiments/experiment_registry.csv",
+      "columns": 16,
+      "rows": 0
+    }
+  ],
+  "commands": [
+    {
+      "command": "python scripts/validate_workspace.py",
+      "exit_code": 0,
+      "stdout": "PASS | Directory: 00_project_management\nPASS | Directory: 00_project_management/meetings\nPASS | Directory: 00_project_management/milestones\nPASS | Directory: 00_project_management/weekly_reports\nPASS | Directory: 01_domain_research\nPASS | Directory: 01_domain_research/cultivation_workflows\nPASS | Directory: 01_domain_research/environmental_factors\nPASS | Directory: 01_domain_research/field_evidence\nPASS | Directory: 01_domain_research/harvest_practices\nPASS | Directory: 01_domain_research/pain_points\nPASS | Directory: 01_domain_research/terminology\nPASS | Directory: 02_literature_review\nPASS | Directory: 02_literature_review/methodology_comparison\nPASS | Directory: 02_literature_review/paper_summaries\nPASS | Directory: 02_literature_review/papers\nPASS | Directory: 02_literature_review/research_gap_analysis\nPASS | Directory: 03_dataset_discovery\nPASS | Directory: 03_dataset_discovery/candidate_registry\nPASS | Directory: 03_dataset_discovery/dataset_comparisons\nPASS | Directory: 03_dataset_discovery/excluded_datasets\nPASS | Directory: 03_dataset_discovery/screening_reports\nPASS | Directory: 03_dataset_discovery/source_verification\nPASS | Directory: 04_dataset_candidates\nPASS | Directory: 04_dataset_candidates/C01_substrate_contamination\nPASS | Directory: 04_dataset_candidates/C01_substrate_contamination/analysis\nPASS | Directory: 04_dataset_candidates/C01_substrate_contamination/dataset_metadata\nPASS | Directory: 04_dataset_candidates/C01_substrate_contamination/literature\nPASS | Directory: 04_dataset_candidates/C01_substrate_contamination/qc\nPASS | Directory: 04_dataset_candidates/C01_substrate_contamination/raw\nPASS | Directory: 04_dataset_candidates/C01_substrate_contamination/reports\nPASS | Directory: 04_dataset_candidates/C01_substrate_contamination/source\nPASS | Directory: 04_dataset_candidates/C02_mushr_harvest_readiness\nPASS | Directory: 04_dataset_candidates/C02_mushr_harvest_readiness/analysis\nPASS | Directory: 04_dataset_candidates/C02_mushr_harvest_readiness/dataset_metadata\nPASS | Directory: 04_dataset_candidates/C02_mushr_harvest_readiness/literature\nPASS | Directory: 04_dataset_candidates/C02_mushr_harvest_readiness/qc\nPASS | Directory: 04_dataset_candidates/C02_mushr_harvest_readiness/raw\nPASS | Directory: 04_dataset_candidates/C02_mushr_harvest_readiness/reports\nPASS | Directory: 04_dataset_candidates/C02_mushr_harvest_readiness/source\nPASS | Directory: 05_research_protocols\nPASS | Directory: 06_selected_research\nPASS | Directory: 07_source_code\nPASS | Directory: 07_source_code/data\nPASS | Directory: 07_source_code/evaluation\nPASS | Directory: 07_source_code/features\nPASS | Directory: 07_source_code/models\nPASS | Directory: 07_source_code/training\nPASS | Directory: 07_source_code/utils\nPASS | Directory: 08_experiments\nPASS | Directory: 08_experiments/checkpoints\nPASS | Directory: 08_experiments/comparisons\nPASS | Directory: 08_experiments/configs\nPASS | Directory: 08_experiments/runs\nPASS | Directory: 09_results\nPASS | Directory: 09_results/error_analysis\nPASS | Directory: 09_results/metrics\nPASS | Directory: 09_results/reports\nPASS | Directory: 09_results/statistical_analysis\nPASS | Directory: 09_results/visualizations\nPASS | Directory: 10_research_paper\nPASS | Directory: 10_research_paper/drafts\nPASS | Directory: 10_research_paper/figures\nPASS | Directory: 10_research_paper/outline\nPASS | Directory: 10_research_paper/references\nPASS | Directory: 10_research_paper/submission\nPASS | Directory: 10_research_paper/tables\nPASS | Directory: 11_field_validation\nPASS | Directory: 11_field_validation/deployment_feasibility\nPASS | Directory: 11_field_validation/external_test_data\nPASS | Directory: 11_field_validation/protocols\nPASS | Directory: 11_field_validation/validation_reports\nPASS | Directory: 12_reproducibility\nPASS | Directory: 12_reproducibility/dependency_snapshots\nPASS | Directory: 12_reproducibility/environments\nPASS | Directory: 12_reproducibility/manifests\nPASS | Directory: scripts\nPASS | Directory: setup_reports\nPASS | Directory: tests\nPASS | Nonempty file: .gitattributes\nPASS | Nonempty file: .gitignore\nPASS | Nonempty file: 00_project_management/DECISION_LOG.md\nPASS | Nonempty file: 00_project_management/PROJECT_CHARTER.md\nPASS | Nonempty file: 00_project_management/RESEARCH_STATUS.md\nPASS | Nonempty file: 00_project_management/TASK_BOARD.md\nPASS | Nonempty file: 00_project_management/project_state.json\nPASS | Nonempty file: 01_domain_research/OPEN_QUESTIONS.md\nPASS | Nonempty file: 02_literature_review/PAPER_REGISTRY.csv\nPASS | Nonempty file: 02_literature_review/RESEARCH_GAP_MATRIX.csv\nPASS | Nonempty file: 03_dataset_discovery/DATASET_SELECTION_CRITERIA.md\nPASS | Nonempty file: 03_dataset_discovery/candidate_registry/CANDIDATE_REGISTRY.csv\nPASS | Nonempty file: 03_dataset_discovery/excluded_datasets/EXCLUDED_DATASETS.csv\nPASS | Nonempty file: 04_dataset_candidates/C01_substrate_contamination/README.md\nPASS | Nonempty file: 04_dataset_candidates/C02_mushr_harvest_readiness/README.md\nPASS | Nonempty file: 05_research_protocols/DATASET_QC_PROTOCOL.md\nPASS | Nonempty file: 05_research_protocols/DATASET_SCREENING_PROTOCOL.md\nPASS | Nonempty file: 05_research_protocols/DATA_LEAKAGE_CHECKLIST.md\nPASS | Nonempty file: 05_research_protocols/EXPERIMENT_PROTOCOL.md\nPASS | Nonempty file: 05_research_protocols/REPRODUCIBILITY_PROTOCOL.md\nPASS | Nonempty file: 05_research_protocols/RESEARCH_GATES.md\nPASS | Nonempty file: 06_selected_research/README.md\nPASS | Nonempty file: 08_experiments/experiment_registry.csv\nPASS | Nonempty file: 12_reproducibility/CLOUD_EXECUTION_GUIDE.md\nPASS | Nonempty file: 12_reproducibility/manifests/EVIDENCE_TEMPLATE.md\nPASS | Nonempty file: 12_reproducibility/manifests/workspace_requirements.json\nPASS | Nonempty file: README.md\nPASS | Nonempty file: START_HERE.md\nPASS | Nonempty file: scripts/show_project_status.py\nPASS | Nonempty file: scripts/validate_workspace.py\nPASS | Nonempty file: setup_reports/WP-00_SETUP_REPORT.md\nPASS | Nonempty file: tests/test_workspace.py\nPASS | CSV header: 03_dataset_discovery/candidate_registry/CANDIDATE_REGISTRY.csv\nPASS | CSV row widths: 03_dataset_discovery/candidate_registry/CANDIDATE_REGISTRY.csv\nPASS | CSV header: 03_dataset_discovery/excluded_datasets/EXCLUDED_DATASETS.csv\nPASS | CSV row widths: 03_dataset_discovery/excluded_datasets/EXCLUDED_DATASETS.csv\nPASS | CSV header: 02_literature_review/PAPER_REGISTRY.csv\nPASS | CSV row widths: 02_literature_review/PAPER_REGISTRY.csv\nPASS | CSV header: 02_literature_review/RESEARCH_GAP_MATRIX.csv\nPASS | CSV row widths: 02_literature_review/RESEARCH_GAP_MATRIX.csv\nPASS | CSV header: 08_experiments/experiment_registry.csv\nPASS | CSV row widths: 08_experiments/experiment_registry.csv\nPASS | Unique C01 and C02 records exist\nPASS | Candidate claims remain unverified/unselected\nPASS | DS-02 hf55tkx489 explicitly excluded\nPASS | Only user-confirmed exclusion initialized\nPASS | No fictional experiments\nPASS | No invented research gaps\nPASS | Only supplied unverified paper source; no invented metadata\nPASS | Phase 0 / WP-00 preserved\nPASS | No selection/training/scientific completion authorized\nPASS | All G0–G6 unpassed\nPASS | Next package is WP-01; not started\nPASS | Human-readable status matches initialization metadata/date\nPASS | No symlinks/junctions importing external artifacts: []\nPASS | No dataset/media/archive/model payloads anywhere: []\nPASS | Empty WP-00 payload storage: 04_dataset_candidates/C01_substrate_contamination/raw []\nPASS | Empty WP-00 payload storage: 04_dataset_candidates/C02_mushr_harvest_readiness/raw []\nPASS | Empty WP-00 payload storage: 08_experiments/runs []\nPASS | Empty WP-00 payload storage: 08_experiments/checkpoints []\nPASS | Empty WP-00 payload storage: 11_field_validation/external_test_data []\n\nWP-00 validation: 139 PASS / 0 FAIL\n",
+      "stderr": ""
+    },
+    {
+      "command": "python scripts/show_project_status.py",
+      "exit_code": 0,
+      "stdout": "Project: Mushroom Research 2026\nPhase: PHASE 0 — DATASET & RESEARCH TOPIC SELECTION\nCurrent work package: WP-00\nCurrent gate: G0 / NEEDS_MORE_EVIDENCE\nDataset selected: NO\nSelected candidate: None\nTraining authorized: NO\nC01: verification=PENDING_VERIFICATION; QC=NOT_VERIFIED; baseline=NOT_VERIFIED; gap=NOT_VERIFIED; decision=PENDING\nC02: verification=PENDING_VERIFICATION; QC=NOT_VERIFIED; baseline=NOT_VERIFIED; gap=NOT_VERIFIED; decision=PENDING\nNext work package: WP-01: Candidate Dataset & Paper Source Verification\n",
+      "stderr": ""
+    },
+    {
+      "command": "python -m unittest discover -s tests -v",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "test_checkpoint_extension_rejected_without_model_content (test_workspace.RejectionTests.test_checkpoint_extension_rejected_without_model_content) ... ok\ntest_malformed_csv_header_rejected (test_workspace.RejectionTests.test_malformed_csv_header_rejected) ... ok\ntest_missing_exclusion_rejected (test_workspace.RejectionTests.test_missing_exclusion_rejected) ... ok\ntest_missing_protocol_rejected (test_workspace.RejectionTests.test_missing_protocol_rejected) ... ok\ntest_non_payload_text_in_raw_storage_rejected (test_workspace.RejectionTests.test_non_payload_text_in_raw_storage_rejected) ... ok\ntest_validator_accepts_clean_workspace (test_workspace.WorkspaceTests.test_validator_accepts_clean_workspace) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 1.287s\n\nOK\n"
+    },
+    {
+      "command": "git rev-parse --show-toplevel",
+      "exit_code": 0,
+      "stdout": "D:/Capstone/mushroom-research-2026\n",
+      "stderr": ""
+    },
+    {
+      "command": "git status --short --branch",
+      "exit_code": 0,
+      "stdout": "## No commits yet on main\n?? .gitattributes\n?? .gitignore\n?? 00_project_management/\n?? 01_domain_research/\n?? 02_literature_review/\n?? 03_dataset_discovery/\n?? 04_dataset_candidates/\n?? 05_research_protocols/\n?? 06_selected_research/\n?? 07_source_code/\n?? 08_experiments/\n?? 09_results/\n?? 10_research_paper/\n?? 11_field_validation/\n?? 12_reproducibility/\n?? README.md\n?? START_HERE.md\n?? scripts/\n?? setup_reports/\n?? tests/\n",
+      "stderr": ""
+    },
+    {
+      "command": "git log -1 --oneline",
+      "exit_code": 128,
+      "stdout": "",
+      "stderr": "fatal: your current branch 'main' does not have any commits yet\n"
+    }
+  ]
+}
