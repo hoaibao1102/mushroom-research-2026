@@ -1,0 +1,202 @@
+Zenodo 20260929 explicitly links its deposit to a publication; archive-to-paper subset identity is not established.
+The C03 paper explicitly used no separate test set because of dataset size.
+The C03 saved paper identifies its title as Classification and Analysis of Agaricus bisporus Diseases with Pre-Trained Deep Learning Models.
+The C03 abstract reports 20 CNNs evaluated on 3,195 white-lit images and ResNet-50 weighted overall score 99.70%.
+The C03 introduction describes Agaricus bisporus cultivation in more than seventy countries; this is background, not dataset validation.
+The C03 authors justify CNNs over transformers on efficiency grounds and suggest future transformer evaluation.
+The C03 authors report 3,195 images: 2,464 diseased and 731 healthy, acquired under standardized conditions.
+The C03 authors compare 20 CNNs and combine classification metrics into a weighted score.
+The C03 authors report using MATLAB R2023b and Python 3.9.
+The C03 authors claim novelty and collection over more than a year across Turkish mushroom facilities; novelty is not independently established.
+The C03 introduction calls ResNet-50's 99.70% accuracy, whereas results report accuracy 99.66% and weighted score 99.70%.
+The C03 related-work discussion calls DenseNet-201 accuracy 99.98%, conflicting with its results/discussion value 99.44%.
+The C03 related-work section reports rice-disease ResNet-50 accuracy 99.75%; this is secondary background, not a C03 result.
+The C03 related-work section cites EfficientNet and U-Net tomato disease classification; these are not C03 experiments.
+The C03 comparison again claims DenseNet-201 accuracy 99.98%, conflicting with its own 99.44% result.
+The C03 related-work section reports PlantVillage ensemble accuracy up to 97.79%; this concerns another dataset.
+The C03 comparison with DS-DETR claims DenseNet-201 accuracy 99.98%, conflicting with its own 99.44% result.
+The C03 comparison with DISE-Net claims DenseNet-201 accuracy 99.98%, conflicting with its own 99.44% result.
+The C03 comparison with grapevine work claims DenseNet-201 accuracy 99.98%, conflicting with its own 99.44% result.
+The C03 related-work section reports Zahan et al. mushroom disease accuracy 88.40%; this is secondary background.
+The C03 related-work section reports grape-leaf classification accuracy 99.88% with Gaussian noise; this is not a C03 result.
+The C03 related-work section reports KijaniNet and CRF_ResUNet++ results on other tasks, not C03 experiments.
+The C03 authors claim novelty from comparing 20 pretrained models on their disease dataset; novelty is unaudited.
+The C03 authors report developing a portable apparatus for controlled illumination during acquisition.
+The C03 authors describe modular lighting and imaging compartments in their apparatus.
+The C03 authors report class counts healthy 731, bacterial blotch 576, dry bubble 665, cobweb 664, wet bubble 559.
+The C03 authors report overcoming farm access and biosecurity barriers through communication and hygiene reassurance.
+The C03 authors report expert-mycologist annotation and specialist-panel cross-checking; label quality is not independently audited.
+The C03 authors report architecture-specific image resizing and intensity normalization to [0,1].
+The C03 authors report batch size 11, learning rate 0.001 and SGD training.
+The C03 paper identifies Table 1 as the source for pretrained origins, hyperparameters and parameter counts.
+The C03 authors report an 80/20 training/validation split, using validation in model assessment and tuning.
+The C03 scoring scheme assigns precision a 20% weight.
+The C03 scoring scheme assigns F1-score a 30% weight.
+The C03 scoring scheme assigns average precision a 10% weight.
+The C03 authors prioritize recall and F1 at 30% each to limit missed disease and balance errors.
+The C03 score combines precision/recall/F1/AUC/AP with weights 0.2/0.3/0.3/0.1/0.1; it is not plain accuracy.
+The C03 authors report MATLAB preprocessing, training and plots in a hybrid MATLAB/Python pipeline.
+The C03 results report ResNet-50's highest weighted overall score as 99.70%.
+The C03 results report ResNet-50 accuracy 99.66%, precision 99.67%, recall 99.64%.
+The C03 results report DenseNet-201 accuracy 99.44%, precision 99.43%, recall 99.41%.
+The C03 results report DarkNet-53 accuracy 99.47%, precision 99.44%, F1 99.44%.
+The C03 authors report VGG-16 accuracy 99.41% and assert no overfitting; the assertion is not independently demonstrated.
+The C03 authors interpret their comparison as an accuracy/complexity/efficiency trade-off.
+The C03 authors use confusion matrices, ROC curves and precision-recall heatmaps to inspect classification performance.
+The C03 authors report near-perfect class-level AUC for DenseNet-201, DarkNet-53 and ResNet-50.
+The C03 authors report ResNet-50 F1 0.9993 for cobweb and 0.9970 for healthy classes.
+The C03 authors report ResNet-50 precision 1.000 for cobweb and 0.9986 for healthy classes.
+The C03 authors report ResNet-50 AP 0.9997 for cobweb and 0.9996 for healthy classes.
+The C03 authors report overall AP 0.9979 for ResNet-50, 0.9972 for DenseNet-201, 0.9955 for DarkNet-53.
+The C03 authors report overall F1 0.9965 for ResNet-50, 0.9942 for DenseNet-201, 0.9944 for DarkNet-53.
+The C03 authors report overall precision 0.9967 for ResNet-50, 0.9943 for DenseNet-201, 0.9944 for DarkNet-53.
+The C03 authors report specificity 0.9931 for ResNet-50, 0.9926 for DenseNet-201, 0.9929 for DarkNet-53.
+The C03 authors rank ResNet-50 highest by weighted score and suggest lightweight deployment alternatives.
+The C03 authors recommend architecture choice according to deployment constraints rather than a universal optimum.
+The C03 discussion reports DenseNet-201 accuracy 99.44% and ResNet-50 accuracy 99.66%, inconsistent with earlier 99.98% DenseNet claims.
+The C03 authors argue validation limits overfitting but explicitly request external tests or cross-validation for robustness assessment.
+The C03 authors report EfficientNet-b0 accuracy 94.52% and recall 94.33% and suggest mobile/IoT deployment.
+The C03 authors claim improved generalizability over controlled prior datasets; this statement supplies no external validation.
+The C03 authors acknowledge Turkey-specific disease coverage and larger models' computational demands as limitations.
+The C03 authors propose future real-time latency, scalability and usability evaluation.
+The C03 conclusion highlights DenseNet-201 and the MATLAB/Python workflow; this is author interpretation, not replication.
+The C03 authors propose wider species/environment/disease coverage and hybrid CNN-ViT research.
+The C03 paper provides author-contribution roles; these are authorship metadata, not experiment evidence.
+The C03 paper states data are not publicly available due to privacy/confidentiality; later Zenodo advertising does not reconcile exact version/subset identity.
+The C03 bibliography includes an ensemble fruit-disease paper; citation does not demonstrate C03 dataset use.
+The C03 bibliography includes a reference on probabilistic interpretation of precision, recall and F-score.
+The C03 figure caption labels examples of five disease/healthy classes acquired under controlled conditions.
+The C03 acquisition caption describes random-angle and upright-position photographs.
+The C03 figure caption identifies a class-level F1 heatmap; the caption alone gives no numeric performance.
+The C03 figure caption identifies a class-level precision heatmap; the caption alone gives no numeric performance.
+The C03 figure caption identifies a class-level AP heatmap; the caption alone gives no numeric performance.
+The C03 Table 1 caption describes implementations, pretrained sources, hyperparameters and approximate parameters for 20 CNNs.
+The C04 Zenodo deposit advertises plain-text object-detection label files; payload contents are unaudited.
+The C04 authors state dataset and validation code deposition in Zenodo; payload/code completeness is unaudited.
+The saved Nature page title identifies the C04 paper on naturally grown shiitake varieties and growth stages.
+The saved Nature page repeats the C04 title; this is duplicate identity evidence, not a new experiment.
+The saved Nature page repeats the C04 title again; this is not independent corroboration.
+The C04 abstract motivates automated grading because manual shiitake classification remains labor-intensive.
+The C04 web page includes a fungal-spore microscopy article recommendation; it is not C04 dataset evidence.
+The C04 web page includes a Chinese-hickory dataset recommendation; it is not C04 mushroom evidence.
+The C04 authors identify labor intensity, inconsistent grading and environmental variability as dataset motivations.
+The C04 authors propose their dataset for fine-grained shiitake classification/grading in natural environments.
+The C04 authors distinguish hierarchical phenotypic labels and multi-base collection from coarser mushroom detection datasets.
+The C04 authors report collection at seven standardized production bases and five cultivation enterprises in China.
+The C04 Figure 1 caption identifies collection, annotation and technical-validation workflow stages.
+The C04 authors report Sony/Canon cameras and phones, multiple resolutions and acquisition about 40–60 cm above mushrooms.
+The C04 authors report objective screening criteria for unidentifiable images; eliminating bias is an unaudited author assertion.
+The C04 authors report manual bounding boxes with LabelImg and text label export.
+The C04 authors encode labels with L, a three-digit variety identifier and a two-digit growth-stage marker.
+The C04 authors report augmentation from 1,782 original images to 6,500 images; these are not 6,500 independent originals.
+The C04 authors report 6,500 augmented images and 43,752 annotated instances.
+The C04 authors justify YOLO by speed/accuracy trade-offs against Faster R-CNN and SSD; this is motivation, not a universal result.
+The C04 authors report SGD, learning rate 0.01, weight decay 0.005, 400 epochs and batch size 8.
+The C04 authors specify precision/recall/F1/AP/mAP evaluation and IoU 0.5 for mAP50.
+The C04 paper gives F1 as twice precision times recall divided by their sum.
+The C04 authors link deposition to Zenodo DOI 10.5281/zenodo.20373531 and describe YOLO text labels.
+The C04 authors report augmentation gains in YOLO11n precision 0.717 to 0.947 and mAP50 0.717 to 0.961.
+The C04 authors interpret augmented YOLO11n curves as faster, more stable convergence; broader generalization is unproven.
+The C04 Figure 9 caption identifies loss and mAP50 curves for augmented/non-augmented YOLO11n.
+The C04 authors report 8:2 training/validation allocation and only qualitative checking on an unlabeled inference set.
+The C04 authors compare YOLOv8n, YOLOv9t, YOLOv10n and YOLO11n under a common strategy.
+The C04 authors interpret Table 2 detection metrics as evidence of annotation quality; this is not an independent annotation audit.
+The C04 authors interpret Figure 10 as improving training metrics and stronger YOLO11n curves.
+The C04 authors report additional Faster R-CNN/RT-DETR/YOLO11s/YOLO11n comparisons and best overall detection by YOLO11s.
+The C04 authors interpret Table 3 as favoring YOLO11n lightness and YOLO11s accuracy.
+The C04 authors attribute visual complexity to lighting variation, dense occlusion, overlap and phenotypic diversity.
+The C04 authors state scope is mainly 2D detection/category recognition and discuss broader limitations.
+The C04 conclusion describes collection across production bases and growth cycles; this does not establish a grouped evaluation split.
+The C04 authors conclude the dataset supports lightweight/high-accuracy detectors and favor YOLO11n's trade-off.
+The C04 data-availability statement links the dataset to Zenodo DOI 10.5281/zenodo.20373531.
+The C04 code statement identifies Ultralytics YOLO and adjusted training parameters; code execution is unaudited.
+The C04 bibliography cites a fruit-disease noise-based GAN paper; this does not establish C04 reuse.
+The C04 bibliography cites the 2023 realistic synthetic mushroom scenes paper; citation is not demonstrated dataset use.
+The C04 bibliography cites SMS3D, Computers 14, 128 (2025); citation is not demonstrated dataset use.
+The C04 bibliography cites M18K, Computers 14, 199 (2025); citation is not demonstrated dataset use.
+The C04 bibliography cites an agricultural automation review; this is background only.
+The C04 bibliography supplies the shiitake dataset Zenodo DOI and 2026 citation.
+The C04 bibliography cites a tomato-fruit dataset in complex lighting; this is not C04 evidence.
+The C04 acknowledgments identify Henan funding/projects; these do not validate experimental claims.
+The C04 contribution statement assigns author collection, annotation, validation and writing roles.
+The C04 page supplies a Wang et al. article citation; this is identity metadata.
+The C05 DataCite description reports 129 stitched RGB observations; the historical fragment omits depth-pairing detail.
+The RD-GuideNet authors explicitly link their study dataset to Mendeley Data; protocol/version identity still requires care.
+RD-GuideNet highlights report segmentation F1 0.93 and tracking consistency 92.7%; these are author results, not reproduced measurements.
+RD-GuideNet highlights propose combining geometric precision with neural recall; an evaluated hybrid is not established.
+The RD-GuideNet abstract introduces depth-guided detection, segmentation and tracking for selective harvesting.
+The RD-GuideNet introduction reports U.S. production statistics as secondary background, not dataset counts.
+The RD-GuideNet authors motivate reliable segmentation in crowded beds for robotic harvesting.
+The RD-GuideNet related-work section reports depth/Hough cap-diameter accuracy 92.3%; this is secondary background.
+The RD-GuideNet related-work section discusses neural segmentation and RGB/point-cloud fusion; these are not its own results.
+The RD-GuideNet authors identify temporal tracking and cap-shape progression as gaps; novelty is unaudited.
+The RD-GuideNet authors describe depth gradients and spatial constraints for boundaries and temporal consistency.
+The RD-GuideNet method estimates boundaries from depth gradients around markers using 23-by-23 depth patches.
+The RD-GuideNet authors report YOLO comparisons using 12 annotated RGB images divided into 256-by-128 patches.
+The RD-GuideNet paper defines precision, recall and F1 from true/false positives and false negatives.
+The RD-GuideNet authors describe pixel-level predicted/ground-truth mask evaluation, distinct from object-level detection.
+The RD-GuideNet authors report detection precision 0.95 and segmentation precision 0.98.
+The RD-GuideNet authors report recall 0.93 and associate misses with small/occluded/low-elevation caps.
+The RD-GuideNet authors report YOLO recall 0.92/0.91 and segmentation F1 approximately 0.86–0.88.
+The RD-GuideNet authors interpret their comparison as completeness versus boundary accuracy.
+The RD-GuideNet authors qualitatively describe broader YOLOv8-seg coverage and continuity at weak height contrast.
+The RD-GuideNet authors report 298 trajectories across 128 mosaics and tracking consistency 92.7% versus YOLO 95.3%/94.6%.
+The RD-GuideNet authors report timing on a Core i9 laptop with 16 GB RAM and integrated graphics, using full mosaics.
+The RD-GuideNet authors qualitatively report YOLO mask irregularities and fusion in dense clusters.
+The RD-GuideNet authors propose complementing learned masks with geometric strengths; no implemented hybrid is established.
+The RD-GuideNet authors describe faster YOLO inference versus geometric refinement; embedded performance is not independently measured.
+The RD-GuideNet authors propose unified neural detection and geometry-driven boundary refinement; this is not a validated integration result.
+The RD-GuideNet discussion groups prior work into RGB detection, RGB tracking and depth/3D approaches; this is literature synthesis.
+The RD-GuideNet authors characterize their contribution as depth-guided overlap resolution coupled with temporal consistency.
+The RD-GuideNet conclusion describes radial depth gradients, concentric boundaries and contour refinement.
+The RD-GuideNet availability statement explicitly cites Mendeley DOI 10.17632/8n6nr43gk3.1.
+The RD-GuideNet acquisition caption shows a rail-mounted stereo camera with Arduino, motor and Jetson hardware.
+The RD-GuideNet overlap caption documents watershed separation and also an incorrect-split failure example.
+The RD-GuideNet tracking caption illustrates persistent IDs across 10-minute/post-harvest frames; this is not a separate quantitative benchmark.
+The C06 DataCite description identifies Pleurotus ostreatus mycelium time-lapse scans on PDA, not farm fruiting-body disease images.
+The SMS3D paper states dataset/code availability on GitHub; repository access is not full-payload access.
+The SMS3D README requires author contact for the full 40,000-scene set.
+The SMS3D authors report generating 20,000 scenes per species for white button and brown baby bella mushrooms.
+The SMS3D authors report 40,000 synthetic scenes; a publication's availability promise does not prove unrestricted downloads.
+The SMS3D authors report seven detailed 3D mushroom models in scene generation.
+The SMS3D authors report segmentation masks and bounding-box annotations for synthetic images.
+The SMS3D authors report real pose evaluation on 10 images with 330 instances.
+SMS3D Table 4 reports synthetic average rotational error 1.67 degrees.
+SMS3D Table 4 reports real-subset average rotational error 3.68 degrees on 10 images.
+SMS3D Table 5 reports synthetic detection F1/AP/AR 0.927/0.901/0.955 and segmentation 0.919/0.907/0.933.
+SMS3D Table 5 reports M18K detection F1/AP/AR 0.891/0.876/0.905 and segmentation 0.881/0.866/0.896.
+SMS3D Table 5 reports pretrained M18K detection F1/AP/AR 0.905/0.889/0.922 and segmentation 0.915/0.901/0.931.
+The SMS3D authors acknowledge synthetic scenes may not cover all cultivation-environment variation.
+The SMS3D authors acknowledge lighting/occlusion/sensor-noise effects and call for more than 10 real evaluation images.
+The SMS3D authors propose domain adaptation or more realistic sensor simulation as future work.
+The SMS3D README advertises samples of 2,000 scenes per species, not all 40,000 scenes.
+The SMS3D README requires author contact for the full 40,000-scene set.
+The SMS3D README excludes 3D models/high-resolution soil images for copyright reasons and offers them on request.
+The M18K authors report persistent instance identifiers across time points for growth-rate calculation.
+The M18K README advertises a V2 segmentation archive labeled 4,652 images; payload count is unaudited.
+The M18K authors report manual correction of generated masks, including false positives, missing masks and overlaps.
+The M18K authors report initial manual 3D-box labeling before pose-based pseudo-labeling.
+The M18K authors report manually labeling 50 initial 3D-box images before further pseudo-labeling.
+The M18K authors report pseudo-labeling remaining images followed by manual refinement.
+The M18K authors report consistent instance IDs across consecutive growth-monitoring frames.
+The M18K authors report persistent instance identifiers across time points for growth-rate calculation.
+The M18K authors suggest their temporal subset for yield forecasting/growth monitoring; this is potential reuse, not a new measured benchmark.
+The M18K authors report aligned 1280-by-720 RGB/depth images for combined RGB-D input.
+The M18K authors describe white-button/baby-bella point-cloud examples and acquisition.
+The M18K authors report camera heights 27 cm for baby bella and 15 cm for white button.
+The M18K paper has a Benchmarking and Results heading; this alone supports no numeric performance claim.
+The M18K authors report detection/segmentation benchmarking alongside pose and yield analyses.
+The M18K authors report training on DGX-2 with sixteen 32 GB V100 GPUs; this is not measured reproduction cost.
+The M18K authors report F1/AP/AR for detection and instance segmentation.
+The M18K authors compare multiple backbones in Table 2 for detection/segmentation.
+The M18K authors benchmark detection and instance segmentation; the historical continuation line is not a complete result.
+The M18K authors report training at 640-by-360 and 1280-by-720 resolutions.
+The M18K authors report adding depth expanded Mask R-CNN parameters without improving performance, reducing constrained real-time suitability.
+M18K Table 2 reports RGB Mask R-CNN/MobileNet-V3 detection at size 1280: F1 0.816, AP 0.800, AR 0.834.
+M18K Table 2 reports RGB Mask R-CNN/ResNet-50 detection at size 1280: F1 0.891, AP 0.876, AR 0.905.
+M18K Table 2 reports four-channel Mask R-CNN/ResNet-50 detection at size 1280: F1 0.863, AP 0.846, AR 0.881.
+M18K Table 2 reports YOLOv8-M segmentation at size 1280: F1 0.844, AP 0.833, AR 0.856.
+The M18K README describes over 18,000 instances in 423 RGB-D pairs; scope/version differs from larger paper totals.
+The M18K README advertises a V2 segmentation archive labeled 4,652 images; payload count is unaudited.
+The M18K README advertises a growth-monitoring archive labeled 2,121 images; payload count is unaudited.
+The M18K README directs users to a separate dataset license file; this instruction alone does not establish payload license terms.

@@ -1,0 +1,506 @@
+[
+  {
+    "citation_id": 1,
+    "url": "https://mdpi-res.com/d_attachment/computers/computers-14-00128/article_deploy/computers-14-00128.pdf",
+    "quote": "Data Availability Statement: The dataset and code supporting the findings of this study are pub-",
+    "locator": "sms3d.txt:line 881",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 2,
+    "url": "https://github.com/abdollahzakeri/sms3d",
+    "quote": "If you need access to the full set (40K scenes), please contact the author: azakeri@uh.edu",
+    "locator": "sms3d_readme.txt:line 19",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 3,
+    "url": "https://mdpi-res.com/d_attachment/computers/computers-14-00199/article_deploy/computers-14-00199.pdf",
+    "quote": "the scene was assigned a consistent identifier across all time points to facilitate growth",
+    "locator": "m18k.txt:line 337",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 4,
+    "url": "https://github.com/abdollahzakeri/m18k",
+    "quote": "[Download Segmentation Dataset - V2 (4,652 images)](https://zakerimushroom.sfo3.digitaloceanspaces.com/M18KV2.tar.zst)",
+    "locator": "m18k_readme.txt:line 28",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 5,
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13452286/fullTextXML",
+    "quote": "This dataset is limited to white button mushrooms grown under an indoor cultivation environment and captured using a fixed top-view RGB-D imaging configuration. The images were collected using one imaging system and one production setting; therefore, variation in camera viewpoint, lighting condition, facility design, and mushroom variety is limited. The dataset contains stitched RGB and depth mosaics rather than all individual raw frames acquired along the rail. Depth images may include invalid or noisy pixels caused by stereo matching limitations, occlusion, and surface reflectance. Instance-level annotations describe visible mushroom cap boundaries; fully occluded cap regions were not annotated. These limitations should be considered when applying models trained on this dataset to other mushroom production systems, imaging configurations, or environmental conditions.",
+    "locator": "rgbd_fulltext.txt:line 39",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 6,
+    "url": "https://data.mendeley.com/datasets/8n6nr43gk3/1",
+    "quote": "  \"name\": \"RGB-D Time-Series Dataset of White Button Mushroom Growth for Instance Segmentation\",",
+    "locator": "rgbd_dataset_metadata.json:line 4",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 7,
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13030075/fullTextXML",
+    "quote": "The dataset supporting the findings of this study is publicly available in the Mendeley Data repository at  https://doi.org/10.17632/8n6nr43gk3.1 , accessed on 17 March 2026.",
+    "locator": "rdguidenet.txt:line 110",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 1,
+    "url": "https://mdpi-res.com/d_attachment/computers/computers-14-00128/article_deploy/computers-14-00128.pdf",
+    "quote": "white Agaricus bisporus and brown baby bella. We also generated 20,000 unique scenes",
+    "locator": "sms3d.txt:line 85",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 1,
+    "url": "https://mdpi-res.com/d_attachment/computers/computers-14-00128/article_deploy/computers-14-00128.pdf",
+    "quote": "per species, totaling 40,000 scenes, which will be publicly available. This number of",
+    "locator": "sms3d.txt:line 86",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 1,
+    "url": "https://mdpi-res.com/d_attachment/computers/computers-14-00128/article_deploy/computers-14-00128.pdf",
+    "quote": "species of both white and brown mushrooms, we used seven detailed 3D models to capture",
+    "locator": "sms3d.txt:line 118",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 1,
+    "url": "https://mdpi-res.com/d_attachment/computers/computers-14-00128/article_deploy/computers-14-00128.pdf",
+    "quote": "provides precise annotations for each image, including segmentation masks, bounding",
+    "locator": "sms3d.txt:line 141",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 1,
+    "url": "https://mdpi-res.com/d_attachment/computers/computers-14-00128/article_deploy/computers-14-00128.pdf",
+    "quote": "on 10 real images including 330 mushroom instances (This Work (Real, 10 Images)) from",
+    "locator": "sms3d.txt:line 713",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 1,
+    "url": "https://mdpi-res.com/d_attachment/computers/computers-14-00128/article_deploy/computers-14-00128.pdf",
+    "quote": "This Work (Synthetic) - 1.67",
+    "locator": "sms3d.txt:line 723",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 1,
+    "url": "https://mdpi-res.com/d_attachment/computers/computers-14-00128/article_deploy/computers-14-00128.pdf",
+    "quote": "This Work (Real, 10 Images) - 3.68",
+    "locator": "sms3d.txt:line 724",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 1,
+    "url": "https://mdpi-res.com/d_attachment/computers/computers-14-00128/article_deploy/computers-14-00128.pdf",
+    "quote": "SMS3D 0.927 0.901 0.955 0.919 0.907 0.933",
+    "locator": "sms3d.txt:line 757",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 1,
+    "url": "https://mdpi-res.com/d_attachment/computers/computers-14-00128/article_deploy/computers-14-00128.pdf",
+    "quote": "M18K 0.891 0.876 0.905 0.881 0.866 0.896",
+    "locator": "sms3d.txt:line 758",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 1,
+    "url": "https://mdpi-res.com/d_attachment/computers/computers-14-00128/article_deploy/computers-14-00128.pdf",
+    "quote": "M18K (Pre-Trained on SMS3D) 0.905 0.889 0.922 0.915 0.901 0.931",
+    "locator": "sms3d.txt:line 759",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 1,
+    "url": "https://mdpi-res.com/d_attachment/computers/computers-14-00128/article_deploy/computers-14-00128.pdf",
+    "quote": "While our synthetic dataset closely approximates real-world conditions, it may not",
+    "locator": "sms3d.txt:line 822",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 1,
+    "url": "https://mdpi-res.com/d_attachment/computers/computers-14-00128/article_deploy/computers-14-00128.pdf",
+    "quote": "in real-world data can still impact performance. Expanding the annotated real dataset",
+    "locator": "sms3d.txt:line 825",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 1,
+    "url": "https://mdpi-res.com/d_attachment/computers/computers-14-00128/article_deploy/computers-14-00128.pdf",
+    "quote": "Future work should focus on bridging the domain gap further by incorporating",
+    "locator": "sms3d.txt:line 828",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 2,
+    "url": "https://github.com/abdollahzakeri/sms3d",
+    "quote": "Please use the following links to download the sample 2,000 scenes for each species (white/brown).",
+    "locator": "sms3d_readme.txt:line 14",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 2,
+    "url": "https://github.com/abdollahzakeri/sms3d",
+    "quote": "If you need access to the full set (40K scenes), please contact the author: azakeri@uh.edu",
+    "locator": "sms3d_readme.txt:line 19",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 2,
+    "url": "https://github.com/abdollahzakeri/sms3d",
+    "quote": "- The 3D mushroom models and high-resolution soil images are not included in this repository due to copyright restrictions. These resources will be provided to researchers upon request. Please contact Abdollah Zakeri at [azakeri@uh.edu](mailto:azakeri@uh.edu).",
+    "locator": "sms3d_readme.txt:line 93",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 3,
+    "url": "https://mdpi-res.com/d_attachment/computers/computers-14-00199/article_deploy/computers-14-00199.pdf",
+    "quote": "These generated masks were meticulously edited manually during several steps to",
+    "locator": "m18k.txt:line 268",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 3,
+    "url": "https://mdpi-res.com/d_attachment/computers/computers-14-00199/article_deploy/computers-14-00199.pdf",
+    "quote": "bounding boxes and rotation annotations. We began by manually labeling an initial subset",
+    "locator": "m18k.txt:line 275",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 3,
+    "url": "https://mdpi-res.com/d_attachment/computers/computers-14-00199/article_deploy/computers-14-00199.pdf",
+    "quote": "of 50 images with precise 3D boxes; we then applied the pose estimation pipeline proposed",
+    "locator": "m18k.txt:line 276",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 3,
+    "url": "https://mdpi-res.com/d_attachment/computers/computers-14-00199/article_deploy/computers-14-00199.pdf",
+    "quote": "by [10] to generate pseudo-labels for the remaining images. A final manual refinement",
+    "locator": "m18k.txt:line 277",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 3,
+    "url": "https://mdpi-res.com/d_attachment/computers/computers-14-00199/article_deploy/computers-14-00199.pdf",
+    "quote": "a consistent ID across frames, allowing precise tracking and comparison of changes in",
+    "locator": "m18k.txt:line 330",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 3,
+    "url": "https://mdpi-res.com/d_attachment/computers/computers-14-00199/article_deploy/computers-14-00199.pdf",
+    "quote": "the scene was assigned a consistent identifier across all time points to facilitate growth",
+    "locator": "m18k.txt:line 337",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 3,
+    "url": "https://mdpi-res.com/d_attachment/computers/computers-14-00199/article_deploy/computers-14-00199.pdf",
+    "quote": "rate calculations. This subset of our dataset can be utilized to support the development of",
+    "locator": "m18k.txt:line 338",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 3,
+    "url": "https://mdpi-res.com/d_attachment/computers/computers-14-00199/article_deploy/computers-14-00199.pdf",
+    "quote": "using the RGB and depth images as a single RGB-D input. Sample 3D point cloud images",
+    "locator": "m18k.txt:line 348",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 3,
+    "url": "https://mdpi-res.com/d_attachment/computers/computers-14-00199/article_deploy/computers-14-00199.pdf",
+    "quote": "of WB and BB mushrooms are plotted in Figure 2. During image acquisition, the camera",
+    "locator": "m18k.txt:line 349",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 3,
+    "url": "https://mdpi-res.com/d_attachment/computers/computers-14-00199/article_deploy/computers-14-00199.pdf",
+    "quote": "was positioned at vertical distances of 27 cm (about 10.63 in) and 15 cm (about 5.91 in)",
+    "locator": "m18k.txt:line 350",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 3,
+    "url": "https://mdpi-res.com/d_attachment/computers/computers-14-00199/article_deploy/computers-14-00199.pdf",
+    "quote": "5. Benchmarking and Results",
+    "locator": "m18k.txt:line 545",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 3,
+    "url": "https://mdpi-res.com/d_attachment/computers/computers-14-00199/article_deploy/computers-14-00199.pdf",
+    "quote": "segmentation algorithms tested on our mushroom dataset, along with the results of the",
+    "locator": "m18k.txt:line 547",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 3,
+    "url": "https://mdpi-res.com/d_attachment/computers/computers-14-00199/article_deploy/computers-14-00199.pdf",
+    "quote": "pose estimation pipeline and analysis of the yield estimation data. The models were trained",
+    "locator": "m18k.txt:line 548",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 3,
+    "url": "https://mdpi-res.com/d_attachment/computers/computers-14-00199/article_deploy/computers-14-00199.pdf",
+    "quote": "task being detection or instance segmentation.",
+    "locator": "m18k.txt:line 572",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 3,
+    "url": "https://mdpi-res.com/d_attachment/computers/computers-14-00199/article_deploy/computers-14-00199.pdf",
+    "quote": "Table 2 presents the performance of various models with distinct backbone architec-",
+    "locator": "m18k.txt:line 573",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 3,
+    "url": "https://mdpi-res.com/d_attachment/computers/computers-14-00199/article_deploy/computers-14-00199.pdf",
+    "quote": "tures, benchmarked on object detection and instance segmentation tasks. These models",
+    "locator": "m18k.txt:line 574",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 3,
+    "url": "https://mdpi-res.com/d_attachment/computers/computers-14-00199/article_deploy/computers-14-00199.pdf",
+    "quote": "were trained on image resolutions of 640 × 360 and 1280 × 720. The Mask R-CNN with",
+    "locator": "m18k.txt:line 575",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 3,
+    "url": "https://mdpi-res.com/d_attachment/computers/computers-14-00199/article_deploy/computers-14-00199.pdf",
+    "quote": "dataset. Furthermore, the expanded parameter count makes the network less suitable for",
+    "locator": "m18k.txt:line 583",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 3,
+    "url": "https://mdpi-res.com/d_attachment/computers/computers-14-00199/article_deploy/computers-14-00199.pdf",
+    "quote": "Det 1280 0.816 0.800 0.834",
+    "locator": "m18k.txt:line 616",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 3,
+    "url": "https://mdpi-res.com/d_attachment/computers/computers-14-00199/article_deploy/computers-14-00199.pdf",
+    "quote": "Det 1280 0.891 0.876 0.905",
+    "locator": "m18k.txt:line 619",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 3,
+    "url": "https://mdpi-res.com/d_attachment/computers/computers-14-00199/article_deploy/computers-14-00199.pdf",
+    "quote": "Det 1280 0.863 0.846 0.881",
+    "locator": "m18k.txt:line 622",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 3,
+    "url": "https://mdpi-res.com/d_attachment/computers/computers-14-00199/article_deploy/computers-14-00199.pdf",
+    "quote": "1280 0.844 0.833 0.856",
+    "locator": "m18k.txt:line 643",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 4,
+    "url": "https://github.com/abdollahzakeri/m18k",
+    "quote": "Welcome to the Mushroom Detection Dataset repository. This dataset is a valuable resource for researchers and practitioners interested in automating agricultural processes, specifically related to mushroom harvesting, growth monitoring, and quality control. It provides a dedicated dataset for button mushroom (Agaricus bisporus) detection, comprising over 18,000 mushroom instances in 423 RGB-D image pairs.",
+    "locator": "m18k_readme.txt:line 9",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 4,
+    "url": "https://github.com/abdollahzakeri/m18k",
+    "quote": "[Download Segmentation Dataset - V2 (4,652 images)](https://zakerimushroom.sfo3.digitaloceanspaces.com/M18KV2.tar.zst)",
+    "locator": "m18k_readme.txt:line 28",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 4,
+    "url": "https://github.com/abdollahzakeri/m18k",
+    "quote": "[Download Growth Monitoring dataset (2,121 images)](https://zakerimushroom.sfo3.digitaloceanspaces.com/Growth.zip)",
+    "locator": "m18k_readme.txt:line 39",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 4,
+    "url": "https://github.com/abdollahzakeri/m18k",
+    "quote": "Please refer to the dataset's license file for information about usage and distribution rights.",
+    "locator": "m18k_readme.txt:line 41",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 5,
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13452286/fullTextXML",
+    "quote": "Specifications Table Subject Computer Sciences Specific subject area Computer vision for agricultural robotics, RGB-D perception, mushroom detection, and instance segmentation Type of data Image: RGB mosaic images in PNG format Image: Depth mosaic images in TIFF format Image: Annotated RGB images in JPG format Annotation: Instance segmentation masks in COCO JSON format Text: README file describing dataset structure and reuse instructions Data collection The data was collected in an indoor mushroom production environment using a linear-rail mounted RGB-D imaging system equipped with a Zed Mini stereo camera (Stereolabs, San Francisco, California, USA). The camera was positioned approximately 749 mm above the mushroom beds to capture the top-view perspective of mushroom bed. Due to the limited field of view, images were acquired at multiple overlapping positions. A sequence of 17 partially overlapping RGB-D frames were captured and stitched to generate a mosaic representing the entire bed area. Data acquisition was performed at 10 min interval to capture a total of 129 time-series RGB-D mosaics representing temporal changes in mushroom growth and spatial distribution. The RGB and depth images were acquired directly from the sensor and were not normalized. Data source location The data was collected at the Mushroom Research Center at the Penn State University (University Park, Pennsylvania, USA). Data accessibility Repository name: Mendeley Data Dataset title: RGB-D Time-Series Dataset of White Button Mushroom Growth for Instance Segmentation Data identification number:  10.17632/8n6nr43gk3.1 Direct URL to data:  https://data.mendeley.com/datasets/8n6nr43gk3/1 Version: 1 License: CC BY 4.0 Instructions for accessing these data: The dataset is publicly available through Mendeley Data. Users can download the full dataset, including RGB images, depth images, COCO-format annotations, and the README file. RGB and depth images can be paired using the shared filename convention, and the annotation file can be loaded using COCO-compatible frameworks. Related research article Dutt, N., Choi, D., Ampatzidis, Y., Lee, W. S., Koppal, S. J., & Wang, X. (2026). RD-GuideNet: A Depth-Guided Framework for Robust Detection, Segmentation, and Temporal Tracking of White Button Mushrooms. Sensors, 26(6), 1935.  https://doi.org/10.3390/s26061935",
+    "locator": "rgbd_fulltext.txt:line 5",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 5,
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13452286/fullTextXML",
+    "quote": "The dataset consists of 129 stitched RGB-depth mosaics of white button mushrooms (Agaricus bisporus) collected under indoor cultivation conditions. Each time point includes an RGB image, a corresponding depth map, and instance-level segmentation annotations of individual mushroom caps. The images represent time-series observations of mushroom growth and spatial distribution, capturing variations in size, density, and occlusion across different growth stages. The dataset is organized into three primary folders and one README file as summarized in  Table 1 . The RGB images provide visual information of mushroom beds captured from a top-view perspective. These images include mushrooms at different growth stages under varying density conditions, including both sparsely distributed and densely clustered regions. The depth images correspond to each RGB image. Depth information enables the extraction of geometric features such as mushroom height, curvature, and spatial arrangement of neighboring mushrooms. The annotation file includes instance segmentation masks for all RGB and depth images, provided in COCO JSON format. Each mushroom instance is represented by a pixel-level mask outlining the visible boundary of the mushroom cap. These annotations enable training and evaluation of segmentation and detection models. Table 1 Structure and contents of the RGB-D white button mushroom dataset deposited in Mendeley Data. Table 1 dummy alt text Folder/File Content Format Description RGB/ RGB Mosaic images PNG Top-view stitched RGB images of white button mushroom beds Depth/ Depth mosaic images TIFF Depth maps corresponding to the RGB mosaics collected at the same time points Annotation/ Instance segmentation annotations COCO JSON Pixel-level mushroom cap annotations for all 129 RGB images Readme.txt Dataset documentation TXT Description of the dataset, folder structure, file naming convention, and steps to reproduce dataset use",
+    "locator": "rgbd_fulltext.txt:line 20",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 5,
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13452286/fullTextXML",
+    "quote": "The rail system (FSL40/FSK40) was driven by a ball screw mechanism and a NEMA 23 stepper motor, with motion controlled using an Arduino controller (Elegoo Uno r3, Shenzhen, China). Image acquisition and storage were managed using an NVIDIA Jetson Orin Nano (NVIDIA Corporation, USA). The rail system moved the camera along the bed, and 17 RGB-D image pairs were captured at approximately 60 mm intervals during each cycle. The camera output was set to 1280 × 720 pixels for both RGB and depth acquisition ( Fig. 3 ). Images were collected every 10 min from 18 to 21 March 2025, totaling ∼21.2 h of acquisition time (∼5 h per day on average), producing 129 acquisition cycles. Each cycle was converted into one RGB mosaic and one corresponding depth mosaic, resulting in 129 paired RGB-D mosaics in the final dataset. Fig. 3 Representative (a) RGB image and (b) corresponding depth map captured at one position along the linear rail, prior to stitching into a full-bed mosaic. The depth image is visualized using a pseudo-color scale where yellow indicates regions closer to the camera and blue/purple represents farther surfaces or invalid depth values. Fig 3 dummy alt text",
+    "locator": "rgbd_fulltext.txt:line 32",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 5,
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13452286/fullTextXML",
+    "quote": "The RGB and depth data were acquired directly from the sensor and were not normalized. After image stitching, the mosaics measured approximately 1280 × 1634 pixels and were cropped to 615 × 988 pixels to retain the mushroom bed region of interest ( Fig. 4 ). The images in the public repository [ 2 ], therefore, represent stitched and cropped mosaics rather than the individual raw frames captured at each rail position. The approximate spatial scale was estimated using a checkerboard with 50.8 mm squares, resulting in 0.925 pixels per millimeter at the imaging height used for data collection. Fig. 4 Stitched RGB image (a) and corresponding stitched depth map (b) of the two mushroom beds. The depth image is visualized using a pseudo-color scale where yellow indicates regions closer to the camera and blue/purple represents farther surfaces or invalid depth values. Reproduced from Dutt et al. [ 1 ] under the Creative Commons Attribution (CC BY) license. Fig 4 dummy alt text",
+    "locator": "rgbd_fulltext.txt:line 34",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 5,
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13452286/fullTextXML",
+    "quote": "Instance-level annotations were created from the RGB mosaics using the Roboflow annotation platform [ 5 ]. Each visible mushroom cap was manually annotated with a pixel-level mask, and the annotations were exported in COCO JSON format. The exported annotation folder also contains Roboflow-generated JPG image files with unique filename identifiers. These filenames correspond to the image entries in the COCO annotation file. Users can match the original RGB and depth mosaics using the shared date and cycle number in the filenames.",
+    "locator": "rgbd_fulltext.txt:line 37",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 5,
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13452286/fullTextXML",
+    "quote": "This dataset is limited to white button mushrooms grown under an indoor cultivation environment and captured using a fixed top-view RGB-D imaging configuration. The images were collected using one imaging system and one production setting; therefore, variation in camera viewpoint, lighting condition, facility design, and mushroom variety is limited. The dataset contains stitched RGB and depth mosaics rather than all individual raw frames acquired along the rail. Depth images may include invalid or noisy pixels caused by stereo matching limitations, occlusion, and surface reflectance. Instance-level annotations describe visible mushroom cap boundaries; fully occluded cap regions were not annotated. These limitations should be considered when applying models trained on this dataset to other mushroom production systems, imaging configurations, or environmental conditions.",
+    "locator": "rgbd_fulltext.txt:line 39",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 6,
+    "url": "https://data.mendeley.com/datasets/8n6nr43gk3/1",
+    "quote": "  \"name\": \"RGB-D Time-Series Dataset of White Button Mushroom Growth for Instance Segmentation\",",
+    "locator": "rgbd_dataset_metadata.json:line 4",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 7,
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13030075/fullTextXML",
+    "quote": "The YOLOv8-seg [ 25 ] and YOLOv11-seg [ 26 ] models were selected for comparison because they are widely used for agricultural detection/segmentation and are high-performing instance-segmentation baselines with readily available implementations, enabling a practical benchmark against RD-GuideNet. Both models were trained on the preprocessed RGB patches described in  Section 2.1 . A total of 12 RGB images were utilized for the segmentation task, with a resolution of 615 × 988 pixels. Each original image (615 × 988 pixels) was divided into 256 × 128 patches to maintain small-cap visibility and local spatial context for dense regions. Training with different patch sizes showed that 256 × 128 provided the best balance between context retention and edge resolution at the network’s working scale. Across the 12 images, a total of 4361 mushroom instances were manually annotated using Roboflow annotation platform [ 27 ] where each mushroom was labeled using polygon tool. The final dataset included 4361 annotated mushrooms with 3445 used for training and 916 for testing. Both YOLOv8-seg and YOLOv11-seg models were initialized from pretrained weights using an input image size of 256 × 256 pixels, the Adam optimizer (learning rate = 0.01), batch size = 32, and 50 training epochs. After the initial training phase, YOLOv8-seg was further trained from the best checkpoint for an additional 30 epochs, whereas YOLOv11-seg was trained for 20 additional epochs. For multi-frame instance tracking, the YOLOv8-seg/YOLOv11-seg models were integrated with the ByteTrack multi-object tracker [ 28 ]. Although mushrooms remain stationary, their size and appearance change over time, and they often overlap in dense clusters. Additionally, mushrooms may be removed during harvesting, resulting in object disappearance. ByteTrack enables consistent identity assignment across time-lapse images and ensures proper handling of object appearance and disappearance, supporting reliable monitoring of individual mushroom development and harvesting events. For each frame, the YOLO model produced mushroom instance masks, and low-confidence detections were discarded. During inference and tracking, the trained models were applied directly to full stitched frames using an adjusted inference resolution enabling segmentation and tracking across the entire image while maintaining consistency with trained model scale. ByteTrack maintained consistent identities across consecutive frames by matching detections to existing tracks using a two-stage association: (1) a high-confidence pass to establish reliable matches, followed by (2) a lower-confidence pass to recover missed associations and reduce track fragmentation. Matched detections inherited their previous IDs, while new detections above the new-track threshold initiated new IDs. Unmatched tracks were retained for several frames to bridge short occlusions before termination.  Table 1  shows the parameters used by the YOLO tracking algorithm.",
+    "locator": "rdguidenet.txt:line 61",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 7,
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13030075/fullTextXML",
+    "quote": "In addition to segmentation accuracy and temporal performance, computational resource usage and inference time were evaluated. All experiments were conducted on a laptop equipped with a 2.3 GHz 8–Core Intel Core i9 processor, 16 GB DDR4 RAM (2667 MHz), and integrated Intel UHD Graphics 630 running macOS. Inference time was measured using full stitched mosaic images (~300 mushrooms per image). RD-GuideNet required approximately 29 min per image, corresponding to about 5.8 s per mushroom. Under the same hardware conditions, YOLOv8-seg and YOLOv11-seg combined with ByteTrack required approximately 0.115 s per image. The results highlight a clear difference in computational characteristics between the two approaches. RD-GuideNet performs segmentation through a sequence of depth-guided geometric operations that explicitly refine mushroom boundaries, whereas YOLO-based models perform detection and segmentation through a single forward pass of a convolutional neural network using highly optimized deep-learning frameworks. As a result, YOLO-based models provide significantly higher inference throughput, while RD-GuideNet emphasizes geometric boundary precision. Further improvements in computational efficiency will be pursued through algorithm parallelization and hardware-specific acceleration as part of future system-level development.",
+    "locator": "rdguidenet.txt:line 87",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 7,
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13030075/fullTextXML",
+    "quote": "RD-GuideNet was developed for white button mushrooms ( Agaricus bisporus ), which have near-spherical caps and represent the most widely cultivated commercial mushroom variety. The framework leverages depth-based geometric cues tailored to dome-shaped structures, making it well suited for dense production beds of spherical-cap mushrooms. Extension to other crops with substantially different morphologies would require adaptation of certain geometric assumptions and parameters.",
+    "locator": "rdguidenet.txt:line 100",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 7,
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13030075/fullTextXML",
+    "quote": "This study introduces RD-GuideNet, a novel depth-guided segmentation and tracking framework that integrates 3D geometric cues for high-precision mushroom detection in dense production environments. Unlike conventional deep learning models that rely solely on RGB appearance cues, RD-GuideNet integrates 3D geometric reasoning through radial depth gradients, concentric boundary estimation, and multi-stage contour refinement. This depth-aware design allows accurate delineation of mushroom caps even in densely packed and visually ambiguous production environments. Another key contribution of this work lies in the extension of this geometry-based framework to multi-frame tracking. By combining marker-controlled watershed segmentation with depth-informed ID assignment, RD-GuideNet maintains temporal consistency of individual mushrooms across sequential frames, an essential step toward continuous growth monitoring and harvest decision-making. Comparative evaluation against YOLOv8-seg and YOLOv11-seg models shows the originality and complementarity of this approach. RD-GuideNet achieved superior contour fidelity and segmentation precision, reflecting its ability to capture physically meaningful contours critical for robotic manipulation (precision = 0.95; recall = 0.93; F1-score = 0.94 for detection; precision = 0.98; recall = 0.89; F1-score = 0.93 for segmentation; track consistency = 92.7%), while YOLO-based models offered higher detection precision (0.97 and 0.99) and smoother temporal stability (≈95% track consistency) through learned RGB appearance features. These results reveal the distinct value of integrating geometric modeling with data-driven models.",
+    "locator": "rdguidenet.txt:line 102",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 7,
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13030075/fullTextXML",
+    "quote": "Future research will focus on embedding RD-GuideNet within real-time robotic harvesting platforms, optimizing computational efficiency, and exploring hybrid architectures that combine the spatial interpretability of geometry-based models with the adaptability of deep learning networks. By uniting these two paradigms, this study lays the groundwork for precise, reliable, and explainable perception in autonomous agriculture.",
+    "locator": "rdguidenet.txt:line 103",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 7,
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13030075/fullTextXML",
+    "quote": "The dataset supporting the findings of this study is publicly available in the Mendeley Data repository at  https://doi.org/10.17632/8n6nr43gk3.1 , accessed on 17 March 2026.",
+    "locator": "rdguidenet.txt:line 110",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  },
+  {
+    "citation_id": 7,
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13030075/fullTextXML",
+    "quote": "Metric RD-GuideNet YOLOv11 YOLOv8 Precision (detection) 0.95 0.97 0.99 Recall (detection) 0.93 0.91 0.92 F1-score (detection) 0.94 0.94 0.95 Precision (segmentation) 0.98 0.88 0.91 Recall(segmentation) 0.89 0.83 0.84 F1-score (segmentation) 0.93 0.86 0.88",
+    "locator": "rdguidenet.txt:line 161",
+    "retrieved_date": "2026-10-30",
+    "evidence_class": "PRIMARY_SOURCE_AUTHOR_CLAIM"
+  }
+]

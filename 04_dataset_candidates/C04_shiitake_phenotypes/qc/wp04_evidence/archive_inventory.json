@@ -1,0 +1,6410 @@
+[
+  {
+    "path": ".github/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": ".github/dependabot.yml",
+    "bytes": 647,
+    "compressed": 308,
+    "crc32": "82a10f89"
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/bug-report.yml",
+    "bytes": 4015,
+    "compressed": 1538,
+    "crc32": "af574b34"
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/config.yml",
+    "bytes": 510,
+    "compressed": 243,
+    "crc32": "3ab5d455"
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/feature-request.yml",
+    "bytes": 1918,
+    "compressed": 725,
+    "crc32": "66545ca7"
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/question.yml",
+    "bytes": 1739,
+    "compressed": 731,
+    "crc32": "295443f1"
+  },
+  {
+    "path": ".github/workflows/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": ".github/workflows/ci.yaml",
+    "bytes": 14813,
+    "compressed": 3369,
+    "crc32": "9b0a1d63"
+  },
+  {
+    "path": ".github/workflows/cla.yml",
+    "bytes": 1608,
+    "compressed": 729,
+    "crc32": "5a40a37a"
+  },
+  {
+    "path": ".github/workflows/docker.yaml",
+    "bytes": 8548,
+    "compressed": 2182,
+    "crc32": "ed95b87c"
+  },
+  {
+    "path": ".github/workflows/docs.yml",
+    "bytes": 4401,
+    "compressed": 1534,
+    "crc32": "aa512a15"
+  },
+  {
+    "path": ".github/workflows/format.yml",
+    "bytes": 4862,
+    "compressed": 1923,
+    "crc32": "c2e0cc90"
+  },
+  {
+    "path": ".github/workflows/links.yml",
+    "bytes": 3554,
+    "compressed": 1095,
+    "crc32": "3625418f"
+  },
+  {
+    "path": ".github/workflows/merge-main-into-prs.yml",
+    "bytes": 3789,
+    "compressed": 1269,
+    "crc32": "8af5fe11"
+  },
+  {
+    "path": ".github/workflows/publish.yml",
+    "bytes": 5145,
+    "compressed": 1577,
+    "crc32": "abee35d8"
+  },
+  {
+    "path": ".github/workflows/stale.yml",
+    "bytes": 2412,
+    "compressed": 1019,
+    "crc32": "bbb0ef30"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 2457,
+    "compressed": 1242,
+    "crc32": "d0628bd3"
+  },
+  {
+    "path": ".idea/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": ".idea/.gitignore",
+    "bytes": 50,
+    "compressed": 53,
+    "crc32": "4559c34e"
+  },
+  {
+    "path": ".idea/inspectionProfiles/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": ".idea/inspectionProfiles/profiles_settings.xml",
+    "bytes": 174,
+    "compressed": 127,
+    "crc32": "82e5140a"
+  },
+  {
+    "path": ".idea/inspectionProfiles/Project_Default.xml",
+    "bytes": 575,
+    "compressed": 280,
+    "crc32": "21d6c4fd"
+  },
+  {
+    "path": ".idea/misc.xml",
+    "bytes": 202,
+    "compressed": 145,
+    "crc32": "c41aab80"
+  },
+  {
+    "path": ".idea/modules.xml",
+    "bytes": 273,
+    "compressed": 172,
+    "crc32": "d7e0ccb4"
+  },
+  {
+    "path": ".idea/workspace.xml",
+    "bytes": 14983,
+    "compressed": 1872,
+    "crc32": "259231a1"
+  },
+  {
+    "path": ".idea/Yolov11.iml",
+    "bytes": 614,
+    "compressed": 325,
+    "crc32": "6235f9db"
+  },
+  {
+    "path": ".pytest_cache/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": ".pytest_cache/.gitignore",
+    "bytes": 39,
+    "compressed": 41,
+    "crc32": "f179f9b1"
+  },
+  {
+    "path": ".pytest_cache/CACHEDIR.TAG",
+    "bytes": 191,
+    "compressed": 145,
+    "crc32": "6dc4ec48"
+  },
+  {
+    "path": ".pytest_cache/README.md",
+    "bytes": 310,
+    "compressed": 210,
+    "crc32": "debbd0b0"
+  },
+  {
+    "path": ".pytest_cache/v/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": ".pytest_cache/v/cache/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": ".pytest_cache/v/cache/lastfailed",
+    "bytes": 43,
+    "compressed": 45,
+    "crc32": "c4cee1ca"
+  },
+  {
+    "path": ".pytest_cache/v/cache/nodeids",
+    "bytes": 37,
+    "compressed": 39,
+    "crc32": "66c03de5"
+  },
+  {
+    "path": ".pytest_cache/v/cache/stepwise",
+    "bytes": 2,
+    "compressed": 2,
+    "crc32": "0d4cbb29"
+  },
+  {
+    "path": "CITATION.cff",
+    "bytes": 764,
+    "compressed": 381,
+    "crc32": "ec403b9d"
+  },
+  {
+    "path": "cocoshow.ipynb",
+    "bytes": 2803219,
+    "compressed": 2120021,
+    "crc32": "7e6d411f"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "bytes": 10296,
+    "compressed": 3572,
+    "crc32": "3e8bee8d"
+  },
+  {
+    "path": "data.yaml",
+    "bytes": 786,
+    "compressed": 383,
+    "crc32": "16f88443"
+  },
+  {
+    "path": "docker/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "docker/Dockerfile",
+    "bytes": 4083,
+    "compressed": 1780,
+    "crc32": "4440cbe6"
+  },
+  {
+    "path": "docker/Dockerfile-arm64",
+    "bytes": 2519,
+    "compressed": 1111,
+    "crc32": "ac4c604e"
+  },
+  {
+    "path": "docker/Dockerfile-conda",
+    "bytes": 2156,
+    "compressed": 860,
+    "crc32": "788f4f9a"
+  },
+  {
+    "path": "docker/Dockerfile-cpu",
+    "bytes": 2591,
+    "compressed": 1149,
+    "crc32": "4d422b3d"
+  },
+  {
+    "path": "docker/Dockerfile-jetson-jetpack4",
+    "bytes": 3395,
+    "compressed": 1330,
+    "crc32": "79337529"
+  },
+  {
+    "path": "docker/Dockerfile-jetson-jetpack5",
+    "bytes": 2963,
+    "compressed": 1300,
+    "crc32": "fb74ea14"
+  },
+  {
+    "path": "docker/Dockerfile-jetson-jetpack6",
+    "bytes": 2679,
+    "compressed": 1075,
+    "crc32": "ab520f59"
+  },
+  {
+    "path": "docker/Dockerfile-jupyter",
+    "bytes": 1655,
+    "compressed": 590,
+    "crc32": "ab56ca24"
+  },
+  {
+    "path": "docker/Dockerfile-python",
+    "bytes": 2533,
+    "compressed": 1112,
+    "crc32": "b8564256"
+  },
+  {
+    "path": "docker/Dockerfile-runner",
+    "bytes": 1900,
+    "compressed": 867,
+    "crc32": "ce8beb10"
+  },
+  {
+    "path": "docs/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "docs/build_docs.py",
+    "bytes": 12182,
+    "compressed": 4202,
+    "crc32": "9acce3a0"
+  },
+  {
+    "path": "docs/build_reference.py",
+    "bytes": 6084,
+    "compressed": 2320,
+    "crc32": "b95f4b19"
+  },
+  {
+    "path": "docs/coming_soon_template.md",
+    "bytes": 1886,
+    "compressed": 937,
+    "crc32": "79187722"
+  },
+  {
+    "path": "docs/en/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "docs/en/CNAME",
+    "bytes": 21,
+    "compressed": 21,
+    "crc32": "fe6af29a"
+  },
+  {
+    "path": "docs/en/datasets/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "docs/en/datasets/classify/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "docs/en/datasets/classify/caltech101.md",
+    "bytes": 7930,
+    "compressed": 2479,
+    "crc32": "66a95be8"
+  },
+  {
+    "path": "docs/en/datasets/classify/caltech256.md",
+    "bytes": 8189,
+    "compressed": 2819,
+    "crc32": "c7e9d1f2"
+  },
+  {
+    "path": "docs/en/datasets/classify/cifar10.md",
+    "bytes": 8749,
+    "compressed": 2780,
+    "crc32": "186108ed"
+  },
+  {
+    "path": "docs/en/datasets/classify/cifar100.md",
+    "bytes": 7353,
+    "compressed": 2231,
+    "crc32": "10c5fadb"
+  },
+  {
+    "path": "docs/en/datasets/classify/fashion-mnist.md",
+    "bytes": 7943,
+    "compressed": 2727,
+    "crc32": "2293423e"
+  },
+  {
+    "path": "docs/en/datasets/classify/imagenet.md",
+    "bytes": 8801,
+    "compressed": 2821,
+    "crc32": "76f65d19"
+  },
+  {
+    "path": "docs/en/datasets/classify/imagenet10.md",
+    "bytes": 7795,
+    "compressed": 2508,
+    "crc32": "fd58d03e"
+  },
+  {
+    "path": "docs/en/datasets/classify/imagenette.md",
+    "bytes": 9293,
+    "compressed": 2611,
+    "crc32": "e9f0219f"
+  },
+  {
+    "path": "docs/en/datasets/classify/imagewoof.md",
+    "bytes": 8471,
+    "compressed": 2770,
+    "crc32": "6d3d79bf"
+  },
+  {
+    "path": "docs/en/datasets/classify/index.md",
+    "bytes": 8740,
+    "compressed": 2642,
+    "crc32": "3f466a09"
+  },
+  {
+    "path": "docs/en/datasets/classify/mnist.md",
+    "bytes": 7492,
+    "compressed": 2584,
+    "crc32": "c4132a4d"
+  },
+  {
+    "path": "docs/en/datasets/detect/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "docs/en/datasets/detect/african-wildlife.md",
+    "bytes": 8540,
+    "compressed": 2706,
+    "crc32": "7b7442d4"
+  },
+  {
+    "path": "docs/en/datasets/detect/argoverse.md",
+    "bytes": 9011,
+    "compressed": 2695,
+    "crc32": "e29130bd"
+  },
+  {
+    "path": "docs/en/datasets/detect/brain-tumor.md",
+    "bytes": 7839,
+    "compressed": 2430,
+    "crc32": "02dd8457"
+  },
+  {
+    "path": "docs/en/datasets/detect/coco.md",
+    "bytes": 9585,
+    "compressed": 3230,
+    "crc32": "5011103c"
+  },
+  {
+    "path": "docs/en/datasets/detect/coco8.md",
+    "bytes": 7410,
+    "compressed": 2668,
+    "crc32": "eb662299"
+  },
+  {
+    "path": "docs/en/datasets/detect/globalwheat2020.md",
+    "bytes": 9032,
+    "compressed": 2884,
+    "crc32": "9f7758b3"
+  },
+  {
+    "path": "docs/en/datasets/detect/index.md",
+    "bytes": 9816,
+    "compressed": 3397,
+    "crc32": "937dc355"
+  },
+  {
+    "path": "docs/en/datasets/detect/lvis.md",
+    "bytes": 9982,
+    "compressed": 3435,
+    "crc32": "b5391ca0"
+  },
+  {
+    "path": "docs/en/datasets/detect/objects365.md",
+    "bytes": 8218,
+    "compressed": 2598,
+    "crc32": "a25e56b8"
+  },
+  {
+    "path": "docs/en/datasets/detect/open-images-v7.md",
+    "bytes": 14098,
+    "compressed": 4010,
+    "crc32": "92187b8c"
+  },
+  {
+    "path": "docs/en/datasets/detect/roboflow-100.md",
+    "bytes": 10933,
+    "compressed": 3356,
+    "crc32": "c62643c4"
+  },
+  {
+    "path": "docs/en/datasets/detect/signature.md",
+    "bytes": 8140,
+    "compressed": 2380,
+    "crc32": "a1413002"
+  },
+  {
+    "path": "docs/en/datasets/detect/sku-110k.md",
+    "bytes": 9268,
+    "compressed": 2757,
+    "crc32": "4d444339"
+  },
+  {
+    "path": "docs/en/datasets/detect/visdrone.md",
+    "bytes": 9261,
+    "compressed": 2988,
+    "crc32": "58a5edd3"
+  },
+  {
+    "path": "docs/en/datasets/detect/voc.md",
+    "bytes": 8712,
+    "compressed": 2844,
+    "crc32": "59010d35"
+  },
+  {
+    "path": "docs/en/datasets/detect/xview.md",
+    "bytes": 8554,
+    "compressed": 2708,
+    "crc32": "9880fad9"
+  },
+  {
+    "path": "docs/en/datasets/explorer/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "docs/en/datasets/explorer/api.md",
+    "bytes": 14905,
+    "compressed": 4652,
+    "crc32": "128dcedb"
+  },
+  {
+    "path": "docs/en/datasets/explorer/dashboard.md",
+    "bytes": 7629,
+    "compressed": 2789,
+    "crc32": "69550a11"
+  },
+  {
+    "path": "docs/en/datasets/explorer/explorer.ipynb",
+    "bytes": 21697,
+    "compressed": 6654,
+    "crc32": "211a0c54"
+  },
+  {
+    "path": "docs/en/datasets/explorer/index.md",
+    "bytes": 6775,
+    "compressed": 2578,
+    "crc32": "f6c4f3e5"
+  },
+  {
+    "path": "docs/en/datasets/index.md",
+    "bytes": 16208,
+    "compressed": 5113,
+    "crc32": "a699ffa1"
+  },
+  {
+    "path": "docs/en/datasets/obb/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "docs/en/datasets/obb/dota-v2.md",
+    "bytes": 10226,
+    "compressed": 3516,
+    "crc32": "7ae3a36f"
+  },
+  {
+    "path": "docs/en/datasets/obb/dota8.md",
+    "bytes": 7284,
+    "compressed": 2532,
+    "crc32": "425093ba"
+  },
+  {
+    "path": "docs/en/datasets/obb/index.md",
+    "bytes": 7632,
+    "compressed": 2574,
+    "crc32": "b0d6ae13"
+  },
+  {
+    "path": "docs/en/datasets/pose/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "docs/en/datasets/pose/coco.md",
+    "bytes": 9576,
+    "compressed": 3076,
+    "crc32": "447367f6"
+  },
+  {
+    "path": "docs/en/datasets/pose/coco8-pose.md",
+    "bytes": 7349,
+    "compressed": 2498,
+    "crc32": "768fb813"
+  },
+  {
+    "path": "docs/en/datasets/pose/dog-pose.md",
+    "bytes": 7659,
+    "compressed": 2725,
+    "crc32": "5461d447"
+  },
+  {
+    "path": "docs/en/datasets/pose/hand-keypoints.md",
+    "bytes": 8694,
+    "compressed": 3037,
+    "crc32": "5a560e33"
+  },
+  {
+    "path": "docs/en/datasets/pose/index.md",
+    "bytes": 11143,
+    "compressed": 3544,
+    "crc32": "3429166b"
+  },
+  {
+    "path": "docs/en/datasets/pose/tiger-pose.md",
+    "bytes": 7845,
+    "compressed": 2353,
+    "crc32": "03aeef2f"
+  },
+  {
+    "path": "docs/en/datasets/segment/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "docs/en/datasets/segment/carparts-seg.md",
+    "bytes": 8908,
+    "compressed": 2899,
+    "crc32": "01c41f09"
+  },
+  {
+    "path": "docs/en/datasets/segment/coco.md",
+    "bytes": 8760,
+    "compressed": 2797,
+    "crc32": "1203a7f6"
+  },
+  {
+    "path": "docs/en/datasets/segment/coco8-seg.md",
+    "bytes": 7581,
+    "compressed": 2562,
+    "crc32": "d375d998"
+  },
+  {
+    "path": "docs/en/datasets/segment/crack-seg.md",
+    "bytes": 8777,
+    "compressed": 2708,
+    "crc32": "b753bf26"
+  },
+  {
+    "path": "docs/en/datasets/segment/index.md",
+    "bytes": 10826,
+    "compressed": 3655,
+    "crc32": "62df8347"
+  },
+  {
+    "path": "docs/en/datasets/segment/package-seg.md",
+    "bytes": 8891,
+    "compressed": 2838,
+    "crc32": "454adef4"
+  },
+  {
+    "path": "docs/en/datasets/track/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "docs/en/datasets/track/index.md",
+    "bytes": 4588,
+    "compressed": 1668,
+    "crc32": "4869b268"
+  },
+  {
+    "path": "docs/en/guides/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "docs/en/guides/analytics.md",
+    "bytes": 12329,
+    "compressed": 3481,
+    "crc32": "1c7a9e38"
+  },
+  {
+    "path": "docs/en/guides/azureml-quickstart.md",
+    "bytes": 11411,
+    "compressed": 3963,
+    "crc32": "ba13f694"
+  },
+  {
+    "path": "docs/en/guides/conda-quickstart.md",
+    "bytes": 8234,
+    "compressed": 2752,
+    "crc32": "15016124"
+  },
+  {
+    "path": "docs/en/guides/coral-edge-tpu-on-raspberry-pi.md",
+    "bytes": 11741,
+    "compressed": 3533,
+    "crc32": "86b420e0"
+  },
+  {
+    "path": "docs/en/guides/data-collection-and-annotation.md",
+    "bytes": 18343,
+    "compressed": 6439,
+    "crc32": "1af9e46b"
+  },
+  {
+    "path": "docs/en/guides/deepstream-nvidia-jetson.md",
+    "bytes": 13141,
+    "compressed": 4539,
+    "crc32": "8eb9c1d7"
+  },
+  {
+    "path": "docs/en/guides/defining-project-goals.md",
+    "bytes": 15363,
+    "compressed": 5372,
+    "crc32": "8a05644c"
+  },
+  {
+    "path": "docs/en/guides/distance-calculation.md",
+    "bytes": 6459,
+    "compressed": 2287,
+    "crc32": "b4eaffd6"
+  },
+  {
+    "path": "docs/en/guides/docker-quickstart.md",
+    "bytes": 12498,
+    "compressed": 4143,
+    "crc32": "06f28102"
+  },
+  {
+    "path": "docs/en/guides/heatmaps.md",
+    "bytes": 12701,
+    "compressed": 3934,
+    "crc32": "6acd5129"
+  },
+  {
+    "path": "docs/en/guides/hyperparameter-tuning.md",
+    "bytes": 13876,
+    "compressed": 5048,
+    "crc32": "35e0f7a2"
+  },
+  {
+    "path": "docs/en/guides/index.md",
+    "bytes": 11573,
+    "compressed": 4345,
+    "crc32": "ea4fd5cd"
+  },
+  {
+    "path": "docs/en/guides/instance-segmentation-and-tracking.md",
+    "bytes": 11734,
+    "compressed": 2757,
+    "crc32": "875bd6f7"
+  },
+  {
+    "path": "docs/en/guides/isolating-segmentation-objects.md",
+    "bytes": 17936,
+    "compressed": 5372,
+    "crc32": "ee51826a"
+  },
+  {
+    "path": "docs/en/guides/kfold-cross-validation.md",
+    "bytes": 15791,
+    "compressed": 5690,
+    "crc32": "544e1870"
+  },
+  {
+    "path": "docs/en/guides/model-deployment-options.md",
+    "bytes": 27848,
+    "compressed": 7856,
+    "crc32": "bfd95869"
+  },
+  {
+    "path": "docs/en/guides/model-deployment-practices.md",
+    "bytes": 19237,
+    "compressed": 6880,
+    "crc32": "4ea4e39c"
+  },
+  {
+    "path": "docs/en/guides/model-evaluation-insights.md",
+    "bytes": 15157,
+    "compressed": 5186,
+    "crc32": "4a6be634"
+  },
+  {
+    "path": "docs/en/guides/model-monitoring-and-maintenance.md",
+    "bytes": 18979,
+    "compressed": 6406,
+    "crc32": "90bfff91"
+  },
+  {
+    "path": "docs/en/guides/model-testing.md",
+    "bytes": 15944,
+    "compressed": 5577,
+    "crc32": "161a0f80"
+  },
+  {
+    "path": "docs/en/guides/model-training-tips.md",
+    "bytes": 20353,
+    "compressed": 7036,
+    "crc32": "6bfcc7f5"
+  },
+  {
+    "path": "docs/en/guides/nvidia-jetson.md",
+    "bytes": 32644,
+    "compressed": 8229,
+    "crc32": "8daeff1d"
+  },
+  {
+    "path": "docs/en/guides/object-blurring.md",
+    "bytes": 6625,
+    "compressed": 2439,
+    "crc32": "1cbd2ed0"
+  },
+  {
+    "path": "docs/en/guides/object-counting.md",
+    "bytes": 12910,
+    "compressed": 3650,
+    "crc32": "1cd92126"
+  },
+  {
+    "path": "docs/en/guides/object-cropping.md",
+    "bytes": 7188,
+    "compressed": 2809,
+    "crc32": "82758e63"
+  },
+  {
+    "path": "docs/en/guides/optimizing-openvino-latency-vs-throughput-modes.md",
+    "bytes": 9113,
+    "compressed": 3223,
+    "crc32": "e0bc005e"
+  },
+  {
+    "path": "docs/en/guides/parking-management.md",
+    "bytes": 8362,
+    "compressed": 2846,
+    "crc32": "10b6d999"
+  },
+  {
+    "path": "docs/en/guides/preprocessing_annotated_data.md",
+    "bytes": 15380,
+    "compressed": 5406,
+    "crc32": "8b8caaf9"
+  },
+  {
+    "path": "docs/en/guides/queue-management.md",
+    "bytes": 10086,
+    "compressed": 3375,
+    "crc32": "8aa7a5ee"
+  },
+  {
+    "path": "docs/en/guides/raspberry-pi.md",
+    "bytes": 21879,
+    "compressed": 6595,
+    "crc32": "7d254f88"
+  },
+  {
+    "path": "docs/en/guides/region-counting.md",
+    "bytes": 8445,
+    "compressed": 2779,
+    "crc32": "9da01f4c"
+  },
+  {
+    "path": "docs/en/guides/ros-quickstart.md",
+    "bytes": 34083,
+    "compressed": 9280,
+    "crc32": "cf708f4d"
+  },
+  {
+    "path": "docs/en/guides/sahi-tiled-inference.md",
+    "bytes": 12132,
+    "compressed": 4059,
+    "crc32": "630a03c5"
+  },
+  {
+    "path": "docs/en/guides/security-alarm-system.md",
+    "bytes": 9566,
+    "compressed": 3668,
+    "crc32": "fa39b67c"
+  },
+  {
+    "path": "docs/en/guides/speed-estimation.md",
+    "bytes": 10712,
+    "compressed": 3634,
+    "crc32": "3a0a5911"
+  },
+  {
+    "path": "docs/en/guides/steps-of-a-cv-project.md",
+    "bytes": 23252,
+    "compressed": 8017,
+    "crc32": "a8cfa820"
+  },
+  {
+    "path": "docs/en/guides/streamlit-live-inference.md",
+    "bytes": 9015,
+    "compressed": 2909,
+    "crc32": "a8a88adb"
+  },
+  {
+    "path": "docs/en/guides/trackzone.md",
+    "bytes": 8442,
+    "compressed": 2502,
+    "crc32": "857e1f59"
+  },
+  {
+    "path": "docs/en/guides/triton-inference-server.md",
+    "bytes": 12288,
+    "compressed": 3903,
+    "crc32": "3f82be58"
+  },
+  {
+    "path": "docs/en/guides/view-results-in-terminal.md",
+    "bytes": 8374,
+    "compressed": 2693,
+    "crc32": "01d6e054"
+  },
+  {
+    "path": "docs/en/guides/vision-eye.md",
+    "bytes": 13371,
+    "compressed": 3236,
+    "crc32": "6d97ba0e"
+  },
+  {
+    "path": "docs/en/guides/workouts-monitoring.md",
+    "bytes": 9850,
+    "compressed": 2947,
+    "crc32": "79a94cfa"
+  },
+  {
+    "path": "docs/en/guides/yolo-common-issues.md",
+    "bytes": 20927,
+    "compressed": 7500,
+    "crc32": "2c16cde4"
+  },
+  {
+    "path": "docs/en/guides/yolo-performance-metrics.md",
+    "bytes": 15610,
+    "compressed": 5669,
+    "crc32": "0a73b410"
+  },
+  {
+    "path": "docs/en/guides/yolo-thread-safe-inference.md",
+    "bytes": 9358,
+    "compressed": 2744,
+    "crc32": "fd7ec485"
+  },
+  {
+    "path": "docs/en/help/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "docs/en/help/CI.md",
+    "bytes": 22361,
+    "compressed": 3526,
+    "crc32": "166a660c"
+  },
+  {
+    "path": "docs/en/help/CLA.md",
+    "bytes": 11854,
+    "compressed": 4310,
+    "crc32": "378cb904"
+  },
+  {
+    "path": "docs/en/help/code_of_conduct.md",
+    "bytes": 8353,
+    "compressed": 2916,
+    "crc32": "3913b81c"
+  },
+  {
+    "path": "docs/en/help/contributing.md",
+    "bytes": 15486,
+    "compressed": 5207,
+    "crc32": "497ab21f"
+  },
+  {
+    "path": "docs/en/help/environmental-health-safety.md",
+    "bytes": 7022,
+    "compressed": 2327,
+    "crc32": "19e03d95"
+  },
+  {
+    "path": "docs/en/help/FAQ.md",
+    "bytes": 12530,
+    "compressed": 4177,
+    "crc32": "181ed24d"
+  },
+  {
+    "path": "docs/en/help/index.md",
+    "bytes": 5483,
+    "compressed": 2282,
+    "crc32": "6ee15107"
+  },
+  {
+    "path": "docs/en/help/minimum_reproducible_example.md",
+    "bytes": 7069,
+    "compressed": 2483,
+    "crc32": "9dfc60a7"
+  },
+  {
+    "path": "docs/en/help/privacy.md",
+    "bytes": 11542,
+    "compressed": 3763,
+    "crc32": "427663c6"
+  },
+  {
+    "path": "docs/en/help/security.md",
+    "bytes": 6646,
+    "compressed": 2153,
+    "crc32": "a2d5db01"
+  },
+  {
+    "path": "docs/en/hub/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "docs/en/hub/api/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "docs/en/hub/api/index.md",
+    "bytes": 1834,
+    "compressed": 931,
+    "crc32": "212ecacd"
+  },
+  {
+    "path": "docs/en/hub/app/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "docs/en/hub/app/android.md",
+    "bytes": 10639,
+    "compressed": 3390,
+    "crc32": "b2cc22db"
+  },
+  {
+    "path": "docs/en/hub/app/index.md",
+    "bytes": 4803,
+    "compressed": 1411,
+    "crc32": "dff84219"
+  },
+  {
+    "path": "docs/en/hub/app/ios.md",
+    "bytes": 7692,
+    "compressed": 2357,
+    "crc32": "c970e53e"
+  },
+  {
+    "path": "docs/en/hub/cloud-training.md",
+    "bytes": 7355,
+    "compressed": 2090,
+    "crc32": "3006395b"
+  },
+  {
+    "path": "docs/en/hub/datasets.md",
+    "bytes": 10848,
+    "compressed": 2734,
+    "crc32": "cec9d346"
+  },
+  {
+    "path": "docs/en/hub/index.md",
+    "bytes": 10678,
+    "compressed": 3297,
+    "crc32": "c6272a63"
+  },
+  {
+    "path": "docs/en/hub/inference-api.md",
+    "bytes": 17994,
+    "compressed": 3208,
+    "crc32": "a8bafc33"
+  },
+  {
+    "path": "docs/en/hub/integrations.md",
+    "bytes": 8170,
+    "compressed": 1905,
+    "crc32": "0fc47de2"
+  },
+  {
+    "path": "docs/en/hub/models.md",
+    "bytes": 18520,
+    "compressed": 4031,
+    "crc32": "0779e617"
+  },
+  {
+    "path": "docs/en/hub/pro.md",
+    "bytes": 3282,
+    "compressed": 998,
+    "crc32": "4ba7bc80"
+  },
+  {
+    "path": "docs/en/hub/projects.md",
+    "bytes": 11392,
+    "compressed": 2706,
+    "crc32": "5ab68a5f"
+  },
+  {
+    "path": "docs/en/hub/quickstart.md",
+    "bytes": 5731,
+    "compressed": 1823,
+    "crc32": "d78fc4c1"
+  },
+  {
+    "path": "docs/en/hub/teams.md",
+    "bytes": 11138,
+    "compressed": 2375,
+    "crc32": "4276ba90"
+  },
+  {
+    "path": "docs/en/index.md",
+    "bytes": 16098,
+    "compressed": 5230,
+    "crc32": "829ed2d9"
+  },
+  {
+    "path": "docs/en/integrations/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "docs/en/integrations/albumentations.md",
+    "bytes": 17075,
+    "compressed": 5896,
+    "crc32": "db8c6936"
+  },
+  {
+    "path": "docs/en/integrations/amazon-sagemaker.md",
+    "bytes": 15366,
+    "compressed": 4887,
+    "crc32": "34d6368e"
+  },
+  {
+    "path": "docs/en/integrations/clearml.md",
+    "bytes": 13966,
+    "compressed": 4943,
+    "crc32": "9952a705"
+  },
+  {
+    "path": "docs/en/integrations/comet.md",
+    "bytes": 13509,
+    "compressed": 4432,
+    "crc32": "9346cb27"
+  },
+  {
+    "path": "docs/en/integrations/coreml.md",
+    "bytes": 12307,
+    "compressed": 3987,
+    "crc32": "cbf7d2a9"
+  },
+  {
+    "path": "docs/en/integrations/dvc.md",
+    "bytes": 13341,
+    "compressed": 4418,
+    "crc32": "191545e4"
+  },
+  {
+    "path": "docs/en/integrations/edge-tpu.md",
+    "bytes": 11376,
+    "compressed": 3651,
+    "crc32": "12867e58"
+  },
+  {
+    "path": "docs/en/integrations/google-colab.md",
+    "bytes": 10771,
+    "compressed": 3927,
+    "crc32": "6d552249"
+  },
+  {
+    "path": "docs/en/integrations/gradio.md",
+    "bytes": 9409,
+    "compressed": 3160,
+    "crc32": "9b84f126"
+  },
+  {
+    "path": "docs/en/integrations/ibm-watsonx.md",
+    "bytes": 23539,
+    "compressed": 7562,
+    "crc32": "60affaff"
+  },
+  {
+    "path": "docs/en/integrations/index.md",
+    "bytes": 12367,
+    "compressed": 4521,
+    "crc32": "556f0000"
+  },
+  {
+    "path": "docs/en/integrations/jupyterlab.md",
+    "bytes": 14765,
+    "compressed": 5401,
+    "crc32": "6ced4d58"
+  },
+  {
+    "path": "docs/en/integrations/kaggle.md",
+    "bytes": 13971,
+    "compressed": 4969,
+    "crc32": "f3dc8017"
+  },
+  {
+    "path": "docs/en/integrations/mlflow.md",
+    "bytes": 8809,
+    "compressed": 2912,
+    "crc32": "a7eb9a94"
+  },
+  {
+    "path": "docs/en/integrations/mnn.md",
+    "bytes": 14065,
+    "compressed": 4270,
+    "crc32": "8cd8c11c"
+  },
+  {
+    "path": "docs/en/integrations/ncnn.md",
+    "bytes": 11441,
+    "compressed": 3865,
+    "crc32": "b7f18e86"
+  },
+  {
+    "path": "docs/en/integrations/neural-magic.md",
+    "bytes": 12725,
+    "compressed": 4125,
+    "crc32": "4120a420"
+  },
+  {
+    "path": "docs/en/integrations/onnx.md",
+    "bytes": 12174,
+    "compressed": 4076,
+    "crc32": "ccff9a07"
+  },
+  {
+    "path": "docs/en/integrations/openvino.md",
+    "bytes": 34157,
+    "compressed": 7932,
+    "crc32": "cb35db93"
+  },
+  {
+    "path": "docs/en/integrations/paddlepaddle.md",
+    "bytes": 13869,
+    "compressed": 4424,
+    "crc32": "785d6d48"
+  },
+  {
+    "path": "docs/en/integrations/paperspace.md",
+    "bytes": 10184,
+    "compressed": 3775,
+    "crc32": "96c43be5"
+  },
+  {
+    "path": "docs/en/integrations/ray-tune.md",
+    "bytes": 16610,
+    "compressed": 4530,
+    "crc32": "d923a469"
+  },
+  {
+    "path": "docs/en/integrations/roboflow.md",
+    "bytes": 20196,
+    "compressed": 6162,
+    "crc32": "63838c65"
+  },
+  {
+    "path": "docs/en/integrations/sony-imx500.md",
+    "bytes": 15726,
+    "compressed": 5591,
+    "crc32": "35873cca"
+  },
+  {
+    "path": "docs/en/integrations/tensorboard.md",
+    "bytes": 14660,
+    "compressed": 4780,
+    "crc32": "cd0648d6"
+  },
+  {
+    "path": "docs/en/integrations/tensorrt.md",
+    "bytes": 38269,
+    "compressed": 9040,
+    "crc32": "5298333d"
+  },
+  {
+    "path": "docs/en/integrations/tf-graphdef.md",
+    "bytes": 13090,
+    "compressed": 4286,
+    "crc32": "6063639e"
+  },
+  {
+    "path": "docs/en/integrations/tf-savedmodel.md",
+    "bytes": 12724,
+    "compressed": 3906,
+    "crc32": "c49b098b"
+  },
+  {
+    "path": "docs/en/integrations/tfjs.md",
+    "bytes": 11744,
+    "compressed": 3715,
+    "crc32": "7c5e6edc"
+  },
+  {
+    "path": "docs/en/integrations/tflite.md",
+    "bytes": 11955,
+    "compressed": 4015,
+    "crc32": "c3955327"
+  },
+  {
+    "path": "docs/en/integrations/torchscript.md",
+    "bytes": 13636,
+    "compressed": 4112,
+    "crc32": "a9d1946e"
+  },
+  {
+    "path": "docs/en/integrations/vscode.md",
+    "bytes": 18395,
+    "compressed": 6463,
+    "crc32": "048146ba"
+  },
+  {
+    "path": "docs/en/integrations/weights-biases.md",
+    "bytes": 11895,
+    "compressed": 4086,
+    "crc32": "862ff62d"
+  },
+  {
+    "path": "docs/en/macros/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "docs/en/macros/augmentation-args.md",
+    "bytes": 4720,
+    "compressed": 1367,
+    "crc32": "fd298db5"
+  },
+  {
+    "path": "docs/en/macros/export-args.md",
+    "bytes": 3690,
+    "compressed": 1157,
+    "crc32": "7f3d9609"
+  },
+  {
+    "path": "docs/en/macros/export-table.md",
+    "bytes": 3517,
+    "compressed": 686,
+    "crc32": "4ff971c7"
+  },
+  {
+    "path": "docs/en/macros/predict-args.md",
+    "bytes": 7340,
+    "compressed": 1934,
+    "crc32": "cccead1e"
+  },
+  {
+    "path": "docs/en/macros/solutions-args.md",
+    "bytes": 3212,
+    "compressed": 926,
+    "crc32": "85226d31"
+  },
+  {
+    "path": "docs/en/macros/track-args.md",
+    "bytes": 1782,
+    "compressed": 596,
+    "crc32": "eaf88e1f"
+  },
+  {
+    "path": "docs/en/macros/train-args.md",
+    "bytes": 14112,
+    "compressed": 3621,
+    "crc32": "e61fe177"
+  },
+  {
+    "path": "docs/en/macros/validation-args.md",
+    "bytes": 4860,
+    "compressed": 1312,
+    "crc32": "08ae351c"
+  },
+  {
+    "path": "docs/en/macros/visualization-args.md",
+    "bytes": 2892,
+    "compressed": 830,
+    "crc32": "ba82785d"
+  },
+  {
+    "path": "docs/en/macros/yolo-cls-perf.md",
+    "bytes": 1956,
+    "compressed": 407,
+    "crc32": "9bf7a3d5"
+  },
+  {
+    "path": "docs/en/macros/yolo-det-perf.md",
+    "bytes": 1746,
+    "compressed": 398,
+    "crc32": "87a1cd6b"
+  },
+  {
+    "path": "docs/en/macros/yolo-obb-perf.md",
+    "bytes": 1788,
+    "compressed": 407,
+    "crc32": "70e69446"
+  },
+  {
+    "path": "docs/en/macros/yolo-pose-perf.md",
+    "bytes": 1970,
+    "compressed": 428,
+    "crc32": "3638fcae"
+  },
+  {
+    "path": "docs/en/macros/yolo-seg-perf.md",
+    "bytes": 1970,
+    "compressed": 436,
+    "crc32": "d4e5f351"
+  },
+  {
+    "path": "docs/en/models/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "docs/en/models/fast-sam.md",
+    "bytes": 15425,
+    "compressed": 5054,
+    "crc32": "68db283c"
+  },
+  {
+    "path": "docs/en/models/index.md",
+    "bytes": 9335,
+    "compressed": 3614,
+    "crc32": "71827213"
+  },
+  {
+    "path": "docs/en/models/mobile-sam.md",
+    "bytes": 10475,
+    "compressed": 3476,
+    "crc32": "453ac4e0"
+  },
+  {
+    "path": "docs/en/models/rtdetr.md",
+    "bytes": 10434,
+    "compressed": 3396,
+    "crc32": "f502d0be"
+  },
+  {
+    "path": "docs/en/models/sam-2.md",
+    "bytes": 25066,
+    "compressed": 7151,
+    "crc32": "5f157f1e"
+  },
+  {
+    "path": "docs/en/models/sam.md",
+    "bytes": 18408,
+    "compressed": 5620,
+    "crc32": "75323231"
+  },
+  {
+    "path": "docs/en/models/yolo-nas.md",
+    "bytes": 11047,
+    "compressed": 3683,
+    "crc32": "ac34fe05"
+  },
+  {
+    "path": "docs/en/models/yolo-world.md",
+    "bytes": 24831,
+    "compressed": 6460,
+    "crc32": "748d7dc8"
+  },
+  {
+    "path": "docs/en/models/yolo11.md",
+    "bytes": 13541,
+    "compressed": 4052,
+    "crc32": "213c3da1"
+  },
+  {
+    "path": "docs/en/models/yolov10.md",
+    "bytes": 21365,
+    "compressed": 6376,
+    "crc32": "b42bb8af"
+  },
+  {
+    "path": "docs/en/models/yolov3.md",
+    "bytes": 10123,
+    "compressed": 3025,
+    "crc32": "701aec6a"
+  },
+  {
+    "path": "docs/en/models/yolov4.md",
+    "bytes": 10049,
+    "compressed": 3473,
+    "crc32": "a2fdff3b"
+  },
+  {
+    "path": "docs/en/models/yolov5.md",
+    "bytes": 14601,
+    "compressed": 3927,
+    "crc32": "c386d70d"
+  },
+  {
+    "path": "docs/en/models/yolov6.md",
+    "bytes": 9913,
+    "compressed": 3418,
+    "crc32": "6e28a6bd"
+  },
+  {
+    "path": "docs/en/models/yolov7.md",
+    "bytes": 18361,
+    "compressed": 5000,
+    "crc32": "4b15cdcd"
+  },
+  {
+    "path": "docs/en/models/yolov8.md",
+    "bytes": 24395,
+    "compressed": 5347,
+    "crc32": "5c3c7fe4"
+  },
+  {
+    "path": "docs/en/models/yolov9.md",
+    "bytes": 18602,
+    "compressed": 5945,
+    "crc32": "a8b56c50"
+  },
+  {
+    "path": "docs/en/modes/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "docs/en/modes/benchmark.md",
+    "bytes": 10940,
+    "compressed": 3600,
+    "crc32": "974d0ece"
+  },
+  {
+    "path": "docs/en/modes/export.md",
+    "bytes": 8048,
+    "compressed": 2858,
+    "crc32": "677c7e85"
+  },
+  {
+    "path": "docs/en/modes/index.md",
+    "bytes": 9868,
+    "compressed": 3283,
+    "crc32": "22cfe84a"
+  },
+  {
+    "path": "docs/en/modes/predict.md",
+    "bytes": 45937,
+    "compressed": 10265,
+    "crc32": "8fbdcea3"
+  },
+  {
+    "path": "docs/en/modes/track.md",
+    "bytes": 21266,
+    "compressed": 5943,
+    "crc32": "c0e6a0c7"
+  },
+  {
+    "path": "docs/en/modes/train.md",
+    "bytes": 17653,
+    "compressed": 5543,
+    "crc32": "5e7b13e9"
+  },
+  {
+    "path": "docs/en/modes/val.md",
+    "bytes": 8981,
+    "compressed": 3119,
+    "crc32": "620a85ce"
+  },
+  {
+    "path": "docs/en/quickstart.md",
+    "bytes": 23905,
+    "compressed": 6963,
+    "crc32": "f12e4433"
+  },
+  {
+    "path": "docs/en/reference/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "docs/en/reference/cfg/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "docs/en/reference/cfg/__init__.md",
+    "bytes": 1658,
+    "compressed": 546,
+    "crc32": "18c65fdf"
+  },
+  {
+    "path": "docs/en/reference/data/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "docs/en/reference/data/annotator.md",
+    "bytes": 819,
+    "compressed": 396,
+    "crc32": "3b3027a7"
+  },
+  {
+    "path": "docs/en/reference/data/augment.md",
+    "bytes": 1993,
+    "compressed": 532,
+    "crc32": "037e0745"
+  },
+  {
+    "path": "docs/en/reference/data/base.md",
+    "bytes": 795,
+    "compressed": 381,
+    "crc32": "d51e97e8"
+  },
+  {
+    "path": "docs/en/reference/data/build.md",
+    "bytes": 1255,
+    "compressed": 455,
+    "crc32": "40ed19d9"
+  },
+  {
+    "path": "docs/en/reference/data/converter.md",
+    "bytes": 1416,
+    "compressed": 489,
+    "crc32": "e89da3a0"
+  },
+  {
+    "path": "docs/en/reference/data/dataset.md",
+    "bytes": 1192,
+    "compressed": 436,
+    "crc32": "3b111927"
+  },
+  {
+    "path": "docs/en/reference/data/loaders.md",
+    "bytes": 1340,
+    "compressed": 480,
+    "crc32": "2763d1df"
+  },
+  {
+    "path": "docs/en/reference/data/split_dota.md",
+    "bytes": 1333,
+    "compressed": 476,
+    "crc32": "9dac7eb8"
+  },
+  {
+    "path": "docs/en/reference/data/utils.md",
+    "bytes": 1776,
+    "compressed": 518,
+    "crc32": "74746f1a"
+  },
+  {
+    "path": "docs/en/reference/engine/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "docs/en/reference/engine/exporter.md",
+    "bytes": 1086,
+    "compressed": 441,
+    "crc32": "5008191d"
+  },
+  {
+    "path": "docs/en/reference/engine/model.md",
+    "bytes": 921,
+    "compressed": 450,
+    "crc32": "7a32ddf5"
+  },
+  {
+    "path": "docs/en/reference/engine/predictor.md",
+    "bytes": 811,
+    "compressed": 380,
+    "crc32": "993fb287"
+  },
+  {
+    "path": "docs/en/reference/engine/results.md",
+    "bytes": 1258,
+    "compressed": 445,
+    "crc32": "c5fa517c"
+  },
+  {
+    "path": "docs/en/reference/engine/trainer.md",
+    "bytes": 839,
+    "compressed": 394,
+    "crc32": "46b5338d"
+  },
+  {
+    "path": "docs/en/reference/engine/tuner.md",
+    "bytes": 917,
+    "compressed": 428,
+    "crc32": "2cadcb86"
+  },
+  {
+    "path": "docs/en/reference/engine/validator.md",
+    "bytes": 859,
+    "compressed": 392,
+    "crc32": "100de11f"
+  },
+  {
+    "path": "docs/en/reference/hub/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "docs/en/reference/hub/__init__.md",
+    "bytes": 1151,
+    "compressed": 463,
+    "crc32": "22147119"
+  },
+  {
+    "path": "docs/en/reference/hub/auth.md",
+    "bytes": 772,
+    "compressed": 379,
+    "crc32": "553e66e1"
+  },
+  {
+    "path": "docs/en/reference/hub/google/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "docs/en/reference/hub/google/__init__.md",
+    "bytes": 876,
+    "compressed": 418,
+    "crc32": "99c9d25b"
+  },
+  {
+    "path": "docs/en/reference/hub/session.md",
+    "bytes": 783,
+    "compressed": 362,
+    "crc32": "eb729477"
+  },
+  {
+    "path": "docs/en/reference/hub/utils.md",
+    "bytes": 978,
+    "compressed": 401,
+    "crc32": "cb950683"
+  },
+  {
+    "path": "docs/en/reference/models/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "docs/en/reference/models/fastsam/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "docs/en/reference/models/fastsam/model.md",
+    "bytes": 869,
+    "compressed": 419,
+    "crc32": "4205b10a"
+  },
+  {
+    "path": "docs/en/reference/models/fastsam/predict.md",
+    "bytes": 910,
+    "compressed": 429,
+    "crc32": "6cef4118"
+  },
+  {
+    "path": "docs/en/reference/models/fastsam/utils.md",
+    "bytes": 841,
+    "compressed": 402,
+    "crc32": "55d5f91f"
+  },
+  {
+    "path": "docs/en/reference/models/fastsam/val.md",
+    "bytes": 875,
+    "compressed": 416,
+    "crc32": "4c4b9e91"
+  },
+  {
+    "path": "docs/en/reference/models/nas/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "docs/en/reference/models/nas/model.md",
+    "bytes": 829,
+    "compressed": 386,
+    "crc32": "1e37dc65"
+  },
+  {
+    "path": "docs/en/reference/models/nas/predict.md",
+    "bytes": 875,
+    "compressed": 425,
+    "crc32": "26184f80"
+  },
+  {
+    "path": "docs/en/reference/models/nas/val.md",
+    "bytes": 826,
+    "compressed": 408,
+    "crc32": "1c7c507c"
+  },
+  {
+    "path": "docs/en/reference/models/rtdetr/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "docs/en/reference/models/rtdetr/model.md",
+    "bytes": 966,
+    "compressed": 450,
+    "crc32": "bf942775"
+  },
+  {
+    "path": "docs/en/reference/models/rtdetr/predict.md",
+    "bytes": 929,
+    "compressed": 428,
+    "crc32": "89f30acd"
+  },
+  {
+    "path": "docs/en/reference/models/rtdetr/train.md",
+    "bytes": 896,
+    "compressed": 415,
+    "crc32": "259e977e"
+  },
+  {
+    "path": "docs/en/reference/models/rtdetr/val.md",
+    "bytes": 941,
+    "compressed": 422,
+    "crc32": "05271cef"
+  },
+  {
+    "path": "docs/en/reference/models/sam/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "docs/en/reference/models/sam/amg.md",
+    "bytes": 1561,
+    "compressed": 525,
+    "crc32": "1f03c763"
+  },
+  {
+    "path": "docs/en/reference/models/sam/build.md",
+    "bytes": 1613,
+    "compressed": 475,
+    "crc32": "fc91c693"
+  },
+  {
+    "path": "docs/en/reference/models/sam/model.md",
+    "bytes": 957,
+    "compressed": 425,
+    "crc32": "e0c174b8"
+  },
+  {
+    "path": "docs/en/reference/models/sam/modules/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "docs/en/reference/models/sam/modules/blocks.md",
+    "bytes": 2101,
+    "compressed": 549,
+    "crc32": "e75ba9e1"
+  },
+  {
+    "path": "docs/en/reference/models/sam/modules/decoders.md",
+    "bytes": 1035,
+    "compressed": 449,
+    "crc32": "909d08c8"
+  },
+  {
+    "path": "docs/en/reference/models/sam/modules/encoders.md",
+    "bytes": 1304,
+    "compressed": 456,
+    "crc32": "926649cf"
+  },
+  {
+    "path": "docs/en/reference/models/sam/modules/memory_attention.md",
+    "bytes": 1007,
+    "compressed": 396,
+    "crc32": "cd975d1c"
+  },
+  {
+    "path": "docs/en/reference/models/sam/modules/sam.md",
+    "bytes": 992,
+    "compressed": 438,
+    "crc32": "9b0c33a4"
+  },
+  {
+    "path": "docs/en/reference/models/sam/modules/tiny_encoder.md",
+    "bytes": 1607,
+    "compressed": 476,
+    "crc32": "75555b5d"
+  },
+  {
+    "path": "docs/en/reference/models/sam/modules/transformer.md",
+    "bytes": 1153,
+    "compressed": 451,
+    "crc32": "7cda77df"
+  },
+  {
+    "path": "docs/en/reference/models/sam/modules/utils.md",
+    "bytes": 1534,
+    "compressed": 488,
+    "crc32": "7d1f6602"
+  },
+  {
+    "path": "docs/en/reference/models/sam/predict.md",
+    "bytes": 1112,
+    "compressed": 461,
+    "crc32": "7899630e"
+  },
+  {
+    "path": "docs/en/reference/models/utils/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "docs/en/reference/models/utils/loss.md",
+    "bytes": 900,
+    "compressed": 413,
+    "crc32": "6d71d865"
+  },
+  {
+    "path": "docs/en/reference/models/utils/ops.md",
+    "bytes": 954,
+    "compressed": 423,
+    "crc32": "7e3a44ac"
+  },
+  {
+    "path": "docs/en/reference/models/yolo/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "docs/en/reference/models/yolo/classify/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "docs/en/reference/models/yolo/classify/predict.md",
+    "bytes": 958,
+    "compressed": 417,
+    "crc32": "c0861625"
+  },
+  {
+    "path": "docs/en/reference/models/yolo/classify/train.md",
+    "bytes": 905,
+    "compressed": 414,
+    "crc32": "f3cad149"
+  },
+  {
+    "path": "docs/en/reference/models/yolo/classify/val.md",
+    "bytes": 940,
+    "compressed": 437,
+    "crc32": "bef22976"
+  },
+  {
+    "path": "docs/en/reference/models/yolo/detect/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "docs/en/reference/models/yolo/detect/predict.md",
+    "bytes": 904,
+    "compressed": 410,
+    "crc32": "2d8e0929"
+  },
+  {
+    "path": "docs/en/reference/models/yolo/detect/train.md",
+    "bytes": 891,
+    "compressed": 413,
+    "crc32": "5e493bdd"
+  },
+  {
+    "path": "docs/en/reference/models/yolo/detect/val.md",
+    "bytes": 890,
+    "compressed": 407,
+    "crc32": "672d2851"
+  },
+  {
+    "path": "docs/en/reference/models/yolo/model.md",
+    "bytes": 881,
+    "compressed": 389,
+    "crc32": "330ee220"
+  },
+  {
+    "path": "docs/en/reference/models/yolo/obb/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "docs/en/reference/models/yolo/obb/predict.md",
+    "bytes": 876,
+    "compressed": 405,
+    "crc32": "6a70b73c"
+  },
+  {
+    "path": "docs/en/reference/models/yolo/obb/train.md",
+    "bytes": 853,
+    "compressed": 404,
+    "crc32": "740c43ba"
+  },
+  {
+    "path": "docs/en/reference/models/yolo/obb/val.md",
+    "bytes": 871,
+    "compressed": 424,
+    "crc32": "633795af"
+  },
+  {
+    "path": "docs/en/reference/models/yolo/pose/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "docs/en/reference/models/yolo/pose/predict.md",
+    "bytes": 894,
+    "compressed": 425,
+    "crc32": "4882c149"
+  },
+  {
+    "path": "docs/en/reference/models/yolo/pose/train.md",
+    "bytes": 905,
+    "compressed": 409,
+    "crc32": "9e8ab6dc"
+  },
+  {
+    "path": "docs/en/reference/models/yolo/pose/val.md",
+    "bytes": 897,
+    "compressed": 432,
+    "crc32": "a6479c0e"
+  },
+  {
+    "path": "docs/en/reference/models/yolo/segment/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "docs/en/reference/models/yolo/segment/predict.md",
+    "bytes": 942,
+    "compressed": 429,
+    "crc32": "f432ae0a"
+  },
+  {
+    "path": "docs/en/reference/models/yolo/segment/train.md",
+    "bytes": 898,
+    "compressed": 404,
+    "crc32": "d8548ec1"
+  },
+  {
+    "path": "docs/en/reference/models/yolo/segment/val.md",
+    "bytes": 920,
+    "compressed": 428,
+    "crc32": "788866f2"
+  },
+  {
+    "path": "docs/en/reference/models/yolo/world/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "docs/en/reference/models/yolo/world/train.md",
+    "bytes": 956,
+    "compressed": 433,
+    "crc32": "f51567e3"
+  },
+  {
+    "path": "docs/en/reference/models/yolo/world/train_world.md",
+    "bytes": 907,
+    "compressed": 411,
+    "crc32": "47726a20"
+  },
+  {
+    "path": "docs/en/reference/nn/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "docs/en/reference/nn/autobackend.md",
+    "bytes": 930,
+    "compressed": 393,
+    "crc32": "fb2af79a"
+  },
+  {
+    "path": "docs/en/reference/nn/modules/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "docs/en/reference/nn/modules/activation.md",
+    "bytes": 890,
+    "compressed": 399,
+    "crc32": "a25950ac"
+  },
+  {
+    "path": "docs/en/reference/nn/modules/block.md",
+    "bytes": 3836,
+    "compressed": 731,
+    "crc32": "3633a4eb"
+  },
+  {
+    "path": "docs/en/reference/nn/modules/conv.md",
+    "bytes": 1644,
+    "compressed": 472,
+    "crc32": "d76b1d57"
+  },
+  {
+    "path": "docs/en/reference/nn/modules/head.md",
+    "bytes": 1238,
+    "compressed": 436,
+    "crc32": "89d501fc"
+  },
+  {
+    "path": "docs/en/reference/nn/modules/transformer.md",
+    "bytes": 1645,
+    "compressed": 476,
+    "crc32": "b21c6c83"
+  },
+  {
+    "path": "docs/en/reference/nn/modules/utils.md",
+    "bytes": 1198,
+    "compressed": 469,
+    "crc32": "98ea570b"
+  },
+  {
+    "path": "docs/en/reference/nn/tasks.md",
+    "bytes": 1922,
+    "compressed": 539,
+    "crc32": "66028d42"
+  },
+  {
+    "path": "docs/en/reference/solutions/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "docs/en/reference/solutions/ai_gym.md",
+    "bytes": 836,
+    "compressed": 398,
+    "crc32": "edab1ac9"
+  },
+  {
+    "path": "docs/en/reference/solutions/analytics.md",
+    "bytes": 863,
+    "compressed": 398,
+    "crc32": "8affc91d"
+  },
+  {
+    "path": "docs/en/reference/solutions/distance_calculation.md",
+    "bytes": 945,
+    "compressed": 419,
+    "crc32": "0e1c00fb"
+  },
+  {
+    "path": "docs/en/reference/solutions/heatmap.md",
+    "bytes": 819,
+    "compressed": 402,
+    "crc32": "0b7c48ad"
+  },
+  {
+    "path": "docs/en/reference/solutions/object_counter.md",
+    "bytes": 861,
+    "compressed": 399,
+    "crc32": "c4833fe2"
+  },
+  {
+    "path": "docs/en/reference/solutions/parking_management.md",
+    "bytes": 977,
+    "compressed": 408,
+    "crc32": "b714a1f5"
+  },
+  {
+    "path": "docs/en/reference/solutions/queue_management.md",
+    "bytes": 845,
+    "compressed": 380,
+    "crc32": "d065c3a5"
+  },
+  {
+    "path": "docs/en/reference/solutions/region_counter.md",
+    "bytes": 861,
+    "compressed": 400,
+    "crc32": "0fc0f157"
+  },
+  {
+    "path": "docs/en/reference/solutions/solutions.md",
+    "bytes": 976,
+    "compressed": 451,
+    "crc32": "6a78a40f"
+  },
+  {
+    "path": "docs/en/reference/solutions/speed_estimation.md",
+    "bytes": 884,
+    "compressed": 397,
+    "crc32": "99d7eeb7"
+  },
+  {
+    "path": "docs/en/reference/solutions/streamlit_inference.md",
+    "bytes": 994,
+    "compressed": 440,
+    "crc32": "11114a27"
+  },
+  {
+    "path": "docs/en/reference/solutions/trackzone.md",
+    "bytes": 1027,
+    "compressed": 472,
+    "crc32": "66adf39d"
+  },
+  {
+    "path": "docs/en/reference/trackers/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "docs/en/reference/trackers/basetrack.md",
+    "bytes": 938,
+    "compressed": 403,
+    "crc32": "98173d7b"
+  },
+  {
+    "path": "docs/en/reference/trackers/bot_sort.md",
+    "bytes": 918,
+    "compressed": 428,
+    "crc32": "5af9c1ae"
+  },
+  {
+    "path": "docs/en/reference/trackers/byte_tracker.md",
+    "bytes": 927,
+    "compressed": 415,
+    "crc32": "a31cc9ae"
+  },
+  {
+    "path": "docs/en/reference/trackers/track.md",
+    "bytes": 1006,
+    "compressed": 392,
+    "crc32": "5cb878bf"
+  },
+  {
+    "path": "docs/en/reference/trackers/utils/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "docs/en/reference/trackers/utils/gmc.md",
+    "bytes": 880,
+    "compressed": 425,
+    "crc32": "25092118"
+  },
+  {
+    "path": "docs/en/reference/trackers/utils/kalman_filter.md",
+    "bytes": 982,
+    "compressed": 423,
+    "crc32": "a39bac14"
+  },
+  {
+    "path": "docs/en/reference/trackers/utils/matching.md",
+    "bytes": 1143,
+    "compressed": 430,
+    "crc32": "c532b84e"
+  },
+  {
+    "path": "docs/en/reference/utils/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "docs/en/reference/utils/__init__.md",
+    "bytes": 3167,
+    "compressed": 763,
+    "crc32": "0952b8c8"
+  },
+  {
+    "path": "docs/en/reference/utils/autobatch.md",
+    "bytes": 943,
+    "compressed": 427,
+    "crc32": "f30ec498"
+  },
+  {
+    "path": "docs/en/reference/utils/benchmarks.md",
+    "bytes": 991,
+    "compressed": 438,
+    "crc32": "b7876ab3"
+  },
+  {
+    "path": "docs/en/reference/utils/callbacks/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "docs/en/reference/utils/callbacks/base.md",
+    "bytes": 2869,
+    "compressed": 572,
+    "crc32": "ce685439"
+  },
+  {
+    "path": "docs/en/reference/utils/callbacks/clearml.md",
+    "bytes": 1361,
+    "compressed": 460,
+    "crc32": "2fa471eb"
+  },
+  {
+    "path": "docs/en/reference/utils/callbacks/comet.md",
+    "bytes": 2816,
+    "compressed": 652,
+    "crc32": "7f7155c8"
+  },
+  {
+    "path": "docs/en/reference/utils/callbacks/dvc.md",
+    "bytes": 1461,
+    "compressed": 475,
+    "crc32": "f6b62c29"
+  },
+  {
+    "path": "docs/en/reference/utils/callbacks/hub.md",
+    "bytes": 1501,
+    "compressed": 476,
+    "crc32": "b79aaa1b"
+  },
+  {
+    "path": "docs/en/reference/utils/callbacks/mlflow.md",
+    "bytes": 1175,
+    "compressed": 439,
+    "crc32": "0b1ece27"
+  },
+  {
+    "path": "docs/en/reference/utils/callbacks/neptune.md",
+    "bytes": 1422,
+    "compressed": 476,
+    "crc32": "83b4ae52"
+  },
+  {
+    "path": "docs/en/reference/utils/callbacks/raytune.md",
+    "bytes": 880,
+    "compressed": 409,
+    "crc32": "db0cdef6"
+  },
+  {
+    "path": "docs/en/reference/utils/callbacks/tensorboard.md",
+    "bytes": 1275,
+    "compressed": 436,
+    "crc32": "f5facf89"
+  },
+  {
+    "path": "docs/en/reference/utils/callbacks/wb.md",
+    "bytes": 1254,
+    "compressed": 447,
+    "crc32": "6a862e9d"
+  },
+  {
+    "path": "docs/en/reference/utils/checks.md",
+    "bytes": 2374,
+    "compressed": 555,
+    "crc32": "465a1767"
+  },
+  {
+    "path": "docs/en/reference/utils/dist.md",
+    "bytes": 1060,
+    "compressed": 433,
+    "crc32": "3c5b05e5"
+  },
+  {
+    "path": "docs/en/reference/utils/downloads.md",
+    "bytes": 1494,
+    "compressed": 514,
+    "crc32": "96f52a81"
+  },
+  {
+    "path": "docs/en/reference/utils/errors.md",
+    "bytes": 811,
+    "compressed": 387,
+    "crc32": "0d419276"
+  },
+  {
+    "path": "docs/en/reference/utils/files.md",
+    "bytes": 1313,
+    "compressed": 461,
+    "crc32": "7701f9f7"
+  },
+  {
+    "path": "docs/en/reference/utils/instance.md",
+    "bytes": 962,
+    "compressed": 420,
+    "crc32": "39db71de"
+  },
+  {
+    "path": "docs/en/reference/utils/loss.md",
+    "bytes": 1556,
+    "compressed": 480,
+    "crc32": "80fb9a5b"
+  },
+  {
+    "path": "docs/en/reference/utils/metrics.md",
+    "bytes": 2068,
+    "compressed": 517,
+    "crc32": "85966e0f"
+  },
+  {
+    "path": "docs/en/reference/utils/ops.md",
+    "bytes": 2646,
+    "compressed": 611,
+    "crc32": "9a7c8692"
+  },
+  {
+    "path": "docs/en/reference/utils/patches.md",
+    "bytes": 1037,
+    "compressed": 402,
+    "crc32": "bf61a4e3"
+  },
+  {
+    "path": "docs/en/reference/utils/plotting.md",
+    "bytes": 1502,
+    "compressed": 477,
+    "crc32": "b4607e45"
+  },
+  {
+    "path": "docs/en/reference/utils/tal.md",
+    "bytes": 1106,
+    "compressed": 430,
+    "crc32": "2c401ef0"
+  },
+  {
+    "path": "docs/en/reference/utils/torch_utils.md",
+    "bytes": 2955,
+    "compressed": 674,
+    "crc32": "1f859ef4"
+  },
+  {
+    "path": "docs/en/reference/utils/triton.md",
+    "bytes": 864,
+    "compressed": 411,
+    "crc32": "1e026305"
+  },
+  {
+    "path": "docs/en/reference/utils/tuner.md",
+    "bytes": 813,
+    "compressed": 402,
+    "crc32": "9cdf4fd0"
+  },
+  {
+    "path": "docs/en/robots.txt",
+    "bytes": 700,
+    "compressed": 112,
+    "crc32": "2a9a4620"
+  },
+  {
+    "path": "docs/en/solutions/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "docs/en/solutions/index.md",
+    "bytes": 7551,
+    "compressed": 2832,
+    "crc32": "89dd44ef"
+  },
+  {
+    "path": "docs/en/tasks/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "docs/en/tasks/classify.md",
+    "bytes": 9911,
+    "compressed": 2721,
+    "crc32": "e3ce428a"
+  },
+  {
+    "path": "docs/en/tasks/detect.md",
+    "bytes": 11011,
+    "compressed": 3302,
+    "crc32": "4eab387e"
+  },
+  {
+    "path": "docs/en/tasks/index.md",
+    "bytes": 7399,
+    "compressed": 2601,
+    "crc32": "6cf96d1f"
+  },
+  {
+    "path": "docs/en/tasks/obb.md",
+    "bytes": 11228,
+    "compressed": 3034,
+    "crc32": "17078ade"
+  },
+  {
+    "path": "docs/en/tasks/pose.md",
+    "bytes": 10668,
+    "compressed": 3297,
+    "crc32": "4e69c714"
+  },
+  {
+    "path": "docs/en/tasks/segment.md",
+    "bytes": 11028,
+    "compressed": 3224,
+    "crc32": "171f761b"
+  },
+  {
+    "path": "docs/en/usage/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "docs/en/usage/callbacks.md",
+    "bytes": 11256,
+    "compressed": 2982,
+    "crc32": "cdd820b4"
+  },
+  {
+    "path": "docs/en/usage/cfg.md",
+    "bytes": 17478,
+    "compressed": 5406,
+    "crc32": "b95ea8b1"
+  },
+  {
+    "path": "docs/en/usage/cli.md",
+    "bytes": 9577,
+    "compressed": 3018,
+    "crc32": "89fce3ab"
+  },
+  {
+    "path": "docs/en/usage/engine.md",
+    "bytes": 7341,
+    "compressed": 2348,
+    "crc32": "c7f56ba0"
+  },
+  {
+    "path": "docs/en/usage/python.md",
+    "bytes": 13687,
+    "compressed": 4139,
+    "crc32": "8826187a"
+  },
+  {
+    "path": "docs/en/usage/simple-utilities.md",
+    "bytes": 24778,
+    "compressed": 7958,
+    "crc32": "0704fa50"
+  },
+  {
+    "path": "docs/en/yolov5/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "docs/en/yolov5/environments/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "docs/en/yolov5/environments/aws_quickstart_tutorial.md",
+    "bytes": 6513,
+    "compressed": 2694,
+    "crc32": "f3187018"
+  },
+  {
+    "path": "docs/en/yolov5/environments/azureml_quickstart_tutorial.md",
+    "bytes": 3124,
+    "compressed": 1269,
+    "crc32": "b7ecedcd"
+  },
+  {
+    "path": "docs/en/yolov5/environments/docker_image_quickstart_tutorial.md",
+    "bytes": 3450,
+    "compressed": 1423,
+    "crc32": "e9c2cfda"
+  },
+  {
+    "path": "docs/en/yolov5/environments/google_cloud_quickstart_tutorial.md",
+    "bytes": 6279,
+    "compressed": 2807,
+    "crc32": "57839432"
+  },
+  {
+    "path": "docs/en/yolov5/index.md",
+    "bytes": 13276,
+    "compressed": 4184,
+    "crc32": "10b41a78"
+  },
+  {
+    "path": "docs/en/yolov5/quickstart_tutorial.md",
+    "bytes": 5637,
+    "compressed": 2139,
+    "crc32": "267da5bb"
+  },
+  {
+    "path": "docs/en/yolov5/tutorials/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "docs/en/yolov5/tutorials/architecture_description.md",
+    "bytes": 13157,
+    "compressed": 4716,
+    "crc32": "b99d7a04"
+  },
+  {
+    "path": "docs/en/yolov5/tutorials/clearml_logging_integration.md",
+    "bytes": 11342,
+    "compressed": 4588,
+    "crc32": "2c14e1bc"
+  },
+  {
+    "path": "docs/en/yolov5/tutorials/comet_logging_integration.md",
+    "bytes": 11323,
+    "compressed": 3907,
+    "crc32": "7b65620a"
+  },
+  {
+    "path": "docs/en/yolov5/tutorials/hyperparameter_evolution.md",
+    "bytes": 11151,
+    "compressed": 3926,
+    "crc32": "c44e2aa2"
+  },
+  {
+    "path": "docs/en/yolov5/tutorials/model_ensembling.md",
+    "bytes": 10517,
+    "compressed": 3254,
+    "crc32": "dea7609f"
+  },
+  {
+    "path": "docs/en/yolov5/tutorials/model_export.md",
+    "bytes": 15299,
+    "compressed": 4286,
+    "crc32": "5bc31ef4"
+  },
+  {
+    "path": "docs/en/yolov5/tutorials/model_pruning_and_sparsity.md",
+    "bytes": 8763,
+    "compressed": 2823,
+    "crc32": "f88745ac"
+  },
+  {
+    "path": "docs/en/yolov5/tutorials/multi_gpu_training.md",
+    "bytes": 11532,
+    "compressed": 3978,
+    "crc32": "454d4d56"
+  },
+  {
+    "path": "docs/en/yolov5/tutorials/neural_magic_pruning_quantization.md",
+    "bytes": 10985,
+    "compressed": 3875,
+    "crc32": "f9958b82"
+  },
+  {
+    "path": "docs/en/yolov5/tutorials/pytorch_hub_model_loading.md",
+    "bytes": 14976,
+    "compressed": 4680,
+    "crc32": "408968ad"
+  },
+  {
+    "path": "docs/en/yolov5/tutorials/roboflow_datasets_integration.md",
+    "bytes": 8835,
+    "compressed": 3114,
+    "crc32": "9dadb40e"
+  },
+  {
+    "path": "docs/en/yolov5/tutorials/test_time_augmentation.md",
+    "bytes": 11021,
+    "compressed": 3695,
+    "crc32": "f63b34eb"
+  },
+  {
+    "path": "docs/en/yolov5/tutorials/tips_for_best_training_results.md",
+    "bytes": 7343,
+    "compressed": 2899,
+    "crc32": "4622b41c"
+  },
+  {
+    "path": "docs/en/yolov5/tutorials/train_custom_data.md",
+    "bytes": 19726,
+    "compressed": 6877,
+    "crc32": "50cbae4c"
+  },
+  {
+    "path": "docs/en/yolov5/tutorials/transfer_learning_with_frozen_layers.md",
+    "bytes": 7743,
+    "compressed": 2822,
+    "crc32": "5bc07736"
+  },
+  {
+    "path": "docs/mkdocs_github_authors.yaml",
+    "bytes": 6940,
+    "compressed": 1356,
+    "crc32": "2fc964b1"
+  },
+  {
+    "path": "docs/overrides/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "docs/overrides/javascript/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "docs/overrides/javascript/benchmark.js",
+    "bytes": 6706,
+    "compressed": 2246,
+    "crc32": "0860b06e"
+  },
+  {
+    "path": "docs/overrides/javascript/extra.js",
+    "bytes": 4740,
+    "compressed": 1687,
+    "crc32": "fb97fe9d"
+  },
+  {
+    "path": "docs/overrides/javascript/giscus.js",
+    "bytes": 2905,
+    "compressed": 1048,
+    "crc32": "34cc51c9"
+  },
+  {
+    "path": "docs/overrides/main.html",
+    "bytes": 1096,
+    "compressed": 460,
+    "crc32": "7fb00e1c"
+  },
+  {
+    "path": "docs/overrides/partials/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "docs/overrides/partials/comments.html",
+    "bytes": 157,
+    "compressed": 122,
+    "crc32": "74803397"
+  },
+  {
+    "path": "docs/overrides/stylesheets/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "docs/overrides/stylesheets/style.css",
+    "bytes": 6203,
+    "compressed": 1541,
+    "crc32": "1999e1d3"
+  },
+  {
+    "path": "docs/README.md",
+    "bytes": 8223,
+    "compressed": 2633,
+    "crc32": "b232ab06"
+  },
+  {
+    "path": "examples/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "examples/heatmaps.ipynb",
+    "bytes": 10416,
+    "compressed": 3661,
+    "crc32": "9438fe53"
+  },
+  {
+    "path": "examples/hub.ipynb",
+    "bytes": 4935,
+    "compressed": 1818,
+    "crc32": "283dc08d"
+  },
+  {
+    "path": "examples/object_counting.ipynb",
+    "bytes": 11657,
+    "compressed": 4031,
+    "crc32": "ae6e843c"
+  },
+  {
+    "path": "examples/object_tracking.ipynb",
+    "bytes": 12484,
+    "compressed": 4263,
+    "crc32": "768bc00f"
+  },
+  {
+    "path": "examples/README.md",
+    "bytes": 5953,
+    "compressed": 1573,
+    "crc32": "1291dd99"
+  },
+  {
+    "path": "examples/tutorial.ipynb",
+    "bytes": 37975,
+    "compressed": 8694,
+    "crc32": "9859cc9d"
+  },
+  {
+    "path": "examples/YOLO-Series-ONNXRuntime-Rust/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "examples/YOLO-Series-ONNXRuntime-Rust/Cargo.toml",
+    "bytes": 273,
+    "compressed": 206,
+    "crc32": "2b5347ed"
+  },
+  {
+    "path": "examples/YOLO-Series-ONNXRuntime-Rust/README.md",
+    "bytes": 4691,
+    "compressed": 1804,
+    "crc32": "47ac54f5"
+  },
+  {
+    "path": "examples/YOLO-Series-ONNXRuntime-Rust/src/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "examples/YOLO-Series-ONNXRuntime-Rust/src/main.rs",
+    "bytes": 5958,
+    "compressed": 1887,
+    "crc32": "18f442c3"
+  },
+  {
+    "path": "examples/YOLOv8-Action-Recognition/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "examples/YOLOv8-Action-Recognition/action_recognition.py",
+    "bytes": 18161,
+    "compressed": 4993,
+    "crc32": "cda3117b"
+  },
+  {
+    "path": "examples/YOLOv8-Action-Recognition/readme.md",
+    "bytes": 5295,
+    "compressed": 1974,
+    "crc32": "b517f9c4"
+  },
+  {
+    "path": "examples/YOLOv8-Action-Recognition/requirements.txt",
+    "bytes": 68,
+    "compressed": 61,
+    "crc32": "2731ce3f"
+  },
+  {
+    "path": "examples/YOLOv8-CPP-Inference/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "examples/YOLOv8-CPP-Inference/CMakeLists.txt",
+    "bytes": 547,
+    "compressed": 312,
+    "crc32": "812f1cc8"
+  },
+  {
+    "path": "examples/YOLOv8-CPP-Inference/inference.cpp",
+    "bytes": 5636,
+    "compressed": 1712,
+    "crc32": "1bfa6847"
+  },
+  {
+    "path": "examples/YOLOv8-CPP-Inference/inference.h",
+    "bytes": 1998,
+    "compressed": 926,
+    "crc32": "e355f622"
+  },
+  {
+    "path": "examples/YOLOv8-CPP-Inference/main.cpp",
+    "bytes": 2246,
+    "compressed": 926,
+    "crc32": "68a982d1"
+  },
+  {
+    "path": "examples/YOLOv8-CPP-Inference/README.md",
+    "bytes": 1821,
+    "compressed": 955,
+    "crc32": "22334a6e"
+  },
+  {
+    "path": "examples/YOLOv8-LibTorch-CPP-Inference/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "examples/YOLOv8-LibTorch-CPP-Inference/CMakeLists.txt",
+    "bytes": 1701,
+    "compressed": 743,
+    "crc32": "84fa2d50"
+  },
+  {
+    "path": "examples/YOLOv8-LibTorch-CPP-Inference/main.cc",
+    "bytes": 10710,
+    "compressed": 3218,
+    "crc32": "04b14721"
+  },
+  {
+    "path": "examples/YOLOv8-LibTorch-CPP-Inference/README.md",
+    "bytes": 624,
+    "compressed": 360,
+    "crc32": "93bc7a2b"
+  },
+  {
+    "path": "examples/YOLOv8-ONNXRuntime-CPP/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "examples/YOLOv8-ONNXRuntime-CPP/CMakeLists.txt",
+    "bytes": 3651,
+    "compressed": 1108,
+    "crc32": "8f8b48db"
+  },
+  {
+    "path": "examples/YOLOv8-ONNXRuntime-CPP/inference.cpp",
+    "bytes": 13310,
+    "compressed": 3409,
+    "crc32": "708dd374"
+  },
+  {
+    "path": "examples/YOLOv8-ONNXRuntime-CPP/inference.h",
+    "bytes": 1873,
+    "compressed": 794,
+    "crc32": "66d658f4"
+  },
+  {
+    "path": "examples/YOLOv8-ONNXRuntime-CPP/main.cpp",
+    "bytes": 5581,
+    "compressed": 1676,
+    "crc32": "1ae5cf0e"
+  },
+  {
+    "path": "examples/YOLOv8-ONNXRuntime-CPP/README.md",
+    "bytes": 3594,
+    "compressed": 1757,
+    "crc32": "b791eff3"
+  },
+  {
+    "path": "examples/YOLOv8-ONNXRuntime-Rust/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "examples/YOLOv8-ONNXRuntime-Rust/Cargo.toml",
+    "bytes": 735,
+    "compressed": 392,
+    "crc32": "162104a7"
+  },
+  {
+    "path": "examples/YOLOv8-ONNXRuntime-Rust/README.md",
+    "bytes": 6573,
+    "compressed": 2415,
+    "crc32": "afc8b205"
+  },
+  {
+    "path": "examples/YOLOv8-ONNXRuntime-Rust/src/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "examples/YOLOv8-ONNXRuntime-Rust/src/cli.rs",
+    "bytes": 1766,
+    "compressed": 542,
+    "crc32": "a8e74332"
+  },
+  {
+    "path": "examples/YOLOv8-ONNXRuntime-Rust/src/lib.rs",
+    "bytes": 4806,
+    "compressed": 1616,
+    "crc32": "9f8730c3"
+  },
+  {
+    "path": "examples/YOLOv8-ONNXRuntime-Rust/src/main.rs",
+    "bytes": 627,
+    "compressed": 378,
+    "crc32": "22319b64"
+  },
+  {
+    "path": "examples/YOLOv8-ONNXRuntime-Rust/src/model.rs",
+    "bytes": 22890,
+    "compressed": 5154,
+    "crc32": "ae1f2c2d"
+  },
+  {
+    "path": "examples/YOLOv8-ONNXRuntime-Rust/src/ort_backend.rs",
+    "bytes": 17850,
+    "compressed": 3991,
+    "crc32": "75da2a76"
+  },
+  {
+    "path": "examples/YOLOv8-ONNXRuntime-Rust/src/yolo_result.rs",
+    "bytes": 5317,
+    "compressed": 1348,
+    "crc32": "dd60cd97"
+  },
+  {
+    "path": "examples/YOLOv8-ONNXRuntime/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "examples/YOLOv8-ONNXRuntime/main.py",
+    "bytes": 8808,
+    "compressed": 2844,
+    "crc32": "c6f2b372"
+  },
+  {
+    "path": "examples/YOLOv8-ONNXRuntime/README.md",
+    "bytes": 1377,
+    "compressed": 564,
+    "crc32": "af6ecbfa"
+  },
+  {
+    "path": "examples/YOLOv8-OpenCV-ONNX-Python/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "examples/YOLOv8-OpenCV-ONNX-Python/main.py",
+    "bytes": 4402,
+    "compressed": 1658,
+    "crc32": "e44d6565"
+  },
+  {
+    "path": "examples/YOLOv8-OpenCV-ONNX-Python/README.md",
+    "bytes": 356,
+    "compressed": 245,
+    "crc32": "7b956846"
+  },
+  {
+    "path": "examples/YOLOv8-OpenVINO-CPP-Inference/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "examples/YOLOv8-OpenVINO-CPP-Inference/CMakeLists.txt",
+    "bytes": 375,
+    "compressed": 257,
+    "crc32": "791c3058"
+  },
+  {
+    "path": "examples/YOLOv8-OpenVINO-CPP-Inference/inference.cc",
+    "bytes": 7215,
+    "compressed": 2304,
+    "crc32": "4e224ace"
+  },
+  {
+    "path": "examples/YOLOv8-OpenVINO-CPP-Inference/inference.h",
+    "bytes": 2462,
+    "compressed": 1036,
+    "crc32": "17db7de6"
+  },
+  {
+    "path": "examples/YOLOv8-OpenVINO-CPP-Inference/main.cc",
+    "bytes": 1108,
+    "compressed": 534,
+    "crc32": "eb98c613"
+  },
+  {
+    "path": "examples/YOLOv8-OpenVINO-CPP-Inference/README.md",
+    "bytes": 2096,
+    "compressed": 1089,
+    "crc32": "c796f0ba"
+  },
+  {
+    "path": "examples/YOLOv8-Region-Counter/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "examples/YOLOv8-Region-Counter/readme.md",
+    "bytes": 5212,
+    "compressed": 2117,
+    "crc32": "b93d17d4"
+  },
+  {
+    "path": "examples/YOLOv8-Region-Counter/yolov8_region_counter.py",
+    "bytes": 9472,
+    "compressed": 3067,
+    "crc32": "35853bfc"
+  },
+  {
+    "path": "examples/YOLOv8-SAHI-Inference-Video/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "examples/YOLOv8-SAHI-Inference-Video/readme.md",
+    "bytes": 2788,
+    "compressed": 1148,
+    "crc32": "ec59b643"
+  },
+  {
+    "path": "examples/YOLOv8-SAHI-Inference-Video/yolov8_sahi.py",
+    "bytes": 4120,
+    "compressed": 1470,
+    "crc32": "f86cfaa3"
+  },
+  {
+    "path": "examples/YOLOv8-Segmentation-ONNXRuntime-Python/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "examples/YOLOv8-Segmentation-ONNXRuntime-Python/main.py",
+    "bytes": 13397,
+    "compressed": 4139,
+    "crc32": "1b65bbd9"
+  },
+  {
+    "path": "examples/YOLOv8-Segmentation-ONNXRuntime-Python/README.md",
+    "bytes": 2530,
+    "compressed": 1268,
+    "crc32": "f58179e6"
+  },
+  {
+    "path": "examples/YOLOv8-TFLite-Python/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "examples/YOLOv8-TFLite-Python/main.py",
+    "bytes": 8363,
+    "compressed": 2769,
+    "crc32": "000bc617"
+  },
+  {
+    "path": "examples/YOLOv8-TFLite-Python/README.md",
+    "bytes": 1603,
+    "compressed": 802,
+    "crc32": "ec543ad7"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 34523,
+    "compressed": 11760,
+    "crc32": "f5dfc0dc"
+  },
+  {
+    "path": "mkdocs.yml",
+    "bytes": 36347,
+    "compressed": 8043,
+    "crc32": "050e561d"
+  },
+  {
+    "path": "predict.py",
+    "bytes": 12094,
+    "compressed": 3533,
+    "crc32": "3a906dad"
+  },
+  {
+    "path": "predict_qt.py",
+    "bytes": 767,
+    "compressed": 448,
+    "crc32": "2f15586e"
+  },
+  {
+    "path": "pyproject.toml",
+    "bytes": 7898,
+    "compressed": 3158,
+    "crc32": "cba8fdee"
+  },
+  {
+    "path": "QTApp/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "QTApp/__pycache__/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "QTApp/__pycache__/layout.cpython-39.pyc",
+    "bytes": 5396,
+    "compressed": 2469,
+    "crc32": "b9c5948e"
+  },
+  {
+    "path": "QTApp/__pycache__/leftimg.cpython-39.pyc",
+    "bytes": 6559,
+    "compressed": 2890,
+    "crc32": "a96e65e5"
+  },
+  {
+    "path": "QTApp/layout.py",
+    "bytes": 10486,
+    "compressed": 1906,
+    "crc32": "fed11a92"
+  },
+  {
+    "path": "QTApp/layout.ui",
+    "bytes": 10598,
+    "compressed": 1590,
+    "crc32": "52cf66bd"
+  },
+  {
+    "path": "QTApp/leftimg.py",
+    "bytes": 8241,
+    "compressed": 1964,
+    "crc32": "1bc52797"
+  },
+  {
+    "path": "QTApp/video.py",
+    "bytes": 3627,
+    "compressed": 1460,
+    "crc32": "831aa333"
+  },
+  {
+    "path": "README.md",
+    "bytes": 30979,
+    "compressed": 6470,
+    "crc32": "064dead5"
+  },
+  {
+    "path": "README.zh-CN.md",
+    "bytes": 30247,
+    "compressed": 6766,
+    "crc32": "99d87252"
+  },
+  {
+    "path": "ResizeVOCdatasets.py",
+    "bytes": 5803,
+    "compressed": 2020,
+    "crc32": "c7bc7910"
+  },
+  {
+    "path": "result/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "tests/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "tests/__init__.py",
+    "bytes": 666,
+    "compressed": 384,
+    "crc32": "e9221261"
+  },
+  {
+    "path": "tests/conftest.py",
+    "bytes": 2919,
+    "compressed": 1137,
+    "crc32": "5bc09fea"
+  },
+  {
+    "path": "tests/test_cli.py",
+    "bytes": 5006,
+    "compressed": 1700,
+    "crc32": "84003278"
+  },
+  {
+    "path": "tests/test_cuda.py",
+    "bytes": 5943,
+    "compressed": 1848,
+    "crc32": "d9481a33"
+  },
+  {
+    "path": "tests/test_engine.py",
+    "bytes": 4934,
+    "compressed": 1111,
+    "crc32": "674911f1"
+  },
+  {
+    "path": "tests/test_exports.py",
+    "bytes": 8769,
+    "compressed": 1893,
+    "crc32": "c36a46f3"
+  },
+  {
+    "path": "tests/test_integrations.py",
+    "bytes": 6126,
+    "compressed": 1934,
+    "crc32": "a19723e8"
+  },
+  {
+    "path": "tests/test_python.py",
+    "bytes": 23560,
+    "compressed": 7438,
+    "crc32": "57c05bfa"
+  },
+  {
+    "path": "tests/test_solutions.py",
+    "bytes": 3790,
+    "compressed": 1146,
+    "crc32": "dcfe3c5d"
+  },
+  {
+    "path": "train.py",
+    "bytes": 926,
+    "compressed": 567,
+    "crc32": "0a7ea427"
+  },
+  {
+    "path": "ultralytics/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/__init__.py",
+    "bytes": 681,
+    "compressed": 364,
+    "crc32": "aae13386"
+  },
+  {
+    "path": "ultralytics/__pycache__/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/__pycache__/__init__.cpython-312.pyc",
+    "bytes": 782,
+    "compressed": 550,
+    "crc32": "bcbb3cf4"
+  },
+  {
+    "path": "ultralytics/__pycache__/__init__.cpython-39.pyc",
+    "bytes": 661,
+    "compressed": 462,
+    "crc32": "cff92f92"
+  },
+  {
+    "path": "ultralytics/assets/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/assets/bus.jpg",
+    "bytes": 137419,
+    "compressed": 137417,
+    "crc32": "a668bca4"
+  },
+  {
+    "path": "ultralytics/assets/zidane.jpg",
+    "bytes": 50427,
+    "compressed": 50198,
+    "crc32": "af6cf5ea"
+  },
+  {
+    "path": "ultralytics/cfg/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/cfg/__init__.py",
+    "bytes": 38921,
+    "compressed": 11468,
+    "crc32": "31ebe498"
+  },
+  {
+    "path": "ultralytics/cfg/__pycache__/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/cfg/__pycache__/__init__.cpython-312.pyc",
+    "bytes": 44622,
+    "compressed": 19798,
+    "crc32": "75c5fa8c"
+  },
+  {
+    "path": "ultralytics/cfg/__pycache__/__init__.cpython-39.pyc",
+    "bytes": 34319,
+    "compressed": 14191,
+    "crc32": "25d20a18"
+  },
+  {
+    "path": "ultralytics/cfg/datasets/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/cfg/datasets/african-wildlife.yaml",
+    "bytes": 901,
+    "compressed": 474,
+    "crc32": "93d605c7"
+  },
+  {
+    "path": "ultralytics/cfg/datasets/Argoverse.yaml",
+    "bytes": 3134,
+    "compressed": 1417,
+    "crc32": "f26fa569"
+  },
+  {
+    "path": "ultralytics/cfg/datasets/brain-tumor.yaml",
+    "bytes": 827,
+    "compressed": 445,
+    "crc32": "c460ff36"
+  },
+  {
+    "path": "ultralytics/cfg/datasets/carparts-seg.yaml",
+    "bytes": 1239,
+    "compressed": 585,
+    "crc32": "17c7bde8"
+  },
+  {
+    "path": "ultralytics/cfg/datasets/coco-pose.yaml",
+    "bytes": 1605,
+    "compressed": 785,
+    "crc32": "b46e4f0b"
+  },
+  {
+    "path": "ultralytics/cfg/datasets/coco.yaml",
+    "bytes": 2586,
+    "compressed": 1287,
+    "crc32": "f7b4ef59"
+  },
+  {
+    "path": "ultralytics/cfg/datasets/coco128-seg.yaml",
+    "bytes": 1966,
+    "compressed": 1032,
+    "crc32": "010b85d0"
+  },
+  {
+    "path": "ultralytics/cfg/datasets/coco128.yaml",
+    "bytes": 1949,
+    "compressed": 1028,
+    "crc32": "3b336dae"
+  },
+  {
+    "path": "ultralytics/cfg/datasets/coco8-pose.yaml",
+    "bytes": 993,
+    "compressed": 552,
+    "crc32": "13f3084f"
+  },
+  {
+    "path": "ultralytics/cfg/datasets/coco8-seg.yaml",
+    "bytes": 1897,
+    "compressed": 1015,
+    "crc32": "4fbe7333"
+  },
+  {
+    "path": "ultralytics/cfg/datasets/coco8.yaml",
+    "bytes": 1872,
+    "compressed": 1011,
+    "crc32": "dec7b4e1"
+  },
+  {
+    "path": "ultralytics/cfg/datasets/crack-seg.yaml",
+    "bytes": 823,
+    "compressed": 440,
+    "crc32": "d6a00dc1"
+  },
+  {
+    "path": "ultralytics/cfg/datasets/data.yaml",
+    "bytes": 306,
+    "compressed": 242,
+    "crc32": "f180dec2"
+  },
+  {
+    "path": "ultralytics/cfg/datasets/dog-pose.yaml",
+    "bytes": 878,
+    "compressed": 507,
+    "crc32": "2515484a"
+  },
+  {
+    "path": "ultralytics/cfg/datasets/dota8.yaml",
+    "bytes": 1044,
+    "compressed": 591,
+    "crc32": "ef089375"
+  },
+  {
+    "path": "ultralytics/cfg/datasets/DOTAv1.5.yaml",
+    "bytes": 1195,
+    "compressed": 674,
+    "crc32": "f40e0c40"
+  },
+  {
+    "path": "ultralytics/cfg/datasets/DOTAv1.yaml",
+    "bytes": 1165,
+    "compressed": 658,
+    "crc32": "f5265c81"
+  },
+  {
+    "path": "ultralytics/cfg/datasets/GlobalWheat2020.yaml",
+    "bytes": 2060,
+    "compressed": 897,
+    "crc32": "f07ca0c6"
+  },
+  {
+    "path": "ultralytics/cfg/datasets/hand-keypoints.yaml",
+    "bytes": 960,
+    "compressed": 539,
+    "crc32": "4cfb973e"
+  },
+  {
+    "path": "ultralytics/cfg/datasets/ImageNet.yaml",
+    "bytes": 42507,
+    "compressed": 17367,
+    "crc32": "e4f007df"
+  },
+  {
+    "path": "ultralytics/cfg/datasets/lvis.yaml",
+    "bytes": 29691,
+    "compressed": 12744,
+    "crc32": "d4593d49"
+  },
+  {
+    "path": "ultralytics/cfg/datasets/Objects365.yaml",
+    "bytes": 9323,
+    "compressed": 4333,
+    "crc32": "7f00f719"
+  },
+  {
+    "path": "ultralytics/cfg/datasets/open-images-v7.yaml",
+    "bytes": 12493,
+    "compressed": 5742,
+    "crc32": "f27efe6c"
+  },
+  {
+    "path": "ultralytics/cfg/datasets/package-seg.yaml",
+    "bytes": 833,
+    "compressed": 440,
+    "crc32": "97888257"
+  },
+  {
+    "path": "ultralytics/cfg/datasets/signature.yaml",
+    "bytes": 760,
+    "compressed": 423,
+    "crc32": "f5b4df08"
+  },
+  {
+    "path": "ultralytics/cfg/datasets/SKU-110K.yaml",
+    "bytes": 2493,
+    "compressed": 1152,
+    "crc32": "faa4de80"
+  },
+  {
+    "path": "ultralytics/cfg/datasets/tiger-pose.yaml",
+    "bytes": 896,
+    "compressed": 512,
+    "crc32": "12a689da"
+  },
+  {
+    "path": "ultralytics/cfg/datasets/VisDrone.yaml",
+    "bytes": 3081,
+    "compressed": 1259,
+    "crc32": "578230ec"
+  },
+  {
+    "path": "ultralytics/cfg/datasets/VOC.yaml",
+    "bytes": 3657,
+    "compressed": 1615,
+    "crc32": "473a35b0"
+  },
+  {
+    "path": "ultralytics/cfg/datasets/xView.yaml",
+    "bytes": 5217,
+    "compressed": 2237,
+    "crc32": "dc1c869c"
+  },
+  {
+    "path": "ultralytics/cfg/default.yaml",
+    "bytes": 8347,
+    "compressed": 2956,
+    "crc32": "81b3e911"
+  },
+  {
+    "path": "ultralytics/cfg/models/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/cfg/models/11/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/cfg/models/11/yolo11-cls.yaml",
+    "bytes": 1329,
+    "compressed": 582,
+    "crc32": "682eb556"
+  },
+  {
+    "path": "ultralytics/cfg/models/11/yolo11-obb.yaml",
+    "bytes": 1936,
+    "compressed": 762,
+    "crc32": "44386950"
+  },
+  {
+    "path": "ultralytics/cfg/models/11/yolo11-pose.yaml",
+    "bytes": 2015,
+    "compressed": 792,
+    "crc32": "cfdc5346"
+  },
+  {
+    "path": "ultralytics/cfg/models/11/yolo11-seg.yaml",
+    "bytes": 1931,
+    "compressed": 747,
+    "crc32": "74a9c373"
+  },
+  {
+    "path": "ultralytics/cfg/models/11/yolo11.yaml",
+    "bytes": 1918,
+    "compressed": 748,
+    "crc32": "9239e8c1"
+  },
+  {
+    "path": "ultralytics/cfg/models/README.md",
+    "bytes": 3348,
+    "compressed": 1533,
+    "crc32": "111a8c44"
+  },
+  {
+    "path": "ultralytics/cfg/models/rt-detr/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/cfg/models/rt-detr/rtdetr-l.yaml",
+    "bytes": 1934,
+    "compressed": 741,
+    "crc32": "049ec7b3"
+  },
+  {
+    "path": "ultralytics/cfg/models/rt-detr/rtdetr-resnet101.yaml",
+    "bytes": 1512,
+    "compressed": 597,
+    "crc32": "0ea2a694"
+  },
+  {
+    "path": "ultralytics/cfg/models/rt-detr/rtdetr-resnet50.yaml",
+    "bytes": 1510,
+    "compressed": 596,
+    "crc32": "5fd96f84"
+  },
+  {
+    "path": "ultralytics/cfg/models/rt-detr/rtdetr-x.yaml",
+    "bytes": 2141,
+    "compressed": 771,
+    "crc32": "9927f228"
+  },
+  {
+    "path": "ultralytics/cfg/models/v10/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/cfg/models/v10/yolov10b.yaml",
+    "bytes": 1404,
+    "compressed": 596,
+    "crc32": "6f946b3a"
+  },
+  {
+    "path": "ultralytics/cfg/models/v10/yolov10l.yaml",
+    "bytes": 1404,
+    "compressed": 593,
+    "crc32": "0eb46fde"
+  },
+  {
+    "path": "ultralytics/cfg/models/v10/yolov10m.yaml",
+    "bytes": 1395,
+    "compressed": 600,
+    "crc32": "62a09c22"
+  },
+  {
+    "path": "ultralytics/cfg/models/v10/yolov10n.yaml",
+    "bytes": 1390,
+    "compressed": 596,
+    "crc32": "6aebae2d"
+  },
+  {
+    "path": "ultralytics/cfg/models/v10/yolov10s.yaml",
+    "bytes": 1399,
+    "compressed": 594,
+    "crc32": "5e844131"
+  },
+  {
+    "path": "ultralytics/cfg/models/v10/yolov10x.yaml",
+    "bytes": 1407,
+    "compressed": 597,
+    "crc32": "3fc438cb"
+  },
+  {
+    "path": "ultralytics/cfg/models/v3/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/cfg/models/v3/yolov3-spp.yaml",
+    "bytes": 1525,
+    "compressed": 566,
+    "crc32": "4637e9b0"
+  },
+  {
+    "path": "ultralytics/cfg/models/v3/yolov3-tiny.yaml",
+    "bytes": 1229,
+    "compressed": 493,
+    "crc32": "e3ad0d0e"
+  },
+  {
+    "path": "ultralytics/cfg/models/v3/yolov3.yaml",
+    "bytes": 1512,
+    "compressed": 550,
+    "crc32": "84fbb60c"
+  },
+  {
+    "path": "ultralytics/cfg/models/v5/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/cfg/models/v5/yolov5-p6.yaml",
+    "bytes": 1894,
+    "compressed": 685,
+    "crc32": "83542674"
+  },
+  {
+    "path": "ultralytics/cfg/models/v5/yolov5.yaml",
+    "bytes": 1526,
+    "compressed": 620,
+    "crc32": "9d103a5b"
+  },
+  {
+    "path": "ultralytics/cfg/models/v6/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/cfg/models/v6/yolov6.yaml",
+    "bytes": 1718,
+    "compressed": 645,
+    "crc32": "33642f8a"
+  },
+  {
+    "path": "ultralytics/cfg/models/v8/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/cfg/models/v8/yolov8-cls-resnet101.yaml",
+    "bytes": 883,
+    "compressed": 461,
+    "crc32": "f44a02a9"
+  },
+  {
+    "path": "ultralytics/cfg/models/v8/yolov8-cls-resnet50.yaml",
+    "bytes": 882,
+    "compressed": 461,
+    "crc32": "fae7c021"
+  },
+  {
+    "path": "ultralytics/cfg/models/v8/yolov8-cls.yaml",
+    "bytes": 913,
+    "compressed": 458,
+    "crc32": "87132975"
+  },
+  {
+    "path": "ultralytics/cfg/models/v8/yolov8-ghost-p2.yaml",
+    "bytes": 2288,
+    "compressed": 817,
+    "crc32": "98e5fbe1"
+  },
+  {
+    "path": "ultralytics/cfg/models/v8/yolov8-ghost-p6.yaml",
+    "bytes": 2356,
+    "compressed": 838,
+    "crc32": "3682e4d6"
+  },
+  {
+    "path": "ultralytics/cfg/models/v8/yolov8-ghost.yaml",
+    "bytes": 2096,
+    "compressed": 836,
+    "crc32": "8b862ffb"
+  },
+  {
+    "path": "ultralytics/cfg/models/v8/yolov8-obb.yaml",
+    "bytes": 1899,
+    "compressed": 766,
+    "crc32": "36ea4126"
+  },
+  {
+    "path": "ultralytics/cfg/models/v8/yolov8-p2.yaml",
+    "bytes": 1731,
+    "compressed": 662,
+    "crc32": "325809a6"
+  },
+  {
+    "path": "ultralytics/cfg/models/v8/yolov8-p6.yaml",
+    "bytes": 2296,
+    "compressed": 833,
+    "crc32": "7113927f"
+  },
+  {
+    "path": "ultralytics/cfg/models/v8/yolov8-pose-p6.yaml",
+    "bytes": 1927,
+    "compressed": 729,
+    "crc32": "4eea810d"
+  },
+  {
+    "path": "ultralytics/cfg/models/v8/yolov8-pose.yaml",
+    "bytes": 1563,
+    "compressed": 660,
+    "crc32": "4ab4c47a"
+  },
+  {
+    "path": "ultralytics/cfg/models/v8/yolov8-rtdetr.yaml",
+    "bytes": 1896,
+    "compressed": 765,
+    "crc32": "473e7cbd"
+  },
+  {
+    "path": "ultralytics/cfg/models/v8/yolov8-seg-p6.yaml",
+    "bytes": 1845,
+    "compressed": 689,
+    "crc32": "510c6cff"
+  },
+  {
+    "path": "ultralytics/cfg/models/v8/yolov8-seg.yaml",
+    "bytes": 1474,
+    "compressed": 618,
+    "crc32": "ac0a2701"
+  },
+  {
+    "path": "ultralytics/cfg/models/v8/yolov8-world.yaml",
+    "bytes": 2019,
+    "compressed": 808,
+    "crc32": "a6f6062e"
+  },
+  {
+    "path": "ultralytics/cfg/models/v8/yolov8-worldv2.yaml",
+    "bytes": 1956,
+    "compressed": 787,
+    "crc32": "670ac85b"
+  },
+  {
+    "path": "ultralytics/cfg/models/v8/yolov8.yaml",
+    "bytes": 1889,
+    "compressed": 754,
+    "crc32": "d5d7cf4a"
+  },
+  {
+    "path": "ultralytics/cfg/models/v9/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/cfg/models/v9/yolov9c-seg.yaml",
+    "bytes": 1346,
+    "compressed": 504,
+    "crc32": "f11b89e9"
+  },
+  {
+    "path": "ultralytics/cfg/models/v9/yolov9c.yaml",
+    "bytes": 1326,
+    "compressed": 496,
+    "crc32": "82aa8c3b"
+  },
+  {
+    "path": "ultralytics/cfg/models/v9/yolov9e-seg.yaml",
+    "bytes": 2277,
+    "compressed": 702,
+    "crc32": "82b9e62a"
+  },
+  {
+    "path": "ultralytics/cfg/models/v9/yolov9e.yaml",
+    "bytes": 2256,
+    "compressed": 695,
+    "crc32": "f245f9c0"
+  },
+  {
+    "path": "ultralytics/cfg/models/v9/yolov9m.yaml",
+    "bytes": 1311,
+    "compressed": 502,
+    "crc32": "58fc74ca"
+  },
+  {
+    "path": "ultralytics/cfg/models/v9/yolov9s.yaml",
+    "bytes": 1291,
+    "compressed": 495,
+    "crc32": "b9c4b8a3"
+  },
+  {
+    "path": "ultralytics/cfg/models/v9/yolov9t.yaml",
+    "bytes": 1275,
+    "compressed": 494,
+    "crc32": "4839b082"
+  },
+  {
+    "path": "ultralytics/cfg/solutions/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/cfg/solutions/default.yaml",
+    "bytes": 1239,
+    "compressed": 597,
+    "crc32": "8f23b125"
+  },
+  {
+    "path": "ultralytics/cfg/trackers/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/cfg/trackers/botsort.yaml",
+    "bytes": 918,
+    "compressed": 500,
+    "crc32": "207c974b"
+  },
+  {
+    "path": "ultralytics/cfg/trackers/bytetrack.yaml",
+    "bytes": 723,
+    "compressed": 389,
+    "crc32": "a39e8c44"
+  },
+  {
+    "path": "ultralytics/data/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/data/__init__.py",
+    "bytes": 616,
+    "compressed": 254,
+    "crc32": "6415a12b"
+  },
+  {
+    "path": "ultralytics/data/__pycache__/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/data/__pycache__/__init__.cpython-312.pyc",
+    "bytes": 614,
+    "compressed": 417,
+    "crc32": "9e3591f4"
+  },
+  {
+    "path": "ultralytics/data/__pycache__/__init__.cpython-39.pyc",
+    "bytes": 586,
+    "compressed": 377,
+    "crc32": "713dbc9a"
+  },
+  {
+    "path": "ultralytics/data/__pycache__/augment.cpython-312.pyc",
+    "bytes": 139068,
+    "compressed": 46145,
+    "crc32": "34df9877"
+  },
+  {
+    "path": "ultralytics/data/__pycache__/augment.cpython-39.pyc",
+    "bytes": 111203,
+    "compressed": 33338,
+    "crc32": "55bfa928"
+  },
+  {
+    "path": "ultralytics/data/__pycache__/base.cpython-312.pyc",
+    "bytes": 21294,
+    "compressed": 10442,
+    "crc32": "8aa22740"
+  },
+  {
+    "path": "ultralytics/data/__pycache__/base.cpython-39.pyc",
+    "bytes": 13056,
+    "compressed": 6484,
+    "crc32": "25b1dac6"
+  },
+  {
+    "path": "ultralytics/data/__pycache__/build.cpython-312.pyc",
+    "bytes": 9628,
+    "compressed": 4967,
+    "crc32": "5a3e40ca"
+  },
+  {
+    "path": "ultralytics/data/__pycache__/build.cpython-39.pyc",
+    "bytes": 6791,
+    "compressed": 3602,
+    "crc32": "4e0050ee"
+  },
+  {
+    "path": "ultralytics/data/__pycache__/converter.cpython-312.pyc",
+    "bytes": 28657,
+    "compressed": 14218,
+    "crc32": "17f9b3c1"
+  },
+  {
+    "path": "ultralytics/data/__pycache__/converter.cpython-39.pyc",
+    "bytes": 20017,
+    "compressed": 9246,
+    "crc32": "918aca6b"
+  },
+  {
+    "path": "ultralytics/data/__pycache__/dataset.cpython-312.pyc",
+    "bytes": 28721,
+    "compressed": 14225,
+    "crc32": "a0b68d13"
+  },
+  {
+    "path": "ultralytics/data/__pycache__/dataset.cpython-39.pyc",
+    "bytes": 19393,
+    "compressed": 9443,
+    "crc32": "1028c8cb"
+  },
+  {
+    "path": "ultralytics/data/__pycache__/loaders.cpython-312.pyc",
+    "bytes": 37862,
+    "compressed": 16414,
+    "crc32": "26f528ab"
+  },
+  {
+    "path": "ultralytics/data/__pycache__/loaders.cpython-39.pyc",
+    "bytes": 25520,
+    "compressed": 10980,
+    "crc32": "2faaabf3"
+  },
+  {
+    "path": "ultralytics/data/__pycache__/utils.cpython-312.pyc",
+    "bytes": 43667,
+    "compressed": 21172,
+    "crc32": "95c1c64e"
+  },
+  {
+    "path": "ultralytics/data/__pycache__/utils.cpython-39.pyc",
+    "bytes": 27795,
+    "compressed": 13148,
+    "crc32": "d3ea45a9"
+  },
+  {
+    "path": "ultralytics/data/annotator.py",
+    "bytes": 3117,
+    "compressed": 1281,
+    "crc32": "e53d3080"
+  },
+  {
+    "path": "ultralytics/data/augment.py",
+    "bytes": 120461,
+    "compressed": 26808,
+    "crc32": "b8c43cb3"
+  },
+  {
+    "path": "ultralytics/data/base.py",
+    "bytes": 15168,
+    "compressed": 4613,
+    "crc32": "4572459f"
+  },
+  {
+    "path": "ultralytics/data/build.py",
+    "bytes": 7261,
+    "compressed": 2421,
+    "crc32": "48292ca2"
+  },
+  {
+    "path": "ultralytics/data/converter.py",
+    "bytes": 24388,
+    "compressed": 7222,
+    "crc32": "a864c4ce"
+  },
+  {
+    "path": "ultralytics/data/dataset.py",
+    "bytes": 22936,
+    "compressed": 6777,
+    "crc32": "863f6db7"
+  },
+  {
+    "path": "ultralytics/data/loaders.py",
+    "bytes": 28506,
+    "compressed": 8460,
+    "crc32": "a1f51519"
+  },
+  {
+    "path": "ultralytics/data/scripts/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/data/scripts/download_weights.sh",
+    "bytes": 568,
+    "compressed": 348,
+    "crc32": "d79d0b6b"
+  },
+  {
+    "path": "ultralytics/data/scripts/get_coco.sh",
+    "bytes": 1729,
+    "compressed": 669,
+    "crc32": "1e539719"
+  },
+  {
+    "path": "ultralytics/data/scripts/get_coco128.sh",
+    "bytes": 621,
+    "compressed": 392,
+    "crc32": "e89d7856"
+  },
+  {
+    "path": "ultralytics/data/scripts/get_imagenet.sh",
+    "bytes": 1672,
+    "compressed": 778,
+    "crc32": "a416d0ba"
+  },
+  {
+    "path": "ultralytics/data/split_dota.py",
+    "bytes": 10688,
+    "compressed": 3076,
+    "crc32": "68e8e2e1"
+  },
+  {
+    "path": "ultralytics/data/utils.py",
+    "bytes": 31073,
+    "compressed": 9443,
+    "crc32": "915117ec"
+  },
+  {
+    "path": "ultralytics/engine/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/engine/__init__.py",
+    "bytes": 42,
+    "compressed": 44,
+    "crc32": "a404a671"
+  },
+  {
+    "path": "ultralytics/engine/__pycache__/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/engine/__pycache__/__init__.cpython-312.pyc",
+    "bytes": 161,
+    "compressed": 132,
+    "crc32": "8f157ab3"
+  },
+  {
+    "path": "ultralytics/engine/__pycache__/__init__.cpython-39.pyc",
+    "bytes": 155,
+    "compressed": 123,
+    "crc32": "24658f0f"
+  },
+  {
+    "path": "ultralytics/engine/__pycache__/exporter.cpython-39.pyc",
+    "bytes": 50771,
+    "compressed": 24878,
+    "crc32": "52aef7ab"
+  },
+  {
+    "path": "ultralytics/engine/__pycache__/model.cpython-312.pyc",
+    "bytes": 59076,
+    "compressed": 20309,
+    "crc32": "31280405"
+  },
+  {
+    "path": "ultralytics/engine/__pycache__/model.cpython-39.pyc",
+    "bytes": 49128,
+    "compressed": 15882,
+    "crc32": "c9fe8f4b"
+  },
+  {
+    "path": "ultralytics/engine/__pycache__/predictor.cpython-312.pyc",
+    "bytes": 25199,
+    "compressed": 11320,
+    "crc32": "ec9b933f"
+  },
+  {
+    "path": "ultralytics/engine/__pycache__/predictor.cpython-39.pyc",
+    "bytes": 14792,
+    "compressed": 7143,
+    "crc32": "f99bcd2f"
+  },
+  {
+    "path": "ultralytics/engine/__pycache__/results.cpython-312.pyc",
+    "bytes": 88657,
+    "compressed": 25139,
+    "crc32": "31dbfa94"
+  },
+  {
+    "path": "ultralytics/engine/__pycache__/results.cpython-39.pyc",
+    "bytes": 74560,
+    "compressed": 19255,
+    "crc32": "acd15d14"
+  },
+  {
+    "path": "ultralytics/engine/__pycache__/trainer.cpython-312.pyc",
+    "bytes": 50698,
+    "compressed": 22505,
+    "crc32": "836b21f1"
+  },
+  {
+    "path": "ultralytics/engine/__pycache__/trainer.cpython-39.pyc",
+    "bytes": 27750,
+    "compressed": 13649,
+    "crc32": "97c0dd90"
+  },
+  {
+    "path": "ultralytics/engine/__pycache__/validator.cpython-312.pyc",
+    "bytes": 21113,
+    "compressed": 9196,
+    "crc32": "a814136b"
+  },
+  {
+    "path": "ultralytics/engine/__pycache__/validator.cpython-39.pyc",
+    "bytes": 13379,
+    "compressed": 6061,
+    "crc32": "ec97e1e8"
+  },
+  {
+    "path": "ultralytics/engine/exporter.py",
+    "bytes": 67054,
+    "compressed": 18660,
+    "crc32": "b5a703a5"
+  },
+  {
+    "path": "ultralytics/engine/model.py",
+    "bytes": 53107,
+    "compressed": 13208,
+    "crc32": "6ce2dff4"
+  },
+  {
+    "path": "ultralytics/engine/predictor.py",
+    "bytes": 17712,
+    "compressed": 5436,
+    "crc32": "4ddcfe1b"
+  },
+  {
+    "path": "ultralytics/engine/results.py",
+    "bytes": 75058,
+    "compressed": 14835,
+    "crc32": "e758aa61"
+  },
+  {
+    "path": "ultralytics/engine/trainer.py",
+    "bytes": 37335,
+    "compressed": 10860,
+    "crc32": "4cbab161"
+  },
+  {
+    "path": "ultralytics/engine/tuner.py",
+    "bytes": 11838,
+    "compressed": 4023,
+    "crc32": "aab2ac0a"
+  },
+  {
+    "path": "ultralytics/engine/validator.py",
+    "bytes": 14870,
+    "compressed": 4601,
+    "crc32": "d2407823"
+  },
+  {
+    "path": "ultralytics/hub/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/hub/__init__.py",
+    "bytes": 5632,
+    "compressed": 1957,
+    "crc32": "ba02561e"
+  },
+  {
+    "path": "ultralytics/hub/__pycache__/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/hub/__pycache__/__init__.cpython-312.pyc",
+    "bytes": 7300,
+    "compressed": 3577,
+    "crc32": "3e30816d"
+  },
+  {
+    "path": "ultralytics/hub/__pycache__/__init__.cpython-39.pyc",
+    "bytes": 5442,
+    "compressed": 2689,
+    "crc32": "cdd8072c"
+  },
+  {
+    "path": "ultralytics/hub/__pycache__/auth.cpython-312.pyc",
+    "bytes": 6199,
+    "compressed": 3189,
+    "crc32": "38a837c6"
+  },
+  {
+    "path": "ultralytics/hub/__pycache__/auth.cpython-39.pyc",
+    "bytes": 4454,
+    "compressed": 2247,
+    "crc32": "4fe8eb72"
+  },
+  {
+    "path": "ultralytics/hub/__pycache__/session.cpython-312.pyc",
+    "bytes": 19240,
+    "compressed": 9258,
+    "crc32": "c0e3b8b4"
+  },
+  {
+    "path": "ultralytics/hub/__pycache__/session.cpython-39.pyc",
+    "bytes": 12690,
+    "compressed": 6226,
+    "crc32": "2d7b3e21"
+  },
+  {
+    "path": "ultralytics/hub/__pycache__/utils.cpython-312.pyc",
+    "bytes": 11357,
+    "compressed": 5977,
+    "crc32": "56c9356d"
+  },
+  {
+    "path": "ultralytics/hub/__pycache__/utils.cpython-39.pyc",
+    "bytes": 8461,
+    "compressed": 4415,
+    "crc32": "69c5fb7f"
+  },
+  {
+    "path": "ultralytics/hub/auth.py",
+    "bytes": 5541,
+    "compressed": 1779,
+    "crc32": "96783869"
+  },
+  {
+    "path": "ultralytics/hub/google/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/hub/google/__init__.py",
+    "bytes": 7504,
+    "compressed": 2387,
+    "crc32": "d919cbac"
+  },
+  {
+    "path": "ultralytics/hub/session.py",
+    "bytes": 16411,
+    "compressed": 5023,
+    "crc32": "57354095"
+  },
+  {
+    "path": "ultralytics/hub/utils.py",
+    "bytes": 9705,
+    "compressed": 3610,
+    "crc32": "a593021a"
+  },
+  {
+    "path": "ultralytics/models/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/models/__init__.py",
+    "bytes": 265,
+    "compressed": 173,
+    "crc32": "a1483ef5"
+  },
+  {
+    "path": "ultralytics/models/__pycache__/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/models/__pycache__/__init__.cpython-312.pyc",
+    "bytes": 411,
+    "compressed": 319,
+    "crc32": "e71a00c4"
+  },
+  {
+    "path": "ultralytics/models/__pycache__/__init__.cpython-39.pyc",
+    "bytes": 393,
+    "compressed": 284,
+    "crc32": "b2e62fe4"
+  },
+  {
+    "path": "ultralytics/models/fastsam/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/models/fastsam/__init__.py",
+    "bytes": 203,
+    "compressed": 125,
+    "crc32": "b525e911"
+  },
+  {
+    "path": "ultralytics/models/fastsam/__pycache__/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/models/fastsam/__pycache__/__init__.cpython-312.pyc",
+    "bytes": 340,
+    "compressed": 269,
+    "crc32": "9c37173e"
+  },
+  {
+    "path": "ultralytics/models/fastsam/__pycache__/__init__.cpython-39.pyc",
+    "bytes": 324,
+    "compressed": 240,
+    "crc32": "3f4964db"
+  },
+  {
+    "path": "ultralytics/models/fastsam/__pycache__/model.cpython-312.pyc",
+    "bytes": 2735,
+    "compressed": 1538,
+    "crc32": "c010e103"
+  },
+  {
+    "path": "ultralytics/models/fastsam/__pycache__/model.cpython-39.pyc",
+    "bytes": 2414,
+    "compressed": 1275,
+    "crc32": "4b6f8347"
+  },
+  {
+    "path": "ultralytics/models/fastsam/__pycache__/predict.cpython-312.pyc",
+    "bytes": 10545,
+    "compressed": 5409,
+    "crc32": "d0d17bfb"
+  },
+  {
+    "path": "ultralytics/models/fastsam/__pycache__/predict.cpython-39.pyc",
+    "bytes": 6529,
+    "compressed": 3487,
+    "crc32": "050f7b8e"
+  },
+  {
+    "path": "ultralytics/models/fastsam/__pycache__/utils.cpython-312.pyc",
+    "bytes": 967,
+    "compressed": 582,
+    "crc32": "aadcd113"
+  },
+  {
+    "path": "ultralytics/models/fastsam/__pycache__/utils.cpython-39.pyc",
+    "bytes": 797,
+    "compressed": 469,
+    "crc32": "f90ca745"
+  },
+  {
+    "path": "ultralytics/models/fastsam/__pycache__/val.cpython-312.pyc",
+    "bytes": 2442,
+    "compressed": 1265,
+    "crc32": "06258e55"
+  },
+  {
+    "path": "ultralytics/models/fastsam/__pycache__/val.cpython-39.pyc",
+    "bytes": 2191,
+    "compressed": 1093,
+    "crc32": "78fe2833"
+  },
+  {
+    "path": "ultralytics/models/fastsam/model.py",
+    "bytes": 2008,
+    "compressed": 816,
+    "crc32": "23ee4158"
+  },
+  {
+    "path": "ultralytics/models/fastsam/predict.py",
+    "bytes": 7481,
+    "compressed": 2418,
+    "crc32": "c5aca0dd"
+  },
+  {
+    "path": "ultralytics/models/fastsam/utils.py",
+    "bytes": 714,
+    "compressed": 342,
+    "crc32": "8f2045e3"
+  },
+  {
+    "path": "ultralytics/models/fastsam/val.py",
+    "bytes": 1967,
+    "compressed": 799,
+    "crc32": "a03413d1"
+  },
+  {
+    "path": "ultralytics/models/nas/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/models/nas/__init__.py",
+    "bytes": 179,
+    "compressed": 120,
+    "crc32": "9cd19edd"
+  },
+  {
+    "path": "ultralytics/models/nas/__pycache__/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/models/nas/__pycache__/__init__.cpython-312.pyc",
+    "bytes": 324,
+    "compressed": 261,
+    "crc32": "792695b9"
+  },
+  {
+    "path": "ultralytics/models/nas/__pycache__/__init__.cpython-39.pyc",
+    "bytes": 308,
+    "compressed": 227,
+    "crc32": "ce8ccd26"
+  },
+  {
+    "path": "ultralytics/models/nas/__pycache__/model.cpython-312.pyc",
+    "bytes": 4820,
+    "compressed": 2455,
+    "crc32": "70caa0f3"
+  },
+  {
+    "path": "ultralytics/models/nas/__pycache__/model.cpython-39.pyc",
+    "bytes": 3663,
+    "compressed": 1886,
+    "crc32": "cf6b1750"
+  },
+  {
+    "path": "ultralytics/models/nas/__pycache__/predict.cpython-312.pyc",
+    "bytes": 3062,
+    "compressed": 1691,
+    "crc32": "1ebbcaa0"
+  },
+  {
+    "path": "ultralytics/models/nas/__pycache__/predict.cpython-39.pyc",
+    "bytes": 2184,
+    "compressed": 1233,
+    "crc32": "5dab8e6f"
+  },
+  {
+    "path": "ultralytics/models/nas/__pycache__/val.cpython-312.pyc",
+    "bytes": 2439,
+    "compressed": 1367,
+    "crc32": "9d0507b5"
+  },
+  {
+    "path": "ultralytics/models/nas/__pycache__/val.cpython-39.pyc",
+    "bytes": 1922,
+    "compressed": 1087,
+    "crc32": "9ada638f"
+  },
+  {
+    "path": "ultralytics/models/nas/model.py",
+    "bytes": 3234,
+    "compressed": 1214,
+    "crc32": "6509c94a"
+  },
+  {
+    "path": "ultralytics/models/nas/predict.py",
+    "bytes": 2096,
+    "compressed": 902,
+    "crc32": "cefdd200"
+  },
+  {
+    "path": "ultralytics/models/nas/val.py",
+    "bytes": 1695,
+    "compressed": 784,
+    "crc32": "f8db3c14"
+  },
+  {
+    "path": "ultralytics/models/rtdetr/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/models/rtdetr/__init__.py",
+    "bytes": 197,
+    "compressed": 124,
+    "crc32": "4fa33a38"
+  },
+  {
+    "path": "ultralytics/models/rtdetr/__pycache__/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/models/rtdetr/__pycache__/__init__.cpython-312.pyc",
+    "bytes": 336,
+    "compressed": 269,
+    "crc32": "ffda00b3"
+  },
+  {
+    "path": "ultralytics/models/rtdetr/__pycache__/__init__.cpython-39.pyc",
+    "bytes": 320,
+    "compressed": 237,
+    "crc32": "11f6665a"
+  },
+  {
+    "path": "ultralytics/models/rtdetr/__pycache__/model.cpython-312.pyc",
+    "bytes": 2521,
+    "compressed": 1394,
+    "crc32": "41dbdc93"
+  },
+  {
+    "path": "ultralytics/models/rtdetr/__pycache__/model.cpython-39.pyc",
+    "bytes": 2355,
+    "compressed": 1241,
+    "crc32": "04415dff"
+  },
+  {
+    "path": "ultralytics/models/rtdetr/__pycache__/predict.cpython-312.pyc",
+    "bytes": 4748,
+    "compressed": 2562,
+    "crc32": "e15f9698"
+  },
+  {
+    "path": "ultralytics/models/rtdetr/__pycache__/predict.cpython-39.pyc",
+    "bytes": 3739,
+    "compressed": 1977,
+    "crc32": "6193b3a7"
+  },
+  {
+    "path": "ultralytics/models/rtdetr/__pycache__/train.cpython-312.pyc",
+    "bytes": 5194,
+    "compressed": 2663,
+    "crc32": "9457399f"
+  },
+  {
+    "path": "ultralytics/models/rtdetr/__pycache__/train.cpython-39.pyc",
+    "bytes": 4096,
+    "compressed": 2061,
+    "crc32": "03b66faf"
+  },
+  {
+    "path": "ultralytics/models/rtdetr/__pycache__/val.cpython-312.pyc",
+    "bytes": 7124,
+    "compressed": 3748,
+    "crc32": "777cbb04"
+  },
+  {
+    "path": "ultralytics/models/rtdetr/__pycache__/val.cpython-39.pyc",
+    "bytes": 5176,
+    "compressed": 2715,
+    "crc32": "23749fcb"
+  },
+  {
+    "path": "ultralytics/models/rtdetr/model.py",
+    "bytes": 1988,
+    "compressed": 858,
+    "crc32": "d25ab274"
+  },
+  {
+    "path": "ultralytics/models/rtdetr/predict.py",
+    "bytes": 3568,
+    "compressed": 1454,
+    "crc32": "c62f3766"
+  },
+  {
+    "path": "ultralytics/models/rtdetr/train.py",
+    "bytes": 3847,
+    "compressed": 1470,
+    "crc32": "2fb2a3e9"
+  },
+  {
+    "path": "ultralytics/models/rtdetr/val.py",
+    "bytes": 5566,
+    "compressed": 2088,
+    "crc32": "707d047e"
+  },
+  {
+    "path": "ultralytics/models/sam/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/models/sam/__init__.py",
+    "bytes": 218,
+    "compressed": 142,
+    "crc32": "d0d1674e"
+  },
+  {
+    "path": "ultralytics/models/sam/__pycache__/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/models/sam/__pycache__/__init__.cpython-312.pyc",
+    "bytes": 341,
+    "compressed": 264,
+    "crc32": "f309a0bd"
+  },
+  {
+    "path": "ultralytics/models/sam/__pycache__/__init__.cpython-39.pyc",
+    "bytes": 323,
+    "compressed": 232,
+    "crc32": "d78729b4"
+  },
+  {
+    "path": "ultralytics/models/sam/__pycache__/amg.cpython-312.pyc",
+    "bytes": 13032,
+    "compressed": 6743,
+    "crc32": "3ae23010"
+  },
+  {
+    "path": "ultralytics/models/sam/__pycache__/amg.cpython-39.pyc",
+    "bytes": 8449,
+    "compressed": 4243,
+    "crc32": "83a0cebd"
+  },
+  {
+    "path": "ultralytics/models/sam/__pycache__/build.cpython-312.pyc",
+    "bytes": 11918,
+    "compressed": 5327,
+    "crc32": "46d6224a"
+  },
+  {
+    "path": "ultralytics/models/sam/__pycache__/build.cpython-39.pyc",
+    "bytes": 10120,
+    "compressed": 4190,
+    "crc32": "c0352efa"
+  },
+  {
+    "path": "ultralytics/models/sam/__pycache__/model.cpython-312.pyc",
+    "bytes": 8480,
+    "compressed": 3302,
+    "crc32": "a6090f95"
+  },
+  {
+    "path": "ultralytics/models/sam/__pycache__/model.cpython-39.pyc",
+    "bytes": 7885,
+    "compressed": 2865,
+    "crc32": "6aaa8403"
+  },
+  {
+    "path": "ultralytics/models/sam/__pycache__/predict.cpython-312.pyc",
+    "bytes": 80154,
+    "compressed": 29522,
+    "crc32": "21f1631e"
+  },
+  {
+    "path": "ultralytics/models/sam/__pycache__/predict.cpython-39.pyc",
+    "bytes": 60969,
+    "compressed": 20486,
+    "crc32": "90649a7d"
+  },
+  {
+    "path": "ultralytics/models/sam/amg.py",
+    "bytes": 8709,
+    "compressed": 3004,
+    "crc32": "42af4df2"
+  },
+  {
+    "path": "ultralytics/models/sam/build.py",
+    "bytes": 12487,
+    "compressed": 3074,
+    "crc32": "8e429321"
+  },
+  {
+    "path": "ultralytics/models/sam/model.py",
+    "bytes": 7382,
+    "compressed": 2170,
+    "crc32": "d9b77549"
+  },
+  {
+    "path": "ultralytics/models/sam/modules/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/models/sam/modules/__init__.py",
+    "bytes": 42,
+    "compressed": 44,
+    "crc32": "a404a671"
+  },
+  {
+    "path": "ultralytics/models/sam/modules/__pycache__/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/models/sam/modules/__pycache__/__init__.cpython-312.pyc",
+    "bytes": 173,
+    "compressed": 136,
+    "crc32": "fc8a443c"
+  },
+  {
+    "path": "ultralytics/models/sam/modules/__pycache__/__init__.cpython-39.pyc",
+    "bytes": 167,
+    "compressed": 126,
+    "crc32": "451e7887"
+  },
+  {
+    "path": "ultralytics/models/sam/modules/__pycache__/blocks.cpython-312.pyc",
+    "bytes": 58543,
+    "compressed": 19887,
+    "crc32": "3d601bf4"
+  },
+  {
+    "path": "ultralytics/models/sam/modules/__pycache__/blocks.cpython-39.pyc",
+    "bytes": 43207,
+    "compressed": 13873,
+    "crc32": "f84677d4"
+  },
+  {
+    "path": "ultralytics/models/sam/modules/__pycache__/decoders.cpython-312.pyc",
+    "bytes": 26998,
+    "compressed": 8896,
+    "crc32": "ba1b2d04"
+  },
+  {
+    "path": "ultralytics/models/sam/modules/__pycache__/decoders.cpython-39.pyc",
+    "bytes": 19861,
+    "compressed": 6134,
+    "crc32": "e5ab5f54"
+  },
+  {
+    "path": "ultralytics/models/sam/modules/__pycache__/encoders.cpython-312.pyc",
+    "bytes": 40390,
+    "compressed": 14917,
+    "crc32": "c90061f2"
+  },
+  {
+    "path": "ultralytics/models/sam/modules/__pycache__/encoders.cpython-39.pyc",
+    "bytes": 30215,
+    "compressed": 10354,
+    "crc32": "4c44f785"
+  },
+  {
+    "path": "ultralytics/models/sam/modules/__pycache__/memory_attention.cpython-312.pyc",
+    "bytes": 11296,
+    "compressed": 4636,
+    "crc32": "acc0195b"
+  },
+  {
+    "path": "ultralytics/models/sam/modules/__pycache__/memory_attention.cpython-39.pyc",
+    "bytes": 8421,
+    "compressed": 3361,
+    "crc32": "136ec94a"
+  },
+  {
+    "path": "ultralytics/models/sam/modules/__pycache__/sam.cpython-312.pyc",
+    "bytes": 42328,
+    "compressed": 17687,
+    "crc32": "30af5866"
+  },
+  {
+    "path": "ultralytics/models/sam/modules/__pycache__/sam.cpython-39.pyc",
+    "bytes": 29314,
+    "compressed": 11674,
+    "crc32": "31d7661c"
+  },
+  {
+    "path": "ultralytics/models/sam/modules/__pycache__/tiny_encoder.cpython-312.pyc",
+    "bytes": 49706,
+    "compressed": 17040,
+    "crc32": "53e64684"
+  },
+  {
+    "path": "ultralytics/models/sam/modules/__pycache__/tiny_encoder.cpython-39.pyc",
+    "bytes": 37520,
+    "compressed": 12151,
+    "crc32": "4bfdab92"
+  },
+  {
+    "path": "ultralytics/models/sam/modules/__pycache__/transformer.cpython-312.pyc",
+    "bytes": 17988,
+    "compressed": 5861,
+    "crc32": "14a1a73a"
+  },
+  {
+    "path": "ultralytics/models/sam/modules/__pycache__/transformer.cpython-39.pyc",
+    "bytes": 14353,
+    "compressed": 4293,
+    "crc32": "f2d1d490"
+  },
+  {
+    "path": "ultralytics/models/sam/modules/__pycache__/utils.cpython-312.pyc",
+    "bytes": 17027,
+    "compressed": 7488,
+    "crc32": "14b02bd9"
+  },
+  {
+    "path": "ultralytics/models/sam/modules/__pycache__/utils.cpython-39.pyc",
+    "bytes": 11820,
+    "compressed": 4986,
+    "crc32": "07a98c0c"
+  },
+  {
+    "path": "ultralytics/models/sam/modules/blocks.py",
+    "bytes": 45919,
+    "compressed": 10047,
+    "crc32": "c654d8bf"
+  },
+  {
+    "path": "ultralytics/models/sam/modules/decoders.py",
+    "bytes": 25830,
+    "compressed": 4652,
+    "crc32": "32bc9af0"
+  },
+  {
+    "path": "ultralytics/models/sam/modules/encoders.py",
+    "bytes": 34824,
+    "compressed": 7928,
+    "crc32": "b3f3fb79"
+  },
+  {
+    "path": "ultralytics/models/sam/modules/memory_attention.py",
+    "bytes": 9722,
+    "compressed": 2425,
+    "crc32": "4d28cfd4"
+  },
+  {
+    "path": "ultralytics/models/sam/modules/sam.py",
+    "bytes": 52685,
+    "compressed": 12270,
+    "crc32": "6b46a863"
+  },
+  {
+    "path": "ultralytics/models/sam/modules/tiny_encoder.py",
+    "bytes": 41332,
+    "compressed": 8855,
+    "crc32": "a257f5a7"
+  },
+  {
+    "path": "ultralytics/models/sam/modules/transformer.py",
+    "bytes": 16081,
+    "compressed": 3255,
+    "crc32": "d4446fce"
+  },
+  {
+    "path": "ultralytics/models/sam/modules/utils.py",
+    "bytes": 12315,
+    "compressed": 3680,
+    "crc32": "18b3daca"
+  },
+  {
+    "path": "ultralytics/models/sam/predict.py",
+    "bytes": 82536,
+    "compressed": 18395,
+    "crc32": "c4e3a81a"
+  },
+  {
+    "path": "ultralytics/models/utils/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/models/utils/__init__.py",
+    "bytes": 42,
+    "compressed": 44,
+    "crc32": "a404a671"
+  },
+  {
+    "path": "ultralytics/models/utils/loss.py",
+    "bytes": 15840,
+    "compressed": 4198,
+    "crc32": "aac9652f"
+  },
+  {
+    "path": "ultralytics/models/utils/ops.py",
+    "bytes": 13221,
+    "compressed": 4059,
+    "crc32": "93322f6d"
+  },
+  {
+    "path": "ultralytics/models/yolo/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/models/yolo/__init__.py",
+    "bytes": 247,
+    "compressed": 166,
+    "crc32": "3547c40d"
+  },
+  {
+    "path": "ultralytics/models/yolo/__pycache__/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/models/yolo/__pycache__/__init__.cpython-312.pyc",
+    "bytes": 431,
+    "compressed": 318,
+    "crc32": "c0152f09"
+  },
+  {
+    "path": "ultralytics/models/yolo/__pycache__/__init__.cpython-39.pyc",
+    "bytes": 412,
+    "compressed": 289,
+    "crc32": "387c12d5"
+  },
+  {
+    "path": "ultralytics/models/yolo/__pycache__/model.cpython-312.pyc",
+    "bytes": 5462,
+    "compressed": 2541,
+    "crc32": "dc28acee"
+  },
+  {
+    "path": "ultralytics/models/yolo/__pycache__/model.cpython-39.pyc",
+    "bytes": 3608,
+    "compressed": 1844,
+    "crc32": "2bd992d8"
+  },
+  {
+    "path": "ultralytics/models/yolo/classify/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/models/yolo/classify/__init__.py",
+    "bytes": 355,
+    "compressed": 159,
+    "crc32": "7e3a50aa"
+  },
+  {
+    "path": "ultralytics/models/yolo/classify/__pycache__/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/models/yolo/classify/__pycache__/__init__.cpython-312.pyc",
+    "bytes": 474,
+    "compressed": 301,
+    "crc32": "c56097d8"
+  },
+  {
+    "path": "ultralytics/models/yolo/classify/__pycache__/__init__.cpython-39.pyc",
+    "bytes": 457,
+    "compressed": 269,
+    "crc32": "349ddeb0"
+  },
+  {
+    "path": "ultralytics/models/yolo/classify/__pycache__/predict.cpython-312.pyc",
+    "bytes": 4168,
+    "compressed": 2289,
+    "crc32": "d9aaa1d3"
+  },
+  {
+    "path": "ultralytics/models/yolo/classify/__pycache__/predict.cpython-39.pyc",
+    "bytes": 3167,
+    "compressed": 1646,
+    "crc32": "d1bffc8c"
+  },
+  {
+    "path": "ultralytics/models/yolo/classify/__pycache__/train.cpython-312.pyc",
+    "bytes": 9564,
+    "compressed": 4829,
+    "crc32": "77d73c56"
+  },
+  {
+    "path": "ultralytics/models/yolo/classify/__pycache__/train.cpython-39.pyc",
+    "bytes": 6605,
+    "compressed": 3389,
+    "crc32": "fca07256"
+  },
+  {
+    "path": "ultralytics/models/yolo/classify/__pycache__/val.cpython-312.pyc",
+    "bytes": 8530,
+    "compressed": 3871,
+    "crc32": "b757489b"
+  },
+  {
+    "path": "ultralytics/models/yolo/classify/__pycache__/val.cpython-39.pyc",
+    "bytes": 5745,
+    "compressed": 2665,
+    "crc32": "4de7f090"
+  },
+  {
+    "path": "ultralytics/models/yolo/classify/predict.py",
+    "bytes": 2516,
+    "compressed": 998,
+    "crc32": "03924d51"
+  },
+  {
+    "path": "ultralytics/models/yolo/classify/train.py",
+    "bytes": 6273,
+    "compressed": 2196,
+    "crc32": "15a1a04a"
+  },
+  {
+    "path": "ultralytics/models/yolo/classify/val.py",
+    "bytes": 5074,
+    "compressed": 1701,
+    "crc32": "b9089468"
+  },
+  {
+    "path": "ultralytics/models/yolo/detect/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/models/yolo/detect/__init__.py",
+    "bytes": 229,
+    "compressed": 134,
+    "crc32": "487bb514"
+  },
+  {
+    "path": "ultralytics/models/yolo/detect/__pycache__/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/models/yolo/detect/__pycache__/__init__.cpython-312.pyc",
+    "bytes": 357,
+    "compressed": 274,
+    "crc32": "1b577a21"
+  },
+  {
+    "path": "ultralytics/models/yolo/detect/__pycache__/__init__.cpython-39.pyc",
+    "bytes": 341,
+    "compressed": 245,
+    "crc32": "c760a165"
+  },
+  {
+    "path": "ultralytics/models/yolo/detect/__pycache__/predict.cpython-312.pyc",
+    "bytes": 2333,
+    "compressed": 1291,
+    "crc32": "2f366cb5"
+  },
+  {
+    "path": "ultralytics/models/yolo/detect/__pycache__/predict.cpython-39.pyc",
+    "bytes": 1618,
+    "compressed": 933,
+    "crc32": "331b425d"
+  },
+  {
+    "path": "ultralytics/models/yolo/detect/__pycache__/train.cpython-312.pyc",
+    "bytes": 9984,
+    "compressed": 5264,
+    "crc32": "a9b688d4"
+  },
+  {
+    "path": "ultralytics/models/yolo/detect/__pycache__/train.cpython-39.pyc",
+    "bytes": 7318,
+    "compressed": 3720,
+    "crc32": "44f91b4c"
+  },
+  {
+    "path": "ultralytics/models/yolo/detect/__pycache__/val.cpython-312.pyc",
+    "bytes": 22745,
+    "compressed": 10834,
+    "crc32": "6da9a7b2"
+  },
+  {
+    "path": "ultralytics/models/yolo/detect/__pycache__/val.cpython-39.pyc",
+    "bytes": 13524,
+    "compressed": 6880,
+    "crc32": "e67022bb"
+  },
+  {
+    "path": "ultralytics/models/yolo/detect/predict.py",
+    "bytes": 1471,
+    "compressed": 623,
+    "crc32": "c474aadc"
+  },
+  {
+    "path": "ultralytics/models/yolo/detect/train.py",
+    "bytes": 6710,
+    "compressed": 2445,
+    "crc32": "cd8c8082"
+  },
+  {
+    "path": "ultralytics/models/yolo/detect/val.py",
+    "bytes": 15144,
+    "compressed": 4675,
+    "crc32": "6bd4c732"
+  },
+  {
+    "path": "ultralytics/models/yolo/model.py",
+    "bytes": 4233,
+    "compressed": 1220,
+    "crc32": "99b7e7dc"
+  },
+  {
+    "path": "ultralytics/models/yolo/obb/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/models/yolo/obb/__init__.py",
+    "bytes": 193,
+    "compressed": 127,
+    "crc32": "2dd53bb6"
+  },
+  {
+    "path": "ultralytics/models/yolo/obb/__pycache__/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/models/yolo/obb/__pycache__/__init__.cpython-312.pyc",
+    "bytes": 336,
+    "compressed": 271,
+    "crc32": "61c8e5a2"
+  },
+  {
+    "path": "ultralytics/models/yolo/obb/__pycache__/__init__.cpython-39.pyc",
+    "bytes": 320,
+    "compressed": 240,
+    "crc32": "45f46064"
+  },
+  {
+    "path": "ultralytics/models/yolo/obb/__pycache__/predict.cpython-312.pyc",
+    "bytes": 3264,
+    "compressed": 1830,
+    "crc32": "a3f4f3de"
+  },
+  {
+    "path": "ultralytics/models/yolo/obb/__pycache__/predict.cpython-39.pyc",
+    "bytes": 2194,
+    "compressed": 1265,
+    "crc32": "a66b0296"
+  },
+  {
+    "path": "ultralytics/models/yolo/obb/__pycache__/train.cpython-312.pyc",
+    "bytes": 2358,
+    "compressed": 1421,
+    "crc32": "8f23a170"
+  },
+  {
+    "path": "ultralytics/models/yolo/obb/__pycache__/train.cpython-39.pyc",
+    "bytes": 1895,
+    "compressed": 1115,
+    "crc32": "eedd9c4a"
+  },
+  {
+    "path": "ultralytics/models/yolo/obb/__pycache__/val.cpython-312.pyc",
+    "bytes": 13793,
+    "compressed": 7029,
+    "crc32": "ae2dc25c"
+  },
+  {
+    "path": "ultralytics/models/yolo/obb/__pycache__/val.cpython-39.pyc",
+    "bytes": 9148,
+    "compressed": 4464,
+    "crc32": "a8a3f9a9"
+  },
+  {
+    "path": "ultralytics/models/yolo/obb/predict.py",
+    "bytes": 2037,
+    "compressed": 862,
+    "crc32": "6d77b8a9"
+  },
+  {
+    "path": "ultralytics/models/yolo/obb/train.py",
+    "bytes": 1473,
+    "compressed": 675,
+    "crc32": "1b32d25b"
+  },
+  {
+    "path": "ultralytics/models/yolo/obb/val.py",
+    "bytes": 9329,
+    "compressed": 3040,
+    "crc32": "f110372e"
+  },
+  {
+    "path": "ultralytics/models/yolo/pose/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/models/yolo/pose/__init__.py",
+    "bytes": 199,
+    "compressed": 128,
+    "crc32": "97ec40e3"
+  },
+  {
+    "path": "ultralytics/models/yolo/pose/__pycache__/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/models/yolo/pose/__pycache__/__init__.cpython-312.pyc",
+    "bytes": 340,
+    "compressed": 268,
+    "crc32": "8879f7c9"
+  },
+  {
+    "path": "ultralytics/models/yolo/pose/__pycache__/__init__.cpython-39.pyc",
+    "bytes": 324,
+    "compressed": 240,
+    "crc32": "51b9d456"
+  },
+  {
+    "path": "ultralytics/models/yolo/pose/__pycache__/predict.cpython-312.pyc",
+    "bytes": 3860,
+    "compressed": 2134,
+    "crc32": "7305ce0c"
+  },
+  {
+    "path": "ultralytics/models/yolo/pose/__pycache__/predict.cpython-39.pyc",
+    "bytes": 2446,
+    "compressed": 1439,
+    "crc32": "ee0a6bda"
+  },
+  {
+    "path": "ultralytics/models/yolo/pose/__pycache__/train.cpython-312.pyc",
+    "bytes": 4380,
+    "compressed": 2465,
+    "crc32": "b20351dc"
+  },
+  {
+    "path": "ultralytics/models/yolo/pose/__pycache__/train.cpython-39.pyc",
+    "bytes": 3302,
+    "compressed": 1824,
+    "crc32": "615bcd5b"
+  },
+  {
+    "path": "ultralytics/models/yolo/pose/__pycache__/val.cpython-312.pyc",
+    "bytes": 17070,
+    "compressed": 8362,
+    "crc32": "a05d157b"
+  },
+  {
+    "path": "ultralytics/models/yolo/pose/__pycache__/val.cpython-39.pyc",
+    "bytes": 11232,
+    "compressed": 5586,
+    "crc32": "b4c8a993"
+  },
+  {
+    "path": "ultralytics/models/yolo/pose/predict.py",
+    "bytes": 2365,
+    "compressed": 992,
+    "crc32": "ad8275f7"
+  },
+  {
+    "path": "ultralytics/models/yolo/pose/train.py",
+    "bytes": 2926,
+    "compressed": 1164,
+    "crc32": "4b586ed6"
+  },
+  {
+    "path": "ultralytics/models/yolo/pose/val.py",
+    "bytes": 12382,
+    "compressed": 3788,
+    "crc32": "7e27d050"
+  },
+  {
+    "path": "ultralytics/models/yolo/segment/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/models/yolo/segment/__init__.py",
+    "bytes": 247,
+    "compressed": 137,
+    "crc32": "1ca238ec"
+  },
+  {
+    "path": "ultralytics/models/yolo/segment/__pycache__/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/models/yolo/segment/__pycache__/__init__.cpython-312.pyc",
+    "bytes": 367,
+    "compressed": 275,
+    "crc32": "3eb2ee54"
+  },
+  {
+    "path": "ultralytics/models/yolo/segment/__pycache__/__init__.cpython-39.pyc",
+    "bytes": 351,
+    "compressed": 247,
+    "crc32": "5984aad9"
+  },
+  {
+    "path": "ultralytics/models/yolo/segment/__pycache__/predict.cpython-312.pyc",
+    "bytes": 3916,
+    "compressed": 2036,
+    "crc32": "7b86a879"
+  },
+  {
+    "path": "ultralytics/models/yolo/segment/__pycache__/predict.cpython-39.pyc",
+    "bytes": 2494,
+    "compressed": 1344,
+    "crc32": "e7f66151"
+  },
+  {
+    "path": "ultralytics/models/yolo/segment/__pycache__/train.cpython-312.pyc",
+    "bytes": 3497,
+    "compressed": 1942,
+    "crc32": "6619f878"
+  },
+  {
+    "path": "ultralytics/models/yolo/segment/__pycache__/train.cpython-39.pyc",
+    "bytes": 2777,
+    "compressed": 1483,
+    "crc32": "03edcacd"
+  },
+  {
+    "path": "ultralytics/models/yolo/segment/__pycache__/val.cpython-312.pyc",
+    "bytes": 19567,
+    "compressed": 9502,
+    "crc32": "b7eaccab"
+  },
+  {
+    "path": "ultralytics/models/yolo/segment/__pycache__/val.cpython-39.pyc",
+    "bytes": 12425,
+    "compressed": 6175,
+    "crc32": "ade6724b"
+  },
+  {
+    "path": "ultralytics/models/yolo/segment/predict.py",
+    "bytes": 2468,
+    "compressed": 951,
+    "crc32": "febfb312"
+  },
+  {
+    "path": "ultralytics/models/yolo/segment/train.py",
+    "bytes": 2298,
+    "compressed": 908,
+    "crc32": "6fb8c33c"
+  },
+  {
+    "path": "ultralytics/models/yolo/segment/val.py",
+    "bytes": 14052,
+    "compressed": 4319,
+    "crc32": "be3b9f30"
+  },
+  {
+    "path": "ultralytics/models/yolo/world/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/models/yolo/world/__init__.py",
+    "bytes": 103,
+    "compressed": 92,
+    "crc32": "19bc770d"
+  },
+  {
+    "path": "ultralytics/models/yolo/world/__pycache__/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/models/yolo/world/__pycache__/__init__.cpython-312.pyc",
+    "bytes": 247,
+    "compressed": 212,
+    "crc32": "94720474"
+  },
+  {
+    "path": "ultralytics/models/yolo/world/__pycache__/__init__.cpython-39.pyc",
+    "bytes": 230,
+    "compressed": 187,
+    "crc32": "1e1719e7"
+  },
+  {
+    "path": "ultralytics/models/yolo/world/__pycache__/train.cpython-312.pyc",
+    "bytes": 5633,
+    "compressed": 3183,
+    "crc32": "cc2ed149"
+  },
+  {
+    "path": "ultralytics/models/yolo/world/__pycache__/train.cpython-39.pyc",
+    "bytes": 3826,
+    "compressed": 2213,
+    "crc32": "4345baf7"
+  },
+  {
+    "path": "ultralytics/models/yolo/world/train.py",
+    "bytes": 3686,
+    "compressed": 1552,
+    "crc32": "20c33308"
+  },
+  {
+    "path": "ultralytics/models/yolo/world/train_world.py",
+    "bytes": 4857,
+    "compressed": 1668,
+    "crc32": "3ce7d26a"
+  },
+  {
+    "path": "ultralytics/nn/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/nn/__init__.py",
+    "bytes": 587,
+    "compressed": 241,
+    "crc32": "25798fef"
+  },
+  {
+    "path": "ultralytics/nn/__pycache__/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/nn/__pycache__/__init__.cpython-312.pyc",
+    "bytes": 570,
+    "compressed": 381,
+    "crc32": "7dbac5da"
+  },
+  {
+    "path": "ultralytics/nn/__pycache__/__init__.cpython-39.pyc",
+    "bytes": 539,
+    "compressed": 348,
+    "crc32": "5d7e6dfa"
+  },
+  {
+    "path": "ultralytics/nn/__pycache__/autobackend.cpython-312.pyc",
+    "bytes": 43703,
+    "compressed": 20345,
+    "crc32": "63b38f9c"
+  },
+  {
+    "path": "ultralytics/nn/__pycache__/autobackend.cpython-39.pyc",
+    "bytes": 23792,
+    "compressed": 12299,
+    "crc32": "e50e6db5"
+  },
+  {
+    "path": "ultralytics/nn/__pycache__/tasks.cpython-312.pyc",
+    "bytes": 66446,
+    "compressed": 28666,
+    "crc32": "f9d23148"
+  },
+  {
+    "path": "ultralytics/nn/__pycache__/tasks.cpython-39.pyc",
+    "bytes": 44105,
+    "compressed": 18772,
+    "crc32": "b5ba66e4"
+  },
+  {
+    "path": "ultralytics/nn/autobackend.py",
+    "bytes": 35606,
+    "compressed": 10416,
+    "crc32": "a87573d8"
+  },
+  {
+    "path": "ultralytics/nn/modules/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/nn/modules/__init__.py",
+    "bytes": 2625,
+    "compressed": 921,
+    "crc32": "00ff6a65"
+  },
+  {
+    "path": "ultralytics/nn/modules/__pycache__/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/nn/modules/__pycache__/__init__.cpython-312.pyc",
+    "bytes": 2432,
+    "compressed": 1378,
+    "crc32": "a107398b"
+  },
+  {
+    "path": "ultralytics/nn/modules/__pycache__/__init__.cpython-39.pyc",
+    "bytes": 2325,
+    "compressed": 1318,
+    "crc32": "b9a39567"
+  },
+  {
+    "path": "ultralytics/nn/modules/__pycache__/block.cpython-312.pyc",
+    "bytes": 77245,
+    "compressed": 24355,
+    "crc32": "5a9828d6"
+  },
+  {
+    "path": "ultralytics/nn/modules/__pycache__/block.cpython-39.pyc",
+    "bytes": 51176,
+    "compressed": 16086,
+    "crc32": "7b1cb413"
+  },
+  {
+    "path": "ultralytics/nn/modules/__pycache__/conv.cpython-312.pyc",
+    "bytes": 22466,
+    "compressed": 8958,
+    "crc32": "397607de"
+  },
+  {
+    "path": "ultralytics/nn/modules/__pycache__/conv.cpython-39.pyc",
+    "bytes": 14622,
+    "compressed": 5912,
+    "crc32": "d759db66"
+  },
+  {
+    "path": "ultralytics/nn/modules/__pycache__/head.cpython-312.pyc",
+    "bytes": 43397,
+    "compressed": 17415,
+    "crc32": "eaa7caba"
+  },
+  {
+    "path": "ultralytics/nn/modules/__pycache__/head.cpython-39.pyc",
+    "bytes": 24586,
+    "compressed": 10568,
+    "crc32": "33c84555"
+  },
+  {
+    "path": "ultralytics/nn/modules/__pycache__/transformer.cpython-312.pyc",
+    "bytes": 28915,
+    "compressed": 11849,
+    "crc32": "da75e295"
+  },
+  {
+    "path": "ultralytics/nn/modules/__pycache__/transformer.cpython-39.pyc",
+    "bytes": 17150,
+    "compressed": 7363,
+    "crc32": "09026d85"
+  },
+  {
+    "path": "ultralytics/nn/modules/__pycache__/utils.cpython-312.pyc",
+    "bytes": 4415,
+    "compressed": 2583,
+    "crc32": "13528019"
+  },
+  {
+    "path": "ultralytics/nn/modules/__pycache__/utils.cpython-39.pyc",
+    "bytes": 2929,
+    "compressed": 1726,
+    "crc32": "4664a8f0"
+  },
+  {
+    "path": "ultralytics/nn/modules/activation.py",
+    "bytes": 895,
+    "compressed": 427,
+    "crc32": "59654071"
+  },
+  {
+    "path": "ultralytics/nn/modules/block.py",
+    "bytes": 41851,
+    "compressed": 8567,
+    "crc32": "f7044871"
+  },
+  {
+    "path": "ultralytics/nn/modules/conv.py",
+    "bytes": 12724,
+    "compressed": 3360,
+    "crc32": "8055f2e1"
+  },
+  {
+    "path": "ultralytics/nn/modules/head.py",
+    "bytes": 27934,
+    "compressed": 7211,
+    "crc32": "7d4ab590"
+  },
+  {
+    "path": "ultralytics/nn/modules/transformer.py",
+    "bytes": 18069,
+    "compressed": 4632,
+    "crc32": "55df11af"
+  },
+  {
+    "path": "ultralytics/nn/modules/utils.py",
+    "bytes": 3195,
+    "compressed": 1143,
+    "crc32": "23663431"
+  },
+  {
+    "path": "ultralytics/nn/tasks.py",
+    "bytes": 48527,
+    "compressed": 12869,
+    "crc32": "65a6c9ef"
+  },
+  {
+    "path": "ultralytics/solutions/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/solutions/__init__.py",
+    "bytes": 761,
+    "compressed": 313,
+    "crc32": "e69ef128"
+  },
+  {
+    "path": "ultralytics/solutions/ai_gym.py",
+    "bytes": 5255,
+    "compressed": 1777,
+    "crc32": "5d049afe"
+  },
+  {
+    "path": "ultralytics/solutions/analytics.py",
+    "bytes": 11535,
+    "compressed": 3431,
+    "crc32": "12453452"
+  },
+  {
+    "path": "ultralytics/solutions/distance_calculation.py",
+    "bytes": 5461,
+    "compressed": 1807,
+    "crc32": "77c5e892"
+  },
+  {
+    "path": "ultralytics/solutions/heatmap.py",
+    "bytes": 5275,
+    "compressed": 1928,
+    "crc32": "0549b057"
+  },
+  {
+    "path": "ultralytics/solutions/object_counter.py",
+    "bytes": 9613,
+    "compressed": 2647,
+    "crc32": "f283a17e"
+  },
+  {
+    "path": "ultralytics/solutions/parking_management.py",
+    "bytes": 11198,
+    "compressed": 3573,
+    "crc32": "453d5588"
+  },
+  {
+    "path": "ultralytics/solutions/queue_management.py",
+    "bytes": 4931,
+    "compressed": 1708,
+    "crc32": "d817bfbc"
+  },
+  {
+    "path": "ultralytics/solutions/region_counter.py",
+    "bytes": 4947,
+    "compressed": 1691,
+    "crc32": "e4f1e634"
+  },
+  {
+    "path": "ultralytics/solutions/solutions.py",
+    "bytes": 7502,
+    "compressed": 2520,
+    "crc32": "65ae2881"
+  },
+  {
+    "path": "ultralytics/solutions/speed_estimation.py",
+    "bytes": 4936,
+    "compressed": 1634,
+    "crc32": "5a5ccff8"
+  },
+  {
+    "path": "ultralytics/solutions/streamlit_inference.py",
+    "bytes": 5701,
+    "compressed": 2213,
+    "crc32": "732cbce0"
+  },
+  {
+    "path": "ultralytics/solutions/trackzone.py",
+    "bytes": 2952,
+    "compressed": 1194,
+    "crc32": "b8f2b465"
+  },
+  {
+    "path": "ultralytics/trackers/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/trackers/__init__.py",
+    "bytes": 227,
+    "compressed": 150,
+    "crc32": "b19c0043"
+  },
+  {
+    "path": "ultralytics/trackers/basetrack.py",
+    "bytes": 4423,
+    "compressed": 1410,
+    "crc32": "5be090d1"
+  },
+  {
+    "path": "ultralytics/trackers/bot_sort.py",
+    "bytes": 10494,
+    "compressed": 2901,
+    "crc32": "383416f9"
+  },
+  {
+    "path": "ultralytics/trackers/byte_tracker.py",
+    "bytes": 20818,
+    "compressed": 5200,
+    "crc32": "439ed891"
+  },
+  {
+    "path": "ultralytics/trackers/README.md",
+    "bytes": 13532,
+    "compressed": 4496,
+    "crc32": "73080fd2"
+  },
+  {
+    "path": "ultralytics/trackers/track.py",
+    "bytes": 3874,
+    "compressed": 1266,
+    "crc32": "d14c01b5"
+  },
+  {
+    "path": "ultralytics/trackers/utils/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/trackers/utils/__init__.py",
+    "bytes": 42,
+    "compressed": 44,
+    "crc32": "a404a671"
+  },
+  {
+    "path": "ultralytics/trackers/utils/gmc.py",
+    "bytes": 14557,
+    "compressed": 3423,
+    "crc32": "ca8ed6d9"
+  },
+  {
+    "path": "ultralytics/trackers/utils/kalman_filter.py",
+    "bytes": 21349,
+    "compressed": 3290,
+    "crc32": "cc5dafca"
+  },
+  {
+    "path": "ultralytics/trackers/utils/matching.py",
+    "bytes": 7078,
+    "compressed": 2067,
+    "crc32": "c7d65037"
+  },
+  {
+    "path": "ultralytics/utils/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/utils/__init__.py",
+    "bytes": 49203,
+    "compressed": 14985,
+    "crc32": "0421e510"
+  },
+  {
+    "path": "ultralytics/utils/__pycache__/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/utils/__pycache__/__init__.cpython-312.pyc",
+    "bytes": 64423,
+    "compressed": 28099,
+    "crc32": "73a668cd"
+  },
+  {
+    "path": "ultralytics/utils/__pycache__/__init__.cpython-39.pyc",
+    "bytes": 48072,
+    "compressed": 19940,
+    "crc32": "f7dcf01f"
+  },
+  {
+    "path": "ultralytics/utils/__pycache__/autobatch.cpython-312.pyc",
+    "bytes": 6367,
+    "compressed": 3363,
+    "crc32": "c2ea2e4f"
+  },
+  {
+    "path": "ultralytics/utils/__pycache__/autobatch.cpython-39.pyc",
+    "bytes": 4456,
+    "compressed": 2371,
+    "crc32": "bb6fc67c"
+  },
+  {
+    "path": "ultralytics/utils/__pycache__/checks.cpython-312.pyc",
+    "bytes": 39032,
+    "compressed": 19181,
+    "crc32": "d2156f25"
+  },
+  {
+    "path": "ultralytics/utils/__pycache__/checks.cpython-39.pyc",
+    "bytes": 26634,
+    "compressed": 12855,
+    "crc32": "69cc3b62"
+  },
+  {
+    "path": "ultralytics/utils/__pycache__/dist.cpython-312.pyc",
+    "bytes": 3718,
+    "compressed": 2240,
+    "crc32": "b56387fa"
+  },
+  {
+    "path": "ultralytics/utils/__pycache__/dist.cpython-39.pyc",
+    "bytes": 2546,
+    "compressed": 1609,
+    "crc32": "5ca715c6"
+  },
+  {
+    "path": "ultralytics/utils/__pycache__/downloads.cpython-312.pyc",
+    "bytes": 27248,
+    "compressed": 12843,
+    "crc32": "e7a240ea"
+  },
+  {
+    "path": "ultralytics/utils/__pycache__/downloads.cpython-39.pyc",
+    "bytes": 20461,
+    "compressed": 8597,
+    "crc32": "be2eb9e2"
+  },
+  {
+    "path": "ultralytics/utils/__pycache__/errors.cpython-312.pyc",
+    "bytes": 1291,
+    "compressed": 775,
+    "crc32": "036ae306"
+  },
+  {
+    "path": "ultralytics/utils/__pycache__/errors.cpython-39.pyc",
+    "bytes": 1195,
+    "compressed": 685,
+    "crc32": "a0aa7b41"
+  },
+  {
+    "path": "ultralytics/utils/__pycache__/files.cpython-312.pyc",
+    "bytes": 10735,
+    "compressed": 4865,
+    "crc32": "60a297e5"
+  },
+  {
+    "path": "ultralytics/utils/__pycache__/files.cpython-39.pyc",
+    "bytes": 7908,
+    "compressed": 3504,
+    "crc32": "2e1687ac"
+  },
+  {
+    "path": "ultralytics/utils/__pycache__/instance.cpython-312.pyc",
+    "bytes": 22194,
+    "compressed": 8018,
+    "crc32": "4492cf97"
+  },
+  {
+    "path": "ultralytics/utils/__pycache__/instance.cpython-39.pyc",
+    "bytes": 15563,
+    "compressed": 5570,
+    "crc32": "9a3ed3e4"
+  },
+  {
+    "path": "ultralytics/utils/__pycache__/loss.cpython-312.pyc",
+    "bytes": 45001,
+    "compressed": 16987,
+    "crc32": "4bcee683"
+  },
+  {
+    "path": "ultralytics/utils/__pycache__/loss.cpython-39.pyc",
+    "bytes": 25628,
+    "compressed": 10733,
+    "crc32": "626773d3"
+  },
+  {
+    "path": "ultralytics/utils/__pycache__/metrics.cpython-312.pyc",
+    "bytes": 71260,
+    "compressed": 24080,
+    "crc32": "82db75f3"
+  },
+  {
+    "path": "ultralytics/utils/__pycache__/metrics.cpython-39.pyc",
+    "bytes": 49332,
+    "compressed": 16025,
+    "crc32": "34f1d54b"
+  },
+  {
+    "path": "ultralytics/utils/__pycache__/ops.cpython-312.pyc",
+    "bytes": 42443,
+    "compressed": 16756,
+    "crc32": "a565b65a"
+  },
+  {
+    "path": "ultralytics/utils/__pycache__/ops.cpython-39.pyc",
+    "bytes": 29779,
+    "compressed": 11382,
+    "crc32": "be99aa12"
+  },
+  {
+    "path": "ultralytics/utils/__pycache__/patches.cpython-312.pyc",
+    "bytes": 4044,
+    "compressed": 2196,
+    "crc32": "2b007530"
+  },
+  {
+    "path": "ultralytics/utils/__pycache__/patches.cpython-39.pyc",
+    "bytes": 3220,
+    "compressed": 1704,
+    "crc32": "374c1405"
+  },
+  {
+    "path": "ultralytics/utils/__pycache__/plotting.cpython-312.pyc",
+    "bytes": 81318,
+    "compressed": 33057,
+    "crc32": "f64721e9"
+  },
+  {
+    "path": "ultralytics/utils/__pycache__/plotting.cpython-39.pyc",
+    "bytes": 52512,
+    "compressed": 21215,
+    "crc32": "400610c4"
+  },
+  {
+    "path": "ultralytics/utils/__pycache__/tal.cpython-312.pyc",
+    "bytes": 22220,
+    "compressed": 9538,
+    "crc32": "d2d1ca91"
+  },
+  {
+    "path": "ultralytics/utils/__pycache__/tal.cpython-39.pyc",
+    "bytes": 14742,
+    "compressed": 6094,
+    "crc32": "8a56fa04"
+  },
+  {
+    "path": "ultralytics/utils/__pycache__/torch_utils.cpython-312.pyc",
+    "bytes": 46596,
+    "compressed": 21923,
+    "crc32": "618a6da3"
+  },
+  {
+    "path": "ultralytics/utils/__pycache__/torch_utils.cpython-39.pyc",
+    "bytes": 28642,
+    "compressed": 14028,
+    "crc32": "e0af3b07"
+  },
+  {
+    "path": "ultralytics/utils/autobatch.py",
+    "bytes": 4594,
+    "compressed": 1740,
+    "crc32": "31ae1a27"
+  },
+  {
+    "path": "ultralytics/utils/benchmarks.py",
+    "bytes": 25625,
+    "compressed": 7355,
+    "crc32": "ac936f3f"
+  },
+  {
+    "path": "ultralytics/utils/callbacks/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/utils/callbacks/__init__.py",
+    "bytes": 214,
+    "compressed": 132,
+    "crc32": "4db40f3e"
+  },
+  {
+    "path": "ultralytics/utils/callbacks/__pycache__/",
+    "bytes": 0,
+    "compressed": 0,
+    "crc32": "00000000"
+  },
+  {
+    "path": "ultralytics/utils/callbacks/__pycache__/__init__.cpython-312.pyc",
+    "bytes": 311,
+    "compressed": 249,
+    "crc32": "e32d14ea"
+  },
+  {
+    "path": "ultralytics/utils/callbacks/__pycache__/__init__.cpython-39.pyc",
+    "bytes": 293,
+    "compressed": 220,
+    "crc32": "e04a61b3"
+  },
+  {
+    "path": "ultralytics/utils/callbacks/__pycache__/base.cpython-312.pyc",
+    "bytes": 6325,
+    "compressed": 2361,
+    "crc32": "c41b12d4"
+  },
+  {
+    "path": "ultralytics/utils/callbacks/__pycache__/base.cpython-39.pyc",
+    "bytes": 5683,
+    "compressed": 1864,
+    "crc32": "ac1eb987"
+  },
+  {
+    "path": "ultralytics/utils/callbacks/__pycache__/clearml.cpython-312.pyc",
+    "bytes": 8367,
+    "compressed": 4333,
+    "crc32": "0b4b8360"
+  },
+  {
+    "path": "ultralytics/utils/callbacks/__pycache__/clearml.cpython-39.pyc",
+    "bytes": 5200,
+    "compressed": 2886,
+    "crc32": "d350dcee"
+  },
+  {
+    "path": "ultralytics/utils/callbacks/__pycache__/comet.cpython-312.pyc",
+    "bytes": 17630,
+    "compressed": 8528,
+    "crc32": "40d4e647"
+  },
+  {
+    "path": "ultralytics/utils/callbacks/__pycache__/comet.cpython-39.pyc",
+    "bytes": 12189,
+    "compressed": 5818,
+    "crc32": "0756cb11"
+  },
+  {
+    "path": "ultralytics/utils/callbacks/__pycache__/dvc.cpython-312.pyc",
+    "bytes": 7035,
+    "compressed": 3667,
+    "crc32": "b43d7a0b"
+  },
+  {
+    "path": "ultralytics/utils/callbacks/__pycache__/dvc.cpython-39.pyc",
+    "bytes": 4341,
+    "compressed": 2416,
+    "crc32": "65aa61d7"
+  },
+  {
+    "path": "ultralytics/utils/callbacks/__pycache__/hub.cpython-312.pyc",
+    "bytes": 5246,
+    "compressed": 2593,
+    "crc32": "ae0ab09b"
+  },
+  {
+    "path": "ultralytics/utils/callbacks/__pycache__/hub.cpython-39.pyc",
+    "bytes": 3314,
+    "compressed": 1711,
+    "crc32": "051404a0"
+  },
+  {
+    "path": "ultralytics/utils/callbacks/__pycache__/mlflow.cpython-312.pyc",
+    "bytes": 7735,
+    "compressed": 3846,
+    "crc32": "f4c13e12"
+  },
+  {
+    "path": "ultralytics/utils/callbacks/__pycache__/mlflow.cpython-39.pyc",
+    "bytes": 5250,
+    "compressed": 2748,
+    "crc32": "0e5f6790"
+  },
+  {
+    "path": "ultralytics/utils/callbacks/__pycache__/neptune.cpython-312.pyc",
+    "bytes": 6257,
+    "compressed": 3467,
+    "crc32": "4eb42ea7"
+  },
+  {
+    "path": "ultralytics/utils/callbacks/__pycache__/neptune.cpython-39.pyc",
+    "bytes": 4384,
+    "compressed": 2300,
+    "crc32": "f8501df9"
+  },
+  {
+    "path": "ultralytics/utils/callbacks/__pycache__/raytune.cpython-312.pyc",
+    "bytes": 1065,
+    "compressed": 732,
+    "crc32": "9db7711e"
+  },
+  {
+    "path": "ultralytics/utils/callbacks/__pycache__/raytune.cpython-39.pyc",
+    "bytes": 733,
+    "compressed": 524,
+    "crc32": "3d041efb"
+  },
+  {
+    "path": "ultralytics/utils/callbacks/__pycache__/tensorboard.cpython-312.pyc",
+    "bytes": 5463,
+    "compressed": 2973,
+    "crc32": "ce214239"
+  },
+  {
+    "path": "ultralytics/utils/callbacks/__pycache__/tensorboard.cpython-39.pyc",
+    "bytes": 3197,
+    "compressed": 1865,
+    "crc32": "6c7f6dfa"
+  },
+  {
+    "path": "ultralytics/utils/callbacks/__pycache__/wb.cpython-312.pyc",
+    "bytes": 9983,
+    "compressed": 4643,
+    "crc32": "22b02dd4"
+  },
+  {
+    "path": "ultralytics/utils/callbacks/__pycache__/wb.cpython-39.pyc",
+    "bytes": 6247,
+    "compressed": 3082,
+    "crc32": "4f5a3f4e"
+  },
+  {
+    "path": "ultralytics/utils/callbacks/base.py",
+    "bytes": 5775,
+    "compressed": 1295,
+    "crc32": "3e5e2efc"
+  },
+  {
+    "path": "ultralytics/utils/callbacks/clearml.py",
+    "bytes": 5933,
+    "compressed": 2052,
+    "crc32": "189a4325"
+  },
+  {
+    "path": "ultralytics/utils/callbacks/comet.py",
+    "bytes": 15018,
+    "compressed": 4047,
+    "crc32": "233a5d28"
+  },
+  {
+    "path": "ultralytics/utils/callbacks/dvc.py",
+    "bytes": 5045,
+    "compressed": 1756,
+    "crc32": "4dd2fee9"
+  },
+  {
+    "path": "ultralytics/utils/callbacks/hub.py",
+    "bytes": 3997,
+    "compressed": 1243,
+    "crc32": "285ca18e"
+  },
+  {
+    "path": "ultralytics/utils/callbacks/mlflow.py",
+    "bytes": 5396,
+    "compressed": 2033,
+    "crc32": "31d331f1"
+  },
+  {
+    "path": "ultralytics/utils/callbacks/neptune.py",
+    "bytes": 3813,
+    "compressed": 1416,
+    "crc32": "fe044e78"
+  },
+  {
+    "path": "ultralytics/utils/callbacks/raytune.py",
+    "bytes": 700,
+    "compressed": 388,
+    "crc32": "2546eb72"
+  },
+  {
+    "path": "ultralytics/utils/callbacks/tensorboard.py",
+    "bytes": 4167,
+    "compressed": 1536,
+    "crc32": "67900e8b"
+  },
+  {
+    "path": "ultralytics/utils/callbacks/wb.py",
+    "bytes": 7058,
+    "compressed": 2471,
+    "crc32": "e3992b32"
+  },
+  {
+    "path": "ultralytics/utils/checks.py",
+    "bytes": 30120,
+    "compressed": 9664,
+    "crc32": "bf6322d0"
+  },
+  {
+    "path": "ultralytics/utils/dist.py",
+    "bytes": 2358,
+    "compressed": 1145,
+    "crc32": "0b634131"
+  },
+  {
+    "path": "ultralytics/utils/downloads.py",
+    "bytes": 21974,
+    "compressed": 6614,
+    "crc32": "4151fd0e"
+  },
+  {
+    "path": "ultralytics/utils/errors.py",
+    "bytes": 816,
+    "compressed": 432,
+    "crc32": "e816f608"
+  },
+  {
+    "path": "ultralytics/utils/files.py",
+    "bytes": 8224,
+    "compressed": 2667,
+    "crc32": "ea78729e"
+  },
+  {
+    "path": "ultralytics/utils/instance.py",
+    "bytes": 16252,
+    "compressed": 3820,
+    "crc32": "3a56d21f"
+  },
+  {
+    "path": "ultralytics/utils/loss.py",
+    "bytes": 34185,
+    "compressed": 7160,
+    "crc32": "1493449d"
+  },
+  {
+    "path": "ultralytics/utils/metrics.py",
+    "bytes": 53804,
+    "compressed": 11488,
+    "crc32": "0ed45300"
+  },
+  {
+    "path": "ultralytics/utils/ops.py",
+    "bytes": 33174,
+    "compressed": 9016,
+    "crc32": "27e028b6"
+  },
+  {
+    "path": "ultralytics/utils/patches.py",
+    "bytes": 3270,
+    "compressed": 1292,
+    "crc32": "a627c284"
+  },
+  {
+    "path": "ultralytics/utils/plotting.py",
+    "bytes": 62948,
+    "compressed": 16167,
+    "crc32": "3047c290"
+  },
+  {
+    "path": "ultralytics/utils/tal.py",
+    "bytes": 18470,
+    "compressed": 4659,
+    "crc32": "bc1ab0d9"
+  },
+  {
+    "path": "ultralytics/utils/torch_utils.py",
+    "bytes": 32084,
+    "compressed": 10432,
+    "crc32": "ae232dda"
+  },
+  {
+    "path": "ultralytics/utils/triton.py",
+    "bytes": 4043,
+    "compressed": 1345,
+    "crc32": "2869b557"
+  },
+  {
+    "path": "ultralytics/utils/tuner.py",
+    "bytes": 6198,
+    "compressed": 2257,
+    "crc32": "704480b2"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "key": "mdpi",
+    "url": "https://www.mdpi.com/2077-0472/13/8/1533",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "key": "xml",
+    "url": "https://www.mdpi.com/2077-0472/13/8/1533/xml",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "key": "crossref",
+    "url": "https://api.crossref.org/works/10.3390/agriculture13081533",
+    "status": 200,
+    "final": "https://api.crossref.org/works/10.3390/agriculture13081533",
+    "bytes": 12892,
+    "signature": "b'{\"status\":\"ok\",\"message-type\":\"work\",\"message-version\":\"1.0.'",
+    "access": "2026-10-23T16:50:54.089566+07:00"
+  },
+  {
+    "key": "pdf",
+    "url": "https://mdpi-res.com/d_attachment/agriculture/agriculture-13-01533/article_deploy/agriculture-13-01533.pdf",
+    "status": 200,
+    "final": "https://mdpi-res.com/d_attachment/agriculture/agriculture-13-01533/article_deploy/agriculture-13-01533.pdf",
+    "bytes": 8000000,
+    "signature": "b'%PDF-1.7\\n%\\xe2\\xe3\\xcf\\xd3\\n6 0 obj\\n<</Filter/FlateDecode/Length 4212>>st'",
+    "access": "2026-10-23T16:50:59.205082+07:00"
+  }
+]

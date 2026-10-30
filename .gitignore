@@ -79,3 +79,19 @@ local_outputs/
 *.log
 .DS_Store
 Thumbs.db
+# WP-04 third-party original captures/static source: local preservation only.
+/04_dataset_candidates/C04_shiitake_phenotypes/qc/wp04_evidence/publisher.html
+/04_dataset_candidates/C04_shiitake_phenotypes/qc/wp04_evidence/publisher_text.txt
+/04_dataset_candidates/C04_shiitake_phenotypes/qc/wp04_evidence/static_text/
+/04_dataset_candidates/C04_shiitake_phenotypes/qc/wp04_evidence/config_excerpts.md
+# WP-03 retrieved primary originals retained locally; project synthesis,
+# source ledgers and metadata references remain tracked.
+/03_dataset_discovery/source_verification/wp03_stream_a/*.txt
+/03_dataset_discovery/source_verification/wp03_stream_b/sources/
+# WP-02 original third-party annotation exports: retain locally;
+# source URLs, hashes, statistics and audit evidence are versioned.
+/04_dataset_candidates/C02_mushr_harvest_readiness/dataset_metadata/MushR_Dataset_V1.1_2023_04_04-COCO.json
+/04_dataset_candidates/C02_mushr_harvest_readiness/dataset_metadata/MushR_Dataset_2023_06_29_TEST-COCO.json
+# Duplicate author source snapshot and complete web-page capture kept local.
+/04_dataset_candidates/C02_mushr_harvest_readiness/qc/wp02_evidence/author_code/
+/04_dataset_candidates/C01_substrate_contamination/qc/wp02_evidence/landing_v2.txt

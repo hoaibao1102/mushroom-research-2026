@@ -1,0 +1,44 @@
+{
+  "verified_utc": "2026-10-30T04:17:46.306610+00:00",
+  "checks": [
+    "manifest exact schema and two rows",
+    "COCO counts/categories/unique IDs independently recomputed",
+    "both annotation sources remotely refetched and byte-identical",
+    "16 Kaggle pages reaggregated, terminal token empty, 3011 unique paths",
+    "371 linkage rows independently recomputed",
+    "unmatched inventory partition recomputed",
+    "all acquired source hashes readback verified"
+  ],
+  "sources": [
+    {
+      "split": "train",
+      "sha256": "f2aa01c1ea5042c3b177a3dc7a165ba56f493463b3543f59afe9cc21beace12a",
+      "bytes": 7337338,
+      "remote_readback_identical": true
+    },
+    {
+      "split": "test",
+      "sha256": "94e5800f4c39578af2bddf4dbc3900d788e6e0cee815f9ddc72c3c10dcfe808d",
+      "bytes": 1064392,
+      "remote_readback_identical": true
+    }
+  ],
+  "split_analysis": {
+    "all_path_overlap": 41,
+    "annotated_image_paths": {
+      "train": 172,
+      "test": 24
+    },
+    "both_splits_annotated_path_overlap": 24,
+    "test_paths_annotated_in_train": 24,
+    "test_annotated_paths_present_but_empty_in_train": 0
+  },
+  "kaggle_duplicate_summary": {
+    "unique_basenames": 1161,
+    "duplicated_basename_groups": 1069,
+    "files_in_duplicated_basename_groups": 2919,
+    "excess_duplicate_basename_occurrences": 1850
+  },
+  "acquired_sources_verified": 30,
+  "status": "PASS metadata verification only; not training or scientific reproducibility approval"
+}

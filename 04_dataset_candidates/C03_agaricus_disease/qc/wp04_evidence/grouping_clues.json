@@ -1,0 +1,39 @@
+{
+  "status": "UNVERIFIED",
+  "notes": "Per-light/class folder and ordinal file names are not specimen IDs. No authoritative train/validation/test split or specimen/farm/session mapping bundled: all extracted members are JPEGs. Cross-light pairing by ordinal unsupported.",
+  "lights": {
+    "white": {
+      "examples": [
+        "w0hl_0001.jpg",
+        "w0hl_0002.jpg",
+        "w0hl_0003.jpg",
+        "w0hl_0004.jpg",
+        "w0hl_0005.jpg"
+      ],
+      "distinct_filenames": 3195,
+      "exif_keys": {}
+    },
+    "uv": {
+      "examples": [
+        "u0hl_0001.jpg",
+        "u0hl_0002.jpg",
+        "u0hl_0003.jpg",
+        "u0hl_0004.jpg",
+        "u0hl_0005.jpg"
+      ],
+      "distinct_filenames": 3143,
+      "exif_keys": {}
+    },
+    "mix": {
+      "examples": [
+        "m0hl_0001.jpg",
+        "m0hl_0002.jpg",
+        "m0hl_0003.jpg",
+        "m0hl_0004.jpg",
+        "m0hl_0005.jpg"
+      ],
+      "distinct_filenames": 3065,
+      "exif_keys": {}
+    }
+  }
+}

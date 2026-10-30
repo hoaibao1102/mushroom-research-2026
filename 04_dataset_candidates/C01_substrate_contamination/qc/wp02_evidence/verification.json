@@ -1,0 +1,116 @@
+{
+  "status": "PASS_BLOCKED_SCOPE_ONLY",
+  "verifier": "06_verify.py independent reparse and filesystem rescan",
+  "timestamp": "2026-10-30T04:18:40.650943+00:00",
+  "inventory_data_rows": 0,
+  "download_manifest_status_rows": 1,
+  "source_payload_files": 0,
+  "raw_payload_files": 0,
+  "c01_tracked_diff_empty": true,
+  "other_worker_tracked_changes": [
+    "03_dataset_discovery/source_verification/WP-01_EVIDENCE_REGISTRY.csv"
+  ],
+  "staged_diff_empty": true,
+  "files": [
+    {
+      "path": "04_dataset_candidates/C01_substrate_contamination/qc/image_inventory.csv",
+      "bytes": 155,
+      "sha256": "9e106ad688083ffb9dafdb3b73e4a8417e2f1cfd3f341c2d59bd257daa2a8a83"
+    },
+    {
+      "path": "04_dataset_candidates/C01_substrate_contamination/qc/wp02_c01_download_manifest.csv",
+      "bytes": 423,
+      "sha256": "02c415ab180e25de84f67a0480fbe0c1eafdf111c616d39f5f049178bda34069"
+    },
+    {
+      "path": "04_dataset_candidates/C01_substrate_contamination/qc/wp02_c01_statistics.json",
+      "bytes": 1562,
+      "sha256": "efa781e63f4d9dcad268b437b3f6459f102bee753a86f9a979a3b2426d53760f"
+    },
+    {
+      "path": "04_dataset_candidates/C01_substrate_contamination/qc/wp02_evidence/01_metadata.py",
+      "bytes": 1306,
+      "sha256": "564e7d644cbf5901f089753b5977dd5dd60c41cbe1f07c417a3a7b512283ccb4"
+    },
+    {
+      "path": "04_dataset_candidates/C01_substrate_contamination/qc/wp02_evidence/02_metadata_alternatives.py",
+      "bytes": 1022,
+      "sha256": "8d6cf2450cebdd72bd95e53fc19f15d7b246287e9d82089ed92dbef7f51c679e"
+    },
+    {
+      "path": "04_dataset_candidates/C01_substrate_contamination/qc/wp02_evidence/03_public_routes.py",
+      "bytes": 1200,
+      "sha256": "76598d60f83b7c8308ac09c66f39c6eca09598d321f847cb8ee0b0c10508f8e0"
+    },
+    {
+      "path": "04_dataset_candidates/C01_substrate_contamination/qc/wp02_evidence/04_client_routes.py",
+      "bytes": 648,
+      "sha256": "7df1aae1b96186a18053990d834c54db65e87f18438181253c2eefd5b4f0b5b9"
+    },
+    {
+      "path": "04_dataset_candidates/C01_substrate_contamination/qc/wp02_evidence/05_finalize_blocked.py",
+      "bytes": 10426,
+      "sha256": "a9a790640f01b6586fd1dc0ef3b8d0554cc0584a1af78f6388e7416b4c3e227a"
+    },
+    {
+      "path": "04_dataset_candidates/C01_substrate_contamination/qc/wp02_evidence/06_verify.py",
+      "bytes": 2899,
+      "sha256": "7257df9f71089afdbbafc73cb692ec5bbe39eb9d5e9c7283aa3b05e8615b3d13"
+    },
+    {
+      "path": "04_dataset_candidates/C01_substrate_contamination/qc/wp02_evidence/alternative_requests.json",
+      "bytes": 785,
+      "sha256": "ba35bd990e10ba0f925fe1ee96b4612c2af4ba9aa647e5e4dd482e421372dbc1"
+    },
+    {
+      "path": "04_dataset_candidates/C01_substrate_contamination/qc/wp02_evidence/datacite_v2.txt",
+      "bytes": 7876,
+      "sha256": "52500a038b1d08bdd76ef50f7538fa8f72dabd0bbaa19919b3dcacd23aeac83b"
+    },
+    {
+      "path": "04_dataset_candidates/C01_substrate_contamination/qc/wp02_evidence/execution_summary.json",
+      "bytes": 609,
+      "sha256": "7d5f6f9f7eb304b5185144c7d65e76072147c3f478768ef7082ef5582cd810bc"
+    },
+    {
+      "path": "04_dataset_candidates/C01_substrate_contamination/qc/wp02_evidence/files_root.txt",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "04_dataset_candidates/C01_substrate_contamination/qc/wp02_evidence/files_version_first.txt",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "04_dataset_candidates/C01_substrate_contamination/qc/wp02_evidence/ignore_checks.json",
+      "bytes": 572,
+      "sha256": "0a265868cc6da45dd37ac0af1be65d4a85c11e992c3ce3d96c32db89460765b0"
+    },
+    {
+      "path": "04_dataset_candidates/C01_substrate_contamination/qc/wp02_evidence/landing_v2.txt",
+      "bytes": 122857,
+      "sha256": "e94906d2181111f2713b6395b110bd90fc06a619933fde1be1a2bea75eb959dd"
+    },
+    {
+      "path": "04_dataset_candidates/C01_substrate_contamination/qc/wp02_evidence/metadata_requests.json",
+      "bytes": 982,
+      "sha256": "fea290a5ec9f558bb010f033e9ea1bd851ef6b72eb170fa54c3f21e36612bbeb"
+    },
+    {
+      "path": "04_dataset_candidates/C01_substrate_contamination/qc/wp02_evidence/public_route_requests.json",
+      "bytes": 983,
+      "sha256": "3445d1dbaeb9f9881d04a09986c445bd9f3939fd6c7854c4427463854c1368b5"
+    },
+    {
+      "path": "04_dataset_candidates/C01_substrate_contamination/qc/wp02_evidence/wayback.txt",
+      "bytes": 84,
+      "sha256": "b9d4b1ab0716844a8b919d49f59e306c0c5b9f61fd5c2be9a8061494139b17f6"
+    },
+    {
+      "path": "04_dataset_candidates/C01_substrate_contamination/reports/WP-02_C01_DATA_FEASIBILITY.md",
+      "bytes": 6413,
+      "sha256": "5538605580017aad554b27343387b56f763c81090f607a1fb1192309a51b4185"
+    }
+  ]
+}

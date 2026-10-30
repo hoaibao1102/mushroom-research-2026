@@ -1,0 +1,45 @@
+{
+  "physical_files": 9403,
+  "image_decode_ok": 9403,
+  "non_images": [],
+  "decode_errors": [],
+  "expanded_bytes": 229270697,
+  "extensions": {
+    ".jpg": 9403
+  },
+  "by_light_class": {
+    "mix/m0_hl": 728,
+    "mix/m1_bb": 493,
+    "mix/m1_db": 632,
+    "mix/m1_kw": 666,
+    "mix/m1_wb": 546,
+    "uv/u0_hl": 728,
+    "uv/u1_bb": 568,
+    "uv/u1_db": 666,
+    "uv/u1_kw": 675,
+    "uv/u1_wb": 506,
+    "white/w0_hl": 731,
+    "white/w1_bb": 576,
+    "white/w1_db": 665,
+    "white/w1_kw": 664,
+    "white/w1_wb": 559
+  },
+  "by_light": {
+    "mix": 3065,
+    "uv": 3143,
+    "white": 3195
+  },
+  "dimensions": {
+    "912x912": 9403
+  },
+  "modes": {
+    "RGB": 9403
+  },
+  "exif_keys": {},
+  "sha256_duplicate_groups": 0,
+  "sha256_duplicate_files": 0,
+  "perceptual_candidates": 5172914,
+  "pillow": "13.0.0",
+  "python": "3.12.13 (main, Jul 18 2026, 17:08:38) [MSC v.1944 64 bit (AMD64)]",
+  "timestamp": "2026-10-30T06:13:09.492995+00:00"
+}

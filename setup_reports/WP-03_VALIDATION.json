@@ -1,0 +1,322 @@
+{
+  "timestamp": "2026-10-30T12:09:56.209391+07:00",
+  "scope": "Artifact/source consistency and bounded live URL checks; not independent scientific validation",
+  "result": "PASS_CONDITIONAL_DISCOVERY",
+  "checks": [
+    {
+      "check": "Nonempty 03_dataset_discovery/candidate_registry/WP-03_NEW_CANDIDATES.csv",
+      "pass": true
+    },
+    {
+      "check": "Nonempty 03_dataset_discovery/screening_reports/WP-03_DISCOVERY_REPORT.md",
+      "pass": true
+    },
+    {
+      "check": "Nonempty 03_dataset_discovery/dataset_comparisons/WP-03_CANDIDATE_RANKING.md",
+      "pass": true
+    },
+    {
+      "check": "Nonempty 02_literature_review/methodology_comparison/WP-03_PAPER_METHOD_MATRIX.csv",
+      "pass": true
+    },
+    {
+      "check": "Nonempty 02_literature_review/research_gap_analysis/WP-03_PRELIMINARY_GAP_MATRIX.md",
+      "pass": true
+    },
+    {
+      "check": "Nonempty 03_dataset_discovery/source_verification/WP-03_SOURCE_EVIDENCE.csv",
+      "pass": true
+    },
+    {
+      "check": "Nonempty 03_dataset_discovery/screening_reports/WP-03_TOP_TWO_RECOMMENDATIONS.md",
+      "pass": true
+    },
+    {
+      "check": "Nonempty setup_reports/WP-03_EXECUTION_REPORT.md",
+      "pass": true
+    },
+    {
+      "check": "CSV shape 03_dataset_discovery/candidate_registry/WP-03_NEW_CANDIDATES.csv",
+      "pass": true
+    },
+    {
+      "check": "CSV shape 02_literature_review/methodology_comparison/WP-03_PAPER_METHOD_MATRIX.csv",
+      "pass": true
+    },
+    {
+      "check": "CSV shape 03_dataset_discovery/source_verification/WP-03_SOURCE_EVIDENCE.csv",
+      "pass": true
+    },
+    {
+      "check": "Six unique new candidates",
+      "pass": true
+    },
+    {
+      "check": "Four exact dataset-paper links",
+      "pass": true
+    },
+    {
+      "check": "Evidence/method foreign keys",
+      "pass": true
+    },
+    {
+      "check": "Not old/excluded datasets",
+      "pass": true
+    },
+    {
+      "check": "At most two hypotheses each",
+      "pass": true
+    },
+    {
+      "check": "WP03 flags safe",
+      "pass": true
+    },
+    {
+      "check": "No new gate passes",
+      "pass": true
+    },
+    {
+      "check": "No WP03 commit",
+      "pass": true
+    },
+    {
+      "check": "Primary C03 independent-test absence confirmed",
+      "pass": true
+    },
+    {
+      "check": "Primary C04 inconsistent count scopes retained",
+      "pass": true
+    },
+    {
+      "check": "Five compatible rejection tests pass",
+      "pass": true
+    },
+    {
+      "check": "Diff whitespace clean",
+      "pass": true
+    },
+    {
+      "check": "Frozen WP01 expectations fail on WP03 without weakening",
+      "pass": true
+    },
+    {
+      "check": "Historical validators/tests unmodified",
+      "pass": true
+    },
+    {
+      "check": "No new dataset/image/weights payload []",
+      "pass": true
+    }
+  ],
+  "url_access": [
+    {
+      "url": "https://api.crossref.org/works/10.1038/s41597-026-07754-7",
+      "status": 200,
+      "final_url": "https://api.crossref.org/works/10.1038/s41597-026-07754-7",
+      "content_type": "application/json",
+      "note": "Headers/access only; response not treated as fulltext claim verification"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.3390/agronomy15010226",
+      "error": "HTTP Error 429: Too Many Requests",
+      "note": "Saved primary alternative evidence may support claim; failure explicitly retained"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.3390/computers14040128",
+      "status": 200,
+      "final_url": "https://api.crossref.org/works/10.3390/computers14040128",
+      "content_type": "application/json",
+      "note": "Headers/access only; response not treated as fulltext claim verification"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.3390/computers14050199",
+      "error": "HTTP Error 429: Too Many Requests",
+      "note": "Saved primary alternative evidence may support claim; failure explicitly retained"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.3390/s26061935",
+      "status": 200,
+      "final_url": "https://api.crossref.org/works/10.3390/s26061935",
+      "content_type": "application/json",
+      "note": "Headers/access only; response not treated as fulltext claim verification"
+    },
+    {
+      "url": "https://api.datacite.org/dois/10.17632/8n6nr43gk3.1",
+      "status": 200,
+      "final_url": "https://api.datacite.org/dois/10.17632/8n6nr43gk3.1",
+      "content_type": "application/json; charset=utf-8",
+      "note": "Headers/access only; response not treated as fulltext claim verification"
+    },
+    {
+      "url": "https://api.datacite.org/dois/10.17632/bsvbtcc348.1",
+      "status": 200,
+      "final_url": "https://api.datacite.org/dois/10.17632/bsvbtcc348.1",
+      "content_type": "application/json; charset=utf-8",
+      "note": "Headers/access only; response not treated as fulltext claim verification"
+    },
+    {
+      "url": "https://data.mendeley.com/datasets/8n6nr43gk3/1",
+      "status": 200,
+      "final_url": "https://data.mendeley.com/datasets/8n6nr43gk3/1",
+      "content_type": "text/html; charset=utf-8",
+      "note": "Headers/access only; response not treated as fulltext claim verification"
+    },
+    {
+      "url": "https://data.mendeley.com/datasets/bsvbtcc348/1",
+      "status": 200,
+      "final_url": "https://data.mendeley.com/datasets/bsvbtcc348/1",
+      "content_type": "text/html; charset=utf-8",
+      "note": "Headers/access only; response not treated as fulltext claim verification"
+    },
+    {
+      "url": "https://github.com/abdollahzakeri/m18k",
+      "status": 200,
+      "final_url": "https://github.com/abdollahzakeri/m18k",
+      "content_type": "text/html; charset=utf-8",
+      "note": "Headers/access only; response not treated as fulltext claim verification"
+    },
+    {
+      "url": "https://github.com/abdollahzakeri/sms3d",
+      "status": 200,
+      "final_url": "https://github.com/abdollahzakeri/sms3d",
+      "content_type": "text/html; charset=utf-8",
+      "note": "Headers/access only; response not treated as fulltext claim verification"
+    },
+    {
+      "url": "https://mdpi-res.com/d_attachment/agronomy/agronomy-15-00226/article_deploy/agronomy-15-00226.xml",
+      "status": 200,
+      "final_url": "https://mdpi-res.com/d_attachment/agronomy/agronomy-15-00226/article_deploy/agronomy-15-00226.xml",
+      "content_type": "text/xml;charset=UTF-8",
+      "note": "Headers/access only; response not treated as fulltext claim verification"
+    },
+    {
+      "url": "https://mdpi-res.com/d_attachment/computers/computers-14-00128/article_deploy/computers-14-00128.pdf",
+      "status": 200,
+      "final_url": "https://mdpi-res.com/d_attachment/computers/computers-14-00128/article_deploy/computers-14-00128.pdf",
+      "content_type": "application/pdf",
+      "note": "Headers/access only; response not treated as fulltext claim verification"
+    },
+    {
+      "url": "https://mdpi-res.com/d_attachment/computers/computers-14-00199/article_deploy/computers-14-00199.pdf",
+      "status": 200,
+      "final_url": "https://mdpi-res.com/d_attachment/computers/computers-14-00199/article_deploy/computers-14-00199.pdf",
+      "content_type": "application/pdf",
+      "note": "Headers/access only; response not treated as fulltext claim verification"
+    },
+    {
+      "url": "https://mdpi-res.com/d_attachment/sensors/sensors-26-01935/article_deploy/sensors-26-01935.xml",
+      "status": 200,
+      "final_url": "https://mdpi-res.com/d_attachment/sensors/sensors-26-01935/article_deploy/sensors-26-01935.xml",
+      "content_type": "text/xml;charset=UTF-8",
+      "note": "Headers/access only; response not treated as fulltext claim verification"
+    },
+    {
+      "url": "https://www.nature.com/articles/s41597-026-07754-7",
+      "status": 200,
+      "final_url": "https://www.nature.com/articles/s41597-026-07754-7?error=cookies_not_supported&code=ff6109d1-44e9-44f0-8a0b-a790cf8326c2",
+      "content_type": "text/html; charset=utf-8",
+      "note": "Headers/access only; response not treated as fulltext claim verification"
+    },
+    {
+      "url": "https://zenodo.org/api/records/20260929",
+      "error": "HTTP Error 403: Forbidden",
+      "note": "Saved primary alternative evidence may support claim; failure explicitly retained"
+    },
+    {
+      "url": "https://zenodo.org/api/records/20373531",
+      "error": "HTTP Error 403: Forbidden",
+      "note": "Saved primary alternative evidence may support claim; failure explicitly retained"
+    },
+    {
+      "url": "https://zenodo.org/records/20260929",
+      "error": "HTTP Error 403: Forbidden",
+      "note": "Saved primary alternative evidence may support claim; failure explicitly retained"
+    },
+    {
+      "url": "https://zenodo.org/records/20373531",
+      "error": "HTTP Error 403: Forbidden",
+      "note": "Saved primary alternative evidence may support claim; failure explicitly retained"
+    }
+  ],
+  "commands": [
+    {
+      "command": [
+        "python",
+        "scripts/validate_wp01.py"
+      ],
+      "exit_code": 1,
+      "stdout": "PASS | Nonempty WP-01 deliverable: 03_dataset_discovery/source_verification/C01_SOURCE_VERIFICATION.md\nPASS | Nonempty WP-01 deliverable: 04_dataset_candidates/C01_substrate_contamination/reports/WP-01_C01_FEASIBILITY.md\nPASS | Nonempty WP-01 deliverable: 03_dataset_discovery/source_verification/C02_SOURCE_VERIFICATION.md\nPASS | Nonempty WP-01 deliverable: 04_dataset_candidates/C02_mushr_harvest_readiness/reports/WP-01_C02_FEASIBILITY.md\nPASS | Nonempty WP-01 deliverable: 03_dataset_discovery/source_verification/C02_VS_DS02_IDENTITY_CHECK.md\nPASS | Nonempty WP-01 deliverable: 03_dataset_discovery/dataset_comparisons/WP-01_CANDIDATE_COMPARISON.md\nPASS | Nonempty WP-01 deliverable: 03_dataset_discovery/source_verification/WP-01_EVIDENCE_REGISTRY.csv\nPASS | Nonempty WP-01 deliverable: 03_dataset_discovery/source_verification/WP-01_UNRESOLVED_QUESTIONS.md\nPASS | Nonempty WP-01 deliverable: setup_reports/WP-01_SOURCE_VERIFICATION_REPORT.md\nPASS | WP-01 Evidence Registry header matches schema\nPASS | Evidence registry has comprehensive claim coverage (found 70 claims)\nPASS | All claim evidence_status in allowed vocabulary (invalid: [])\nPASS | All claims have non-empty text and source pointers (empty: [])\nPASS | Candidates C01 and C02 registered\nPASS | C01 marked SOURCE_VERIFIED_METADATA_ONLY\nPASS | C02 marked SOURCE_VERIFIED_METADATA_AND_CODE\nPASS | Candidate QC remains NOT_VERIFIED\nFAIL | Candidate selection decision remains PENDING\nPASS | Primary MushR paper P001 registered\nPASS | P001 DOI matches 10.3390/agriculture13081533\nPASS | P001 verification_status is FULL_TEXT_REVIEWED\nPASS | Related C01 paper P002 (Bacanto 2026) registered\nPASS | DS-02 hf55tkx489 remains EXCLUDED\nPASS | Only confirmed DS-02 exclusion in registry\nPASS | Phase 0 preserved\nFAIL | Current work package is WP-01\nPASS | dataset_selected remains False\nPASS | training_authorized remains False\nPASS | current_gate is G0\nPASS | All G0–G6 gates remain NEEDS_MORE_EVIDENCE\nPASS | C01 G0 recommendation is NEEDS_MORE_EVIDENCE\nPASS | C02 G0 recommendation is NEEDS_MORE_EVIDENCE\nPASS | Zero dataset/media/checkpoint payloads in workspace (found: [])\nPASS | Payload storage raw is empty (found: [])\nPASS | Payload storage raw is empty (found: [])\nPASS | Payload storage runs is empty (found: [])\nPASS | Payload storage checkpoints is empty (found: [])\nPASS | Payload storage external_test_data is empty (found: [])\n\nWP-01 validation: 36 PASS / 2 FAIL\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "test_checkpoint_extension_rejected_without_model_content (test_workspace.RejectionTests.test_checkpoint_extension_rejected_without_model_content) ... ok\ntest_malformed_csv_header_rejected (test_workspace.RejectionTests.test_malformed_csv_header_rejected) ... ok\ntest_missing_exclusion_rejected (test_workspace.RejectionTests.test_missing_exclusion_rejected) ... ok\ntest_missing_protocol_rejected (test_workspace.RejectionTests.test_missing_protocol_rejected) ... ok\ntest_non_payload_text_in_raw_storage_rejected (test_workspace.RejectionTests.test_non_payload_text_in_raw_storage_rejected) ... ok\ntest_wp00_validator_flags_wp01_transition (test_workspace.WorkspaceTests.test_wp00_validator_flags_wp01_transition)\nOriginal WP-00 validator strictly enforces WP-00 state and must flag WP-01 transition. ... ok\ntest_wp01_validator_accepts_clean_workspace (test_workspace.WorkspaceTests.test_wp01_validator_accepts_clean_workspace) ... FAIL\ntest_wp01_validator_rejects_missing_deliverable (test_workspace.WorkspaceTests.test_wp01_validator_rejects_missing_deliverable) ... ok\ntest_wp01_validator_rejects_unauthorized_training (test_workspace.WorkspaceTests.test_wp01_validator_rejects_unauthorized_training) ... ok\n\n======================================================================\nFAIL: test_wp01_validator_accepts_clean_workspace (test_workspace.WorkspaceTests.test_wp01_validator_accepts_clean_workspace)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"D:\\Capstone\\mushroom-research-2026\\tests\\test_workspace.py\", line 78, in test_wp01_validator_accepts_clean_workspace\n    self.assertEqual(result.returncode, 0, result.stdout + result.stderr)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: 1 != 0 : PASS | Nonempty WP-01 deliverable: 03_dataset_discovery/source_verification/C01_SOURCE_VERIFICATION.md\nPASS | Nonempty WP-01 deliverable: 04_dataset_candidates/C01_substrate_contamination/reports/WP-01_C01_FEASIBILITY.md\nPASS | Nonempty WP-01 deliverable: 03_dataset_discovery/source_verification/C02_SOURCE_VERIFICATION.md\nPASS | Nonempty WP-01 deliverable: 04_dataset_candidates/C02_mushr_harvest_readiness/reports/WP-01_C02_FEASIBILITY.md\nPASS | Nonempty WP-01 deliverable: 03_dataset_discovery/source_verification/C02_VS_DS02_IDENTITY_CHECK.md\nPASS | Nonempty WP-01 deliverable: 03_dataset_discovery/dataset_comparisons/WP-01_CANDIDATE_COMPARISON.md\nPASS | Nonempty WP-01 deliverable: 03_dataset_discovery/source_verification/WP-01_EVIDENCE_REGISTRY.csv\nPASS | Nonempty WP-01 deliverable: 03_dataset_discovery/source_verification/WP-01_UNRESOLVED_QUESTIONS.md\nPASS | Nonempty WP-01 deliverable: setup_reports/WP-01_SOURCE_VERIFICATION_REPORT.md\nPASS | WP-01 Evidence Registry header matches schema\nPASS | Evidence registry has comprehensive claim coverage (found 70 claims)\nPASS | All claim evidence_status in allowed vocabulary (invalid: [])\nPASS | All claims have non-empty text and source pointers (empty: [])\nPASS | Candidates C01 and C02 registered\nPASS | C01 marked SOURCE_VERIFIED_METADATA_ONLY\nPASS | C02 marked SOURCE_VERIFIED_METADATA_AND_CODE\nPASS | Candidate QC remains NOT_VERIFIED\nFAIL | Candidate selection decision remains PENDING\nPASS | Primary MushR paper P001 registered\nPASS | P001 DOI matches 10.3390/agriculture13081533\nPASS | P001 verification_status is FULL_TEXT_REVIEWED\nPASS | Related C01 paper P002 (Bacanto 2026) registered\nPASS | DS-02 hf55tkx489 remains EXCLUDED\nPASS | Only confirmed DS-02 exclusion in registry\nPASS | Phase 0 preserved\nFAIL | Current work package is WP-01\nPASS | dataset_selected remains False\nPASS | training_authorized remains False\nPASS | current_gate is G0\nPASS | All G0–G6 gates remain NEEDS_MORE_EVIDENCE\nPASS | C01 G0 recommendation is NEEDS_MORE_EVIDENCE\nPASS | C02 G0 recommendation is NEEDS_MORE_EVIDENCE\nPASS | Zero dataset/media/checkpoint payloads in workspace (found: [])\nPASS | Payload storage raw is empty (found: [])\nPASS | Payload storage raw is empty (found: [])\nPASS | Payload storage runs is empty (found: [])\nPASS | Payload storage checkpoints is empty (found: [])\nPASS | Payload storage external_test_data is empty (found: [])\n\nWP-01 validation: 36 PASS / 2 FAIL\n\n\n----------------------------------------------------------------------\nRan 9 tests in 14.570s\n\nFAILED (failures=1)\n"
+    },
+    {
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_workspace.py",
+        "-k",
+        "RejectionTests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "test_checkpoint_extension_rejected_without_model_content (test_workspace.RejectionTests.test_checkpoint_extension_rejected_without_model_content) ... ok\ntest_malformed_csv_header_rejected (test_workspace.RejectionTests.test_malformed_csv_header_rejected) ... ok\ntest_missing_exclusion_rejected (test_workspace.RejectionTests.test_missing_exclusion_rejected) ... ok\ntest_missing_protocol_rejected (test_workspace.RejectionTests.test_missing_protocol_rejected) ... ok\ntest_non_payload_text_in_raw_storage_rejected (test_workspace.RejectionTests.test_non_payload_text_in_raw_storage_rejected) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 9.955s\n\nOK\n"
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "warning: in the working copy of '00_project_management/DECISION_LOG.md', CRLF will be replaced by LF the next time Git touches it\nwarning: in the working copy of '00_project_management/RESEARCH_STATUS.md', CRLF will be replaced by LF the next time Git touches it\nwarning: in the working copy of '00_project_management/project_state.json', CRLF will be replaced by LF the next time Git touches it\n"
+    },
+    {
+      "command": [
+        "git",
+        "status",
+        "--short",
+        "--branch"
+      ],
+      "exit_code": 0,
+      "stdout": "## research/wp-03-candidate-discovery\n M 00_project_management/DECISION_LOG.md\n M 00_project_management/RESEARCH_STATUS.md\n M 00_project_management/project_state.json\n M 03_dataset_discovery/candidate_registry/CANDIDATE_REGISTRY.csv\n?? 02_literature_review/methodology_comparison/WP-03_PAPER_METHOD_MATRIX.csv\n?? 02_literature_review/research_gap_analysis/WP-03_PRELIMINARY_GAP_MATRIX.md\n?? 03_dataset_discovery/candidate_registry/WP-03_NEW_CANDIDATES.csv\n?? 03_dataset_discovery/dataset_comparisons/WP-03_CANDIDATE_RANKING.md\n?? 03_dataset_discovery/screening_reports/WP-03_DISCOVERY_REPORT.md\n?? 03_dataset_discovery/screening_reports/WP-03_TOP_TWO_RECOMMENDATIONS.md\n?? 03_dataset_discovery/source_verification/WP-03_SOURCE_EVIDENCE.csv\n?? 03_dataset_discovery/source_verification/wp03_stream_a/\n?? 03_dataset_discovery/source_verification/wp03_stream_b/\n?? setup_reports/WP-03_EXECUTION_REPORT.md\n",
+      "stderr": ""
+    }
+  ],
+  "required_sha256": {
+    "03_dataset_discovery/candidate_registry/WP-03_NEW_CANDIDATES.csv": "84d73b4c1f65be420446fa19b9a2cb843340c2c8db8173560471bac42c8b3cf3",
+    "03_dataset_discovery/screening_reports/WP-03_DISCOVERY_REPORT.md": "c52c0b7222450712fce16b5172592118f8d9c62d4f92e161a0d74d3e77e257a6",
+    "03_dataset_discovery/dataset_comparisons/WP-03_CANDIDATE_RANKING.md": "d6f9f55bc2a501c51a7933a0d52458f7bc2e42eab057d1ef7947f6c85d76dbc9",
+    "02_literature_review/methodology_comparison/WP-03_PAPER_METHOD_MATRIX.csv": "469426fb27f34a056fcb3364cf66ba11437433449d6dfd5aa9c4807425673d11",
+    "02_literature_review/research_gap_analysis/WP-03_PRELIMINARY_GAP_MATRIX.md": "a4b40d0e9159bd880e72d5507ee5a6194c713288a5103127cb13e16f52f7306e",
+    "03_dataset_discovery/source_verification/WP-03_SOURCE_EVIDENCE.csv": "8b467a44a850bd95ba2eaeb4c575d0a1dc8a52f61b53210a5d43957765b1fb2f",
+    "03_dataset_discovery/screening_reports/WP-03_TOP_TWO_RECOMMENDATIONS.md": "e5b8cdf1bb1ea26664cff6f8b949f4cde40199c3d4ac20002bbdc15395d7f181",
+    "setup_reports/WP-03_EXECUTION_REPORT.md": "f25ba9665da41204be48f5e143aa2216fe4d9ac0b67065791a9ad5faef44f8dd"
+  },
+  "counts": {
+    "new_candidates": 6,
+    "exact_links": 4,
+    "fully_eligible": 0,
+    "evidence_rows": 202
+  },
+  "remaining": "Dataset payloads/annotation integrity and subject independence not audited; no novelty established; no WP03 commit/push."
+}

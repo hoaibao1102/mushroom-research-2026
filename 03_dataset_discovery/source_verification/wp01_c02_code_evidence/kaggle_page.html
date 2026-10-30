@@ -1,0 +1,194 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>MushR-Annotated-Dataset (Oyster Mushrooms) | Kaggle</title>
+  <meta charset="utf-8" />
+    <meta name="robots" content="index, follow" />
+  <meta name="description" content="Discover what actually works in AI. Join millions of builders, researchers, and labs evaluating agents, models, and frontier technology through crowdsourced benchmarks, competitions, and hackathons." />
+    <meta name="keywords" content="business,earth and nature" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0">
+  <meta name="theme-color" content="#008ABC" />
+  <script nonce="oxoggjimQ35pcq1wHhl2yQ==" type="text/javascript">
+    window["pageRequestStartTime"] = 1792749067519;
+    window["pageRequestEndTime"] = 1792749067531;
+    window["initialPageLoadStartTime"] = new Date().getTime();
+  </script>
+  <script nonce="oxoggjimQ35pcq1wHhl2yQ==" id="gsi-client" src="https://accounts.google.com/gsi/client" async defer></script>
+  <script nonce="oxoggjimQ35pcq1wHhl2yQ==">window.KAGGLE_JUPYTERLAB_PATH = "/static/assets/jupyterlab-v4/jupyterlab-index-384ab0e09a058259.html";</script>
+  <link rel="preconnect" href="https://www.google-analytics.com" crossorigin="anonymous" /><link rel="preconnect" href="https://stats.g.doubleclick.net" /><link rel="preconnect" href="https://storage.googleapis.com" /><link rel="preconnect" href="https://apis.google.com" />
+  <link href="/static/images/favicon-new.ico" rel="shortcut icon" type="image/x-icon" id="dynamic-favicon" />
+  <link rel="manifest" href="/static/json/manifest.json" crossorigin="use-credentials">
+
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,400i,500,500i,600,600i,700,700i&display=swap"
+    rel="preload" as="style" />
+  <link href="https://fonts.googleapis.com/css2?family=Google+Symbols:FILL,wght@0..1,200..700&display=block"
+    rel="preload" as="style" />
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,400i,500,500i,600,600i,700,700i&display=swap"
+    rel="stylesheet" media="print" id="async-google-font-1" />
+  <link href="https://fonts.googleapis.com/css2?family=Google+Symbols:FILL,wght@0..1,200..700&display=block"
+    rel="stylesheet" media="print" id="async-google-font-2" />
+  <script nonce="oxoggjimQ35pcq1wHhl2yQ==" type="text/javascript">
+    const styleSheetIds = ["async-google-font-1", "async-google-font-2"];
+    styleSheetIds.forEach(function (id) {
+      document.getElementById(id).addEventListener("load", function() {
+        this.media = "all";
+      });
+    });
+  </script>
+
+    <script nonce="oxoggjimQ35pcq1wHhl2yQ==" id="site-wide-recaptcha"
+      src="https://www.google.com/recaptcha/enterprise.js?render=6LcVUOAUAAAAAP8nMSGuW46uJC5Zf6-PCYKN5xxv" async defer></script>
+    <style>.grecaptcha-badge { visibility: hidden; }</style>
+
+    <link rel="canonical" href="https://www.kaggle.com/datasets/etcelab/mushr-annotated-dataset-oyster-mushrooms" />
+    <link rel="stylesheet" type="text/css" href="/static/assets/app.css?v=81622af21c90f30c" />
+
+  
+    
+ 
+      <script nonce="oxoggjimQ35pcq1wHhl2yQ==">
+        try{(function(a,s,y,n,c,h,i,d,e){d=s.createElement("style");
+        d.appendChild(s.createTextNode(""));s.head.appendChild(d);d=d.sheet;
+        y=y.map(x => d.insertRule(x + "{ opacity: 0 !important }"));
+        h.start=1*new Date;h.end=i=function(){y.forEach(x => x<d.cssRules.length ? d.deleteRule(x) : {})};
+        (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+        })(window,document,['.site-header-react__nav'],'dataLayer',2000,{'GTM-52LNT9S':true});}catch(ex){}
+    </script>
+    <script nonce="oxoggjimQ35pcq1wHhl2yQ==">
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-T7QHS60L4Q', {
+            'optimize_id': 'GTM-52LNT9S',
+            'displayFeaturesTask': null,
+            'send_page_view': false,
+            'content_group1': 'Datasets',
+            'user_properties': {
+                'logged_in': false,
+            }
+        });
+    </script>
+    <script nonce="oxoggjimQ35pcq1wHhl2yQ==" async src="https://www.googletagmanager.com/gtag/js?id=G-T7QHS60L4Q"></script>
+
+
+  
+    
+    <meta property="og:url" content="https://www.kaggle.com/datasets/etcelab/mushr-annotated-dataset-oyster-mushrooms" />
+    <meta property="og:title" content="MushR-Annotated-Dataset (Oyster Mushrooms)" />
+    <meta property="og:description" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="fb:app_id" content="2665027677054710" />
+
+        <meta property="og:image" content="https://storage.googleapis.com/kaggle-datasets-images/new-version-temp-images/default-backgrounds-101.png-15706878/dataset-card.png" />
+        <meta property="twitter:image" content="https://storage.googleapis.com/kaggle-datasets-images/new-version-temp-images/default-backgrounds-101.png-15706878/dataset-card.png" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@kaggledatasets" />
+
+
+
+
+  <meta name="twitter:site" content="@Kaggle" /> 
+  
+    
+    <script nonce="oxoggjimQ35pcq1wHhl2yQ==" type="application/ld+json">{"@context":"http://schema.org/","@type":"Dataset","name":"MushR-Annotated-Dataset (Oyster Mushrooms)","description":"# MushR General Summary:\n**MushR** is a modular and scalable gourmet mushroom growing and harvesting system that goes beyond the state of the art, which merely monitors and controls the growing environment, by introducing an image recognition system that determines when and which mushrooms are ready to be harvested in conjunction with a proof-of-concept of an automated mushroom harvesting mechanism for harvesting the mushrooms without human interaction. The image recognition setup monitors the growing status of the mushrooms and guides the harvesting process. We present a Mask R-CNN model for the detection of oyster mushroom maturity as well as a semi-automated harvesting system, integrating a Raspberry Pi for control, an electrical switch, an air compressor, and a pneumatic cylinder with a cutting knife to facilitate timely mushroom harvesting. The modularity and scalability of the system allow for industry-level usage and can be scaled according to the required mushroom-growing systems within the facility.\n\n#MushR Dataset:\nThe dataset created for this project focuses on capturing images of the mushroom-growing environment from three different perspectives within each of our two growth tents for mushroom production. Instead of providing images of every individual bucket and mushroom, we capture the overall scene and its variations. The images from each perspective are captured simultaneously and automatically hourly. This approach allows for monitoring the development and maturity of the oyster mushrooms over time. We captured and accumulated 34,400 images over ten months to ensure a comprehensive dataset. This repository contains the annotated files that we used to train the model. The raw data is available as well: [Link](https://www.kaggle.com/datasets/etcelab/mushr-project-raw-image-dataset-oyster-mushrooms)\n\n# Further Resources: \nThe AI model, a digital twin for mushroom production, the setup of our growth and control chambers, and additional information are all made available under an open-source license.\n\n- MushR Github Repository (AI model digital twin, etc.) - [Link](https://github.com/ETCE-LAB/MushR)","url":"https://www.kaggle.com/etcelab/mushr-annotated-dataset-oyster-mushrooms","version":1,"keywords":["subject, people and society, business","subject, earth and nature"],"license":{"@type":"CreativeWork","name":"CC BY-SA 4.0","url":"https://creativecommons.org/licenses/by-sa/4.0/"},"identifier":["6127324"],"includedInDataCatalog":{"@type":"DataCatalog","name":"Kaggle","url":"https://www.kaggle.com"},"creator":{"@type":"Person","name":"ETCE-LAB","url":"https://www.kaggle.com/etcelab","image":"https://storage.googleapis.com/kaggle-avatars/thumbnails/15706878-kg.png"},"distribution":[{"@type":"DataDownload","requiresSubscription":true,"encodingFormat":"zip","fileFormat":"zip","contentUrl":"https://www.kaggle.com/datasets/etcelab/mushr-annotated-dataset-oyster-mushrooms/download?datasetVersionNumber=1","contentSize":"7890170061 bytes"}],"commentCount":0,"dateModified":"2024-11-20T11:14:14.987Z","discussionUrl":"https://www.kaggle.com/etcelab/mushr-annotated-dataset-oyster-mushrooms/discussion","alternateName":"","isAccessibleForFree":true,"thumbnailUrl":"https://storage.googleapis.com/kaggle-datasets-images/new-version-temp-images/default-backgrounds-101.png-15706878/dataset-card.png","interactionStatistic":[{"@type":"InteractionCounter","interactionType":"http://schema.org/CommentAction","userInteractionCount":0},{"@type":"InteractionCounter","interactionType":"http://schema.org/DownloadAction","userInteractionCount":61},{"@type":"InteractionCounter","interactionType":"http://schema.org/ViewAction","userInteractionCount":671},{"@type":"InteractionCounter","interactionType":"http://schema.org/LikeAction","userInteractionCount":1}]}</script>
+
+
+  
+    
+
+  
+    
+
+
+
+    <script nonce="oxoggjimQ35pcq1wHhl2yQ==">window['useKaggleAnalytics'] = true;</script>
+
+  <script id="gapi-target" nonce="oxoggjimQ35pcq1wHhl2yQ==" src="https://apis.google.com/js/api.js" defer
+    async></script>
+  <script nonce="oxoggjimQ35pcq1wHhl2yQ==" src="/static/assets/runtime.js?v=0d47911ac8bc502f"></script>
+  <script nonce="oxoggjimQ35pcq1wHhl2yQ==" src="/static/assets/vendor.js?v=c649e254dac85b90"></script>
+  <script nonce="oxoggjimQ35pcq1wHhl2yQ==" src="/static/assets/app.js?v=7e63253ebb196ae2"></script>
+    <script nonce="oxoggjimQ35pcq1wHhl2yQ==" type="text/javascript">
+      window.kaggleStackdriverConfig = {
+        key: 'AIzaSyA4eNqUdRRskJsCZWVz-qL655Xa5JEMreE',
+        projectId: 'kaggle-161607',
+        service: 'web-fe',
+        version: 'ci',
+        userId: '0'
+      }
+    </script>
+</head>
+<body>
+  <div id="root">
+    
+
+
+
+
+
+
+
+
+<script nonce="oxoggjimQ35pcq1wHhl2yQ==" type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    jax: ['input/TeX', 'output/SVG'],
+    "HTML-CSS": {
+    preferredFont: "TeX",
+    availableFonts: ["STIX", "TeX"],
+    linebreaks: {
+    automatic: true
+    },
+    EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50)
+    },
+    tex2jax: {
+    inlineMath: [["\\(", "\\)"], ["\\\\(", "\\\\)"]],
+    displayMath: [["$$", "$$"], ["\\[", "\\]"]],
+    processEscapes: true,
+    ignoreClass: "tex2jax_ignore|dno"
+    },
+    TeX: {
+    noUndefined: {
+    attributes: {
+    mathcolor: "red",
+    mathbackground: "#FFEEEE",
+    mathsize: "90%"
+    }
+    }
+    },
+    Macros: {
+    href: "{}"
+    },
+    skipStartupTypeset: true,
+    messageStyle: "none",
+    extensions: ["Safe.js"],
+    });
+</script>
+<script type="text/javascript" nonce="oxoggjimQ35pcq1wHhl2yQ==">
+  window.addEventListener("DOMContentLoaded", () => {
+    const head = document.getElementsByTagName("head")[0];
+    const lib = document.createElement("script");
+    lib.type = "text/javascript";
+    // Always use the production asset in local dev, which is served from GCS. We tried to proxy and / or serve this
+    // in a better way in localhost, but it didn't work out. See b/328073416#comment8 for details.
+    const forceProdHost = window.location.hostname === "localhost";
+    lib.src = `${forceProdHost ? "https://www.kaggle.com" : ""}/static/mathjax/2.7.9/MathJax.js?config=TeX-AMS_SVG`;
+    head.appendChild(lib);
+  });
+</script>
+
+
+
+
+
+
+
+
+  </div>
+</body>
+</html>

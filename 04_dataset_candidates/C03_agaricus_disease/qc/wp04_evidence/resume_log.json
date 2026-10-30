@@ -1,0 +1,152 @@
+[
+  {
+    "start": 1048576,
+    "end": 5242879,
+    "status": "APPENDED_VALIDATED_RANGE"
+  },
+  {
+    "start": 5242880,
+    "end": 9437183,
+    "status": "APPENDED_VALIDATED_RANGE"
+  },
+  {
+    "start": 9437184,
+    "end": 13631487,
+    "status": "APPENDED_VALIDATED_RANGE"
+  },
+  {
+    "start": 13631488,
+    "end": 17825791,
+    "status": "APPENDED_VALIDATED_RANGE"
+  },
+  {
+    "start": 17825792,
+    "end": 22020095,
+    "status": "APPENDED_VALIDATED_RANGE"
+  },
+  {
+    "start": 22020096,
+    "end": 26214399,
+    "status": "APPENDED_VALIDATED_RANGE"
+  },
+  {
+    "start": 26214400,
+    "end": 30408703,
+    "status": "APPENDED_VALIDATED_RANGE"
+  },
+  {
+    "start": 30408704,
+    "end": 34603007,
+    "status": "APPENDED_VALIDATED_RANGE"
+  },
+  {
+    "start": 34603008,
+    "end": 38797311,
+    "status": "APPENDED_VALIDATED_RANGE"
+  },
+  {
+    "start": 38797312,
+    "end": 42991615,
+    "status": "APPENDED_VALIDATED_RANGE"
+  },
+  {
+    "start": 42991616,
+    "end": 47185919,
+    "status": "APPENDED_VALIDATED_RANGE"
+  },
+  {
+    "start": 47185920,
+    "end": 51380223,
+    "status": "APPENDED_VALIDATED_RANGE"
+  },
+  {
+    "start": 51380224,
+    "end": 55574527,
+    "status": "APPENDED_VALIDATED_RANGE"
+  },
+  {
+    "start": 55574528,
+    "end": 59768831,
+    "status": "APPENDED_VALIDATED_RANGE"
+  },
+  {
+    "start": 59768832,
+    "end": 63963135,
+    "status": "APPENDED_VALIDATED_RANGE"
+  },
+  {
+    "start": 63963136,
+    "end": 68157439,
+    "status": "APPENDED_VALIDATED_RANGE"
+  },
+  {
+    "start": 68157440,
+    "end": 72351743,
+    "status": "APPENDED_VALIDATED_RANGE"
+  },
+  {
+    "start": 72351744,
+    "end": 76546047,
+    "status": "APPENDED_VALIDATED_RANGE"
+  },
+  {
+    "start": 76546048,
+    "end": 80740351,
+    "status": "APPENDED_VALIDATED_RANGE"
+  },
+  {
+    "start": 80740352,
+    "end": 84934655,
+    "status": "APPENDED_VALIDATED_RANGE"
+  },
+  {
+    "start": 84934656,
+    "end": 89128959,
+    "status": "APPENDED_VALIDATED_RANGE"
+  },
+  {
+    "start": 89128960,
+    "end": 93323263,
+    "status": "APPENDED_VALIDATED_RANGE"
+  },
+  {
+    "start": 93323264,
+    "end": 97517567,
+    "status": "APPENDED_VALIDATED_RANGE"
+  },
+  {
+    "start": 97517568,
+    "end": 101711871,
+    "status": "APPENDED_VALIDATED_RANGE"
+  },
+  {
+    "start": 101711872,
+    "end": 105906175,
+    "status": "APPENDED_VALIDATED_RANGE"
+  },
+  {
+    "start": 105906176,
+    "end": 110100479,
+    "status": "APPENDED_VALIDATED_RANGE"
+  },
+  {
+    "start": 110100480,
+    "end": 114294783,
+    "status": "APPENDED_VALIDATED_RANGE"
+  },
+  {
+    "start": 114294784,
+    "end": 118489087,
+    "status": "APPENDED_VALIDATED_RANGE"
+  },
+  {
+    "start": 118489088,
+    "end": 122683391,
+    "status": "APPENDED_VALIDATED_RANGE"
+  },
+  {
+    "start": 122683392,
+    "end": 124437043,
+    "status": "APPENDED_VALIDATED_RANGE"
+  }
+]

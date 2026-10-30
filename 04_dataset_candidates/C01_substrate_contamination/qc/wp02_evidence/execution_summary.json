@@ -1,0 +1,12 @@
+{
+  "preflight_root": "D:\\Capstone\\mushroom-research-2026",
+  "branch": "research/wp-02-feasibility-audit",
+  "head": "f50f946b1d5f1bd11407c09b3b210ae0370fbde2",
+  "initial_status": "clean (terminal preflight)",
+  "wp01_object": "da1688a commit object verified",
+  "browser": "Failed before navigation: Chrome real-profile locked; no browser closed or configuration changed",
+  "client_bundle": "HTTP 403; no bundle saved",
+  "acquisition": "Stopped: exact-v2 file/archive name, size and content type unresolved",
+  "download_payload_bytes": 0,
+  "timestamp": "2026-10-30T04:18:06.485959+00:00"
+}

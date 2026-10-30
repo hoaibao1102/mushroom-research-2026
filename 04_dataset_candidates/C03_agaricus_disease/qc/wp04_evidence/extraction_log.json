@@ -1,0 +1,16 @@
+{
+  "command": [
+    "C:/Windows/System32/tar.exe",
+    "-x",
+    "-k",
+    "-f",
+    "D:\\Capstone\\mushroom-research-2026\\04_dataset_candidates\\C03_agaricus_disease\\source\\Comprehensive Image Dataset of Agaricus bisporus Diseases Under Controlled Illumination Conditions.rar",
+    "-C",
+    "D:\\Capstone\\mushroom-research-2026\\04_dataset_candidates\\C03_agaricus_disease\\source\\extracted"
+  ],
+  "returncode": 0,
+  "stdout": "",
+  "stderr": "",
+  "tool": "Windows bsdtar 3.8.9 libarchive 3.8.9",
+  "policy": "Complete header validation; reject traversal/absolute/drive paths, links, encryption, case-fold duplicates, Windows special names; max 3GB; new empty directory; -k no overwrite; no bundled code executed"
+}

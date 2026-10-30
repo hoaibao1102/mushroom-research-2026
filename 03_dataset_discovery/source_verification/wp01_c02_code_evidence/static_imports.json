@@ -1,0 +1,72 @@
+{
+  "MushR\\text\\automated-image-capture\\arducam_multicamera.py": [
+    "import RPi.GPIO as gp",
+    "import os, sys, argparse"
+  ],
+  "MushR\\text\\automated-image-capture\\is-this-image-blurry.py": [
+    "import cv2",
+    "import numpy as np"
+  ],
+  "MushR\\text\\automated-image-capture\\mushrimager.py": [
+    "import cv2",
+    "import numpy as np",
+    "import sys, argparse",
+    "import tqdm"
+  ],
+  "MushR\\text\\pneumatic-harvesting\\joystick_control.py": [
+    "import time",
+    "import board",
+    "import busio",
+    "import adafruit_ads1x15.ads1115 as ADS",
+    "from adafruit_ads1x15.analog_in import AnalogIn",
+    "import RPi.GPIO as GPIO"
+  ],
+  "mushr-mask-r-cnn\\text\\flush_predictor.py": [
+    "from sklearn.cluster import DBSCAN",
+    "from sklearn.metrics import silhouette_score",
+    "from detectron2.utils.visualizer import GenericMask, VisImage",
+    "import numpy as np"
+  ],
+  "mushr-mask-r-cnn\\text\\inference.py": [
+    "import argparse",
+    "import glob",
+    "import multiprocessing as mp",
+    "import numpy as np",
+    "import os",
+    "import tempfile",
+    "import time",
+    "import warnings",
+    "import cv2",
+    "import tqdm",
+    "from detectron2.config import get_cfg",
+    "from detectron2.data.detection_utils import read_image",
+    "from detectron2.utils.logger import setup_logger",
+    "from predictor import VisualizationDemo",
+    "from flush_predictor import get_flushes, get_points, stage"
+  ],
+  "mushr-mask-r-cnn\\text\\predictor.py": [
+    "import atexit",
+    "import bisect",
+    "import multiprocessing as mp",
+    "from collections import deque",
+    "import cv2",
+    "import torch",
+    "from detectron2.data import MetadataCatalog",
+    "from detectron2.engine.defaults import DefaultPredictor",
+    "from detectron2.utils.video_visualizer import VideoVisualizer",
+    "from detectron2.utils.visualizer import ColorMode, Visualizer"
+  ],
+  "mushr-mask-r-cnn\\text\\train_net.py": [
+    "import logging",
+    "import os",
+    "from collections import OrderedDict",
+    "import detectron2.utils.comm as comm",
+    "from detectron2.checkpoint import DetectionCheckpointer",
+    "from detectron2.config import get_cfg",
+    "from detectron2.data import MetadataCatalog",
+    "from detectron2.engine import DefaultTrainer, default_argument_parser, default_setup, hooks, launch",
+    "from detectron2.data.datasets import register_coco_instances",
+    "from detectron2.evaluation import (",
+    "from detectron2.modeling import GeneralizedRCNNWithTTA"
+  ]
+}

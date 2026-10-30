@@ -1,0 +1,28 @@
+{
+  "timestamp_utc": "2026-10-30T06:40:55.304337+00:00",
+  "scope": "STRUCTURAL_PROVENANCE_STATIC_CONSISTENCY_NOT_SCIENTIFIC_REPRODUCTION",
+  "checks": {
+    "exact_record": true,
+    "live_dataset_license": true,
+    "article_separate_license": true,
+    "code_bytes_and_md5": true,
+    "archive_crc_integrity": true,
+    "archive_inventory_count": true,
+    "all_text_extracts_exist": true,
+    "no_training_authorization": true,
+    "count_conflict_preserved": true,
+    "no_dataset_acquired": true,
+    "no_author_code_execution": true,
+    "pending_human_gates": true,
+    "farm_fit_caveat": true,
+    "report_substantive": true,
+    "no_existing_tracked_files_modified": true
+  },
+  "status": "PASS",
+  "training_authorized": "NO",
+  "dataset_selected": "NONE",
+  "human_approval": "PENDING",
+  "protocol_classification": "PARTIALLY_SPECIFIED_WITH_MATERIAL_CONFLICTS",
+  "report_sha256": "1ddbb689b4592dfeb54f61c98134e0cc72288df09b5d2f5b4f543be70300b417",
+  "acquisition_manifest_sha256": "b56f2b3921baa4efc8393bcee74abaeeabc1b52c71c25a7c6710fc871c3b8cd1"
+}

@@ -1,0 +1,29 @@
+{
+  "scope": "structural/vocabulary/citation-provenance; NOT independent scientific audit",
+  "result": "PASS",
+  "timestamp_utc": "2026-10-23T09:59:07.216197+00:00",
+  "claim_rows": 28,
+  "related_paper_rows": 6,
+  "saved_source_files": 55,
+  "required_claim_columns": [
+    "claim_id",
+    "claim_text",
+    "candidate_id",
+    "source_title",
+    "source_url_or_doi",
+    "source_type",
+    "source_publication_update_date",
+    "access_date",
+    "source_location",
+    "evidence_status",
+    "confidence",
+    "verification_notes"
+  ],
+  "all_statuses_valid": true,
+  "citation_evidence_verification": true,
+  "dataset_payloads_downloaded": false,
+  "training_run": false,
+  "g0_recommendation": "CONDITIONAL_HOLD",
+  "training_authorization": "NOT_AUTHORIZED",
+  "shared_registries_or_git_modified": false
+}

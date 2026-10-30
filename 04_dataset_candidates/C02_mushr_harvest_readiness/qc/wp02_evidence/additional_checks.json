@@ -1,0 +1,11 @@
+{
+  "identical_annotations_ignoring_local_ids": 541,
+  "casefold_exact_path_matches": {
+    "train": 0,
+    "test": 0
+  },
+  "all_required_coco_arrays": {
+    "train": true,
+    "test": true
+  }
+}

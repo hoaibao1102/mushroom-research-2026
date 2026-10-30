@@ -1,0 +1,43 @@
+{
+  "candidate_id": "C01",
+  "dataset_doi": "10.17632/jrbx34k77g.2",
+  "dataset_version": "2",
+  "repository_commit": "f50f946b1d5f1bd11407c09b3b210ae0370fbde2",
+  "audit_timestamp": "2026-10-30T04:18:06.485959+00:00",
+  "status": "ACQUISITION_BLOCKED_METADATA_UNCLEAR",
+  "selection_status": "PENDING",
+  "training_executed": false,
+  "payload_downloaded_bytes": 0,
+  "authorization_max_payload_bytes": 1610612736,
+  "archive_name": null,
+  "archive_bytes": null,
+  "archive_content_type": null,
+  "archive_sha256": null,
+  "extraction_executed": false,
+  "image_inventory_rows": 0,
+  "audited_image_count": null,
+  "class_counts_measured": null,
+  "source_reported_counts": {
+    "total": 761,
+    "healthy": 299,
+    "single_infected": 147,
+    "mixed_infected": 315
+  },
+  "source_reported_counts_audited": false,
+  "dimensions": null,
+  "decode_corrupt_count": null,
+  "exact_duplicate_groups": null,
+  "filename_patterns": null,
+  "exif_grouping_clues": null,
+  "perceptual_review": "NOT_PERFORMED",
+  "independence": "UNVERIFIED",
+  "biological_confirmation": "UNVERIFIED",
+  "paper_relationship": "NO_EXACT_DATASET_PAPER_CONFIRMED",
+  "gate_recommendation": "NEEDS_MORE_EVIDENCE",
+  "blockers": [
+    "Exact-v2 archive inventory, size, type and download URL not established",
+    "Live public routes returned 404/403 or empty arrays; browser unavailable due profile lock",
+    "Independent-unit grouping and biological labels not assessed"
+  ],
+  "verification_status": "SEE_qc/wp02_evidence/verification.json"
+}

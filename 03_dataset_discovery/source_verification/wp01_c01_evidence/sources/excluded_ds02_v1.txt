@@ -1,0 +1,72 @@
+Annotated Oyster Mushroom Images - Mendeley Data
+Skip to main content
+FAQ
+Sign In / Register
+Sign In / Register
+FAQ
+Annotated Oyster Mushroom Images
+Published:
+15 July 2024
+|
+Version 1
+|
+DOI:
+10.17632/hf55tkx489.1
+Contributors
+:
+Sonay Duman
+,
+Abdullah Elewi
+,
+Abdulsalam Hajhamed
+,
+Rasheed  Khankan
+,
+Amina Souag
+,
+Asma Ahmed
+Description
+We present a novel dataset of annotated oyster mushroom images, comprising 555 raw camera images, about 8,000 mushroom-labeled images, over 8,000 maturity-labeled images, various annotation files, and environmental sensor data. Captured day and night at an oyster mushroom farm in Mersin, Turkey, the raw images and associated environmental data were collected over two mushroom cultivation cycles from late December 2022 to late April 2023 through a smart system designed and implemented at the farm. More technical details about the system are available in our article in related links below.
+Download All
+Files
+Institutions
+Mersin Universitesi
+Mersin, Mersin
+Universitat Hohenheim
+Baden-Württemberg, Stuttgart
+Categories
+Artificial Intelligence, Computer Vision, Agricultural Engineering, Machine Learning, Mushroom
+Funders
+Council for At-Risk Academics
+England, United Kingdom
+Grant ID: Apr22URN15
+Related Links
+Article
+https://www.sciencedirect.com/science/article/pii/S2772375524000443
+is cited by this dataset
+Licence
+CC BY 4.0
+Learn more
+Home
+|
+About
+|
+Accessibility Statement
+|
+Archive Policy
+|
+File Formats
+|
+API Docs
+|
+OAI
+|
+Mission
+|
+Status Updates
+Terms of Use
+|
+Privacy Policy
+|
+Cookie Settings
+All content on this site: Copyright © 2026 Elsevier inc, its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training and similar technologies. For all open access content, the Creative Commons licensing terms apply.

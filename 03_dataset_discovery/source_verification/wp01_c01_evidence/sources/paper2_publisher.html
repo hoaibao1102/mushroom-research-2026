@@ -1,0 +1,2177 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-GB">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Traditionally, the classification of mushroom cultures has conventionally relied on manual inspection by human experts. However, this methodology is susceptible to human bias and errors, primarily due to its dependency on individual judgments. To overcome these limitations, we introduce an innovative approach that harnesses machine learning methodologies to automate the classification of mushroom cultures. Our methodology employs two distinct strategies: the first involves utilizing the histogram profile of the HSV color space, while the second employs a convolutional neural network (CNN)-based technique. We evaluated a dataset of 1400 images from two strains of Pleurotus ostreatus mycelium samples over a period of 14 days. During the cultivation phase, we base our operations on the histogram profiles of the masked areas. The application of the HSV histogram profile led to an average precision of 74.6% for phase 2, with phase 3 yielding a higher precision of 95.2%. For CNN-based method, the discriminative image features are extracted from captured images of rhizomorph mycelium growth. These features are then used to train a machine learning model that can accurately estimate the growth rate of a rhizomorph mycelium culture and predict contamination status. Using MNet and MConNet approach, our results achieved an average accuracy of 92.15% for growth prediction and 97.81% for contamination prediction. Our results suggest that computer-based approaches could revolutionize the mushroom cultivation industry by making it more efficient and productive. Our approach is less prone to human error than manual inspection, and it can be used to produce mushrooms more efficiently and with higher quality.">
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+    <link rel="preconnect" href="https://connect.facebook.net">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=optional">
+        <meta name="title" content="Automating Mushroom Culture Classification: A Machine Learning Approach" />
+        <meta name="keywords" content="Machine learning, convolution neural networks, mushroom cultivation, rhizomorph mycelium" />
+        <link rel="canonical" href="https://thesai.org/Publications/ViewPaper?Volume=15&amp;Issue=4&amp;Code=IJACSA&amp;SerialNo=54" />
+    <meta property="og:locale"        content="en_GB" />
+    <meta property="og:site_name"     content="The Science and Information (SAI) Organization" />
+    <meta property="og:type"          content="article" />
+    <meta property="og:title"        content="Automating Mushroom Culture Classification: A Machine Learning Approach" />
+    <meta property="og:description"  content="Traditionally, the classification of mushroom cultures has conventionally relied on manual inspection by human experts. However, this methodology is susceptible to human bias and errors, primarily due to its dependency on individual judgments. To overcome these limitations, we introduce an innovative approach that harnesses machine learning methodologies to automate the classification of mushroom cultures. Our methodology employs two distinct strategies: the first involves utilizing the histogram profile of the HSV color space, while the second employs a convolutional neural network (CNN)-based technique. We evaluated a dataset of 1400 images from two strains of Pleurotus ostreatus mycelium samples over a period of 14 days. During the cultivation phase, we base our operations on the histogram profiles of the masked areas. The application of the HSV histogram profile led to an average precision of 74.6% for phase 2, with phase 3 yielding a higher precision of 95.2%. For CNN-based method, the discriminative image features are extracted from captured images of rhizomorph mycelium growth. These features are then used to train a machine learning model that can accurately estimate the growth rate of a rhizomorph mycelium culture and predict contamination status. Using MNet and MConNet approach, our results achieved an average accuracy of 92.15% for growth prediction and 97.81% for contamination prediction. Our results suggest that computer-based approaches could revolutionize the mushroom cultivation industry by making it more efficient and productive. Our approach is less prone to human error than manual inspection, and it can be used to produce mushrooms more efficiently and with higher quality." />
+    <meta property="og:image"       content="https://thesai.org/public/images/hero/hero-img.webp" />
+        <meta property="og:url" content="https://thesai.org/Publications/ViewPaper?Volume=15&amp;Issue=4&amp;Code=IJACSA&amp;SerialNo=54" />
+    <meta name="twitter:card"        content="summary_large_image" />
+    <meta name="twitter:site"        content="@saiconference" />
+    <meta name="twitter:title"       content="Automating Mushroom Culture Classification: A Machine Learning Approach" />
+    <meta name="twitter:description" content="Traditionally, the classification of mushroom cultures has conventionally relied on manual inspection by human experts. However, this methodology is susceptible to human bias and errors, primarily due to its dependency on individual judgments. To overcome these limitations, we introduce an innovative approach that harnesses machine learning methodologies to automate the classification of mushroom cultures. Our methodology employs two distinct strategies: the first involves utilizing the histogram profile of the HSV color space, while the second employs a convolutional neural network (CNN)-based technique. We evaluated a dataset of 1400 images from two strains of Pleurotus ostreatus mycelium samples over a period of 14 days. During the cultivation phase, we base our operations on the histogram profiles of the masked areas. The application of the HSV histogram profile led to an average precision of 74.6% for phase 2, with phase 3 yielding a higher precision of 95.2%. For CNN-based method, the discriminative image features are extracted from captured images of rhizomorph mycelium growth. These features are then used to train a machine learning model that can accurately estimate the growth rate of a rhizomorph mycelium culture and predict contamination status. Using MNet and MConNet approach, our results achieved an average accuracy of 92.15% for growth prediction and 97.81% for contamination prediction. Our results suggest that computer-based approaches could revolutionize the mushroom cultivation industry by making it more efficient and productive. Our approach is less prone to human error than manual inspection, and it can be used to produce mushrooms more efficiently and with higher quality." />
+    <meta name="twitter:image"       content="https://thesai.org/public/images/hero/hero-img.webp" />
+    <title>Automating Mushroom Culture Classification: A Machine Learning Approach</title>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "The Science and Information (SAI) Organization",
+        "alternateName": "SAI",
+        "url": "https://thesai.org/",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": "https://thesai.org/Home/Search?Q={search_term_string}"
+            },
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+
+    <script defer src="https://www.googletagmanager.com/gtag/js?id=G-RKKMRZYXMJ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-RKKMRZYXMJ');
+    </script>
+
+    <script defer src="https://www.googletagmanager.com/gtag/js?id=AW-959837401"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'AW-959837401');
+    </script>
+
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1616918445243443');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none" alt="Facebook pixel tracking" src="https://www.facebook.com/tr?id=1616918445243443&ev=PageView&noscript=1" /></noscript>
+
+    
+        <meta name="citation_title"        content="Automating Mushroom Culture Classification: A Machine Learning Approach" />
+            <meta name="citation_author" content="Hamimah Ujir" />
+            <meta name="citation_author" content="Irwandi Hipiny" />
+            <meta name="citation_author" content="Mohamad Hasnul Bolhassan" />
+            <meta name="citation_author" content="Ku Nurul Fazira Ku Azir" />
+            <meta name="citation_author" content="SA Ali" />
+            <meta name="citation_journal_title" content="International Journal of Advanced Computer Science and Applications (IJACSA)" />
+            <meta name="citation_issn"          content="2156-5570" />
+        <meta name="citation_volume"           content="15" />
+        <meta name="citation_issue"            content="4" />
+        <meta name="citation_year"             content="2024" />
+        <meta name="citation_publication_date" content="2024/04/30" />
+            <meta name="citation_pdf_url" content="https://thesai.org/Downloads/Volume15No4/Paper_54-Automating_Mushroom_Culture_Classification.pdf" />
+        <meta name="citation_public_url" content="https://thesai.org/Publications/ViewPaper?Volume=15&amp;Issue=4&amp;Code=IJACSA&amp;SerialNo=54" />
+            <meta name="citation_doi" content="10.14569/IJACSA.2024.0150454" />
+            <meta name="citation_abstract" content="Traditionally, the classification of mushroom cultures has conventionally relied on manual inspection by human experts. However, this methodology is susceptible to human bias and errors, primarily due to its dependency on individual judgments. To overcome these limitations, we introduce an innovative approach that harnesses machine learning methodologies to automate the classification of mushroom cultures. Our methodology employs two distinct strategies: the first involves utilizing the histogram profile of the HSV color space, while the second employs a convolutional neural network (CNN)-based technique. We evaluated a dataset of 1400 images from two strains of Pleurotus ostreatus mycelium samples over a period of 14 days. During the cultivation phase, we base our operations on the histogram profiles of the masked areas. The application of the HSV histogram profile led to an average precision of 74.6% for phase 2, with phase 3 yielding a higher precision of 95.2%. For CNN-based method, the discriminative image features are extracted from captured images of rhizomorph mycelium growth. These features are then used to train a machine learning model that can accurately estimate the growth rate of a rhizomorph mycelium culture and predict contamination status. Using MNet and MConNet approach, our results achieved an average accuracy of 92.15% for growth prediction and 97.81% for contamination prediction. Our results suggest that computer-based approaches could revolutionize the mushroom cultivation industry by making it more efficient and productive. Our approach is less prone to human error than manual inspection, and it can be used to produce mushrooms more efficiently and with higher quality." />
+        <meta name="dc.title"     content="Automating Mushroom Culture Classification: A Machine Learning Approach" />
+            <meta name="dc.creator" content="Hamimah Ujir" />
+            <meta name="dc.creator" content="Irwandi Hipiny" />
+            <meta name="dc.creator" content="Mohamad Hasnul Bolhassan" />
+            <meta name="dc.creator" content="Ku Nurul Fazira Ku Azir" />
+            <meta name="dc.creator" content="SA Ali" />
+        <meta name="dc.source"    content="International Journal of Advanced Computer Science and Applications" />
+        <meta name="dc.description" content="Traditionally, the classification of mushroom cultures has conventionally relied on manual inspection by human experts. However, this methodology is susceptible to human bias and errors, primarily due to its dependency on individual judgments. To overcome these limitations, we introduce an innovative approach that harnesses machine learning methodologies to automate the classification of mushroom cultures. Our methodology employs two distinct strategies: the first involves utilizing the histogram profile of the HSV color space, while the second employs a convolutional neural network (CNN)-based technique. We evaluated a dataset of 1400 images from two strains of Pleurotus ostreatus mycelium samples over a period of 14 days. During the cultivation phase, we base our operations on the histogram profiles of the masked areas. The application of the HSV histogram profile led to an average precision of 74.6% for phase 2, with phase 3 yielding a higher precision of 95.2%. For CNN-based method, the discriminative image features are extracted from captured images of rhizomorph mycelium growth. These features are then used to train a machine learning model that can accurately estimate the growth rate of a rhizomorph mycelium culture and predict contamination status. Using MNet and MConNet approach, our results achieved an average accuracy of 92.15% for growth prediction and 97.81% for contamination prediction. Our results suggest that computer-based approaches could revolutionize the mushroom cultivation industry by making it more efficient and productive. Our approach is less prone to human error than manual inspection, and it can be used to produce mushrooms more efficiently and with higher quality." />
+        <meta name="dc.date"      content="2024" />
+            <meta name="dc.subject" content="Machine learning" />
+            <meta name="dc.subject" content="convolution neural networks" />
+            <meta name="dc.subject" content="mushroom cultivation" />
+            <meta name="dc.subject" content="rhizomorph mycelium" />
+        <meta name="dc.format"    content="text/html" />
+        <meta name="dc.publisher" content="The Science and Information (SAI) Organization Limited" />
+        <meta name="dc.type"      content="Articles" />
+        <meta name="dc.language"  content="en" />
+        <meta name="dc.rights"    content="https://creativecommons.org/licenses/by/4.0/" />
+            <meta name="dc.identifier" content="doi:10.14569/IJACSA.2024.0150454" />
+            <meta name="prism.doi"     content="10.14569/IJACSA.2024.0150454" />
+        <meta name="prism.volume"  content="15" />
+        <meta name="prism.number"  content="4" />
+        <meta name="prism.section" content="Articles" />
+        <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://thesai.org/Publications/ViewPaper?Volume=15&Issue=4&Code=IJACSA&SerialNo=54",
+  "name": "Automating Mushroom Culture Classification: A Machine Learning Approach",
+  "headline": "Automating Mushroom Culture Classification: A Machine Learning Approach",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Hamimah Ujir"
+    },
+    {
+      "@type": "Person",
+      "name": "Irwandi Hipiny"
+    },
+    {
+      "@type": "Person",
+      "name": "Mohamad Hasnul Bolhassan"
+    },
+    {
+      "@type": "Person",
+      "name": "Ku Nurul Fazira Ku Azir"
+    },
+    {
+      "@type": "Person",
+      "name": "SA Ali"
+    }
+  ],
+  "datePublished": "2024-04-30",
+  "dateModified": "2024-04-30",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://thesai.org/#organization",
+    "name": "The Science and Information (SAI) Organization"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://thesai.org/public/images/publications/IJACSA.webp"
+  },
+  "isPartOf": {
+    "@type": "PublicationIssue",
+    "issueNumber": "4",
+    "isPartOf": {
+      "@type": "PublicationVolume",
+      "volumeNumber": "15",
+      "isPartOf": {
+        "@type": "Periodical",
+        "@id": "https://thesai.org/Publications/IJACSA",
+        "name": "International Journal of Advanced Computer Science and Applications",
+        "issn": "2156-5570"
+      }
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://thesai.org/Publications/ViewPaper?Volume=15&Issue=4&Code=IJACSA&SerialNo=54"
+  },
+  "url": "https://thesai.org/Publications/ViewPaper?Volume=15&Issue=4&Code=IJACSA&SerialNo=54",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "isAccessibleForFree": true,
+  "description": "Traditionally, the classification of mushroom cultures has conventionally relied on manual inspection by human experts. However, this methodology is susceptible to human bias and errors, primarily due to its dependency on individual judgments. To overcome these limitations, we introduce an innovative approach that harnesses machine learning methodologies to automate the classification of mushroom cultures. Our methodology employs two distinct strategies: the first involves utilizing the histogram profile of the HSV color space, while the second employs a convolutional neural network (CNN)-based technique. We evaluated a dataset of 1400 images from two strains of Pleurotus ostreatus mycelium samples over a period of 14 days. During the cultivation phase, we base our operations on the histogram profiles of the masked areas. The application of the HSV histogram profile led to an average precision of 74.6% for phase 2, with phase 3 yielding a higher precision of 95.2%. For CNN-based method, the discriminative image features are extracted from captured images of rhizomorph mycelium growth. These features are then used to train a machine learning model that can accurately estimate the growth rate of a rhizomorph mycelium culture and predict contamination status. Using MNet and MConNet approach, our results achieved an average accuracy of 92.15% for growth prediction and 97.81% for contamination prediction. Our results suggest that computer-based approaches could revolutionize the mushroom cultivation industry by making it more efficient and productive. Our approach is less prone to human error than manual inspection, and it can be used to produce mushrooms more efficiently and with higher quality.",
+  "abstract": "Traditionally, the classification of mushroom cultures has conventionally relied on manual inspection by human experts. However, this methodology is susceptible to human bias and errors, primarily due to its dependency on individual judgments. To overcome these limitations, we introduce an innovative approach that harnesses machine learning methodologies to automate the classification of mushroom cultures. Our methodology employs two distinct strategies: the first involves utilizing the histogram profile of the HSV color space, while the second employs a convolutional neural network (CNN)-based technique. We evaluated a dataset of 1400 images from two strains of Pleurotus ostreatus mycelium samples over a period of 14 days. During the cultivation phase, we base our operations on the histogram profiles of the masked areas. The application of the HSV histogram profile led to an average precision of 74.6% for phase 2, with phase 3 yielding a higher precision of 95.2%. For CNN-based method, the discriminative image features are extracted from captured images of rhizomorph mycelium growth. These features are then used to train a machine learning model that can accurately estimate the growth rate of a rhizomorph mycelium culture and predict contamination status. Using MNet and MConNet approach, our results achieved an average accuracy of 92.15% for growth prediction and 97.81% for contamination prediction. Our results suggest that computer-based approaches could revolutionize the mushroom cultivation industry by making it more efficient and productive. Our approach is less prone to human error than manual inspection, and it can be used to produce mushrooms more efficiently and with higher quality.",
+  "keywords": [
+    "Machine learning",
+    "convolution neural networks",
+    "mushroom cultivation",
+    "rhizomorph mycelium"
+  ],
+  "genre": "Research Article",
+  "inLanguage": "en",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.14569/IJACSA.2024.0150454"
+  },
+  "sameAs": "https://doi.org/10.14569/IJACSA.2024.0150454",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://thesai.org/Downloads/Volume15No4/Paper_54-Automating_Mushroom_Culture_Classification.pdf",
+    "encodingFormat": "application/pdf"
+  }
+}</script>
+        <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Publications","item":"https://thesai.org/Publications"},{"@type":"ListItem","position":2,"name":"IJACSA","item":"https://thesai.org/Publications/IJACSA"},{"@type":"ListItem","position":3,"name":"Volume 15, Issue 4","item":"https://thesai.org/Publications/ViewIssue?volume=15&issue=4&code=IJACSA"},{"@type":"ListItem","position":4,"name":"Automating Mushroom Culture Classification: A Machine Learning Approach","item":"https://thesai.org/Publications/ViewPaper?Volume=15&Issue=4&Code=IJACSA&SerialNo=54"}]}</script>
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/public/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/public/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/public/images/favicon-16x16.png">
+    <link rel="shortcut icon" href="/public/images/favicon.ico">
+    <link rel="manifest" href="/public/images/site.webmanifest">
+
+    <link rel="stylesheet" href="/public/css/bootstrap.min.css?v=WY64kzBEktpqOMkck-iex-ZaMmZ8EhJ8BliSEuoquAw">
+    <link rel="stylesheet" href="/public/css/main.css?v=NKZGRN6y7jZtXy8boL91E-J-crK-8tLzJajWiYOnGqA">
+    <style>/*
+ * SAI Theme Overrides
+ * Spacing reductions + counter wrap fix only. No colour changes.
+ * Load AFTER main.css so these values win.
+ */
+
+/* ── Turnstile loading spinner ───────────────────────────────────────────── */
+/* turnstile-widget.js used to inject a "ki-filled ki-loading" icon (Keenicons —
+   the internal admin dashboard's icon font) into public-page submit buttons.
+   The public site never loads Keenicons, so it rendered as nothing. Pure-CSS
+   spinner instead — no font/icon dependency at all, works on every layout. */
+.turnstile-spinner {
+    display: inline-block;
+    width: 0.85em;
+    height: 0.85em;
+    margin-inline-end: 0.4em;
+    border: 2px solid currentColor;
+    border-inline-end-color: transparent;
+    border-radius: 50%;
+    vertical-align: -0.15em;
+    animation: turnstile-spin 0.75s linear infinite;
+}
+@keyframes turnstile-spin {
+    to { transform: rotate(360deg); }
+}
+
+/* ── Hero indexing badge pills ───────────────────────────────────────────── */
+.sai-hero-pill {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--tj-color-heading-primary);
+    padding: 7px 0;
+    border-bottom: 1px solid var(--tj-color-border-1);
+}
+.sai-hero-pill:last-child { border-bottom: none; padding-bottom: 0; }
+.sai-hero-pill i          { color: var(--tj-color-theme-primary); font-size: 12px; }
+
+/* ── Journal meta badges — e.g. journal page header chip row ─────────────── */
+.sai-journal-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 10px;
+}
+.sai-journal-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 14px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1;
+    white-space: nowrap;
+    color: var(--tj-color-heading-primary);
+    background: var(--tj-color-theme-bg);
+    border: 1px solid var(--tj-color-border-5);
+    border-radius: 30px;
+}
+.sai-journal-badge i { color: var(--tj-color-theme-primary); font-size: 11px; }
+
+/* ── Header logo — larger than template default (136px) ─────────────────── */
+.site_logo .logo { max-width: 200px; }
+
+/* ── Conferences dropdown ────────────────────────────────────────────────── */
+.conf-dropdown { width: 300px !important; }           /* wider than default 220px */
+.conf-dropdown li a span { display: block; }          /* name on its own line     */
+.conf-dropdown li a small {
+    display: block;
+    font-size: 12px;
+    color: var(--tj-color-text-body-3);
+    margin-top: 1px;
+}
+
+/* ── Banner — push hero content below the fixed header bar ──────────────── */
+.tj-banner-section {
+    padding-top: 120px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px),
+       only screen and (min-width: 576px) and (max-width: 767px),
+       (max-width: 575px) {
+    .tj-banner-section {
+        padding-top: 80px;
+    }
+}
+
+/* ── Back-to-top — hide entirely ────────────────────────────────────────── */
+#tj-back-to-top { display: none !important; }
+
+/* ── Icon-font CLS guard ──────────────────────────────────────────────────
+   font-awesome-pro.min.css/bexon-icons.css are deferred in _PublicLayout.cshtml
+   to keep a 512KB stylesheet off the LCP-critical path — the tradeoff is that
+   every <i class="fa-…">/<i class="tji-…"> glyph renders at ~0 width until that
+   CSS loads, then pops in and nudges adjacent text. Icon-heavy pages (ViewPaper's
+   author/date/DOI/action-button row, sidebar quick links) accumulate this into a
+   real CLS score. Reserving the box up front means the pop-in fills space that
+   was already there. Font Awesome/bexon icons are drawn in a ~1em advance box
+   regardless of which specific glyph renders, so this is safe sitewide rather
+   than needing per-icon tuning. See JMS_System_Reference.md §11.
+   2026-09-24: the width-only reservation above turned out not to be sufficient —
+   CrUX field data and repeated live PSI runs still showed an intermittent desktop
+   CLS regression on both ViewPaper and the IJACSA hub (~30% of Lighthouse runs
+   reproduced it, always attributed to the same "div.blog-text" content wrapper
+   these icons sit inside). Reserving height as well as width closes the
+   vertical half of the same pop-in gap. This is a defense-in-depth hardening,
+   not a confirmed root-cause fix — see the IJACSA-hub-specific Odometer fix in
+   _PublicLayout.cshtml for the one shift mechanism that WAS pinned down this
+   session; if field CLS is still elevated after this deploys, the remaining
+   cause needs a live browser Performance-panel trace, which wasn't available
+   in this environment. */
+i[class*="fa-"], i[class*="tji-"] {
+    display:     inline-block;
+    min-width:   1em;
+    height:      1em;
+    line-height: 1;
+}
+
+/* ── Colour palette — blue primary + warm red accent ────────────────────── */
+:root {
+    --tj-color-theme-primary: #1A56DB;
+    --tj-color-theme-bg:      #dce6fb;   /* blue wash        */
+    --tj-color-theme-bg-2:    #c5d8f9;   /* blue tint        */
+    --tj-color-border-5:      rgba(26, 86, 219, 0.15);   /* blue glow border */
+    --tj-color-accent:        #D63A1A;
+    /* Accessible variants of --tj-color-text-body-3 (#67787a, ~4.6:1 on white — fails
+       WCAG AA at small/bold sizes) and --tj-color-accent (~4.7:1 — same problem) used on
+       ViewPaper's meta strip. Same visual role (muted secondary text / accent label),
+       darkened just enough to clear 4.5:1 with margin. Scoped to the elements a Lighthouse
+       audit actually flagged (see JMS_System_Reference.md §11) rather than reflowing every
+       text-body-3 use in this file. */
+    --tj-color-text-muted-a11y: #526264;  /* ~6.4:1 on white */
+    --tj-color-accent-a11y:     #B8300F;  /* ~6.1:1 on white */
+}
+
+/* ── Accent — CTA buttons ────────────────────────────────────────────────── */
+/* Apply to filled primary buttons only; leave .btn-dark and .transparent-btn alone */
+.tj-primary-btn:not(.btn-dark):not(.transparent-btn) {
+    background-color: var(--tj-color-accent) !important;
+}
+
+/* ── Accent — hero heading highlight word ────────────────────────────────── */
+.banner-title span {
+    color: var(--tj-color-accent);
+}
+
+/* ── Accent — section subtitle icons ────────────────────────────────────── */
+.sub-title i {
+    color: var(--tj-color-accent);
+}
+
+/* ── Font sizes — scaled down from template defaults ───────────────────── */
+:root {
+    --tj-fs-h1:   32px;   /* was 74px */
+    --tj-fs-h2:   28px;   /* was 48px */
+    --tj-fs-h3:   26px;   /* was 32px */
+    --tj-fs-h4:   20px;   /* was 24px */
+    --tj-fs-h5:   17px;   /* was 20px */
+    --tj-fs-h6:   15px;   /* was 18px */
+    --tj-fs-body: 15px;   /* was 16px */
+    --tj-fs-p:    15px;
+}
+
+/* ── Heading sizes — keep scaled-down values at every breakpoint ────────── */
+/* main.css only sets --tj-fs-h* on the base (≥1400px) rule; the responsive
+   overrides below it still use the template's original, larger sizes. */
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+    h1 { font-size: var(--tj-fs-h1) !important; }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    h1 { font-size: var(--tj-fs-h1) !important; }
+    h2 { font-size: var(--tj-fs-h2) !important; }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    h1 { font-size: var(--tj-fs-h1) !important; }
+    h2 { font-size: var(--tj-fs-h2) !important; }
+    h3 { font-size: var(--tj-fs-h3) !important; }
+    h4 { font-size: var(--tj-fs-h4) !important; }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    h1 { font-size: var(--tj-fs-h1) !important; }
+    h2 { font-size: var(--tj-fs-h2) !important; }
+    h3 { font-size: var(--tj-fs-h3) !important; }
+    h4 { font-size: var(--tj-fs-h4) !important; }
+}
+@media (max-width: 575px) {
+    h1 { font-size: var(--tj-fs-h1) !important; }
+    h2 { font-size: var(--tj-fs-h2) !important; }
+    h3 { font-size: var(--tj-fs-h3) !important; }
+    h4 { font-size: var(--tj-fs-h4) !important; }
+}
+
+/* ── Odometer counter — prevent number wrapping (e.g. "15,000") ─────────── */
+.countup-item .inline-content {
+    white-space: nowrap;
+}
+
+/* ── Section spacing — reduced from template defaults ───────────────────── */
+.section-gap {
+    padding-top:    40px !important;   /* was 120px */
+    padding-bottom: 40px !important;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .section-gap {
+        padding-top:    35px !important;
+        padding-bottom: 35px !important;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px),
+       only screen and (min-width: 576px) and (max-width: 767px),
+       (max-width: 575px) {
+    .section-gap {
+        padding-top:    28px !important;
+        padding-bottom: 28px !important;
+    }
+}
+
+/* ── Top-only section gap (section sits directly under one with its own
+   bottom padding already — avoid doubling the vertical gap) ────────────── */
+.section-gap-top { padding-top: 40px !important; }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .section-gap-top { padding-top: 35px !important; }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px),
+       only screen and (min-width: 576px) and (max-width: 767px),
+       (max-width: 575px) {
+    .section-gap-top { padding-top: 28px !important; }
+}
+
+/* ── Footer — compact variant for pages without a CTA strip ─────────────── */
+.footer-compact { padding-top: 8px !important; }
+@media only screen and (min-width: 768px) and (max-width: 991px),
+       only screen and (min-width: 576px) and (max-width: 767px),
+       (max-width: 575px) {
+    .footer-compact { padding-top: 6px !important; }
+}
+
+/* .footer-main-area carries its own 100px/90px top/bottom padding
+   (main.css:2526-2534), independent of the outer <footer>'s padding-top
+   that footer-compact overrides above — without this, the outer override
+   barely moves the visible gap since the inner 100px still dominates. */
+.footer-compact .footer-main-area { padding-top: 40px !important; }
+@media only screen and (min-width: 576px) and (max-width: 767px),
+       (max-width: 575px) {
+    .footer-compact .footer-main-area { padding-top: 30px !important; }
+}
+
+/* ── First-section clearance (compensates for absolute-positioned header) ── */
+/* Must come after .section-gap so it wins when both classes are present      */
+.sai-page-start { padding-top: 120px !important; }
+@media only screen and (min-width: 768px) and (max-width: 991px),
+       only screen and (min-width: 576px) and (max-width: 767px),
+       (max-width: 575px) {
+    /* On mobile the header switches to position:fixed (see "Sticky header on
+       mobile" below) and stays on top (z-index:1000) instead of scrolling
+       away — 80px under-cleared its actual rendered height on some phones,
+       clipping the top of whatever renders first inside the section. Was
+       invisible while the clipped item was a decorative image; became
+       visible once the sidebar's quick-links heading became the first
+       reordered item on mobile (see .slidebar-stickiy-container below). */
+    .sai-page-start { padding-top: 110px !important; }
+}
+
+/* ── Keynote speaker cards ───────────────────────────────────────────────── */
+.keynote-card { display: block; }
+.keynote-thumb {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    aspect-ratio: 16 / 9;
+}
+.keynote-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.4s ease;
+}
+.keynote-play {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.35);
+    transition: background 0.3s ease;
+}
+.keynote-play i {
+    font-size: 40px;
+    color: #ffffff;
+    filter: drop-shadow(0 2px 6px rgba(0,0,0,0.4));
+    transition: transform 0.3s ease;
+}
+.keynote-card:hover .keynote-thumb img  { transform: scale(1.05); }
+.keynote-card:hover .keynote-play       { background: rgba(0, 0, 0, 0.55); }
+.keynote-card:hover .keynote-play i     { transform: scale(1.15); }
+.keynote-info {
+    padding: 12px 4px 0;
+}
+.keynote-info h6 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 2px;
+    color: var(--tj-color-heading-primary);
+}
+.keynote-info span {
+    font-size: 13px;
+    color: var(--tj-color-text-body-3);
+}
+/* !important needed on both: swiper.min.css's own ".swiper { padding: 0; }"
+   (same specificity, loads after this file) was silently zeroing out our
+   padding-bottom, and its ".swiper-horizontal > .swiper-pagination-bullets
+   { bottom: 10px; }" (higher specificity) was overriding our bottom offset —
+   together those left the dots sitting right on top of the card row above. */
+.keynote-swiper { padding-bottom: 56px !important; }
+.keynote-swiper-pagination { bottom: 0 !important; }
+
+
+/* ── Global Reach section ────────────────────────────────────────────────── */
+
+/* Contain the map within its column.
+   Template defaults: width:1167px, inset-inline-start:-115px (overflows).
+   We reset both so it fits inside col-lg-6. */
+.sai-reach-section .global-map {
+    width:                100%    !important;
+    inset-inline-start:   0       !important;
+    padding:              20px 0;
+}
+.sai-reach-section .global-map-img img {
+    opacity: 0.65 !important;
+    /* main.css sets width:100% but no height:auto — combined with the width/height
+       HTML attributes on the <img> (added for CLS), the browser's auto aspect-ratio
+       fights the flex-item sizing and renders near-native (1167x638) instead of
+       shrinking to the column (same bug as .award-logo above). Force it explicitly. */
+    height: auto !important;
+}
+
+/* Location indicators — use inset-inline-start (logical) to match template specificity.
+   Repositioned for SAI's key locations. */
+.sai-reach-section .location-indicator.loc-1 {
+    top:                33% !important;
+    inset-inline-start: 47% !important; /* London, UK       */
+}
+.sai-reach-section .location-indicator.loc-2 {
+    top:                31% !important;
+    inset-inline-start: 49% !important; /* Amsterdam        */
+}
+.sai-reach-section .location-indicator.loc-3 {
+    top:                35% !important;
+    inset-inline-start: 15% !important; /* San Francisco    */
+}
+.sai-reach-section .location-indicator.loc-4 {
+    top:                34% !important;
+    inset-inline-start: 82% !important; /* Japan            */
+}
+.sai-reach-section .location-indicator.loc-5 {
+    top:                32% !important;
+    inset-inline-start: 76% !important; /* China            */
+}
+.sai-reach-section .location-indicator.loc-6 {
+    top:                51% !important;
+    inset-inline-start: 76% !important; /* Singapore        */
+}
+.sai-reach-section .location-indicator.loc-7 {
+    top:                40% !important;
+    inset-inline-start: 59% !important; /* Dubai            */
+}
+
+/* Stat number font size — main.css default is 74px, too large for half-width boxes */
+.sai-stat-box .inline-content                { font-size: 46px !important; }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .sai-stat-box .inline-content            { font-size: 40px !important; }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px),
+       only screen and (min-width: 576px) and (max-width: 767px) {
+    .sai-stat-box .inline-content            { font-size: 36px !important; }
+}
+@media (max-width: 575px) {
+    .sai-stat-box .inline-content            { font-size: 32px !important; }
+}
+
+/* Individual stat boxes — styled for the section background */
+.sai-stat-box {
+    border:        1px solid var(--tj-color-border-1, rgba(0,0,0,0.1));
+    border-radius: 8px;
+    padding:       18px 16px;
+    text-align:    center;
+}
+.sai-stat-box .inline-content {
+    display:         flex;
+    align-items:     baseline;
+    justify-content: center;
+    gap:             2px;
+    white-space:     nowrap;
+}
+
+/* main.css sets white on all these because the original strip had a dark bg.
+   Override the whole chain so numbers show in the normal heading colour. */
+.sai-reach-section .inline-content,
+.sai-reach-section .inline-content .odometer,
+.sai-reach-section .inline-content .odometer .odometer-digit,
+.sai-reach-section .inline-content .odometer span,
+.sai-reach-section .count-plus {
+    color: var(--tj-color-heading-primary) !important;
+}
+.sai-reach-section .count-text {
+    color: var(--tj-color-text-body-3, #666) !important;
+}
+
+
+/* ── About page — gap between intro heading and paragraph ───────────────── */
+/* Template's .sec-heading .sec-title has margin-bottom: 0 (relies on the
+   whole .sec-heading block's own margin-bottom for spacing after it) — add
+   space here since the paragraph sits directly under the title. */
+.about-content-area .sec-heading .sec-title {
+    margin-bottom: 18px;
+}
+
+/* ── Homepage "About SAI" heading — kill excess space above the map ─────── */
+/* main.css's .sec-heading { margin-bottom: 52px } loads after bootstrap.min.css,
+   so it silently beats the .mb-0 utility on this heading (same specificity,
+   source order wins) — restore the intended zero margin here. */
+.sai-reach-section .sec-heading.mb-0 {
+    margin-bottom: 0;
+}
+
+/* ── About page — SAI at a Glance box ────────────────────────────────────── */
+/* No photo behind this box (about-img removed) — box-area's template default
+   is `position: absolute; bottom: 0`, which needs a sized image to anchor
+   against. Without it the box collapses to the top of the column and
+   overlaps the sticky header. Take it out of absolute positioning so it
+   flows normally as a standalone card. */
+.about-img-area.style-2 .box-area.style-2 {
+    position: static;
+    max-width: 100%;
+    padding: 0;
+}
+.about-img-area.style-2 .box-area.style-2 .progress-box {
+    background-color: rgba(15, 23, 42, 0.82) !important;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    padding: 18px 22px 20px !important;
+}
+
+.sai-glance-list {
+    list-style: none;
+    padding: 0;
+    margin: 12px 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+.sai-glance-list li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+.sai-glance-list li:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+.sai-glance-value {
+    font-size: 17px;
+    font-weight: 700;
+    color: #ffffff;
+    white-space: nowrap;
+    min-width: 58px;
+}
+.sai-glance-label {
+    font-size: 12.5px;
+    color: rgba(255, 255, 255, 0.82);
+    line-height: 1.3;
+}
+
+/* ── Paragraph spacing — tighter than browser default across all content ─── */
+.blog-text p,
+.post-details-wrapper p,
+.tj-sidebar-widget p,
+.footer-text p,
+.offcanvas-text p,
+section p.desc {
+    margin-bottom: 0.55rem;
+}
+
+/* ── Sticky header on mobile ──────────────────────────────────────────────── */
+/* .header-area.header-1.header-absolute is position:absolute (main.css), so it
+   scrolls away with the page like any other content. Pin it to the viewport
+   on mobile only, so the logo and hamburger toggle stay reachable while
+   scrolling — desktop keeps its existing absolute-over-hero behavior. */
+@media (max-width: 991px) {
+    .header-area.header-1.header-absolute {
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+    }
+}
+
+/* ── GSAP right/left-swipe reveal clipping ────────────────────────────────── */
+/* main.js (.rightSwipeWrap/.leftSwipeWrap, used by the Home "Why Publish with
+   us?" cards) sets each card's pre-animation GSAP state to x:"10rem"/"-10rem"
+   (translated off to one side) before revealing it on scroll into view.
+   Nothing clips that offset, so before the reveal animation fires the card
+   genuinely renders past the row's edge — on mobile this appears to widen
+   what the browser treats as the page's layout viewport, which in turn threw
+   off unrelated fixed-position UI (the mobile menu's icons) until a scroll
+   let the animation settle. Clip it at the row so it can never do that. */
+.rightSwipeWrap,
+.leftSwipeWrap {
+    overflow-x: hidden;
+}
+
+/* ── Hide meanmenu's own auto-generated toggle icon ───────────────────────── */
+/* meanmenu.js injects ".mean-bar" containing BOTH its own redundant toggle
+   icon (".meanmenu-reveal" — three white bars, absolutely positioned
+   top-right) AND, as its own child, "nav.mean-nav" — the actual menu list
+   (Home/Journals/Conferences/etc). Hiding .mean-bar itself (an earlier
+   attempt) hid the whole menu along with the toggle. Hide only the toggle
+   icon — we don't need it, since our own hamburger button + × close button
+   already open and close the whole drawer. */
+.mean-container a.meanmenu-reveal {
+    display: none !important;
+}
+/* .mean-nav's 44px top margin exists to clear space for that toggle icon
+   within .mean-bar; with the icon gone there's nothing to clear. */
+.mean-container .mean-nav {
+    margin-top: 0 !important;
+}
+.mean-container .mean-bar {
+    background: transparent !important;
+    padding: 0 !important;
+    min-height: 0 !important;
+}
+/* meanmenu.css hardcodes .mean-nav's own background (#070337), a different
+   dark shade than the drawer's real background (--tj-color-theme-dark,
+   #0c1e21, set on .hamburger_bg) — visible as a color seam around the
+   menu list. Make it transparent so the drawer's own background shows
+   through uniformly. */
+.mean-container .mean-nav {
+    background: transparent !important;
+}
+
+/* ── Mobile-menu close (×) and dropdown-expand (▾) icon fallback ─────────── */
+/* Confirmed on-device: the hamburger drawer's close button (Font Awesome
+   fa-thin/fa-times) and the meanmenu-injected dropdown expand arrow (the
+   custom bexon-icons "tji-arrow-down" glyph) don't paint, even though both
+   elements exist, are correctly sized/positioned, and have a legible color —
+   the icon-font glyph itself just isn't rendering. Force a plain-Unicode
+   fallback that doesn't depend on either icon font, so the controls are
+   always visible regardless of what's blocking the icon fonts. */
+.hamburger_close_btn i {
+    font-style: normal;
+}
+.hamburger_close_btn i::before {
+    content: "\00d7";
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    line-height: 1;
+    color: inherit;
+}
+.mean-expand i.tji-arrow-down {
+    font-style: normal;
+}
+.mean-expand i.tji-arrow-down::before {
+    content: "\25be";
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1;
+    color: inherit;
+}
+
+/* ── Mobile-menu dropdown arrow — larger tap target ───────────────────────── */
+/* meanmenu.js sizes .mean-expand at 26x32px pinned to the row's top-right
+   corner — a small target sitting far from the "Journals"/"Conferences" text
+   it controls. main.js now also forwards a tap anywhere on the row to this
+   arrow, but keep the arrow itself easy to hit and visually distinct as a
+   fallback/direct target. */
+.mean-container .mean-nav ul li a.mean-expand {
+    width: 44px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.06);
+}
+
+/* ── Sidebar quick-links toggle (mobile only) ─────────────────────────────── */
+/* Reordering the sidebar above content on mobile (below) made its full link
+   list dominate the screen before any real page content. Collapse the list
+   behind a compact toggle on mobile instead — desktop is untouched (the list
+   is forced open via d-lg-block regardless of collapse state). */
+.sai-sidebar-toggle {
+    margin-bottom: 0;
+}
+.sai-sidebar-toggle-icon {
+    font-size: 20px;
+    line-height: 1;
+    transition: transform 0.2s ease;
+}
+.sai-sidebar-toggle[aria-expanded="true"] .sai-sidebar-toggle-icon {
+    transform: rotate(45deg);
+}
+#sai-sidebar-links.collapse:not(.show) {
+    display: none;
+}
+/* Collapsed, the widget shows one line of toggle text, but .tj-sidebar-widget's
+   30px all-round padding (main.css) is sized for the full-height widgets it
+   normally holds (cover image, open link list) — shrink it on mobile so the
+   collapsed toggle doesn't eat more vertical space than its content needs. */
+@media (max-width: 991px) {
+    .tj-sidebar-widget.service-categories {
+        padding: 14px 20px;
+    }
+}
+#sai-sidebar-links ul {
+    margin-top: 12px;
+}
+
+/* ── Sidebar pages — surface quick links above content on mobile ─────────── */
+/* The two-column sidebar pattern (col-lg-8 content / col-lg-4 sidebar) puts
+   the sidebar's quick-nav links (Submit, Current Issue, Archives, etc.) below
+   all main content in source order, so mobile readers had to scroll past the
+   whole page to reach them. Bootstrap's .row is a flex container, so moving
+   the sidebar first is a pure visual reorder — DOM/reading order (and SEO)
+   are unaffected; only screens below the lg breakpoint are affected. */
+@media (max-width: 991px) {
+    .slidebar-stickiy-container .row > [class*="col-lg-4"] {
+        order: -1;
+    }
+}
+
+/* ── ViewIssue — article cards ──────────────────────────────────────────── */
+.sai-paper-list {
+    display:        flex;
+    flex-direction: column;
+    gap:            0;
+}
+
+.sai-paper-item {
+    display:       flex;
+    gap:           18px;
+    padding:       24px 0;
+    border-bottom: 1px solid var(--tj-color-border-1, rgba(0,0,0,0.08));
+}
+.sai-paper-item:last-child { border-bottom: none; }
+
+.sai-paper-number {
+    flex-shrink:     0;
+    width:           36px;
+    height:          36px;
+    display:         flex;
+    align-items:     center;
+    justify-content: center;
+    background:      var(--tj-color-theme-bg);
+    border:          1px solid var(--tj-color-border-5, rgba(26,86,219,0.15));
+    border-radius:   6px;
+    font-size:       13px;
+    font-weight:     700;
+    color:           var(--tj-color-theme-primary);
+    line-height:     1;
+    margin-top:      3px;
+}
+
+.sai-paper-body {
+    flex: 1;
+    min-width: 0;
+}
+
+.sai-paper-title {
+    font-size:   17px;
+    line-height: 1.4;
+    margin-bottom: 6px;
+}
+.sai-paper-title a {
+    color:       var(--tj-color-heading-primary);
+    text-decoration: none;
+    transition:  color 0.2s ease;
+}
+.sai-paper-title a:hover { color: var(--tj-color-theme-primary); }
+
+.sai-paper-authors {
+    font-size:     13px;
+    color:         var(--tj-color-text-muted-a11y);
+    margin-bottom: 10px;
+}
+.sai-paper-authors i { opacity: 0.6; }
+
+/* Text is now server-truncated to ~50 words (SeoHelper.TruncateWords) rather than the full
+   abstract clamped visually, so the CSS clamp that used to hide the rest is no longer needed —
+   removing it also guarantees the "Read full abstract" link can never get clipped off. */
+.sai-paper-abstract {
+    font-size:     14px;
+    line-height:   1.75;
+    color:         var(--tj-color-text-body);
+    margin-bottom: 12px;
+}
+
+.sai-paper-abstract-more {
+    display:         inline-block;
+    margin-left:     6px;
+    white-space:     nowrap;
+    font-weight:     600;
+    color:           var(--tj-color-theme-primary);
+    text-decoration: none;
+}
+.sai-paper-abstract-more:hover { text-decoration: underline; }
+
+.sai-paper-keywords {
+    display:       flex;
+    flex-wrap:     wrap;
+    align-items:   center;
+    gap:           4px;
+    margin-bottom: 14px;
+}
+.sai-paper-keywords i { color: var(--tj-color-theme-primary); opacity: 0.7; }
+
+.sai-paper-actions {
+    display:   flex;
+    flex-wrap: wrap;
+    gap:       8px;
+}
+
+.sai-paper-btn {
+    display:       inline-flex;
+    align-items:   center;
+    font-size:     12px;
+    font-weight:   600;
+    padding:       5px 12px;
+    border-radius: 4px;
+    border:        1px solid var(--tj-color-border-1, rgba(0,0,0,0.12));
+    color:         var(--tj-color-heading-primary);
+    background:    transparent;
+    text-decoration: none;
+    transition:    border-color 0.2s ease, background 0.2s ease, color 0.2s ease;
+    white-space:   nowrap;
+}
+.sai-paper-btn:hover {
+    border-color: var(--tj-color-theme-primary);
+    background:   var(--tj-color-theme-bg);
+    color:        var(--tj-color-theme-primary);
+    text-decoration: none;
+}
+.sai-paper-btn-pdf {
+    border-color: rgba(214, 58, 26, 0.35);
+    color:        var(--tj-color-accent);
+}
+.sai-paper-btn-pdf:hover {
+    background:   rgba(214, 58, 26, 0.07);
+    border-color: var(--tj-color-accent);
+    color:        var(--tj-color-accent);
+}
+
+@media (max-width: 575px) {
+    .sai-paper-item       { flex-direction: column; gap: 10px; }
+    .sai-paper-number     { width: 28px; height: 28px; font-size: 12px; margin-top: 0; }
+    .sai-paper-title      { font-size: 15px; }
+}
+
+/* ── How to Cite + BibTeX blocks ────────────────────────────────────────── */
+.sai-cite-box,
+.sai-bibtex-box {
+    position:      relative;
+    border:        1px solid var(--tj-color-border-1, rgba(0,0,0,0.1));
+    border-radius: 8px;
+    padding:       20px 20px 16px;
+    background:    var(--tj-color-theme-bg);
+}
+
+.sai-cite-text {
+    font-size:   14.5px;
+    line-height: 1.75;
+    margin:      0 0 14px;
+    color:       var(--tj-color-text-body);
+}
+
+.sai-bibtex-pre {
+    font-size:    13px;
+    line-height:  1.7;
+    margin:       0 0 14px;
+    white-space:  pre-wrap;
+    word-break:   break-word;
+    background:   transparent;
+    border:       none;
+    padding:      0;
+    color:        var(--tj-color-text-body);
+}
+.sai-bibtex-pre code {
+    font-family: 'Courier New', Courier, monospace;
+    font-size:   inherit;
+    color:       inherit;
+    background:  none;
+    padding:     0;
+}
+
+.sai-copy-btn {
+    display:     inline-flex;
+    align-items: center;
+    gap:         6px;
+    font-size:   12px;
+    font-weight: 600;
+    padding:     5px 14px;
+    border-radius: 4px;
+    border:      1px solid var(--tj-color-border-1, rgba(0,0,0,0.12));
+    background:  #ffffff;
+    color:       var(--tj-color-text-body-3);
+    cursor:      pointer;
+    transition:  border-color 0.2s ease, color 0.2s ease;
+}
+.sai-copy-btn:hover {
+    border-color: var(--tj-color-theme-primary);
+    color:        var(--tj-color-theme-primary);
+}
+
+/* ── Paper abstract block ────────────────────────────────────────────────── */
+.sai-abstract {
+    padding:       20px 24px;
+    border-left:   4px solid var(--tj-color-theme-primary);
+    background:    var(--tj-color-theme-bg);
+    border-radius: 0 6px 6px 0;
+    font-size:     15px;
+    line-height:   1.8;
+}
+
+/* ── Important dates block (Call for Papers) ────────────────────────────── */
+.sai-dates-box {
+    padding:       22px 24px;
+    border-left:   4px solid var(--tj-color-theme-primary);
+    background:    var(--tj-color-theme-bg);
+    border-radius: 0 8px 8px 0;
+}
+.sai-dates-heading {
+    font-size:     14px;
+    font-weight:   700;
+    color:         var(--tj-color-heading-primary);
+    margin-bottom: 18px;
+}
+.sai-dates-grid {
+    display:  flex;
+    flex-wrap: wrap;
+    gap:      20px;
+}
+.sai-dates-item {
+    display:     flex;
+    align-items: flex-start;
+    gap:         12px;
+    flex:        1 1 180px;
+}
+.sai-dates-icon {
+    flex-shrink:     0;
+    width:           38px;
+    height:          38px;
+    border-radius:   50%;
+    display:         flex;
+    align-items:     center;
+    justify-content: center;
+    font-size:       15px;
+    color:           var(--tj-color-theme-primary);
+    background:      color-mix(in srgb, var(--tj-color-theme-primary) 12%, transparent);
+}
+.sai-dates-label {
+    font-size:     11.5px;
+    font-weight:   600;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color:         var(--tj-color-text-body-3);
+    margin-bottom: 2px;
+}
+.sai-dates-value {
+    font-size:   15px;
+    font-weight: 600;
+    color:       var(--tj-color-heading-primary);
+}
+@media (max-width: 575px) {
+    .sai-dates-grid { gap: 16px; }
+}
+
+/* ── 404 page ────────────────────────────────────────────────────────────── */
+.sai-404-code {
+    font-size:   120px;
+    font-weight: 800;
+    line-height: 1;
+    margin-bottom: 16px;
+    background:  linear-gradient(135deg, var(--tj-color-theme-primary) 0%, var(--tj-color-accent) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+@media (max-width: 575px) { .sai-404-code { font-size: 80px; } }
+
+.sai-404-chip {
+    display:       inline-block;
+    font-size:     13px;
+    font-weight:   500;
+    padding:       6px 14px;
+    border-radius: 20px;
+    border:        1px solid var(--tj-color-border-1, rgba(0,0,0,0.1));
+    color:         var(--tj-color-heading-primary);
+    text-decoration: none;
+    transition:    border-color 0.2s ease, background 0.2s ease;
+}
+.sai-404-chip:hover {
+    border-color: var(--tj-color-theme-primary);
+    background:   var(--tj-color-theme-bg);
+    color:        var(--tj-color-theme-primary);
+    text-decoration: none;
+}
+
+/* ── Indexing strip ──────────────────────────────────────────────────────── */
+.sai-index-badge {
+    display:         flex;
+    flex-direction:  column;
+    align-items:     center;
+    justify-content: center;
+    gap:             4px;
+    padding:         14px 20px;
+    border:          1px solid var(--tj-color-border-1, rgba(0,0,0,0.1));
+    border-radius:   8px;
+    text-align:      center;
+    min-width:       140px;
+    transition:      border-color 0.25s ease, box-shadow 0.25s ease;
+}
+.sai-index-badge:hover {
+    border-color: var(--tj-color-theme-primary);
+    box-shadow:   0 4px 16px rgba(0,0,0,0.08);
+}
+.sai-index-badge.sai-index-premium {
+    border-color: var(--tj-color-theme-primary);
+    background:   color-mix(in srgb, var(--tj-color-theme-primary) 5%, transparent);
+}
+.sai-index-name {
+    display:     block;
+    font-size:   15px;
+    font-weight: 700;
+    color:       var(--tj-color-heading-primary);
+    line-height: 1.2;
+}
+.sai-index-org {
+    display:   block;
+    font-size: 12px;
+    color:     var(--tj-color-text-body-3);
+}
+
+/* ── ViewPaper — article type / OA / licence strip ──────────────────────── */
+.sai-article-strip {
+    display:     flex;
+    align-items: center;
+    gap:         10px;
+    flex-wrap:   wrap;
+}
+.sai-strip-type {
+    font-size:      11px;
+    font-weight:    700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color:          var(--tj-color-text-muted-a11y);
+}
+.sai-strip-sep {
+    color: var(--tj-color-border-1, rgba(0,0,0,0.2));
+    font-size: 13px;
+}
+.sai-strip-oa {
+    font-size:   11px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color:       var(--tj-color-accent-a11y);
+}
+.sai-strip-cc {
+    font-size:       15px;
+    color:           var(--tj-color-text-muted-a11y);
+    text-decoration: none;
+    display:         inline-flex;
+    align-items:     center;
+    gap:             2px;
+    transition:      color 0.2s ease;
+}
+.sai-strip-cc:hover { color: var(--tj-color-theme-primary); }
+
+/* ── ViewPaper — publication meta row ───────────────────────────────────── */
+.sai-pub-meta {
+    display:   flex;
+    flex-wrap: wrap;
+    gap:       6px 14px;
+    font-size: 13px;
+    color:     var(--tj-color-text-muted-a11y);
+    margin-bottom: 6px;
+}
+.sai-pub-meta i { opacity: 0.7; }
+.sai-pub-sep {
+    color:     var(--tj-color-border-1, rgba(0,0,0,0.2));
+    font-size: 13px;
+    align-self: center;
+}
+@media (max-width: 575px) {
+    .sai-pub-sep { display: none; }
+    .sai-pub-meta { flex-direction: column; gap: 4px; }
+}
+
+/* ── ViewPaper — Open Access footnote — link must not rely on color alone
+   (WCAG 1.4.1): `a { text-decoration: none }` in main.css means it would
+   otherwise inherit the paragraph's own color with no visual distinction at
+   all. Explicit color + underline fixes both the contrast and color-reliance
+   findings together. */
+.sai-oa-notice { color: var(--tj-color-text-muted-a11y); }
+.sai-oa-notice a {
+    color:           var(--tj-color-theme-primary);
+    text-decoration: underline;
+}
+
+/* Blog tables use Bootstrap's existing .table/.table-bordered classes (same as
+   CallForPaper.cshtml's fee table) — see blog-editor.js's Table extension config —
+   so no separate table styling is needed here. */
+
+/* Sidebar "Call for Papers" + "Submit Paper" CTA row (_Sidebar.cshtml) — .tj-primary-btn
+   is an inline-flex element sized to its own content (16px text, 42px icon circle),
+   designed as a single full-width CTA, not two side-by-side buttons in a ~300px-wide
+   sidebar column. At full size the pair doesn't fit on one line and wraps. Scoped
+   compact sizing here (not touching .tj-primary-btn itself, which is used site-wide
+   as a full-size CTA elsewhere) shrinks text/padding/icon just enough for both to sit
+   side by side.
+   flex-shrink: 0 is required, not optional — .tj-primary-btn has its own
+   overflow:hidden + white-space:nowrap (a single full-width CTA is never meant to
+   shrink), so a flex row without this would let the browser compress these buttons
+   below their intrinsic width and silently clip the text again — the exact bug an
+   earlier flex-fill attempt caused. Without flex-wrap, the parent row also no longer
+   allows the pair to drop to a second line — side by side is a hard requirement here,
+   not a "when there's room" preference. */
+.sai-sidebar-cta-row .tj-primary-btn {
+    flex-shrink: 0;
+    font-size:   12px;
+    padding:     3px 3px 3px 10px;
+    gap:         4px;
+}
+.sai-sidebar-cta-row .tj-primary-btn .btn-icon {
+    width:     24px;
+    height:    24px;
+    font-size: 11px;
+}
+
+/* main.css's `blockquote p` is sized for a single giant pull-quote sentence (24px/600,
+   -0.6px tracking — same size as an h4). TipTap's Blockquote toolbar button is used by
+   editors for callout boxes like "Key Takeaways" (a short bold label followed by a
+   list, not a pull-quote), and inherited that oversized treatment. Reusing the
+   existing --tj-fs-h6 scale step instead of a new hardcoded size. */
+.blog-text blockquote p {
+    font-size: var(--tj-fs-h6);
+}
+
+/* Blog bullet lists — reuses the site's existing checkmark-in-circle look (the same
+   tji-check glyph Guidelines/Policies/SpecialIssue hand-write as <span><i class="tji-check">)
+   via a CSS ::before instead, since TipTap's bullet-list button can't emit that markup.
+   Scoped to "ul > li" specifically (never "ol > li") so it can't affect numbered lists —
+   a previous attempt at this via a shared TipTap list-item node put a checkmark in front
+   of ordered-list numbers too, since <ul>/<ol> share one node type at the editor level.
+   Deliberately scoped to ".blog-post-body", NOT the shared ".blog-text" prose-styling
+   class — ".blog-text" is reused on a dozen other public pages (Guidelines, Policies,
+   CallForPaper, Citations, EditorialBoard, PrivacyPolicy, Terms, ...) that already
+   hand-write the tji-check icon per <li>; matching on ".blog-text" made every one of
+   those bullets render two overlapping checkmarks (found 2026-10-01). */
+.blog-post-body ul > li::before {
+    content:      "\e911";
+    font-family:  "bexon-icons";
+    flex:         0 0 auto;
+    width:        20px;
+    height:       20px;
+    margin-top:   2px;
+    border-radius: 50%;
+    background:   var(--tj-color-theme-primary);
+    color:        #fff;
+    font-size:    9px;
+    display:      flex;
+    align-items:  center;
+    justify-content: center;
+}
+
+/* ── ViewPaper — "How to Cite" tabs (only .nav-tabs usage site-wide, safe to
+   scope globally) — Bootstrap's default inactive-link color is its base
+   --bs-link-color (~3.9:1 on white), which fails WCAG AA at this font size. */
+.nav-tabs .nav-link:not(.active) {
+    color: var(--tj-color-text-muted-a11y);
+}
+.nav-tabs .nav-link.active {
+    color: var(--tj-color-heading-primary);
+}
+
+/* ── Home hero heading — bigger than the sitewide scaled-down h1 ─────────── */
+.banner-content .banner-title { font-size: 48px !important; }
+@media only screen and (min-width: 992px) and (max-width: 1399px) {
+    .banner-content .banner-title { font-size: 44px !important; }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px),
+       only screen and (min-width: 576px) and (max-width: 767px) {
+    .banner-content .banner-title { font-size: 36px !important; }
+}
+@media (max-width: 575px) {
+    .banner-content .banner-title { font-size: 30px !important; }
+}
+
+/* ── Home CTA heading — main.css default (74px) is too large ────────────── */
+.cta-area .cta-content .title { font-size: 34px !important; }
+@media only screen and (min-width: 768px) and (max-width: 1399px) {
+    .cta-area .cta-content .title { font-size: 30px !important; }
+}
+@media (max-width: 767px) {
+    .cta-area .cta-content .title { font-size: 26px !important; }
+}
+
+/* ── Home CTA — fixed-size side image instead of stretching to content height ── */
+.cta-area { min-height: 320px; }
+.cta-area .cta-img { height: 320px; }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .cta-area { min-height: 280px; }
+    .cta-area .cta-img { height: 280px; }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px),
+       only screen and (min-width: 576px) and (max-width: 767px),
+       (max-width: 575px) {
+    .cta-area .cta-img { height: 220px; }
+}
+
+/* ── Reviewers/Create — domain-of-research tag picker ────────────────────── */
+.sai-tag-box {
+    display:         flex;
+    flex-wrap:       wrap;
+    align-items:     center;
+    gap:             6px;
+    padding:         8px 0 4px;
+    border-bottom:   1px dashed var(--tj-color-border-1);
+    cursor:          text;
+}
+.sai-tag-pills {
+    display:   flex;
+    flex-wrap: wrap;
+    gap:       6px;
+}
+.sai-tag-pill {
+    display:      inline-flex;
+    align-items:  center;
+    gap:          6px;
+    padding:      5px 8px 5px 12px;
+    font-size:    12.5px;
+    font-weight:  600;
+    line-height:  1;
+    white-space:  nowrap;
+    color:        var(--tj-color-heading-primary);
+    background:   color-mix(in srgb, var(--tj-color-theme-primary) 7%, transparent);
+    border:       1px solid var(--tj-color-theme-primary);
+    border-radius: 30px;
+}
+.sai-tag-remove {
+    display:         inline-flex;
+    align-items:     center;
+    justify-content: center;
+    width:           16px;
+    height:          16px;
+    padding:         0;
+    font-size:       14px;
+    line-height:     1;
+    color:           var(--tj-color-theme-primary);
+    background:      transparent;
+    border:          0;
+    border-radius:   50%;
+    cursor:          pointer;
+}
+.sai-tag-remove:hover { background: var(--tj-color-theme-primary); color: #fff; }
+.sai-tag-search {
+    flex:            1 1 160px;
+    min-width:       160px;
+    border:          0 !important;
+    padding:         5px 0 !important;
+    background:      transparent !important;
+}
+.sai-domain-picker { position: relative; }
+.sai-tag-dropdown {
+    position:        absolute;
+    left:            0;
+    right:           0;
+    z-index:         20;
+    margin-top:      4px;
+    max-height:      260px;
+    overflow-y:      auto;
+    background:      var(--tj-color-white, #fff);
+    border:          1px solid var(--tj-color-border-1, rgba(0,0,0,0.1));
+    border-radius:   8px;
+    box-shadow:      0 10px 30px rgba(0,0,0,0.12);
+}
+.sai-tag-option {
+    padding:     9px 14px;
+    font-size:   14px;
+    color:       var(--tj-color-text-body-3);
+    cursor:      pointer;
+}
+.sai-tag-option:hover {
+    background: color-mix(in srgb, var(--tj-color-theme-primary) 6%, transparent);
+    color:      var(--tj-color-theme-primary);
+}
+
+/* ── Reviewers/Create — profile photo upload ─────────────────────────────── */
+.sai-photo-drop {
+    display:         flex;
+    align-items:     center;
+    justify-content: center;
+    width:           140px;
+    height:          140px;
+    border:          1px dashed var(--tj-color-border-1);
+    border-radius:   50%;
+    overflow:        hidden;
+    cursor:          pointer;
+    transition:      border-color 0.25s ease;
+}
+.sai-photo-drop:hover { border-color: var(--tj-color-theme-primary); }
+.sai-photo-placeholder {
+    display:         flex;
+    flex-direction:  column;
+    align-items:     center;
+    gap:             4px;
+    padding:         0 12px;
+    text-align:      center;
+    color:           var(--tj-color-text-body-3);
+}
+.sai-photo-placeholder i    { font-size: 20px; color: var(--tj-color-theme-primary); }
+.sai-photo-placeholder span { font-size: 11px; font-weight: 600; }
+.sai-photo-placeholder small { font-size: 9.5px; line-height: 1.3; }
+.sai-photo-preview {
+    width:      100%;
+    height:     100%;
+    object-fit: cover;
+}
+
+/* ── Reviewers/Create — CV upload ────────────────────────────────────────── */
+.sai-file-drop {
+    display:         flex;
+    flex-direction:  column;
+    align-items:     center;
+    justify-content: center;
+    gap:             4px;
+    height:          140px;
+    padding:         0 16px;
+    text-align:      center;
+    color:           var(--tj-color-text-body-3);
+    border:          1px dashed var(--tj-color-border-1);
+    border-radius:   8px;
+    cursor:          pointer;
+    transition:      border-color 0.25s ease;
+}
+.sai-file-drop:hover { border-color: var(--tj-color-theme-primary); }
+.sai-file-drop i     { font-size: 20px; color: var(--tj-color-theme-primary); }
+.sai-file-drop span  { font-size: 12.5px; font-weight: 600; word-break: break-word; }
+.sai-file-drop small { font-size: 9.5px; line-height: 1.3; }
+.sai-file-drop.sai-file-drop-filled {
+    border-style: solid;
+    border-color: var(--tj-color-theme-primary);
+    background:   color-mix(in srgb, var(--tj-color-theme-primary) 5%, transparent);
+}
+
+/* ── Reviewers/Create, Submit — client-side validation error state ──────── */
+.contact-form .form-input input.sai-input-invalid,
+.contact-form .form-input textarea.sai-input-invalid,
+.contact-form .form-input select.sai-input-invalid {
+    border-bottom-color: var(--tj-color-danger, #dc3545) !important;
+}
+.sai-tag-box.sai-input-invalid { border-bottom-color: var(--tj-color-danger, #dc3545); }
+.sai-photo-drop.sai-input-invalid,
+.sai-file-drop.sai-input-invalid { border-color: var(--tj-color-danger, #dc3545); }
+/* Generic fallback (e.g. buttons) when sai-input-invalid is applied outside a .form-input */
+button.sai-input-invalid,
+.tj-primary-btn.sai-input-invalid {
+    outline: 2px solid var(--tj-color-danger, #dc3545);
+    outline-offset: 2px;
+}
+
+/* ── Footer award/member logos (Crossref, DOI, CC BY) ────────────────────
+   .award-logo caps at max-width:96px (main.css) but the img itself has no
+   height:auto, so adding width/height attributes to the <img> tags (for CLS)
+   let the browser's auto aspect-ratio fight with flex-item sizing and render
+   near the SVGs' native (much larger) canvas size instead of shrinking to
+   fit the 96px badge slot. Force it explicitly. */
+.award-logo-area .award-logo img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+/* main.css caps each badge at 96px width with an 18px gap; Crossref/DOI/CC BY's very
+   different aspect ratios (DOI especially is a wide 1060x247 wordmark) made the row
+   wrap and the whole cluster take up far more footer height than a logo strip should.
+   Shrink both so all three sit on one compact row instead. */
+.award-logo-area {
+    gap: 10px;
+}
+
+/* Sidebar journal-cover image (_Sidebar.cshtml, ViewPaper/ViewIssue/etc — desktop-only,
+   d-none d-lg-block). The width/height HTML attributes alone didn't reserve a stable
+   box: Bootstrap's .img-fluid sets height:auto, and the sidebar column's actual width
+   isn't settled until GSAP ScrollSmoother's pin-spacer wrapper resolves it, so the
+   image's box could still shift after first paint (measured as desktop-only CLS via
+   Lighthouse). An explicit aspect-ratio keeps height proportional to width at every
+   point, independent of when the column width itself settles. */
+.tj-sidebar-widget > img.img-fluid {
+    aspect-ratio: 200 / 259;
+}
+.award-logo-area .award-logo {
+    max-width: 64px;
+}
+
+/* ── Tag chips (IJACSA "Bibliographic Information") — hovered chip gets the theme
+   blue background from main.css but its text stayed dark (unreadable on blue); force
+   white on hover/focus. */
+.tagcloud a:hover,
+.tagcloud a:focus {
+    color: #fff !important;
+}
+</style>
+
+        <link rel="preload" as="style" href="/public/css/font-awesome-pro.min.css?v=t8XTdV8jYarVW4jWj3Hk7qD2q47sRg23Ng-e_Sae_sY" onload="this.onload=null;this.rel='stylesheet';">
+        <link rel="preload" as="style" href="/public/css/animate.min.css?v=gAySqtZraHutaruWtLRujXNia0_pOI7sZAJbLKywjVo" onload="this.onload=null;this.rel='stylesheet';">
+        <link rel="preload" as="style" href="/public/css/bexon-icons.css?v=3p6aKjY0xo91dOTwHNoSbyU9CeepcvdJU_CEp7Bvc3Q" onload="this.onload=null;this.rel='stylesheet';">
+        <link rel="preload" as="style" href="/public/css/nice-select.css?v=YgGx0_zCYOcBg8fytBlZAJgwe-CVeLGiwliVJmGJbUo" onload="this.onload=null;this.rel='stylesheet';">
+        <link rel="preload" as="style" href="/public/css/meanmenu.css?v=E0WxB3YylK__Zgi66aE3wJeyVO-6tfa1xiKfmuHiego" onload="this.onload=null;this.rel='stylesheet';">
+    <noscript>
+            <link rel="stylesheet" href="/public/css/font-awesome-pro.min.css?v=t8XTdV8jYarVW4jWj3Hk7qD2q47sRg23Ng-e_Sae_sY">
+            <link rel="stylesheet" href="/public/css/animate.min.css?v=gAySqtZraHutaruWtLRujXNia0_pOI7sZAJbLKywjVo">
+            <link rel="stylesheet" href="/public/css/bexon-icons.css?v=3p6aKjY0xo91dOTwHNoSbyU9CeepcvdJU_CEp7Bvc3Q">
+            <link rel="stylesheet" href="/public/css/nice-select.css?v=YgGx0_zCYOcBg8fytBlZAJgwe-CVeLGiwliVJmGJbUo">
+            <link rel="stylesheet" href="/public/css/meanmenu.css?v=E0WxB3YylK__Zgi66aE3wJeyVO-6tfa1xiKfmuHiego">
+    </noscript>
+
+    
+</head>
+<body data-no-smooth-scroll="true">
+    <div class="body-overlay"></div>
+
+
+    <div id="tj-back-to-top"><span id="tj-back-to-top-percentage"></span></div>
+
+    <div class="search-popup-overlay"></div>
+
+    <div class="tj-offcanvas-area d-none d-lg-block">
+        <div class="hamburger_bg"></div>
+        <div class="hamburger_wrapper">
+            <div class="hamburger_inner">
+                <div class="hamburger_top d-flex align-items-center justify-content-between">
+                    <div class="hamburger_logo">
+                        <a href="/" class="mobile_logo">
+                            <img src="/public/images/logos/logo_white.svg" alt="SAI Logo" width="200" height="69">
+                        </a>
+                    </div>
+                    <div class="hamburger_close">
+                        <button class="hamburger_close_btn" aria-label="Close menu"><i class="fa-thin fa-times"></i></button>
+                    </div>
+                </div>
+                <div class="offcanvas-text">
+                    <p>The Science and Information (SAI) Organization publishes open-access peer-reviewed journals in computer science and artificial intelligence.</p>
+                </div>
+                <div class="hamburger-infos">
+                    <h5 class="hamburger-title">Contact Info</h5>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <span class="subtitle">Email</span>
+                            <a class="contact-link" href="mailto:info@thesai.org">info@thesai.org</a>
+                        </div>
+                        <div class="contact-item">
+                            <span class="subtitle">Website</span>
+                            <span class="contact-link">thesai.org</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hamburger-socials">
+                <h5 class="hamburger-title">Follow Us</h5>
+                <div class="social-links style-3">
+                    <ul>
+                        <li><a href="https://www.facebook.com/SAIConference/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="https://x.com/saiconference" target="_blank" rel="noopener" aria-label="X (Twitter)"><i class="fa-brands fa-x-twitter"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/saiconference" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li><a href="https://www.instagram.com/saiconference" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="hamburger-area d-lg-none">
+        <div class="hamburger_bg"></div>
+        <div class="hamburger_wrapper">
+            <div class="hamburger_inner">
+                <div class="hamburger_top d-flex align-items-center justify-content-between">
+                    <div class="hamburger_logo">
+                        <a href="/" class="mobile_logo">
+                            <img src="/public/images/logos/logo_white.svg" alt="SAI Logo" width="200" height="69">
+                        </a>
+                    </div>
+                    <div class="hamburger_close">
+                        <button class="hamburger_close_btn" aria-label="Close menu"><i class="fa-thin fa-times"></i></button>
+                    </div>
+                </div>
+                <div class="hamburger_menu">
+                    <div class="mobile_menu"></div>
+                </div>
+                <div style="padding: 12px 0; border-top: 1px solid rgba(0,0,0,0.07);">
+                    <form action="/Home/Search" method="get" class="d-flex gap-2">
+                        <input type="text" name="q" placeholder="Search papers…"
+                               class="form-control form-control-sm"
+                               style="font-size: 14px; border-color: var(--tj-color-border-1);">
+                        <button type="submit" class="tj-primary-btn btn-dark"
+                                style="padding: 0 14px; font-size: 15px; border: none; border-radius: 6px; flex-shrink: 0;">
+                            <i class="tji-search"></i>
+                        </button>
+                    </form>
+                </div>
+                <div class="hamburger-infos">
+                    <h5 class="hamburger-title">Contact Info</h5>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <span class="subtitle">Email</span>
+                            <a class="contact-link" href="mailto:info@thesai.org">info@thesai.org</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hamburger-socials">
+                <h5 class="hamburger-title">Follow Us</h5>
+                <div class="social-links style-3">
+                    <ul>
+                        <li><a href="https://www.facebook.com/SAIConference/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="https://x.com/saiconference" target="_blank" rel="noopener" aria-label="X (Twitter)"><i class="fa-brands fa-x-twitter"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/saiconference" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li><a href="https://www.instagram.com/saiconference" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header class="header-area header-1 header-absolute section-gap-x">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="header-wrapper">
+                        <div class="site_logo">
+                            <a class="logo" href="/"><img src="/public/images/logos/logo_top.svg" alt="SAI Organization" width="230" height="80"></a>
+                        </div>
+
+                        <div class="menu-area d-none d-lg-inline-flex align-items-center">
+                            <nav id="mobile-menu" class="mainmenu">
+                                <ul>
+                                    <li><a href="/">Home</a></li>
+
+                                    <li class="has-dropdown"><a href="#">Journals</a>
+                                        <ul class="sub-menu header__mega-menu mega-menu mega-menu-pages">
+                                            <li>
+                                                <div class="mega-menu-wrapper">
+                                                    <div class="mega-menu-pages-single">
+                                                        <div class="mega-menu-pages-single-inner">
+                                                            <h6 class="mega-menu-title">Publication Links</h6>
+                                                            <div class="mega-menu-list">
+                                                                <a href="/Publications">All Journals</a>
+                                                                <a href="/Publications/Guidelines">Author Guidelines</a>
+                                                                <a href="/Publications/Policies">Publication Policies</a>
+                                                                <a href="/Publications/OutstandingReviewers">Outstanding Reviewers</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="mega-menu-pages-single">
+                                                        <div class="mega-menu-pages-single-inner">
+                                                            <h6 class="mega-menu-title">IJACSA</h6>
+                                                            <div class="mega-menu-list">
+                                                                <a href="/Publications/IJACSA">About the Journal</a>
+                                                                <a href="/Publications/CallForPaper?code=IJACSA">Call for Papers</a>
+                                                                <a href="/Publications/EditorialBoard?code=IJACSA">Editorial Board</a>
+                                                                <a href="/Publications/Guidelines">Author Guidelines</a>
+                                                                <a href="/Publications/Submit?code=IJACSA">Submit your Paper</a>
+                                                                <a href="/Publications/CurrentIssue?code=IJACSA">Current Issue</a>
+                                                                <a href="/Publications/Archives?code=IJACSA">Archives</a>
+                                                                <a href="/Publications/Citations?code=IJACSA">Indexing</a>
+                                                                <a href="/Publications/CallForPaper?code=IJACSA#Fees">Fees / APC</a>
+                                                                <a href="/Reviewers?current=1&filter=A&journal=IJACSA">Reviewers</a>
+                                                                <a href="/Reviewers/Create">Apply as a Reviewer</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="mega-menu-pages-single">
+                                                        <div class="mega-menu-pages-single-inner">
+                                                            <h6 class="mega-menu-title">Special Issues</h6>
+                                                            <div class="mega-menu-list">
+                                                                <a href="/Publications/SpecialIssue">Home</a>
+                                                                <a href="/Publications/Archives?code=SPECIALISSUE">Archives</a>
+                                                                <a href="/Publications/SpecialIssue#Proposals">Proposals</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="has-dropdown"><a href="#">Conferences</a>
+                                        <ul class="sub-menu conf-dropdown">
+                                            <li><a href="https://saiconference.com/CVC">
+                                                <span>Computer Vision Conference (CVC)</span>
+                                                <small>15–16 Apr 2027 · Amsterdam</small>
+                                            </a></li>
+                                            <li><a href="https://saiconference.com/Computing">
+                                                <span>Computing Conference</span>
+                                                <small>8–9 Jul 2027 · London</small>
+                                            </a></li>
+                                            <li><a href="https://saiconference.com/IntelliSys">
+                                                <span>Intelligent Systems Conference (IntelliSys)</span>
+                                                <small>2–3 Sep 2027 · Amsterdam</small>
+                                            </a></li>
+                                            <li><a href="https://saiconference.com/FTC">
+                                                <span>Future Technologies Conference (FTC)</span>
+                                                <small>15–16 Oct 2026 · Berlin</small>
+                                            </a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li><a href="/Home/About">About Us</a></li>
+                                    <li><a href="/Home/Contact">Contact Us</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+
+                        <div class="header-right-item d-none d-lg-inline-flex">
+                            <div class="header-search">
+                                <button type="button" class="search" aria-label="Open search">
+                                    <i class="tji-search"></i>
+                                </button>
+                                <button type="button" class="search_close_btn" aria-label="Close search">
+                                    <i class="fa-thin fa-times"></i>
+                                </button>
+                            </div>
+                            <div class="menu_bar menu_offcanvas d-none d-lg-inline-flex" role="button" tabindex="0" aria-label="Open menu">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+
+                        <div class="header-right-item d-lg-none d-inline-flex align-items-center gap-3">
+                            <a href="/Home/Search" aria-label="Search" style="font-size: 20px; color: var(--tj-color-heading-primary); line-height: 1;">
+                                <i class="tji-search"></i>
+                            </a>
+                            <div class="menu_bar hamburger_toggle mobile_menu_bar" role="button" tabindex="0" aria-label="Open menu">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="search_popup">
+            <div class="container-fluid px-4 px-lg-5">
+                <div class="search_close">
+                    <button type="button" class="search_close_btn" aria-label="Close search">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M18 6L6 18M6 6L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="tj_search_wrapper">
+                    <div class="search_form">
+                        <form action="/Home/Search" method="get">
+                            <div class="search_input">
+                                <div class="search-box">
+                                    <input type="text" name="q" placeholder="Search papers, authors, topics…" autocomplete="off" aria-label="Search">
+                                    <button type="submit" aria-label="Submit search"><i class="tji-search"></i></button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div id="smooth-wrapper">
+        <div id="smooth-content">
+            <main>
+                
+
+<section class="tj-blog-section section-gap sai-page-start slidebar-stickiy-container">
+    <div class="container">
+        <div class="row row-gap-5">
+
+            <div class="col-lg-8">
+                <div class="post-details-wrapper">
+
+                    <nav aria-label="breadcrumb" class="mb-4">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="/Publications">Publications</a></li>
+                            <li class="breadcrumb-item"><a href="/Publications/IJACSA">IJACSA</a></li>
+                                <li class="breadcrumb-item">
+                                    <a href="/Publications/ViewIssue?volume=15&amp;issue=4&amp;code=IJACSA">Vol. 15, Issue 4</a>
+                                </li>
+                                <li class="breadcrumb-item active" aria-current="page">Paper 54</li>
+                        </ol>
+                    </nav>
+
+                        <div class="sai-article-strip mb-3">
+                            <span class="sai-strip-type">Research Article</span>
+                            <span class="sai-strip-sep">|</span>
+                            <span class="sai-strip-oa"><i class="fa-solid fa-unlock-keyhole me-1"></i>Open Access</span>
+                            <span class="sai-strip-sep">|</span>
+                            <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener license" class="sai-strip-cc" title="Creative Commons Attribution 4.0 International">
+                                <i class="fa-brands fa-creative-commons"></i>
+                                <i class="fa-brands fa-creative-commons-by ms-1"></i>
+                            </a>
+                        </div>
+                        <h1 class="title" style="font-size:clamp(18px,2.4vw,26px);line-height:1.35">Automating Mushroom Culture Classification: A Machine Learning Approach</h1>
+                            <div class="sai-paper-authors d-flex flex-wrap gap-2 mt-2 mb-3">
+                                    <span><i class="fa-regular fa-user me-1"></i>Author 1: Hamimah Ujir</span>
+                                    <span><i class="fa-regular fa-user me-1"></i>Author 2: Irwandi Hipiny</span>
+                                    <span><i class="fa-regular fa-user me-1"></i>Author 3: Mohamad Hasnul Bolhassan</span>
+                                    <span><i class="fa-regular fa-user me-1"></i>Author 4: Ku Nurul Fazira Ku Azir</span>
+                                    <span><i class="fa-regular fa-user me-1"></i>Author 5: SA Ali</span>
+                            </div>
+                        <div class="sai-pub-meta mb-0">
+                                <span><i class="fa-regular fa-newspaper me-1"></i>International Journal of Advanced Computer Science and Applications (IJACSA)</span>
+                                <span class="sai-pub-sep">·</span>
+                                <span>Vol. 15, No. 4</span>
+                            <span class="sai-pub-sep">·</span>
+                            <span><i class="fa-regular fa-calendar me-1"></i>Published 2024</span>
+                        </div>
+                            <p class="mt-1 mb-4" style="font-size:13px">
+                                <strong>DOI:</strong>
+                                <a href="https://doi.org/10.14569/IJACSA.2024.0150454" target="_blank" rel="noopener">10.14569/IJACSA.2024.0150454</a>
+                            </p>
+                        <div class="d-flex flex-wrap gap-3 mb-5">
+                                <a class="tj-primary-btn" href="/Downloads/Volume15No4/Paper_54-Automating_Mushroom_Culture_Classification.pdf" target="_blank" rel="noopener">
+                                    <span class="btn-text"><span><i class="fa-solid fa-file-pdf me-2"></i>Download PDF</span></span>
+                                    <span class="btn-icon"><i class="fa-solid fa-download"></i></span>
+                                </a>
+                            <a class="tj-primary-btn btn-dark" href="#how-to-cite">
+                                <span class="btn-text"><span><i class="fa-regular fa-quote-right me-2"></i>Cite</span></span>
+                                <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
+                            </a>
+                                <a class="tj-primary-btn btn-dark" href="/Publications/CallForPaper?code=IJACSA">
+                                    <span class="btn-text"><span><i class="fa-regular fa-file-lines me-2"></i>Call for Papers</span></span>
+                                    <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
+                                </a>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="blog-text">
+
+                                <h2>Abstract</h2>
+                                <div class="sai-abstract">
+                                    Traditionally, the classification of mushroom cultures has conventionally relied on manual inspection by human experts. However, this methodology is susceptible to human bias and errors, primarily due to its dependency on individual judgments. To overcome these limitations, we introduce an innovative approach that harnesses machine learning methodologies to automate the classification of mushroom cultures. Our methodology employs two distinct strategies: the first involves utilizing the histogram profile of the HSV color space, while the second employs a convolutional neural network (CNN)-based technique. We evaluated a dataset of 1400 images from two strains of Pleurotus ostreatus mycelium samples over a period of 14 days. During the cultivation phase, we base our operations on the histogram profiles of the masked areas. The application of the HSV histogram profile led to an average precision of 74.6% for phase 2, with phase 3 yielding a higher precision of 95.2%. For CNN-based method, the discriminative image features are extracted from captured images of rhizomorph mycelium growth. These features are then used to train a machine learning model that can accurately estimate the growth rate of a rhizomorph mycelium culture and predict contamination status. Using MNet and MConNet approach, our results achieved an average accuracy of 92.15% for growth prediction and 97.81% for contamination prediction. Our results suggest that computer-based approaches could revolutionize the mushroom cultivation industry by making it more efficient and productive. Our approach is less prone to human error than manual inspection, and it can be used to produce mushrooms more efficiently and with higher quality.
+                                </div>
+                                <h2 class="mt-4">
+                                    <i class="fa-solid fa-tags me-2" style="font-size:0.75em;color:var(--tj-color-common-primary,#1A56DB);vertical-align:middle"></i>Keywords
+                                </h2>
+                                <div class="sai-paper-keywords">
+                                        <a href="/Home/Search?q=Machine%20learning" class="sai-paper-btn">Machine learning</a>
+                                        <a href="/Home/Search?q=convolution%20neural%20networks" class="sai-paper-btn">convolution neural networks</a>
+                                        <a href="/Home/Search?q=mushroom%20cultivation" class="sai-paper-btn">mushroom cultivation</a>
+                                        <a href="/Home/Search?q=rhizomorph%20mycelium" class="sai-paper-btn">rhizomorph mycelium</a>
+                                </div>
+                            <h2 id="how-to-cite" class="mt-5">How to Cite this Article</h2>
+                            <ul class="nav nav-tabs mb-2" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#sai-cite-apa" type="button" role="tab">APA</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" data-bs-toggle="tab" data-bs-target="#sai-cite-mla" type="button" role="tab">MLA</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" data-bs-toggle="tab" data-bs-target="#sai-cite-bibtex" type="button" role="tab">BibTeX</button>
+                                </li>
+                            </ul>
+                            <div class="tab-content">
+                                <div class="tab-pane fade show active" id="sai-cite-apa" role="tabpanel">
+                                    <div class="sai-cite-box">
+                                        <p class="sai-cite-text" id="sai-citation-apa">Ujir, H., Hipiny, I., Bolhassan, M. H., Azir, K. N. F. K., &amp; Ali, S. (2024). Automating Mushroom Culture Classification: A Machine Learning Approach. International Journal of Advanced Computer Science and Applications, 15(4). https://doi.org/10.14569/IJACSA.2024.0150454</p>
+                                        <button class="sai-copy-btn" type="button" data-target="sai-citation-apa">
+                                            <i class="fa-regular fa-copy"></i><span>Copy</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="sai-cite-mla" role="tabpanel">
+                                    <div class="sai-cite-box">
+                                        <p class="sai-cite-text" id="sai-citation-mla">Ujir, Hamimah, et al.. &quot;Automating Mushroom Culture Classification: A Machine Learning Approach.&quot; International Journal of Advanced Computer Science and Applications, vol. 15, no. 4, 2024, https://doi.org/10.14569/IJACSA.2024.0150454.</p>
+                                        <button class="sai-copy-btn" type="button" data-target="sai-citation-mla">
+                                            <i class="fa-regular fa-copy"></i><span>Copy</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="sai-cite-bibtex" role="tabpanel">
+                                    <div class="sai-bibtex-box">
+                                        <pre class="sai-bibtex-pre" id="sai-bibtex"><code>@article{Ujir2024,&#xA;  title     = {Automating Mushroom Culture Classification: A Machine Learning Approach},&#xA;  journal   = {International Journal of Advanced Computer Science and Applications},&#xA;  volume    = {15},&#xA;  number    = {4},&#xA;  year      = {2024},&#xA;  publisher = {The Science and Information Organization},&#xA;  author    = {Hamimah Ujir and Irwandi Hipiny and Mohamad Hasnul Bolhassan and Ku Nurul Fazira Ku Azir and SA Ali},&#xA;  doi       = {10.14569/IJACSA.2024.0150454},&#xA;  url       = {https://doi.org/10.14569/IJACSA.2024.0150454}&#xA;}</code></pre>
+                                        <button class="sai-copy-btn" type="button" data-target="sai-bibtex">
+                                            <i class="fa-regular fa-copy"></i><span>Copy</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <p class="mt-5 sai-oa-notice" style="font-size:13px">
+                                <i class="fa-solid fa-unlock-keyhole me-1"></i>
+                                Open Access &mdash; licensed under a
+                                <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="license noopener">Creative Commons Attribution 4.0 International License</a>.
+                                Unrestricted use, distribution, and reproduction in any medium, even commercially, as long as the original work is properly cited.
+                            </p>
+
+                        </div>
+                        <div class="mt-4 pt-3" style="border-top:1px solid var(--tj-color-border-2,#e5e7eb)">
+                            <a class="tj-primary-btn btn-dark" href="/Publications/ViewIssue?volume=15&amp;issue=4&amp;code=IJACSA">
+                                <span class="btn-text"><span><i class="fa-solid fa-chevron-left me-2"></i>Back to Issue</span></span>
+                            </a>
+                        </div>
+
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="tj-main-sidebar slidebar-stickiy">
+
+                    
+    <div class="tj-sidebar-widget d-none d-lg-block">
+        <a href="/Publications/IJACSA">
+            <img src="/public/images/publications/IJACSA.webp" alt="IJACSA Journal Cover" class="img-fluid rounded" width="200" height="259">
+        </a>
+    </div>
+        <div class="tj-sidebar-widget d-none d-lg-block">
+            <h3 class="widget-title" style="font-size:var(--tj-fs-h4)">Call for Papers - Important Dates</h3>
+            <div class="sai-dates-box mb-3">
+                    <div class="sai-dates-heading">Volume 17 No. 11, November 2026</div>
+                <div class="sai-dates-grid">
+                        <div class="sai-dates-item">
+                            <span class="sai-dates-label d-block">Paper Submission Due</span>
+                            <span class="sai-dates-value">October 25, 2026</span>
+                        </div>
+                        <div class="sai-dates-item">
+                            <span class="sai-dates-label d-block">Review Notification</span>
+                            <span class="sai-dates-value">November 15, 2026</span>
+                        </div>
+                        <div class="sai-dates-item">
+                            <span class="sai-dates-label d-block">Publication Date</span>
+                            <span class="sai-dates-value">November 30, 2026</span>
+                        </div>
+                </div>
+            </div>
+            <div class="d-flex gap-2 sai-sidebar-cta-row">
+                <a href="/Publications/CallForPaper?code=IJACSA" class="tj-primary-btn transparent-btn">
+                    <span class="btn-text"><span>Call for Papers</span></span>
+                    <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
+                </a>
+                <a href="/Publications/Submit?code=IJACSA" class="tj-primary-btn">
+                    <span class="btn-text"><span>Submit Paper</span></span>
+                    <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
+                </a>
+            </div>
+        </div>
+    <div class="tj-sidebar-widget service-categories">
+        <h3 class="widget-title d-lg-none sai-sidebar-toggle" data-bs-toggle="collapse" data-bs-target="#sai-sidebar-links" role="button" aria-expanded="false" aria-controls="sai-sidebar-links" style="cursor:pointer;display:flex;align-items:center;justify-content:space-between;font-size:var(--tj-fs-h4)">
+            <span>IJACSA Quick Links</span>
+            <span class="sai-sidebar-toggle-icon">+</span>
+        </h3>
+        <h3 class="widget-title d-none d-lg-block" style="font-size:var(--tj-fs-h4)">IJACSA</h3>
+        <div class="collapse d-lg-block" id="sai-sidebar-links">
+            <ul>
+                <li><a href="/Publications/IJACSA"><span>Home</span><span class="icon"><i class="tji-arrow-right"></i></span></a></li>
+                <li><a href="/Publications/CallForPaper?code=IJACSA"><span>Call for Papers</span><span class="icon"><i class="tji-arrow-right"></i></span></a></li>
+                <li><a href="/Publications/EditorialBoard?code=IJACSA"><span>Editorial Board</span><span class="icon"><i class="tji-arrow-right"></i></span></a></li>
+                <li><a href="/Publications/Guidelines"><span>Author Guidelines</span><span class="icon"><i class="tji-arrow-right"></i></span></a></li>
+                <li><a href="/Publications/Submit?code=IJACSA"><span>Submit a Paper</span><span class="icon"><i class="tji-arrow-right"></i></span></a></li>
+                <li><a href="/Publications/CurrentIssue?code=IJACSA"><span>Current Issue</span><span class="icon"><i class="tji-arrow-right"></i></span></a></li>
+                <li><a href="/Publications/Archives?code=IJACSA"><span>Archives</span><span class="icon"><i class="tji-arrow-right"></i></span></a></li>
+                <li><a href="/Publications/Citations?code=IJACSA"><span>Indexing</span><span class="icon"><i class="tji-arrow-right"></i></span></a></li>
+                <li><a href="/Publications/CallForPaper?code=IJACSA#Fees"><span>Fees / APC</span><span class="icon"><i class="tji-arrow-right"></i></span></a></li>
+                <li><a href="/Reviewers?current=1&filter=A&journal=IJACSA"><span>Reviewers</span><span class="icon"><i class="tji-arrow-right"></i></span></a></li>
+            </ul>
+        </div>
+    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+            </main>
+
+            <footer class="tj-footer-section footer-1 section-gap-x footer-compact">
+                <div class="footer-main-area">
+                    <div class="container">
+                        <div class="row justify-content-between">
+                            <div class="col-xl-3 col-lg-4 col-md-6">
+                                <div class="footer-widget">
+                                    <div class="footer-logo">
+                                        <a href="/"><img src="/public/images/logos/logo_top.svg" alt="SAI Organization" width="230" height="80"></a>
+                                    </div>
+                                    <div class="footer-text">
+                                        <p>The Science and Information (SAI) Organization - advancing knowledge through open-access peer-reviewed research.</p>
+                                    </div>
+                                    <div class="award-logo-area">
+                                        <div class="award-logo">
+                                            <a href="https://www.crossref.org" target="_blank" rel="noopener" title="Crossref member">
+                                                <img src="/public/images/footer/crossref-logo.svg" alt="Crossref" width="200" height="131">
+                                            </a>
+                                        </div>
+                                        <div class="award-logo">
+                                            <a href="https://www.doi.org" target="_blank" rel="noopener" title="Digital Object Identifier">
+                                                <img src="/public/images/footer/doi-logo.svg" alt="DOI" width="1060" height="247">
+                                            </a>
+                                        </div>
+                                        <div class="award-logo">
+                                            <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener" title="Creative Commons Attribution 4.0">
+                                                <img src="/public/images/footer/cc-by-badge.svg" alt="CC BY 4.0" width="88" height="31">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-2 col-lg-4 col-md-6">
+                                <div class="footer-widget widget-nav-menu">
+                                    <h5 class="title"><a href="/Publications/IJACSA">Computer Science Journal</a></h5>
+                                    <ul>
+                                        <li><a href="/Publications/IJACSA">About the Journal</a></li>
+                                        <li><a href="/Publications/CallForPaper?code=IJACSA">Call for Papers</a></li>
+                                        <li><a href="/Publications/Submit?code=IJACSA">Submit Paper</a></li>
+                                        <li><a href="/Publications/Citations?code=IJACSA">Indexing</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xl-2 col-lg-4 col-md-6">
+                                <div class="footer-widget widget-nav-menu">
+                                    <h5 class="title">Our Conferences</h5>
+                                    <ul>
+                                        <li><a href="https://saiconference.com/CVC">Computer Vision Conference</a></li>
+                                        <li><a href="https://saiconference.com/Computing">Computing Conference</a></li>
+                                        <li><a href="https://saiconference.com/IntelliSys">Intelligent Systems Conference</a></li>
+                                        <li><a href="https://saiconference.com/FTC">Future Technologies Conference</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xl-2 col-lg-4 col-md-6">
+                                <div class="footer-widget widget-nav-menu">
+                                    <h5 class="title">Help &amp; Support</h5>
+                                    <ul>
+                                        <li><a href="/Home/Contact">Contact Us</a></li>
+                                        <li><a href="/Home/About">About Us</a></li>
+                                        <li><a href="/Blog">Blog</a></li>
+                                        <li><a href="/Home/Terms">Terms and Conditions</a></li>
+                                        <li><a href="/Home/PrivacyPolicy">Privacy Policy</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tj-copyright-area">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="copyright-content-area">
+                                    <div class="footer-contact">
+                                        <ul>
+                                            <li>
+                                                <a href="mailto:info@thesai.org">
+                                                    <span class="icon"><i class="tji-envelop-2"></i></span>
+                                                    <span class="text">info@thesai.org</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="social-links">
+                                        <ul>
+                                            <li><a href="https://www.facebook.com/SAIConference/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                            <li><a href="https://x.com/saiconference" target="_blank" rel="noopener" aria-label="X (Twitter)"><i class="fa-brands fa-x-twitter"></i></a></li>
+                                            <li><a href="https://www.linkedin.com/company/saiconference" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                            <li><a href="https://www.instagram.com/saiconference" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="copyright-text">
+                                        <p>&copy; 2026 The Science and Information (SAI) Organization. All rights reserved.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-shape-1"><img src="/public/images/shape/pattern-2.svg" alt="Decorative background pattern" width="370" height="590" loading="lazy" decoding="async"></div>
+                <div class="bg-shape-2"><img src="/public/images/shape/pattern-3.svg" alt="Decorative background pattern" width="370" height="590" loading="lazy" decoding="async"></div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="/public/js/jquery.min.js?v=meaR-uXojrNrr7JHWLNfD5kHCClfjyq-IiGJHjKPd2o"></script>
+    <script src="/public/js/bootstrap.bundle.min.js?v=JDJ424DHaphTAZCH6UKdhuZNr9MC6j5HTngeLbi7vPs"></script>
+    <script src="/public/js/gsap.min.js?v=FM1UKW82960wEJBwRjmgHDDupVPZSpAGsUPoZS4soLU"></script>
+    <script src="/public/js/ScrollSmoother.js?v=ocsq3X5qvMnt-DIttyoF7rgG5b42Q4LdXT6SopJxN3o"></script>
+    <script src="/public/js/gsap-scroll-to-plugin.min.js?v=PsbIge6kpBWC4gEwKgQ8VHDQQJsP-DQiHt8gZ6kX_lo"></script>
+    <script src="/public/js/gsap-scroll-trigger.min.js?v=4QHAwD6Fb57TH5PS8e6FJIJqG8YgqQmixlE0tTgVQDg"></script>
+    <script src="/public/js/gsap-split-text.min.js?v=rgfBsInjECPWsStpn9_coi1JpPEET7dMzPIHFheyNRo"></script>
+    <script src="/public/js/jquery.nice-select.min.js?v=tzrPqWEn-aQaLHb88hltN_-BhGDQLUhBV3CXnrWeTzo"></script>
+    <script src="/public/js/appear.min.js?v=JZdhW2mT5hN6ohUubc1L-N4QnLle_9Am7fRs3osRjtc"></script>
+    <script src="/public/js/meanmenu.js?v=ikuCSX_6E-4hsm-gtbnFmM2Z9OxjO73Jp-42PsMMj6E"></script>
+    <script src="/public/js/main.js?v=YBuPwzfxbUQsCsU0nETLxBnuxZe6OIPlRQc9l1TH8_M"></script>
+
+    <script>
+    $(function () {
+        var HEADER_OFFSET = 100; // px — clears the fixed header
+
+        // Intercept in-page anchor clicks
+        $(document).on('click', 'a[href^="#"]', function (e) {
+            var href = $(this).attr('href');
+            if (!href || href === '#') return;
+            var $target = $(href);
+            if (!$target.length) return;
+            e.preventDefault();
+            var smoother = (typeof ScrollSmoother !== 'undefined') ? ScrollSmoother.get() : null;
+            if (smoother) {
+                smoother.scrollTo($target[0], true, 'top ' + HEADER_OFFSET + 'px');
+            } else {
+                $('html, body').animate({ scrollTop: $target.offset().top - HEADER_OFFSET }, 400);
+            }
+        });
+
+        // Handle hash present in URL on page load
+        if (window.location.hash) {
+            var $initial = $(window.location.hash);
+            if ($initial.length) {
+                setTimeout(function () {
+                    var smoother = (typeof ScrollSmoother !== 'undefined') ? ScrollSmoother.get() : null;
+                    if (smoother) {
+                        smoother.scrollTo($initial[0], false, 'top ' + HEADER_OFFSET + 'px');
+                    }
+                }, 400); // wait for ScrollSmoother to initialise
+            }
+        }
+    });
+    </script>
+
+    
+    <script>
+    document.querySelectorAll('.sai-copy-btn').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+            var targetId = btn.getAttribute('data-target');
+            var el = document.getElementById(targetId);
+            var text = el ? (el.textContent || el.innerText || '').trim() : '';
+            if (!text) return;
+            navigator.clipboard.writeText(text).then(function () {
+                var span = btn.querySelector('span');
+                var orig = span.textContent;
+                btn.querySelector('i').className = 'fa-solid fa-check';
+                span.textContent = 'Copied!';
+                setTimeout(function () {
+                    btn.querySelector('i').className = 'fa-regular fa-copy';
+                    span.textContent = orig;
+                }, 2000);
+            });
+        });
+    });
+    </script>
+
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"7538d68d953c43b28c1cc10106d9eaab","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>

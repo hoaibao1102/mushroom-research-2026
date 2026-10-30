@@ -1,0 +1,266 @@
+[
+  {
+    "archive_path": "train.py",
+    "line_start": 28,
+    "line_end": 37,
+    "text": "28: \n29:     # model.load('yolo11n.pt') # \u52a0\u8f7d\u9884\u8bad\u7ec3\u6743\u91cd,\u6539\u8fdb\u6216\u8005\u505a\u5bf9\u6bd4\u5b9e\u9a8c\u65f6\u5019\u4e0d\u5efa\u8bae\u6253\u5f00\uff0c\u56e0\u4e3a\u7528\u9884\u8bad\u7ec3\u6a21\u578b\u6574\u4f53\u7cbe\u5ea6\u6ca1\u6709\u5f88\u660e\u663e\u7684\u63d0\u5347\n30: \n31:     model = YOLO(model=r'ultralytics/cfg/models/11/yolo11.yaml')\n32: \n33:     model.train(data=r'data.yaml',\n34: \n35:                 imgsz=640,\n36: \n37:                 epochs=300,"
+  },
+  {
+    "archive_path": "train.py",
+    "line_start": 52,
+    "line_end": 59,
+    "text": "52: \n53:                 name='yolo11 300',\n54: \n55:                 single_cls=False,\n56: \n57:                 cache=False,\n58: \n59:                 )"
+  },
+  {
+    "archive_path": "ultralytics/nn/tasks.py",
+    "line_start": 941,
+    "line_end": 950,
+    "text": "941:     nc, act, scales = (d.get(x) for x in (\"nc\", \"activation\", \"scales\"))\n942:     depth, width, kpt_shape = (d.get(x, 1.0) for x in (\"depth_multiple\", \"width_multiple\", \"kpt_shape\"))\n943:     if scales:\n944:         scale = d.get(\"scale\")\n945:         if not scale:\n946:             scale = tuple(scales.keys())[0]\n947:             LOGGER.warning(f\"WARNING \u26a0\ufe0f no model scale passed. Assuming scale='{scale}'.\")\n948:         depth, width, max_channels = scales[scale]\n949: \n950:     if act:"
+  },
+  {
+    "archive_path": "ultralytics/nn/tasks.py",
+    "line_start": 1075,
+    "line_end": 1084,
+    "text": "1075:     return nn.Sequential(*layers), sorted(save)\n1076: \n1077: \n1078: def yaml_model_load(path):\n1079:     \"\"\"Load a YOLOv8 model from a YAML file.\"\"\"\n1080:     path = Path(path)\n1081:     if path.stem in (f\"yolov{d}{x}6\" for x in \"nsmlx\" for d in (5, 8)):\n1082:         new_stem = re.sub(r\"(\\d+)([nslmx])6(.+)?$\", r\"\\1\\2-p6\\3\", path.stem)\n1083:         LOGGER.warning(f\"WARNING \u26a0\ufe0f Ultralytics YOLO P6 models now use -p6 suffix. Renaming {path.stem} to {new_stem}.\")\n1084:         path = path.with_name(new_stem + path.suffix)"
+  },
+  {
+    "archive_path": "ultralytics/nn/tasks.py",
+    "line_start": 1091,
+    "line_end": 1100,
+    "text": "1091:     return d\n1092: \n1093: \n1094: def guess_model_scale(model_path):\n1095:     \"\"\"\n1096:     Takes a path to a YOLO model's YAML file as input and extracts the size character of the model's scale. The function\n1097:     uses regular expression matching to find the pattern of the model scale in the YAML file name, which is denoted by\n1098:     n, s, m, l, or x. The function returns the size character of the model scale as a string.\n1099: \n1100:     Args:"
+  },
+  {
+    "archive_path": "ultralytics/engine/trainer.py",
+    "line_start": 297,
+    "line_end": 306,
+    "text": "297:                 self.plot_training_labels()\n298: \n299:         # Optimizer\n300:         self.accumulate = max(round(self.args.nbs / self.batch_size), 1)  # accumulate loss before optimizing\n301:         weight_decay = self.args.weight_decay * self.batch_size * self.accumulate / self.args.nbs  # scale weight_decay\n302:         iterations = math.ceil(len(self.train_loader.dataset) / max(self.batch_size, self.args.nbs)) * self.epochs\n303:         self.optimizer = self.build_optimizer(\n304:             model=self.model,\n305:             name=self.args.optimizer,\n306:             lr=self.args.lr0,"
+  },
+  {
+    "archive_path": "ultralytics/engine/trainer.py",
+    "line_start": 322,
+    "line_end": 331,
+    "text": "322:         self._setup_train(world_size)\n323: \n324:         nb = len(self.train_loader)  # number of batches\n325:         nw = max(round(self.args.warmup_epochs * nb), 100) if self.args.warmup_epochs > 0 else -1  # warmup iterations\n326:         last_opt_step = -1\n327:         self.epoch_time = None\n328:         self.epoch_time_start = time.time()\n329:         self.train_time_start = time.time()\n330:         self.run_callbacks(\"on_train_start\")\n331:         LOGGER.info("
+  },
+  {
+    "archive_path": "ultralytics/engine/trainer.py",
+    "line_start": 365,
+    "line_end": 374,
+    "text": "365:                 ni = i + nb * epoch\n366:                 if ni <= nw:\n367:                     xi = [0, nw]  # x interp\n368:                     self.accumulate = max(1, int(np.interp(ni, xi, [1, self.args.nbs / self.batch_size]).round()))\n369:                     for j, x in enumerate(self.optimizer.param_groups):\n370:                         # Bias lr falls from 0.1 to lr0, all other lrs rise from 0.0 to lr0\n371:                         x[\"lr\"] = np.interp(\n372:                             ni, xi, [self.args.warmup_bias_lr if j == 0 else 0.0, x[\"initial_lr\"] * self.lf(epoch)]\n373:                         )\n374:                         if \"momentum\" in x:"
+  },
+  {
+    "archive_path": "ultralytics/engine/trainer.py",
+    "line_start": 372,
+    "line_end": 381,
+    "text": "372:                             ni, xi, [self.args.warmup_bias_lr if j == 0 else 0.0, x[\"initial_lr\"] * self.lf(epoch)]\n373:                         )\n374:                         if \"momentum\" in x:\n375:                             x[\"momentum\"] = np.interp(ni, xi, [self.args.warmup_momentum, self.args.momentum])\n376: \n377:                 # Forward\n378:                 with autocast(self.amp):\n379:                     batch = self.preprocess_batch(batch)\n380:                     self.loss, self.loss_items = self.model(batch)\n381:                     if RANK != -1:"
+  },
+  {
+    "archive_path": "ultralytics/engine/trainer.py",
+    "line_start": 577,
+    "line_end": 586,
+    "text": "577:         if str(self.model).endswith(\".pt\"):\n578:             weights, ckpt = attempt_load_one_weight(self.model)\n579:             cfg = weights.yaml\n580:         elif isinstance(self.args.pretrained, (str, Path)):\n581:             weights, _ = attempt_load_one_weight(self.args.pretrained)\n582:         self.model = self.get_model(cfg=cfg, weights=weights, verbose=RANK == -1)  # calls Model(cfg, weights)\n583:         return ckpt\n584: \n585:     def optimizer_step(self):\n586:         \"\"\"Perform a single step of the training optimizer with gradient clipping and EMA update.\"\"\""
+  },
+  {
+    "archive_path": "ultralytics/engine/trainer.py",
+    "line_start": 608,
+    "line_end": 617,
+    "text": "608:             self.best_fitness = fitness\n609:         return metrics, fitness\n610: \n611:     def get_model(self, cfg=None, weights=None, verbose=True):\n612:         \"\"\"Get model and raise NotImplementedError for loading cfg files.\"\"\"\n613:         raise NotImplementedError(\"This task trainer doesn't support loading cfg files\")\n614: \n615:     def get_validator(self):\n616:         \"\"\"Returns a NotImplementedError when the get_validator function is called.\"\"\"\n617:         raise NotImplementedError(\"get_validator function not implemented in trainer\")"
+  },
+  {
+    "archive_path": "ultralytics/models/yolo/detect/train.py",
+    "line_start": 81,
+    "line_end": 90,
+    "text": "81:         self.model.nc = self.data[\"nc\"]  # attach number of classes to model\n82:         self.model.names = self.data[\"names\"]  # attach class names to model\n83:         self.model.args = self.args  # attach hyperparameters to model\n84:         # TODO: self.model.class_weights = labels_to_class_weights(dataset.labels, nc).to(device) * nc\n85: \n86:     def get_model(self, cfg=None, weights=None, verbose=True):\n87:         \"\"\"Return a YOLO detection model.\"\"\"\n88:         model = DetectionModel(cfg, nc=self.data[\"nc\"], verbose=verbose and RANK == -1)\n89:         if weights:\n90:             model.load(weights)"
+  },
+  {
+    "archive_path": "ultralytics/models/yolo/detect/val.py",
+    "line_start": 38,
+    "line_end": 47,
+    "text": "38:         self.class_map = None\n39:         self.args.task = \"detect\"\n40:         self.metrics = DetMetrics(save_dir=self.save_dir, on_plot=self.on_plot)\n41:         self.iouv = torch.linspace(0.5, 0.95, 10)  # IoU vector for mAP@0.5:0.95\n42:         self.niou = self.iouv.numel()\n43:         self.lb = []  # for autolabelling\n44:         if self.args.save_hybrid:\n45:             LOGGER.warning(\n46:                 \"WARNING \u26a0\ufe0f 'save_hybrid=True' will append ground truth to predictions for autolabelling.\\n\"\n47:                 \"WARNING \u26a0\ufe0f 'save_hybrid=True' will cause incorrect mAP.\\n\""
+  },
+  {
+    "archive_path": "ultralytics/models/yolo/detect/val.py",
+    "line_start": 154,
+    "line_end": 163,
+    "text": "154: \n155:             # Evaluate\n156:             if nl:\n157:                 stat[\"tp\"] = self._process_batch(predn, bbox, cls)\n158:             if self.args.plots:\n159:                 self.confusion_matrix.process_batch(predn, bbox, cls)\n160:             for k in self.stats.keys():\n161:                 self.stats[k].append(stat[k])\n162: \n163:             # Save"
+  },
+  {
+    "archive_path": "ultralytics/models/yolo/detect/val.py",
+    "line_start": 206,
+    "line_end": 215,
+    "text": "206:                     save_dir=self.save_dir, names=self.names.values(), normalize=normalize, on_plot=self.on_plot\n207:                 )\n208: \n209:     def _process_batch(self, detections, gt_bboxes, gt_cls):\n210:         \"\"\"\n211:         Return correct prediction matrix.\n212: \n213:         Args:\n214:             detections (torch.Tensor): Tensor of shape (N, 6) representing detections where each detection is\n215:                 (x1, y1, x2, y2, conf, class)."
+  },
+  {
+    "archive_path": "ultralytics/data/utils.py",
+    "line_start": 32,
+    "line_end": 41,
+    "text": "32: )\n33: from ultralytics.utils.checks import check_file, check_font, is_ascii\n34: from ultralytics.utils.downloads import download, safe_download, unzip_file\n35: from ultralytics.utils.ops import segments2boxes\n36: \n37: HELP_URL = \"See https://docs.ultralytics.com/datasets for dataset formatting guidance.\"\n38: IMG_FORMATS = {\"bmp\", \"dng\", \"jpeg\", \"jpg\", \"mpo\", \"png\", \"tif\", \"tiff\", \"webp\", \"pfm\", \"heic\"}  # image suffixes\n39: VID_FORMATS = {\"asf\", \"avi\", \"gif\", \"m4v\", \"mkv\", \"mov\", \"mp4\", \"mpeg\", \"mpg\", \"ts\", \"wmv\", \"webm\"}  # video suffixes\n40: PIN_MEMORY = str(os.getenv(\"PIN_MEMORY\", True)).lower() == \"true\"  # global pin_memory for dataloaders\n41: FORMATS_HELP_MSG = f\"Supported formats are:\\nimages: {IMG_FORMATS}\\nvideos: {VID_FORMATS}\""
+  },
+  {
+    "archive_path": "ultralytics/data/utils.py",
+    "line_start": 95,
+    "line_end": 104,
+    "text": "95:     return (im_file, cls), nf, nc, msg\n96: \n97: \n98: def verify_image_label(args):\n99:     \"\"\"Verify one image-label pair.\"\"\"\n100:     im_file, lb_file, prefix, keypoint, num_cls, nkpt, ndim = args\n101:     # Number (missing, found, empty, corrupt), message, segments, keypoints\n102:     nm, nf, ne, nc, msg, segments, keypoints = 0, 0, 0, 0, \"\", [], None\n103:     try:\n104:         # Verify images"
+  },
+  {
+    "archive_path": "ultralytics/data/utils.py",
+    "line_start": 122,
+    "line_end": 131,
+    "text": "122:                 lb = [x.split() for x in f.read().strip().splitlines() if len(x)]\n123:                 if any(len(x) > 6 for x in lb) and (not keypoint):  # is segment\n124:                     classes = np.array([x[0] for x in lb], dtype=np.float32)\n125:                     segments = [np.array(x[1:], dtype=np.float32).reshape(-1, 2) for x in lb]  # (cls, xy1...)\n126:                     lb = np.concatenate((classes.reshape(-1, 1), segments2boxes(segments)), 1)  # (cls, xywh)\n127:                 lb = np.array(lb, dtype=np.float32)\n128:             nl = len(lb)\n129:             if nl:\n130:                 if keypoint:\n131:                     assert lb.shape[1] == (5 + nkpt * ndim), f\"labels require {(5 + nkpt * ndim)} columns each\""
+  },
+  {
+    "archive_path": "ultralytics/data/utils.py",
+    "line_start": 131,
+    "line_end": 140,
+    "text": "131:                     assert lb.shape[1] == (5 + nkpt * ndim), f\"labels require {(5 + nkpt * ndim)} columns each\"\n132:                     points = lb[:, 5:].reshape(-1, ndim)[:, :2]\n133:                 else:\n134:                     assert lb.shape[1] == 5, f\"labels require 5 columns, {lb.shape[1]} columns detected\"\n135:                     points = lb[:, 1:]\n136:                 assert points.max() <= 1, f\"non-normalized or out of bounds coordinates {points[points > 1]}\"\n137:                 assert lb.min() >= 0, f\"negative label values {lb[lb < 0]}\"\n138: \n139:                 # All labels\n140:                 max_cls = lb[:, 0].max()  # max label count"
+  },
+  {
+    "archive_path": "ultralytics/data/utils.py",
+    "line_start": 138,
+    "line_end": 147,
+    "text": "138: \n139:                 # All labels\n140:                 max_cls = lb[:, 0].max()  # max label count\n141:                 assert max_cls <= num_cls, (\n142:                     f\"Label class {int(max_cls)} exceeds dataset class count {num_cls}. \"\n143:                     f\"Possible class labels are 0-{num_cls - 1}\"\n144:                 )\n145:                 _, i = np.unique(lb, axis=0, return_index=True)\n146:                 if len(i) < nl:  # duplicate row check\n147:                     lb = lb[i]  # remove duplicates"
+  },
+  {
+    "archive_path": "ultralytics/data/utils.py",
+    "line_start": 145,
+    "line_end": 154,
+    "text": "145:                 _, i = np.unique(lb, axis=0, return_index=True)\n146:                 if len(i) < nl:  # duplicate row check\n147:                     lb = lb[i]  # remove duplicates\n148:                     if segments:\n149:                         segments = [segments[x] for x in i]\n150:                     msg = f\"{prefix}WARNING \u26a0\ufe0f {im_file}: {nl - len(i)} duplicate labels removed\"\n151:             else:\n152:                 ne = 1  # label empty\n153:                 lb = np.zeros((0, (5 + nkpt * ndim) if keypoint else 5), dtype=np.float32)\n154:         else:"
+  },
+  {
+    "archive_path": "ultralytics/data/utils.py",
+    "line_start": 160,
+    "line_end": 169,
+    "text": "160:                 kpt_mask = np.where((keypoints[..., 0] < 0) | (keypoints[..., 1] < 0), 0.0, 1.0).astype(np.float32)\n161:                 keypoints = np.concatenate([keypoints, kpt_mask[..., None]], axis=-1)  # (nl, nkpt, 3)\n162:         lb = lb[:, :5]\n163:         return im_file, lb, shape, segments, keypoints, nm, nf, ne, nc, msg\n164:     except Exception as e:\n165:         nc = 1\n166:         msg = f\"{prefix}WARNING \u26a0\ufe0f {im_file}: ignoring corrupt image/label: {e}\"\n167:         return [None, None, None, None, None, nm, nf, ne, nc, msg]\n168: \n169: "
+  },
+  {
+    "archive_path": "ultralytics/data/utils.py",
+    "line_start": 207,
+    "line_end": 216,
+    "text": "207:     return np.array([polygon2mask(imgsz, [x.reshape(-1)], color, downsample_ratio) for x in polygons])\n208: \n209: \n210: def polygons2masks_overlap(imgsz, segments, downsample_ratio=1):\n211:     \"\"\"Return a (640, 640) overlap mask.\"\"\"\n212:     masks = np.zeros(\n213:         (imgsz[0] // downsample_ratio, imgsz[1] // downsample_ratio),\n214:         dtype=np.int32 if len(segments) > 255 else np.uint8,\n215:     )\n216:     areas = []"
+  },
+  {
+    "archive_path": "ultralytics/data/utils.py",
+    "line_start": 215,
+    "line_end": 224,
+    "text": "215:     )\n216:     areas = []\n217:     ms = []\n218:     for si in range(len(segments)):\n219:         mask = polygon2mask(imgsz, [segments[si].reshape(-1)], downsample_ratio=downsample_ratio, color=1)\n220:         ms.append(mask.astype(masks.dtype))\n221:         areas.append(mask.sum())\n222:     areas = np.asarray(areas)\n223:     index = np.argsort(-areas)\n224:     ms = np.array(ms)[index]"
+  },
+  {
+    "archive_path": "ultralytics/data/utils.py",
+    "line_start": 222,
+    "line_end": 231,
+    "text": "222:     areas = np.asarray(areas)\n223:     index = np.argsort(-areas)\n224:     ms = np.array(ms)[index]\n225:     for i in range(len(segments)):\n226:         mask = ms[i] * (i + 1)\n227:         masks = masks + mask\n228:         masks = np.clip(masks, a_min=0, a_max=i + 1)\n229:     return masks, index\n230: \n231: "
+  },
+  {
+    "archive_path": "ultralytics/data/utils.py",
+    "line_start": 497,
+    "line_end": 506,
+    "text": "497:             \"\"\"Update labels to integer class and 4 decimal place floats.\"\"\"\n498:             if self.task == \"detect\":\n499:                 coordinates = labels[\"bboxes\"]\n500:             elif self.task in {\"segment\", \"obb\"}:  # Segment and OBB use segments. OBB segments are normalized xyxyxyxy\n501:                 coordinates = [x.flatten() for x in labels[\"segments\"]]\n502:             elif self.task == \"pose\":\n503:                 n, nk, nd = labels[\"keypoints\"].shape\n504:                 coordinates = np.concatenate((labels[\"bboxes\"], labels[\"keypoints\"].reshape(n, nk * nd)), 1)\n505:             else:\n506:                 raise ValueError(f\"Undefined dataset task={self.task}.\")"
+  },
+  {
+    "archive_path": "ultralytics/engine/validator.py",
+    "line_start": 1,
+    "line_end": 9,
+    "text": "1: # Ultralytics YOLO \ud83d\ude80, AGPL-3.0 license\n2: \"\"\"\n3: Check a model's accuracy on a test or val split of a dataset.\n4: \n5: Usage:\n6:     $ yolo mode=val model=yolov8n.pt data=coco8.yaml imgsz=640\n7: \n8: Usage - formats:\n9:     $ yolo mode=val model=yolov8n.pt                 # PyTorch"
+  },
+  {
+    "archive_path": "ultralytics/engine/validator.py",
+    "line_start": 96,
+    "line_end": 105,
+    "text": "96: \n97:         self.save_dir = save_dir or get_save_dir(self.args)\n98:         (self.save_dir / \"labels\" if self.args.save_txt else self.save_dir).mkdir(parents=True, exist_ok=True)\n99:         if self.args.conf is None:\n100:             self.args.conf = 0.001  # default conf=0.001\n101:         self.args.imgsz = check_imgsz(self.args.imgsz, max_dim=1)\n102: \n103:         self.plots = {}\n104:         self.callbacks = _callbacks or callbacks.get_default_callbacks()\n105: "
+  },
+  {
+    "archive_path": "ultralytics/engine/validator.py",
+    "line_start": 141,
+    "line_end": 150,
+    "text": "141:                 self.args.batch = model.metadata.get(\"batch\", 1)  # export.py models default to batch-size 1\n142:                 LOGGER.info(f\"Setting batch={self.args.batch} input of shape ({self.args.batch}, 3, {imgsz}, {imgsz})\")\n143: \n144:             if str(self.args.data).split(\".\")[-1] in {\"yaml\", \"yml\"}:\n145:                 self.data = check_det_dataset(self.args.data)\n146:             elif self.args.task == \"classify\":\n147:                 self.data = check_cls_dataset(self.args.data, split=self.args.split)\n148:             else:\n149:                 raise FileNotFoundError(emojis(f\"Dataset '{self.args.data}' for task={self.args.task} not found \u274c\"))\n150: "
+  },
+  {
+    "archive_path": "ultralytics/engine/validator.py",
+    "line_start": 153,
+    "line_end": 162,
+    "text": "153:             if not pt:\n154:                 self.args.rect = False\n155:             self.stride = model.stride  # used in get_dataloader() for padding\n156:             self.dataloader = self.dataloader or self.get_dataloader(self.data.get(self.args.split), self.args.batch)\n157: \n158:             model.eval()\n159:             model.warmup(imgsz=(1 if pt else self.args.batch, 3, imgsz, imgsz))  # warmup\n160: \n161:         self.run_callbacks(\"on_val_start\")\n162:         dt = ("
+  },
+  {
+    "archive_path": "ultralytics/utils/metrics.py",
+    "line_start": 485,
+    "line_end": 494,
+    "text": "485:         ax.plot(px, py.T, linewidth=1, color=\"grey\")  # plot(confidence, metric)\n486: \n487:     y = smooth(py.mean(0), 0.05)\n488:     ax.plot(px, y, linewidth=3, color=\"blue\", label=f\"all classes {y.max():.2f} at {px[y.argmax()]:.3f}\")\n489:     ax.set_xlabel(xlabel)\n490:     ax.set_ylabel(ylabel)\n491:     ax.set_xlim(0, 1)\n492:     ax.set_ylim(0, 1)\n493:     ax.legend(bbox_to_anchor=(1.04, 1), loc=\"upper left\")\n494:     ax.set_title(f\"{ylabel}-Confidence Curve\")"
+  },
+  {
+    "archive_path": "ultralytics/utils/metrics.py",
+    "line_start": 498,
+    "line_end": 507,
+    "text": "498:         on_plot(save_dir)\n499: \n500: \n501: def compute_ap(recall, precision):\n502:     \"\"\"\n503:     Compute the average precision (AP) given the recall and precision curves.\n504: \n505:     Args:\n506:         recall (list): The recall curve.\n507:         precision (list): The precision curve."
+  },
+  {
+    "archive_path": "ultralytics/utils/metrics.py",
+    "line_start": 519,
+    "line_end": 528,
+    "text": "519:     mpre = np.flip(np.maximum.accumulate(np.flip(mpre)))\n520: \n521:     # Integrate area under curve\n522:     method = \"interp\"  # methods: 'continuous', 'interp'\n523:     if method == \"interp\":\n524:         x = np.linspace(0, 1, 101)  # 101-point interp (COCO)\n525:         ap = np.trapz(np.interp(x, mrec, mpre), x)  # integrate\n526:     else:  # 'continuous'\n527:         i = np.where(mrec[1:] != mrec[:-1])[0]  # points where x-axis (recall) changes\n528:         ap = np.sum((mrec[i + 1] - mrec[i]) * mpre[i + 1])  # area under curve"
+  },
+  {
+    "archive_path": "ultralytics/utils/metrics.py",
+    "line_start": 530,
+    "line_end": 539,
+    "text": "530:     return ap, mpre, mrec\n531: \n532: \n533: def ap_per_class(\n534:     tp, conf, pred_cls, target_cls, plot=False, on_plot=None, save_dir=Path(), names={}, eps=1e-16, prefix=\"\"\n535: ):\n536:     \"\"\"\n537:     Computes the average precision per class for object detection evaluation.\n538: \n539:     Args:"
+  },
+  {
+    "archive_path": "ultralytics/utils/metrics.py",
+    "line_start": 588,
+    "line_end": 597,
+    "text": "588: \n589:         # Recall\n590:         recall = tpc / (n_l + eps)  # recall curve\n591:         r_curve[ci] = np.interp(-x, -conf[i], recall[:, 0], left=0)  # negative x, xp because xp decreases\n592: \n593:         # Precision\n594:         precision = tpc / (tpc + fpc)  # precision curve\n595:         p_curve[ci] = np.interp(-x, -conf[i], precision[:, 0], left=1)  # p at pr_score\n596: \n597:         # AP from recall-precision curve"
+  },
+  {
+    "archive_path": "ultralytics/utils/metrics.py",
+    "line_start": 598,
+    "line_end": 607,
+    "text": "598:         for j in range(tp.shape[1]):\n599:             ap[ci, j], mpre, mrec = compute_ap(recall[:, j], precision[:, j])\n600:             if j == 0:\n601:                 prec_values.append(np.interp(x, mrec, mpre))  # precision at mAP@0.5\n602: \n603:     prec_values = np.array(prec_values)  # (nc, 1000)\n604: \n605:     # Compute F1 (harmonic mean of precision and recall)\n606:     f1_curve = 2 * p_curve * r_curve / (p_curve + r_curve + eps)\n607:     names = [v for k, v in names.items() if k in unique_classes]  # list: only classes that have data"
+  },
+  {
+    "archive_path": "ultralytics/utils/metrics.py",
+    "line_start": 612,
+    "line_end": 621,
+    "text": "612:         plot_mc_curve(x, p_curve, save_dir / f\"{prefix}P_curve.png\", names, ylabel=\"Precision\", on_plot=on_plot)\n613:         plot_mc_curve(x, r_curve, save_dir / f\"{prefix}R_curve.png\", names, ylabel=\"Recall\", on_plot=on_plot)\n614: \n615:     i = smooth(f1_curve.mean(0), 0.1).argmax()  # max F1 index\n616:     p, r, f1 = p_curve[:, i], r_curve[:, i], f1_curve[:, i]  # max-F1 precision, recall, F1 values\n617:     tp = (r * nt).round()  # true positives\n618:     fp = (tp / (p + eps) - tp).round()  # false positives\n619:     return tp, fp, p, r, f1, ap, unique_classes.astype(int), p_curve, r_curve, f1_curve, x, prec_values\n620: \n621: "
+  },
+  {
+    "archive_path": "ultralytics/engine/model.py",
+    "line_start": 115,
+    "line_end": 124,
+    "text": "115:         self.predictor = None  # reuse predictor\n116:         self.model = None  # model object\n117:         self.trainer = None  # trainer object\n118:         self.ckpt = None  # if loaded from *.pt\n119:         self.cfg = None  # if loaded from *.yaml\n120:         self.ckpt_path = None\n121:         self.overrides = {}  # overrides for trainer object\n122:         self.metrics = None  # validation/training metrics\n123:         self.session = None  # HUB session\n124:         self.task = task  # task type"
+  },
+  {
+    "archive_path": "ultralytics/engine/model.py",
+    "line_start": 286,
+    "line_end": 295,
+    "text": "286:         weights = checks.check_model_file_from_stem(weights)  # add suffix, i.e. yolov8n -> yolov8n.pt\n287: \n288:         if Path(weights).suffix == \".pt\":\n289:             self.model, self.ckpt = attempt_load_one_weight(weights)\n290:             self.task = self.model.args[\"task\"]\n291:             self.overrides = self.model.args = self._reset_ckpt_args(self.model.args)\n292:             self.ckpt_path = self.model.pt_path\n293:         else:\n294:             weights = checks.check_file(weights)  # runs in all cases, not redundant with above call\n295:             self.model, self.ckpt = weights, None"
+  },
+  {
+    "archive_path": "ultralytics/engine/model.py",
+    "line_start": 294,
+    "line_end": 303,
+    "text": "294:             weights = checks.check_file(weights)  # runs in all cases, not redundant with above call\n295:             self.model, self.ckpt = weights, None\n296:             self.task = task or guess_model_task(weights)\n297:             self.ckpt_path = weights\n298:         self.overrides[\"model\"] = weights\n299:         self.overrides[\"task\"] = self.task\n300:         self.model_name = weights\n301: \n302:     def _check_is_pytorch_model(self) -> None:\n303:         \"\"\""
+  },
+  {
+    "archive_path": "ultralytics/engine/model.py",
+    "line_start": 376,
+    "line_end": 385,
+    "text": "376:         \"\"\"\n377:         self._check_is_pytorch_model()\n378:         if isinstance(weights, (str, Path)):\n379:             self.overrides[\"pretrained\"] = weights  # remember the weights for DDP training\n380:             weights, self.ckpt = attempt_load_one_weight(weights)\n381:         self.model.load(weights)\n382:         return self\n383: \n384:     def save(self, filename: Union[str, Path] = \"saved_model.pt\") -> None:\n385:         \"\"\""
+  },
+  {
+    "archive_path": "ultralytics/engine/model.py",
+    "line_start": 411,
+    "line_end": 420,
+    "text": "411:             \"license\": \"AGPL-3.0 License (https://ultralytics.com/license)\",\n412:             \"docs\": \"https://docs.ultralytics.com\",\n413:         }\n414:         torch.save({**self.ckpt, **updates}, filename)\n415: \n416:     def info(self, detailed: bool = False, verbose: bool = True):\n417:         \"\"\"\n418:         Logs or returns model information.\n419: \n420:         This method provides an overview or detailed information about the model, depending on the arguments"
+  },
+  {
+    "archive_path": "ultralytics/engine/model.py",
+    "line_start": 737,
+    "line_end": 746,
+    "text": "737:         args = {**self.overrides, **custom, **kwargs, \"mode\": \"export\"}  # highest priority args on the right\n738:         return Exporter(overrides=args, _callbacks=self.callbacks)(model=self.model)\n739: \n740:     def train(\n741:         self,\n742:         trainer=None,\n743:         **kwargs,\n744:     ):\n745:         \"\"\"\n746:         Trains the model using the specified dataset and training configuration."
+  },
+  {
+    "archive_path": "ultralytics/engine/model.py",
+    "line_start": 795,
+    "line_end": 804,
+    "text": "795:         }  # method defaults\n796:         args = {**overrides, **custom, **kwargs, \"mode\": \"train\"}  # highest priority args on the right\n797:         if args.get(\"resume\"):\n798:             args[\"resume\"] = self.ckpt_path\n799: \n800:         self.trainer = (trainer or self._smart_load(\"trainer\"))(overrides=args, _callbacks=self.callbacks)\n801:         if not args.get(\"resume\"):  # manually set model only if not resuming\n802:             self.trainer.model = self.trainer.get_model(weights=self.model if self.ckpt else None, cfg=self.model.yaml)\n803:             self.model = self.trainer.model\n804: "
+  }
+]

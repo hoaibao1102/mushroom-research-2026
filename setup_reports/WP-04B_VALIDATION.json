@@ -1,0 +1,283 @@
+{
+  "work_package": "WP-04B",
+  "validator": "phase-specific structural and internal-consistency verifier",
+  "python": "3.12.13 (main, Jul 18 2026, 17:08:38) [MSC v.1944 64 bit (AMD64)]",
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "required_reports_nonempty",
+      "passed": true,
+      "detail": [
+        "setup_reports/WP-04B_READINESS_REPORT.md",
+        "03_dataset_discovery/screening_reports/C03_FINAL_FEASIBILITY_DECISION.md",
+        "03_dataset_discovery/source_verification/C03_SPECIMEN_GROUPING_AUDIT.md",
+        "03_dataset_discovery/source_verification/C03_LABEL_SEMANTICS_AUDIT.md",
+        "02_literature_review/methodology_comparison/C03_PAPER_REPRODUCTION_MATRIX.md",
+        "05_research_protocols/C03_PROPOSED_EVALUATION_PROTOCOL.md",
+        "02_literature_review/research_gap_analysis/C03_GAP_PRESCREEN.md"
+      ]
+    },
+    {
+      "name": "exactly_120_unique_pairs",
+      "passed": true,
+      "detail": 120
+    },
+    {
+      "name": "exactly_15_strata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bounded_arms_90_30",
+      "passed": true,
+      "detail": {
+        "EQUAL_ORDINAL": 90,
+        "SHIFTED_CONTROL": 30
+      }
+    },
+    {
+      "name": "paths_are_c03_relative_jpegs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "human_verdicts_blank",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "ai_screening_typed_separately",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "screening_totals",
+      "passed": true,
+      "detail": {
+        "DIFFERENT_SPECIMEN": 63,
+        "SAME_VISIBLE_SPECIMEN": 20,
+        "UNCERTAIN": 9,
+        "LIKELY_SAME_SPECIMEN": 28
+      }
+    },
+    {
+      "name": "15_review_plates_decode",
+      "passed": true,
+      "detail": 15
+    },
+    {
+      "name": "decision_conditional_go",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "training_not_authorized",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "dataset_selection_pending",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "research_gap_unvalidated",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "biological_independence_not_verified",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no_new_model_or_archive_payload",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "no_new_ds02_paths",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "no_experiment_or_checkpoint_outputs",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "literature_registry_unique",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "setup_reports/WP-04B_READINESS_REPORT.md",
+      "bytes": 4438,
+      "sha256": "7e50f484a74953738e36758e8ad0a1a939ec83fd465c5dc8ab4c0c5a7b6aa829"
+    },
+    {
+      "path": "03_dataset_discovery/screening_reports/C03_FINAL_FEASIBILITY_DECISION.md",
+      "bytes": 2401,
+      "sha256": "4d24ab476a66f3f2ce1b5916aa3bc970cfaf75742a0fcc640cd08c5db094f0cc"
+    },
+    {
+      "path": "03_dataset_discovery/source_verification/C03_SPECIMEN_GROUPING_AUDIT.md",
+      "bytes": 3610,
+      "sha256": "8fc0aaa6b3bec7aae957ee415b7ba3e74a193c51a3bae910176af9ca20db76d2"
+    },
+    {
+      "path": "03_dataset_discovery/source_verification/C03_LABEL_SEMANTICS_AUDIT.md",
+      "bytes": 2170,
+      "sha256": "6467cca6e5abef1160cdefffcc65fea1d521231ccd79c8579d3adf3d2945c5fe"
+    },
+    {
+      "path": "02_literature_review/methodology_comparison/C03_PAPER_REPRODUCTION_MATRIX.md",
+      "bytes": 3742,
+      "sha256": "024b998b325ef02245e1d6758e7996376f1ab24f408779fe92f7439b270810aa"
+    },
+    {
+      "path": "05_research_protocols/C03_PROPOSED_EVALUATION_PROTOCOL.md",
+      "bytes": 4591,
+      "sha256": "9ef3406e2575a9b568c04d30ab81ca02a9b59a992abbcf258342b682da5d028d"
+    },
+    {
+      "path": "02_literature_review/research_gap_analysis/C03_GAP_PRESCREEN.md",
+      "bytes": 3780,
+      "sha256": "105ad79ca3e63ccd9cfa59e5a127bf425439d50633a37fdab8abce8824e9bf51"
+    },
+    {
+      "path": "04_dataset_candidates/C03_agaricus_disease/qc/wp04b_readiness/bounded_similarity_review.csv",
+      "bytes": 48101,
+      "sha256": "6818558ee46f142e686d54b04318b3d77f9e63106406ddf5ffd616d8897b0473"
+    },
+    {
+      "path": "04_dataset_candidates/C03_agaricus_disease/qc/wp04b_readiness/image_review_index.csv",
+      "bytes": 8499,
+      "sha256": "e1609ce8a2b217b80c8237e9a3f98a7c3d5fb373a0158504b90a247d39c6d444"
+    },
+    {
+      "path": "04_dataset_candidates/C03_agaricus_disease/qc/wp04b_readiness/ai_screening_summary.csv",
+      "bytes": 666,
+      "sha256": "72ebc8fb782d772e2394bcc28972b2bb3876e6058b67bb8b677314ab8157698c"
+    },
+    {
+      "path": "04_dataset_candidates/C03_agaricus_disease/qc/wp04b_readiness/bounded_review_manifest.json",
+      "bytes": 1015,
+      "sha256": "f4e8c8be3f71577b5f39c2088104650472db19c81bec5fe17e425f1a191fcf40"
+    },
+    {
+      "path": "04_dataset_candidates/C03_agaricus_disease/qc/wp04b_readiness/literature_registry.csv",
+      "bytes": 2842,
+      "sha256": "6fccf31a5ded42860b86a948aa27694046a182f724defffd341884ef85b983cd"
+    },
+    {
+      "path": "04_dataset_candidates/C03_agaricus_disease/qc/wp04b_readiness/source_metadata_verification.json",
+      "bytes": 2891,
+      "sha256": "8e2192fd86a35f9f8e5d20f914570124be20f8831eccd1d8b3419cf05ee753f7"
+    },
+    {
+      "path": "04_dataset_candidates/C03_agaricus_disease/qc/wp04b_readiness/generate_bounded_review.py",
+      "bytes": 9523,
+      "sha256": "4eaf928f8491a05f6da6cfdb16c4deb7190bec3d5a3060ce4420754db6b9ecef"
+    },
+    {
+      "path": "04_dataset_candidates/C03_agaricus_disease/qc/wp04b_readiness/apply_ai_screening.py",
+      "bytes": 5580,
+      "sha256": "29713210aa98c757c0fad800e12902f6c29cee7f45ad515503a70f890b678c8c"
+    },
+    {
+      "path": "scripts/validate_wp04b.py",
+      "bytes": 6539,
+      "sha256": "01c5833075b4f1bd466978b3a42a27542e47e3d4ec46ec6cfe07849ad8d6289c"
+    },
+    {
+      "path": "setup_reports/WP-04B_COMMAND_RECEIPT.json",
+      "bytes": 2201,
+      "sha256": "832d39eccfa99eceec52a60c1903aa888c74d546b0db5ab5ecd4cf5da7a9d211"
+    },
+    {
+      "path": "04_dataset_candidates/C03_agaricus_disease/qc/wp04b_readiness/review_plates/plate_01_bb-uv-mix.jpg",
+      "bytes": 201852,
+      "sha256": "57f5e90bcac336b6de814a17a092553885aa1cb3fa879f246aefcf0bfe2443a8"
+    },
+    {
+      "path": "04_dataset_candidates/C03_agaricus_disease/qc/wp04b_readiness/review_plates/plate_02_bb-white-mix.jpg",
+      "bytes": 225673,
+      "sha256": "e1bd9fffdf7bffe6efb880475970ad6ee0ab4941f2c77f3ef323cc230c61c9f4"
+    },
+    {
+      "path": "04_dataset_candidates/C03_agaricus_disease/qc/wp04b_readiness/review_plates/plate_03_bb-white-uv.jpg",
+      "bytes": 223372,
+      "sha256": "19ec823c384a97b72ff47519d33c4c30720e51347421b7dc6541e4738753b856"
+    },
+    {
+      "path": "04_dataset_candidates/C03_agaricus_disease/qc/wp04b_readiness/review_plates/plate_04_db-uv-mix.jpg",
+      "bytes": 158650,
+      "sha256": "aa092a6496b955e3d386b640193997b844f5b24369bdb6de540d1082b75aa850"
+    },
+    {
+      "path": "04_dataset_candidates/C03_agaricus_disease/qc/wp04b_readiness/review_plates/plate_05_db-white-mix.jpg",
+      "bytes": 165689,
+      "sha256": "44dadd30278d947bdb3f357cee1cec45880d882997c08e606284b580d390d333"
+    },
+    {
+      "path": "04_dataset_candidates/C03_agaricus_disease/qc/wp04b_readiness/review_plates/plate_06_db-white-uv.jpg",
+      "bytes": 161434,
+      "sha256": "519f5274c7ea7b55bf47344b0db07a66b95ef10e32ea1c1d80b056ce0766f757"
+    },
+    {
+      "path": "04_dataset_candidates/C03_agaricus_disease/qc/wp04b_readiness/review_plates/plate_07_hl-uv-mix.jpg",
+      "bytes": 193156,
+      "sha256": "3d92612d012c6c0856b7b3a37e12809ca30bb8b99b3f308f6d550e4dd5c75a6d"
+    },
+    {
+      "path": "04_dataset_candidates/C03_agaricus_disease/qc/wp04b_readiness/review_plates/plate_08_hl-white-mix.jpg",
+      "bytes": 200408,
+      "sha256": "a2a40139a339b4c9aa6cc162007afadf0ad31e01071e75818356a69712a2242f"
+    },
+    {
+      "path": "04_dataset_candidates/C03_agaricus_disease/qc/wp04b_readiness/review_plates/plate_09_hl-white-uv.jpg",
+      "bytes": 194280,
+      "sha256": "a0575354e265470564ba40faa6f0e00b4a60816f4e28a7c1b36ea4ec8cff987a"
+    },
+    {
+      "path": "04_dataset_candidates/C03_agaricus_disease/qc/wp04b_readiness/review_plates/plate_10_kw-uv-mix.jpg",
+      "bytes": 165366,
+      "sha256": "3fe1f407698388aa59b5d877e7de269bc194ee7058c725342839345c7b34fdd9"
+    },
+    {
+      "path": "04_dataset_candidates/C03_agaricus_disease/qc/wp04b_readiness/review_plates/plate_11_kw-white-mix.jpg",
+      "bytes": 160345,
+      "sha256": "1120d329e2c9cae0c095dca3a30de1c9655edae7a516360a8acead514375186a"
+    },
+    {
+      "path": "04_dataset_candidates/C03_agaricus_disease/qc/wp04b_readiness/review_plates/plate_12_kw-white-uv.jpg",
+      "bytes": 161047,
+      "sha256": "95e5fdcc726b75d505b37ed23d2ea91a64288d270b8089e16035f47298f4d7b6"
+    },
+    {
+      "path": "04_dataset_candidates/C03_agaricus_disease/qc/wp04b_readiness/review_plates/plate_13_wb-uv-mix.jpg",
+      "bytes": 142507,
+      "sha256": "e45d4f8fbe6a6157eb3ce007cec4864c924fb4e84ed6c31d1994fd968ccdac61"
+    },
+    {
+      "path": "04_dataset_candidates/C03_agaricus_disease/qc/wp04b_readiness/review_plates/plate_14_wb-white-mix.jpg",
+      "bytes": 142561,
+      "sha256": "7ccfbaeb20400f58077cf1c0c70f4e796fb158e82ea0c1b0fe1ad3d22d3b5964"
+    },
+    {
+      "path": "04_dataset_candidates/C03_agaricus_disease/qc/wp04b_readiness/review_plates/plate_15_wb-white-uv.jpg",
+      "bytes": 141028,
+      "sha256": "3ad57abe228c56427503c48eb7665acfd7300e9a77fc7bb8bf59acdef4066019"
+    }
+  ],
+  "prohibited_actions": {
+    "model_training": "NOT_RUN",
+    "split_creation": "NOT_RUN",
+    "ds02_import": "NOT_RUN",
+    "dataset_modification": "NOT_RUN"
+  },
+  "scientific_note": "PASS validates artifact consistency; it does not verify biological independence or adjudicate labels."
+}

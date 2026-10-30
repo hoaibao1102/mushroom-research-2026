@@ -1,0 +1,17 @@
+{
+  "access_utc": "2026-10-23T09:55:30.012442+00:00",
+  "pages": 16,
+  "pagination_complete": true,
+  "listed_files": 3011,
+  "unique_paths": 3011,
+  "total_bytes": 7898278464,
+  "extension_counts": {
+    ".jpg": 3011
+  },
+  "top_level_counts": {
+    "Filtered_2.A": 1096,
+    "Filtered_2.B": 1159,
+    "Filtered_2.C": 756
+  },
+  "non_image_files": []
+}

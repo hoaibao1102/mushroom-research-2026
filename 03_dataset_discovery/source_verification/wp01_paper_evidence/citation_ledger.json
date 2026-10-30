@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://mdpi-res.com/d_attachment/agriculture/agriculture-13-01533/article_deploy/agriculture-13-01533.pdf",
+      "title": "MushR: A Smart, Automated, and Scalable Indoor Harvesting System for Gourmet Mushrooms",
+      "accessed": "2026-10-23",
+      "quotes": [
+        {
+          "text": "Published: 1 August 2023",
+          "added": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "url": "https://api.crossref.org/works/10.3390/agriculture13081533",
+      "title": "Crossref MushR DOI metadata",
+      "accessed": "2026-10-23"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+Mushroom Disease Dataset (Healthy, Black Mold & Green Mold)  - Mendeley Data
+Skip to main content
+FAQ
+Sign In / Register
+Sign In / Register
+FAQ
+Mushroom Disease Dataset (Healthy, Black Mold & Green Mold)
+Published:
+16 June 2025
+|
+Version 1
+|
+DOI:
+10.17632/jrbx34k77g.1
+Contributors
+:
+Abdullah
+Mazumdar
+,
+Jubayer Ahmed Bhuiyan
+Shawon
+,
+Sumon
+Debnath
+,
+Md
+Abdullah
+Description
+Mushroom cultivation bags, categorized into healthy, single-infected, and mixed-infected classes, were photographed at the Mushroom Development Institute in Savar, Dhaka, Bangladesh. The dataset comprises a total of 680 high-resolution images, including 299 healthy samples, 72 single-infected ones, and 309 mixed-infected images. The infected samples are contaminated with green mold, black mold, or both. The mixed-infected category represents bags affected by multiple pathogens or overlapping infection patterns, typically involving a combination of these two types of mold.
+Download All
+Files
+Categories
+Computer Vision, Image Processing, Machine Learning, Feature Extraction, Pattern Recognition, Agricultural Technology, Deep Learning, Transfer Learning, Data Augmentation
+Licence
+CC BY 4.0
+Learn more
+Home
+|
+About
+|
+Accessibility Statement
+|
+Archive Policy
+|
+File Formats
+|
+API Docs
+|
+OAI
+|
+Mission
+|
+Status Updates
+Terms of Use
+|
+Privacy Policy
+|
+Cookie Settings
+All content on this site: Copyright © 2026 Elsevier inc, its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training and similar technologies. For all open access content, the Creative Commons licensing terms apply.

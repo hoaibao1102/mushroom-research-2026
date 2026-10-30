@@ -1,0 +1,25 @@
+{
+  "work_package": "WP-04B",
+  "date": "2026-10-30",
+  "commands": [
+    {"command":"git push -u origin research/wp-04-deep-verification","exit_code":0,"result":"remote branch created"},
+    {"command":"git ls-remote --heads origin refs/heads/research/wp-04-deep-verification","exit_code":0,"result":"remote SHA eda47d260aca1db6314b80c4f2a863c9e97a70b9 equals local checkpoint"},
+    {"command":"py -3.13 04_dataset_candidates/C03_agaricus_disease/qc/wp04b_readiness/generate_bounded_review.py","exit_code":0,"result":"120 pairs; 15 strata; 90 equal-ordinal; 30 controls; 15 plates"},
+    {"command":"py -3.13 04_dataset_candidates/C03_agaricus_disease/qc/wp04b_readiness/apply_ai_screening.py","exit_code":0,"result":"AI_SCREENING only: SAME 20; LIKELY 28; DIFFERENT 63; UNCERTAIN 9"},
+    {"command":"py -3.13 04_dataset_candidates/C03_agaricus_disease/qc/wp04_evidence/verify.py","exit_code":0,"result":"PASS; verified_files 9403"},
+    {"command":"py -3.13 scripts/validate_wp04b.py","exit_code":0,"result":"PASS 18/18 phase-specific checks"},
+    {"command":"py -3.13 -m unittest tests.test_workspace.WorkspaceTests.test_wp00_validator_flags_wp01_transition -v","exit_code":0,"result":"1/1 PASS; confirms legacy WP-00 failure is expected after phase transition"},
+    {"command":"git diff --check","exit_code":0,"result":"PASS"}
+  ],
+  "classified_nonpassing_legacy_checks": [
+    {"command":"py -3.13 scripts/validate_workspace.py","exit_code":1,"classification":"EXPECTED_INCOMPATIBLE_WP00_VALIDATOR","reason":"Enforces Phase 0/WP-00 and zero payload anywhere; repository is now WP-04B with local ignored research payload."},
+    {"command":"py -3.13 04_dataset_candidates/C04_shiitake_phenotypes/qc/wp04_evidence/finalize_verify.py","exit_code":1,"classification":"INCOMPATIBLE_C04_CLEAN_TREE_ASSERTION","reason":"Its no_existing_tracked_files_modified check is not a WP-04B acceptance criterion. Rewritten historical result files were restored from HEAD byte-for-byte."}
+  ],
+  "prohibited_actions": {
+    "model_training":"NOT_RUN",
+    "train_test_split_creation":"NOT_RUN",
+    "ds02_import":"NOT_RUN",
+    "raw_dataset_modification":"NOT_RUN",
+    "wp04b_commit_or_push":"NOT_RUN"
+  }
+}
