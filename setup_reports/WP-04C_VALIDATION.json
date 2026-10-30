@@ -1,0 +1,198 @@
+{
+  "work_package": "WP-04C",
+  "validator": "phase-specific structural and internal-consistency verifier",
+  "status": "PASS",
+  "python": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+  "checks": [
+    {
+      "name": "seven_non_validation_outputs_exist",
+      "passed": true,
+      "detail": [
+        "setup_reports/WP-04C_DECISION_REPORT.md",
+        "02_literature_review/author_correspondence/C03_AUTHOR_INQUIRY.md",
+        "02_literature_review/author_correspondence/C03_CORRESPONDENCE_TRACKER.csv",
+        "03_dataset_discovery/source_verification/C03_FINAL_PROVENANCE_STATUS.md",
+        "05_research_protocols/C03_ESTIMAND_FEASIBILITY_MATRIX.md",
+        "02_literature_review/research_gap_analysis/C03_GAP_DECISION.md",
+        "03_dataset_discovery/screening_reports/C03_GO_NO_GO_RECOMMENDATION.md"
+      ]
+    },
+    {
+      "name": "wp04b_checkpoint_at_expected_sha",
+      "passed": true,
+      "detail": "3f45000f0bf2299d9eb7ecf7376dbc1592af1e57"
+    },
+    {
+      "name": "wp04b_remote_tracking_matches",
+      "passed": true,
+      "detail": "3f45000f0bf2299d9eb7ecf7376dbc1592af1e57"
+    },
+    {
+      "name": "wp04c_branch",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "verified_contact_in_primary_xml",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "inquiry_not_sent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "inquiry_has_verified_recipient",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "inquiry_has_seven_questions",
+      "passed": true,
+      "detail": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    {
+      "name": "inquiry_requests_non_sensitive_metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tracker_schema_and_seven_rows",
+      "passed": true,
+      "detail": 7
+    },
+    {
+      "name": "tracker_has_no_fabricated_contact_or_response",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "four_estimands_separated",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no_a_b_to_c_d_overclaim",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "decision_scope_is_explicit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "gates_not_promoted",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "deadline_and_no_rejection_claim",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no_training_or_split_claim",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "git_changes_only_wp04c_authorized_paths",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "no_new_model_or_archive",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no_ds02_path",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no_experiment_or_split_outputs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous_tracked_reports_unchanged",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "setup_reports/WP-04C_DECISION_REPORT.md",
+      "bytes": 5475,
+      "sha256": "74c3881604c970c172ff7f86faf047edc73d8d448453068567fc832409f6c98f"
+    },
+    {
+      "path": "02_literature_review/author_correspondence/C03_AUTHOR_INQUIRY.md",
+      "bytes": 5122,
+      "sha256": "b5c46b2d69c1e7f804d64c3ec7812b338482ff3268392a249f11690f2d95f46e"
+    },
+    {
+      "path": "02_literature_review/author_correspondence/C03_CORRESPONDENCE_TRACKER.csv",
+      "bytes": 2010,
+      "sha256": "9c1dea5bf24c60976f99bcd55b78a2cabd28fe3a3f8764a8ba41e55c0175c6f5"
+    },
+    {
+      "path": "03_dataset_discovery/source_verification/C03_FINAL_PROVENANCE_STATUS.md",
+      "bytes": 2767,
+      "sha256": "0a5cf40b58c07241649f611ea5b61197594ddfbec5b0aaf4f5b951827ffe2e40"
+    },
+    {
+      "path": "05_research_protocols/C03_ESTIMAND_FEASIBILITY_MATRIX.md",
+      "bytes": 3163,
+      "sha256": "e9c194f63e8b11acf6d760ef696d83d5ebf5d8d6d79a2515b89bfdd0ef1570a2"
+    },
+    {
+      "path": "02_literature_review/research_gap_analysis/C03_GAP_DECISION.md",
+      "bytes": 2806,
+      "sha256": "4860be7d74493168cfbcd29c7e50d2c009c18e1e461d6f79dac19ba598367435"
+    },
+    {
+      "path": "03_dataset_discovery/screening_reports/C03_GO_NO_GO_RECOMMENDATION.md",
+      "bytes": 2259,
+      "sha256": "5963a12a8075bc4b320d5251b9e74fa05247733ae8bc72540bd257c289e1c3b5"
+    },
+    {
+      "path": "03_dataset_discovery/source_verification/wp03_stream_a/paper_xml_alternate.txt",
+      "bytes": 207260,
+      "sha256": "d5335af7db63c6b072485b56f65cb68859e8555ba2de756fff7907f456fdfe87",
+      "role": "primary_contact_source"
+    },
+    {
+      "path": "scripts/validate_wp04c.py",
+      "bytes": 7627,
+      "sha256": "8e83cc3afd1234165310a4496cb0e6eacf6b550c33de38542f81c755ada90a9d"
+    }
+  ],
+  "authorization": {
+    "dataset_selected": "NO",
+    "training_authorized": "NO",
+    "research_gap_validated": "NO",
+    "final_topic_selected": "NO",
+    "author_inquiry_sent": "NO",
+    "wp04c_committed_or_pushed": "NO"
+  },
+  "non_execution": {
+    "model_training": "NOT_RUN",
+    "split_creation": "NOT_RUN",
+    "ds02_import": "NOT_RUN",
+    "dataset_modification": "NOT_RUN",
+    "background_monitoring": "NOT_SCHEDULED"
+  },
+  "scientific_note": "PASS validates artifact consistency and gate wording; it does not resolve biological provenance, labels, novelty, or author response."
+}
