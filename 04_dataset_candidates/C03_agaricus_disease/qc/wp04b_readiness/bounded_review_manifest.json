@@ -1,0 +1,30 @@
+{
+  "audit_id": "C03_bounded_cross_illumination_grouping_audit_v1",
+  "status": "ALGORITHMIC_SUGGESTIONS_GENERATED_HUMAN_VERDICTS_PENDING",
+  "seed": 20261030,
+  "pair_count": 120,
+  "strata": 15,
+  "equal_ordinal_pairs": 90,
+  "shifted_controls": 30,
+  "biological_independence": "NOT_VERIFIED",
+  "hard_warning": "Scores and equal ordinals are review suggestions, not specimen identity. No split or training is authorized.",
+  "files": [
+    "bounded_similarity_review.csv",
+    "image_review_index.csv",
+    "plate_01_bb-uv-mix.jpg",
+    "plate_02_bb-white-mix.jpg",
+    "plate_03_bb-white-uv.jpg",
+    "plate_04_db-uv-mix.jpg",
+    "plate_05_db-white-mix.jpg",
+    "plate_06_db-white-uv.jpg",
+    "plate_07_hl-uv-mix.jpg",
+    "plate_08_hl-white-mix.jpg",
+    "plate_09_hl-white-uv.jpg",
+    "plate_10_kw-uv-mix.jpg",
+    "plate_11_kw-white-mix.jpg",
+    "plate_12_kw-white-uv.jpg",
+    "plate_13_wb-uv-mix.jpg",
+    "plate_14_wb-white-mix.jpg",
+    "plate_15_wb-white-uv.jpg"
+  ]
+}

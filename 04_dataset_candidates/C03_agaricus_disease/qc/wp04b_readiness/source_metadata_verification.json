@@ -1,0 +1,19 @@
+{
+  "verified_via": "Crossref Works API",
+  "verification_date": "2026-10-30",
+  "scope_note": "DOI/title/year/type verification only; does not verify full-text scientific claims.",
+  "records": [
+    {"doi":"10.30708/mantar.1452976","title":"Agaricus bisporus’ta Görüntü Tabanlı Hastalık Sınıflandırması için Kapsamlı Veri Seti","year":2024,"type":"journal-article","status":"FOUND"},
+    {"doi":"10.3390/agronomy15010226","title":"Classification and Analysis of Agaricus bisporus Diseases with Pre-Trained Deep Learning Models","year":2025,"type":"journal-article","status":"FOUND"},
+    {"doi":"10.3897/ejfa.2026.169921","title":"Determining the effect of color spaces on image based disease classification in agaricus bisporus using squeezenet convolutional neural network","year":2026,"type":"journal-article","status":"FOUND"},
+    {"doi":"10.1016/B978-0-323-90550-3.00005-9","title":"A deep learning-based approach for mushroom diseases classification","year":2022,"type":"book-chapter","status":"FOUND"},
+    {"doi":"10.1255/jnirs.894","title":"Visible-Near Infrared Hyperspectral Imaging for the Identification and Discrimination of Brown Blotch Disease on Mushroom (Agaricus bisporus) Caps","year":2010,"type":"journal-article","status":"FOUND"},
+    {"doi":"10.34133/plantphenomics.0038","title":"From Laboratory to Field: Unsupervised Domain Adaptation for Plant Disease Recognition in the Wild","year":2023,"type":"journal-article","status":"FOUND"},
+    {"doi":"10.1016/j.compag.2024.109574","title":"Advancing plant disease classification: A robust and generalized approach with transformer-fused convolution and Wasserstein domain adaptation","year":2024,"type":"journal-article","status":"FOUND"},
+    {"doi":"10.3389/fpls.2026.1826962","title":"Quantifying the reliability gap in cross-domain plant disease classification: benchmarking the limited efficacy of standard mitigation techniques under controlled-to-field shift","year":2026,"type":"journal-article","status":"FOUND"},
+    {"doi":"10.3389/fcomp.2026.1946705","title":"Leaf identity and visual group splitting in potato disease classification","year":2026,"type":"journal-article","status":"FOUND"},
+    {"doi":"10.3390/app16146989","title":"Leakage-Aware Transfer Learning with Explainable AI and CPU-Efficient Deployment for Mango Leaf Disease Classification on the MangoLeafBD Benchmark","year":2026,"type":"journal-article","status":"FOUND"},
+    {"doi":"10.63158/journalisi.v8i5.1896","title":"Leakage-Aware Ablation of Data Augmentation for Sugarcane Leaf Disease Classification: Operator- and Severity-Specific Effects","year":2026,"type":"journal-article","status":"FOUND"},
+    {"doi":"10.21203/rs.3.rs-11368884/v1","title":"Data Leakage in Agricultural Object Detection Studies: A Critical Analysis, Recipes, and Recommendations","year":2026,"type":"posted-content","status":"FOUND"}
+  ]
+}

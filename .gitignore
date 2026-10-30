@@ -79,6 +79,11 @@ local_outputs/
 *.log
 .DS_Store
 Thumbs.db
+# WP-04 third-party original captures/static source: local preservation only.
+/04_dataset_candidates/C04_shiitake_phenotypes/qc/wp04_evidence/publisher.html
+/04_dataset_candidates/C04_shiitake_phenotypes/qc/wp04_evidence/publisher_text.txt
+/04_dataset_candidates/C04_shiitake_phenotypes/qc/wp04_evidence/static_text/
+/04_dataset_candidates/C04_shiitake_phenotypes/qc/wp04_evidence/config_excerpts.md
 # WP-03 retrieved primary originals retained locally; project synthesis,
 # source ledgers and metadata references remain tracked.
 /03_dataset_discovery/source_verification/wp03_stream_a/*.txt
