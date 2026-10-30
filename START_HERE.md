@@ -1,15 +1,11 @@
-# Start here
+# Start here — Team 10 M18K
 
-1. Enter the workspace (PowerShell):
-   ```powershell
-   Set-Location 'D:\Capstone\mushroom-research-2026'
-   ```
-   Git Bash alternative: `cd /d/Capstone/mushroom-research-2026`.
-2. Check Git: `git rev-parse --show-toplevel` and `git status --short --branch`. Expected root is this folder. If no repository exists and no ancestor owns it, use `git init --initial-branch=main`. Do not initialize within an unrelated ancestor repository; do not commit secrets, data or historical artifacts. WP-00 creates no commits.
-3. Recommend Python 3.11/3.12 for later ML ecosystem support, subject to baseline requirements. WP-00 needs only Python 3.11+ standard library; check `python --version`. No venv or package install is required for these utilities. Optional future venv: `python -m venv .venv`.
-4. Run `python scripts/validate_workspace.py`, `python scripts/show_project_status.py`, and `python -m unittest discover -s tests -v`. A nonzero validator exit must be investigated.
-5. **Do not download in WP-00.** Once separately authorized, put original candidate payloads under `04_dataset_candidates/<candidate>/raw/`, never in code or Git. Store provenance/license/version/download timestamp/SHA-256 manifests in that candidate's `source/` and `dataset_metadata/`. Keep raw immutable; declare processed/derived data separately under candidate `processed/` (ignored) and preserve transformation scripts/manifests. Future farm images belong only under `11_field_validation/external_test_data/` and remain isolated from model selection.
-6. Prepare WP-01 using `03_dataset_discovery/candidate_registry/CANDIDATE_REGISTRY.csv`, the exclusion registry, and `05_research_protocols/DATASET_SCREENING_PROTOCOL.md`. Verify exact identity and versions, legal access/license, paper relationship and the DS-02 overlap question before proposing any download. No website verification was performed by WP-00.
-7. Before reviewed dataset selection: do not train, download weights, implement a detector, tune against test data, claim a gap, fabricate statistics or reuse DS-02 artifacts. Baseline training requires G0/G1 GO, recorded selection, frozen protocol and explicit training authorization; G2 is the outcome of authorized baseline reproduction, not a prerequisite for baseline training.
+1. Open the project in Git. To integrate this update into the group's real GitHub repository, copy/merge the contents from the delivered archive into an existing clone **without replacing its `.git` directory**. Review differences before committing; this file bundle does not push to GitHub.
+2. Read `README.md`, `09_results/reports/M18K_V2_EDA_2026-10-30.md`, and `00_project_management/RESEARCH_STATUS.md`.
+3. Run `python scripts/validate_workspace.py` and `python -m unittest discover -s tests -v`. These check metadata and file structure only.
+4. Open `04_dataset_candidates/C03_m18k_v2/analysis/M18K_V2_Research_EDA_Executed_2026-10-30.ipynb` in Colab for the **already executed record**. It is not a training result. The original full dataset remains on Google Drive and will not be bundled into Git.
+5. Before model training, perform the **human-review items** in `00_project_management/TASK_BOARD.md`: confirm the chosen dataset/paper with the team lead, the intended license/use rights, anomalous BB labels, group leakage, and any training budget.
+6. To work with the existing notebook, mount Drive and confirm `DATA_ROOT = /content/drive/MyDrive/M18K_Reproduction/M18K_V2_data/M18KV2` with `train`, `valid`, `test` containing `rgb`, `depth` and `annotations_coco.json`.
+7. Keep test data for final evaluation; select model checkpoints only on validation. Store large datasets/checkpoints on Drive, version lightweight experimental metadata here.
 
-Evidence tags: VERIFIED_FACT (independently checked), SOURCE_CLAIM (attributed only), PRACTITIONER_OBSERVATION (dated contextual testimony), HYPOTHESIS (testable expectation), UNKNOWN (not established). Use `12_reproducibility/manifests/EVIDENCE_TEMPLATE.md`.
+**Scope note:** Existing C01 and C02 are earlier alternatives, not renamed M18K datasets. `setup_reports/` contains an archived clean-workspace WP-00 report; it predates this V2 EDA and must not be read as current research status.

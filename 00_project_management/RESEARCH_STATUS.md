@@ -1,17 +1,18 @@
-# Research status
+# Research status — 30 October 2026
 
-Created: 2026-10-23T16:30:47+07:00
+| Field | Status |
+| --- | --- |
+| Phase | Phase 1 — M18K V2 data audit / EDA (provisional focus) |
+| Active candidate | **C03 M18K V2** — working focus, not a recorded group selection |
+| Reference paper | Zakeri et al. (2025), M18K — reference identified |
+| Dataset source/license | Dataset obtained on team Drive; formal license/use-rights review pending |
+| Dataset EDA | Executed; initial results documented |
+| Dataset QC gate G1 | **NEEDS_MORE_EVIDENCE** (rare-class validation; group leakage; hashes) |
+| Baseline reproduced G2 | **NO** — training was disabled in the completed research notebook |
+| 3D experiments | **NOT STARTED** |
+| Team approval to finalize selection | **NOT RECORDED** |
+| Research gap validated | **NO** — depth benefit remains a hypothesis |
 
-- Current phase: PHASE 0 — DATASET & RESEARCH TOPIC SELECTION
-- Current work package: WP-00
-- Dataset selected: NO
-- Paper selected: NO
-- Research gap validated: NO
-- Baseline reproduced: NO
-- Training authorized: NO
-- External validation started: NO
-- Current research gate: G0 — NEEDS_MORE_EVIDENCE
-- G0–G6: NEEDS_MORE_EVIDENCE; no gate passed.
-- Next work package: WP-01: Candidate Dataset & Paper Source Verification
+See `00_project_management/project_state.json` (machine-readable) and `09_results/reports/M18K_V2_EDA_2026-10-30.md` (evidence-backed findings).
 
-Canonical machine state: `project_state.json`. Synchronize this human-readable mirror on every approved status change and record evidence/reviewer in DECISION_LOG.md. WP-00 completion is infrastructure PASS, not a scientific gate GO.
+**Important:** `setup_reports/WP-00_SETUP_REPORT.md` documents the original repository initialization on 23 October 2026, not the current research state.

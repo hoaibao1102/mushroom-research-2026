@@ -1,5 +1,7 @@
-# Selected research — intentionally unselected
+# Working direction — M18K, pending formal selection
 
-Dataset selected: NO. Paper selected: NO. No gap or baseline is established. C01/C02 remain independent candidates; another candidate may be introduced.
+Team 10 is currently preparing **M18K V2 (C03)** as the practical research direction. The baseline reference is Zakeri et al. (2025), but the 2026-10-30 notebook audits the expanded V2 release rather than the original 2,000-image benchmark subset.
 
-After G0/G1 and a reviewed selection decision, place the selection rationale and references to candidate metadata/manifests here. Do not copy raw data, silently select a candidate or rename DS-02 artifacts. Training still requires explicit authorization and a frozen protocol. Until then this directory holds only this notice.
+**Formal selection status: PENDING HUMAN CONFIRMATION.** No team lead approval, signed selection scorecard or license review was provided. In `project_state.json`, `dataset_selected=false` and `paper_selected=false` deliberately remain false; the paper is *identified as the reference* without claiming a formal gate decision.
+
+Current evidence: `09_results/reports/M18K_V2_EDA_2026-10-30.md`. When the team confirms selection and source usage rights, record date/reviewer/decision in `DECISION_LOG.md` and synchronize the project state. Do not interpret our EDA as a numerical reproduction.

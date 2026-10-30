@@ -1,2 +1,3 @@
 paper_id,title,authors,year,doi,paper_url,candidate_id,relationship_status,verification_status,notes
 P001,,,,,https://www.mdpi.com/2077-0472/13/8/1533,C02,NOT_VERIFIED,PENDING_VERIFICATION,"User supplied possible associated source only; title, authors, year, DOI and exact dataset relationship not verified."
+P002,"M18K: A Multi-Purpose Real-World Dataset for Mushroom Detection, 3D Pose Estimation, and Growth Monitoring",Zakeri et al.,2025,10.3390/computers14050199,https://doi.org/10.3390/computers14050199,C03,SAME_DATASET_FAMILY_DIFFERENT_RELEASE_AND_SPLIT,PAPER_PDF_UPLOADED,Baseline paper supplied by user; reports 2000 RGB-D detection/segmentation/pose images plus growth subset; V2 has different observed size/splits; no verified paper-equivalent subset selected.

@@ -1,19 +1,15 @@
-# Data leakage checklist
+# Data leakage checklist — V2 status
 
-Not executed; every box remains unchecked. Each item needs method, evidence path, reviewer and resolution.
+- [x] Dataset's provided train/valid/test folders identified (3,596 / 449 / 450).
+- [x] Exact filename overlap checked: 0 matches reported in completed notebook. **This does not establish independence.**
+- [ ] SHA-256 hash of image content across splits.
+- [ ] Perceptual/near-duplicate grouping, including repeated cultivation trays and time series.
+- [ ] Confirm crops/augmentations of the same source remain within one split.
+- [ ] Inspect available capture IDs, batch and time metadata; define independent unit.
+- [ ] Determine whether original V2 80/10/10 split is appropriate to the claimed generalization setting.
+- [ ] Freeze split manifest plus version/hash before model comparisons.
+- [ ] Check pretraining overlap and only tune/choose checkpoints on validation.
+- [ ] Keep test split sealed until final evaluation.
+- [ ] Review remaining risks and sign off with dated evidence.
 
-- [ ] Exact duplicates: hash every file; duplicate groups cannot cross splits.
-- [ ] Near duplicates: calibrate similarity threshold; manually review border cases and group confirmed matches.
-- [ ] Augmented image leakage: trace derivatives to originals; split first, augment train only.
-- [ ] Images from the same original frame: group crops, video frames and alternate exports.
-- [ ] Same biological specimen across splits: identify bag/specimen; enforce grouped partition.
-- [ ] Same cultivation batch across splits: separate batches where required by generalization question.
-- [ ] Temporal leakage: do not use future observations/labels/features to predict past states; define chronology.
-- [ ] Test-set contamination: never tune models, thresholds, preprocessing or gap hypotheses on test outcomes.
-- [ ] Train-only preprocessing: normalization/feature fitting/selection use train only.
-- [ ] Pretraining/source overlap: document pretrained data overlap risk before later weight use.
-- [ ] External test isolation: farm images cannot enter train/validation or model selection.
-- [ ] Missing group metadata: acknowledge inability to establish independence; block gate or redesign claim.
-- [ ] Freeze split manifests with hashes; independently review and record residual uncertainty.
-
-Unknown is not PASS. Any post-freeze split change requires versioned justification and reevaluation of all dependent experiments.
+The completed notebook only supports the first two checked items. **Scene-level independence and full duplicate safety are unverified.**

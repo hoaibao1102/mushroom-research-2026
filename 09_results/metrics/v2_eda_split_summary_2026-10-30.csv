@@ -1,0 +1,4 @@
+split,images,annotations,BB,WB,images_with_BB,rgb_unresolved,depth_matched,depth_coverage_pct
+train,3596,559545,686,558859,525,0,3596,100.0
+val,449,70755,75,70680,54,0,449,100.0
+test,450,70289,97,70192,71,0,450,100.0

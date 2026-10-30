@@ -1,56 +1,47 @@
-# Mushroom Research 2026
+# Mushroom Research 2026 — Team 10
 
-University Software Engineering capstone: mushroom cultivation research with possible computer vision / machine learning. This is a fresh research workspace, not a continuation of DS-02.
+Research workspace for **M18K mushroom detection, instance segmentation, RGB-D analysis and prospective 3D pose estimation**. We retain the shared 00–12 research-project directory structure used by other groups.
 
-## Objectives
-1. Validate a meaningful cultivation problem, including whether AI is necessary.
-2. Establish public dataset provenance and review relevant papers.
-3. Reproduce a suitable published baseline, only after authorization.
-4. Investigate an evidence-backed gap and conduct controlled experiments.
-5. Write a research paper; assess future feasibility at a small oyster mushroom farm if justified.
+**Status (30 October 2026):** M18K V2 is the **active working candidate (C03)**. A reproducible exploratory data analysis was executed on Colab, but **the candidate has not been formally approved**, license/identity review is incomplete, and **no M18K V2 model accuracy or paper reproduction is claimed**. Candidate C01/C02 records are preserved as earlier alternatives; they are not today's work.
 
-## Current phase and research status
-**PHASE 0 — DATASET & RESEARCH TOPIC SELECTION**, WP-00 infrastructure only.
-No dataset, paper, confirmed gap, baseline, training authorization or external validation.
-Canonical status: `00_project_management/project_state.json`; human-readable mirror: `RESEARCH_STATUS.md` in the same directory. Update both through a reviewed decision.
+## Results to date
 
-## Candidate datasets — all PENDING_VERIFICATION
-- C01: substrate contamination classification; https://data.mendeley.com/datasets/jrbx34k77g/2 . A paper using this exact dataset has NOT been confirmed.
-- C02: harvest readiness; https://www.kaggle.com/datasets/etcelab/mushr-annotated-dataset-oyster-mushrooms . Possible associated paper to verify: https://www.mdpi.com/2077-0472/13/8/1533 . Dataset-paper relationship is NOT_VERIFIED.
-- Another candidate may be added later using a new unique ID; selection is not limited to these two.
+The executed notebook reports **4,495 annotated RGB images**, **700,589 polygon annotation records**, and **4,495/4,495 filename-stem-matched depth files**. The supplied split is 3,596 train / 449 validation / 450 test (approximately 80/10/10). Raw COCO category names map ID 1 to BB and ID 2 to WB; the reported instance counts are **858 BB (0.122%)** and **699,731 WB (99.878%)**. Six bounding boxes have non-positive dimensions. The complete image-content and scene-level leakage audits were **not executed**. These values are notebook-derived observations; no independent full dataset rerun was possible in this repository snapshot.
 
-Excluded: Annotated Oyster Mushroom Images, identifier `hf55tkx489` (abandoned DS-02). No other dataset is excluded. C02 identity/possible overlap remains unknown and must be checked, not presumed.
+- [Full EDA research record](09_results/reports/M18K_V2_EDA_2026-10-30.md)
+- [Executed Colab notebook](04_dataset_candidates/C03_m18k_v2/analysis/M18K_V2_Research_EDA_Executed_2026-10-30.ipynb)
+- [Provisional M18K candidate](04_dataset_candidates/C03_m18k_v2/README.md)
+- [Next steps and human decisions](00_project_management/TASK_BOARD.md)
 
-## Research methodology
-Domain evidence → source verification → QC and grouped leakage-safe splits → reviewed selection → baseline reproduction → falsifiable gap → controlled paired experiments → conclusions/limitations → external readiness. Prefer suitable 2024–2026 papers while retaining earlier foundational work. No unsupported custom losses or automatic algorithm selection.
-Every claim must be tagged VERIFIED_FACT, SOURCE_CLAIM, PRACTITIONER_OBSERVATION, HYPOTHESIS or UNKNOWN, with source/evidence location, date and reviewer. A linked URL is not verification.
+## Research direction
 
-## Directory overview
-| Directory | Responsibility |
-|---|---|
-| 00_project_management | Charter, status, decisions, tasks, meetings, milestones |
-| 01_domain_research | Cultivation workflows, terminology, observed pain points |
-| 02_literature_review | Paper registry, summaries, comparisons, gap evidence |
-| 03_dataset_discovery | Candidate/exclusion registries, screening and provenance |
-| 04_dataset_candidates | Independent candidate metadata, raw data, QC and reports |
-| 05_research_protocols | Screening, integrity, leakage, reproducibility and gates |
-| 06_selected_research | Selection decision reference only; currently unselected |
-| 07_source_code | Future data/features/models/training/evaluation utilities |
-| 08_experiments | Future configs, ignored runs/checkpoints, experiment registry |
-| 09_results | Metrics, visualizations, statistics, error analysis, reports |
-| 10_research_paper | Outline, drafts, figures, tables, references, submission |
-| 11_field_validation | Future protocols, isolated ignored external images, reports |
-| 12_reproducibility | Environments, manifests, snapshots and cloud guidance |
-| scripts / tests / setup_reports | Standard-library validators, tests and setup evidence |
+1. Inspect and validate dataset composition, labels, RGB/depth pairing, and group/scene independence.
+2. Establish a **YOLOv8n-seg RGB baseline on V2**, with model selection on validation and one-time evaluation on held-out test.
+3. Compare against the 2025 M18K paper **only after resolving differences in release, split, metric and training protocol**. The original paper's 2,000-image subset and 70/10/20 protocol are not identical to the V2 release.
+4. If feasible, test whether **depth-assisted segmentation or 3D pose estimation** adds measurable value, under matched conditions. These are hypotheses, not proven improvements.
 
-## Setup
-Read `START_HERE.md`. Python 3.11+ recommended (3.11/3.12 for later ML compatibility checks); WP-00 standard-library utilities are tested with the interpreter recorded in the setup report. No dependencies need installation.
-```sh
-python scripts/validate_workspace.py
-python scripts/show_project_status.py
-python -m unittest discover -s tests -v
-```
-Validator is deliberately a **WP-00 clean-initialization validator**, not a future downloaded-dataset QC program. Extend it through a reviewed later work package, not by suppressing failures.
+Reference paper: Zakeri et al., *Computers* 14(5), 199 (2025), [doi:10.3390/computers14050199](https://doi.org/10.3390/computers14050199). Source code/dataset entry point: [abdollahzakeri/m18k](https://github.com/abdollahzakeri/m18k).
 
-## Next work packages
-WP-01: Candidate Dataset & Paper Source Verification only; human-reviewed scope before any downloads. Later packages for QC, selection, baseline and experiments must be separately specified/authorized. WP-00 does not advance to WP-01.
+## Repository map
+
+| Path | Purpose |
+| --- | --- |
+| `00_project_management` | Work plan, current status, approval questions, decisions |
+| `01_domain_research` | Mushroom-domain assumptions and open questions |
+| `02_literature_review` | Paper registry and research-gap hypotheses |
+| `03_dataset_discovery` | Candidate records and dataset source verification |
+| `04_dataset_candidates/C03_m18k_v2` | Primary dataset audit, notebook and QC evidence |
+| `05_research_protocols` | Dataset QC, leakage and experiment requirements |
+| `06_selected_research` | Provisional focus; formal selection remains pending |
+| `07_source_code` | Reusable code to add after it is developed/tested |
+| `08_experiments` | Future training protocols and run registry (no completed V2 run) |
+| `09_results` | EDA tables, report and curated figures |
+| `10_research_paper` | Future manuscript (not yet written) |
+| `11_field_validation` | Possible independent validation, only with consent |
+| `12_reproducibility` | Colab/runtime instructions, evidence manifests |
+
+## Getting started
+
+See [START_HERE.md](START_HERE.md). The uploaded executed notebook uses Google Drive at `MyDrive/M18K_Reproduction/M18K_V2_data/M18KV2/`. Raw images, COCO JSON files, depth maps and checkpoints are **not in Git**. GitHub stores scripts, notebooks, lightweight figures and auditable results.
+
+Use `python scripts/validate_workspace.py`, `python scripts/show_project_status.py`, and `python -m unittest discover -s tests -v` to validate repository metadata. This validator checks repository consistency, **not** the full V2 dataset.

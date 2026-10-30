@@ -1,22 +1,28 @@
-# Project charter
+# Project charter — Team 10
 
-## Background
-A university Software Engineering capstone exploring cultivation problems and possible CV/ML support. Working name: Mushroom Research 2026. Fresh restart; abandoned DS-02 artifacts and conclusions are outside this project.
+## Problem and motivation
 
-## Goals
-Validate a meaningful real-world problem; choose defensible public data; reproduce an appropriate baseline; investigate a verifiable gap; run controlled comparisons; produce a paper and assess farm feasibility if justified.
+In dense mushroom cultivation scenes, 2D detection and instance segmentation must localize many tightly clustered mushrooms. M18K provides an opportunity to study image annotation integrity and RGB-D sensing, and later to test whether depth improves segmentation or helps estimate physical pose. Any harvesting benefit is a potential application, not a measured result.
 
-## Boundaries
-WP-00 is infrastructure only. No source scraping, dataset downloads, training, weights, model reimplementation, selected candidate or asserted gap. Annotated Oyster Mushroom Images (`hf55tkx489`) is excluded. No additional exclusions are presumed. Source data, transformed data, source code, research documents, experiment outputs and external tests have separate ownership/paths.
+## Active working scope (30 October 2026)
 
-## Initial assumptions — not verified facts
-Public suitable data may exist; contamination/harvest decisions may be useful; available hardware and labels may support reproducibility; a small farm may later consent to external evaluation. All require evidence. AI necessity and measurable deployment benefit remain UNKNOWN.
+- Dataset: M18K V2, **working candidate C03**, pending team approval, provenance/license completion and QC closure.
+- Reference: Zakeri et al. (2025), *M18K: A Multi-Purpose Real-World Dataset for Mushroom Detection, 3D Pose Estimation, and Growth Monitoring*.
+- Completed: executed Colab V2 dataset audit and initial EDA, saved and summarized in `09_results/`.
+- Not yet completed: full leakage audit, human label review, YOLO model training, held-out evaluation, independent replication or 3D model experiments.
 
-## Expected deliverables
-Source verification dossier; candidate comparison and signed selection decision; immutable data manifests and QC report; leakage-safe split manifests; baseline reproduction evidence; gap matrix; preregistered controlled experiment and reproducible artifacts; reviewed paper; optional external-readiness assessment.
+## Core research question
 
-## Constraints
-Prefer clear provenance/license and reproducible methods. Prefer suitable 2024–2026 research without excluding essential earlier work. Hardware/time/budget and independent sample counts are UNKNOWN. No unsupported custom-loss development. Preserve licensing, consent, privacy and negative/null evidence. Scope changes need decisions.
+Can a documented RGB segmentation baseline be reproduced on M18K V2 with robust held-out evaluation, and does adding depth information improve performance on crowded or small mushroom instances under controlled comparisons?
 
-## Success definition
-Success is an auditable answer to a meaningful question with honest uncertainty and limitations, not a required accuracy gain. A justified NO-GO or evidence that ML is unnecessary is valid. Reproducible methods, fair comparisons, leakage control and defensible conclusions are mandatory; deployment is conditional, not promised.
+## Method
+
+Validate metadata and labels → analyze class/instance distributions → inspect RGB/depth pairing → audit leakage and group independence → freeze dataset/split strategy → train RGB baseline → evaluate on unseen test → investigate depth/3D hypotheses if justified.
+
+## Boundaries and integrity
+
+Keep the project's shared directory structure. Do not put raw images/depth/huge annotation JSON files, checkpoints, credentials or private farm imagery in Git. Do not claim numerical paper reproduction from V2 results without matching its protocol. Formal approvals, legal license conclusions and human visual label adjudication cannot be automated from the uploaded notebook.
+
+## Success criteria
+
+Reproducible data and split manifests, transparent per-class scores, failure-case analysis, versioned model configuration, honest limitations and a scientifically fair comparison. An improvement is not required; a null or negative RGB-D result is meaningful.

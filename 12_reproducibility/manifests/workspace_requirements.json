@@ -77,7 +77,13 @@
     "12_reproducibility/manifests",
     "scripts",
     "setup_reports",
-    "tests"
+    "tests",
+    "04_dataset_candidates/C03_m18k_v2",
+    "04_dataset_candidates/C03_m18k_v2/analysis",
+    "04_dataset_candidates/C03_m18k_v2/dataset_metadata",
+    "04_dataset_candidates/C03_m18k_v2/qc",
+    "04_dataset_candidates/C03_m18k_v2/reports",
+    "04_dataset_candidates/C03_m18k_v2/source"
   ],
   "files": [
     ".gitattributes",
@@ -111,7 +117,13 @@
     "scripts/show_project_status.py",
     "scripts/validate_workspace.py",
     "setup_reports/WP-00_SETUP_REPORT.md",
-    "tests/test_workspace.py"
+    "tests/test_workspace.py",
+    "04_dataset_candidates/C03_m18k_v2/README.md",
+    "04_dataset_candidates/C03_m18k_v2/dataset_metadata/V2_DATASET_RECORD.md",
+    "04_dataset_candidates/C03_m18k_v2/qc/V2_QC_OPEN_ISSUES.md",
+    "04_dataset_candidates/C03_m18k_v2/analysis/M18K_V2_Research_EDA_Executed_2026-10-30.ipynb",
+    "09_results/reports/M18K_V2_EDA_2026-10-30.md",
+    "INTEGRATION_NOTES.md"
   ],
   "csv_headers": {
     "03_dataset_discovery/candidate_registry/CANDIDATE_REGISTRY.csv": [

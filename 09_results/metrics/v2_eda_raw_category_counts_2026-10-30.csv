@@ -1,0 +1,7 @@
+split,raw_category_id,category_name,mapped_class,annotations
+test,1,BB,BB,97
+test,2,WB,WB,70192
+train,1,BB,BB,686
+train,2,WB,WB,558859
+val,1,BB,BB,75
+val,2,WB,WB,70680

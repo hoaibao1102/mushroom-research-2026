@@ -1,11 +1,13 @@
-# Open domain questions
+# Domain and application questions — M18K
 
-All entries are UNKNOWN; they are research questions, not findings.
-- Which cultivation decisions cause measurable losses, delay or wasted labor?
-- How do practitioners define contamination and harvest readiness, and how consistent are experts?
-- Are image-only labels sufficient, or are batch, time and environmental measurements necessary?
-- Could a checklist or non-ML rule solve the problem more reliably?
-- What unit is independent: frame, bag, specimen, batch, farm or time interval?
-- Can a small oyster mushroom farm provide consented, independent external validation later?
+These remain **research questions**, not field-validated claims.
 
-For each answer record evidence tag, dated source/interview, context, counterevidence, confidence, reviewer and unresolved questions. Obtain consent before field collection. Do not generalize one practitioner's observation to all farms.
+- How often do densely packed button mushrooms cause missed detections, merged masks or difficult robotic harvesting decisions?
+- Is RGB sufficient to identify cap boundaries, or can geometric depth distinguish overlapping instances?
+- What physical measurement matters most for harvesting: cap diameter, location, orientation, maturity or growth rate?
+- Are RGB-D depth units and camera intrinsics trustworthy enough for metric 3D localization across farms?
+- What constitutes an independent sample: camera frame, growth scene, tray, cultivation batch, farm or time period?
+- Does V2's annotation taxonomy reliably represent baby bella vs white button specimens?
+- Are there simpler image-processing/non-ML alternatives suitable for any practical use case?
+
+**Evidence level:** HYPOTHESIS / UNKNOWN. The present notebook contains no practitioner interview or farm deployment result. The existing C02 oyster-mushroom idea is not the same species/task as M18K; keep its candidate record separate.

@@ -1,16 +1,13 @@
-# Reproducibility protocol v1
+# Reproducibility protocol — M18K
 
-WP-00 uses standard library only. Future execution must retain:
+## Evidence available today
 
-- Environment: OS/architecture, Python executable/version, CPU/GPU/driver/CUDA where applicable, dependency lock/export, creation commands and UTC/offset timestamps in `12_reproducibility/`.
-- Seeds: explicit Python/library/framework/data-loader seeds and deterministic flags; state nondeterministic operations. Use a preregistered paired seed list rather than selecting favorable seeds.
-- Data: exact source/version/license, original and extracted SHA-256 manifests, QC code/version and transformations. Never version bulk data or DS-02 artifacts.
-- Splits: immutable relative-path/hash/label/group/split manifests, grouping rationale, independent-unit definition and version/hash. Shared identical splits across comparisons.
-- Experiment IDs: `EXP-YYYYMMDD-NNN` allocated only on actual approved execution; registry links protocol, config, environment, dataset/split, seeds, code Git commit and dirty diff if unavoidable. WP-00 registry stays headers only.
-- Models/dependencies: architecture/package versions, initialization source/license/hash, optimizer/scheduler, preprocessing, hyperparameters and resource budget.
-- Checkpoints: ignored local storage; record location, hash, epoch/step, selection rule and provenance in manifests. No weights downloaded in WP-00.
-- Metrics: preserve raw predictions where legally permitted, metric definitions/code, per-class/group results, uncertainty estimates, statistical assumptions and complete negative/null outcomes. Never fabricate missing results.
-- Git: code commit reference for every future run; record uncommitted patch hash if necessary and explain. WP-00 creates no commit.
-- Reproduction: independent rerun from documented environment/config/manifests; predeclare tolerance, compare outputs and explain differences. Keep test set sealed until final evaluation.
+- Executed V2 notebook preserved at `04_dataset_candidates/C03_m18k_v2/analysis/` with saved cell outputs.
+- Source notebooks run in Colab with Google Drive dataset mounted; Python 3.13.18 appears in the recorded output. GPU model training was **disabled**.
+- Summary count CSVs and selected notebook figures are versioned under `09_results/`.
 
-Evidence record: statement, evidence tag, exact source/section or artifact path/hash, date, reviewer, scope and counterevidence. Provenance is required for source claims as well as verified facts.
+## Requirements for future runs
+
+Record complete source code and environment, PyTorch/Ultralytics versions, model initialization and weight source, Git commit, seeds and split manifests/hashes, train/validation/test definitions, GPU, training hyperparameters, checkpoint provenance and held-out raw metrics. Store large files on Drive, only lightweight configs/manifests in Git. Do not silently change class mapping or exclude anomalous annotations.
+
+The full V2 data and 2.5 GB COCO JSON files are not bundled; therefore the recorded EDA output **cannot be independently recomputed from this Git archive alone**. Treat it as a traceable original run, not independent confirmation.

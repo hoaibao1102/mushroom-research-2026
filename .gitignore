@@ -79,3 +79,14 @@ local_outputs/
 *.log
 .DS_Store
 Thumbs.db
+
+# M18K Colab / streaming QC artifacts
+.ipynb_checkpoints/
+*.sqlite
+*.sqlite3
+*.db
+*.zst
+*.zstd
+*.csv.tmp
+# Small, reviewed EDA plots in this results directory are allowed
+!09_results/visualizations/*.png

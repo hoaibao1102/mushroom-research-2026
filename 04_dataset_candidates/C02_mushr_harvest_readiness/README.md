@@ -1,3 +1,5 @@
+> **Historical alternative as of 2026-10-30:** Team 10 is currently analyzing C03 M18K V2. This earlier candidate remains in the registry for continuity; it was not selected, independently verified or discarded by a formal new decision.
+
 # C02 — Oyster Mushroom Harvest Readiness
 
 ## Identification and source
