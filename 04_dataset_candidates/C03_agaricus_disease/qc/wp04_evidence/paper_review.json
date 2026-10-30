@@ -1,0 +1,251 @@
+{
+  "reviewer": "Hermes WP04 C03 evidence audit",
+  "review_scope": "FULL_TEXT_REVIEWED local publisher XML-derived text and Table 2; primary XML parsed for identity",
+  "provenance": [
+    {
+      "path": "03_dataset_discovery\\source_verification\\wp03_stream_a\\candidates.json",
+      "bytes": 159330,
+      "sha256": "4c703e40c519afa7f399485a79620789ab2b1a3c4c6d63f3d9744dca1bf12ce1"
+    },
+    {
+      "path": "03_dataset_discovery\\source_verification\\wp03_stream_a\\paper_agronomy_fulltext.txt",
+      "bytes": 76760,
+      "sha256": "698b034574f5c93b988ff72a052b2f044d0e619b4d07da4c83e4e18d6602138f"
+    },
+    {
+      "path": "03_dataset_discovery\\source_verification\\wp03_stream_a\\paper_xml_alternate.txt",
+      "bytes": 207260,
+      "sha256": "d5335af7db63c6b072485b56f65cb68859e8555ba2de756fff7907f456fdfe87"
+    },
+    {
+      "path": "03_dataset_discovery\\source_verification\\wp03_stream_a\\crossref_agronomy.txt",
+      "bytes": 27178,
+      "sha256": "2d63b5aa4101e2a56d412691b57840df5e51a4332ed6210e7399c8159391fe6b"
+    },
+    {
+      "path": "03_dataset_discovery\\source_verification\\wp03_stream_a\\zenodo_20260929.txt",
+      "bytes": 9062,
+      "sha256": "8b66c9dfa91a0db8abfed6b29e78093bffbfd4233f1add44779fda653e782875"
+    }
+  ],
+  "paper_doi": "10.3390/agronomy15010226",
+  "paper_title": [
+    "Classification and Analysis of Agaricus bisporus Diseases with Pre-Trained Deep Learning Models"
+  ],
+  "paper_authors": [
+    {
+      "ORCID": "https://orcid.org/0000-0002-7942-7191",
+      "authenticated-orcid": false,
+      "given": "Umit",
+      "family": "Albayrak",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Ilgin Vocational School, Selcuk University, Konya 42600, Turkey"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-6734-5906",
+      "authenticated-orcid": false,
+      "given": "Adem",
+      "family": "Golcuk",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Computer Engineering, Selcuk University, Konya 42031, Turkey"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0003-1657-5901",
+      "authenticated-orcid": false,
+      "given": "Sinan",
+      "family": "Aktas",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Biology, Selcuk University, Konya 42031, Turkey"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0003-4193-8401",
+      "authenticated-orcid": false,
+      "given": "Ugur",
+      "family": "Coruh",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Computer Engineering, Recep Tayyip Erdoğan University, Rize 53020, Turkey"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-2433-246X",
+      "authenticated-orcid": false,
+      "given": "Sakir",
+      "family": "Tasdemir",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Computer Engineering, Selcuk University, Konya 42031, Turkey"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Omer",
+      "family": "Baykan",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Computer Engineering, Konya Technical University, Konya 42250, Turkey"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "publisher": "MDPI AG",
+  "published": {
+    "date-parts": [
+      [
+        2025,
+        1,
+        17
+      ]
+    ]
+  },
+  "claims": [
+    {
+      "source": "03_dataset_discovery\\source_verification\\wp03_stream_a\\paper_agronomy_fulltext.txt",
+      "line": 8,
+      "text": "This research evaluates 20 advanced convolutional neural network (CNN) architectures for classifying mushroom diseases in  Agaricus bisporus , utilizing a custom dataset of 3195 images (2464 infected and 731 healthy mushrooms) captured under uniform white-light conditions. The consistent illumination in the dataset enhances the robustness and practical usability of the assessed models. Using a weighted scoring system that incorporates precision, recall, F1-score, area under the ROC curve (AUC), and average precision (AP), ResNet-50 achieved the highest overall score of 99.70%, demonstrating outstanding performance across all disease categories. DenseNet-201 and DarkNet-53 followed closely, confirming their reliability in classification tasks with high recall and precision values. Confusion matrices and ROC curves further validated the classification capabilities of the models. These findings underscore the potential of CNN-based approaches for accurate and efficient early detection of mushroom diseases, contributing to more sustainable and data-driven agricultural practices.",
+      "status": "PAPER_REPORTED"
+    },
+    {
+      "source": "03_dataset_discovery\\source_verification\\wp03_stream_a\\paper_agronomy_fulltext.txt",
+      "line": 49,
+      "text": "The dataset consisted of 3195 images classified into five categories: Healthy (731), Bacterial Blotch (576), Dry Bubble (665), Cobweb (664), and Wet Bubble (559). These categories are visually represented in  Figure 4 , showcasing examples of each condition captured under controlled white-light conditions. Images were taken at multiple stages of disease progression and from various angles, as illustrated in  Figure 5 , to ensure diversity and enhance the robustness of the dataset for training, validation, and testing. The inclusion of random angles (α°) for diversity and upright positions (90°) provided a comprehensive representation of the mushroom samples, allowing the models to better capture disease characteristics. Proportional balancing among the classes, as depicted in  Figure 4 , ensured that each condition was sufficiently represented, enabling the models to generalize effectively across all disease categories.",
+      "status": "PAPER_REPORTED"
+    },
+    {
+      "source": "03_dataset_discovery\\source_verification\\wp03_stream_a\\paper_agronomy_fulltext.txt",
+      "line": 51,
+      "text": "Inter-Class Similarities: Certain diseases, such as Dry Bubble and Cobweb, exhibit similar visual features [ 59 ]. To address this, expert mycologists guided the annotation process, and images highlighting key distinguishing traits were selected, thereby improving accurate class separation.",
+      "status": "PAPER_REPORTED"
+    },
+    {
+      "source": "03_dataset_discovery\\source_verification\\wp03_stream_a\\paper_agronomy_fulltext.txt",
+      "line": 53,
+      "text": "Disease Diversity and Temporal Sampling: Over a 12-month period, the research team conducted multiple visits to several farms to capture a wide range of disease manifestations. Timing these visits to align with the 25–30 day mushroom growth cycle and the critical 2–3 day “flush period” ensured comprehensive coverage of disease stages and phenotypes [ 20 ].",
+      "status": "PAPER_REPORTED"
+    },
+    {
+      "source": "03_dataset_discovery\\source_verification\\wp03_stream_a\\paper_agronomy_fulltext.txt",
+      "line": 56,
+      "text": "Manual annotation by expert mycologists ensured the precise classification of images according to disease characteristics. Cross-validation of annotations by a panel of specialists further minimized errors and clarified ambiguities, thereby enhancing overall dataset quality.",
+      "status": "PAPER_REPORTED"
+    },
+    {
+      "source": "03_dataset_discovery\\source_verification\\wp03_stream_a\\paper_agronomy_fulltext.txt",
+      "line": 58,
+      "text": "A standardized preprocessing pipeline was implemented to prepare the dataset for training, as outlined in  Figure 6 . All images were resized to the input dimensions required by each CNN architecture (typically 224 × 224 pixels) while preserving aspect ratios to avoid distortion [ 61 ]. Pixel intensity values were normalized to a range of [0, 1], improving numerical stability and ensuring more efficient convergence during training [ 62 ]. Background cleaning techniques were applied to reduce noise and isolate the mushroom subjects, allowing the models to focus on disease-relevant features. Notably, no data augmentation was applied; the models were trained and evaluated on the original dataset without synthetic transformations, such as rotations, flips, or brightness adjustments [ 63 ]. This approach ensured that the models’ classification capabilities were assessed based solely on the inherent qualities of the dataset, as depicted in the preprocessing workflow of  Figure 6 .",
+      "status": "PAPER_REPORTED"
+    },
+    {
+      "source": "03_dataset_discovery\\source_verification\\wp03_stream_a\\paper_agronomy_fulltext.txt",
+      "line": 60,
+      "text": "All Convolutional Neural Network (CNN) architectures were trained using uniform parameters to ensure fair and consistent comparisons. A batch size of 11 was selected to optimize memory usage and maintain stable gradient updates throughout the training process [ 62 ]. The learning rate was set to 0.001, facilitating steady and controlled optimization progress [ 64 ]. Stochastic Gradient Descent (SGD) with a momentum of 0.9 was employed as the optimizer, promoting robust convergence and enhancing the models’ ability to navigate the loss landscape effectively. Each model underwent training for a total of 8 epochs without the use of early stopping techniques, ensuring that all architectures experienced an identical training duration. This standardized approach provided a balanced framework for evaluating the performance of the different CNN architectures under comparable training conditions [ 61 ].",
+      "status": "PAPER_REPORTED"
+    },
+    {
+      "source": "03_dataset_discovery\\source_verification\\wp03_stream_a\\paper_agronomy_fulltext.txt",
+      "line": 63,
+      "text": "The dataset was systematically partitioned into training and validation subsets, comprising 80% and 20% of the total data, respectively. The training set, representing the larger portion, was utilized for parameter optimization through the backpropagation algorithm, enabling the models to learn and adjust their weights effectively. Meanwhile, the validation set, constituting the remaining 20%, served as a benchmark for assessing model performance during the training phase and for tuning hyperparameters. In addition to the training and validation subsets, a separate test set was not utilized in this study due to the limited size of the dataset. Instead, the validation set was employed to evaluate model performance during training and fine-tuning. While this approach effectively assessed the models’ learning progress, the inclusion of a dedicated test set in future studies could provide a more robust evaluation of generalization capabilities. This strategic division ensured that the models were exposed to a substantial amount of data for learning while maintaining a separate, unbiased subset for evaluating their generalization capabilities and optimizing their configurations [ 62 ].",
+      "status": "PAPER_REPORTED"
+    },
+    {
+      "source": "03_dataset_discovery\\source_verification\\wp03_stream_a\\paper_agronomy_fulltext.txt",
+      "line": 72,
+      "text": "The aggregate score was calculated using Equation (1): Overall Score = (0.2 × Precision) + (0.3 × Recall) + (0.3 × F1-Score) + (0.1 × AUC) + (0.1 × AP) (1) ",
+      "status": "PAPER_REPORTED"
+    },
+    {
+      "source": "03_dataset_discovery\\source_verification\\wp03_stream_a\\paper_agronomy_fulltext.txt",
+      "line": 78,
+      "text": "The performance of the evaluated Convolutional Neural Network (CNN) architectures is summarized in  Table 2 . Among the 20 architectures assessed, ResNet-50 achieved the highest overall score of 99.70%, demonstrating exceptional accuracy and reliability across all disease categories. DenseNet-201 and DarkNet-53 closely followed, confirming their robustness in precision and recall, making them among the top-performing models. EfficientNet-b0 and Places365-GoogLeNet, on the other hand, were the models with the lowest performance. EfficientNet-b0 achieved a score of 95.20%, offering a balanced trade-off between computational efficiency and accuracy. While VGG-16 was excluded from final evaluations due to overfitting issues, despite its initial high scores [ 62 ].",
+      "status": "PAPER_REPORTED"
+    },
+    {
+      "source": "03_dataset_discovery\\source_verification\\wp03_stream_a\\paper_agronomy_fulltext.txt",
+      "line": 79,
+      "text": "Among the evaluated models, ResNet-50 demonstrated outstanding performance, achieving the highest overall accuracy of 99.66%, with precision of 99.67% and recall of 99.64%. This balanced performance underscores ResNet-50’s reliability in distinguishing healthy mushrooms from diseased ones. However, ResNet-50’s higher computational load compared to more lightweight models may hinder its suitability in settings with limited computational resources.",
+      "status": "PAPER_REPORTED"
+    },
+    {
+      "source": "03_dataset_discovery\\source_verification\\wp03_stream_a\\paper_agronomy_fulltext.txt",
+      "line": 85,
+      "text": "VGG-16 did not exhibit overfitting as previously reported. Instead, it achieved an accuracy of 99.41%, but with slightly lower precision (99.36%) and F1-score (99.38%) compared to ResNet-50 and DenseNet-201.",
+      "status": "PAPER_REPORTED"
+    },
+    {
+      "source": "03_dataset_discovery\\source_verification\\wp03_stream_a\\paper_agronomy_fulltext.txt",
+      "line": 107,
+      "text": "Although ResNet-50’s AUC value approaches 99.99%, which might initially raise concerns about potential overfitting, our evaluation was conducted using a dedicated 20% validation set to guard against memorization of the training data. Confusion matrices ( Figure 7 ) further show minimal but non-zero misclassifications, suggesting that the model has not trivially overfit. We attribute these strong metrics, in part, to the carefully curated and standardized nature of our dataset, which likely reduces intra-class variability and promotes clearer class separability. Nonetheless, future investigations—particularly those incorporating additional external test sets or cross-validation strategies—will be crucial to confirm the broader applicability and real-world robustness of these findings.",
+      "status": "PAPER_REPORTED"
+    },
+    {
+      "source": "03_dataset_discovery\\source_verification\\wp03_stream_a\\paper_agronomy_fulltext.txt",
+      "line": 112,
+      "text": "However, the study has limitations. The dataset primarily focuses on diseases observed in  Agaricus bisporus  within Turkey, potentially excluding region-specific diseases. Expanding the dataset to include a broader range of diseases and geographical variations would improve robustness and generalizability [ 74 , 75 ]. Furthermore, the computational demands of models like DenseNet-201 underscore the need for lightweight architectures optimized for edge device deployment [ 26 , 27 , 76 ].",
+      "status": "PAPER_REPORTED"
+    },
+    {
+      "source": "03_dataset_discovery\\source_verification\\wp03_stream_a\\paper_agronomy_fulltext.txt",
+      "line": 120,
+      "text": "The data presented in this study are not publicly available due to privacy and confidentiality restrictions. However, specific details regarding the dataset and experimental methodology have been provided in the manuscript to ensure transparency and reproducibility. Researchers who require further information may contact the corresponding author, subject to compliance with applicable ethical, institutional, and legal constraints.",
+      "status": "PAPER_REPORTED"
+    }
+  ],
+  "assessment": {
+    "diagnosis": "Expert mycologists/manual specialist panel explicitly reported; laboratory isolation/culture/PCR confirmation not established by reviewed Methods. Do not upgrade to lab-confirmed ground truth.",
+    "sampling": "Multiple angles/stages and farms are author-reported; specimen IDs, exact repeats and biological independence remain unverified.",
+    "access_conflict": "Paper Data Availability states not public due privacy/confidentiality. Later author-deposited Zenodo record explicitly open CC-BY-4.0; lawful limited QC under explicit deposit license, not retrospective proof all privacy concerns resolved.",
+    "identity": "Deposit says used in paper but white/UV/mixed description differs from 3195-white-light paper; exact equivalence must be measured."
+  }
+}

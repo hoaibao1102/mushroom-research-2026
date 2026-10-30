@@ -1,0 +1,27 @@
+[
+  {
+    "path": "03_dataset_discovery/source_verification/wp03_stream_a/zenodo_20373531.txt",
+    "bytes": 5326,
+    "sha256": "28504cbd9169787d61b05b196faea7359a9c04b183f72cb6e4cf54046d70c95f"
+  },
+  {
+    "path": "03_dataset_discovery/source_verification/wp03_stream_a/paper_shiitake_fulltext.txt",
+    "bytes": 74693,
+    "sha256": "72029b040e961cb28dc426d2b6a38f27e32503412997c1f4b9f33999913b9c3c"
+  },
+  {
+    "path": "03_dataset_discovery/source_verification/wp03_stream_a/source_ledger.json",
+    "bytes": 7590,
+    "sha256": "0e487599e6263197efd25b2350b9bd8df88a9733f75a7e91147d6a53e3d35ae6"
+  },
+  {
+    "path": "03_dataset_discovery/source_verification/wp03_stream_a/access_log.jsonl",
+    "bytes": 6892,
+    "sha256": "2ea0f1a8c68ed52ea2005276cbbf921d9d6a90944994152bfe2ca5e838b9b515"
+  },
+  {
+    "path": "03_dataset_discovery/source_verification/wp03_stream_a/candidates.json",
+    "bytes": 159330,
+    "sha256": "4c703e40c519afa7f399485a79620789ab2b1a3c4c6d63f3d9744dca1bf12ce1"
+  }
+]

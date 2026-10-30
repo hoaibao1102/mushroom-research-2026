@@ -1,0 +1,1 @@
+.gitignore:62:*.rar	"04_dataset_candidates\\C03_agaricus_disease\\source\\Comprehensive Image Dataset of Agaricus bisporus Diseases Under Controlled Illumination Conditions.rar"

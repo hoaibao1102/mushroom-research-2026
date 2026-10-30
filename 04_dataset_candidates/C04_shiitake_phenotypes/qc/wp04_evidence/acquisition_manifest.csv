@@ -1,0 +1,8 @@
+artifact,kind,url,retrieved_utc,status,bytes,sha256,upstream_md5,access_scope
+zenodo_record.json,METADATA,https://zenodo.org/api/records/20373531,2026-10-30T05:29:51.685059+00:00,200,5326,28504cbd9169787d61b05b196faea7359a9c04b183f72cb6e4cf54046d70c95f,,METADATA_ONLY
+zenodo_versions.json,METADATA,https://zenodo.org/api/records/20373531/versions,2026-10-30T05:29:51.686883+00:00,200,5461,b4c5697185015483c6c7a6fb8389956c0df730ddb554a4ed29bc2c7c8d239a44,,METADATA_ONLY
+zenodo_latest.json,METADATA,https://zenodo.org/api/records/20373531/versions/latest,2026-10-30T05:29:51.688980+00:00,200,5326,28504cbd9169787d61b05b196faea7359a9c04b183f72cb6e4cf54046d70c95f,,METADATA_ONLY
+publisher.html,ARTICLE,https://www.nature.com/articles/s41597-026-07754-7,2026-10-30T05:29:51.690910+00:00,200,370437,08afb463f288cb00b80eb7ea6b8e6da5ffcb6f4aac6e986b49043cb8227be17e,,FULL_TEXT
+datacite.json,METADATA,https://api.datacite.org/dois/10.5281/zenodo.20373531,2026-10-30T05:29:51.693238+00:00,200,10066,f653c49c531a2690305d310f6c9ef63ea1fac95d6d8947d8968a81e3672551a6,,METADATA_ONLY
+shiitake_mushroom_code.zip,CODE_ARCHIVE,https://zenodo.org/records/20373531/files/shiitake_mushroom_code.zip,2026-10-30T05:55:22.767569+00:00,206_RANGE_RECOVERY_VERIFIED,5724836,e813782a8b746d458f8a7985f34358a2fe7fe5e9d32b17b84f1ba1712725fc89,42aa41b73d6410e76e5c27438a9a2b15,STATIC_TEXT_ONLY_NO_EXECUTION
+shiitake_mushroom_dataset.zip,UPSTREAM_DATASET_LISTING_NOT_ACQUIRED,https://zenodo.org/api/records/20373531/files/shiitake_mushroom_dataset.zip/content,2026-10-30T05:29:51.685059+00:00,NOT_DOWNLOADED,0,,md5:bf0793493a416257157c521fbb996292,METADATA_ONLY_LISTED_BYTES_4110366941

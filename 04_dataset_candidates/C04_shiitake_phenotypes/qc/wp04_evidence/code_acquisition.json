@@ -1,0 +1,11 @@
+{
+  "url": "https://zenodo.org/api/records/20373531/files/shiitake_mushroom_code.zip/content",
+  "final_url": "https://zenodo.org/records/20373531/files/shiitake_mushroom_code.zip",
+  "retrieved_utc": "2026-10-30T05:55:36.442806+00:00",
+  "status": 206,
+  "bytes": 5724836,
+  "sha256": "e813782a8b746d458f8a7985f34358a2fe7fe5e9d32b17b84f1ba1712725fc89",
+  "md5": "42aa41b73d6410e76e5c27438a9a2b15",
+  "license_basis": "record-level CC-BY-4.0; embedded upstream notices inspected separately",
+  "executed_author_code": false
+}

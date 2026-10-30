@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "scope": "Independent filesystem/hash/mtime/count/duplicate-edge-distance and ignore reconciliation; not biological identity or scientific peer review",
+  "verified_files": 9403,
+  "payload_files_ignored": 9404,
+  "timestamp": "2026-10-30T06:40:54.365359+00:00",
+  "summary_sha256": "ff22fbaef8d0681a92ff8c0c5fecdfdbb3c01bcb534d18450cf340adcdecd701",
+  "report_sha256": "a2fabefef2cee2694122ec9d441f0bde359c31f0e3cb4644f65c89088e62adba"
+}

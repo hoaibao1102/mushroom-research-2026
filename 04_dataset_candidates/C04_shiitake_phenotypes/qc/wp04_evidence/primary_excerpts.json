@@ -1,0 +1,78 @@
+[
+  {
+    "line": 38,
+    "text": "As a valuable edible fungus with both culinary and medicinal value, shiitake mushrooms hold significant economic and social importance in promoting agricultural restructuring, increasing farmers’ income, and advancing the intelligent development of the edible fungus industry. However, in natural growing environments, the classification, grading, and inspection of shiitake mushrooms still rely primarily on manual labor. This approach is inefficient, highly subjective, and lacks standardized data support. Currently, publicly available datasets for edible fungi are limited in quantity, making it challenging to meet the research demands for intelligent detection and automated harvesting models. To address this issue, this study constructed a multi-variety shiitake mushroom image dataset under natural growth conditions, selecting three mainstream market varieties: 9608, Chunsheng No. 1, and Qihe No. 9. The dataset contains 1,782 high-resolution original images, which were expanded to 6,500 images through systematic data augmentation, containing a total of 43,752 precisely annotated mushroom instances. The dataset covers three distinct growth stages (maturity, growing period, and juvenile stage) as well as a dedicated category for deformed mushrooms. The images feature realistic characteristics, including complex lighting, occlusion, dense distribution, and varying viewing angles. This dataset can be widely applied to object detection tasks, including intelligent grading of shiitake mushrooms, visual recognition for harvesting robots, yield estimation, production management, and decision-making for market release. It provides a high-quality data foundation for intelligent production in the edible fungi industry. The dataset is freely available for academic research and technical exchange."
+  },
+  {
+    "line": 65,
+    "text": "Image acquisition equipment included the Sony A6400 and Canon EOS R6 cameras, along with mobile devices such as the iPhone 15 Plus and vivo NEX. The images in the dataset were collected under natural cultivation conditions with multiple image resolutions, primarily including 2,016 × 1,512 pixels, 2,312 × 1,736 pixels, and 2,856 × 2,142 pixels. These devices were mounted on a mobile support approximately 40–60 cm above the shiitake mushroom surface to ensure each image fully covers the target area of the mushroom. During data collection, strict control was maintained over the consistency of shooting parameters, while simultaneously recording environmental information, including temperature, humidity, and light intensity. These measurements will facilitate scene modeling and light normalization analysis in subsequent research. After multiple rounds of data collection, a total of 2,600 raw images were obtained. Following screening and quality control, 1,782 high-resolution samples with complete information and clearly annotated targets were ultimately retained for subsequent annotation and modeling tasks."
+  },
+  {
+    "line": 78,
+    "text": "Data augmentation plays a crucial role in training object detection models and is a key step in the process. In this study, data augmentation methods were employed to expand the dataset from 1,782 original images to 6,500 augmented images, thereby improving sample diversity and alleviating limitations related to illumination variability, viewpoint changes, environmental complexity, and class imbalance in natural cultivation environments. The augmentation strategy increased sample diversity and improved robustness under varying illumination conditions, dense occlusion, and complex natural cultivation environments, as illustrated in Fig. 6. The data augmentation pipeline included random rotation, vertical flipping, brightness adjustment, saturation adjustment, and random noise injection. Random rotation was employed to simulate variations in image orientation and object arrangement during image acquisition. Vertical flipping enhanced the model’s robustness to spatial orientation changes. Random adjustments to image brightness and saturation were applied to improve the model’s adaptability to lighting changes, compensating for the complex and variable lighting conditions within the shiitake mushroom cultivation greenhouses during original image data collection. To address potential sensor interference or environmental noise during image acquisition, random noise was added to enhance the model’s robustness against disturbances. The overall data augmentation workflow is summarized in Algorithm 1."
+  },
+  {
+    "line": 84,
+    "text": "Algorithm 1"
+  },
+  {
+    "line": 86,
+    "text": "Through a systematic data augmentation strategy, the training dataset was significantly expanded, yielding a total of 6,500 augmented images. Meanwhile, the number of annotated shiitake mushroom instances increased to 43,752, encompassing diverse phenotypic characteristics across different varieties and phenotypic categories. The distribution of instances across varieties and phenotypic categories is shown in Fig. 7."
+  },
+  {
+    "line": 91,
+    "text": "Among current mainstream object detection models, approaches such as Faster R-CNN21 and SSD22 exhibit high detection accuracy but suffer from slow inference speeds and high resource consumption, making them unsuitable for real-time detection requirements at the edge23. In contrast, the YOLO24 series of models strikes a good balance between detection speed and accuracy, demonstrating powerful performance in network architecture optimization, feature extraction efficiency, and multi-scale perception capabilities. Considering factors such as model size, detection performance, and multi-scale adaptability, this study selected mainstream lightweight detection models, including YOLOv8n25, YOLOv9t26, YOLOv10n27, and YOLO11n28 as core frameworks for training and testing. This approach systematically validates the applicability and effectiveness of the constructed shiitake mushroom image dataset for object detection tasks. These models offer advantages such as compact size, fast inference speed, and low resource consumption, while delivering both high accuracy and real-time performance. They are suitable for deployment across multiple scenarios on both desktop and mobile platforms."
+  },
+  {
+    "line": 92,
+    "text": "Experimental setup"
+  },
+  {
+    "line": 93,
+    "text": "Model training employs a stochastic gradient descent optimizer. The initial learning rate was adjusted through multiple trials to 0.01, with a weight decay coefficient of 0.005. Three warm-up phases were established during the early training stage, with the momentum parameter gradually adjusted from 0.8 to 0.937 to achieve stable convergence. The training runs a total of 400 epochs with a batch size of 8. Regarding data partitioning, the 5,375 annotated images are divided into a training set and a validation set in an 8:2 ratio for model training and performance evaluation. All quantitative evaluation metrics (such as Precision, Recall, F1-score, and mAP) reported in this study were strictly calculated using this fully annotated validation set. Additionally, a separate group of unlabeled raw images was reserved exclusively as an independent inference set to visually demonstrate the model’s practical detection performance and generalization capacity on entirely unseen data during the inference phase. For consistency across benchmark evaluations, all models were trained under the same experimental configuration without using pre-trained weights. All experiments were conducted on a workstation equipped with an NVIDIA RTX 4090 GPU, Intel Core i7 processor, and 24 GB RAM using the PyTorch deep learning framework under CUDA acceleration."
+  },
+  {
+    "line": 107,
+    "text": "To evaluate the effectiveness of the proposed data augmentation strategy, comparative experiments were conducted on the YOLO11n model using datasets before and after augmentation under identical training conditions. As shown in Table 1, data augmentation significantly improved detection performance, with Precision increasing from 0.717 to 0.947, Recall from 0.682 to 0.929, mAP50 from 0.717 to 0.961, and mAP50–95 from 0.588 to 0.844."
+  },
+  {
+    "line": 108,
+    "text": "Table 1 Performance comparison of YOLO11n trained with and without data augmentation.Full size table"
+  },
+  {
+    "line": 113,
+    "text": "To verify the effectiveness of the constructed mushroom image dataset in the object detection task, this study selected four representative lightweight detection models, YOLOv8n, YOLOv9t, YOLOv10n, and YOLO11n, as benchmark models and evaluated their performance under the same training strategy. Table 2 presents the overall key metrics for each model on this dataset, including Precision, Recall, F1-score, mAP50, and mAP50–95, providing objective quantitative evidence regarding the dataset’s usability and task difficulty."
+  },
+  {
+    "line": 114,
+    "text": "Table 2 Performance comparison of different YOLO nano models.Full size table"
+  },
+  {
+    "line": 115,
+    "text": "The comprehensive evaluation results demonstrate that all models achieved high detection performance on this dataset, indicating that the annotation quality across different species, growth stages, and morphological categories within the dataset is high, and that the models can effectively learn visual differences. Among these, YOLO11n achieved the best overall performance with 2.58 million parameters, attaining overall Precision, Recall, and F1-score of 0.947, 0.929, and 0.938, respectively. mAP50 and mAP50–95 further improved to 0.961 and 0.844, demonstrating a superior balance between lightweight architecture and detection accuracy. In comparison, the YOLOv8n and YOLOv9t models exhibit slightly lower overall performance, particularly showing a noticeable gap in the more stringent fine-grained evaluation metrics mAP50–95. These results indicate that this dataset poses greater challenges to models in recognizing multi-scale, multi-morphology mushroom instances."
+  },
+  {
+    "line": 116,
+    "text": "Figure 10 illustrates the evolution of key performance metrics across four benchmark models during training. Precision, Recall, mAP50, and mAP50–95 all demonstrate gradual improvement with increasing training iterations before eventually stabilizing, indicating the models effectively learned category features within the dataset. Overall, YOLO11n maintains higher curve levels across all four metrics, demonstrating superior convergence speed and final performance compared to other models. YOLOv8n, YOLOv9t, and YOLOv10n exhibit relatively similar convergence trajectories, reflecting the dataset’s strong adaptability to different models. The consistent trend across all four curves indicates stable annotation quality and well-designed tasks within the dataset, capable of supporting training and validation for models with diverse architectures."
+  },
+  {
+    "line": 119,
+    "text": "To further validate the effectiveness and generalization ability of the proposed dataset, we conducted additional benchmark experiments using representative detectors from different architectures, including Faster R-CNN31, RT-DETR32, YOLO11s, and YOLO11n. The comparison results are shown in Table 3. Among all evaluated models, YOLO11s achieved the best overall detection performance, with a precision of 0.951, a recall of 0.925, an F1 score of 0.938, and an mAP50 of 0.965. Meanwhile, YOLO11n also achieved highly competitive results, with a model size of only 2.58 million parameters, an F1 score of 0.936, and an mAP50 of 0.961. In contrast, Faster R-CNN and RT-DETR require over 30 million parameters but have lower overall performance."
+  },
+  {
+    "line": 120,
+    "text": "Table 3 Performance comparison of representative object detection models on the proposed shiitake mushroom dataset.Full size table"
+  },
+  {
+    "line": 132,
+    "text": "Code availability"
+  },
+  {
+    "line": 133,
+    "text": "The implementation used in this study is based on the open-source Ultralytics YOLO project (https://github.com/ultralytics/ultralytics). Several training-related hyperparameters, including the number of epochs, input image resolution, and confidence threshold, were adjusted to adapt the model to the constructed dataset. The scripts and configuration files used for model training and inference are available through the Zenodo repository (https://doi.org/10.5281/zenodo.20373531), enabling reproduction of the reported experiments and evaluation procedures."
+  },
+  {
+    "line": 275,
+    "text": "Open Access This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modified the licensed material. You do not have permission under this licence to share adapted material derived from this article or parts of it. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by-nc-nd/4.0/."
+  }
+]

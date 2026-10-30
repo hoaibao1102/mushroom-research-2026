@@ -1,0 +1,141 @@
+{
+  "started_utc": "2026-10-30T05:54:43.949398+00:00",
+  "finished_utc": "2026-10-30T05:54:51.602332+00:00",
+  "url": "https://zenodo.org/records/20373531/files/shiitake_mushroom_code.zip",
+  "attempt": "parallel bounded ranges after urllib timeout and curl reset",
+  "parts": [
+    {
+      "i": 0,
+      "bytes": 0,
+      "full": null,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "i": 1,
+      "bytes": 0,
+      "full": null,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "i": 2,
+      "bytes": 0,
+      "full": null,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "i": 3,
+      "bytes": 0,
+      "full": null,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "i": 4,
+      "bytes": 0,
+      "full": null,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "i": 5,
+      "bytes": 0,
+      "full": null,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "i": 6,
+      "bytes": 0,
+      "full": null,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "i": 7,
+      "bytes": 0,
+      "full": null,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "i": 8,
+      "bytes": 0,
+      "full": null,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "i": 9,
+      "bytes": 0,
+      "full": null,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "i": 10,
+      "bytes": 0,
+      "full": null,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "i": 11,
+      "bytes": 0,
+      "full": null,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "i": 12,
+      "bytes": 0,
+      "full": null,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "i": 13,
+      "bytes": 0,
+      "full": null,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "i": 14,
+      "bytes": 0,
+      "full": null,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "i": 15,
+      "bytes": 0,
+      "full": null,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "i": 16,
+      "bytes": 0,
+      "full": null,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "i": 17,
+      "bytes": 0,
+      "full": null,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "i": 18,
+      "bytes": 0,
+      "full": null,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "i": 19,
+      "bytes": 0,
+      "full": null,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "i": 20,
+      "bytes": 0,
+      "full": null,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "i": 21,
+      "bytes": 0,
+      "full": null,
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "success": false
+}
