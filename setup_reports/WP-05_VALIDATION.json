@@ -1,0 +1,165 @@
+{
+  "work_package": "WP-05",
+  "validator": "bounded screening structural and internal-consistency verifier",
+  "status": "PASS",
+  "python": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+  "checks": [
+    {
+      "name": "five_non_validation_outputs_exist",
+      "passed": true,
+      "detail": [
+        "setup_reports/WP-05_DECISION_SCREENING_REPORT.md",
+        "03_dataset_discovery/dataset_comparisons/WP-05_DECISION_MATRIX.md",
+        "03_dataset_discovery/screening_reports/WP-05_FALLBACK_CANDIDATES.md",
+        "03_dataset_discovery/screening_reports/WP-05_RECOMMENDATION.md",
+        "02_literature_review/author_correspondence/C03_FOLLOWUP_CHECKLIST.md"
+      ]
+    },
+    {
+      "name": "wp05_branch",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "wp04c_parent_checkpoint",
+      "passed": true,
+      "detail": "69215062f29d0d9bfe3ce194eafb4001097d8138"
+    },
+    {
+      "name": "wp04c_remote_readback",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "exactly_three_fallbacks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "c03_state_preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no_final_selection",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "gates_remain_no",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "c03_inquiry_not_sent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "deadline_present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unknowns_not_scored",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "candidate_decisions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "candidate_identifiers_trace_to_registry",
+      "passed": true,
+      "detail": [
+        "10.5281/zenodo.20373531",
+        "10.17632/8n6nr43gk3.1",
+        "10.3390/s26061935",
+        "10.3390/computers14050199"
+      ]
+    },
+    {
+      "name": "only_wp05_paths_changed",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "no_new_dataset_or_model_payload",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no_ds02_reuse",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no_experiment_or_selected_research_outputs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tracked_history_unchanged",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "setup_reports/WP-05_DECISION_SCREENING_REPORT.md",
+      "bytes": 2525,
+      "sha256": "d5254fde7881e13b90ee1d01f844855f79d35d5bd94248e3b9319f2d111d854b"
+    },
+    {
+      "path": "03_dataset_discovery/dataset_comparisons/WP-05_DECISION_MATRIX.md",
+      "bytes": 4208,
+      "sha256": "8739b37068973191bbd367f421189a7308355beb1b297637a0aecfe625095e5a"
+    },
+    {
+      "path": "03_dataset_discovery/screening_reports/WP-05_FALLBACK_CANDIDATES.md",
+      "bytes": 3386,
+      "sha256": "db43a59924fec58e41ff17fe51667e1fcef948f46ce2532a6411cedecb28daa5"
+    },
+    {
+      "path": "03_dataset_discovery/screening_reports/WP-05_RECOMMENDATION.md",
+      "bytes": 2375,
+      "sha256": "1978ab5f8c3e5298bbc6345d62d42a303b10a5e0db031eea28715986b8858e83"
+    },
+    {
+      "path": "02_literature_review/author_correspondence/C03_FOLLOWUP_CHECKLIST.md",
+      "bytes": 2281,
+      "sha256": "b8e7c068c2d17a5ebb7a5ce1d4ff545bb5cbf340b0e46ce6b00f56be3eae72b1"
+    },
+    {
+      "path": "scripts/validate_wp05.py",
+      "bytes": 6138,
+      "sha256": "612539f82d392f79833050067b230080f829665e63e31c12b5be75275dd24503"
+    }
+  ],
+  "candidate_scope": {
+    "fallback_count": 3,
+    "fallback_ids": [
+      "C04",
+      "C05",
+      "C08"
+    ],
+    "new_candidate_search": "NOT_RUN"
+  },
+  "authorization": {
+    "dataset_selected": "NO",
+    "training_authorized": "NO",
+    "research_gap_validated": "NO",
+    "final_topic_selected": "NO",
+    "wp05_committed_or_pushed": "NO"
+  },
+  "non_execution": {
+    "dataset_download": "NOT_RUN",
+    "model_training": "NOT_RUN",
+    "split_creation": "NOT_RUN",
+    "ds02_reuse": "NOT_RUN",
+    "specimen_id_fabrication": "NOT_RUN"
+  },
+  "scientific_note": "PASS validates bounded artifact consistency, not candidate scientific acceptance or reproduced performance."
+}
