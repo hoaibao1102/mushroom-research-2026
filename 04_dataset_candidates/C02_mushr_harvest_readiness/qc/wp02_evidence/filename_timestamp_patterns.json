@@ -1,0 +1,2970 @@
+[
+  {
+    "split": "train",
+    "image_id": 1,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-9/20221008_200001.jpg",
+    "filename_datetime_no_timezone": "2022-10-08T20:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-9",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 2,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-9/20221102_140001.jpg",
+    "filename_datetime_no_timezone": "2022-11-02T14:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-9",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 3,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-9/20221102_200001.jpg",
+    "filename_datetime_no_timezone": "2022-11-02T20:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-9",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 4,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-9/20221205_030001.jpg",
+    "filename_datetime_no_timezone": "2022-12-05T03:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-9",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 5,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-9/20230101_154501.jpg",
+    "filename_datetime_no_timezone": "2023-01-01T15:45:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-9",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 6,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-9/20230107_190002.jpg",
+    "filename_datetime_no_timezone": "2023-01-07T19:00:02",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-9",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 7,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-9/20230202_230001.jpg",
+    "filename_datetime_no_timezone": "2023-02-02T23:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-9",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 8,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-9/20230205_180001.jpg",
+    "filename_datetime_no_timezone": "2023-02-05T18:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-9",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 9,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-9/20230206_060001.jpg",
+    "filename_datetime_no_timezone": "2023-02-06T06:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-9",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 10,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-9/20230220_090001.jpg",
+    "filename_datetime_no_timezone": "2023-02-20T09:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-9",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 11,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-9/20221009_000001.jpg",
+    "filename_datetime_no_timezone": "2022-10-09T00:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-9",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 12,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-9/20221010_020001.jpg",
+    "filename_datetime_no_timezone": "2022-10-10T02:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-9",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 13,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-9/20221107_040001.jpg",
+    "filename_datetime_no_timezone": "2022-11-07T04:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-9",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 14,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-9/20221203_130001.jpg",
+    "filename_datetime_no_timezone": "2022-12-03T13:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-9",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 15,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-9/20221204_130001.jpg",
+    "filename_datetime_no_timezone": "2022-12-04T13:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-9",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 16,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-9/20221207_020001.jpg",
+    "filename_datetime_no_timezone": "2022-12-07T02:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-9",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 17,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-9/20230109_070001.jpg",
+    "filename_datetime_no_timezone": "2023-01-09T07:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-9",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 18,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-9/20230205_080001.jpg",
+    "filename_datetime_no_timezone": "2023-02-05T08:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-9",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 19,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-9/20230205_200001.jpg",
+    "filename_datetime_no_timezone": "2023-02-05T20:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-9",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 20,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-9/20230206_160001.jpg",
+    "filename_datetime_no_timezone": "2023-02-06T16:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-9",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 21,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221003_130001.jpg",
+    "filename_datetime_no_timezone": "2022-10-03T13:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 22,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221003_140001.jpg",
+    "filename_datetime_no_timezone": "2022-10-03T14:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 23,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221003_150001.jpg",
+    "filename_datetime_no_timezone": "2022-10-03T15:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 24,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221004_040001.jpg",
+    "filename_datetime_no_timezone": "2022-10-04T04:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 25,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221004_070001.jpg",
+    "filename_datetime_no_timezone": "2022-10-04T07:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 26,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221004_100001.jpg",
+    "filename_datetime_no_timezone": "2022-10-04T10:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 27,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221004_120001.jpg",
+    "filename_datetime_no_timezone": "2022-10-04T12:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 28,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221008_030001.jpg",
+    "filename_datetime_no_timezone": "2022-10-08T03:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 29,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221008_120001.jpg",
+    "filename_datetime_no_timezone": "2022-10-08T12:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 30,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221008_150001.jpg",
+    "filename_datetime_no_timezone": "2022-10-08T15:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 31,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221009_210001.jpg",
+    "filename_datetime_no_timezone": "2022-10-09T21:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 32,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221010_040001.jpg",
+    "filename_datetime_no_timezone": "2022-10-10T04:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 33,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221011_030001.jpg",
+    "filename_datetime_no_timezone": "2022-10-11T03:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 34,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221011_060001.jpg",
+    "filename_datetime_no_timezone": "2022-10-11T06:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 35,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221011_070001.jpg",
+    "filename_datetime_no_timezone": "2022-10-11T07:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 36,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221011_100001.jpg",
+    "filename_datetime_no_timezone": "2022-10-11T10:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 37,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221011_104156.jpg",
+    "filename_datetime_no_timezone": "2022-10-11T10:41:56",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 38,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221011_150001.jpg",
+    "filename_datetime_no_timezone": "2022-10-11T15:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 39,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221011_200001.jpg",
+    "filename_datetime_no_timezone": "2022-10-11T20:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 40,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221011_210001.jpg",
+    "filename_datetime_no_timezone": "2022-10-11T21:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 41,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221011_230001.jpg",
+    "filename_datetime_no_timezone": "2022-10-11T23:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 42,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221012_000001.jpg",
+    "filename_datetime_no_timezone": "2022-10-12T00:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 43,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221012_010001.jpg",
+    "filename_datetime_no_timezone": "2022-10-12T01:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 44,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221012_040001.jpg",
+    "filename_datetime_no_timezone": "2022-10-12T04:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 45,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221012_050001.jpg",
+    "filename_datetime_no_timezone": "2022-10-12T05:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 46,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221012_060001.jpg",
+    "filename_datetime_no_timezone": "2022-10-12T06:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 47,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221012_090002.jpg",
+    "filename_datetime_no_timezone": "2022-10-12T09:00:02",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 48,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221012_150001.jpg",
+    "filename_datetime_no_timezone": "2022-10-12T15:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 49,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221012_160001.jpg",
+    "filename_datetime_no_timezone": "2022-10-12T16:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 50,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221012_220001.jpg",
+    "filename_datetime_no_timezone": "2022-10-12T22:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 51,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221013_010001.jpg",
+    "filename_datetime_no_timezone": "2022-10-13T01:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 52,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221018_010001.jpg",
+    "filename_datetime_no_timezone": "2022-10-18T01:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 53,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221019_190002.jpg",
+    "filename_datetime_no_timezone": "2022-10-19T19:00:02",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 54,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221031_070002.jpg",
+    "filename_datetime_no_timezone": "2022-10-31T07:00:02",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 55,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221101_080001.jpg",
+    "filename_datetime_no_timezone": "2022-11-01T08:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 56,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221101_090001.jpg",
+    "filename_datetime_no_timezone": "2022-11-01T09:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 57,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221101_180001.jpg",
+    "filename_datetime_no_timezone": "2022-11-01T18:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 58,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221101_190001.jpg",
+    "filename_datetime_no_timezone": "2022-11-01T19:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 59,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221102_160001.jpg",
+    "filename_datetime_no_timezone": "2022-11-02T16:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 60,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221102_230001.jpg",
+    "filename_datetime_no_timezone": "2022-11-02T23:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 61,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221103_000001.jpg",
+    "filename_datetime_no_timezone": "2022-11-03T00:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 62,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221103_070001.jpg",
+    "filename_datetime_no_timezone": "2022-11-03T07:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 63,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221103_120001.jpg",
+    "filename_datetime_no_timezone": "2022-11-03T12:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 64,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221104_220001.jpg",
+    "filename_datetime_no_timezone": "2022-11-04T22:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 65,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221105_030001.jpg",
+    "filename_datetime_no_timezone": "2022-11-05T03:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 66,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221107_090001.jpg",
+    "filename_datetime_no_timezone": "2022-11-07T09:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 67,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221201_120001.jpg",
+    "filename_datetime_no_timezone": "2022-12-01T12:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 68,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221201_200001.jpg",
+    "filename_datetime_no_timezone": "2022-12-01T20:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 69,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221201_210001.jpg",
+    "filename_datetime_no_timezone": "2022-12-01T21:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 70,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221202_020001.jpg",
+    "filename_datetime_no_timezone": "2022-12-02T02:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 71,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221202_030001.jpg",
+    "filename_datetime_no_timezone": "2022-12-02T03:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 72,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221202_050001.jpg",
+    "filename_datetime_no_timezone": "2022-12-02T05:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 73,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221202_060001.jpg",
+    "filename_datetime_no_timezone": "2022-12-02T06:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 74,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221202_090001.jpg",
+    "filename_datetime_no_timezone": "2022-12-02T09:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 75,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221202_100001.jpg",
+    "filename_datetime_no_timezone": "2022-12-02T10:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 76,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221202_180001.jpg",
+    "filename_datetime_no_timezone": "2022-12-02T18:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 77,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221202_210002.jpg",
+    "filename_datetime_no_timezone": "2022-12-02T21:00:02",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 78,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221202_220001.jpg",
+    "filename_datetime_no_timezone": "2022-12-02T22:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 79,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221203_000001.jpg",
+    "filename_datetime_no_timezone": "2022-12-03T00:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 80,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221203_050001.jpg",
+    "filename_datetime_no_timezone": "2022-12-03T05:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 81,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221203_070001.jpg",
+    "filename_datetime_no_timezone": "2022-12-03T07:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 82,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221203_130001.jpg",
+    "filename_datetime_no_timezone": "2022-12-03T13:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 83,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221203_150001.jpg",
+    "filename_datetime_no_timezone": "2022-12-03T15:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 84,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221203_200001.jpg",
+    "filename_datetime_no_timezone": "2022-12-03T20:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 85,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221203_220001.jpg",
+    "filename_datetime_no_timezone": "2022-12-03T22:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 86,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221204_060001.jpg",
+    "filename_datetime_no_timezone": "2022-12-04T06:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 87,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221204_120001.jpg",
+    "filename_datetime_no_timezone": "2022-12-04T12:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 88,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221204_130001.jpg",
+    "filename_datetime_no_timezone": "2022-12-04T13:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 89,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221204_210001.jpg",
+    "filename_datetime_no_timezone": "2022-12-04T21:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 90,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221205_000001.jpg",
+    "filename_datetime_no_timezone": "2022-12-05T00:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 91,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221205_010001.jpg",
+    "filename_datetime_no_timezone": "2022-12-05T01:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 92,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221205_060001.jpg",
+    "filename_datetime_no_timezone": "2022-12-05T06:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 93,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221205_070001.jpg",
+    "filename_datetime_no_timezone": "2022-12-05T07:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 94,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221205_090001.jpg",
+    "filename_datetime_no_timezone": "2022-12-05T09:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 95,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221205_150001.jpg",
+    "filename_datetime_no_timezone": "2022-12-05T15:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 96,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221205_160001.jpg",
+    "filename_datetime_no_timezone": "2022-12-05T16:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 97,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221205_170001.jpg",
+    "filename_datetime_no_timezone": "2022-12-05T17:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 98,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221205_190001.jpg",
+    "filename_datetime_no_timezone": "2022-12-05T19:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 99,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221205_200001.jpg",
+    "filename_datetime_no_timezone": "2022-12-05T20:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 100,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221210_210001.jpg",
+    "filename_datetime_no_timezone": "2022-12-10T21:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 101,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221210_230001.jpg",
+    "filename_datetime_no_timezone": "2022-12-10T23:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 102,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221211_060001.jpg",
+    "filename_datetime_no_timezone": "2022-12-11T06:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 103,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221211_090001.jpg",
+    "filename_datetime_no_timezone": "2022-12-11T09:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 104,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221211_130002.jpg",
+    "filename_datetime_no_timezone": "2022-12-11T13:00:02",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 105,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221211_160001.jpg",
+    "filename_datetime_no_timezone": "2022-12-11T16:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 106,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221212_010001.jpg",
+    "filename_datetime_no_timezone": "2022-12-12T01:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 107,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221212_030001.jpg",
+    "filename_datetime_no_timezone": "2022-12-12T03:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 108,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221212_130001.jpg",
+    "filename_datetime_no_timezone": "2022-12-12T13:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 109,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221212_150001.jpg",
+    "filename_datetime_no_timezone": "2022-12-12T15:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 110,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221226_160001.jpg",
+    "filename_datetime_no_timezone": "2022-12-26T16:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 111,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221226_161502.jpg",
+    "filename_datetime_no_timezone": "2022-12-26T16:15:02",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 112,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221226_163001.jpg",
+    "filename_datetime_no_timezone": "2022-12-26T16:30:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 113,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221226_181501.jpg",
+    "filename_datetime_no_timezone": "2022-12-26T18:15:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 114,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221226_191501.jpg",
+    "filename_datetime_no_timezone": "2022-12-26T19:15:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 115,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221227_150002.jpg",
+    "filename_datetime_no_timezone": "2022-12-27T15:00:02",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 116,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221227_180001.jpg",
+    "filename_datetime_no_timezone": "2022-12-27T18:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 117,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221227_183001.jpg",
+    "filename_datetime_no_timezone": "2022-12-27T18:30:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 118,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221227_184501.jpg",
+    "filename_datetime_no_timezone": "2022-12-27T18:45:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 119,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221227_213001.jpg",
+    "filename_datetime_no_timezone": "2022-12-27T21:30:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 120,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221227_214501.jpg",
+    "filename_datetime_no_timezone": "2022-12-27T21:45:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 121,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221227_221501.jpg",
+    "filename_datetime_no_timezone": "2022-12-27T22:15:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 122,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221227_234501.jpg",
+    "filename_datetime_no_timezone": "2022-12-27T23:45:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 123,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221228_011501.jpg",
+    "filename_datetime_no_timezone": "2022-12-28T01:15:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 124,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221228_014501.jpg",
+    "filename_datetime_no_timezone": "2022-12-28T01:45:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 125,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221228_031501.jpg",
+    "filename_datetime_no_timezone": "2022-12-28T03:15:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 126,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221228_033001.jpg",
+    "filename_datetime_no_timezone": "2022-12-28T03:30:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 127,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221228_034501.jpg",
+    "filename_datetime_no_timezone": "2022-12-28T03:45:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 128,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221228_041501.jpg",
+    "filename_datetime_no_timezone": "2022-12-28T04:15:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 129,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221228_043001.jpg",
+    "filename_datetime_no_timezone": "2022-12-28T04:30:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 130,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221228_051501.jpg",
+    "filename_datetime_no_timezone": "2022-12-28T05:15:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 131,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221228_053001.jpg",
+    "filename_datetime_no_timezone": "2022-12-28T05:30:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 132,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221228_054501.jpg",
+    "filename_datetime_no_timezone": "2022-12-28T05:45:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 133,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221228_063001.jpg",
+    "filename_datetime_no_timezone": "2022-12-28T06:30:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 134,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221228_064501.jpg",
+    "filename_datetime_no_timezone": "2022-12-28T06:45:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 135,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221228_071501.jpg",
+    "filename_datetime_no_timezone": "2022-12-28T07:15:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 136,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221228_091501.jpg",
+    "filename_datetime_no_timezone": "2022-12-28T09:15:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 137,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221228_103001.jpg",
+    "filename_datetime_no_timezone": "2022-12-28T10:30:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 138,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221228_104501.jpg",
+    "filename_datetime_no_timezone": "2022-12-28T10:45:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 139,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221228_114501.jpg",
+    "filename_datetime_no_timezone": "2022-12-28T11:45:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 140,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221228_121501.jpg",
+    "filename_datetime_no_timezone": "2022-12-28T12:15:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 141,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221228_123001.jpg",
+    "filename_datetime_no_timezone": "2022-12-28T12:30:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 142,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221228_140001.jpg",
+    "filename_datetime_no_timezone": "2022-12-28T14:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 143,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221228_141501.jpg",
+    "filename_datetime_no_timezone": "2022-12-28T14:15:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 144,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221228_143001.jpg",
+    "filename_datetime_no_timezone": "2022-12-28T14:30:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 145,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221228_144501.jpg",
+    "filename_datetime_no_timezone": "2022-12-28T14:45:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 146,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221228_161501.jpg",
+    "filename_datetime_no_timezone": "2022-12-28T16:15:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 147,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221228_164501.jpg",
+    "filename_datetime_no_timezone": "2022-12-28T16:45:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 148,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221228_170001.jpg",
+    "filename_datetime_no_timezone": "2022-12-28T17:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 149,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221229_161501.jpg",
+    "filename_datetime_no_timezone": "2022-12-29T16:15:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 150,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20221229_171501.jpg",
+    "filename_datetime_no_timezone": "2022-12-29T17:15:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 151,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20230123_040001.jpg",
+    "filename_datetime_no_timezone": "2023-01-23T04:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 152,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20230123_050001.jpg",
+    "filename_datetime_no_timezone": "2023-01-23T05:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 153,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20230123_060001.jpg",
+    "filename_datetime_no_timezone": "2023-01-23T06:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 154,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20230123_100001.jpg",
+    "filename_datetime_no_timezone": "2023-01-23T10:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 155,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20230123_110001.jpg",
+    "filename_datetime_no_timezone": "2023-01-23T11:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 156,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20230123_150001.jpg",
+    "filename_datetime_no_timezone": "2023-01-23T15:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 157,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20230123_160001.jpg",
+    "filename_datetime_no_timezone": "2023-01-23T16:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 158,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20230206_000001.jpg",
+    "filename_datetime_no_timezone": "2023-02-06T00:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 159,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20230206_030001.jpg",
+    "filename_datetime_no_timezone": "2023-02-06T03:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 160,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20230206_060001.jpg",
+    "filename_datetime_no_timezone": "2023-02-06T06:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 161,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20230206_080001.jpg",
+    "filename_datetime_no_timezone": "2023-02-06T08:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 162,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20230206_110001.jpg",
+    "filename_datetime_no_timezone": "2023-02-06T11:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 163,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20230206_120001.jpg",
+    "filename_datetime_no_timezone": "2023-02-06T12:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 164,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20230206_130001.jpg",
+    "filename_datetime_no_timezone": "2023-02-06T13:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 165,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20230206_140001.jpg",
+    "filename_datetime_no_timezone": "2023-02-06T14:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 166,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20230206_150001.jpg",
+    "filename_datetime_no_timezone": "2023-02-06T15:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 167,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20230206_160001.jpg",
+    "filename_datetime_no_timezone": "2023-02-06T16:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 168,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20230206_170001.jpg",
+    "filename_datetime_no_timezone": "2023-02-06T17:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 169,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20230207_020001.jpg",
+    "filename_datetime_no_timezone": "2023-02-07T02:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 170,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3/20230207_040001.jpg",
+    "filename_datetime_no_timezone": "2023-02-07T04:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-3",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 171,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.C/0-9/20221008_100001.jpg",
+    "filename_datetime_no_timezone": "2022-10-08T10:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.C/0-9",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 172,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.C/0-9/20221204_060001.jpg",
+    "filename_datetime_no_timezone": "2022-12-04T06:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.C/0-9",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 173,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.C/0-9/20221206_110001.jpg",
+    "filename_datetime_no_timezone": "2022-12-06T11:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.C/0-9",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 174,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.C/0-9/20221212_110001.jpg",
+    "filename_datetime_no_timezone": "2022-12-12T11:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.C/0-9",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 175,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.C/0-9/20230101_224501.jpg",
+    "filename_datetime_no_timezone": "2023-01-01T22:45:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.C/0-9",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 176,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.C/0-9/20230102_114411.jpg",
+    "filename_datetime_no_timezone": "2023-01-02T11:44:11",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.C/0-9",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 177,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.C/0-9/20230106_140001.jpg",
+    "filename_datetime_no_timezone": "2023-01-06T14:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.C/0-9",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 178,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.C/0-9/20230108_110001.jpg",
+    "filename_datetime_no_timezone": "2023-01-08T11:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.C/0-9",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 179,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.C/0-9/20230201_200002.jpg",
+    "filename_datetime_no_timezone": "2023-02-01T20:00:02",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.C/0-9",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 180,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.C/0-9/20230205_060001.jpg",
+    "filename_datetime_no_timezone": "2023-02-05T06:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.C/0-9",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 181,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230222_010001.jpg",
+    "filename_datetime_no_timezone": "2023-02-22T01:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 182,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230222_082535.jpg",
+    "filename_datetime_no_timezone": "2023-02-22T08:25:35",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 183,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230224_000001.jpg",
+    "filename_datetime_no_timezone": "2023-02-24T00:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 184,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230224_090001.jpg",
+    "filename_datetime_no_timezone": "2023-02-24T09:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 185,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230224_110001.jpg",
+    "filename_datetime_no_timezone": "2023-02-24T11:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 186,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230224_120001.jpg",
+    "filename_datetime_no_timezone": "2023-02-24T12:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 187,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230224_140001.jpg",
+    "filename_datetime_no_timezone": "2023-02-24T14:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 188,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230224_180001.jpg",
+    "filename_datetime_no_timezone": "2023-02-24T18:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 189,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230224_220001.jpg",
+    "filename_datetime_no_timezone": "2023-02-24T22:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 190,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230224_230001.jpg",
+    "filename_datetime_no_timezone": "2023-02-24T23:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 191,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230225_010001.jpg",
+    "filename_datetime_no_timezone": "2023-02-25T01:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 192,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230225_030001.jpg",
+    "filename_datetime_no_timezone": "2023-02-25T03:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 193,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230225_040001.jpg",
+    "filename_datetime_no_timezone": "2023-02-25T04:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 194,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230225_080001.jpg",
+    "filename_datetime_no_timezone": "2023-02-25T08:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 195,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230225_090001.jpg",
+    "filename_datetime_no_timezone": "2023-02-25T09:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 196,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230225_120001.jpg",
+    "filename_datetime_no_timezone": "2023-02-25T12:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 197,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230225_140001.jpg",
+    "filename_datetime_no_timezone": "2023-02-25T14:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 198,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230225_150001.jpg",
+    "filename_datetime_no_timezone": "2023-02-25T15:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 199,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230225_170001.jpg",
+    "filename_datetime_no_timezone": "2023-02-25T17:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 200,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230225_210001.jpg",
+    "filename_datetime_no_timezone": "2023-02-25T21:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 201,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230225_230001.jpg",
+    "filename_datetime_no_timezone": "2023-02-25T23:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 202,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230226_020001.jpg",
+    "filename_datetime_no_timezone": "2023-02-26T02:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 203,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230226_070001.jpg",
+    "filename_datetime_no_timezone": "2023-02-26T07:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 204,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230226_110001.jpg",
+    "filename_datetime_no_timezone": "2023-02-26T11:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 205,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230226_120002.jpg",
+    "filename_datetime_no_timezone": "2023-02-26T12:00:02",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 206,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230226_140001.jpg",
+    "filename_datetime_no_timezone": "2023-02-26T14:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 207,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230226_170001.jpg",
+    "filename_datetime_no_timezone": "2023-02-26T17:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 208,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230226_200001.jpg",
+    "filename_datetime_no_timezone": "2023-02-26T20:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 209,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230227_020001.jpg",
+    "filename_datetime_no_timezone": "2023-02-27T02:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 210,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230227_100001.jpg",
+    "filename_datetime_no_timezone": "2023-02-27T10:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 211,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230227_150001.jpg",
+    "filename_datetime_no_timezone": "2023-02-27T15:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 212,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221010_210001.jpg",
+    "filename_datetime_no_timezone": "2022-10-10T21:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 213,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221011_000001.jpg",
+    "filename_datetime_no_timezone": "2022-10-11T00:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 214,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221011_010001.jpg",
+    "filename_datetime_no_timezone": "2022-10-11T01:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 215,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221011_040001.jpg",
+    "filename_datetime_no_timezone": "2022-10-11T04:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 216,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221011_050001.jpg",
+    "filename_datetime_no_timezone": "2022-10-11T05:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 217,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221011_080001.jpg",
+    "filename_datetime_no_timezone": "2022-10-11T08:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 218,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221011_090001.jpg",
+    "filename_datetime_no_timezone": "2022-10-11T09:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 219,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221011_110001.jpg",
+    "filename_datetime_no_timezone": "2022-10-11T11:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 220,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221011_140001.jpg",
+    "filename_datetime_no_timezone": "2022-10-11T14:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 221,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221011_150001.jpg",
+    "filename_datetime_no_timezone": "2022-10-11T15:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 222,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221011_170001.jpg",
+    "filename_datetime_no_timezone": "2022-10-11T17:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 223,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221011_190001.jpg",
+    "filename_datetime_no_timezone": "2022-10-11T19:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 224,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221011_210001.jpg",
+    "filename_datetime_no_timezone": "2022-10-11T21:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 225,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221012_000001.jpg",
+    "filename_datetime_no_timezone": "2022-10-12T00:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 226,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221012_010001.jpg",
+    "filename_datetime_no_timezone": "2022-10-12T01:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 227,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221012_040001.jpg",
+    "filename_datetime_no_timezone": "2022-10-12T04:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 228,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221012_050001.jpg",
+    "filename_datetime_no_timezone": "2022-10-12T05:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 229,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221012_080001.jpg",
+    "filename_datetime_no_timezone": "2022-10-12T08:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 230,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221012_090002.jpg",
+    "filename_datetime_no_timezone": "2022-10-12T09:00:02",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 231,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221012_120001.jpg",
+    "filename_datetime_no_timezone": "2022-10-12T12:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 232,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221012_130001.jpg",
+    "filename_datetime_no_timezone": "2022-10-12T13:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 233,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221012_160001.jpg",
+    "filename_datetime_no_timezone": "2022-10-12T16:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 234,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221012_170001.jpg",
+    "filename_datetime_no_timezone": "2022-10-12T17:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 235,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221012_200001.jpg",
+    "filename_datetime_no_timezone": "2022-10-12T20:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 236,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221012_210001.jpg",
+    "filename_datetime_no_timezone": "2022-10-12T21:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 237,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221013_000001.jpg",
+    "filename_datetime_no_timezone": "2022-10-13T00:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 238,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221013_010001.jpg",
+    "filename_datetime_no_timezone": "2022-10-13T01:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 239,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221013_040001.jpg",
+    "filename_datetime_no_timezone": "2022-10-13T04:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 240,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221013_050001.jpg",
+    "filename_datetime_no_timezone": "2022-10-13T05:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 241,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221013_080001.jpg",
+    "filename_datetime_no_timezone": "2022-10-13T08:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 242,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221013_090001.jpg",
+    "filename_datetime_no_timezone": "2022-10-13T09:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 243,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221018_000001.jpg",
+    "filename_datetime_no_timezone": "2022-10-18T00:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 244,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221019_140001.jpg",
+    "filename_datetime_no_timezone": "2022-10-19T14:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 245,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221020_050001.jpg",
+    "filename_datetime_no_timezone": "2022-10-20T05:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 246,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221020_060001.jpg",
+    "filename_datetime_no_timezone": "2022-10-20T06:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 247,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221020_130001.jpg",
+    "filename_datetime_no_timezone": "2022-10-20T13:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 248,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221020_160001.jpg",
+    "filename_datetime_no_timezone": "2022-10-20T16:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 249,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221023_080001.jpg",
+    "filename_datetime_no_timezone": "2022-10-23T08:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 250,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221024_040001.jpg",
+    "filename_datetime_no_timezone": "2022-10-24T04:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 251,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221024_150001.jpg",
+    "filename_datetime_no_timezone": "2022-10-24T15:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 252,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221024_190001.jpg",
+    "filename_datetime_no_timezone": "2022-10-24T19:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 253,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221025_000001.jpg",
+    "filename_datetime_no_timezone": "2022-10-25T00:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 254,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221025_090001.jpg",
+    "filename_datetime_no_timezone": "2022-10-25T09:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 255,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221025_110001.jpg",
+    "filename_datetime_no_timezone": "2022-10-25T11:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 256,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221025_230001.jpg",
+    "filename_datetime_no_timezone": "2022-10-25T23:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 257,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221026_000001.jpg",
+    "filename_datetime_no_timezone": "2022-10-26T00:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 258,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221026_060001.jpg",
+    "filename_datetime_no_timezone": "2022-10-26T06:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 259,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221026_080001.jpg",
+    "filename_datetime_no_timezone": "2022-10-26T08:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 260,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221026_100001.jpg",
+    "filename_datetime_no_timezone": "2022-10-26T10:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 261,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221026_120001.jpg",
+    "filename_datetime_no_timezone": "2022-10-26T12:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 262,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221026_130001.jpg",
+    "filename_datetime_no_timezone": "2022-10-26T13:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 263,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221101_180001.jpg",
+    "filename_datetime_no_timezone": "2022-11-01T18:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 264,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221102_180001.jpg",
+    "filename_datetime_no_timezone": "2022-11-02T18:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 265,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221103_220001.jpg",
+    "filename_datetime_no_timezone": "2022-11-03T22:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 266,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221104_080001.jpg",
+    "filename_datetime_no_timezone": "2022-11-04T08:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 267,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221104_110002.jpg",
+    "filename_datetime_no_timezone": "2022-11-04T11:00:02",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 268,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221104_180001.jpg",
+    "filename_datetime_no_timezone": "2022-11-04T18:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 269,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221115_150001.jpg",
+    "filename_datetime_no_timezone": "2022-11-15T15:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 270,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221115_170001.jpg",
+    "filename_datetime_no_timezone": "2022-11-15T17:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 271,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221115_180001.jpg",
+    "filename_datetime_no_timezone": "2022-11-15T18:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 272,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221115_190001.jpg",
+    "filename_datetime_no_timezone": "2022-11-15T19:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 273,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221115_210001.jpg",
+    "filename_datetime_no_timezone": "2022-11-15T21:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 274,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221115_220001.jpg",
+    "filename_datetime_no_timezone": "2022-11-15T22:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 275,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221115_230001.jpg",
+    "filename_datetime_no_timezone": "2022-11-15T23:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 276,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221116_010001.jpg",
+    "filename_datetime_no_timezone": "2022-11-16T01:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 277,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221116_020001.jpg",
+    "filename_datetime_no_timezone": "2022-11-16T02:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 278,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221116_070001.jpg",
+    "filename_datetime_no_timezone": "2022-11-16T07:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 279,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221202_080001.jpg",
+    "filename_datetime_no_timezone": "2022-12-02T08:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 280,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221202_140001.jpg",
+    "filename_datetime_no_timezone": "2022-12-02T14:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 281,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221202_150001.jpg",
+    "filename_datetime_no_timezone": "2022-12-02T15:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 282,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221203_090001.jpg",
+    "filename_datetime_no_timezone": "2022-12-03T09:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 283,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221203_230001.jpg",
+    "filename_datetime_no_timezone": "2022-12-03T23:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 284,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221204_010001.jpg",
+    "filename_datetime_no_timezone": "2022-12-04T01:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 285,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221204_080001.jpg",
+    "filename_datetime_no_timezone": "2022-12-04T08:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 286,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221204_130001.jpg",
+    "filename_datetime_no_timezone": "2022-12-04T13:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 287,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221204_210001.jpg",
+    "filename_datetime_no_timezone": "2022-12-04T21:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 288,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221204_220001.jpg",
+    "filename_datetime_no_timezone": "2022-12-04T22:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 289,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221205_030001.jpg",
+    "filename_datetime_no_timezone": "2022-12-05T03:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 290,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221205_080001.jpg",
+    "filename_datetime_no_timezone": "2022-12-05T08:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 291,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221205_130001.jpg",
+    "filename_datetime_no_timezone": "2022-12-05T13:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 292,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221205_140001.jpg",
+    "filename_datetime_no_timezone": "2022-12-05T14:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 293,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221205_190001.jpg",
+    "filename_datetime_no_timezone": "2022-12-05T19:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 294,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221205_200001.jpg",
+    "filename_datetime_no_timezone": "2022-12-05T20:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 295,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221206_010001.jpg",
+    "filename_datetime_no_timezone": "2022-12-06T01:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 296,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221206_020001.jpg",
+    "filename_datetime_no_timezone": "2022-12-06T02:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 297,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221206_050001.jpg",
+    "filename_datetime_no_timezone": "2022-12-06T05:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 298,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221206_110001.jpg",
+    "filename_datetime_no_timezone": "2022-12-06T11:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 299,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221206_172052.jpg",
+    "filename_datetime_no_timezone": "2022-12-06T17:20:52",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 300,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221207_150001.jpg",
+    "filename_datetime_no_timezone": "2022-12-07T15:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 301,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221209_110001.jpg",
+    "filename_datetime_no_timezone": "2022-12-09T11:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 302,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221209_140001.jpg",
+    "filename_datetime_no_timezone": "2022-12-09T14:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 303,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221209_190001.jpg",
+    "filename_datetime_no_timezone": "2022-12-09T19:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 304,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221210_020002.jpg",
+    "filename_datetime_no_timezone": "2022-12-10T02:00:02",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 305,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221210_030001.jpg",
+    "filename_datetime_no_timezone": "2022-12-10T03:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 306,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221210_100001.jpg",
+    "filename_datetime_no_timezone": "2022-12-10T10:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 307,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221210_150001.jpg",
+    "filename_datetime_no_timezone": "2022-12-10T15:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 308,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221210_180001.jpg",
+    "filename_datetime_no_timezone": "2022-12-10T18:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 309,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221210_220001.jpg",
+    "filename_datetime_no_timezone": "2022-12-10T22:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 310,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221211_060001.jpg",
+    "filename_datetime_no_timezone": "2022-12-11T06:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 311,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221211_070001.jpg",
+    "filename_datetime_no_timezone": "2022-12-11T07:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 312,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221211_140001.jpg",
+    "filename_datetime_no_timezone": "2022-12-11T14:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 313,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221211_230001.jpg",
+    "filename_datetime_no_timezone": "2022-12-11T23:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 314,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221212_030001.jpg",
+    "filename_datetime_no_timezone": "2022-12-12T03:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 315,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221212_080001.jpg",
+    "filename_datetime_no_timezone": "2022-12-12T08:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 316,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221212_130001.jpg",
+    "filename_datetime_no_timezone": "2022-12-12T13:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 317,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221226_161502.jpg",
+    "filename_datetime_no_timezone": "2022-12-26T16:15:02",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 318,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221228_150001.jpg",
+    "filename_datetime_no_timezone": "2022-12-28T15:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 319,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221230_171501.jpg",
+    "filename_datetime_no_timezone": "2022-12-30T17:15:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 320,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221231_063001.jpg",
+    "filename_datetime_no_timezone": "2022-12-31T06:30:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 321,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20221231_093001.jpg",
+    "filename_datetime_no_timezone": "2022-12-31T09:30:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 322,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20230122_130001.jpg",
+    "filename_datetime_no_timezone": "2023-01-22T13:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 323,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20230122_220001.jpg",
+    "filename_datetime_no_timezone": "2023-01-22T22:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 324,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20230123_140001.jpg",
+    "filename_datetime_no_timezone": "2023-01-23T14:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 325,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20230206_200002.jpg",
+    "filename_datetime_no_timezone": "2023-02-06T20:00:02",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 326,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20230206_220001.jpg",
+    "filename_datetime_no_timezone": "2023-02-06T22:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 327,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20230207_020001.jpg",
+    "filename_datetime_no_timezone": "2023-02-07T02:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 328,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20230207_040001.jpg",
+    "filename_datetime_no_timezone": "2023-02-07T04:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 329,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20230207_070001.jpg",
+    "filename_datetime_no_timezone": "2023-02-07T07:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "train",
+    "image_id": 330,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.B/0-119/20230207_090001.jpg",
+    "filename_datetime_no_timezone": "2023-02-07T09:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.B/0-119",
+    "date_captured": 0
+  },
+  {
+    "split": "test",
+    "image_id": 1,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230222_010001.jpg",
+    "filename_datetime_no_timezone": "2023-02-22T01:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "test",
+    "image_id": 2,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230222_082535.jpg",
+    "filename_datetime_no_timezone": "2023-02-22T08:25:35",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "test",
+    "image_id": 3,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230224_000001.jpg",
+    "filename_datetime_no_timezone": "2023-02-24T00:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "test",
+    "image_id": 4,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230224_090001.jpg",
+    "filename_datetime_no_timezone": "2023-02-24T09:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "test",
+    "image_id": 5,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230224_110001.jpg",
+    "filename_datetime_no_timezone": "2023-02-24T11:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "test",
+    "image_id": 6,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230224_120001.jpg",
+    "filename_datetime_no_timezone": "2023-02-24T12:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "test",
+    "image_id": 7,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230224_140001.jpg",
+    "filename_datetime_no_timezone": "2023-02-24T14:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "test",
+    "image_id": 8,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230224_180001.jpg",
+    "filename_datetime_no_timezone": "2023-02-24T18:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "test",
+    "image_id": 9,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230224_220001.jpg",
+    "filename_datetime_no_timezone": "2023-02-24T22:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "test",
+    "image_id": 10,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230224_230001.jpg",
+    "filename_datetime_no_timezone": "2023-02-24T23:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "test",
+    "image_id": 11,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230225_010001.jpg",
+    "filename_datetime_no_timezone": "2023-02-25T01:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "test",
+    "image_id": 12,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230225_030001.jpg",
+    "filename_datetime_no_timezone": "2023-02-25T03:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "test",
+    "image_id": 13,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230225_040001.jpg",
+    "filename_datetime_no_timezone": "2023-02-25T04:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "test",
+    "image_id": 14,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230225_080001.jpg",
+    "filename_datetime_no_timezone": "2023-02-25T08:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "test",
+    "image_id": 15,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230225_090001.jpg",
+    "filename_datetime_no_timezone": "2023-02-25T09:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "test",
+    "image_id": 16,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230225_120001.jpg",
+    "filename_datetime_no_timezone": "2023-02-25T12:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "test",
+    "image_id": 17,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230225_140001.jpg",
+    "filename_datetime_no_timezone": "2023-02-25T14:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "test",
+    "image_id": 18,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230225_150001.jpg",
+    "filename_datetime_no_timezone": "2023-02-25T15:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "test",
+    "image_id": 19,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230225_170001.jpg",
+    "filename_datetime_no_timezone": "2023-02-25T17:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "test",
+    "image_id": 20,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230225_210001.jpg",
+    "filename_datetime_no_timezone": "2023-02-25T21:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "test",
+    "image_id": 21,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230225_230001.jpg",
+    "filename_datetime_no_timezone": "2023-02-25T23:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "test",
+    "image_id": 22,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230226_020001.jpg",
+    "filename_datetime_no_timezone": "2023-02-26T02:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "test",
+    "image_id": 23,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230226_070001.jpg",
+    "filename_datetime_no_timezone": "2023-02-26T07:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "test",
+    "image_id": 24,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230226_110001.jpg",
+    "filename_datetime_no_timezone": "2023-02-26T11:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "test",
+    "image_id": 25,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230226_120002.jpg",
+    "filename_datetime_no_timezone": "2023-02-26T12:00:02",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "test",
+    "image_id": 26,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230226_140001.jpg",
+    "filename_datetime_no_timezone": "2023-02-26T14:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "test",
+    "image_id": 27,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230226_170001.jpg",
+    "filename_datetime_no_timezone": "2023-02-26T17:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "test",
+    "image_id": 28,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230226_200001.jpg",
+    "filename_datetime_no_timezone": "2023-02-26T20:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "test",
+    "image_id": 29,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230227_020001.jpg",
+    "filename_datetime_no_timezone": "2023-02-27T02:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "test",
+    "image_id": 30,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230227_100001.jpg",
+    "filename_datetime_no_timezone": "2023-02-27T10:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "test",
+    "image_id": 31,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0/20230227_150001.jpg",
+    "filename_datetime_no_timezone": "2023-02-27T15:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.A/0-150-0",
+    "date_captured": 0
+  },
+  {
+    "split": "test",
+    "image_id": 32,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.C/0-9/20221008_100001.jpg",
+    "filename_datetime_no_timezone": "2022-10-08T10:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.C/0-9",
+    "date_captured": 0
+  },
+  {
+    "split": "test",
+    "image_id": 33,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.C/0-9/20221204_060001.jpg",
+    "filename_datetime_no_timezone": "2022-12-04T06:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.C/0-9",
+    "date_captured": 0
+  },
+  {
+    "split": "test",
+    "image_id": 34,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.C/0-9/20221206_110001.jpg",
+    "filename_datetime_no_timezone": "2022-12-06T11:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.C/0-9",
+    "date_captured": 0
+  },
+  {
+    "split": "test",
+    "image_id": 35,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.C/0-9/20221212_110001.jpg",
+    "filename_datetime_no_timezone": "2022-12-12T11:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.C/0-9",
+    "date_captured": 0
+  },
+  {
+    "split": "test",
+    "image_id": 36,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.C/0-9/20230101_224501.jpg",
+    "filename_datetime_no_timezone": "2023-01-01T22:45:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.C/0-9",
+    "date_captured": 0
+  },
+  {
+    "split": "test",
+    "image_id": 37,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.C/0-9/20230102_114411.jpg",
+    "filename_datetime_no_timezone": "2023-01-02T11:44:11",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.C/0-9",
+    "date_captured": 0
+  },
+  {
+    "split": "test",
+    "image_id": 38,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.C/0-9/20230106_140001.jpg",
+    "filename_datetime_no_timezone": "2023-01-06T14:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.C/0-9",
+    "date_captured": 0
+  },
+  {
+    "split": "test",
+    "image_id": 39,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.C/0-9/20230108_110001.jpg",
+    "filename_datetime_no_timezone": "2023-01-08T11:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.C/0-9",
+    "date_captured": 0
+  },
+  {
+    "split": "test",
+    "image_id": 40,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.C/0-9/20230201_200002.jpg",
+    "filename_datetime_no_timezone": "2023-02-01T20:00:02",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.C/0-9",
+    "date_captured": 0
+  },
+  {
+    "split": "test",
+    "image_id": 41,
+    "file_name": "ANNOTATION_BATCHES/Filtered_2.C/0-9/20230205_060001.jpg",
+    "filename_datetime_no_timezone": "2023-02-05T06:00:01",
+    "camera_or_group_path": "ANNOTATION_BATCHES/Filtered_2.C/0-9",
+    "date_captured": 0
+  }
+]

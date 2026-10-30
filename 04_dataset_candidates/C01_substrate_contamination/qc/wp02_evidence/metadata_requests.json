@@ -1,0 +1,28 @@
+[
+  {
+    "url": "https://data.mendeley.com/public-api/datasets/jrbx34k77g/versions/2",
+    "timestamp": "2026-10-30T04:15:05.504534+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://data.mendeley.com/public-api/datasets/jrbx34k77g/versions/2/files",
+    "timestamp": "2026-10-30T04:15:06.535100+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://api.datacite.org/dois/10.17632/jrbx34k77g.2",
+    "timestamp": "2026-10-30T04:15:06.928510+00:00",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 7876,
+    "resolved_url": "https://api.datacite.org/dois/10.17632/jrbx34k77g.2"
+  },
+  {
+    "url": "https://data.mendeley.com/datasets/jrbx34k77g/2",
+    "timestamp": "2026-10-30T04:15:08.137485+00:00",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 122857,
+    "resolved_url": "https://data.mendeley.com/datasets/jrbx34k77g/2"
+  }
+]

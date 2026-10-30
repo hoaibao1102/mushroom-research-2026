@@ -1,0 +1,2 @@
+candidate_id,source_url,repository_commit,dataset_version,local_path,bytes,sha256,download_timestamp,content_type,parse_status,status,notes
+C01,https://data.mendeley.com/datasets/jrbx34k77g/2,f50f946b1d5f1bd11407c09b3b210ae0370fbde2,2,,,,,,EXACT_V2_ARCHIVE_METADATA_UNRESOLVED,NOT_DOWNLOADED,"Status row, not an acquired archive; payload bytes transferred=0. Name/size/type unknown. Public file routes blocked or empty."

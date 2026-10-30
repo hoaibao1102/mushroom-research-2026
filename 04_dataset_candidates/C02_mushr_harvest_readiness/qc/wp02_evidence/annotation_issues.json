@@ -1,0 +1,212 @@
+[
+  {
+    "split": "train",
+    "kind": "area_shoelace_difference_gt_1pct_or_1px",
+    "id": 1187,
+    "detail": "23.20469999918714"
+  },
+  {
+    "split": "train",
+    "kind": "area_shoelace_difference_gt_1pct_or_1px",
+    "id": 1271,
+    "detail": "53.5"
+  },
+  {
+    "split": "train",
+    "kind": "area_shoelace_difference_gt_1pct_or_1px",
+    "id": 1449,
+    "detail": "8.415000000502914"
+  },
+  {
+    "split": "train",
+    "kind": "area_shoelace_difference_gt_1pct_or_1px",
+    "id": 1453,
+    "detail": "4.649999999906868"
+  },
+  {
+    "split": "train",
+    "kind": "area_shoelace_difference_gt_1pct_or_1px",
+    "id": 1468,
+    "detail": "-9.25"
+  },
+  {
+    "split": "train",
+    "kind": "area_shoelace_difference_gt_1pct_or_1px",
+    "id": 1473,
+    "detail": "-7.350000000093132"
+  },
+  {
+    "split": "train",
+    "kind": "area_shoelace_difference_gt_1pct_or_1px",
+    "id": 1474,
+    "detail": "5.274999999906868"
+  },
+  {
+    "split": "train",
+    "kind": "area_shoelace_difference_gt_1pct_or_1px",
+    "id": 1488,
+    "detail": "4.5799999996088445"
+  },
+  {
+    "split": "train",
+    "kind": "area_shoelace_difference_gt_1pct_or_1px",
+    "id": 1503,
+    "detail": "-6.519999999552965"
+  },
+  {
+    "split": "train",
+    "kind": "area_shoelace_difference_gt_1pct_or_1px",
+    "id": 1525,
+    "detail": "-8.849999998696148"
+  },
+  {
+    "split": "train",
+    "kind": "area_shoelace_difference_gt_1pct_or_1px",
+    "id": 1536,
+    "detail": "6.5750000001862645"
+  },
+  {
+    "split": "train",
+    "kind": "area_shoelace_difference_gt_1pct_or_1px",
+    "id": 1545,
+    "detail": "10.990000000223517"
+  },
+  {
+    "split": "train",
+    "kind": "area_shoelace_difference_gt_1pct_or_1px",
+    "id": 1546,
+    "detail": "-13.899999999906868"
+  },
+  {
+    "split": "train",
+    "kind": "area_shoelace_difference_gt_1pct_or_1px",
+    "id": 1547,
+    "detail": "-2.890000000130385"
+  },
+  {
+    "split": "train",
+    "kind": "area_shoelace_difference_gt_1pct_or_1px",
+    "id": 1599,
+    "detail": "77.74499999987893"
+  },
+  {
+    "split": "train",
+    "kind": "area_shoelace_difference_gt_1pct_or_1px",
+    "id": 1604,
+    "detail": "77.74499999987893"
+  },
+  {
+    "split": "train",
+    "kind": "area_shoelace_difference_gt_1pct_or_1px",
+    "id": 2122,
+    "detail": "74.0"
+  },
+  {
+    "split": "train",
+    "kind": "area_shoelace_difference_gt_1pct_or_1px",
+    "id": 2265,
+    "detail": "208.0"
+  },
+  {
+    "split": "train",
+    "kind": "area_shoelace_difference_gt_1pct_or_1px",
+    "id": 2442,
+    "detail": "248.58000000030734"
+  },
+  {
+    "split": "train",
+    "kind": "area_shoelace_difference_gt_1pct_or_1px",
+    "id": 2459,
+    "detail": "321.9600000001956"
+  },
+  {
+    "split": "train",
+    "kind": "area_shoelace_difference_gt_1pct_or_1px",
+    "id": 2729,
+    "detail": "193.73500000010245"
+  },
+  {
+    "split": "test",
+    "kind": "area_shoelace_difference_gt_1pct_or_1px",
+    "id": 33,
+    "detail": "8.415000000502914"
+  },
+  {
+    "split": "test",
+    "kind": "area_shoelace_difference_gt_1pct_or_1px",
+    "id": 37,
+    "detail": "4.649999999906868"
+  },
+  {
+    "split": "test",
+    "kind": "area_shoelace_difference_gt_1pct_or_1px",
+    "id": 52,
+    "detail": "-9.25"
+  },
+  {
+    "split": "test",
+    "kind": "area_shoelace_difference_gt_1pct_or_1px",
+    "id": 57,
+    "detail": "-7.350000000093132"
+  },
+  {
+    "split": "test",
+    "kind": "area_shoelace_difference_gt_1pct_or_1px",
+    "id": 58,
+    "detail": "5.274999999906868"
+  },
+  {
+    "split": "test",
+    "kind": "area_shoelace_difference_gt_1pct_or_1px",
+    "id": 72,
+    "detail": "4.5799999996088445"
+  },
+  {
+    "split": "test",
+    "kind": "area_shoelace_difference_gt_1pct_or_1px",
+    "id": 87,
+    "detail": "-6.519999999552965"
+  },
+  {
+    "split": "test",
+    "kind": "area_shoelace_difference_gt_1pct_or_1px",
+    "id": 109,
+    "detail": "-8.849999998696148"
+  },
+  {
+    "split": "test",
+    "kind": "area_shoelace_difference_gt_1pct_or_1px",
+    "id": 120,
+    "detail": "6.5750000001862645"
+  },
+  {
+    "split": "test",
+    "kind": "area_shoelace_difference_gt_1pct_or_1px",
+    "id": 129,
+    "detail": "10.990000000223517"
+  },
+  {
+    "split": "test",
+    "kind": "area_shoelace_difference_gt_1pct_or_1px",
+    "id": 130,
+    "detail": "-13.899999999906868"
+  },
+  {
+    "split": "test",
+    "kind": "area_shoelace_difference_gt_1pct_or_1px",
+    "id": 131,
+    "detail": "-2.890000000130385"
+  },
+  {
+    "split": "test",
+    "kind": "area_shoelace_difference_gt_1pct_or_1px",
+    "id": 312,
+    "detail": "23.20469999918714"
+  },
+  {
+    "split": "test",
+    "kind": "area_shoelace_difference_gt_1pct_or_1px",
+    "id": 396,
+    "detail": "53.5"
+  }
+]

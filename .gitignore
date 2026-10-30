@@ -79,3 +79,10 @@ local_outputs/
 *.log
 .DS_Store
 Thumbs.db
+# WP-02 original third-party annotation exports: retain locally;
+# source URLs, hashes, statistics and audit evidence are versioned.
+/04_dataset_candidates/C02_mushr_harvest_readiness/dataset_metadata/MushR_Dataset_V1.1_2023_04_04-COCO.json
+/04_dataset_candidates/C02_mushr_harvest_readiness/dataset_metadata/MushR_Dataset_2023_06_29_TEST-COCO.json
+# Duplicate author source snapshot and complete web-page capture kept local.
+/04_dataset_candidates/C02_mushr_harvest_readiness/qc/wp02_evidence/author_code/
+/04_dataset_candidates/C01_substrate_contamination/qc/wp02_evidence/landing_v2.txt

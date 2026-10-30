@@ -1,0 +1,548 @@
+{
+  "timestamp": "2026-10-30T11:22:54.889668+07:00",
+  "scope": "Structural/consistency/source-hash audit; not scientific gate acceptance",
+  "checks": [
+    {
+      "pass": true,
+      "check": "Required 04_dataset_candidates/C01_substrate_contamination/reports/WP-02_C01_DATA_FEASIBILITY.md"
+    },
+    {
+      "pass": true,
+      "check": "Required 04_dataset_candidates/C02_mushr_harvest_readiness/reports/WP-02_C02_ANNOTATION_AUDIT.md"
+    },
+    {
+      "pass": true,
+      "check": "Required 04_dataset_candidates/C02_mushr_harvest_readiness/reports/WP-02_C02_IMAGE_LINKAGE.md"
+    },
+    {
+      "pass": true,
+      "check": "Required 03_dataset_discovery/dataset_comparisons/WP-02_FEASIBILITY_COMPARISON.md"
+    },
+    {
+      "pass": true,
+      "check": "Required 03_dataset_discovery/source_verification/WP-01_QC_ADDENDUM.md"
+    },
+    {
+      "pass": true,
+      "check": "Required 03_dataset_discovery/screening_reports/WP-02_RESEARCH_SELECTION_READINESS.md"
+    },
+    {
+      "pass": true,
+      "check": "Required setup_reports/WP-02_FEASIBILITY_AUDIT_REPORT.md"
+    },
+    {
+      "pass": true,
+      "check": "Required 04_dataset_candidates/C02_mushr_harvest_readiness/qc/coco_annotation_statistics.json"
+    },
+    {
+      "pass": true,
+      "check": "Required 04_dataset_candidates/C01_substrate_contamination/qc/image_inventory.csv"
+    },
+    {
+      "pass": true,
+      "check": "Required 12_reproducibility/manifests/WP-02_DOWNLOAD_MANIFEST.csv"
+    },
+    {
+      "pass": true,
+      "check": "CSV widths 04_dataset_candidates/C01_substrate_contamination/qc/image_inventory.csv"
+    },
+    {
+      "pass": true,
+      "check": "CSV widths 04_dataset_candidates/C01_substrate_contamination/qc/wp02_c01_download_manifest.csv"
+    },
+    {
+      "pass": true,
+      "check": "CSV widths 04_dataset_candidates/C02_mushr_harvest_readiness/qc/wp02_c02_download_manifest.csv"
+    },
+    {
+      "pass": true,
+      "check": "CSV widths 04_dataset_candidates/C02_mushr_harvest_readiness/qc/wp02_evidence/linkage_rows.csv"
+    },
+    {
+      "pass": true,
+      "check": "CSV widths 12_reproducibility/manifests/WP-02_DOWNLOAD_MANIFEST.csv"
+    },
+    {
+      "pass": true,
+      "check": "All new JSON parsed: 36"
+    },
+    {
+      "pass": true,
+      "check": "C01 missing acquisition not fabricated"
+    },
+    {
+      "pass": true,
+      "check": "Acquired checksum 04_dataset_candidates/C02_mushr_harvest_readiness/dataset_metadata/MushR_Dataset_V1.1_2023_04_04-COCO.json"
+    },
+    {
+      "pass": true,
+      "check": "Acquired checksum 04_dataset_candidates/C02_mushr_harvest_readiness/dataset_metadata/MushR_Dataset_2023_06_29_TEST-COCO.json"
+    },
+    {
+      "pass": true,
+      "check": "Original evidence bytes unchanged; append only"
+    },
+    {
+      "pass": true,
+      "check": "Preserved 00_project_management/project_state.json"
+    },
+    {
+      "pass": true,
+      "check": "Preserved 03_dataset_discovery/candidate_registry/CANDIDATE_REGISTRY.csv"
+    },
+    {
+      "pass": true,
+      "check": "Preserved 03_dataset_discovery/excluded_datasets/EXCLUDED_DATASETS.csv"
+    },
+    {
+      "pass": true,
+      "check": "Preserved scripts/validate_workspace.py"
+    },
+    {
+      "pass": true,
+      "check": "Preserved scripts/validate_wp01.py"
+    },
+    {
+      "pass": true,
+      "check": "Preserved tests/test_workspace.py"
+    },
+    {
+      "pass": true,
+      "check": "No payload 04_dataset_candidates/C01_substrate_contamination/raw"
+    },
+    {
+      "pass": true,
+      "check": "No payload 04_dataset_candidates/C01_substrate_contamination/source"
+    },
+    {
+      "pass": true,
+      "check": "No payload 04_dataset_candidates/C02_mushr_harvest_readiness/raw"
+    },
+    {
+      "pass": true,
+      "check": "No payload 08_experiments/checkpoints"
+    },
+    {
+      "pass": true,
+      "check": "No payload 08_experiments/runs"
+    },
+    {
+      "pass": true,
+      "check": "No payload 11_field_validation/external_test_data"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 03_dataset_discovery/dataset_comparisons/WP-02_FEASIBILITY_COMPARISON.md"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 03_dataset_discovery/screening_reports/WP-02_RESEARCH_SELECTION_READINESS.md"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 03_dataset_discovery/source_verification/WP-01_QC_ADDENDUM.md"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C01_substrate_contamination/qc/image_inventory.csv"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C01_substrate_contamination/qc/wp02_c01_download_manifest.csv"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C01_substrate_contamination/qc/wp02_c01_statistics.json"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C01_substrate_contamination/qc/wp02_evidence/01_metadata.py"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C01_substrate_contamination/qc/wp02_evidence/02_metadata_alternatives.py"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C01_substrate_contamination/qc/wp02_evidence/03_public_routes.py"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C01_substrate_contamination/qc/wp02_evidence/04_client_routes.py"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C01_substrate_contamination/qc/wp02_evidence/05_finalize_blocked.py"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C01_substrate_contamination/qc/wp02_evidence/06_verify.py"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C01_substrate_contamination/qc/wp02_evidence/alternative_requests.json"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C01_substrate_contamination/qc/wp02_evidence/datacite_v2.txt"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C01_substrate_contamination/qc/wp02_evidence/execution_summary.json"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C01_substrate_contamination/qc/wp02_evidence/files_root.txt"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C01_substrate_contamination/qc/wp02_evidence/files_version_first.txt"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C01_substrate_contamination/qc/wp02_evidence/ignore_checks.json"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C01_substrate_contamination/qc/wp02_evidence/landing_v2.txt"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C01_substrate_contamination/qc/wp02_evidence/metadata_requests.json"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C01_substrate_contamination/qc/wp02_evidence/public_route_requests.json"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C01_substrate_contamination/qc/wp02_evidence/verification.json"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C01_substrate_contamination/qc/wp02_evidence/wayback.txt"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C01_substrate_contamination/reports/WP-02_C01_DATA_FEASIBILITY.md"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C02_mushr_harvest_readiness/dataset_metadata/MushR_Dataset_2023_06_29_TEST-COCO.json"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C02_mushr_harvest_readiness/dataset_metadata/MushR_Dataset_V1.1_2023_04_04-COCO.json"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C02_mushr_harvest_readiness/qc/coco_annotation_statistics.json"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C02_mushr_harvest_readiness/qc/wp02_c02_download_manifest.csv"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C02_mushr_harvest_readiness/qc/wp02_evidence/access_log.jsonl"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C02_mushr_harvest_readiness/qc/wp02_evidence/acquire.py"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C02_mushr_harvest_readiness/qc/wp02_evidence/additional_checks.json"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C02_mushr_harvest_readiness/qc/wp02_evidence/additional_checks.py"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C02_mushr_harvest_readiness/qc/wp02_evidence/annotation_issues.json"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C02_mushr_harvest_readiness/qc/wp02_evidence/audit.py"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C02_mushr_harvest_readiness/qc/wp02_evidence/author_code/README.md"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C02_mushr_harvest_readiness/qc/wp02_evidence/author_code/continue_training.sh"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C02_mushr_harvest_readiness/qc/wp02_evidence/author_code/eval.sh"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C02_mushr_harvest_readiness/qc/wp02_evidence/author_code/eval_2023_04_20/config.yaml"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C02_mushr_harvest_readiness/qc/wp02_evidence/author_code/eval_2023_07_19_new/config.yaml"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C02_mushr_harvest_readiness/qc/wp02_evidence/author_code/inference.py"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C02_mushr_harvest_readiness/qc/wp02_evidence/author_code/predictor.py"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C02_mushr_harvest_readiness/qc/wp02_evidence/author_code/train.sh"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C02_mushr_harvest_readiness/qc/wp02_evidence/author_code/train_2023_04_04/config.yaml"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C02_mushr_harvest_readiness/qc/wp02_evidence/author_code/train_net.py"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C02_mushr_harvest_readiness/qc/wp02_evidence/current_commit.json"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C02_mushr_harvest_readiness/qc/wp02_evidence/current_tree.json"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C02_mushr_harvest_readiness/qc/wp02_evidence/filename_timestamp_patterns.json"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C02_mushr_harvest_readiness/qc/wp02_evidence/independent_verification.json"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C02_mushr_harvest_readiness/qc/wp02_evidence/kaggle_inventory.json"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C02_mushr_harvest_readiness/qc/wp02_evidence/kaggle_page_001.json"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C02_mushr_harvest_readiness/qc/wp02_evidence/kaggle_page_002.json"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C02_mushr_harvest_readiness/qc/wp02_evidence/kaggle_page_003.json"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C02_mushr_harvest_readiness/qc/wp02_evidence/kaggle_page_004.json"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C02_mushr_harvest_readiness/qc/wp02_evidence/kaggle_page_005.json"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C02_mushr_harvest_readiness/qc/wp02_evidence/kaggle_page_006.json"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C02_mushr_harvest_readiness/qc/wp02_evidence/kaggle_page_007.json"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C02_mushr_harvest_readiness/qc/wp02_evidence/kaggle_page_008.json"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C02_mushr_harvest_readiness/qc/wp02_evidence/kaggle_page_009.json"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C02_mushr_harvest_readiness/qc/wp02_evidence/kaggle_page_010.json"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C02_mushr_harvest_readiness/qc/wp02_evidence/kaggle_page_011.json"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C02_mushr_harvest_readiness/qc/wp02_evidence/kaggle_page_012.json"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C02_mushr_harvest_readiness/qc/wp02_evidence/kaggle_page_013.json"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C02_mushr_harvest_readiness/qc/wp02_evidence/kaggle_page_014.json"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C02_mushr_harvest_readiness/qc/wp02_evidence/kaggle_page_015.json"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C02_mushr_harvest_readiness/qc/wp02_evidence/kaggle_page_016.json"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C02_mushr_harvest_readiness/qc/wp02_evidence/linkage_rows.csv"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C02_mushr_harvest_readiness/qc/wp02_evidence/split_overlaps.json"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C02_mushr_harvest_readiness/qc/wp02_evidence/static_code_excerpts.json"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C02_mushr_harvest_readiness/qc/wp02_evidence/unmatched_kaggle_images.json"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C02_mushr_harvest_readiness/qc/wp02_evidence/verify.py"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C02_mushr_harvest_readiness/reports/WP-02_C02_ANNOTATION_AUDIT.md"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 04_dataset_candidates/C02_mushr_harvest_readiness/reports/WP-02_C02_IMAGE_LINKAGE.md"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload 12_reproducibility/manifests/WP-02_DOWNLOAD_MANIFEST.csv"
+    },
+    {
+      "pass": true,
+      "check": "No prohibited new payload setup_reports/WP-02_FEASIBILITY_AUDIT_REPORT.md"
+    },
+    {
+      "pass": true,
+      "check": "Command exit ['python', 'scripts/validate_wp01.py']"
+    },
+    {
+      "pass": true,
+      "check": "Command exit ['python', '-m', 'unittest', 'discover', '-s', 'tests', '-v']"
+    },
+    {
+      "pass": true,
+      "check": "Command exit ['git', 'diff', '--check']"
+    },
+    {
+      "pass": true,
+      "check": "Command exit ['git', 'diff', '--stat']"
+    },
+    {
+      "pass": true,
+      "check": "Command exit ['git', 'status', '--short', '--branch']"
+    },
+    {
+      "pass": true,
+      "check": "Command exit ['git', 'diff', '--', '03_dataset_discovery/source_verification/WP-01_EVIDENCE_REGISTRY.csv']"
+    },
+    {
+      "pass": true,
+      "check": "WP00 expected frozen-phase four failures retained"
+    }
+  ],
+  "commands": [
+    {
+      "command": [
+        "python",
+        "scripts/validate_wp01.py"
+      ],
+      "exit_code": 0,
+      "stdout": "PASS | Nonempty WP-01 deliverable: 03_dataset_discovery/source_verification/C01_SOURCE_VERIFICATION.md\nPASS | Nonempty WP-01 deliverable: 04_dataset_candidates/C01_substrate_contamination/reports/WP-01_C01_FEASIBILITY.md\nPASS | Nonempty WP-01 deliverable: 03_dataset_discovery/source_verification/C02_SOURCE_VERIFICATION.md\nPASS | Nonempty WP-01 deliverable: 04_dataset_candidates/C02_mushr_harvest_readiness/reports/WP-01_C02_FEASIBILITY.md\nPASS | Nonempty WP-01 deliverable: 03_dataset_discovery/source_verification/C02_VS_DS02_IDENTITY_CHECK.md\nPASS | Nonempty WP-01 deliverable: 03_dataset_discovery/dataset_comparisons/WP-01_CANDIDATE_COMPARISON.md\nPASS | Nonempty WP-01 deliverable: 03_dataset_discovery/source_verification/WP-01_EVIDENCE_REGISTRY.csv\nPASS | Nonempty WP-01 deliverable: 03_dataset_discovery/source_verification/WP-01_UNRESOLVED_QUESTIONS.md\nPASS | Nonempty WP-01 deliverable: setup_reports/WP-01_SOURCE_VERIFICATION_REPORT.md\nPASS | WP-01 Evidence Registry header matches schema\nPASS | Evidence registry has comprehensive claim coverage (found 70 claims)\nPASS | All claim evidence_status in allowed vocabulary (invalid: [])\nPASS | All claims have non-empty text and source pointers (empty: [])\nPASS | Candidates C01 and C02 registered\nPASS | C01 marked SOURCE_VERIFIED_METADATA_ONLY\nPASS | C02 marked SOURCE_VERIFIED_METADATA_AND_CODE\nPASS | Candidate QC remains NOT_VERIFIED\nPASS | Candidate selection decision remains PENDING\nPASS | Primary MushR paper P001 registered\nPASS | P001 DOI matches 10.3390/agriculture13081533\nPASS | P001 verification_status is FULL_TEXT_REVIEWED\nPASS | Related C01 paper P002 (Bacanto 2026) registered\nPASS | DS-02 hf55tkx489 remains EXCLUDED\nPASS | Only confirmed DS-02 exclusion in registry\nPASS | Phase 0 preserved\nPASS | Current work package is WP-01\nPASS | dataset_selected remains False\nPASS | training_authorized remains False\nPASS | current_gate is G0\nPASS | All G0–G6 gates remain NEEDS_MORE_EVIDENCE\nPASS | C01 G0 recommendation is NEEDS_MORE_EVIDENCE\nPASS | C02 G0 recommendation is NEEDS_MORE_EVIDENCE\nPASS | Zero dataset/media/checkpoint payloads in workspace (found: [])\nPASS | Payload storage raw is empty (found: [])\nPASS | Payload storage raw is empty (found: [])\nPASS | Payload storage runs is empty (found: [])\nPASS | Payload storage checkpoints is empty (found: [])\nPASS | Payload storage external_test_data is empty (found: [])\n\nWP-01 validation: 38 PASS / 0 FAIL\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "test_checkpoint_extension_rejected_without_model_content (test_workspace.RejectionTests.test_checkpoint_extension_rejected_without_model_content) ... ok\ntest_malformed_csv_header_rejected (test_workspace.RejectionTests.test_malformed_csv_header_rejected) ... ok\ntest_missing_exclusion_rejected (test_workspace.RejectionTests.test_missing_exclusion_rejected) ... ok\ntest_missing_protocol_rejected (test_workspace.RejectionTests.test_missing_protocol_rejected) ... ok\ntest_non_payload_text_in_raw_storage_rejected (test_workspace.RejectionTests.test_non_payload_text_in_raw_storage_rejected) ... ok\ntest_wp00_validator_flags_wp01_transition (test_workspace.WorkspaceTests.test_wp00_validator_flags_wp01_transition)\nOriginal WP-00 validator strictly enforces WP-00 state and must flag WP-01 transition. ... ok\ntest_wp01_validator_accepts_clean_workspace (test_workspace.WorkspaceTests.test_wp01_validator_accepts_clean_workspace) ... ok\ntest_wp01_validator_rejects_missing_deliverable (test_workspace.WorkspaceTests.test_wp01_validator_rejects_missing_deliverable) ... ok\ntest_wp01_validator_rejects_unauthorized_training (test_workspace.WorkspaceTests.test_wp01_validator_rejects_unauthorized_training) ... ok\n\n----------------------------------------------------------------------\nRan 9 tests in 3.137s\n\nOK\n"
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--stat"
+      ],
+      "exit_code": 0,
+      "stdout": " 03_dataset_discovery/source_verification/WP-01_EVIDENCE_REGISTRY.csv | 5 +++++\n 1 file changed, 5 insertions(+)\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "status",
+        "--short",
+        "--branch"
+      ],
+      "exit_code": 0,
+      "stdout": "## research/wp-02-feasibility-audit...origin/research/wp-02-feasibility-audit\n M 03_dataset_discovery/source_verification/WP-01_EVIDENCE_REGISTRY.csv\n?? 03_dataset_discovery/dataset_comparisons/WP-02_FEASIBILITY_COMPARISON.md\n?? 03_dataset_discovery/screening_reports/WP-02_RESEARCH_SELECTION_READINESS.md\n?? 03_dataset_discovery/source_verification/WP-01_QC_ADDENDUM.md\n?? 04_dataset_candidates/C01_substrate_contamination/qc/image_inventory.csv\n?? 04_dataset_candidates/C01_substrate_contamination/qc/wp02_c01_download_manifest.csv\n?? 04_dataset_candidates/C01_substrate_contamination/qc/wp02_c01_statistics.json\n?? 04_dataset_candidates/C01_substrate_contamination/qc/wp02_evidence/\n?? 04_dataset_candidates/C01_substrate_contamination/reports/WP-02_C01_DATA_FEASIBILITY.md\n?? 04_dataset_candidates/C02_mushr_harvest_readiness/dataset_metadata/MushR_Dataset_2023_06_29_TEST-COCO.json\n?? 04_dataset_candidates/C02_mushr_harvest_readiness/dataset_metadata/MushR_Dataset_V1.1_2023_04_04-COCO.json\n?? 04_dataset_candidates/C02_mushr_harvest_readiness/qc/coco_annotation_statistics.json\n?? 04_dataset_candidates/C02_mushr_harvest_readiness/qc/wp02_c02_download_manifest.csv\n?? 04_dataset_candidates/C02_mushr_harvest_readiness/qc/wp02_evidence/\n?? 04_dataset_candidates/C02_mushr_harvest_readiness/reports/WP-02_C02_ANNOTATION_AUDIT.md\n?? 04_dataset_candidates/C02_mushr_harvest_readiness/reports/WP-02_C02_IMAGE_LINKAGE.md\n?? 12_reproducibility/manifests/WP-02_DOWNLOAD_MANIFEST.csv\n?? setup_reports/WP-02_FEASIBILITY_AUDIT_REPORT.md\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--",
+        "03_dataset_discovery/source_verification/WP-01_EVIDENCE_REGISTRY.csv"
+      ],
+      "exit_code": 0,
+      "stdout": "diff --git a/03_dataset_discovery/source_verification/WP-01_EVIDENCE_REGISTRY.csv b/03_dataset_discovery/source_verification/WP-01_EVIDENCE_REGISTRY.csv\nindex 18f331e..52ecbb1 100644\n--- a/03_dataset_discovery/source_verification/WP-01_EVIDENCE_REGISTRY.csv\n+++ b/03_dataset_discovery/source_verification/WP-01_EVIDENCE_REGISTRY.csv\n@@ -64,3 +64,8 @@ CLM-DS02-01,\"Excluded dataset DS-02 (hf55tkx489.1) was collected by Sonay Duman\n CLM-DS02-02,\"Candidate C02 (MushR) was collected by Anant Sujatanagarjuna et al. at TU Clausthal in Clausthal-Zellerfeld, Germany using 6 Raspberry Pi cameras and reusable mushroom pods in two growth tents.\",C02,\"MushR: A Smart, Automated, and Scalable Indoor Harvesting System for Gourmet Mushrooms\",10.3390/agriculture13081533,PUBLISHER_FULL_TEXT,2023-08-01,2026-10-23T17:15:00+07:00,\"Agriculture 2023, 13, 1533, Section 4.1\",VERIFIED_FROM_PRIMARY_SOURCE,High,Documented in peer-reviewed publisher full text.\n CLM-DS02-03,\"C02 and DS-02 are CONFIRMED_DISTINCT in institution, authors, geographic collection location, physical apparatus, camera setup, and dataset identifiers.\",C02,WP-01 Identity Comparison Dossier,D:/Capstone/mushroom-research-2026/03_dataset_discovery/source_verification/C02_VS_DS02_IDENTITY_CHECK.md,PRIMARY_SOURCE_COMPARISON,2026-10-23,2026-10-23T17:15:00+07:00,C02_VS_DS02_IDENTITY_CHECK.md,VERIFIED_FROM_PRIMARY_SOURCE,High for provenance distinctness; pixel deduplication not performed,Confirmed independent origin. No DS-02 data imported or reused.\n CLM-DS02-04,\"Candidate C01 (Mushroom Disease Dataset) is CONFIRMED_DISTINCT from DS-02 in task (substrate bag contamination vs fruit-body maturity), contributors, and institution.\",C01,\"Mushroom Disease Dataset (Healthy, Single Infected & Mixed Infected)\",10.17632/jrbx34k77g.2,DATASET_LANDING_AND_DATACITE,2025-06-30,2026-10-23T17:15:00+07:00,Mendeley Data DOI 10.17632/jrbx34k77g.2,VERIFIED_FROM_PRIMARY_SOURCE,High,\"Completely different problem domain, contributors, and provenance.\"\n+WP02-COR-001,Author README already designates training and testing COCO JSON files; absence of JSON in Kaggle listing does not establish annotation unavailability. Supersedes annotation-source incompleteness in WP01 synthesis.,C02,WP-02 QC correction; original WP01 rows preserved,https://github.com/ETCE-LAB/mushr-mask-r-cnn/blob/e8a0493b193c15c5f6129d89d7f14d89e84a8868/README.md,LOCAL_SOURCE_AND_AUDIT_REVIEW,2026-10-30,2026-10-30T11:15:06.493286+07:00,Annotations section; WP01 saved README,VERIFIED_FROM_PRIMARY_SOURCE,High for stated scope,Correction only; no scientific gate passed or training authorized.\n+WP02-COR-002,\"PROVENANCE_DISTINCT_IMAGE_OVERLAP_NOT_TESTED: provenance evidence is distinct, but no image-level comparison against excluded DS-02 was performed. Qualifies CLM-DS02-03/04 and identity-report zero-overlap/risk wording.\",C02,WP-02 QC correction; original WP01 rows preserved,03_dataset_discovery/source_verification/WP-01_QC_ADDENDUM.md,LOCAL_SOURCE_AND_AUDIT_REVIEW,2026-10-30,2026-10-30T11:15:06.493286+07:00,Section2; prior evidence CLM-DS02-03/04 and identity report,INFERRED,High for stated scope,Correction only; no scientific gate passed or training authorized.\n+WP02-COR-003,NO_EXACT_DATASET_PAPER_CONFIRMED: bounded WP01 search cannot establish absence of all papers or benchmarks. Narrower WP01-020 remains the supported scope.,C01,WP-02 QC correction; original WP01 rows preserved,03_dataset_discovery/source_verification/wp01_c01_evidence/claims.csv,LOCAL_SOURCE_AND_AUDIT_REVIEW,2026-10-30,2026-10-30T11:15:06.493286+07:00,WP01-020; WP01 bounded search log,INFERRED,High for stated scope,Correction only; no scientific gate passed or training authorized.\n+WP02-COR-004,\"Prior local/cloud training-time, resource and model-size estimates were not measured; treat as UNVERIFIED, not computational acceptance evidence.\",C01;C02,WP-02 QC correction; original WP01 rows preserved,03_dataset_discovery/source_verification/WP-01_QC_ADDENDUM.md,LOCAL_SOURCE_AND_AUDIT_REVIEW,2026-10-30,2026-10-30T11:15:06.493286+07:00,Section4; historical feasibility reports,UNVERIFIED,High for stated scope,Correction only; no scientific gate passed or training authorized.\n+WP02-COR-005,Historical WP01 clean-tree wording was incorrect at generation time; current WP01 reports/evidence are preserved in da1688a and WP02 preflight began clean at f50f946.,PROJECT,WP-02 QC correction; original WP01 rows preserved,03_dataset_discovery/source_verification/WP-01_QC_ADDENDUM.md,LOCAL_SOURCE_AND_AUDIT_REVIEW,2026-10-30,2026-10-30T11:15:06.493286+07:00,Section5; git status/log/ls-files,VERIFIED_FROM_PRIMARY_SOURCE,High for stated scope,Correction only; no scientific gate passed or training authorized.\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "scripts/validate_workspace.py"
+      ],
+      "exit_code": 1,
+      "stdout": "PASS | Directory: 00_project_management\nPASS | Directory: 00_project_management/meetings\nPASS | Directory: 00_project_management/milestones\nPASS | Directory: 00_project_management/weekly_reports\nPASS | Directory: 01_domain_research\nPASS | Directory: 01_domain_research/cultivation_workflows\nPASS | Directory: 01_domain_research/environmental_factors\nPASS | Directory: 01_domain_research/field_evidence\nPASS | Directory: 01_domain_research/harvest_practices\nPASS | Directory: 01_domain_research/pain_points\nPASS | Directory: 01_domain_research/terminology\nPASS | Directory: 02_literature_review\nPASS | Directory: 02_literature_review/methodology_comparison\nPASS | Directory: 02_literature_review/paper_summaries\nPASS | Directory: 02_literature_review/papers\nPASS | Directory: 02_literature_review/research_gap_analysis\nPASS | Directory: 03_dataset_discovery\nPASS | Directory: 03_dataset_discovery/candidate_registry\nPASS | Directory: 03_dataset_discovery/dataset_comparisons\nPASS | Directory: 03_dataset_discovery/excluded_datasets\nPASS | Directory: 03_dataset_discovery/screening_reports\nPASS | Directory: 03_dataset_discovery/source_verification\nPASS | Directory: 04_dataset_candidates\nPASS | Directory: 04_dataset_candidates/C01_substrate_contamination\nPASS | Directory: 04_dataset_candidates/C01_substrate_contamination/analysis\nPASS | Directory: 04_dataset_candidates/C01_substrate_contamination/dataset_metadata\nPASS | Directory: 04_dataset_candidates/C01_substrate_contamination/literature\nPASS | Directory: 04_dataset_candidates/C01_substrate_contamination/qc\nPASS | Directory: 04_dataset_candidates/C01_substrate_contamination/raw\nPASS | Directory: 04_dataset_candidates/C01_substrate_contamination/reports\nPASS | Directory: 04_dataset_candidates/C01_substrate_contamination/source\nPASS | Directory: 04_dataset_candidates/C02_mushr_harvest_readiness\nPASS | Directory: 04_dataset_candidates/C02_mushr_harvest_readiness/analysis\nPASS | Directory: 04_dataset_candidates/C02_mushr_harvest_readiness/dataset_metadata\nPASS | Directory: 04_dataset_candidates/C02_mushr_harvest_readiness/literature\nPASS | Directory: 04_dataset_candidates/C02_mushr_harvest_readiness/qc\nPASS | Directory: 04_dataset_candidates/C02_mushr_harvest_readiness/raw\nPASS | Directory: 04_dataset_candidates/C02_mushr_harvest_readiness/reports\nPASS | Directory: 04_dataset_candidates/C02_mushr_harvest_readiness/source\nPASS | Directory: 05_research_protocols\nPASS | Directory: 06_selected_research\nPASS | Directory: 07_source_code\nPASS | Directory: 07_source_code/data\nPASS | Directory: 07_source_code/evaluation\nPASS | Directory: 07_source_code/features\nPASS | Directory: 07_source_code/models\nPASS | Directory: 07_source_code/training\nPASS | Directory: 07_source_code/utils\nPASS | Directory: 08_experiments\nPASS | Directory: 08_experiments/checkpoints\nPASS | Directory: 08_experiments/comparisons\nPASS | Directory: 08_experiments/configs\nPASS | Directory: 08_experiments/runs\nPASS | Directory: 09_results\nPASS | Directory: 09_results/error_analysis\nPASS | Directory: 09_results/metrics\nPASS | Directory: 09_results/reports\nPASS | Directory: 09_results/statistical_analysis\nPASS | Directory: 09_results/visualizations\nPASS | Directory: 10_research_paper\nPASS | Directory: 10_research_paper/drafts\nPASS | Directory: 10_research_paper/figures\nPASS | Directory: 10_research_paper/outline\nPASS | Directory: 10_research_paper/references\nPASS | Directory: 10_research_paper/submission\nPASS | Directory: 10_research_paper/tables\nPASS | Directory: 11_field_validation\nPASS | Directory: 11_field_validation/deployment_feasibility\nPASS | Directory: 11_field_validation/external_test_data\nPASS | Directory: 11_field_validation/protocols\nPASS | Directory: 11_field_validation/validation_reports\nPASS | Directory: 12_reproducibility\nPASS | Directory: 12_reproducibility/dependency_snapshots\nPASS | Directory: 12_reproducibility/environments\nPASS | Directory: 12_reproducibility/manifests\nPASS | Directory: scripts\nPASS | Directory: setup_reports\nPASS | Directory: tests\nPASS | Nonempty file: .gitattributes\nPASS | Nonempty file: .gitignore\nPASS | Nonempty file: 00_project_management/DECISION_LOG.md\nPASS | Nonempty file: 00_project_management/PROJECT_CHARTER.md\nPASS | Nonempty file: 00_project_management/RESEARCH_STATUS.md\nPASS | Nonempty file: 00_project_management/TASK_BOARD.md\nPASS | Nonempty file: 00_project_management/project_state.json\nPASS | Nonempty file: 01_domain_research/OPEN_QUESTIONS.md\nPASS | Nonempty file: 02_literature_review/PAPER_REGISTRY.csv\nPASS | Nonempty file: 02_literature_review/RESEARCH_GAP_MATRIX.csv\nPASS | Nonempty file: 03_dataset_discovery/DATASET_SELECTION_CRITERIA.md\nPASS | Nonempty file: 03_dataset_discovery/candidate_registry/CANDIDATE_REGISTRY.csv\nPASS | Nonempty file: 03_dataset_discovery/excluded_datasets/EXCLUDED_DATASETS.csv\nPASS | Nonempty file: 04_dataset_candidates/C01_substrate_contamination/README.md\nPASS | Nonempty file: 04_dataset_candidates/C02_mushr_harvest_readiness/README.md\nPASS | Nonempty file: 05_research_protocols/DATASET_QC_PROTOCOL.md\nPASS | Nonempty file: 05_research_protocols/DATASET_SCREENING_PROTOCOL.md\nPASS | Nonempty file: 05_research_protocols/DATA_LEAKAGE_CHECKLIST.md\nPASS | Nonempty file: 05_research_protocols/EXPERIMENT_PROTOCOL.md\nPASS | Nonempty file: 05_research_protocols/REPRODUCIBILITY_PROTOCOL.md\nPASS | Nonempty file: 05_research_protocols/RESEARCH_GATES.md\nPASS | Nonempty file: 06_selected_research/README.md\nPASS | Nonempty file: 08_experiments/experiment_registry.csv\nPASS | Nonempty file: 12_reproducibility/CLOUD_EXECUTION_GUIDE.md\nPASS | Nonempty file: 12_reproducibility/manifests/EVIDENCE_TEMPLATE.md\nPASS | Nonempty file: 12_reproducibility/manifests/workspace_requirements.json\nPASS | Nonempty file: README.md\nPASS | Nonempty file: START_HERE.md\nPASS | Nonempty file: scripts/show_project_status.py\nPASS | Nonempty file: scripts/validate_workspace.py\nPASS | Nonempty file: setup_reports/WP-00_SETUP_REPORT.md\nPASS | Nonempty file: tests/test_workspace.py\nPASS | CSV header: 03_dataset_discovery/candidate_registry/CANDIDATE_REGISTRY.csv\nPASS | CSV row widths: 03_dataset_discovery/candidate_registry/CANDIDATE_REGISTRY.csv\nPASS | CSV header: 03_dataset_discovery/excluded_datasets/EXCLUDED_DATASETS.csv\nPASS | CSV row widths: 03_dataset_discovery/excluded_datasets/EXCLUDED_DATASETS.csv\nPASS | CSV header: 02_literature_review/PAPER_REGISTRY.csv\nPASS | CSV row widths: 02_literature_review/PAPER_REGISTRY.csv\nPASS | CSV header: 02_literature_review/RESEARCH_GAP_MATRIX.csv\nPASS | CSV row widths: 02_literature_review/RESEARCH_GAP_MATRIX.csv\nPASS | CSV header: 08_experiments/experiment_registry.csv\nPASS | CSV row widths: 08_experiments/experiment_registry.csv\nPASS | Unique C01 and C02 records exist\nFAIL | Candidate claims remain unverified/unselected\nPASS | DS-02 hf55tkx489 explicitly excluded\nPASS | Only user-confirmed exclusion initialized\nPASS | No fictional experiments\nPASS | No invented research gaps\nFAIL | Only supplied unverified paper source; no invented metadata\nFAIL | Phase 0 / WP-00 preserved\nPASS | No selection/training/scientific completion authorized\nPASS | All G0–G6 unpassed\nFAIL | Next package is WP-01; not started\nPASS | Human-readable status matches initialization metadata/date\nPASS | No symlinks/junctions importing external artifacts: []\nPASS | No dataset/media/archive/model payloads anywhere: []\nPASS | Empty WP-00 payload storage: 04_dataset_candidates/C01_substrate_contamination/raw []\nPASS | Empty WP-00 payload storage: 04_dataset_candidates/C02_mushr_harvest_readiness/raw []\nPASS | Empty WP-00 payload storage: 08_experiments/runs []\nPASS | Empty WP-00 payload storage: 08_experiments/checkpoints []\nPASS | Empty WP-00 payload storage: 11_field_validation/external_test_data []\n\nWP-00 validation: 135 PASS / 4 FAIL\n",
+      "stderr": ""
+    }
+  ],
+  "required_file_sha256": {
+    "04_dataset_candidates/C01_substrate_contamination/reports/WP-02_C01_DATA_FEASIBILITY.md": "5538605580017aad554b27343387b56f763c81090f607a1fb1192309a51b4185",
+    "04_dataset_candidates/C02_mushr_harvest_readiness/reports/WP-02_C02_ANNOTATION_AUDIT.md": "6222fc8a46acb01177e13f715f68946b856b92a4a78ab640b83a8042a64a8e2a",
+    "04_dataset_candidates/C02_mushr_harvest_readiness/reports/WP-02_C02_IMAGE_LINKAGE.md": "9027c963379ede034eae366978889985918d158b4d02a922aeb72c028e37ee20",
+    "03_dataset_discovery/dataset_comparisons/WP-02_FEASIBILITY_COMPARISON.md": "7a90ae12939a6f8d1a8a0470f3952735f75dfc10095886284e0c769f3634e959",
+    "03_dataset_discovery/source_verification/WP-01_QC_ADDENDUM.md": "59e5f0756d2c8100a370ad9874597f205c269dd2bdc6e34e64fc2b8bdf063c3c",
+    "03_dataset_discovery/screening_reports/WP-02_RESEARCH_SELECTION_READINESS.md": "391046d74ba5dd99ecb6cb6fa4aaa8b30a854058d410b877286cb3555c253842",
+    "setup_reports/WP-02_FEASIBILITY_AUDIT_REPORT.md": "e6b7b08cfa0a7561035c2e9b357a658671ea1eee55d4d2a7d4e7d774ce2ecdba",
+    "04_dataset_candidates/C02_mushr_harvest_readiness/qc/coco_annotation_statistics.json": "943cc19fd1ce2aa77de66489efd537dae7641ce236c42214ad9c306b8bacf7f6",
+    "04_dataset_candidates/C01_substrate_contamination/qc/image_inventory.csv": "9e106ad688083ffb9dafdb3b73e4a8417e2f1cfd3f341c2d59bd257daa2a8a83",
+    "12_reproducibility/manifests/WP-02_DOWNLOAD_MANIFEST.csv": "a55016aa278f68e4dcf76c0003351e6cf1b5f710b393150282269f234fe6594a"
+  },
+  "result": "PASS_CONDITIONAL_BLOCKED_INPUTS",
+  "notes": "No C01 images available; C02 heldout metadata overlap; no pixel audit; no training or selection. Existing WP01 tests compatible and preserved."
+}

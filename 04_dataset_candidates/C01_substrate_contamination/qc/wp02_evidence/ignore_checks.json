@@ -1,0 +1,17 @@
+[
+  {
+    "path": "source/C01_v2_original.zip",
+    "returncode": 0,
+    "stdout": ".gitignore:60:*.zip\t\"D:\\\\Capstone\\\\mushroom-research-2026\\\\04_dataset_candidates\\\\C01_substrate_contamination\\\\source\\\\C01_v2_original.zip\""
+  },
+  {
+    "path": "source/C01_v2_metadata.json",
+    "returncode": 1,
+    "stdout": ""
+  },
+  {
+    "path": "raw/example.jpg",
+    "returncode": 0,
+    "stdout": ".gitignore:36:*.jpg\t\"D:\\\\Capstone\\\\mushroom-research-2026\\\\04_dataset_candidates\\\\C01_substrate_contamination\\\\raw\\\\example.jpg\""
+  }
+]
