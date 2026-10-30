@@ -1,0 +1,12 @@
+[
+  {
+    "version": 1,
+    "publish_date": "2025-06-16",
+    "available": true
+  },
+  {
+    "version": 2,
+    "publish_date": "2025-06-30",
+    "available": true
+  }
+]

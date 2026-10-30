@@ -1,0 +1,144 @@
+Automating Mushroom Culture Classification: A Machine Learning Approach
+The Science and Information (SAI) Organization publishes open-access peer-reviewed journals in computer science and artificial intelligence.
+Contact Info
+Email
+info@thesai.org
+Website
+thesai.org
+Follow Us
+Contact Info
+Email
+info@thesai.org
+Follow Us
+Home
+Journals
+Publication Links
+All Journals
+Author Guidelines
+Publication Policies
+Outstanding Reviewers
+IJACSA
+About the Journal
+Call for Papers
+Editorial Board
+Author Guidelines
+Submit your Paper
+Current Issue
+Archives
+Indexing
+Fees / APC
+Reviewers
+Apply as a Reviewer
+Special Issues
+Home
+Archives
+Proposals
+Conferences
+Computer Vision Conference (CVC)
+15–16 Apr 2027 · Amsterdam
+Computing Conference
+8–9 Jul 2027 · London
+Intelligent Systems Conference (IntelliSys)
+2–3 Sep 2027 · Amsterdam
+Future Technologies Conference (FTC)
+15–16 Oct 2026 · Berlin
+About Us
+Contact Us
+Publications
+IJACSA
+Vol. 15, Issue 4
+Paper 54
+Research Article
+|
+Open Access
+|
+Automating Mushroom Culture Classification: A Machine Learning Approach
+Author 1: Hamimah Ujir
+Author 2: Irwandi Hipiny
+Author 3: Mohamad Hasnul Bolhassan
+Author 4: Ku Nurul Fazira Ku Azir
+Author 5: SA Ali
+International Journal of Advanced Computer Science and Applications (IJACSA)
+·
+Vol. 15, No. 4
+·
+Published 2024
+DOI:
+10.14569/IJACSA.2024.0150454
+Download PDF
+Cite
+Call for Papers
+Abstract
+Traditionally, the classification of mushroom cultures has conventionally relied on manual inspection by human experts. However, this methodology is susceptible to human bias and errors, primarily due to its dependency on individual judgments. To overcome these limitations, we introduce an innovative approach that harnesses machine learning methodologies to automate the classification of mushroom cultures. Our methodology employs two distinct strategies: the first involves utilizing the histogram profile of the HSV color space, while the second employs a convolutional neural network (CNN)-based technique. We evaluated a dataset of 1400 images from two strains of Pleurotus ostreatus mycelium samples over a period of 14 days. During the cultivation phase, we base our operations on the histogram profiles of the masked areas. The application of the HSV histogram profile led to an average precision of 74.6% for phase 2, with phase 3 yielding a higher precision of 95.2%. For CNN-based method, the discriminative image features are extracted from captured images of rhizomorph mycelium growth. These features are then used to train a machine learning model that can accurately estimate the growth rate of a rhizomorph mycelium culture and predict contamination status. Using MNet and MConNet approach, our results achieved an average accuracy of 92.15% for growth prediction and 97.81% for contamination prediction. Our results suggest that computer-based approaches could revolutionize the mushroom cultivation industry by making it more efficient and productive. Our approach is less prone to human error than manual inspection, and it can be used to produce mushrooms more efficiently and with higher quality.
+Keywords
+Machine learning
+convolution neural networks
+mushroom cultivation
+rhizomorph mycelium
+How to Cite this Article
+APA
+MLA
+BibTeX
+Ujir, H., Hipiny, I., Bolhassan, M. H., Azir, K. N. F. K., & Ali, S. (2024). Automating Mushroom Culture Classification: A Machine Learning Approach. International Journal of Advanced Computer Science and Applications, 15(4). https://doi.org/10.14569/IJACSA.2024.0150454
+Copy
+Ujir, Hamimah, et al.. "Automating Mushroom Culture Classification: A Machine Learning Approach." International Journal of Advanced Computer Science and Applications, vol. 15, no. 4, 2024, https://doi.org/10.14569/IJACSA.2024.0150454.
+Copy
+@article{Ujir2024,
+  title     = {Automating Mushroom Culture Classification: A Machine Learning Approach},
+  journal   = {International Journal of Advanced Computer Science and Applications},
+  volume    = {15},
+  number    = {4},
+  year      = {2024},
+  publisher = {The Science and Information Organization},
+  author    = {Hamimah Ujir and Irwandi Hipiny and Mohamad Hasnul Bolhassan and Ku Nurul Fazira Ku Azir and SA Ali},
+  doi       = {10.14569/IJACSA.2024.0150454},
+  url       = {https://doi.org/10.14569/IJACSA.2024.0150454}
+}
+Copy
+Open Access — licensed under a
+Creative Commons Attribution 4.0 International License
+.
+                                Unrestricted use, distribution, and reproduction in any medium, even commercially, as long as the original work is properly cited.
+Back to Issue
+Call for Papers - Important Dates
+Volume 17 No. 11, November 2026
+Paper Submission Due
+October 25, 2026
+Review Notification
+November 15, 2026
+Publication Date
+November 30, 2026
+Call for Papers
+Submit Paper
+IJACSA Quick Links
++
+IJACSA
+Home
+Call for Papers
+Editorial Board
+Author Guidelines
+Submit a Paper
+Current Issue
+Archives
+Indexing
+Fees / APC
+Reviewers
+The Science and Information (SAI) Organization - advancing knowledge through open-access peer-reviewed research.
+Computer Science Journal
+About the Journal
+Call for Papers
+Submit Paper
+Indexing
+Our Conferences
+Computer Vision Conference
+Computing Conference
+Intelligent Systems Conference
+Future Technologies Conference
+Help & Support
+Contact Us
+About Us
+Blog
+Terms and Conditions
+Privacy Policy
+info@thesai.org
+© 2026 The Science and Information (SAI) Organization. All rights reserved.

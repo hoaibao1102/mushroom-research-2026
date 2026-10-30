@@ -1,0 +1,413 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://data.mendeley.com/datasets/jrbx34k77g/2",
+      "title": "c01_v2",
+      "accessed": "2026-10-23",
+      "quotes": [
+        {
+          "text": "The dataset comprises a total of 761 high-resolution images, including 299 healthy samples, 147 single-infected samples, and 315 mixed-infected samples.",
+          "added": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "url": "https://data.mendeley.com/datasets/jrbx34k77g/1",
+      "title": "c01_v1",
+      "accessed": "2026-10-23",
+      "quotes": [
+        {
+          "text": "The dataset comprises a total of 680 high-resolution images, including 299 healthy samples, 72 single-infected ones, and 309 mixed-infected images.",
+          "added": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "url": "https://data.mendeley.com/datasets/hf55tkx489/1",
+      "title": "excluded_ds02_v1",
+      "accessed": "2026-10-23",
+      "quotes": [
+        {
+          "text": "Annotated Oyster Mushroom Images",
+          "added": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "url": "https://api.datacite.org/dois/10.17632/jrbx34k77g.2",
+      "title": "c01_datacite_v2",
+      "accessed": "2026-10-23",
+      "quotes": [
+        {
+          "text": "Creative Commons Attribution 4.0 International",
+          "added": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "url": "https://api.datacite.org/dois/10.17632/jrbx34k77g.1",
+      "title": "c01_datacite_v1",
+      "accessed": "2026-10-23",
+      "quotes": [
+        {
+          "text": "Mushroom Disease Dataset",
+          "added": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "url": "https://data.mendeley.com/public-api/datasets/jrbx34k77g/versions",
+      "title": "c01_versions_api",
+      "accessed": "2026-10-23",
+      "quotes": [
+        {
+          "text": "[\n  {\n    \"version\": 1,\n    \"publish_date\": \"2025-06-16\",\n    \"available\": true\n  },\n  {\n    \"version\": 2,\n    \"publish_date\": \"2025-06-30\",\n    \"available\": true\n  }\n]",
+          "added": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "url": "https://data.mendeley.com/public-api/datasets/jrbx34k77g/versions/2",
+      "title": "c01_api_v2",
+      "accessed": "2026-10-23"
+    },
+    {
+      "id": 8,
+      "url": "https://api.datacite.org/dois/10.17632/hf55tkx489.1",
+      "title": "ds02_datacite",
+      "accessed": "2026-10-23",
+      "quotes": [
+        {
+          "text": "Annotated Oyster Mushroom Images",
+          "added": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "url": "https://api.crossref.org/works?query=%2210.17632%2Fjrbx34k77g.2%22&rows=12&filter=from-pub-date%3A2024-01-01%2Cuntil-pub-date%3A2026-12-31",
+      "title": "search_crossref_exact_doi",
+      "accessed": "2026-10-23",
+      "quotes": [
+        {
+          "text": "[\n  \"title 17632\"\n]",
+          "added": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "url": "https://www.bing.com/search?q=%2210.17632%2Fjrbx34k77g.2%22",
+      "title": "search_bing_exact_doi",
+      "accessed": "2026-10-23",
+      "quotes": [
+        {
+          "text": "TikTok - Make Your Day",
+          "added": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "url": "https://api.crossref.org/works?query=%22jrbx34k77g%22&rows=12&filter=from-pub-date%3A2024-01-01%2Cuntil-pub-date%3A2026-12-31",
+      "title": "search_crossref_exact_stem",
+      "accessed": "2026-10-23"
+    },
+    {
+      "id": 12,
+      "url": "https://www.bing.com/search?q=%22jrbx34k77g%22",
+      "title": "search_bing_exact_stem",
+      "accessed": "2026-10-23",
+      "quotes": [
+        {
+          "text": "Bến xe Miền Tây",
+          "added": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "url": "https://api.crossref.org/works?query=mushroom+substrate+bag+contamination+classification&rows=12&filter=from-pub-date%3A2024-01-01%2Cuntil-pub-date%3A2026-12-31",
+      "title": "search_crossref_related_bags",
+      "accessed": "2026-10-23"
+    },
+    {
+      "id": 14,
+      "url": "https://www.bing.com/search?q=mushroom+substrate+bag+contamination+classification",
+      "title": "search_bing_related_bags",
+      "accessed": "2026-10-23"
+    },
+    {
+      "id": 15,
+      "url": "https://api.crossref.org/works?query=mushroom+green+mold+deep+learning+classification&rows=12&filter=from-pub-date%3A2024-01-01%2Cuntil-pub-date%3A2026-12-31",
+      "title": "search_crossref_related_mold",
+      "accessed": "2026-10-23"
+    },
+    {
+      "id": 16,
+      "url": "https://www.bing.com/search?q=mushroom+green+mold+deep+learning+classification",
+      "title": "search_bing_related_mold",
+      "accessed": "2026-10-23"
+    },
+    {
+      "id": 17,
+      "url": "https://api.crossref.org/works?query=%22Mushroom+Disease+Dataset%22+%22Mixed+Infected%22&rows=12&filter=from-pub-date%3A2024-01-01%2Cuntil-pub-date%3A2026-12-31",
+      "title": "search_crossref_exact_title",
+      "accessed": "2026-10-23"
+    },
+    {
+      "id": 18,
+      "url": "https://www.bing.com/search?q=%22Mushroom+Disease+Dataset%22+%22Mixed+Infected%22",
+      "title": "search_bing_exact_title",
+      "accessed": "2026-10-23"
+    },
+    {
+      "id": 19,
+      "url": "https://api.openalex.org/works?search=%22jrbx34k77g%22&per-page=20",
+      "title": "search_openalex_exact",
+      "accessed": "2026-10-23",
+      "quotes": [
+        {
+          "text": "{\n  \"meta\": {\n    \"notice\": \"No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\\\"email\\\": \\\"<your user's email>\\\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt\",\n    \"count\": 0,\n    \"db_response_time_ms\": 9,\n    \"page\": 1,\n    \"per_page\": 20,\n    \"groups_count\": null,\n    \"x_query\": {\n      \"oql\": \"get works where full text has (stemmed \\\"jrbx34k77g\\\")\",\n      \"x_new_oql\": \"get works with (stemmed \\\"jrbx34k77g\\\") in the full text\",\n      \"oqo\": {\n        \"get_rows\": \"works\",\n        \"filter_rows\": [\n          {\n            \"column_id\": \"fulltext.search\",\n            \"value\": \"\\\"jrbx34k77g\\\"\",\n            \"operator\": \"has\"\n          }\n        ]\n      },\n      \"url\": \"/works?filter=fulltext.search:%22jrbx34k77g%22&per_page=20\"\n    },\n    \"cost_usd\": 0.001\n  },\n  \"results\": [],\n  \"group_by\": []\n}",
+          "added": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "url": "https://data.mendeley.com/public-api/datasets/jrbx34k77g/files?folder_id=root&version=2",
+      "title": "c01_files_metadata",
+      "accessed": "2026-10-23"
+    },
+    {
+      "id": 21,
+      "url": "https://data.mendeley.com/public-api/datasets/jrbx34k77g/folders?folder_id=root&version=2",
+      "title": "c01_folders_metadata",
+      "accessed": "2026-10-23"
+    },
+    {
+      "id": 22,
+      "url": "https://data.mendeley.com/public-api/datasets/jrbx34k77g/files?version=2",
+      "title": "c01_files_no_folder",
+      "accessed": "2026-10-23",
+      "quotes": [
+        {
+          "text": "{\n  \"error\": 400\n}",
+          "added": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "url": "https://www.google.com/search?q=%22jrbx34k77g%22",
+      "title": "google_exact",
+      "accessed": "2026-10-23",
+      "quotes": [
+        {
+          "text": "Nếu bạn gặp vấn đề khi truy cập vào Google Tìm kiếm",
+          "added": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "url": "https://www.google.com/search?q=mushroom+bag+contamination+classification+2025+2026",
+      "title": "google_related",
+      "accessed": "2026-10-23",
+      "quotes": [
+        {
+          "text": "Nếu bạn gặp vấn đề khi truy cập vào Google Tìm kiếm",
+          "added": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "url": "https://api.openalex.org/works?search=mushroom+contamination+classification&filter=from_publication_date%3A2024-01-01%2Cto_publication_date%3A2026-10-23&per-page=30",
+      "title": "openalex_bags",
+      "accessed": "2026-10-23",
+      "quotes": [
+        {
+          "text": "Automating Mushroom Culture Classification",
+          "added": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "url": "https://api.crossref.org/works?query.title=mushroom+contamination+detection&rows=30&filter=from-pub-date%3A2024-01-01%2Cuntil-pub-date%3A2026-10-23",
+      "title": "crossref_bags_retry",
+      "accessed": "2026-10-23",
+      "quotes": [
+        {
+          "text": "Hybrid Feature Engineering",
+          "added": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "url": "https://api.crossref.org/works/10.1109/fet68771.2026.11601212",
+      "title": "paper_1_crossref",
+      "accessed": "2026-10-23",
+      "quotes": [
+        {
+          "text": "Hybrid Feature Engineering",
+          "added": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "url": "https://api.crossref.org/works/10.14569/ijacsa.2024.0150454",
+      "title": "paper_2_crossref",
+      "accessed": "2026-10-23",
+      "quotes": [
+        {
+          "text": "Automating Mushroom Culture Classification",
+          "added": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "url": "https://api.crossref.org/works/10.1109/icsses64899.2025.11009558",
+      "title": "paper_3_crossref",
+      "accessed": "2026-10-23",
+      "quotes": [
+        {
+          "text": "Automated Disease Detection",
+          "added": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "url": "https://api.crossref.org/works/10.1109/icaiset66439.2026.11542036",
+      "title": "paper_4_crossref",
+      "accessed": "2026-10-23",
+      "quotes": [
+        {
+          "text": "IoT-Based Automated Mushroom House",
+          "added": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "url": "https://api.crossref.org/works/10.57180/ngmd7490",
+      "title": "paper_5_crossref",
+      "accessed": "2026-10-23",
+      "quotes": [
+        {
+          "text": "Mushroom Disease Detection",
+          "added": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "url": "https://ieeexplore.ieee.org/document/11601212",
+      "title": "paper1_ieee",
+      "accessed": "2026-10-23",
+      "quotes": [
+        {
+          "text": "we need to verify that you're not a robot",
+          "added": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "url": "https://thesai.org/Publications/ViewPaper?Volume=15&Issue=4&Code=IJACSA&SerialNo=54",
+      "title": "paper2_publisher",
+      "accessed": "2026-10-23",
+      "quotes": [
+        {
+          "text": "We evaluated a dataset of 1400 images from two strains of Pleurotus ostreatus mycelium samples over a period of 14 days.",
+          "added": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "url": "https://data.mendeley.com/public-api/datasets/jrbx34k77g/versions/2/files",
+      "title": "c01_v2_public_api",
+      "accessed": "2026-10-23"
+    },
+    {
+      "id": 35,
+      "url": "https://data.mendeley.com/public-api/datasets/jrbx34k77g/versions/1/files",
+      "title": "c01_v1_public_api",
+      "accessed": "2026-10-23"
+    },
+    {
+      "id": 36,
+      "url": "https://ieeexplore.ieee.org/abstract/document/11601212",
+      "title": "paper1_ieee_alternative",
+      "accessed": "2026-10-23",
+      "quotes": [
+        {
+          "text": "a dataset comprising healthy, green mold, black mold fruiting bags was collected from mushroom farms in Laguna.",
+          "added": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "url": "https://api.openalex.org/works/https://doi.org/10.1109/fet68771.2026.11601212",
+      "title": "paper1_repository_search",
+      "accessed": "2026-10-23"
+    },
+    {
+      "id": 38,
+      "url": "https://www.thelight-explorer.com/mushroom-disease-detection-and-classification-with-decision-support",
+      "title": "paper5_publisher",
+      "accessed": "2026-10-23"
+    },
+    {
+      "id": 39,
+      "url": "https://api.crossref.org/works/10.58532/nbennurngcdb1p1c2",
+      "title": "chapter2026_crossref",
+      "accessed": "2026-10-23",
+      "quotes": [
+        {
+          "text": "AUTOMATING MUSHROOM CULTURE CLASSIFICATION",
+          "added": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "url": "https://api.crossref.org/works?query=jrbx34k77g&rows=20",
+      "title": "exact_crossref_retry",
+      "accessed": "2026-10-23",
+      "quotes": [
+        {
+          "text": "{\n  \"status\": \"ok\",\n  \"message-type\": \"work-list\",\n  \"message-version\": \"1.0.0\",\n  \"message\": {\n    \"facets\": {},\n    \"total-results\": 0,\n    \"items\": [],\n    \"items-per-page\": 20,\n    \"query\": {\n      \"start-index\": 0,\n      \"search-terms\": \"jrbx34k77g\"\n    }\n  }\n}",
+          "added": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "url": "https://data.mendeley.com/api/datasets-v2/datasets/jrbx34k77g/versions/2/files",
+      "title": "c01_files_api_alt",
+      "accessed": "2026-10-23"
+    },
+    {
+      "id": 42,
+      "url": "https://data.mendeley.com/public-api/datasets/jrbx34k77g/folders?version=2",
+      "title": "c01_folders_api_alt",
+      "accessed": "2026-10-23"
+    }
+  ]
+}

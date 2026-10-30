@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://github.com/ETCE-LAB/MushR/blob/b22cf285402b816bbd477d83ca63c5c0265d0483/README.md",
+      "title": "MushR/README.md",
+      "accessed": "2026-10-23"
+    },
+    {
+      "id": 2,
+      "url": "https://github.com/ETCE-LAB/MushR/blob/b22cf285402b816bbd477d83ca63c5c0265d0483/LICENSE",
+      "title": "MushR/LICENSE",
+      "accessed": "2026-10-23"
+    },
+    {
+      "id": 3,
+      "url": "https://github.com/ETCE-LAB/MushR/blob/b22cf285402b816bbd477d83ca63c5c0265d0483/automated-image-capture/mushrimager.py",
+      "title": "MushR/automated-image-capture/mushrimager.py",
+      "accessed": "2026-10-23"
+    },
+    {
+      "id": 4,
+      "url": "https://github.com/ETCE-LAB/MushR/blob/b22cf285402b816bbd477d83ca63c5c0265d0483/automated-image-capture/arducam_multicamera.py",
+      "title": "MushR/automated-image-capture/arducam_multicamera.py",
+      "accessed": "2026-10-23"
+    },
+    {
+      "id": 5,
+      "url": "https://github.com/ETCE-LAB/mushr-mask-r-cnn/blob/e8a0493b193c15c5f6129d89d7f14d89e84a8868/LICENSE",
+      "title": "mushr-mask-r-cnn/LICENSE",
+      "accessed": "2026-10-23"
+    },
+    {
+      "id": 6,
+      "url": "https://github.com/ETCE-LAB/mushr-mask-r-cnn/blob/e8a0493b193c15c5f6129d89d7f14d89e84a8868/train_net.py",
+      "title": "mushr-mask-r-cnn/train_net.py",
+      "accessed": "2026-10-23"
+    },
+    {
+      "id": 7,
+      "url": "https://github.com/ETCE-LAB/mushr-mask-r-cnn/blob/e8a0493b193c15c5f6129d89d7f14d89e84a8868/README.md",
+      "title": "mushr-mask-r-cnn/README.md",
+      "accessed": "2026-10-23"
+    },
+    {
+      "id": 8,
+      "url": "https://github.com/ETCE-LAB/mushr-mask-r-cnn/blob/e8a0493b193c15c5f6129d89d7f14d89e84a8868/train.sh",
+      "title": "mushr-mask-r-cnn/train.sh",
+      "accessed": "2026-10-23"
+    },
+    {
+      "id": 9,
+      "url": "https://github.com/ETCE-LAB/mushr-mask-r-cnn/blob/e8a0493b193c15c5f6129d89d7f14d89e84a8868/continue_training.sh",
+      "title": "mushr-mask-r-cnn/continue_training.sh",
+      "accessed": "2026-10-23"
+    },
+    {
+      "id": 10,
+      "url": "https://github.com/ETCE-LAB/mushr-mask-r-cnn/blob/e8a0493b193c15c5f6129d89d7f14d89e84a8868/train_2023_04_04/config.yaml",
+      "title": "mushr-mask-r-cnn/train_2023_04_04/config.yaml",
+      "accessed": "2026-10-23"
+    },
+    {
+      "id": 11,
+      "url": "https://github.com/ETCE-LAB/mushr-mask-r-cnn/blob/e8a0493b193c15c5f6129d89d7f14d89e84a8868/eval.sh",
+      "title": "mushr-mask-r-cnn/eval.sh",
+      "accessed": "2026-10-23"
+    },
+    {
+      "id": 12,
+      "url": "https://www.kaggle.com/api/v1/datasets/view/etcelab/mushr-annotated-dataset-oyster-mushrooms",
+      "title": "Kaggle MushR annotated dataset metadata",
+      "accessed": "2026-10-23"
+    },
+    {
+      "id": 13,
+      "url": "https://www.kaggle.com/api/v1/datasets/list/etcelab/mushr-annotated-dataset-oyster-mushrooms",
+      "title": "Kaggle complete paginated file metadata",
+      "accessed": "2026-10-23"
+    },
+    {
+      "id": 14,
+      "url": "https://api.github.com/repos/ETCE-LAB/mushr-mask-r-cnn/releases",
+      "title": "Author model release metadata",
+      "accessed": "2026-10-23"
+    }
+  ]
+}

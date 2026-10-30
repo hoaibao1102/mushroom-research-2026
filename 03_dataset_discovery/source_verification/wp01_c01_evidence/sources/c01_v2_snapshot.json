@@ -1,0 +1,108 @@
+{
+  "id": "jrbx34k77g",
+  "version": 2,
+  "name": "Mushroom Disease Dataset (Healthy, Single Infected & Mixed Infected)",
+  "description": "Mushroom cultivation bags, categorized into healthy, single-infected, and mixed-infected classes, were photographed at the Mushroom Development Institute in Savar, Dhaka, Bangladesh. The dataset comprises a total of 761 high-resolution images, including 299 healthy samples, 147 single-infected samples, and 315 mixed-infected samples. The infected images depict contamination caused by green mold, black mold, or a combination of both. The mixed-infected category represents bags affected by multiple pathogens or overlapping infection patterns, typically involving both types of mold.\nAll images were originally captured in HEIC format using an iPhone 11 Pro Max and were later converted to JPG format for standardization and broader compatibility.",
+  "doi": "10.17632/jrbx34k77g.2",
+  "publish_date": "2025-06-30T17:00:11.898Z",
+  "last_modification_date": "2025-06-27T09:39:02.988Z",
+  "is_confidential": false,
+  "customer": {
+    "id": "7377952c-6404-4428-bbfc-77242cfc301e",
+    "name": "Mendeley Guests",
+    "chief_id": 810289,
+    "config": {
+      "repository_id": "MENDELEY_DATA",
+      "dataset_size_limit": 10737418240,
+      "doi_prefix": "10.17632"
+    },
+    "is_user_mendeley_admin": false,
+    "customer_roles": [],
+    "is_guest": true,
+    "is_user_customer_moderator": false
+  },
+  "owner": {
+    "id": "c809ee14-43b6-46b4-a1fd-be6259bfcce6",
+    "first_name": "Jubayer Ahmed Bhuiyan",
+    "last_name": "Shawon",
+    "display_name": "Jubayer Ahmed Bhuiyan Shawon",
+    "$ref": "/profiles/c809ee14-43b6-46b4-a1fd-be6259bfcce6"
+  },
+  "categories": [
+    {
+      "id": "data.elsevier.com/vocabulary/OmniScience/Concept-189720754",
+      "label": "Computer Vision"
+    },
+    {
+      "id": "data.elsevier.com/vocabulary/OmniScience/Concept-191544538",
+      "label": "Image Processing"
+    },
+    {
+      "id": "data.elsevier.com/vocabulary/OmniScience/Concept-249523402",
+      "label": "Machine Learning"
+    },
+    {
+      "id": "data.elsevier.com/vocabulary/OmniScience/Concept-249602269",
+      "label": "Feature Extraction"
+    },
+    {
+      "id": "data.elsevier.com/vocabulary/OmniScience/Concept-253232727",
+      "label": "Pattern Recognition"
+    },
+    {
+      "id": "data.elsevier.com/vocabulary/OmniScience/Concept-392307251",
+      "label": "Agricultural Technology"
+    },
+    {
+      "id": "data.elsevier.com/vocabulary/OmniScience/Concept-442095486",
+      "label": "Deep Learning"
+    },
+    {
+      "id": "data.elsevier.com/vocabulary/OmniScience/Concept-601750940",
+      "label": "Transfer Learning"
+    },
+    {
+      "id": "data.elsevier.com/vocabulary/OmniScience/Concept-602725794",
+      "label": "Data Augmentation"
+    }
+  ],
+  "licence": {
+    "id": "01d9c749-3c4d-4431-9df3-620b2dcfe144",
+    "short_name": "CC BY 4.0",
+    "full_name": "Creative Commons Attribution 4.0 International",
+    "description": "You can share, copy and modify this dataset so long as you give appropriate credit, provide a link to the CC BY license, and indicate if changes were made, but you may not do so in a way that suggests the rights holder has endorsed you or your use of the dataset. Note that further permission may be required for any content within the dataset that is identified as belonging to a third party.",
+    "url": "http://creativecommons.org/licenses/by/4.0",
+    "category": "Creative",
+    "customer_id": null
+  },
+  "institutions": [],
+  "funders": [],
+  "organisational_unit_names": [],
+  "contributors": [
+    {
+      "id": "f1de4dc9-0c3e-45fa-8f09-76a66cc4b976",
+      "first_name": "Abdullah",
+      "last_name": "Mazumdar",
+      "$ref": "/profiles/f1de4dc9-0c3e-45fa-8f09-76a66cc4b976"
+    },
+    {
+      "id": "c809ee14-43b6-46b4-a1fd-be6259bfcce6",
+      "first_name": "Jubayer Ahmed Bhuiyan",
+      "last_name": "Shawon",
+      "$ref": "/profiles/c809ee14-43b6-46b4-a1fd-be6259bfcce6"
+    },
+    {
+      "first_name": "Sumon",
+      "last_name": "Debnath"
+    },
+    {
+      "id": "2b79e5b6-706a-422c-8ee7-2cffaccaa298",
+      "first_name": "Md",
+      "last_name": "Abdullah",
+      "$ref": "/profiles/2b79e5b6-706a-422c-8ee7-2cffaccaa298"
+    }
+  ],
+  "related_links": [],
+  "custom_metadata": {},
+  "is_metadata_only": false
+}
