@@ -1,0 +1,65 @@
+{
+  "timestamp": "2026-10-30T15:51:14.622363+07:00",
+  "originals_gitignored": true,
+  "preserved_original_bytes": 7954983,
+  "limit": 100000000,
+  "records": [
+    {
+      "file": "c05_annotations.coco.json",
+      "url": "https://data.mendeley.com/public-files/datasets/8n6nr43gk3/files/95742f44-f47a-479c-8649-c9115e7d362d/file_downloaded",
+      "status": 200,
+      "bytes": 7575953,
+      "sha256": "58c3ca4d862883d927c495a5357d49a294d5411f0bc816fef5c0eabe72c20ea9"
+    },
+    {
+      "file": "c05_readme.txt",
+      "url": "https://data.mendeley.com/public-files/datasets/8n6nr43gk3/files/6d5832b5-c7c7-494f-a471-ec31b6709e00/file_downloaded",
+      "status": 200,
+      "bytes": 4712,
+      "sha256": "a39f7231cdc51bc7fb103d3ff319830caa63f4b196f81593124d435b18dd032f"
+    },
+    {
+      "file": "c05_4d0b0637-572e-405e-8a5a-dfd6ab58d56e.json",
+      "url": "https://data.mendeley.com/public-api/datasets/8n6nr43gk3/files?folder_id=4d0b0637-572e-405e-8a5a-dfd6ab58d56e&version=1&$start=0&$limit=1000",
+      "status": 200,
+      "bytes": 104426,
+      "sha256": "0e714202ba4fad7b025a6f7d52b52edd3c0ca1bc1b67b7f1e07dbf4f33110137"
+    },
+    {
+      "file": "c05_bd1a2893-adbe-439e-a449-a294cca108a3.json",
+      "url": "https://data.mendeley.com/public-api/datasets/8n6nr43gk3/files?folder_id=bd1a2893-adbe-439e-a449-a294cca108a3&version=1&$start=0&$limit=1000",
+      "status": 200,
+      "bytes": 98621,
+      "sha256": "07d6ae13f7aa6c57c251be14515790e73458a5e3e36ee3af3a463ca1cc6b983f"
+    },
+    {
+      "file": "c05_paper.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13452286/fullTextXML",
+      "status": 200,
+      "bytes": 33698,
+      "sha256": "163820f685f06da4d0249f0864ba299dba24be386215a144fb40bfe6f1e09471"
+    },
+    {
+      "file": "c05_page.html",
+      "url": "https://data.mendeley.com/datasets/8n6nr43gk3/1",
+      "status": 200,
+      "bytes": 136568,
+      "sha256": "ffb4d6705cd358c2d0c4803c1e84b371302be7dbd3af668a2a9eb1b993817ab3"
+    },
+    {
+      "file": "c05_folders.json",
+      "url": "https://data.mendeley.com/public-api/datasets/8n6nr43gk3/folders/1",
+      "status": 200,
+      "bytes": 308,
+      "sha256": "d229b733fb0a652959c5136e7c282a04d2c8bc73c78b692767a7f7ee7cde511d"
+    },
+    {
+      "file": "c05_files.json",
+      "url": "https://data.mendeley.com/public-api/datasets/8n6nr43gk3/files?folder_id=root&version=1&$start=0&$limit=1000",
+      "status": 200,
+      "bytes": 697,
+      "sha256": "e9495cb6d82ec176915f8f3a820cd0ba877d1012f5d10553f80735670a5608a2"
+    }
+  ],
+  "additional_support_fetches": "Dataset page fetched twice; frontendbundle and EuropePMCsearch each once; combined transferred bytes including repeated metadata below100MB. No archive/images/depth fetched. urllib403 then curl200; browser unavailable profilelock."
+}

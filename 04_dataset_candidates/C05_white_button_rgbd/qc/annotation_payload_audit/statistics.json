@@ -1,0 +1,1233 @@
+{
+  "images": 129,
+  "annotations": 39796,
+  "categories": [
+    {
+      "id": 0,
+      "name": "mushroom",
+      "supercategory": "none"
+    },
+    {
+      "id": 1,
+      "name": "mushroom",
+      "supercategory": "mushroom"
+    }
+  ],
+  "instances_by_category": {
+    "1": 39796
+  },
+  "annotated_images": 129,
+  "empty_images": [],
+  "duplicate_image_ids": 0,
+  "duplicate_annotation_ids": 0,
+  "duplicate_category_ids": 0,
+  "duplicate_filenames": 0,
+  "image_keys": [
+    "date_captured",
+    "extra",
+    "file_name",
+    "height",
+    "id",
+    "license",
+    "width"
+  ],
+  "annotation_keys": [
+    "area",
+    "bbox",
+    "category_id",
+    "id",
+    "image_id",
+    "iscrowd",
+    "segmentation"
+  ],
+  "dimensions": {
+    "615x988": 129
+  },
+  "errors": {
+    "bbox_outside": 2
+  },
+  "error_examples": {
+    "bbox_outside": [
+      25290,
+      25520
+    ]
+  },
+  "RGB_inventory": 129,
+  "export_JPG_inventory": 129,
+  "parent_unique": 129,
+  "missing_parent_png": [],
+  "unmatched_RGB": [],
+  "missing_export_JPG": [],
+  "dates": {
+    "250319": 49,
+    "250318": 32,
+    "250320": 39,
+    "250321": 9
+  },
+  "cycle_ranges": {
+    "250320": [
+      153,
+      191
+    ],
+    "250319": [
+      104,
+      152
+    ],
+    "250321": [
+      192,
+      200
+    ],
+    "250318": [
+      71,
+      102
+    ]
+  },
+  "links": [
+    {
+      "image_id": 0,
+      "coco_file": "250319_cycle140_RGB_png.rf.52a865223ccf759f32e2d3e33117c645.jpg",
+      "parent_png": "250319_cycle140_RGB.png",
+      "annotations": 327,
+      "date": "250319",
+      "cycle": 140
+    },
+    {
+      "image_id": 1,
+      "coco_file": "250318_cycle75_RGB_png.rf.0aa61616e53943c900e08b46d2cca3d7.jpg",
+      "parent_png": "250318_cycle75_RGB.png",
+      "annotations": 354,
+      "date": "250318",
+      "cycle": 75
+    },
+    {
+      "image_id": 2,
+      "coco_file": "250318_cycle79_RGB_png.rf.300618d1e227571f87e764e47f2594aa.jpg",
+      "parent_png": "250318_cycle79_RGB.png",
+      "annotations": 373,
+      "date": "250318",
+      "cycle": 79
+    },
+    {
+      "image_id": 3,
+      "coco_file": "250319_cycle151_RGB_png.rf.c7b80c92a0e6ccb58428fed743891c74.jpg",
+      "parent_png": "250319_cycle151_RGB.png",
+      "annotations": 331,
+      "date": "250319",
+      "cycle": 151
+    },
+    {
+      "image_id": 4,
+      "coco_file": "250320_cycle172_RGB_png.rf.8f92e468b5de768337ca92e731f17530.jpg",
+      "parent_png": "250320_cycle172_RGB.png",
+      "annotations": 242,
+      "date": "250320",
+      "cycle": 172
+    },
+    {
+      "image_id": 5,
+      "coco_file": "250319_cycle121_RGB_png.rf.6156930967551fc0b33f9b6f0a6e7907.jpg",
+      "parent_png": "250319_cycle121_RGB.png",
+      "annotations": 333,
+      "date": "250319",
+      "cycle": 121
+    },
+    {
+      "image_id": 6,
+      "coco_file": "250319_cycle119_RGB_png.rf.672c242128ed2e6de28b58d9dfa00d2f.jpg",
+      "parent_png": "250319_cycle119_RGB.png",
+      "annotations": 336,
+      "date": "250319",
+      "cycle": 119
+    },
+    {
+      "image_id": 7,
+      "coco_file": "250320_cycle158_RGB_png.rf.2dde9a229cfeef13b97c2992ef850380.jpg",
+      "parent_png": "250320_cycle158_RGB.png",
+      "annotations": 291,
+      "date": "250320",
+      "cycle": 158
+    },
+    {
+      "image_id": 8,
+      "coco_file": "250319_cycle148_RGB_png.rf.a57000c8e97e4e9d70dbc41ea0771063.jpg",
+      "parent_png": "250319_cycle148_RGB.png",
+      "annotations": 331,
+      "date": "250319",
+      "cycle": 148
+    },
+    {
+      "image_id": 9,
+      "coco_file": "250321_cycle192_RGB_png.rf.9ecb3bae27fed8eef59cf4bf43a6baff.jpg",
+      "parent_png": "250321_cycle192_RGB.png",
+      "annotations": 221,
+      "date": "250321",
+      "cycle": 192
+    },
+    {
+      "image_id": 10,
+      "coco_file": "250319_cycle111_RGB_png.rf.04137f65728c757f04867e9fe956f7c1.jpg",
+      "parent_png": "250319_cycle111_RGB.png",
+      "annotations": 359,
+      "date": "250319",
+      "cycle": 111
+    },
+    {
+      "image_id": 11,
+      "coco_file": "250319_cycle142_RGB_png.rf.198f608e894781612a8bfd0c8c6d2c77.jpg",
+      "parent_png": "250319_cycle142_RGB.png",
+      "annotations": 330,
+      "date": "250319",
+      "cycle": 142
+    },
+    {
+      "image_id": 12,
+      "coco_file": "250320_cycle166_RGB_png.rf.553d06e7e636e79faf010879019a7f26.jpg",
+      "parent_png": "250320_cycle166_RGB.png",
+      "annotations": 242,
+      "date": "250320",
+      "cycle": 166
+    },
+    {
+      "image_id": 13,
+      "coco_file": "250319_cycle106_RGB_png.rf.ee9fa8fca179d1ea3b1e2c775a4ddc70.jpg",
+      "parent_png": "250319_cycle106_RGB.png",
+      "annotations": 357,
+      "date": "250319",
+      "cycle": 106
+    },
+    {
+      "image_id": 14,
+      "coco_file": "250318_cycle100_RGB_png.rf.47e846f8e38fc8e8d11ab5f0aefd911a.jpg",
+      "parent_png": "250318_cycle100_RGB.png",
+      "annotations": 359,
+      "date": "250318",
+      "cycle": 100
+    },
+    {
+      "image_id": 15,
+      "coco_file": "250319_cycle112_RGB_png.rf.683de2bcc48c6f1dc34a2f416547a833.jpg",
+      "parent_png": "250319_cycle112_RGB.png",
+      "annotations": 359,
+      "date": "250319",
+      "cycle": 112
+    },
+    {
+      "image_id": 16,
+      "coco_file": "250319_cycle116_RGB_png.rf.d121c1f8193836868337e8e6efb8bc31.jpg",
+      "parent_png": "250319_cycle116_RGB.png",
+      "annotations": 357,
+      "date": "250319",
+      "cycle": 116
+    },
+    {
+      "image_id": 17,
+      "coco_file": "250319_cycle143_RGB_png.rf.8e494348a0833706113247357f1c5f2a.jpg",
+      "parent_png": "250319_cycle143_RGB.png",
+      "annotations": 330,
+      "date": "250319",
+      "cycle": 143
+    },
+    {
+      "image_id": 18,
+      "coco_file": "250318_cycle76_RGB_png.rf.fbec506db1f055f5a1ad163e5931e113.jpg",
+      "parent_png": "250318_cycle76_RGB.png",
+      "annotations": 368,
+      "date": "250318",
+      "cycle": 76
+    },
+    {
+      "image_id": 19,
+      "coco_file": "250320_cycle191_RGB_png.rf.3112d79c7307280e7aeb40cb43ed1b3d.jpg",
+      "parent_png": "250320_cycle191_RGB.png",
+      "annotations": 254,
+      "date": "250320",
+      "cycle": 191
+    },
+    {
+      "image_id": 20,
+      "coco_file": "250318_cycle98_RGB_png.rf.4175825329455c9ca4e8ab90366a1bb8.jpg",
+      "parent_png": "250318_cycle98_RGB.png",
+      "annotations": 356,
+      "date": "250318",
+      "cycle": 98
+    },
+    {
+      "image_id": 21,
+      "coco_file": "250318_cycle77_RGB_png.rf.4e2110e78469e403a63d05afb53cef66.jpg",
+      "parent_png": "250318_cycle77_RGB.png",
+      "annotations": 356,
+      "date": "250318",
+      "cycle": 77
+    },
+    {
+      "image_id": 22,
+      "coco_file": "250319_cycle134_RGB_png.rf.c202c93b0647319b256adac8ca1fc4bd.jpg",
+      "parent_png": "250319_cycle134_RGB.png",
+      "annotations": 327,
+      "date": "250319",
+      "cycle": 134
+    },
+    {
+      "image_id": 23,
+      "coco_file": "250320_cycle165_RGB_png.rf.7f1bd7cb82cb18a398d732d918b73220.jpg",
+      "parent_png": "250320_cycle165_RGB.png",
+      "annotations": 242,
+      "date": "250320",
+      "cycle": 165
+    },
+    {
+      "image_id": 24,
+      "coco_file": "250318_cycle91_RGB_png.rf.450dd4060c02c4cee9612d38d35c86fa.jpg",
+      "parent_png": "250318_cycle91_RGB.png",
+      "annotations": 373,
+      "date": "250318",
+      "cycle": 91
+    },
+    {
+      "image_id": 25,
+      "coco_file": "250320_cycle169_RGB_png.rf.3567807cd47dfd352b6d2ef6160b9181.jpg",
+      "parent_png": "250320_cycle169_RGB.png",
+      "annotations": 242,
+      "date": "250320",
+      "cycle": 169
+    },
+    {
+      "image_id": 26,
+      "coco_file": "250321_cycle200_RGB_png.rf.5b4991c81fa9fce19465de61dd3cc901.jpg",
+      "parent_png": "250321_cycle200_RGB.png",
+      "annotations": 135,
+      "date": "250321",
+      "cycle": 200
+    },
+    {
+      "image_id": 27,
+      "coco_file": "250321_cycle193_RGB_png.rf.3c7c0d850ace23e8542c6e5764977506.jpg",
+      "parent_png": "250321_cycle193_RGB.png",
+      "annotations": 222,
+      "date": "250321",
+      "cycle": 193
+    },
+    {
+      "image_id": 28,
+      "coco_file": "250320_cycle153_RGB_png.rf.4333d67c4e38944db29c6b5df956dff7.jpg",
+      "parent_png": "250320_cycle153_RGB.png",
+      "annotations": 294,
+      "date": "250320",
+      "cycle": 153
+    },
+    {
+      "image_id": 29,
+      "coco_file": "250318_cycle93_RGB_png.rf.d5991d3d8c9fd6fff90d9648e12847bc.jpg",
+      "parent_png": "250318_cycle93_RGB.png",
+      "annotations": 373,
+      "date": "250318",
+      "cycle": 93
+    },
+    {
+      "image_id": 30,
+      "coco_file": "250318_cycle102_RGB_png.rf.ea1653419b61f4ff1edc3983e325b9a5.jpg",
+      "parent_png": "250318_cycle102_RGB.png",
+      "annotations": 367,
+      "date": "250318",
+      "cycle": 102
+    },
+    {
+      "image_id": 31,
+      "coco_file": "250319_cycle144_RGB_png.rf.0a0246d782603c8ddce4d08def44ad48.jpg",
+      "parent_png": "250319_cycle144_RGB.png",
+      "annotations": 330,
+      "date": "250319",
+      "cycle": 144
+    },
+    {
+      "image_id": 32,
+      "coco_file": "250319_cycle108_RGB_png.rf.5003d20a5fd86e1ff28bdd7f75390933.jpg",
+      "parent_png": "250319_cycle108_RGB.png",
+      "annotations": 359,
+      "date": "250319",
+      "cycle": 108
+    },
+    {
+      "image_id": 33,
+      "coco_file": "250320_cycle161_RGB_png.rf.8cc6857fb2b71527014030101ebf067f.jpg",
+      "parent_png": "250320_cycle161_RGB.png",
+      "annotations": 242,
+      "date": "250320",
+      "cycle": 161
+    },
+    {
+      "image_id": 34,
+      "coco_file": "250319_cycle123_RGB_png.rf.8194e438b090bc1ed2fb0f56275d205a.jpg",
+      "parent_png": "250319_cycle123_RGB.png",
+      "annotations": 333,
+      "date": "250319",
+      "cycle": 123
+    },
+    {
+      "image_id": 35,
+      "coco_file": "250319_cycle136_RGB_png.rf.77b375cdc241634be2cc42945f9237ce.jpg",
+      "parent_png": "250319_cycle136_RGB.png",
+      "annotations": 327,
+      "date": "250319",
+      "cycle": 136
+    },
+    {
+      "image_id": 36,
+      "coco_file": "250320_cycle174_RGB_png.rf.7a89826f3dca259ec4f3930ea602220d.jpg",
+      "parent_png": "250320_cycle174_RGB.png",
+      "annotations": 242,
+      "date": "250320",
+      "cycle": 174
+    },
+    {
+      "image_id": 37,
+      "coco_file": "250319_cycle130_RGB_png.rf.c7342b6c268c0fb25095479353c3bc91.jpg",
+      "parent_png": "250319_cycle130_RGB.png",
+      "annotations": 327,
+      "date": "250319",
+      "cycle": 130
+    },
+    {
+      "image_id": 38,
+      "coco_file": "250320_cycle173_RGB_png.rf.58fe19519d1d2968201d576b807cae71.jpg",
+      "parent_png": "250320_cycle173_RGB.png",
+      "annotations": 242,
+      "date": "250320",
+      "cycle": 173
+    },
+    {
+      "image_id": 39,
+      "coco_file": "250319_cycle145_RGB_png.rf.f17ea3677a84155979b23122113fb88c.jpg",
+      "parent_png": "250319_cycle145_RGB.png",
+      "annotations": 331,
+      "date": "250319",
+      "cycle": 145
+    },
+    {
+      "image_id": 40,
+      "coco_file": "250318_cycle81_RGB_png.rf.1483ec45ffca7211298cd19dbd114380.jpg",
+      "parent_png": "250318_cycle81_RGB.png",
+      "annotations": 373,
+      "date": "250318",
+      "cycle": 81
+    },
+    {
+      "image_id": 41,
+      "coco_file": "250319_cycle117_RGB_png.rf.12522b3fa6b2bfcea251bd2c4a12daff.jpg",
+      "parent_png": "250319_cycle117_RGB.png",
+      "annotations": 336,
+      "date": "250319",
+      "cycle": 117
+    },
+    {
+      "image_id": 42,
+      "coco_file": "250319_cycle150_RGB_png.rf.9568fd481fc82949522f9ec20552f1ea.jpg",
+      "parent_png": "250319_cycle150_RGB.png",
+      "annotations": 244,
+      "date": "250319",
+      "cycle": 150
+    },
+    {
+      "image_id": 43,
+      "coco_file": "250320_cycle178_RGB_png.rf.2960cbfaba6f0a6c4a84dda68dfad621.jpg",
+      "parent_png": "250320_cycle178_RGB.png",
+      "annotations": 242,
+      "date": "250320",
+      "cycle": 178
+    },
+    {
+      "image_id": 44,
+      "coco_file": "250319_cycle110_RGB_png.rf.6f6b70e31c68269f7a9ae6f7f9e27664.jpg",
+      "parent_png": "250319_cycle110_RGB.png",
+      "annotations": 359,
+      "date": "250319",
+      "cycle": 110
+    },
+    {
+      "image_id": 45,
+      "coco_file": "250319_cycle107_RGB_png.rf.892382697014cc36db8408d7e73da3c8.jpg",
+      "parent_png": "250319_cycle107_RGB.png",
+      "annotations": 357,
+      "date": "250319",
+      "cycle": 107
+    },
+    {
+      "image_id": 46,
+      "coco_file": "250320_cycle164_RGB_png.rf.a3a8ac678c03a3ff03bec53ee25bbd16.jpg",
+      "parent_png": "250320_cycle164_RGB.png",
+      "annotations": 242,
+      "date": "250320",
+      "cycle": 164
+    },
+    {
+      "image_id": 47,
+      "coco_file": "250318_cycle83_RGB_png.rf.adfd7d8c79274a22db9ce544aca27e23.jpg",
+      "parent_png": "250318_cycle83_RGB.png",
+      "annotations": 356,
+      "date": "250318",
+      "cycle": 83
+    },
+    {
+      "image_id": 48,
+      "coco_file": "250319_cycle105_RGB_png.rf.dc395edaa687be48ae1fc596dd8f093d.jpg",
+      "parent_png": "250319_cycle105_RGB.png",
+      "annotations": 357,
+      "date": "250319",
+      "cycle": 105
+    },
+    {
+      "image_id": 49,
+      "coco_file": "250318_cycle92_RGB_png.rf.329b3eacdc7db72bd0f6294b4e1471de.jpg",
+      "parent_png": "250318_cycle92_RGB.png",
+      "annotations": 373,
+      "date": "250318",
+      "cycle": 92
+    },
+    {
+      "image_id": 50,
+      "coco_file": "250320_cycle160_RGB_png.rf.b14f655dcd5a2daf2c8055c30678f078.jpg",
+      "parent_png": "250320_cycle160_RGB.png",
+      "annotations": 246,
+      "date": "250320",
+      "cycle": 160
+    },
+    {
+      "image_id": 51,
+      "coco_file": "250318_cycle88_RGB_png.rf.fe94332df68cc292d483c9173caedd4c.jpg",
+      "parent_png": "250318_cycle88_RGB.png",
+      "annotations": 363,
+      "date": "250318",
+      "cycle": 88
+    },
+    {
+      "image_id": 52,
+      "coco_file": "250318_cycle73_RGB_png.rf.56549faf1041dc0d340cacf29d055da7.jpg",
+      "parent_png": "250318_cycle73_RGB.png",
+      "annotations": 356,
+      "date": "250318",
+      "cycle": 73
+    },
+    {
+      "image_id": 53,
+      "coco_file": "250318_cycle94_RGB_png.rf.d873cf0bf1d96d0bbf4047d9d91def53.jpg",
+      "parent_png": "250318_cycle94_RGB.png",
+      "annotations": 373,
+      "date": "250318",
+      "cycle": 94
+    },
+    {
+      "image_id": 54,
+      "coco_file": "250320_cycle186_RGB_png.rf.4ce5425d97269f9ded92dce879004b77.jpg",
+      "parent_png": "250320_cycle186_RGB.png",
+      "annotations": 254,
+      "date": "250320",
+      "cycle": 186
+    },
+    {
+      "image_id": 55,
+      "coco_file": "250320_cycle184_RGB_png.rf.10923ee4bd18a0316e37467649f6d817.jpg",
+      "parent_png": "250320_cycle184_RGB.png",
+      "annotations": 254,
+      "date": "250320",
+      "cycle": 184
+    },
+    {
+      "image_id": 56,
+      "coco_file": "250320_cycle175_RGB_png.rf.358468fd99898d70110573999c897cf9.jpg",
+      "parent_png": "250320_cycle175_RGB.png",
+      "annotations": 242,
+      "date": "250320",
+      "cycle": 175
+    },
+    {
+      "image_id": 57,
+      "coco_file": "250318_cycle97_RGB_png.rf.69793a3276a11d14635442d976c44704.jpg",
+      "parent_png": "250318_cycle97_RGB.png",
+      "annotations": 356,
+      "date": "250318",
+      "cycle": 97
+    },
+    {
+      "image_id": 58,
+      "coco_file": "250321_cycle196_RGB_png.rf.a333ab2b55e86adaf9670f5a4ac0cdc5.jpg",
+      "parent_png": "250321_cycle196_RGB.png",
+      "annotations": 222,
+      "date": "250321",
+      "cycle": 196
+    },
+    {
+      "image_id": 59,
+      "coco_file": "250320_cycle168_RGB_png.rf.79574c5436c2be44772d35b523567f9c.jpg",
+      "parent_png": "250320_cycle168_RGB.png",
+      "annotations": 242,
+      "date": "250320",
+      "cycle": 168
+    },
+    {
+      "image_id": 60,
+      "coco_file": "250319_cycle152_RGB_png.rf.93a21223edeb649c3cc1c84383795dce.jpg",
+      "parent_png": "250319_cycle152_RGB.png",
+      "annotations": 331,
+      "date": "250319",
+      "cycle": 152
+    },
+    {
+      "image_id": 61,
+      "coco_file": "250319_cycle114_RGB_png.rf.c93c516c5b4c2de0d5c6f2e6261936d7.jpg",
+      "parent_png": "250319_cycle114_RGB.png",
+      "annotations": 358,
+      "date": "250319",
+      "cycle": 114
+    },
+    {
+      "image_id": 62,
+      "coco_file": "250320_cycle181_RGB_png.rf.319d274c6ef770a4109df31b59ab2023.jpg",
+      "parent_png": "250320_cycle181_RGB.png",
+      "annotations": 257,
+      "date": "250320",
+      "cycle": 181
+    },
+    {
+      "image_id": 63,
+      "coco_file": "250319_cycle131_RGB_png.rf.e884a7ec9596ba2954f520bbc39fd536.jpg",
+      "parent_png": "250319_cycle131_RGB.png",
+      "annotations": 327,
+      "date": "250319",
+      "cycle": 131
+    },
+    {
+      "image_id": 64,
+      "coco_file": "250320_cycle159_RGB_png.rf.958bdf076261546283c3708ea4f4acf1.jpg",
+      "parent_png": "250320_cycle159_RGB.png",
+      "annotations": 246,
+      "date": "250320",
+      "cycle": 159
+    },
+    {
+      "image_id": 65,
+      "coco_file": "250318_cycle101_RGB_png.rf.6f62d80d70a16beb834852eded425215.jpg",
+      "parent_png": "250318_cycle101_RGB.png",
+      "annotations": 359,
+      "date": "250318",
+      "cycle": 101
+    },
+    {
+      "image_id": 66,
+      "coco_file": "250321_cycle199_RGB_png.rf.2db655497ae1bc61caebd6340dcc4d5a.jpg",
+      "parent_png": "250321_cycle199_RGB.png",
+      "annotations": 135,
+      "date": "250321",
+      "cycle": 199
+    },
+    {
+      "image_id": 67,
+      "coco_file": "250320_cycle190_RGB_png.rf.26786d7efe1185ff1b402b18af64cc59.jpg",
+      "parent_png": "250320_cycle190_RGB.png",
+      "annotations": 254,
+      "date": "250320",
+      "cycle": 190
+    },
+    {
+      "image_id": 68,
+      "coco_file": "250319_cycle122_RGB_png.rf.4201bee7263ece797e27f3883037ada5.jpg",
+      "parent_png": "250319_cycle122_RGB.png",
+      "annotations": 333,
+      "date": "250319",
+      "cycle": 122
+    },
+    {
+      "image_id": 69,
+      "coco_file": "250321_cycle195_RGB_png.rf.826dc484149b05350ad5aa7dea5fbb43.jpg",
+      "parent_png": "250321_cycle195_RGB.png",
+      "annotations": 222,
+      "date": "250321",
+      "cycle": 195
+    },
+    {
+      "image_id": 70,
+      "coco_file": "250320_cycle155_RGB_png.rf.9078de6ebe9b1dcbdec45066c9b9660e.jpg",
+      "parent_png": "250320_cycle155_RGB.png",
+      "annotations": 294,
+      "date": "250320",
+      "cycle": 155
+    },
+    {
+      "image_id": 71,
+      "coco_file": "250319_cycle109_RGB_png.rf.2be5f57385399041c2596fe78b900969.jpg",
+      "parent_png": "250319_cycle109_RGB.png",
+      "annotations": 359,
+      "date": "250319",
+      "cycle": 109
+    },
+    {
+      "image_id": 72,
+      "coco_file": "250320_cycle182_RGB_png.rf.5e754af0e29484c47e80e2ecb835b08f.jpg",
+      "parent_png": "250320_cycle182_RGB.png",
+      "annotations": 254,
+      "date": "250320",
+      "cycle": 182
+    },
+    {
+      "image_id": 73,
+      "coco_file": "250319_cycle104_RGB_png.rf.4d27730444d020193086ca28b6c1205e.jpg",
+      "parent_png": "250319_cycle104_RGB.png",
+      "annotations": 357,
+      "date": "250319",
+      "cycle": 104
+    },
+    {
+      "image_id": 74,
+      "coco_file": "250318_cycle90_RGB_png.rf.6f63e18283373912efefe43bc7516528.jpg",
+      "parent_png": "250318_cycle90_RGB.png",
+      "annotations": 364,
+      "date": "250318",
+      "cycle": 90
+    },
+    {
+      "image_id": 75,
+      "coco_file": "250320_cycle170_RGB_png.rf.b5c2905d7dc843f284a6072adc1d026b.jpg",
+      "parent_png": "250320_cycle170_RGB.png",
+      "annotations": 242,
+      "date": "250320",
+      "cycle": 170
+    },
+    {
+      "image_id": 76,
+      "coco_file": "250320_cycle180_RGB_png.rf.c4f76ebd6655f4c785c864bdb0cd12ed.jpg",
+      "parent_png": "250320_cycle180_RGB.png",
+      "annotations": 254,
+      "date": "250320",
+      "cycle": 180
+    },
+    {
+      "image_id": 77,
+      "coco_file": "250318_cycle74_RGB_png.rf.0bf5c90e99f78e1f2a90ed4cf5fa2bbc.jpg",
+      "parent_png": "250318_cycle74_RGB.png",
+      "annotations": 359,
+      "date": "250318",
+      "cycle": 74
+    },
+    {
+      "image_id": 78,
+      "coco_file": "250319_cycle129_RGB_png.rf.5a257059b6e26796bec19293bf162515.jpg",
+      "parent_png": "250319_cycle129_RGB.png",
+      "annotations": 327,
+      "date": "250319",
+      "cycle": 129
+    },
+    {
+      "image_id": 79,
+      "coco_file": "250318_cycle72_RGB_png.rf.5d0ae26ed7ff779f030ca3d5fef1ce22.jpg",
+      "parent_png": "250318_cycle72_RGB.png",
+      "annotations": 359,
+      "date": "250318",
+      "cycle": 72
+    },
+    {
+      "image_id": 80,
+      "coco_file": "250321_cycle197_RGB_png.rf.4882319f9800186be15d5f5e654e09a8.jpg",
+      "parent_png": "250321_cycle197_RGB.png",
+      "annotations": 222,
+      "date": "250321",
+      "cycle": 197
+    },
+    {
+      "image_id": 81,
+      "coco_file": "250319_cycle113_RGB_png.rf.311c2e1d3e31f351c7cd1ab1aab13ee7.jpg",
+      "parent_png": "250319_cycle113_RGB.png",
+      "annotations": 358,
+      "date": "250319",
+      "cycle": 113
+    },
+    {
+      "image_id": 82,
+      "coco_file": "250318_cycle78_RGB_png.rf.cbda7bf3cc08a431001f6dc3eb9dfeb4.jpg",
+      "parent_png": "250318_cycle78_RGB.png",
+      "annotations": 361,
+      "date": "250318",
+      "cycle": 78
+    },
+    {
+      "image_id": 83,
+      "coco_file": "250318_cycle86_RGB_png.rf.4fa9484be2a77304a5a747ea6002d432.jpg",
+      "parent_png": "250318_cycle86_RGB.png",
+      "annotations": 373,
+      "date": "250318",
+      "cycle": 86
+    },
+    {
+      "image_id": 84,
+      "coco_file": "250320_cycle177_RGB_png.rf.5330e132ab89ed3a0f4f9c762a98c3c3.jpg",
+      "parent_png": "250320_cycle177_RGB.png",
+      "annotations": 242,
+      "date": "250320",
+      "cycle": 177
+    },
+    {
+      "image_id": 85,
+      "coco_file": "250319_cycle147_RGB_png.rf.9b4ce4ded1e900085ddcee237372ed06.jpg",
+      "parent_png": "250319_cycle147_RGB.png",
+      "annotations": 331,
+      "date": "250319",
+      "cycle": 147
+    },
+    {
+      "image_id": 86,
+      "coco_file": "250319_cycle118_RGB_png.rf.fb9c5c6f80785a9c5f628b1b860226c9.jpg",
+      "parent_png": "250319_cycle118_RGB.png",
+      "annotations": 357,
+      "date": "250319",
+      "cycle": 118
+    },
+    {
+      "image_id": 87,
+      "coco_file": "250320_cycle167_RGB_png.rf.1d4619951eefa06ad47a0175c79defa0.jpg",
+      "parent_png": "250320_cycle167_RGB.png",
+      "annotations": 242,
+      "date": "250320",
+      "cycle": 167
+    },
+    {
+      "image_id": 88,
+      "coco_file": "250319_cycle127_RGB_png.rf.77b8d74ab343a7c563f1e77e0958c17b.jpg",
+      "parent_png": "250319_cycle127_RGB.png",
+      "annotations": 327,
+      "date": "250319",
+      "cycle": 127
+    },
+    {
+      "image_id": 89,
+      "coco_file": "250320_cycle188_RGB_png.rf.bdc198cf32564a0696c92c12c839443d.jpg",
+      "parent_png": "250320_cycle188_RGB.png",
+      "annotations": 254,
+      "date": "250320",
+      "cycle": 188
+    },
+    {
+      "image_id": 90,
+      "coco_file": "250318_cycle82_RGB_png.rf.690ba12926a2f87ecb1115611773c8c6.jpg",
+      "parent_png": "250318_cycle82_RGB.png",
+      "annotations": 356,
+      "date": "250318",
+      "cycle": 82
+    },
+    {
+      "image_id": 91,
+      "coco_file": "250320_cycle163_RGB_png.rf.834879b8c3c3ef995c6a4d7467bd03ee.jpg",
+      "parent_png": "250320_cycle163_RGB.png",
+      "annotations": 242,
+      "date": "250320",
+      "cycle": 163
+    },
+    {
+      "image_id": 92,
+      "coco_file": "250320_cycle156_RGB_png.rf.5b574c02e6958e969439f805275fdd7a.jpg",
+      "parent_png": "250320_cycle156_RGB.png",
+      "annotations": 301,
+      "date": "250320",
+      "cycle": 156
+    },
+    {
+      "image_id": 93,
+      "coco_file": "250318_cycle84_RGB_png.rf.5c1e0f6d6e18f69e00adc603c6337ed9.jpg",
+      "parent_png": "250318_cycle84_RGB.png",
+      "annotations": 373,
+      "date": "250318",
+      "cycle": 84
+    },
+    {
+      "image_id": 94,
+      "coco_file": "250319_cycle141_RGB_png.rf.bd913e58931abed7aec3e4d16a0ff25c.jpg",
+      "parent_png": "250319_cycle141_RGB.png",
+      "annotations": 330,
+      "date": "250319",
+      "cycle": 141
+    },
+    {
+      "image_id": 95,
+      "coco_file": "250318_cycle95_RGB_png.rf.4f45e9578c12d545a33baeaf520cd7b3.jpg",
+      "parent_png": "250318_cycle95_RGB.png",
+      "annotations": 372,
+      "date": "250318",
+      "cycle": 95
+    },
+    {
+      "image_id": 96,
+      "coco_file": "250320_cycle187_RGB_png.rf.9cae8251191f045f136121dcfc28b6e4.jpg",
+      "parent_png": "250320_cycle187_RGB.png",
+      "annotations": 254,
+      "date": "250320",
+      "cycle": 187
+    },
+    {
+      "image_id": 97,
+      "coco_file": "250319_cycle120_RGB_png.rf.fa9ada62174ae21609c14f1603732f9a.jpg",
+      "parent_png": "250319_cycle120_RGB.png",
+      "annotations": 336,
+      "date": "250319",
+      "cycle": 120
+    },
+    {
+      "image_id": 98,
+      "coco_file": "250320_cycle171_RGB_png.rf.47d83d3af817d66abbc20c20036a03f8.jpg",
+      "parent_png": "250320_cycle171_RGB.png",
+      "annotations": 242,
+      "date": "250320",
+      "cycle": 171
+    },
+    {
+      "image_id": 99,
+      "coco_file": "250321_cycle194_RGB_png.rf.9dd4d8e10f3817d6848b4026edc11ef1.jpg",
+      "parent_png": "250321_cycle194_RGB.png",
+      "annotations": 222,
+      "date": "250321",
+      "cycle": 194
+    },
+    {
+      "image_id": 100,
+      "coco_file": "250319_cycle139_RGB_png.rf.2c11537a197c00cba075caddf1502259.jpg",
+      "parent_png": "250319_cycle139_RGB.png",
+      "annotations": 327,
+      "date": "250319",
+      "cycle": 139
+    },
+    {
+      "image_id": 101,
+      "coco_file": "250319_cycle146_RGB_png.rf.66defc20b2c2a4ddee37b085f2f2225d.jpg",
+      "parent_png": "250319_cycle146_RGB.png",
+      "annotations": 331,
+      "date": "250319",
+      "cycle": 146
+    },
+    {
+      "image_id": 102,
+      "coco_file": "250321_cycle198_RGB_png.rf.7d585c7ad740b508b77428a69ee974e3.jpg",
+      "parent_png": "250321_cycle198_RGB.png",
+      "annotations": 135,
+      "date": "250321",
+      "cycle": 198
+    },
+    {
+      "image_id": 103,
+      "coco_file": "250319_cycle126_RGB_png.rf.e4f21db94f9269fb661e13027359cedb.jpg",
+      "parent_png": "250319_cycle126_RGB.png",
+      "annotations": 327,
+      "date": "250319",
+      "cycle": 126
+    },
+    {
+      "image_id": 104,
+      "coco_file": "250319_cycle137_RGB_png.rf.7a227bddc8f15e0591ac8412a8d11070.jpg",
+      "parent_png": "250319_cycle137_RGB.png",
+      "annotations": 327,
+      "date": "250319",
+      "cycle": 137
+    },
+    {
+      "image_id": 105,
+      "coco_file": "250319_cycle115_RGB_png.rf.256a9ab4d52d4c72568a7c8038cce62d.jpg",
+      "parent_png": "250319_cycle115_RGB.png",
+      "annotations": 357,
+      "date": "250319",
+      "cycle": 115
+    },
+    {
+      "image_id": 106,
+      "coco_file": "250318_cycle87_RGB_png.rf.61f3480bad56d6926dacccdadc9ef656.jpg",
+      "parent_png": "250318_cycle87_RGB.png",
+      "annotations": 373,
+      "date": "250318",
+      "cycle": 87
+    },
+    {
+      "image_id": 107,
+      "coco_file": "250319_cycle125_RGB_png.rf.ca5bb678226fefdca3104bd8e24dff52.jpg",
+      "parent_png": "250319_cycle125_RGB.png",
+      "annotations": 335,
+      "date": "250319",
+      "cycle": 125
+    },
+    {
+      "image_id": 108,
+      "coco_file": "250320_cycle179_RGB_png.rf.08e213c93eb8df161f39508fbd76aa22.jpg",
+      "parent_png": "250320_cycle179_RGB.png",
+      "annotations": 242,
+      "date": "250320",
+      "cycle": 179
+    },
+    {
+      "image_id": 109,
+      "coco_file": "250320_cycle185_RGB_png.rf.f22a8a4e4a838949e9af5b099ecd6d31.jpg",
+      "parent_png": "250320_cycle185_RGB.png",
+      "annotations": 254,
+      "date": "250320",
+      "cycle": 185
+    },
+    {
+      "image_id": 110,
+      "coco_file": "250320_cycle183_RGB_png.rf.db1165b2f13e513515c120eee28be7af.jpg",
+      "parent_png": "250320_cycle183_RGB.png",
+      "annotations": 254,
+      "date": "250320",
+      "cycle": 183
+    },
+    {
+      "image_id": 111,
+      "coco_file": "250319_cycle133_RGB_png.rf.8f4727cff65efac82c350265f1a022a7.jpg",
+      "parent_png": "250319_cycle133_RGB.png",
+      "annotations": 327,
+      "date": "250319",
+      "cycle": 133
+    },
+    {
+      "image_id": 112,
+      "coco_file": "250319_cycle124_RGB_png.rf.ee5aba47af9c777139e99ecd4a053893.jpg",
+      "parent_png": "250319_cycle124_RGB.png",
+      "annotations": 327,
+      "date": "250319",
+      "cycle": 124
+    },
+    {
+      "image_id": 113,
+      "coco_file": "250320_cycle176_RGB_png.rf.34b973ed2654d49bf116e22897bbe49a.jpg",
+      "parent_png": "250320_cycle176_RGB.png",
+      "annotations": 242,
+      "date": "250320",
+      "cycle": 176
+    },
+    {
+      "image_id": 114,
+      "coco_file": "250319_cycle149_RGB_png.rf.80517cdad1994e18b57bb3d1949dbe79.jpg",
+      "parent_png": "250319_cycle149_RGB.png",
+      "annotations": 331,
+      "date": "250319",
+      "cycle": 149
+    },
+    {
+      "image_id": 115,
+      "coco_file": "250318_cycle71_RGB_png.rf.61cf9092f799e856e7eccf5c7b120046.jpg",
+      "parent_png": "250318_cycle71_RGB.png",
+      "annotations": 372,
+      "date": "250318",
+      "cycle": 71
+    },
+    {
+      "image_id": 116,
+      "coco_file": "250320_cycle157_RGB_png.rf.3fb1040595e292cc4b300e8776a0466f.jpg",
+      "parent_png": "250320_cycle157_RGB.png",
+      "annotations": 301,
+      "date": "250320",
+      "cycle": 157
+    },
+    {
+      "image_id": 117,
+      "coco_file": "250319_cycle128_RGB_png.rf.c9ede56ac8a727a432a84dc3df35261c.jpg",
+      "parent_png": "250319_cycle128_RGB.png",
+      "annotations": 327,
+      "date": "250319",
+      "cycle": 128
+    },
+    {
+      "image_id": 118,
+      "coco_file": "250318_cycle85_RGB_png.rf.e456f190f5cdc5be88484915b57c0b4f.jpg",
+      "parent_png": "250318_cycle85_RGB.png",
+      "annotations": 373,
+      "date": "250318",
+      "cycle": 85
+    },
+    {
+      "image_id": 119,
+      "coco_file": "250320_cycle162_RGB_png.rf.c9ae7a60f634cb2b85609827e7443f4e.jpg",
+      "parent_png": "250320_cycle162_RGB.png",
+      "annotations": 242,
+      "date": "250320",
+      "cycle": 162
+    },
+    {
+      "image_id": 120,
+      "coco_file": "250320_cycle154_RGB_png.rf.d8c6894410120100412a160e4763d14b.jpg",
+      "parent_png": "250320_cycle154_RGB.png",
+      "annotations": 294,
+      "date": "250320",
+      "cycle": 154
+    },
+    {
+      "image_id": 121,
+      "coco_file": "250319_cycle138_RGB_png.rf.5d9fc648ce349b35a01435c481c0c023.jpg",
+      "parent_png": "250319_cycle138_RGB.png",
+      "annotations": 327,
+      "date": "250319",
+      "cycle": 138
+    },
+    {
+      "image_id": 122,
+      "coco_file": "250320_cycle189_RGB_png.rf.1bd384bc10cbc122c4e29f824d2a9794.jpg",
+      "parent_png": "250320_cycle189_RGB.png",
+      "annotations": 254,
+      "date": "250320",
+      "cycle": 189
+    },
+    {
+      "image_id": 123,
+      "coco_file": "250318_cycle96_RGB_png.rf.cb744848a556cb8f47da5f3609e5a01a.jpg",
+      "parent_png": "250318_cycle96_RGB.png",
+      "annotations": 373,
+      "date": "250318",
+      "cycle": 96
+    },
+    {
+      "image_id": 124,
+      "coco_file": "250318_cycle89_RGB_png.rf.0d89a56b08e44fbac6b30218f4ec6bbf.jpg",
+      "parent_png": "250318_cycle89_RGB.png",
+      "annotations": 364,
+      "date": "250318",
+      "cycle": 89
+    },
+    {
+      "image_id": 125,
+      "coco_file": "250319_cycle135_RGB_png.rf.f8f75185d342889951ef33516cfa5e54.jpg",
+      "parent_png": "250319_cycle135_RGB.png",
+      "annotations": 327,
+      "date": "250319",
+      "cycle": 135
+    },
+    {
+      "image_id": 126,
+      "coco_file": "250319_cycle132_RGB_png.rf.51046dfbb46cc639a771f9fff1e0b977.jpg",
+      "parent_png": "250319_cycle132_RGB.png",
+      "annotations": 327,
+      "date": "250319",
+      "cycle": 132
+    },
+    {
+      "image_id": 127,
+      "coco_file": "250318_cycle99_RGB_png.rf.96cb1a3f03897e2e2ce2fd636f81da11.jpg",
+      "parent_png": "250318_cycle99_RGB.png",
+      "annotations": 356,
+      "date": "250318",
+      "cycle": 99
+    },
+    {
+      "image_id": 128,
+      "coco_file": "250318_cycle80_RGB_png.rf.0ea16463e620a9d2be4d1dd8b774ec51.jpg",
+      "parent_png": "250318_cycle80_RGB.png",
+      "annotations": 363,
+      "date": "250318",
+      "cycle": 80
+    }
+  ],
+  "pixel_equivalence": "NOT_TESTED",
+  "biological_independence": "NOT_ESTABLISHED",
+  "rle_qc": {
+    "algorithm": "COCO compressed run-length integer decoding; verify nonnegative runs, run sum, dimensions and foreground",
+    "issues": {
+      "area_differs_from_RLE_mask_pixels": 39434,
+      "not_compressed_RLE": 362,
+      "RLE_runs_invalid": 2
+    },
+    "examples": {
+      "area_differs_from_RLE_mask_pixels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "not_compressed_RLE": [
+        67,
+        328,
+        329,
+        330,
+        360,
+        1010,
+        1086,
+        1718,
+        1866,
+        2358,
+        2389,
+        2391,
+        2405,
+        2542,
+        2549,
+        2583,
+        2637,
+        3139,
+        3397,
+        3554
+      ],
+      "RLE_runs_invalid": [
+        25290,
+        25520
+      ]
+    }
+  },
+  "segmentation_types": {
+    "dict": 39434,
+    "list": 362
+  },
+  "extra_name_exact_RGB_matches": 129,
+  "date_captured_values": [
+    "2026-03-13T08:49:54+00:00",
+    "2026-03-13T08:49:55+00:00"
+  ],
+  "bbox_outside_records": [
+    {
+      "id": 25290,
+      "image_id": 82,
+      "category_id": 1,
+      "bbox": [
+        615,
+        0,
+        360,
+        988
+      ],
+      "area": 355680,
+      "segmentation": {
+        "counts": "`Yjk04cQ12O0O101N101N101O0O2O001O001O00001O001O00001O0000000000000001O000000001O0O10001O0O2O0O2O0O2N3M^RlQ1",
+        "size": [
+          988,
+          615
+        ]
+      },
+      "iscrowd": 0
+    },
+    {
+      "id": 25520,
+      "image_id": 82,
+      "category_id": 1,
+      "bbox": [
+        615,
+        1,
+        556,
+        987
+      ],
+      "area": 548772,
+      "segmentation": {
+        "counts": "lW\\Q11eQ14L4N1N2O1O1N101N2O00001N100000001O0000000000000000O10000000000000001O000000001O000000001O0O101O00001O001N101N2N2N3Lk`nk0",
+        "size": [
+          988,
+          615
+        ]
+      },
+      "iscrowd": 0
+    }
+  ],
+  "polygon_note": "362 polygon annotations, not RLE errors; basic finite/even/minimum vertex checks passed in c05_qc.py. No rasterization/pixel verification.",
+  "area_equals_bbox_product": 39796,
+  "rle_valid_runs": 39432
+}

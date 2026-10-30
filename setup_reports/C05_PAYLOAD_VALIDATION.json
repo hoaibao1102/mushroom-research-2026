@@ -1,0 +1,93 @@
+{
+  "status": "PASS_ARTIFACT_AND_PAYLOAD_AUDIT",
+  "recommendation": "GO_FOR_PROTOCOL_DESIGN",
+  "historical_reproduction": "BLOCKED",
+  "training_authorized": false,
+  "dataset_selected": false,
+  "research_gap_validated": false,
+  "original_payload_sha256": "58c3ca4d862883d927c495a5357d49a294d5411f0bc816fef5c0eabe72c20ea9",
+  "images": 129,
+  "annotations": 39796,
+  "parent_name_links": 129,
+  "pixel_equivalence": "NOT_TESTED",
+  "source_issues": {
+    "bbox_outside": 2
+  },
+  "RLE_issues": {
+    "algorithm": "COCO compressed run-length integer decoding; verify nonnegative runs, run sum, dimensions and foreground",
+    "issues": {
+      "area_differs_from_RLE_mask_pixels": 39434,
+      "not_compressed_RLE": 362,
+      "RLE_runs_invalid": 2
+    },
+    "examples": {
+      "area_differs_from_RLE_mask_pixels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "not_compressed_RLE": [
+        67,
+        328,
+        329,
+        330,
+        360,
+        1010,
+        1086,
+        1718,
+        1866,
+        2358,
+        2389,
+        2391,
+        2405,
+        2542,
+        2549,
+        2583,
+        2637,
+        3139,
+        3397,
+        3554
+      ],
+      "RLE_runs_invalid": [
+        25290,
+        25520
+      ]
+    }
+  },
+  "tests": {
+    "compatible_rejection_tests": 5,
+    "passed": 5,
+    "exit_code": 0
+  },
+  "no_images_archives_weights_downloaded": true,
+  "no_source_repair_split_or_training": true,
+  "preserved_bytes": 7954983,
+  "new_outputs_committed": false,
+  "artifact_hashes": {
+    "04_dataset_candidates\\C05_white_button_rgbd\\qc\\annotation_payload_audit\\acquisition_manifest.json": "bcbbd44073724c011a3952d57692e1b5e6622da3d2140d5630033f1b01f4dc21",
+    "04_dataset_candidates\\C05_white_button_rgbd\\qc\\annotation_payload_audit\\c05_qc.py": "ad65a2817b7fa44a05257e85da7506b28e200528c23170b5dfefcc7f04c477b4",
+    "04_dataset_candidates\\C05_white_button_rgbd\\qc\\annotation_payload_audit\\c05_rle.py": "061f9396a3f8384e04d7714eccd1844e109b35155b2bccfcaca33b43e99d06cb",
+    "04_dataset_candidates\\C05_white_button_rgbd\\qc\\annotation_payload_audit\\image_linkage.csv": "acb7d114aab1620befedcd67c08be92f2b37032e4810253b2168b9226eb5ab6b",
+    "04_dataset_candidates\\C05_white_button_rgbd\\qc\\annotation_payload_audit\\statistics.json": "2fd5e4da8c82a3f5ba2d790a343c2834919335de998cfe06a147bf7160b3d98b",
+    "setup_reports\\C05_ANNOTATION_PAYLOAD_AUDIT.md": "625c8be1fdf26709e584b6bb9f64fddab930ab3d9fd7c1d41864b967a772e682",
+    "03_dataset_discovery\\source_verification\\C05_COCO_LINKAGE_REPORT.md": "762c418ad4f43d1e2016ec29de074e5d4332169a791d7615b50b7e40ed083199",
+    "03_dataset_discovery\\screening_reports\\C05_FINAL_CAPSTONE_DECISION.md": "4e2f13daa1c86200663d36f03ae5608f01ca1dd82714ec8ec056d9f73c9960d5"
+  }
+}
