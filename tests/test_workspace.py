@@ -3,7 +3,6 @@ import subprocess
 import sys
 import unittest
 import csv
-import os
 import shutil
 import tempfile
 from pathlib import Path
@@ -23,7 +22,7 @@ def validate_wp01_fixture(root):
 
 class RejectionTests(unittest.TestCase):
     def test_missing_protocol_rejected(self):
-        with tempfile.TemporaryDirectory(dir=os.environ['TMPDIR']) as tmp:
+        with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp) / 'workspace'
             clone_workspace(root)
             (root / '05_research_protocols/DATASET_QC_PROTOCOL.md').unlink()
@@ -32,7 +31,7 @@ class RejectionTests(unittest.TestCase):
             self.assertIn('FAIL | Nonempty file: 05_research_protocols/DATASET_QC_PROTOCOL.md', result.stdout)
 
     def test_malformed_csv_header_rejected(self):
-        with tempfile.TemporaryDirectory(dir=os.environ['TMPDIR']) as tmp:
+        with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp) / 'workspace'
             clone_workspace(root)
             (root / '02_literature_review/PAPER_REGISTRY.csv').write_text('wrong_header\n', encoding='utf-8')
@@ -41,7 +40,7 @@ class RejectionTests(unittest.TestCase):
             self.assertIn('FAIL | CSV header:', result.stdout)
 
     def test_missing_exclusion_rejected(self):
-        with tempfile.TemporaryDirectory(dir=os.environ['TMPDIR']) as tmp:
+        with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp) / 'workspace'
             clone_workspace(root)
             path = root / '03_dataset_discovery/excluded_datasets/EXCLUDED_DATASETS.csv'
@@ -52,7 +51,7 @@ class RejectionTests(unittest.TestCase):
             self.assertIn('FAIL | DS-02 hf55tkx489 explicitly excluded', result.stdout)
 
     def test_non_payload_text_in_raw_storage_rejected(self):
-        with tempfile.TemporaryDirectory(dir=os.environ['TMPDIR']) as tmp:
+        with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp) / 'workspace'
             clone_workspace(root)
             (root / '04_dataset_candidates/C01_substrate_contamination/raw/forbidden_marker.txt').write_text('TEST MARKER ONLY: not research data', encoding='utf-8')
@@ -61,7 +60,7 @@ class RejectionTests(unittest.TestCase):
             self.assertIn('FAIL | Empty WP-00 payload storage:', result.stdout)
 
     def test_checkpoint_extension_rejected_without_model_content(self):
-        with tempfile.TemporaryDirectory(dir=os.environ['TMPDIR']) as tmp:
+        with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp) / 'workspace'
             clone_workspace(root)
             (root / '08_experiments/checkpoints/forbidden_marker.pt').touch()
@@ -88,7 +87,7 @@ class WorkspaceTests(unittest.TestCase):
         self.assertIn('Phase 0 / WP-00 preserved', result.stdout)
 
     def test_wp01_validator_rejects_missing_deliverable(self):
-        with tempfile.TemporaryDirectory(dir=os.environ['TMPDIR']) as tmp:
+        with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp) / 'workspace'
             clone_workspace(root)
             (root / '03_dataset_discovery/source_verification/C01_SOURCE_VERIFICATION.md').unlink()
@@ -97,7 +96,7 @@ class WorkspaceTests(unittest.TestCase):
             self.assertIn('FAIL | Nonempty WP-01 deliverable: 03_dataset_discovery/source_verification/C01_SOURCE_VERIFICATION.md', result.stdout)
 
     def test_wp01_validator_rejects_unauthorized_training(self):
-        with tempfile.TemporaryDirectory(dir=os.environ['TMPDIR']) as tmp:
+        with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp) / 'workspace'
             clone_workspace(root)
             state_p = root / '00_project_management/project_state.json'
