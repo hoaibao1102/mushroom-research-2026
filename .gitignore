@@ -79,6 +79,10 @@ local_outputs/
 *.log
 .DS_Store
 Thumbs.db
+# WP-03 retrieved primary originals retained locally; project synthesis,
+# source ledgers and metadata references remain tracked.
+/03_dataset_discovery/source_verification/wp03_stream_a/*.txt
+/03_dataset_discovery/source_verification/wp03_stream_b/sources/
 # WP-02 original third-party annotation exports: retain locally;
 # source URLs, hashes, statistics and audit evidence are versioned.
 /04_dataset_candidates/C02_mushr_harvest_readiness/dataset_metadata/MushR_Dataset_V1.1_2023_04_04-COCO.json

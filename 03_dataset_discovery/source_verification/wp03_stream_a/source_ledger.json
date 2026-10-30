@@ -1,0 +1,227 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://api.datacite.org/dois?query=titles%3Amushroom+AND+%28image+OR+disease+OR+quality+OR+growth+OR+contamination%29+AND+publicationYear%3A%5B2024+TO+2026%5D&page%5Bsize%5D=100",
+      "title": "search_datacite_0",
+      "accessed": "2026-10-30"
+    },
+    {
+      "id": 2,
+      "url": "https://api.datacite.org/dois?query=mushroom+AND+image+AND+publicationYear%3A%5B2024+TO+2026%5D+AND+client.client-id%3Abl.mendeley&page%5Bsize%5D=100",
+      "title": "search_datacite_1",
+      "accessed": "2026-10-30"
+    },
+    {
+      "id": 3,
+      "url": "https://api.datacite.org/dois?query=mushroom+AND+%28image+OR+dataset%29+AND+publicationYear%3A%5B2024+TO+2026%5D+AND+%28prefix%3A10.5281+OR+prefix%3A10.6084%29&page%5Bsize%5D=100",
+      "title": "search_datacite_2",
+      "accessed": "2026-10-30"
+    },
+    {
+      "id": 4,
+      "url": "https://api.datacite.org/dois?query=oyster+AND+image+AND+publicationYear%3A%5B2024+TO+2026%5D&page%5Bsize%5D=100",
+      "title": "search_datacite_3",
+      "accessed": "2026-10-30"
+    },
+    {
+      "id": 5,
+      "url": "https://api.datacite.org/dois?query=mushroom+AND+publicationYear%3A%5B2024+TO+2026%5D+AND+prefix%3A10.17632&page%5Bsize%5D=100",
+      "title": "search_extra_0",
+      "accessed": "2026-10-30"
+    },
+    {
+      "id": 6,
+      "url": "https://api.datacite.org/dois?query=mushroom+AND+%28quality+OR+disease+OR+contamination+OR+maturity+OR+growth%29+AND+publicationYear%3A%5B2024+TO+2026%5D&page%5Bsize%5D=100",
+      "title": "search_extra_1",
+      "accessed": "2026-10-30"
+    },
+    {
+      "id": 7,
+      "url": "https://api.datacite.org/dois?query=titles.title%3Amushroom+AND+publicationYear%3A%5B2024+TO+2026%5D&page%5Bsize%5D=100",
+      "title": "search_extra_2",
+      "accessed": "2026-10-30"
+    },
+    {
+      "id": 8,
+      "url": "https://zenodo.org/api/records/23322006",
+      "title": "zenodo_23322006",
+      "accessed": "2026-10-30",
+      "quotes": [
+        {
+          "text": "This dataset accompanies the manuscript",
+          "added": "2026-10-30"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "url": "https://zenodo.org/api/records/20373531",
+      "title": "zenodo_20373531",
+      "accessed": "2026-10-30",
+      "quotes": [
+        {
+          "text": "Corresponding object detection annotations are provided as plain-text label files compatible with mainstream deep learning detection frameworks.",
+          "added": "2026-10-30"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "url": "https://zenodo.org/api/records/20260929",
+      "title": "zenodo_20260929",
+      "accessed": "2026-10-30",
+      "quotes": [
+        {
+          "text": "This dataset was used in the following publication:",
+          "added": "2026-10-30"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "url": "https://zenodo.org/api/records/17688985",
+      "title": "zenodo_17688985",
+      "accessed": "2026-10-30",
+      "quotes": [
+        {
+          "text": "All labels are validated by Michael Crowe",
+          "added": "2026-10-30"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "url": "https://api.datacite.org/dois/10.17632/bsvbtcc348.1",
+      "title": "datacite_bsvbtcc348_1",
+      "accessed": "2026-10-30",
+      "quotes": [
+        {
+          "text": "This dataset contains time-lapse scanned images of Pleurotus ostreatus mycelium cultured on potato dextrose agar (PDA)",
+          "added": "2026-10-30"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "url": "https://api.datacite.org/dois/10.17632/8n6nr43gk3.1",
+      "title": "datacite_rgbd",
+      "accessed": "2026-10-30",
+      "quotes": [
+        {
+          "text": "In total, the dataset contains 129 stitched RGB",
+          "added": "2026-10-30"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "url": "https://data.mendeley.com/datasets/8n6nr43gk3/1",
+      "title": "mendeley_rgbd",
+      "accessed": "2026-10-30"
+    },
+    {
+      "id": 15,
+      "url": "https://data.mendeley.com/datasets/bsvbtcc348/1",
+      "title": "mendeley_mycelium",
+      "accessed": "2026-10-30"
+    },
+    {
+      "id": 16,
+      "url": "https://api.crossref.org/works/10.3390/agronomy15010226",
+      "title": "crossref_agronomy",
+      "accessed": "2026-10-30"
+    },
+    {
+      "id": 17,
+      "url": "https://api.figshare.com/v2/articles?resource_doi=10.3390/agronomy15010226",
+      "title": "figshare_search_doi",
+      "accessed": "2026-10-30"
+    },
+    {
+      "id": 18,
+      "url": "https://mdpi-res.com/d_attachment/agronomy/agronomy-15-00226/article_deploy/agronomy-15-00226.xml",
+      "title": "paper_xml_alternate",
+      "accessed": "2026-10-30",
+      "quotes": [
+        {
+          "text": "In addition to the training and validation subsets, a separate test set was not utilized in this study due to the limited size of the dataset.",
+          "added": "2026-10-30"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "url": "https://api.figshare.com/v2/articles?order=published_date&order_direction=desc&page_size=10",
+      "title": "figshare_healthcheck",
+      "accessed": "2026-10-30"
+    },
+    {
+      "id": 20,
+      "url": "https://api.crossref.org/works?query.bibliographic=%22RGB-D+Time-Series+Dataset+of+White+Button+Mushroom+Growth%22&rows=3",
+      "title": "retry_crossref_0",
+      "accessed": "2026-10-30"
+    },
+    {
+      "id": 21,
+      "url": "https://api.crossref.org/works?query.bibliographic=%22Phenotypic+image+dataset+of+naturally+grown+shiitake+mushrooms%22&rows=3",
+      "title": "retry_crossref_1",
+      "accessed": "2026-10-30"
+    },
+    {
+      "id": 22,
+      "url": "https://api.crossref.org/works?query.bibliographic=%22Liadi%22+%22mycelium%22&rows=3",
+      "title": "retry_crossref_2",
+      "accessed": "2026-10-30"
+    },
+    {
+      "id": 23,
+      "url": "https://www.nature.com/articles/s41597-026-07754-7",
+      "title": "paper_shiitake",
+      "accessed": "2026-10-30",
+      "quotes": [
+        {
+          "text": "The complete phenotypic image dataset and validation source code described in this work have been permanently deposited in the Zenodo repository under",
+          "added": "2026-10-30"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "url": "https://api.crossref.org/works/10.1016/j.dib.2026.113085",
+      "title": "crossref_rgbd",
+      "accessed": "2026-10-30",
+      "quotes": [
+        {
+          "text": "An RGB-D time-series dataset of white button mushroom growth for instance segmentation",
+          "added": "2026-10-30"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "url": "https://api.crossref.org/works/10.1038/s41597-026-07754-7",
+      "title": "crossref_shiitake",
+      "accessed": "2026-10-30"
+    },
+    {
+      "id": 26,
+      "url": "https://api.elsevier.com/content/article/PII:S2352340926006335?httpAccept=text/xml",
+      "title": "paper_rgbd_xml",
+      "accessed": "2026-10-30"
+    },
+    {
+      "id": 27,
+      "url": "https://mdpi-res.com/d_attachment/sensors/sensors-26-01935/article_deploy/sensors-26-01935.xml",
+      "title": "paper_rdguidenet_xml",
+      "accessed": "2026-10-30",
+      "quotes": [
+        {
+          "text": "The dataset supporting the findings of this study is publicly available in the Mendeley Data repository at",
+          "added": "2026-10-30"
+        }
+      ]
+    }
+  ]
+}

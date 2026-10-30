@@ -1,0 +1,4 @@
+from discover import *
+urls=[('https://www.mdpi.com/2073-431X/14/4/128/xml','sms3d.xml'),('https://www.mdpi.com/2073-431X/14/5/199/xml','m18k.xml'),('https://mdpi-res.com/d_attachment/computers/computers-14-00128/article_deploy/computers-14-00128.pdf','sms3d.pdf'),('https://mdpi-res.com/d_attachment/computers/computers-14-00199/article_deploy/computers-14-00199.pdf','m18k.pdf'),('https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1016/j.dib.2026.113085&format=json','rgbd_pmc.json'),('https://api.elsevier.com/content/article/pii/S2352340926006335?httpAccept=text/xml','rgbd_elsevier.xml'),('https://api.github.com/search/repositories?q=SMS3D','sms3d_github_search.json'),('https://api.github.com/search/repositories?q=M18K+mushroom','m18k_github_search.json')]
+with concurrent.futures.ThreadPoolExecutor(max_workers=6) as ex:
+ for r in ex.map(lambda p:fetch(*p),urls):print(r)

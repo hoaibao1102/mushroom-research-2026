@@ -1,0 +1,35 @@
+{"url": "https://api.datacite.org/dois?query=titles%3Amushroom+AND+%28image+OR+disease+OR+quality+OR+growth+OR+contamination%29+AND+publicationYear%3A%5B2024+TO+2026%5D&page%5Bsize%5D=100", "accessed_utc": "2026-10-30T04:46:58.570334+00:00", "status": 200, "file": "search_datacite_0.txt"}
+{"url": "https://api.datacite.org/dois?query=mushroom+AND+image+AND+publicationYear%3A%5B2024+TO+2026%5D+AND+client.client-id%3Abl.mendeley&page%5Bsize%5D=100", "accessed_utc": "2026-10-30T04:47:00.727241+00:00", "status": 200, "file": "search_datacite_1.txt"}
+{"url": "https://api.datacite.org/dois?query=mushroom+AND+%28image+OR+dataset%29+AND+publicationYear%3A%5B2024+TO+2026%5D+AND+%28prefix%3A10.5281+OR+prefix%3A10.6084%29&page%5Bsize%5D=100", "accessed_utc": "2026-10-30T04:47:02.383386+00:00", "status": 200, "file": "search_datacite_2.txt"}
+{"url": "https://api.datacite.org/dois?query=oyster+AND+image+AND+publicationYear%3A%5B2024+TO+2026%5D&page%5Bsize%5D=100", "accessed_utc": "2026-10-30T04:47:07.669640+00:00", "status": 200, "file": "search_datacite_3.txt"}
+{"url": "https://api.datacite.org/dois?query=mushroom+AND+publicationYear%3A%5B2024+TO+2026%5D+AND+prefix%3A10.17632&page%5Bsize%5D=100", "accessed_utc": "2026-10-30T04:47:30.663037+00:00", "status": 200, "file": "search_extra_0.txt"}
+{"url": "https://api.datacite.org/dois?query=mushroom+AND+%28quality+OR+disease+OR+contamination+OR+maturity+OR+growth%29+AND+publicationYear%3A%5B2024+TO+2026%5D&page%5Bsize%5D=100", "accessed_utc": "2026-10-30T04:47:33.835325+00:00", "status": 200, "file": "search_extra_1.txt"}
+{"url": "https://api.datacite.org/dois?query=titles.title%3Amushroom+AND+publicationYear%3A%5B2024+TO+2026%5D&page%5Bsize%5D=100", "accessed_utc": "2026-10-30T04:47:37.061811+00:00", "status": 200, "file": "search_extra_2.txt"}
+{"url": "https://zenodo.org/api/records/23322006", "accessed_utc": "2026-10-30T04:47:39.881746+00:00", "status": 200, "file": "zenodo_23322006.txt"}
+{"url": "https://zenodo.org/api/records/20373531", "accessed_utc": "2026-10-30T04:47:41.255878+00:00", "status": 200, "file": "zenodo_20373531.txt"}
+{"url": "https://zenodo.org/api/records/20260929", "accessed_utc": "2026-10-30T04:47:42.586186+00:00", "status": 200, "file": "zenodo_20260929.txt"}
+{"url": "https://zenodo.org/api/records/17688985", "accessed_utc": "2026-10-30T04:47:43.977338+00:00", "status": 200, "file": "zenodo_17688985.txt"}
+{"url": "https://api.datacite.org/dois/10.17632/bsvbtcc348.1", "accessed_utc": "2026-10-30T04:47:45.748994+00:00", "status": 200, "file": "datacite_bsvbtcc348_1.txt"}
+{"url": "https://api.datacite.org/dois/10.17632/8n6nr43gk3.1", "accessed_utc": "2026-10-30T04:48:07.341804+00:00", "status": 200, "file": "datacite_rgbd.txt"}
+{"url": "https://data.mendeley.com/datasets/8n6nr43gk3/1", "accessed_utc": "2026-10-30T04:48:09.988067+00:00", "status": 200, "file": "mendeley_rgbd.txt"}
+{"url": "https://data.mendeley.com/datasets/bsvbtcc348/1", "accessed_utc": "2026-10-30T04:48:11.462047+00:00", "status": 200, "file": "mendeley_mycelium.txt"}
+{"url": "https://www.mdpi.com/2073-4395/15/1/226", "accessed_utc": "2026-10-30T04:48:12.931142+00:00", "error": "HTTP Error 403: Forbidden"}
+{"url": "https://www.mdpi.com/2073-4395/15/1/226/xml", "accessed_utc": "2026-10-30T04:48:13.179600+00:00", "error": "HTTP Error 403: Forbidden"}
+{"url": "https://api.crossref.org/works/10.3390/agronomy15010226", "accessed_utc": "2026-10-30T04:48:13.374816+00:00", "status": 200, "file": "crossref_agronomy.txt"}
+{"url": "https://api.figshare.com/v2/articles?resource_doi=10.3390/agronomy15010226", "accessed_utc": "2026-10-30T04:48:15.298031+00:00", "status": 200, "file": "figshare_search_doi.txt"}
+{"url": "https://api.crossref.org/works?query=%22Scanned+images+of+Oyster%22&rows=5", "accessed_utc": "2026-10-30T04:48:16.898296+00:00", "error": "<urlopen error [WinError 10054] An existing connection was forcibly closed by the remote host>"}
+{"url": "https://api.crossref.org/works?query=%22Pleurotus+ostreatus%22+%22Liadi%22&rows=5", "accessed_utc": "2026-10-30T04:50:19.004198+00:00", "error": "<urlopen error [Errno 11001] getaddrinfo failed>"}
+{"url": "https://api.crossref.org/works?query=%22RGB-D+Time-Series%22+mushroom&rows=5", "accessed_utc": "2026-10-30T04:50:19.017964+00:00", "error": "<urlopen error [Errno 11001] getaddrinfo failed>"}
+{"url": "https://api.crossref.org/works?query=%22Phenotypic+image+dataset%22+shiitake&rows=5", "accessed_utc": "2026-10-30T04:50:19.036533+00:00", "error": "<urlopen error [Errno 11001] getaddrinfo failed>"}
+{"url": "https://mdpi-res.com/d_attachment/agronomy/agronomy-15-00226/article_deploy/agronomy-15-00226.xml", "accessed_utc": "2026-10-30T04:57:56.362394+00:00", "status": 200, "file": "paper_xml_alternate.txt"}
+{"url": "https://api.figshare.com/v2/articles?order=published_date&order_direction=desc&page_size=10", "accessed_utc": "2026-10-30T04:57:57.439039+00:00", "status": 200, "file": "figshare_healthcheck.txt"}
+{"url": "https://api.crossref.org/works?query.bibliographic=%22RGB-D+Time-Series+Dataset+of+White+Button+Mushroom+Growth%22&rows=3", "accessed_utc": "2026-10-30T04:57:59.425835+00:00", "status": 200, "file": "retry_crossref_0.txt"}
+{"url": "https://api.crossref.org/works?query.bibliographic=%22Phenotypic+image+dataset+of+naturally+grown+shiitake+mushrooms%22&rows=3", "accessed_utc": "2026-10-30T04:58:01.371965+00:00", "status": 200, "file": "retry_crossref_1.txt"}
+{"url": "https://api.crossref.org/works?query.bibliographic=%22Liadi%22+%22mycelium%22&rows=3", "accessed_utc": "2026-10-30T04:58:03.204403+00:00", "status": 200, "file": "retry_crossref_2.txt"}
+{"url": "https://www.nature.com/articles/s41597-026-07754-7", "accessed_utc": "2026-10-30T04:58:24.825593+00:00", "status": 200, "file": "paper_shiitake.txt"}
+{"url": "https://api.crossref.org/works/10.1016/j.dib.2026.113085", "accessed_utc": "2026-10-30T04:58:33.727339+00:00", "status": 200, "file": "crossref_rgbd.txt"}
+{"url": "https://api.crossref.org/works/10.1038/s41597-026-07754-7", "accessed_utc": "2026-10-30T04:58:35.208246+00:00", "status": 200, "file": "crossref_shiitake.txt"}
+{"url": "https://www.sciencedirect.com/science/article/pii/S2352340926007168", "accessed_utc": "2026-10-30T04:58:37.372946+00:00", "error": "HTTP Error 403: Forbidden"}
+{"url": "https://api.elsevier.com/content/article/PII:S2352340926006335?httpAccept=text/xml", "accessed_utc": "2026-10-30T04:58:58.751311+00:00", "status": 200, "file": "paper_rgbd_xml.txt"}
+{"url": "https://www.sciencedirect.com/science/article/pii/S2352340926006335", "accessed_utc": "2026-10-30T04:59:01.369896+00:00", "error": "HTTP Error 403: Forbidden"}
+{"url": "https://mdpi-res.com/d_attachment/sensors/sensors-26-01935/article_deploy/sensors-26-01935.xml", "accessed_utc": "2026-10-30T04:59:01.586777+00:00", "status": 200, "file": "paper_rdguidenet_xml.txt"}
