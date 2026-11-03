@@ -1,0 +1,12 @@
+WB-only evaluation — completed separately from notebook training run; output pasted by user
+Dataset was accessed via shared folder API for test images (Colab mount shortcut not visible).
+450 test images and 70,192 WB masks prepared.
+Checkpoint downloaded: https://drive.google.com/file/d/1Q5iq_-j-RwOTkyiiXyTOc80Cf_xwk7K-/view
+Ultralytics 8.4.198 | Python 3.13.16 | torch 2.11.0+cu130 | Tesla T4
+Model: YOLOv8n-seg WB-only (1 class)
+Test: images=450, instances=70192
+Box: P=0.977 R=0.966 mAP50=0.9920571955784918 mAP50:95=0.839892021550317
+Mask: P=0.975553581229347 R=0.9630784596636397 mAP50=0.9906387162815481 mAP50:95=0.7973628392154766
+Speed per image: 1.9 ms preprocess; 8.3 ms inference; 8.9 ms postprocess
+Output path: /content/drive/MyDrive/M18K_Reproduction/model_runs/khang_wb_heldout_test/test_metrics.json
+Note: The originally saved WB notebook's test cell used the old two-class data.yaml. These are results from the corrected, user-reported, separate WB-only test evaluation.

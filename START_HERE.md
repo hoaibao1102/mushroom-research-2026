@@ -1,11 +1,10 @@
-# Start here — Team 10 M18K
+# Start here — Day 1 to Day 3 research evidence
 
-1. Open the project in Git. To integrate this update into the group's real GitHub repository, copy/merge the contents from the delivered archive into an existing clone **without replacing its `.git` directory**. Review differences before committing; this file bundle does not push to GitHub.
-2. Read `README.md`, `09_results/reports/M18K_V2_EDA_2026-10-30.md`, and `00_project_management/RESEARCH_STATUS.md`.
-3. Run `python scripts/validate_workspace.py` and `python -m unittest discover -s tests -v`. These check metadata and file structure only.
-4. Open `04_dataset_candidates/C03_m18k_v2/analysis/M18K_V2_Research_EDA_Executed_2026-10-30.ipynb` in Colab for the **already executed record**. It is not a training result. The original full dataset remains on Google Drive and will not be bundled into Git.
-5. Before model training, perform the **human-review items** in `00_project_management/TASK_BOARD.md`: confirm the chosen dataset/paper with the team lead, the intended license/use rights, anomalous BB labels, group leakage, and any training budget.
-6. To work with the existing notebook, mount Drive and confirm `DATA_ROOT = /content/drive/MyDrive/M18K_Reproduction/M18K_V2_data/M18KV2` with `train`, `valid`, `test` containing `rgb`, `depth` and `annotations_coco.json`.
-7. Keep test data for final evaluation; select model checkpoints only on validation. Store large datasets/checkpoints on Drive, version lightweight experimental metadata here.
+1. Read [README.md](README.md) and the two day reports: [`Day 2`](09_results/reports/Day2_YOLOv8n_Seg_Reproduction_2026-11-02.md) and [`Day 3`](09_results/reports/Day3_Prediction_Area_and_Error_Analysis_2026-11-03.md). Day 1 EDA remains preserved in the original dataset-candidate analysis and results folders.
+2. Open `10_research_paper/drafts/M18K_V2_Day3_Research_Draft_2026-11-03.docx` to edit the manuscript; Markdown source is alongside it.
+3. Review experimental metrics under `09_results/metrics` and complete raw/reviewed error-analysis outputs under `09_results/area_evaluation` and `09_results/wb_error_analysis`.
+4. If rerunning, use notebooks under `08_experiments/notebooks`. **Read that folder's README first:** the saved two-class baseline notebook is an early interrupted workflow, and an old WB notebook test cell incorrectly references two-class labels. Use the separately recorded correct held-out logs rather than that cell.
+5. Raw RGB/depth and COCO annotations remain on Drive. The large `wb_yolo_labels.zip` and `best.pt` are required to rerun some steps and are not included here; see `12_reproducibility/CLOUD_EXECUTION_GUIDE.md`.
+6. Run `python scripts/validate_workspace.py` and `python -m unittest discover -s tests -v`. The checks validate repository content and aggregate evidence consistency, **not** a fresh model inference or complete upstream dataset QC.
 
-**Scope note:** Existing C01 and C02 are earlier alternatives, not renamed M18K datasets. `setup_reports/` contains an archived clean-workspace WP-00 report; it predates this V2 EDA and must not be read as current research status.
+**For merging into the live Git repository:** review `INTEGRATION_NOTES.md` and the Day 2/3 integration manifest. Merge carefully into your existing `.git` clone; this archive does not push or commit for you. Do not overwrite newer files without comparing changes.

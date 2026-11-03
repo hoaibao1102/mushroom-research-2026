@@ -1,0 +1,21 @@
+# Recorded parameters for completed Day 2 two-class YOLOv8n-seg experiment.
+# Provenance: completed user-supplied console test log; this is a metadata record,
+# NOT a drop-in Ultralytics dataset YAML.
+experiment: EXP-M18K-V2-2CLASS-20261102
+model: yolov8n-seg.pt
+classes: {0: BB, 1: WB}
+imgsz: 640
+epochs: 10
+batch: 8
+optimizer: AdamW
+lr0: 0.0001
+cos_lr: true
+seed: 42
+degrees: 15
+translate: 0.1
+scale: 0.2
+mosaic: 0
+fliplr: 0
+flipud: 0
+split_counts: {train: 3596, val: 449, test: 450}
+dataset_release: M18K V2 indexed copy (4495 RGB images)

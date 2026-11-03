@@ -24,4 +24,4 @@
 3. Are RGB-depth arrays calibrated and aligned, beyond filename correspondence?
 4. How does the advertised release total of **4,652** relate to 4,495 annotated RGB entries?
 
-No new training result is claimed in this folder.
+**Day 2/3 update (3 November):** The executed EDA notebook in this candidate folder remains an EDA-only record. The **subsequently completed** two-class/WB-only YOLOv8n-seg training and test evaluations are filed separately under `08_experiments/` and `09_results/reports/Day2_YOLOv8n_Seg_Reproduction_2026-11-02.md`. Day 3's sample area and error review is under `09_results/reports/Day3_Prediction_Area_and_Error_Analysis_2026-11-03.md`. These later experiments do not imply formal dataset-selection or QC gate approval.

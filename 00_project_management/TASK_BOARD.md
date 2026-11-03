@@ -1,22 +1,18 @@
-# Research task board — M18K
+# Research task board — current as of 2026-11-03
 
-Legend: **DONE (notebook evidence)** = visible in executed notebook; **NEEDS REVIEW** = requires a human or independent check; **PLANNED** = not yet done. Do not interpret PLANNED as authorized or completed.
+| Work | Status | Evidence / action needed |
+| --- | --- | --- |
+| Day 1 — V2 EDA and class inventory | DONE | 09_results/reports/M18K_V2_EDA_2026-10-30.md |
+| Day 2 — two-class YOLOv8n-seg train/evaluate | DONE (reported run) | 09_results/metrics/Day2_Two_Class_Heldout_Test_2026-11-02.json; checkpoint in team Drive |
+| Day 2 — WB-only YOLOv8n-seg train/evaluate | DONE (reported run) | 09_results/metrics/Day2_WB_Only_Heldout_Test_2026-11-02.json; corrected separate WB-only test |
+| Day 2 — WB COCO→YOLO conversion / mask area sanity | DONE (submitted) | 07_source_code and 09_results/metrics/wb_* |
+| Day 3 — sampled predicted mask area error | DONE for 30 images | 09_results/area_evaluation/mask_area_matches.csv and summary |
+| Day 3 — 12-image qualitative error review | DONE for reviewed PNGs | 09_results/reports/Day3_WB_Qualitative_Review_2026-11-03.md |
+| Day 3 — manuscript integration | DRAFT UPDATED | 10_research_paper/drafts; final peer review still needed |
+| Confirm source V2 legal reuse, official research selection and formal gate approvals | NEEDS HUMAN DECISION | Source/license and approval evidence missing |
+| Independently verify two suspected WB GT anomalies | OPEN | Inspect full original COCO category/polygons for 004252/004472 |
+| Verify five dHash=0 train/test pairs and scene groups | OPEN | Compare exact SHA-256 + visual RGB, possible same acquisition groups |
+| Investigate V2 4,652 vs 4,495 image counts | OPEN | Verify upstream release archive/manifest |
+| Physical area (mm²), 3D pose, quality prediction | OUT OF V1 SCOPE | Do not claim complete; depth intrinsics and units unverified |
 
-| Priority | Task | Status | Evidence / remaining action | Responsible |
-| --- | --- | --- | --- | --- |
-| P0 | Record V2 RGB/depth and annotation file inventory | DONE (notebook evidence) | Executed notebook, inventory outputs | Analyst; reviewer pending |
-| P0 | Stream-read all COCO annotation records | DONE (notebook evidence) | 700,589 records; class-ID audit | Analyst; reviewer pending |
-| P0 | Generate V2 EDA and example visualizations | DONE (notebook evidence) | `09_results/` figures and report | Analyst; reviewer pending |
-| P0 | Determine if BB=858/WB=699,731 reflects correct labels | NEEDS REVIEW | Stratified human review of BB and negative controls; inspect original categories and source | Team/data reviewer |
-| P0 | Verify 4,652 release claim vs 4,495 RGB annotation records | NEEDS REVIEW | Compare archive manifest/version and paper/repository release descriptions | Dataset/source reviewer |
-| P0 | Verify depth alignment, units, quality | NEEDS REVIEW | Check sensor calibration/intrinsics and sampled arrays, not just stems | Data/3D reviewer |
-| P0 | Check train/val/test leakage | NEEDS REVIEW | Full exact hash + near duplicates + growth-scene/acquisition group review | Data reviewer |
-| P0 | Confirm C03 as officially selected and clarify dataset license | NEEDS REVIEW | Team lead decision and source/license evidence; update state and decision log | Team lead |
-| P1 | Freeze V2 baseline protocol and environment | PLANNED | Split/seed/model/metric definitions, batch budget, Colab environment | Model lead |
-| P1 | Train YOLOv8n-seg RGB on V2 | PLANNED | Actual logs, checkpoints and validation metrics; no result yet | Model lead |
-| P1 | Evaluate once on held-out test; per-class AP | PLANNED | Test report with rare-class caveat | Evaluator |
-| P2 | Paper-compatible benchmark subset and protocol | PLANNED | Reconcile 2,000 vs V2; 70/10/20 vs 80/10/10 | Research lead |
-| P2 | RGB vs RGB-D late-fusion comparison | HYPOTHESIS | Predeclare controlled experiment after RGB baseline | Research/model lead |
-| P3 | 3D pose estimation feasibility audit | PLANNED | Inspect available 3D labels, calibration and angular-error metric | 3D lead |
-
-Names, approvals and deadlines beyond today's EDA were not supplied, so no assignments are invented.
+Remaining tasks are verification and manuscript closure, **not retraining**. Experiment logs are user-supplied results, not re-executed by the repository packager.

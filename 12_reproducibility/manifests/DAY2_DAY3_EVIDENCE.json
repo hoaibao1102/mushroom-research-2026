@@ -1,0 +1,61 @@
+{
+  "generated_on": "2026-11-03",
+  "days": {
+    "day1": "EDA documented 2026-10-30",
+    "day2": "Reproduction approach on M18K V2 documented 2026-11-02",
+    "day3": "Additional WB-only area and qualitative analysis documented 2026-11-03"
+  },
+  "model_tests": {
+    "two_class": "09_results/metrics/Day2_Two_Class_Heldout_Test_2026-11-02.json",
+    "wb_only": "09_results/metrics/Day2_WB_Only_Heldout_Test_2026-11-02.json"
+  },
+  "source_zip_input_hashes": {
+    "source_repo_snapshot": {
+      "filename": "M18K_Team10_Research_Repository_Updated.zip",
+      "sha256": "7d2dade2299f1b361a104f0e5aa6606aa9f74ec3b3d383e913163f8cd5e59fcd"
+    },
+    "day2_console_evidence": {
+      "filename": "M18K_V2_Reproduction_Evidence_2026-11-02.zip",
+      "sha256": "3cd955d81d3e86e5a0ddbcfc9617664a025b38bdbcfb8ebba83040c4042d6416"
+    },
+    "day3_thinh_source_and_area": {
+      "filename": "wb_task_repo-20261103T073720Z-1-001.zip",
+      "sha256": "e61631ed7b1e2cb12ecd1035f755bf9576eb706f3692395b1d0d93e438d4f716"
+    },
+    "day3_khang_results": {
+      "filename": "09_results-20261103T073814Z-1-001.zip",
+      "sha256": "03cbe40fc6a2e0d9a14ce1ace8b249e29630b7fb83e07fabcb124f0f94a1766d"
+    },
+    "day3_reviewed_outputs": {
+      "filename": "M18K_Day2_Reviewed_Evidence_2026-11-03.zip",
+      "sha256": "7e2e478a58443abcc27c6d34d389ea6a82ec5bba1ade84359fede8da8ad8fc25"
+    },
+    "two_class_pipeline_notebook": {
+      "filename": "M18K_V2_Colab.ipynb",
+      "sha256": "2588f2772a667f45adf440e6f35ba42f4f92efe91c2360e4bc06965978745737"
+    },
+    "wb_only_pipeline_notebook": {
+      "filename": "M18K_V2_Training_WB_Only(1).ipynb",
+      "sha256": "df49fc7458b64656af60ce44f8c1bd4d4e389ba638b037e4c9c7bad93f9666b8"
+    },
+    "area_pipeline_notebook": {
+      "filename": "project_m18k_mushroom(1).ipynb",
+      "sha256": "38b47e4f14eeebee6dada5276c84f7a566f06b1184906d8a5ce55d9f5bc36846"
+    }
+  },
+  "not_in_repo": [
+    "Raw M18K V2 images/depth/COCO JSON",
+    "best.pt checkpoints",
+    "large wb_yolo_labels.zip",
+    "Google Drive credentials"
+  ],
+  "traceability_limits": [
+    "Original repo source is older than the latest tree pasted in chat: merge, do not blindly overwrite",
+    "Two-class baseline notebook has incomplete saved train output; completed summary user-reported in chat",
+    "WB-only notebook earlier test cell references two-class labels; corrected test was performed separately",
+    "Original paper AP and V2 Ultralytics AP differ in dataset/protocol/metric definitions",
+    "Area sample is 30 test images, error metrics conditional on matching",
+    "Possible annotation anomalies and five zero-distance perceptual dHashes remain unverified"
+  ],
+  "qa_results": "tests to be run by packaging step"
+}

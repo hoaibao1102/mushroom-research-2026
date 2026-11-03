@@ -1,18 +1,18 @@
-# Research status — 30 October 2026
+# Research status — 3 November 2026 (Day 3)
 
-| Field | Status |
+| Item | Actual status / evidence |
 | --- | --- |
-| Phase | Phase 1 — M18K V2 data audit / EDA (provisional focus) |
-| Active candidate | **C03 M18K V2** — working focus, not a recorded group selection |
-| Reference paper | Zakeri et al. (2025), M18K — reference identified |
-| Dataset source/license | Dataset obtained on team Drive; formal license/use-rights review pending |
-| Dataset EDA | Executed; initial results documented |
-| Dataset QC gate G1 | **NEEDS_MORE_EVIDENCE** (rare-class validation; group leakage; hashes) |
-| Baseline reproduced G2 | **NO** — training was disabled in the completed research notebook |
-| 3D experiments | **NOT STARTED** |
-| Team approval to finalize selection | **NOT RECORDED** |
-| Research gap validated | **NO** — depth benefit remains a hypothesis |
+| Day 1: M18K V2 EDA | **DONE** — 4,495 indexed RGB images; 700,589 COCO annotations; depth filename pairing and plots |
+| Day 2: YOLO reproduction workflow | **DONE** — two independently trained YOLOv8n-seg configurations (BB+WB and WB-only), both held-out tests recorded; **not** an identical reproduction of published original scores |
+| Day 3: 2D mask-area evaluation | **DONE for 30-image sample** — matched mask area MAE=207.4 px², mean relative abs error=8.80% |
+| Day 3: qualitative error analysis | **DONE for 12 exported figures** — reviewed report and corrected boundary-count bug |
+| Current research-paper draft | **UPDATED** — Markdown and Word under `10_research_paper/drafts/` |
+| External exact source/permission approval | **NOT VERIFIED** — do not infer formal approval from experiment completion |
+| BB label validation and count discrepancy | **OPEN** — rare category and 4,652 vs 4,495 ambiguity |
+| Train/test scene independence | **OPEN** — five zero-distance perceptual dHash pairs, no exact pixel hash or visual paired clearance |
+| Apparent GT mask anomalies | **OPEN** — possible issues in test images `004252` and `004472`; requires raw COCO examination |
+| Depth calibration / physical area | **NOT DONE** — current areas only in px²; mm²/3D area not supported |
+| Original M18K benchmark equivalence | **NOT ESTABLISHED** — original subset/splits/metric differ |
+| Formal QC research gates G0/G1/G2 | **NEEDS_MORE_EVIDENCE**, despite completed experiment execution |
 
-See `00_project_management/project_state.json` (machine-readable) and `09_results/reports/M18K_V2_EDA_2026-10-30.md` (evidence-backed findings).
-
-**Important:** `setup_reports/WP-00_SETUP_REPORT.md` documents the original repository initialization on 23 October 2026, not the current research state.
+See `00_project_management/TASK_BOARD.md` for next actions and `12_reproducibility/manifests/DAY2_DAY3_EVIDENCE.json` for traceability. Historic WP-00 setup reports have not been relabeled as current findings.

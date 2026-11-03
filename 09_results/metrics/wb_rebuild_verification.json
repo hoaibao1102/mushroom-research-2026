@@ -1,0 +1,37 @@
+{
+  "ok": true,
+  "problems": [],
+  "splits": {
+    "train": {
+      "images": 3596,
+      "labels": 3596,
+      "broken_links": 0,
+      "nonempty": 3596,
+      "empty": 0,
+      "instances": 558853,
+      "bad_lines": 0
+    },
+    "val": {
+      "images": 449,
+      "labels": 449,
+      "broken_links": 0,
+      "nonempty": 449,
+      "empty": 0,
+      "instances": 70680,
+      "bad_lines": 0
+    },
+    "test": {
+      "images": 450,
+      "labels": 450,
+      "broken_links": 0,
+      "nonempty": 450,
+      "empty": 0,
+      "instances": 70192,
+      "bad_lines": 0
+    }
+  },
+  "yaml_nc": 1,
+  "yaml_names": {
+    "0": "WB"
+  }
+}

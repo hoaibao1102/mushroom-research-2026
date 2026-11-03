@@ -1,0 +1,117 @@
+Creating new Ultralytics Settings v0.0.8 file ✅ 
+View Ultralytics Settings with 'yolo settings' or at '/root/.config/Ultralytics/settings.json'
+Update Settings with 'yolo settings key=value', i.e. 'yolo settings runs_dir=path/to/dir'. For help see https://docs.ultralytics.com/usage/settings
+Downloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n-seg.pt to 'yolov8n-seg.pt': 100% ━━━━━━━━━━━━ 6.7MB 121.3MB/s 0.1s
+Ultralytics 8.4.198 🚀 Python-3.13.16 torch-2.11.0+cu130 CUDA:0 (Tesla T4, 14913MiB)
+engine/trainer: agnostic_nms=False, amp=True, angle=1.0, augment=False, auto_augment=randaugment, batch=8, bgr=0.0, box=7.5, cache=False, cfg=None, channels_last=None, classes=None, close_mosaic=10, cls=0.5, cls_pw=0.0, cls_remap=True, compile=False, conf=None, copy_paste=0.0, copy_paste_mode=flip, cos_lr=True, cutmix=0.0, data=/content/M18K_V2_work/yolo_v2_wb/data.yaml, degrees=15, deterministic=True, device=0, dfl=1.5, dgrad=0.5, dis=6.0, distill_model=None, dlam=1.0, dlog=1.0, dnn=False, dropout=0.0, dynamic=False, embed=None, epochs=10, erasing=0.4, exist_ok=False, fliplr=0, flipud=0, format=torchscript, fraction=1.0, freeze=None, hsv_h=0.015, hsv_s=0.7, hsv_v=0.4, imgsz=640, iou=0.7, kobj=1.0, line_width=None, lr0=0.0001, lrf=0.01, mask_ratio=4, max_det=300, mixup=0, mode=train, model=yolov8n-seg.pt, momentum=0.937, mosaic=0, multi_scale=0.0, name=wb_only_yolov8n_seg_640_e10_s42, nbs=64, nms=None, opset=None, optimize=False, optimizer=AdamW, overlap_mask=True, patience=100, perspective=0.0, plots=True, pose=12.0, pretrained=True, profile=False, project=/content/drive/MyDrive/M18K_Reproduction/model_runs, quantize=None, rect=False, resume=False, retina_masks=False, rle=1.0, save=True, save_conf=False, save_crop=False, save_dir=/content/drive/MyDrive/M18K_Reproduction/model_runs/wb_only_yolov8n_seg_640_e10_s42, save_frames=False, save_json=False, save_period=1, save_txt=False, scale=0.2, seed=42, shear=0.0, show=False, show_boxes=True, show_conf=True, show_labels=True, simplify=True, single_cls=False, source=None, split=val, stream_buffer=False, task=segment, time=None, tracker=tracktrack.yaml, translate=0.1, val=True, verbose=True, vid_stride=1, visualize=False, warmup_bias_lr=0.1, warmup_epochs=3.0, warmup_momentum=0.8, weight_decay=0.0005, workers=2, workspace=None
+Downloading https://ultralytics.com/assets/Arial.ttf to '/root/.config/Ultralytics/Arial.ttf': 100% ━━━━━━━━━━━━ 755.1KB 23.6MB/s 0.0s
+Overriding model.yaml nc=80 with nc=1
+
+                   from  n    params  module                                       arguments                     
+  0                  -1  1       464  ultralytics.nn.modules.conv.Conv             [3, 16, 3, 2]                 
+  1                  -1  1      4672  ultralytics.nn.modules.conv.Conv             [16, 32, 3, 2]                
+  2                  -1  1      7360  ultralytics.nn.modules.block.C2f             [32, 32, 1, True]             
+  3                  -1  1     18560  ultralytics.nn.modules.conv.Conv             [32, 64, 3, 2]                
+  4                  -1  2     49664  ultralytics.nn.modules.block.C2f             [64, 64, 2, True]             
+  5                  -1  1     73984  ultralytics.nn.modules.conv.Conv             [64, 128, 3, 2]               
+  6                  -1  2    197632  ultralytics.nn.modules.block.C2f             [128, 128, 2, True]           
+  7                  -1  1    295424  ultralytics.nn.modules.conv.Conv             [128, 256, 3, 2]              
+  8                  -1  1    460288  ultralytics.nn.modules.block.C2f             [256, 256, 1, True]           
+  9                  -1  1    164608  ultralytics.nn.modules.block.SPPF            [256, 256, 5]                 
+ 10                  -1  1         0  torch.nn.modules.upsampling.Upsample         [None, 2, 'nearest']          
+ 11             [-1, 6]  1         0  ultralytics.nn.modules.conv.Concat           [1]                           
+ 12                  -1  1    148224  ultralytics.nn.modules.block.C2f             [384, 128, 1]                 
+ 13                  -1  1         0  torch.nn.modules.upsampling.Upsample         [None, 2, 'nearest']          
+ 14             [-1, 4]  1         0  ultralytics.nn.modules.conv.Concat           [1]                           
+ 15                  -1  1     37248  ultralytics.nn.modules.block.C2f             [192, 64, 1]                  
+ 16                  -1  1     36992  ultralytics.nn.modules.conv.Conv             [64, 64, 3, 2]                
+ 17            [-1, 12]  1         0  ultralytics.nn.modules.conv.Concat           [1]                           
+ 18                  -1  1    123648  ultralytics.nn.modules.block.C2f             [192, 128, 1]                 
+ 19                  -1  1    147712  ultralytics.nn.modules.conv.Conv             [128, 128, 3, 2]              
+ 20             [-1, 9]  1         0  ultralytics.nn.modules.conv.Concat           [1]                           
+ 21                  -1  1    493056  ultralytics.nn.modules.block.C2f             [384, 256, 1]                 
+ 22        [15, 18, 21]  1   1004275  ultralytics.nn.modules.head.Segment          [1, 32, 64, 16, None, [64, 128, 256]]
+YOLOv8n-seg summary: 151 layers, 3,263,811 parameters, 3,263,795 gradients, 11.5 GFLOPs
+
+Transferred 411/417 items from pretrained weights
+Freezing layer 'model.22.dfl.conv.weight'
+AMP: running Automatic Mixed Precision (AMP) checks...
+AMP: checks passed ✅
+train: Fast image access ✅ (ping: 0.5±0.1 ms, read: 80.5±133.4 MB/s, size: 1244.8 KB)
+train: Scanning /content/M18K_V2_work/yolo_v2_wb/labels/train... 3596 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 3596/3596 4.8it/s 12:30
+train: New cache created: /content/M18K_V2_work/yolo_v2_wb/labels/train.cache
+albumentations: Blur(p=0.01, blur_limit=(3, 7)), MedianBlur(p=0.01, blur_limit=(3, 7)), ToGray(p=0.01, method='weighted_average', num_output_channels=3), CLAHE(p=0.01, clip_limit=(1.0, 4.0), tile_grid_size=(8, 8))
+WARNING ⚠️ val: Slow image access detected (ping: 0.6±0.1 ms, read: 5.3±0.7 MB/s, size: 1300.9 KB). Use local storage instead of remote/mounted storage for better performance. See https://docs.ultralytics.com/guides/model-training-tips
+val: Scanning /content/M18K_V2_work/yolo_v2_wb/labels/val... 449 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 449/449 4.1it/s 1:50
+val: New cache created: /content/M18K_V2_work/yolo_v2_wb/labels/val.cache
+optimizer: AdamW(lr=0.0001, momentum=0.937) with parameter groups 66 weight(decay=0.0), 77 weight(decay=0.0005), 76 bias(decay=0.0)
+Plotting labels to /content/drive/MyDrive/M18K_Reproduction/model_runs/wb_only_yolov8n_seg_640_e10_s42/labels.jpg... 
+Using 3596 train, 449 val images for fraction=1.0 at imgsz=640
+Using 2 dataloader workers
+Logging results to /content/drive/MyDrive/M18K_Reproduction/model_runs/wb_only_yolov8n_seg_640_e10_s42
+Starting training for 10 epochs...
+Closing dataloader mosaic
+albumentations: Blur(p=0.01, blur_limit=(3, 7)), MedianBlur(p=0.01, blur_limit=(3, 7)), ToGray(p=0.01, method='weighted_average', num_output_channels=3), CLAHE(p=0.01, clip_limit=(1.0, 4.0), tile_grid_size=(8, 8))
+
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss   sem_loss  Instances       Size
+       1/10      9.42G     0.6779      1.215     0.5435      0.878          0        687        640: 100% ━━━━━━━━━━━━ 450/450 1.0s/it 7:52
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 29/29 1.5s/it 42.2s
+                   all        449      70680      0.969      0.942      0.979      0.815      0.924      0.895       0.89      0.472
+
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss   sem_loss  Instances       Size
+       2/10      10.1G     0.5998     0.9245     0.4085     0.8421          0        646        640: 100% ━━━━━━━━━━━━ 450/450 1.0s/it 7:37
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 29/29 1.4s/it 40.3s
+                   all        449      70680      0.974      0.957       0.99      0.836      0.973      0.953      0.981      0.755
+
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss   sem_loss  Instances       Size
+       3/10      8.09G     0.5646     0.8385     0.3782     0.8313          0        573        640: 100% ━━━━━━━━━━━━ 450/450 1.0s/it 7:46
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 29/29 1.4s/it 40.8s
+                   all        449      70680      0.975      0.957       0.99      0.828      0.974      0.953      0.981      0.786
+
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss   sem_loss  Instances       Size
+       4/10      8.33G     0.5458     0.7957     0.3594     0.8258          0        701        640: 100% ━━━━━━━━━━━━ 450/450 1.0s/it 7:41
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 29/29 1.4s/it 40.3s
+                   all        449      70680      0.976      0.963      0.991      0.831      0.973      0.959      0.987      0.798
+
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss   sem_loss  Instances       Size
+       5/10      10.3G     0.5328     0.7669     0.3466     0.8223          0        619        640: 100% ━━━━━━━━━━━━ 450/450 1.0s/it 7:39
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 29/29 1.4s/it 40.4s
+                   all        449      70680      0.977      0.965      0.992      0.846      0.975       0.96      0.988      0.791
+
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss   sem_loss  Instances       Size
+       6/10      8.05G     0.5255     0.7495      0.339     0.8206          0        524        640: 100% ━━━━━━━━━━━━ 450/450 1.0s/it 7:38
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 29/29 1.4s/it 39.5s
+                   all        449      70680      0.978      0.965      0.992      0.842      0.975      0.961      0.989      0.798
+
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss   sem_loss  Instances       Size
+       7/10      8.75G     0.5211     0.7385     0.3336     0.8191          0        521        640: 100% ━━━━━━━━━━━━ 450/450 1.0s/it 7:37
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 29/29 1.3s/it 39.1s
+                   all        449      70680      0.977      0.967      0.992      0.839      0.976      0.963       0.99      0.805
+
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss   sem_loss  Instances       Size
+       8/10      8.07G      0.517     0.7306       0.33     0.8183          0        615        640: 100% ━━━━━━━━━━━━ 450/450 1.0s/it 7:39
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 29/29 1.4s/it 39.7s
+                   all        449      70680      0.977      0.967      0.992      0.843      0.977      0.963       0.99      0.805
+
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss   sem_loss  Instances       Size
+       9/10      8.41G     0.5127      0.726      0.327     0.8181          0        393        640: 100% ━━━━━━━━━━━━ 450/450 1.0s/it 7:39
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 29/29 1.4s/it 40.2s
+                   all        449      70680      0.978      0.967      0.992       0.84      0.978      0.964      0.991      0.809
+
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss   sem_loss  Instances       Size
+      10/10      11.5G     0.5128     0.7231     0.3263     0.8176          0        691        640: 100% ━━━━━━━━━━━━ 450/450 1.0it/s 7:28
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 29/29 1.3s/it 38.2s
+                   all        449      70680      0.978      0.967      0.992      0.843      0.977      0.964      0.991      0.804
+
+10 epochs completed in 1.396 hours.
+Optimizer stripped from /content/drive/MyDrive/M18K_Reproduction/model_runs/wb_only_yolov8n_seg_640_e10_s42/weights/last.pt, 7.0MB
+Optimizer stripped from /content/drive/MyDrive/M18K_Reproduction/model_runs/wb_only_yolov8n_seg_640_e10_s42/weights/best.pt, 7.0MB
+
+Validating /content/drive/MyDrive/M18K_Reproduction/model_runs/wb_only_yolov8n_seg_640_e10_s42/weights/best.pt...
+Ultralytics 8.4.198 🚀 Python-3.13.16 torch-2.11.0+cu130 CUDA:0 (Tesla T4, 14913MiB)
+YOLOv8n-seg summary (fused): 86 layers, 3,385,123 parameters, 0 gradients, 11.9 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 29/29 1.9s/it 54.9s
+                   all        449      70680      0.978      0.967      0.992       0.84      0.977      0.964      0.991      0.809
+Speed: 0.5ms preprocess, 5.7ms inference, 0.0ms loss, 7.6ms postprocess per image
+Results saved to /content/drive/MyDrive/M18K_Reproduction/model_runs/wb_only_yolov8n_seg_640_e10_s42
+Best checkpoint: /content/drive/MyDrive/M18K_Reproduction/model_runs/wb_only_yolov8n_seg_640_e10_s42/weights/best.pt | exists: True

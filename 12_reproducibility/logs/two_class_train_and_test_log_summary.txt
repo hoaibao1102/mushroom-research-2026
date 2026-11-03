@@ -1,0 +1,14 @@
+M18K V2 two-class baseline — key lines from user-provided completed console log
+Ultralytics 8.4.198 | Python 3.13.16 | torch 2.11.0+cu130 | NVIDIA Tesla T4
+Model: YOLOv8n-seg; RGB imgsz=640; epochs=10; batch=8; optimizer=AdamW; lr0=0.0001
+Class mapping: BB=0, WB=1
+Training images=3596; validation images=449; test images=450
+Training: 10 epochs completed in 1.569 hours.
+Checkpoint: /content/drive/MyDrive/M18K_Reproduction/model_runs/v2_yolov8n_seg_640_e10_s42/weights/best.pt
+Validation (449 images; 70755 instances), best checkpoint: overall box mAP50=0.500; mask mAP50=0.497; mask mAP50:95=0.399
+TEST (450 images; 70289 instances):
+All classes: Box P=.988 R=.484 mAP50=.506616 mAP50:95=.431303; Mask P=.988 R=.481 mAP50=.499488 mAP50:95=.396273
+BB (97 instances): Box mAP50=.0213 mAP50:95=.0141; Mask R=0 mAP50=.0095 mAP50:95=.00571
+WB (70192 instances): Box P=.975 R=.968 mAP50=.992 mAP50:95=.849; Mask P=.975 R=.962 mAP50=.989 mAP50:95=.787
+TEST speed per image: 1.8 ms preprocess; 8.7 ms inference; 9.6 ms postprocess
+Note: This is a structured excerpt of the complete console output pasted in the conversation, not a raw console file exported from Colab.

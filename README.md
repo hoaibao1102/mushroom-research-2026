@@ -1,47 +1,41 @@
 # Mushroom Research 2026 — Team 10
 
-Research workspace for **M18K mushroom detection, instance segmentation, RGB-D analysis and prospective 3D pose estimation**. We retain the shared 00–12 research-project directory structure used by other groups.
+Repository for the **M18K V2 mushroom detection and instance-segmentation reproduction study**. We preserve the shared `00`–`12` research organization.
 
-**Status (30 October 2026):** M18K V2 is the **active working candidate (C03)**. A reproducible exploratory data analysis was executed on Colab, but **the candidate has not been formally approved**, license/identity review is incomplete, and **no M18K V2 model accuracy or paper reproduction is claimed**. Candidate C01/C02 records are preserved as earlier alternatives; they are not today's work.
+**Current research record (2026-11-03): Day 3 experiment analysis complete.** The YOLOv8n-seg reproduction workflow on M18K V2 is operational: two models trained/evaluated on the held-out test split, then WB-only predicted-mask area and qualitative error analysis performed. This is **not** an exact replication of the original 2025 M18K benchmark or a claim of numerical superiority. Formal source/license approval, full image leakage audit and some annotation checks remain unresolved.
 
-## Results to date
+## Three-day progression
 
-The executed notebook reports **4,495 annotated RGB images**, **700,589 polygon annotation records**, and **4,495/4,495 filename-stem-matched depth files**. The supplied split is 3,596 train / 449 validation / 450 test (approximately 80/10/10). Raw COCO category names map ID 1 to BB and ID 2 to WB; the reported instance counts are **858 BB (0.122%)** and **699,731 WB (99.878%)**. Six bounding boxes have non-positive dimensions. The complete image-content and scene-level leakage audits were **not executed**. These values are notebook-derived observations; no independent full dataset rerun was possible in this repository snapshot.
+| Day | Work | Evidence |
+| --- | --- | --- |
+| **Day 1 — EDA** (recorded 2026-10-30) | M18K V2 source inventory, RGB-depth stem pairing, annotation/class audit and figures | [`09_results/reports/M18K_V2_EDA_2026-10-30.md`](09_results/reports/M18K_V2_EDA_2026-10-30.md) |
+| **Day 2 — Paper approach reproduction** (2026-11-02) | Two-class and WB-only YOLOv8n-seg training and held-out test | [`Day 2 results`](09_results/reports/Day2_YOLOv8n_Seg_Reproduction_2026-11-02.md) |
+| **Day 3 — Additional analysis** (2026-11-03) | WB-only mask-area error on 30 images; 12 qualitative prediction comparisons and review | [`Day 3 results`](09_results/reports/Day3_Prediction_Area_and_Error_Analysis_2026-11-03.md) |
 
-- [Full EDA research record](09_results/reports/M18K_V2_EDA_2026-10-30.md)
-- [Executed Colab notebook](04_dataset_candidates/C03_m18k_v2/analysis/M18K_V2_Research_EDA_Executed_2026-10-30.ipynb)
-- [Provisional M18K candidate](04_dataset_candidates/C03_m18k_v2/README.md)
-- [Next steps and human decisions](00_project_management/TASK_BOARD.md)
+## Dataset
 
-## Research direction
+M18K V2 working copy: **4,495 indexed RGB images** (3,596 train / 449 val / 450 test), **700,589 original COCO annotations** (858 Baby Bella, 699,731 White Button). All 4,495 RGB files have filename-matched depth files. This does not verify physical depth calibration, image-content independence, or original dataset license. The upstream V2 count of 4,652 versus our 4,495 indexed images remains unexplained.
 
-1. Inspect and validate dataset composition, labels, RGB/depth pairing, and group/scene independence.
-2. Establish a **YOLOv8n-seg RGB baseline on V2**, with model selection on validation and one-time evaluation on held-out test.
-3. Compare against the 2025 M18K paper **only after resolving differences in release, split, metric and training protocol**. The original paper's 2,000-image subset and 70/10/20 protocol are not identical to the V2 release.
-4. If feasible, test whether **depth-assisted segmentation or 3D pose estimation** adds measurable value, under matched conditions. These are hypotheses, not proven improvements.
+## Main results (held-out test)
 
-Reference paper: Zakeri et al., *Computers* 14(5), 199 (2025), [doi:10.3390/computers14050199](https://doi.org/10.3390/computers14050199). Source code/dataset entry point: [abdollahzakeri/m18k](https://github.com/abdollahzakeri/m18k).
+| Model/result | Mask AP@50 | Mask AP@50:95 |
+| --- | ---: | ---: |
+| Two-class **overall, macro-mean BB+WB** | 0.4995 | 0.3963 |
+| Two-class **WB only, class metric** | 0.9890 | 0.7870 |
+| Two-class **BB only, class metric** | 0.0095 | 0.00571 |
+| Independently trained **WB-only model** | **0.9906** | **0.7974** |
 
-## Repository map
+Day 3 diagnostic on a **random 30-image subset**, 4,900 matched WB masks: mean absolute pixel-area error **207.4 px²** and mean relative absolute area error **8.80%**. This is **projected mask area in image pixels, not physical mm²**. Another 12 selected images were visually reviewed for detection/segmentation failures; neither sample replaces the full held-out model evaluation.
 
-| Path | Purpose |
-| --- | --- |
-| `00_project_management` | Work plan, current status, approval questions, decisions |
-| `01_domain_research` | Mushroom-domain assumptions and open questions |
-| `02_literature_review` | Paper registry and research-gap hypotheses |
-| `03_dataset_discovery` | Candidate records and dataset source verification |
-| `04_dataset_candidates/C03_m18k_v2` | Primary dataset audit, notebook and QC evidence |
-| `05_research_protocols` | Dataset QC, leakage and experiment requirements |
-| `06_selected_research` | Provisional focus; formal selection remains pending |
-| `07_source_code` | Reusable code to add after it is developed/tested |
-| `08_experiments` | Future training protocols and run registry (no completed V2 run) |
-| `09_results` | EDA tables, report and curated figures |
-| `10_research_paper` | Future manuscript (not yet written) |
-| `11_field_validation` | Possible independent validation, only with consent |
-| `12_reproducibility` | Colab/runtime instructions, evidence manifests |
+## Where to find the work
 
-## Getting started
+- Experiment configs, CSV registry and saved notebooks: [`08_experiments`](08_experiments/README.md)
+- Scripts for WB labels and area measurement: [`07_source_code`](07_source_code/README.md)
+- Metrics, qualitative review, area data: [`09_results`](09_results/README.md)
+- Current editable manuscript: [`10_research_paper/drafts`](10_research_paper/drafts/README.md)
+- Reproduction logs and provenance: [`12_reproducibility`](12_reproducibility/CLOUD_EXECUTION_GUIDE.md)
+- Open QC/approval items: [`00_project_management/RESEARCH_STATUS.md`](00_project_management/RESEARCH_STATUS.md)
 
-See [START_HERE.md](START_HERE.md). The uploaded executed notebook uses Google Drive at `MyDrive/M18K_Reproduction/M18K_V2_data/M18KV2/`. Raw images, COCO JSON files, depth maps and checkpoints are **not in Git**. GitHub stores scripts, notebooks, lightweight figures and auditable results.
+The trained weights (`best.pt`), full V2 RGB-D dataset, raw multi-gigabyte COCO JSON and WB-label ZIP are **not committed**. They remain external in the team's Drive. Model outputs do not imply confirmed scene-level split independence.
 
-Use `python scripts/validate_workspace.py`, `python scripts/show_project_status.py`, and `python -m unittest discover -s tests -v` to validate repository metadata. This validator checks repository consistency, **not** the full V2 dataset.
+Reference: Zakeri et al. (2025), *M18K: A Multi-Purpose Real-World Dataset for Mushroom Detection, 3D Pose Estimation, and Growth Monitoring*, *Computers* 14(5), 199. https://doi.org/10.3390/computers14050199

@@ -1,0 +1,21 @@
+# Recorded parameters from the executed Day 2 WB-only training notebook.
+# Metadata record; rebuild a valid runtime data.yaml using the WB labels ZIP.
+experiment: EXP-M18K-V2-WB-20261102
+model: yolov8n-seg.pt
+classes: {0: WB}
+imgsz: 640
+epochs: 10
+batch: 8
+optimizer: AdamW
+lr0: 0.0001
+cos_lr: true
+seed: 42
+degrees: 15
+translate: 0.1
+scale: 0.2
+mosaic: 0
+fliplr: 0
+flipud: 0
+mixup: 0
+split_counts: {train: 3596, val: 449, test: 450}
+dataset_release: M18K V2 indexed copy (4495 RGB images)

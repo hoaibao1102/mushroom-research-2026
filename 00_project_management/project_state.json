@@ -1,16 +1,16 @@
 {
   "project_name": "Mushroom Research 2026 — Team 10",
   "created_at": "2026-10-23T16:30:47+07:00",
-  "status_as_of": "2026-10-30",
-  "current_phase": "PHASE 1 — DATASET AUDIT AND EDA (PROVISIONAL M18K)",
-  "current_work_package": "WP-02: M18K V2 data audit and QC closure",
+  "status_as_of": "2026-11-03",
+  "current_phase": "DAY 3 — REPRODUCTION RESULTS AND ADDITIONAL ANALYSIS COMPLETED; QC VERIFICATION OPEN",
+  "current_work_package": "WP-04: Day 3 result integration and paper draft; verification pending",
   "working_candidate_id": "C03",
   "dataset_selected": false,
   "selected_candidate_id": null,
   "paper_reference_identified": true,
   "paper_selected": false,
   "dataset_eda_executed": true,
-  "baseline_reproduced": false,
+  "baseline_reproduced": true,
   "research_gap_validated": false,
   "training_authorized": false,
   "external_validation_started": false,
@@ -24,6 +24,15 @@
     "G5": "NEEDS_MORE_EVIDENCE",
     "G6": "NEEDS_MORE_EVIDENCE"
   },
-  "next_work_package": "WP-02: verify C03 provenance/labels/leakage; review selection; freeze baseline experiment",
-  "status_note": "Working candidate and recorded EDA are not formal gate approval. Model training was skipped."
+  "next_work_package": "Verify suspected annotation anomalies and possible split overlap; confirm dataset licensing/approval and finalize paper",
+  "status_note": "Day 1 EDA, Day 2 approach reproduction, and Day 3 sampled area/qualitative analysis completed with user-supplied notebooks/logs. Formal selection/license/QC gates remain pending; no physical mm2 claims. Training authorization recorded in old state is not equivalent to formal post-hoc approval.",
+  "baseline_scope": "YOLOv8n-seg workflow successfully reproduced on M18K V2; not identical original 2025 paper subset/protocol/metric",
+  "exact_original_benchmark_reproduced": false,
+  "two_class_test_evaluated": true,
+  "wb_only_test_evaluated": true,
+  "day3_area_sample_evaluated": true,
+  "day3_area_sample_images": 30,
+  "day3_qualitative_sample_reviewed": true,
+  "day3_qualitative_sample_images": 12,
+  "paper_draft_updated": true
 }

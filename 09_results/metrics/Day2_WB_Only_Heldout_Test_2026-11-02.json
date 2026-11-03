@@ -1,0 +1,27 @@
+{
+  "experiment_id": "EXP-M18K-V2-WB-20261102",
+  "dataset": "M18K V2 (WB-only labels)",
+  "split": "test",
+  "test_images": 450,
+  "test_instances_WB": 70192,
+  "model": "YOLOv8n-seg WB-only",
+  "num_classes": 1,
+  "class_names": {
+    "0": "WB"
+  },
+  "epochs": 10,
+  "imgsz": 640,
+  "batch": 8,
+  "seed": 42,
+  "training_hours": 1.396,
+  "box_map50": 0.9920571955784918,
+  "box_map50_95": 0.839892021550317,
+  "mask_map50": 0.9906387162815481,
+  "mask_map50_95": 0.7973628392154766,
+  "mask_precision": 0.975553581229347,
+  "mask_recall": 0.9630784596636397,
+  "checkpoint_public_drive_url": "https://drive.google.com/file/d/1Q5iq_-j-RwOTkyiiXyTOc80Cf_xwk7K-/view",
+  "checkpoint_sha256_day3_area_report": "93d993ec6b48c1fca9d59178afe11377ef20afa3ed0c304841e4d6b36d447961",
+  "checkpoint_bundled": false,
+  "metrics_source": "Corrected separate held-out WB-only evaluation console output pasted by user; not the erroneous two-class test cell inside WB-only training notebook."
+}

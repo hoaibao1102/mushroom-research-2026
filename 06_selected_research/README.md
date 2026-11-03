@@ -5,3 +5,8 @@ Team 10 is currently preparing **M18K V2 (C03)** as the practical research direc
 **Formal selection status: PENDING HUMAN CONFIRMATION.** No team lead approval, signed selection scorecard or license review was provided. In `project_state.json`, `dataset_selected=false` and `paper_selected=false` deliberately remain false; the paper is *identified as the reference* without claiming a formal gate decision.
 
 Current evidence: `09_results/reports/M18K_V2_EDA_2026-10-30.md`. When the team confirms selection and source usage rights, record date/reviewer/decision in `DECISION_LOG.md` and synchronize the project state. Do not interpret our EDA as a numerical reproduction.
+
+
+## Evidence update — 2026-11-03
+
+V2 remains the practical dataset used for the completed Day 2 YOLOv8n-seg reproduction and Day 3 mask-area/qualitative analysis. The updated results are archived under `09_results/` and `10_research_paper/`. This records experiments actually performed; it does **not** retroactively document formal team or license approval.

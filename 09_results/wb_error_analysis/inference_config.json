@@ -1,0 +1,35 @@
+{
+  "checkpoint_filename": "best.pt",
+  "checkpoint_path": "/content/drive/MyDrive/M18K_Reproduction/best.pt",
+  "checkpoint_sha256": "93d993ec6b48c1fca9d59178afe11377ef20afa3ed0c304841e4d6b36d447961",
+  "data_yaml_path": "/content/drive/MyDrive/M18K_Reproduction/data.yaml",
+  "test_rgb_dir": "/content/drive/MyDrive/M18K_Reproduction/M18K_V2_data/M18KV2/test/rgb",
+  "test_annotation_path": "/content/drive/MyDrive/M18K_Reproduction/M18K_V2_data/M18KV2/test/annotations_coco.json",
+  "model_classes": {
+    "0": "WB"
+  },
+  "coco_wb_category": {
+    "id": 2,
+    "name": "WB",
+    "supercategory": "Mushrooms"
+  },
+  "imgsz": 640,
+  "confidence_threshold": 0.25,
+  "nms_iou_threshold": 0.7,
+  "max_det": 3000,
+  "classes_filter": [
+    0
+  ],
+  "retina_masks": true,
+  "agnostic_nms": false,
+  "ultralytics_version": "8.4.199",
+  "matching_mask_iou_threshold": 0.5,
+  "boundary_review_threshold": 0.75,
+  "existing_test_metrics": {
+    "test_images": 450,
+    "wb_instances": 70192,
+    "mask_mAP50": 0.990639,
+    "mask_mAP50_95": 0.797363,
+    "mask_recall": 0.963078
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "sample_size_images": 30,
+  "selection": "images sorted by filename; random.Random(42).sample(range(450), 30); listed in filename order",
+  "test_images_total": 450,
+  "test_wb_annotations_total_in_coco": 70192,
+  "subset_wb_annotations_raw": 4970,
+  "gt_reference_instances": 4970,
+  "gt_excluded": {},
+  "predicted_instances": 5146,
+  "matched": 4900,
+  "unmatched_predictions": 246,
+  "unmatched_gt": 70,
+  "match_coverage_matched_over_gt": 0.9859154929577465,
+  "matched_over_predictions": 0.952195880295375,
+  "match_rule": "one-to-one greedy by descending mask IoU, IoU >= 0.5; masks at original resolution; GT=pycocotools-rasterised COCO polygons (non-crowd, non-zero area)",
+  "area_definition": "A_px2 = sum(mask > 0) via mask_area.mask_area_px2; unit px2 (not mm2)",
+  "mae_px2": 207.4,
+  "mean_relative_error_pct": 8.799715146122448,
+  "extra": {
+    "median_relative_error_pct": 7.344207,
+    "mean_signed_error_px2_pred_minus_gt": 160.75020408163266,
+    "matched_pred_over_gt_area_ratio": 1.0452452860925296
+  },
+  "all_pred_sizes_match_coco_image_size": true,
+  "model": {
+    "path": "/content/wb_yolov8n_seg.pt",
+    "sha256": "93d993ec6b48c1fca9d59178afe11377ef20afa3ed0c304841e4d6b36d447961",
+    "names": {
+      "0": "WB"
+    },
+    "train_args": {
+      "imgsz": "640",
+      "epochs": "10",
+      "data": "/content/M18K_V2_work/yolo_v2_wb/data.yaml",
+      "model": "yolov8n-seg.pt",
+      "seed": "42"
+    }
+  },
+  "inference": {
+    "imgsz": 640,
+    "imgsz_source": "checkpoint train_args",
+    "conf": 0.25,
+    "nms_iou": 0.7,
+    "max_det": 1000,
+    "retina_masks": true,
+    "classes": null,
+    "device": "None",
+    "note": "inference settings fixed before looking at results; not tuned"
+  },
+  "versions": {
+    "python": "3.13.16",
+    "numpy": "2.4.6",
+    "ultralytics": "8.4.199",
+    "torch": "2.11.0+cu130",
+    "pycocotools": "NOT_VERIFIED",
+    "cv2": "4.14.0"
+  }
+}

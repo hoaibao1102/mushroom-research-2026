@@ -1,0 +1,208 @@
+==== Notebook cell 4 ====
+
+/content/drive/MyDrive/Colab Notebooks/M18K_Reproduction/wb_task_repo:
+07_source_code
+08_experiments
+
+/content/drive/MyDrive/Colab Notebooks/M18K_Reproduction/wb_task_repo/07_source_code:
+data
+evaluation
+
+/content/drive/MyDrive/Colab Notebooks/M18K_Reproduction/wb_task_repo/07_source_code/data:
+build_wb_dataset.py
+
+/content/drive/MyDrive/Colab Notebooks/M18K_Reproduction/wb_task_repo/07_source_code/evaluation:
+mask_area.py
+
+/content/drive/MyDrive/Colab Notebooks/M18K_Reproduction/wb_task_repo/08_experiments:
+configs
+
+/content/drive/MyDrive/Colab Notebooks/M18K_Reproduction/wb_task_repo/08_experiments/configs:
+wb_dataset.yaml
+[train] images=3596 raw_WB=558859 converted=558853 crowd=0 skipped=6 multi_component=0 empty_labels=0 (EDA 558859, diff +0)
+[val] images=449 raw_WB=70680 converted=70680 crowd=0 skipped=0 multi_component=0 empty_labels=0 (EDA 70680, diff +0)
+[test] images=450 raw_WB=70192 converted=70192 crowd=0 skipped=0 multi_component=0 empty_labels=0 (EDA 70192, diff +0)
+/content/drive/MyDrive/Colab Notebooks/M18K_Reproduction/wb_task_repo/07_source_code/data/build_wb_dataset.py:246: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  meta = dict(script_version=SCRIPT_VERSION, seed=SEED, created_utc=dt.datetime.utcnow().isoformat() + "Z",
+zip: /content/drive/MyDrive/Colab Notebooks/M18K_Reproduction/derived_datasets/wb_yolo_labels.zip (269.1 MB)
+verification ok: True []
+
+
+==== Notebook cell 5 ====
+
+skipped reasons: {'train': {'degenerate_after_clip': 6}, 'val': {}, 'test': {}}
+category mapping: [{'id': 0, 'name': 'Mushrooms', 'role': 'OTHER'}, {'id': 1, 'name': 'BB', 'role': 'BB'}, {'id': 2, 'name': 'WB', 'role': 'WB'}]
+ann_id 65633 image 000426.png | reason {'degenerate_after_clip': 1} | seg type list | n_rings 1 | ring lens [24] | area 0.0
+ann_id 68399 image 000445.png | reason {'degenerate_after_clip': 1} | seg type list | n_rings 1 | ring lens [24] | area 0.0
+ann_id 151483 image 000989.png | reason {'degenerate_after_clip': 1} | seg type list | n_rings 1 | ring lens [24] | area 0.0
+ann_id 398470 image 002570.png | reason {'degenerate_after_clip': 1} | seg type list | n_rings 1 | ring lens [24] | area 0.0
+ann_id 528181 image 003397.png | reason {'degenerate_after_clip': 1} | seg type list | n_rings 1 | ring lens [24] | area 0.0
+ann_id 543586 image 003492.png | reason {'degenerate_after_clip': 1} | seg type list | n_rings 1 | ring lens [24] | area 0.0
+
+
+==== Notebook cell 6 ====
+
+PASS test_synthetic_areas
+PASS test_per_instance_not_union_not_bbox
+PASS test_rejects_bad_shapes
+wrote /content/drive/MyDrive/Colab Notebooks/M18K_Reproduction/wb_task_repo/09_results/metrics/wb_area_sanity.csv (16 rows); unit = px^2
+['synthetic_empty_mask', 0, 0, 0]
+['synthetic_single_pixel', 1, 1, 0]
+['synthetic_rect_10x20_uint8', 200, 200, 0]
+['synthetic_rect_value_255', 200, 200, 0]
+['synthetic_rect_bool', 200, 200, 0]
+['synthetic_rect_float_0.5', 200, 200, 0]
+['synthetic_full_frame_1080x1920', 2073600, 2073600, 0]
+['synthetic_two_disjoint_components', 225, 225, 0]
+['synthetic_staircase_not_bbox', 55, 55, 0]
+['synthetic_checkerboard_half', 800, 800, 0]
+['real_coco_ann0_pycocotools', 8156, 8156, 0]
+['real_coco_ann0_cv2_crosscheck', 8156, 8325, 169]
+['real_coco_ann1_pycocotools', 6972, 6972, 0]
+['real_coco_ann1_cv2_crosscheck', 6972, 7112, 140]
+['real_coco_ann2_pycocotools', 4508, 4508, 0]
+['real_coco_ann2_cv2_crosscheck', 4508, 4641, 133]
+
+
+==== Notebook cell 7 ====
+
+wrote /content/drive/MyDrive/Colab Notebooks/M18K_Reproduction/wb_task_repo/09_results/reports/wb_dataset_measurement.md
+# WB dataset preparation and mask-area measurement
+
+## Findings (from executed scripts)
+| split | images | EDA WB | raw WB (COCO) | iscrowd excluded | skipped | converted | empty label files | non-WB omitted |
+|---|---|---|---|---|---|---|---|---|
+| train | 3596 | 558859 | 558859 | 0 | 6 | 558853 | 0 | 686 |
+| val | 449 | 70680 | 70680 | 0 | 0 | 70680 | 0 | 75 |
+| test | 450 | 70192 | 70192 | 0 | 0 | 70192 | 0 | 97 |
+
+Image memberships match the original split sizes: True (expected 3,596/449/450).
+Verification after build: ok=True, YAML nc=1, names={'0': 'WB'}, problems=[].
+
+### Reconciliation with EDA counts
+- train: raw WB equals EDA count; converted = raw - iscrowd - skipped (558859 - 0 - 6 = 558853)
+- val: raw WB equals EDA count; converted = raw - iscrowd - skipped (70680 - 0 - 0 = 70680)
+- test: raw WB equals EDA count; converted = raw - iscrowd - skipped (70192 - 0 - 0 = 70192)
+
+## Conversion policy
+- Source: original COCO `annotations_coco.json` streamed per split; COCO JSON and two-class `YOLO_ROOT` untouched; cached YOLO labels not reused (provenance/loss NOT_VERIFIED).
+- Output `WB_ROOT=/content/M18K_V2_work/yolo_v2_wb`; only annotations whose COCO category maps to WB are written, remapped to YOLO class `0`.
+- BB policy: All non-WB annotations (BB and any other category) are omitted from the WB labels. They are NOT target labels: omitted BB objects are unlabeled background in this WB-only dataset. Images are kept (original split membership) even when they contain only BB; such images get empty label files.
+- `iscrowd=1` WB annotations are excluded and counted; RLE/missing/degenerate segmentations are skipped and counted.
+- Polygon geometry is preserved (normalised by image width/height) except for multi-component annotations, where YOLO-seg allows one polygon per line, so only the **largest component** is kept (approximation):
+- **train**: 0 multi-component WB annotations; 0 extra components discarded (largest-component-only); discarded area 0.0 px² = 0.0000% of total polygon area; invalid rings dropped 0; clipped to image 0; skipped reasons {'degenerate_after_clip': 6}.
+- **val**: 0 multi-component WB annotations; 0 extra components discarded (largest-component-only); discarded area 0.0 px² = 0.0000% of total polygon area; invalid rings dropped 0; clipped to image 0; skipped reasons {}.
+- **test**: 0 multi-component WB annotations; 0 extra components discarded (largest-component-only); discarded area 0.0 px² = 0.0000% of total polygon area; invalid rings dropped 0; clipped to image 0; skipped reasons {}.
+
+## Mask area
+`A_px2 = sum(binary_mask > 0)` computed per instance on the original-resolution mask (not bounding box). Unit **px²**; mm² is NOT_VERIFIED (no verified physical calibration).
+
+| case | expected px² | measured px² | abs. error px² |
+|---|---|---|---|
+| synthetic_empty_mask | 0 | 0 | 0 |
+| synthetic_single_pixel | 1 | 1 | 0 |
+| synthetic_rect_10x20_uint8 | 200 | 200 | 0 |
+| synthetic_rect_value_255 | 200 | 200 | 0 |
+| synthetic_rect_bool | 200 | 200 | 0 |
+| synthetic_rect_float_0.5 | 200 | 200 | 0 |
+| synthetic_full_frame_1080x1920 | 2073600 | 2073600 | 0 |
+| synthetic_two_disjoint_components | 225 | 225 | 0 |
+| synthetic_staircase_not_bbox | 55 | 55 | 0 |
+| synthetic_checkerboard_half | 800 | 800 | 0 |
+| real_coco_ann0_pycocotools | 8156 | 8156 | 0 |
+| real_coco_ann0_cv2_crosscheck | 8156 | 8325 | 169 |
+| real_coco_ann1_pycocotools | 6972 | 6972 | 0 |
+| real_coco_ann1_cv2_crosscheck | 6972 | 7112 | 140 |
+| real_coco_ann2_pycocotools | 4508 | 4508 | 0 |
+| real_coco_ann2_cv2_crosscheck | 4508 | 4641 | 133 |
+
+## Limitations
+- Areas are polygon-rasterised COCO masks, i.e. annotation-visible area; occlusion/annotation noise not assessed.
+- Largest-component-only labels slightly understate multi-part instances (see losses above); area measurement from COCO polygons uses all components.
+- The cv2 cross-check differs from pycocotools by rasterisation rule only.
+- No physical calibration; no model training or EDA performed.
+
+
+==== Notebook cell 8 ====
+
+{
+  "ok": true,
+  "problems": [],
+  "splits": {
+    "train": {
+      "images": 3596,
+      "labels": 3596,
+      "broken_links": 0,
+      "nonempty": 3596,
+      "empty": 0,
+      "instances": 558853,
+      "bad_lines": 0
+    },
+    "val": {
+      "images": 449,
+      "labels": 449,
+      "broken_links": 0,
+      "nonempty": 449,
+      "empty": 0,
+      "instances": 70680,
+      "bad_lines": 0
+    },
+    "test": {
+      "images": 450,
+      "labels": 450,
+      "broken_links": 0,
+      "nonempty": 450,
+      "empty": 0,
+      "instances": 70192,
+      "bad_lines": 0
+    }
+  },
+  "yaml_nc": 1,
+  "yaml_names": {
+    "0": "WB"
+  }
+}
+REBUILD OK
+
+
+==== Notebook cell 13 ====
+
+Drive already mounted at /content/drive; to attempt to forcibly remount, call drive.mount("/content/drive", force_remount=True).
+{
+  "ok": true,
+  "problems": [],
+  "splits": {
+    "train": {
+      "images": 3596,
+      "labels": 3596,
+      "broken_links": 0,
+      "nonempty": 3596,
+      "empty": 0,
+      "instances": 558853,
+      "bad_lines": 0
+    },
+    "val": {
+      "images": 449,
+      "labels": 449,
+      "broken_links": 0,
+      "nonempty": 449,
+      "empty": 0,
+      "instances": 70680,
+      "bad_lines": 0
+    },
+    "test": {
+      "images": 450,
+      "labels": 450,
+      "broken_links": 0,
+      "nonempty": 450,
+      "empty": 0,
+      "instances": 70192,
+      "bad_lines": 0
+    }
+  },
+  "yaml_nc": 1,
+  "yaml_names": {
+    "0": "WB"
+  }
+}
+REBUILD OK

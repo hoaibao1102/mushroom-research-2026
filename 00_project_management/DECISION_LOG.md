@@ -10,3 +10,6 @@ Future template: decision ID, timestamp, owner/reviewer, alternatives, evidence 
 | D003 | 2026-10-30 | Do not claim model reproduction from today's work | Uploaded completed notebook has `RUN_TRAIN=False`; no held-out scores | EDA-only record; model experiments remain planned | Evidence-based status update |
 
 Future project decisions require reviewer, rationale, evidence location and team approval where appropriate.
+
+| D004 | 2026-11-02 | Record two-class and WB-only YOLOv8n-seg results as Day 2 reproduction of the **approach on V2** | Completed user-supplied training/test evidence | Do not claim original numerical benchmark matched or exceeded | Research lead/user workflow; formal gate approval not inferred |
+| D005 | 2026-11-03 | Record 30-image area and 12-image qualitative findings as Day 3 additional analysis | Submitted notebooks, CSVs, figures and reviewed report | px² only, sample-level errors only; leave raw annotation and leakage verification open | Research lead/user workflow; formal gate approval not inferred |

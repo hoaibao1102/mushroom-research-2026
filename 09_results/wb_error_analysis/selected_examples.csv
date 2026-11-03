@@ -1,0 +1,13 @@
+﻿image_id,filename,selection_group,reason
+32,004078.png,dense,Top mật độ theo GT: 222 WB instances.
+26,004072.png,dense,Top mật độ theo GT: 220 WB instances.
+88,004134.png,dense,Top mật độ theo GT: 219 WB instances.
+165,004211.png,dense,Top mật độ theo GT: 219 WB instances.
+206,004252.png,sparse,Mật độ thấp theo GT: 5 WB instances.
+438,004484.png,sparse,Mật độ thấp theo GT: 36 WB instances.
+345,004391.png,sparse,Mật độ thấp theo GT: 42 WB instances.
+193,004239.png,sparse,Mật độ thấp theo GT: 46 WB instances.
+278,004324.png,difficult,Ứng viên khó dựa trên bbox area và bbox overlap. Cần xác nhận bằng mắt; chưa khẳng định có occlusion.
+252,004298.png,difficult,Ứng viên khó dựa trên bbox area và bbox overlap. Cần xác nhận bằng mắt; chưa khẳng định có occlusion.
+426,004472.png,difficult,Ứng viên khó dựa trên bbox area và bbox overlap. Cần xác nhận bằng mắt; chưa khẳng định có occlusion.
+304,004350.png,difficult,Ứng viên khó dựa trên bbox area và bbox overlap. Cần xác nhận bằng mắt; chưa khẳng định có occlusion.

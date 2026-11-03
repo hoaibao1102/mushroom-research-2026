@@ -1,0 +1,52 @@
+{
+  "experiment_id": "EXP-M18K-V2-2CLASS-20261102",
+  "dataset": "M18K V2",
+  "split": "test",
+  "test_images": 450,
+  "test_instances_total": 70289,
+  "test_instances_by_class": {
+    "BB": 97,
+    "WB": 70192
+  },
+  "model": "YOLOv8n-seg",
+  "num_classes": 2,
+  "class_names": {
+    "0": "BB",
+    "1": "WB"
+  },
+  "epochs": 10,
+  "imgsz": 640,
+  "batch": 8,
+  "seed": 42,
+  "training_hours": 1.569,
+  "all": {
+    "box_precision": 0.988,
+    "box_recall": 0.484,
+    "box_map50": 0.506616,
+    "box_map50_95": 0.431303,
+    "mask_precision": 0.988,
+    "mask_recall": 0.481,
+    "mask_map50": 0.499488,
+    "mask_map50_95": 0.396273
+  },
+  "BB": {
+    "box_map50": 0.0213,
+    "box_map50_95": 0.0141,
+    "mask_recall": 0.0,
+    "mask_map50": 0.0095,
+    "mask_map50_95": 0.00571
+  },
+  "WB": {
+    "box_precision": 0.975,
+    "box_recall": 0.968,
+    "box_map50": 0.992,
+    "box_map50_95": 0.849,
+    "mask_precision": 0.975,
+    "mask_recall": 0.962,
+    "mask_map50": 0.989,
+    "mask_map50_95": 0.787
+  },
+  "checkpoint_drive_path": "/content/drive/MyDrive/M18K_Reproduction/model_runs/v2_yolov8n_seg_640_e10_s42/weights/best.pt",
+  "metrics_source": "User-pasted completed experiment/test console log, recorded in 12_reproducibility/logs/two_class_train_and_test_log_summary.txt (structured excerpt, not raw exported Colab console).",
+  "checkpoint_bundled": false
+}

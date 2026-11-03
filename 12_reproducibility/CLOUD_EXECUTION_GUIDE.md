@@ -1,13 +1,28 @@
-# Colab / Google Drive execution guide — M18K
+# Colab / Drive reproduction guide — status through Day 3 (2026-11-03)
 
-## Current data workflow
+## Input locations and dependencies
 
-The executed notebook uses `MyDrive/M18K_Reproduction/M18K_V2_data/M18KV2/`, containing `train`, `valid`, `test`; each split supplies an annotation JSON and `rgb/` and `depth/` directories. Data remain on Drive; do not redownload on each runtime session. The notebook streamed large JSON (~2 GB train annotations) to avoid RAM exhaustion. Python 3.13.18 was printed in its saved output; record the full package versions before a model experiment.
+The working dataset source was reported under Google Drive at `/content/drive/MyDrive/M18K_Reproduction/M18K_V2_data/M18KV2/` with `train/`, `valid/`, `test/` each containing RGB, depth and `annotations_coco.json`. Team members also used alternate `MyDrive/Colab Notebooks/M18K_Reproduction/` or `M18K_Reproduction (1)` paths. **Do not assume these all resolve in a fresh Colab runtime**. Mount Drive and verify source RGB and COCO paths first. Some shared Drive shortcuts were not visible and test data had to be accessed through Google Drive shared-folder API.
 
-## Training tomorrow (not done today)
+Day 2: train on 3,596 images, validate on 449 and test on 450; YOLOv8n-seg RGB, input 640, 10 epochs, batch 8, seed 42, pretrained initialization. GPU used: Tesla T4; reported training durations: 1.569 h two-class and 1.396 h WB-only. Checkpoints (not bundled):
 
-Use a GPU Colab runtime if available; GPU assignment is not guaranteed. For performance, consider a temporary **local Colab cache** copied from Drive when space allows, while preserving immutable Drive source files. Save model checkpoints and run logs persistently to Drive. Keep fixed seeds and metadata in `08_experiments/`, and do not modify test split during model selection.
+- Two-class checkpoint: `MyDrive/M18K_Reproduction/model_runs/v2_yolov8n_seg_640_e10_s42/weights/best.pt`
+- WB-only checkpoint: https://drive.google.com/file/d/1Q5iq_-j-RwOTkyiiXyTOc80Cf_xwk7K-/view (the Day 3 area report recorded SHA-256 `93d993ec6b48c1fca9d59178afe11377ef20afa3ed0c304841e4d6b36d447961`)
+- WB labels archive: separate `wb_yolo_labels.zip`, not included in repository. Thịnh's reconstruction script `07_source_code/data/build_wb_dataset.py --mode rebuild` uses source RGB, source paths and ZIP; it creates runtime `data.yaml`. **Template** `08_experiments/configs/wb_dataset_TEMPLATE.yaml` is not directly runnable.
 
-## Required records for a real run
+## Important notebook provenance warnings
 
-Record notebook/Git commit, Python/CUDA/PyTorch/Ultralytics versions, hardware, data release and hashes, train/val/test manifests, model/configuration, random seeds, actual start/end timestamps, validation-selected checkpoint and final unseen-test per-class metrics. Do not claim results until output evidence exists.
+- `Day2_Two_Class_Baseline_Workflow.ipynb` only contains a saved partial training cell from an early run. For the completed run use `logs/two_class_train_and_test_log_summary.txt` and the test JSON, not that cell as proof of completion.
+- `Day2_WB_Only_Training_and_Day3_Error_Analysis.ipynb` completes training and exports prediction examples, but a pre-existing test cell references the **two-class** `YOLO_ROOT/data.yaml`. The corrected WB-only test was performed separately and documented in `logs/WB_only_corrected_heldout_test_log_summary.txt`.
+- `Day3_WB_Predicted_Area_Evaluation.ipynb` runs 30-image area inference with the WB-only checkpoint and COCO ground-truth rasterization. It does not retrain the model.
+
+## Available evidence, gaps and evaluation settings
+
+- User-supplied test logs: `12_reproducibility/logs/` and `09_results/metrics/Day2_*`.
+- Day 3 area subset: deterministic `random.Random(42).sample` of 30 test images, `conf=0.25`, NMS IoU=0.7, `max_det=1000`, original-resolution masks, greedy one-to-one mask IoU>=0.5, MAE computed on matched masks only.
+- Day 3 Khang images: 12 stratified examples, `conf=0.25`, NMS IoU=0.7, `max_det=3000`; not identical max_det to area subset.
+- No checkpoint binaries, raw RGB-D, large COCO JSON or the 269MB-class WB labels archive are included.
+- Reproducing the paper's original numerical AP is **not** supported, nor is physical area in mm²; camera intrinsics/depth units remain unverified.
+- Exact image hashes and scene-level independence are incomplete. Five zero-distance dHash pairs are screening candidates only; do not call them verified leakage.
+
+Run repository checks with `python scripts/validate_workspace.py` and `python -m unittest discover -s tests -v`. These are **metadata consistency checks**, not Colab/GPU replication or a full dataset audit.

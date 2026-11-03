@@ -1,0 +1,17 @@
+case,expected_area_px2,measured_area_px2,absolute_error_px2,source
+synthetic_empty_mask,0,0,0,"synthetic mask, analytic area"
+synthetic_single_pixel,1,1,0,"synthetic mask, analytic area"
+synthetic_rect_10x20_uint8,200,200,0,"synthetic mask, analytic area"
+synthetic_rect_value_255,200,200,0,"synthetic mask, analytic area"
+synthetic_rect_bool,200,200,0,"synthetic mask, analytic area"
+synthetic_rect_float_0.5,200,200,0,"synthetic mask, analytic area"
+synthetic_full_frame_1080x1920,2073600,2073600,0,"synthetic mask, analytic area"
+synthetic_two_disjoint_components,225,225,0,"synthetic mask, analytic area"
+synthetic_staircase_not_bbox,55,55,0,"synthetic mask, analytic area"
+synthetic_checkerboard_half,800,800,0,"synthetic mask, analytic area"
+real_coco_ann0_pycocotools,8156,8156,0,COCO ann_id=0 image_id=0 1280x720; image size matches COCO; expected=pycocotools RLE area of same polygon
+real_coco_ann0_cv2_crosscheck,8156,8325,169,"COCO ann_id=0 image_id=0 1280x720; image size matches COCO; independent cv2.fillPoly rasterisation (non-zero error = rasterisation-rule difference, not a function bug)"
+real_coco_ann1_pycocotools,6972,6972,0,COCO ann_id=1 image_id=0 1280x720; image size matches COCO; expected=pycocotools RLE area of same polygon
+real_coco_ann1_cv2_crosscheck,6972,7112,140,"COCO ann_id=1 image_id=0 1280x720; image size matches COCO; independent cv2.fillPoly rasterisation (non-zero error = rasterisation-rule difference, not a function bug)"
+real_coco_ann2_pycocotools,4508,4508,0,COCO ann_id=2 image_id=0 1280x720; image size matches COCO; expected=pycocotools RLE area of same polygon
+real_coco_ann2_cv2_crosscheck,4508,4641,133,"COCO ann_id=2 image_id=0 1280x720; image size matches COCO; independent cv2.fillPoly rasterisation (non-zero error = rasterisation-rule difference, not a function bug)"

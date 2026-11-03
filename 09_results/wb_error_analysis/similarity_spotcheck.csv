@@ -1,0 +1,13 @@
+﻿test_image_id,test_filename,nearest_train_filename,dhash_hamming_distance,screening_label
+32,004078.png,001896.png,0,high_similarity_candidate
+26,004072.png,002583.png,0,high_similarity_candidate
+88,004134.png,000486.png,0,high_similarity_candidate
+165,004211.png,002085.png,0,high_similarity_candidate
+206,004252.png,000323.png,0,high_similarity_candidate
+438,004484.png,001892.png,19,no_close_match_by_dhash
+345,004391.png,003046.png,14,no_close_match_by_dhash
+193,004239.png,001705.png,18,no_close_match_by_dhash
+278,004324.png,001656.png,18,no_close_match_by_dhash
+252,004298.png,002071.png,14,no_close_match_by_dhash
+426,004472.png,002603.png,19,no_close_match_by_dhash
+304,004350.png,000201.png,18,no_close_match_by_dhash

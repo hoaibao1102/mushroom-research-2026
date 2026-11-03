@@ -1,0 +1,212 @@
+{
+  "script_version": "1.0.0",
+  "seed": 42,
+  "bb_policy": "All non-WB annotations (BB and any other category) are omitted from the WB labels. They are NOT target labels: omitted BB objects are unlabeled background in this WB-only dataset. Images are kept (original split membership) even when they contain only BB; such images get empty label files.",
+  "splits": {
+    "train": {
+      "images": 3596,
+      "annotations_total": 559545,
+      "wb_raw": 558859,
+      "wb_iscrowd_excluded": 0,
+      "wb_converted": 558853,
+      "skipped": {
+        "degenerate_after_clip": 6
+      },
+      "invalid_rings_dropped": 0,
+      "multi_component_annotations": 0,
+      "extra_components_discarded": 0,
+      "all_component_area_px2": 2024338787.0,
+      "kept_component_area_px2": 2024338787.0,
+      "discarded_component_area_px2": 0.0,
+      "annotations_clipped_to_image": 0,
+      "non_wb_omitted": 686,
+      "ann_by_role": {
+        "WB": 558859,
+        "BB": 686
+      },
+      "ann_by_category_id": {
+        "2": 558859,
+        "1": 686
+      },
+      "orphan_annotations": 0,
+      "images_with_wb": 3596,
+      "empty_label_files": 0,
+      "missing_source_images": 0,
+      "wb_instances_written": 558853,
+      "wb_skipped_total": 6,
+      "expected_images": 3596,
+      "images_match_expected": true,
+      "eda_wb_annotations": 558859,
+      "raw_wb_minus_eda": 0,
+      "converted_minus_eda": -6,
+      "discarded_area_fraction": 0.0,
+      "reconciliation": "raw WB equals EDA count; converted = raw - iscrowd - skipped (558859 - 0 - 6 = 558853)"
+    },
+    "val": {
+      "images": 449,
+      "annotations_total": 70755,
+      "wb_raw": 70680,
+      "wb_iscrowd_excluded": 0,
+      "wb_converted": 70680,
+      "skipped": {},
+      "invalid_rings_dropped": 0,
+      "multi_component_annotations": 0,
+      "extra_components_discarded": 0,
+      "all_component_area_px2": 254512243.5,
+      "kept_component_area_px2": 254512243.5,
+      "discarded_component_area_px2": 0.0,
+      "annotations_clipped_to_image": 0,
+      "non_wb_omitted": 75,
+      "ann_by_role": {
+        "WB": 70680,
+        "BB": 75
+      },
+      "ann_by_category_id": {
+        "2": 70680,
+        "1": 75
+      },
+      "orphan_annotations": 0,
+      "images_with_wb": 449,
+      "empty_label_files": 0,
+      "missing_source_images": 0,
+      "wb_instances_written": 70680,
+      "wb_skipped_total": 0,
+      "expected_images": 449,
+      "images_match_expected": true,
+      "eda_wb_annotations": 70680,
+      "raw_wb_minus_eda": 0,
+      "converted_minus_eda": 0,
+      "discarded_area_fraction": 0.0,
+      "reconciliation": "raw WB equals EDA count; converted = raw - iscrowd - skipped (70680 - 0 - 0 = 70680)"
+    },
+    "test": {
+      "images": 450,
+      "annotations_total": 70289,
+      "wb_raw": 70192,
+      "wb_iscrowd_excluded": 0,
+      "wb_converted": 70192,
+      "skipped": {},
+      "invalid_rings_dropped": 0,
+      "multi_component_annotations": 0,
+      "extra_components_discarded": 0,
+      "all_component_area_px2": 251306354.0,
+      "kept_component_area_px2": 251306354.0,
+      "discarded_component_area_px2": 0.0,
+      "annotations_clipped_to_image": 0,
+      "non_wb_omitted": 97,
+      "ann_by_role": {
+        "WB": 70192,
+        "BB": 97
+      },
+      "ann_by_category_id": {
+        "2": 70192,
+        "1": 97
+      },
+      "orphan_annotations": 0,
+      "images_with_wb": 450,
+      "empty_label_files": 0,
+      "missing_source_images": 0,
+      "wb_instances_written": 70192,
+      "wb_skipped_total": 0,
+      "expected_images": 450,
+      "images_match_expected": true,
+      "eda_wb_annotations": 70192,
+      "raw_wb_minus_eda": 0,
+      "converted_minus_eda": 0,
+      "discarded_area_fraction": 0.0,
+      "reconciliation": "raw WB equals EDA count; converted = raw - iscrowd - skipped (70192 - 0 - 0 = 70192)"
+    }
+  },
+  "source_category_mapping": {
+    "train": [
+      {
+        "id": 0,
+        "name": "Mushrooms",
+        "role": "OTHER"
+      },
+      {
+        "id": 1,
+        "name": "BB",
+        "role": "BB"
+      },
+      {
+        "id": 2,
+        "name": "WB",
+        "role": "WB"
+      }
+    ],
+    "valid": [
+      {
+        "id": 0,
+        "name": "Mushrooms",
+        "role": "OTHER"
+      },
+      {
+        "id": 1,
+        "name": "BB",
+        "role": "BB"
+      },
+      {
+        "id": 2,
+        "name": "WB",
+        "role": "WB"
+      }
+    ],
+    "test": [
+      {
+        "id": 0,
+        "name": "Mushrooms",
+        "role": "OTHER"
+      },
+      {
+        "id": 1,
+        "name": "BB",
+        "role": "BB"
+      },
+      {
+        "id": 2,
+        "name": "WB",
+        "role": "WB"
+      }
+    ]
+  },
+  "cached_yolo_labels_reused": false,
+  "note_cached": "Cached YOLO labels not reused: provenance/conversion loss NOT_VERIFIED; labels streamed from COCO JSON.",
+  "verification": {
+    "ok": true,
+    "problems": [],
+    "splits": {
+      "train": {
+        "images": 3596,
+        "labels": 3596,
+        "broken_links": 0,
+        "nonempty": 3596,
+        "empty": 0,
+        "instances": 558853,
+        "bad_lines": 0
+      },
+      "val": {
+        "images": 449,
+        "labels": 449,
+        "broken_links": 0,
+        "nonempty": 449,
+        "empty": 0,
+        "instances": 70680,
+        "bad_lines": 0
+      },
+      "test": {
+        "images": 450,
+        "labels": 450,
+        "broken_links": 0,
+        "nonempty": 450,
+        "empty": 0,
+        "instances": 70192,
+        "bad_lines": 0
+      }
+    },
+    "yaml_nc": 1,
+    "yaml_names": {
+      "0": "WB"
+    }
+  }
+}

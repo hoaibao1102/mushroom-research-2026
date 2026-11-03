@@ -1,0 +1,10 @@
+# WB-only, one-class schema (White Button).
+# __WB_ROOT__ is resolved at runtime by 07_source_code/data/build_wb_dataset.py
+# (default WB_ROOT=/content/M18K_V2_work/yolo_v2_wb). Images are symlinks created at runtime.
+path: __WB_ROOT__
+train: images/train
+val: images/val
+test: images/test
+nc: 1
+names:
+  0: WB

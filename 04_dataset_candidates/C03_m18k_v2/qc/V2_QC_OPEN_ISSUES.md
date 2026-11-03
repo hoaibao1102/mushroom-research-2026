@@ -16,3 +16,10 @@
 | Dataset license | UNVERIFIED | Review upstream terms and attribution obligations |
 
 **Do not mark dataset QC G1 as GO** until critical checks are reviewed and recorded. Count discrepancies should be investigated, not silently removed from the summary.
+
+
+## Day 3 follow-up (3 November 2026)
+
+- Khang's 12-image spot-check surfaced five train/test pairs with identical 64-bit perceptual dHash values. This is a **near-duplicate candidate screen**, not a proof of identical content or split leakage. Require exact SHA-256 comparisons, side-by-side RGB and group/acquisition review. See `09_results/wb_error_analysis/similarity_spotcheck.csv`.
+- Raw WB overlay figures for test images `004252.png` and `004472.png` appear to include non-mushroom scene regions; annotation/renderer interpretation **NOT VERIFIED**. Inspect original COCO polygon coordinates and categories before declaring GT defects.
+- The Day 3 area analysis measured 30 images and cannot clear full-image-content QC or establish physical calibration.

@@ -1,0 +1,5 @@
+criterion,image_id,filename,png
+best_mae,114,004160.png,best_mae_114_004160.png
+median_mae,379,004425.png,median_mae_379_004425.png
+worst_mae,327,004373.png,worst_mae_327_004373.png
+most_unmatched,216,004262.png,most_unmatched_216_004262.png

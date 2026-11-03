@@ -1,23 +1,33 @@
-# Integration notes for the team repository
+# Integration notes — repository update through Day 3 (2026-11-03)
 
-This deliverable is **an edited repository tree without `.git`**, not a push or commit. To preserve Git history, merge these files into your existing clone, review `git diff`, then commit/push through your normal team workflow. Nothing has been uploaded to your GitHub account.
+This is a **repository file bundle**, not a Git commit or push. It was created from the previously supplied **30 October 2026 Team 10 repository snapshot** and the uploaded Day 2/Day 3 evidence. The user's latest displayed file tree includes `file_list.txt` whereas the earlier snapshot did not; a new file list is generated here. **If your live clone was edited after that snapshot, compare diffs and do not blindly replace those newer changes.** A fresh repo ZIP would enable a truly exact in-place merge.
 
-## Changes
+## Files added
 
-- Preserved the common `00`–`12` organization, legacy C01/C02 candidate records and historical setup evidence.
-- Added **C03 M18K V2** as a *working candidate*, recorded the actual completed 30 Oct notebook, curated EDA tables/figures, and a results report.
-- Updated README, project management, source, literature, QC, experiments and reproducibility records to the M18K direction.
-- Replaced the obsolete clean-only WP-00 validator with a structure/evidence consistency validator plus tests, without claiming full dataset QC.
-- Did **not** include raw V2 data, depth arrays, 2.5-GB annotation JSON, model weights, or confidential Drive credentials.
+- Day 2 two-class and WB-only test metric JSON, configs, reports and user-supplied console-log excerpts.
+- Day 3 Thịnh area source scripts, source QC and the 30-image area-evaluation CSV/JSON/Markdown; Khang original plus corrected 12-image error-analysis CSV/Markdown.
+- 16 original uploaded figures, curated in `10_research_paper/figures/` (12 prediction + 4 area), current Markdown and Word research-paper drafts.
+- Three Colab notebooks under `08_experiments/notebooks` with explicit execution/provenance warnings; no raw data or model weights.
+- Experiment registry, status/decision log, Git-friendly navigation and reproducibility manifest.
 
-## Human review required
+## Existing files updated
 
-1. Decide whether C03 is officially selected and update `DECISION_LOG.md`, `project_state.json` and `06_selected_research` with reviewer/date.
-2. Review upstream V2 reuse/license terms and record archive hash, version and download method.
-3. Independently audit rare BB annotations and scene/near-duplicate leakage; resolve count discrepancy.
-4. Review notebook figures before public posting if the upstream dataset prohibits redistribution.
-5. Do not enter benchmark accuracy until training and held-out evaluation actually complete.
+`README.md`, `START_HERE.md`, `00_project_management/{RESEARCH_STATUS.md,TASK_BOARD.md,DECISION_LOG.md,project_state.json}`, `08_experiments/{README.md,experiment_registry.csv}`, `09_results/README.md`, `12_reproducibility/CLOUD_EXECUTION_GUIDE.md`, the workspace validator/tests, the C03 QC issue log, and provisional selected research notes.
 
-## Checks performed on this edited tree
+## Important science and administration caveats
 
-`python scripts/validate_workspace.py` and `python -m unittest discover -s tests -v`. The validator checks metadata consistency and prohibited payloads; it cannot confirm the original Google Drive data.
+- **Day 1 EDA → Day 2 approach reproduction → Day 3 further analysis.** The earlier named `M18K_Day2_Reviewed_Evidence_2026-11-03.zip` contained **Day 3** evidence, relabeled correctly in this repo.
+- Day 2 reproduces the YOLOv8 method **on V2**, not the original paper's exact benchmark or numerically comparable AP.
+- The original WB training notebook includes an incorrect two-class test cell; only the corrected separate held-out WB test is cited.
+- Thịnh's 207.4 px² area MAE / 8.80% mean relative error apply **only to 4,900 matched masks on 30 images**, not the full test set or physical mm².
+- Five perceptual dHash matches and two suspicious GT overlay cases remain **unverified**.
+- Formal dataset/license selection and QC gates remain open; model performance does not imply regulatory/data-permission approval.
+
+## Merge and checks
+
+1. Back up / commit the current live clone; **keep its `.git` directory**.
+2. Extract/merge this archive, review `git status` and `git diff`, and inspect changed canonical docs and new figures for redistribution rights before pushing.
+3. Run `python scripts/validate_workspace.py`, `python -m unittest discover -s tests -v`.
+4. Ensure Git does not include raw data, source COCO JSON, big WB-label ZIP, checkpoints or credentials.
+
+The source snapshot's historical `setup_reports/` and candidate C01/C02 are preserved untouched.
