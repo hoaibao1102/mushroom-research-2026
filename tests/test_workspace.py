@@ -18,6 +18,19 @@ class WorkspaceTests(unittest.TestCase):
         ids={r['experiment_id'] for r in rows}
         self.assertIn('EXP-M18K-V2-2CLASS-20261102',ids)
         self.assertIn('EXP-M18K-V2-WB-20261102',ids)
+    def test_day4_mvp_evidence_without_claiming_qc_clearance(self):
+        s=json.loads((ROOT/'00_project_management/project_state.json').read_text())
+        self.assertEqual(s['day4_area_full_test_images'],450)
+        self.assertEqual(s['day4_area_matched_gt_instances'],68794)
+        self.assertEqual(s['day4_otsu_evaluation_images'],10)
+        self.assertFalse(s['day4_dataset_qc_cleared'])
+        self.assertFalse(s['demo_video_completed'])
+        self.assertFalse(s['presentation_completed'])
+    def test_day4_registry_entries(self):
+        with (ROOT/'08_experiments/experiment_registry.csv').open(newline='') as f: ids={row['experiment_id'] for row in csv.DictReader(f)}
+        self.assertIn('EXP-M18K-V2-DAY4-AREA-20261104',ids)
+        self.assertIn('EXP-M18K-V2-DAY4-OTSU-20261104',ids)
+        self.assertIn('EXP-M18K-V2-DAY4-DEMO-20261104',ids)
     def test_validator_rejects_missing_eda(self):
         with tempfile.TemporaryDirectory() as t:
             dst=Path(t)/'repo';shutil.copytree(ROOT,dst,ignore=shutil.ignore_patterns('.git','__pycache__'))

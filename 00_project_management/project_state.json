@@ -1,9 +1,9 @@
 {
   "project_name": "Mushroom Research 2026 — Team 10",
   "created_at": "2026-10-23T16:30:47+07:00",
-  "status_as_of": "2026-11-03",
-  "current_phase": "DAY 3 — REPRODUCTION RESULTS AND ADDITIONAL ANALYSIS COMPLETED; QC VERIFICATION OPEN",
-  "current_work_package": "WP-04: Day 3 result integration and paper draft; verification pending",
+  "status_as_of": "2026-11-04",
+  "current_phase": "DAY 4 — INFERENCE MVP AND COURSE EVALUATION COMPLETED; SUBMISSION AND QC ITEMS OPEN",
+  "current_work_package": "WP-05: Day 4 course MVP, full-test area evidence and report draft",
   "working_candidate_id": "C03",
   "dataset_selected": false,
   "selected_candidate_id": null,
@@ -24,8 +24,8 @@
     "G5": "NEEDS_MORE_EVIDENCE",
     "G6": "NEEDS_MORE_EVIDENCE"
   },
-  "next_work_package": "Verify suspected annotation anomalies and possible split overlap; confirm dataset licensing/approval and finalize paper",
-  "status_note": "Day 1 EDA, Day 2 approach reproduction, and Day 3 sampled area/qualitative analysis completed with user-supplied notebooks/logs. Formal selection/license/QC gates remain pending; no physical mm2 claims. Training authorization recorded in old state is not equivalent to formal post-hoc approval.",
+  "next_work_package": "Record demo video, prepare presentation, finalize English IVP course report, cite AI/library use, review open source/scene QC concerns",
+  "status_note": "Day 1 EDA, Day 2 approach reproduction on V2, Day 3 diagnostic review, Day 4 full 450-image WB area and executed demo/Otsu experiment documented. No formal selection/license approval or original numerical reproduction claim. Demo video/slides and course lesson mapping pending.",
   "baseline_scope": "YOLOv8n-seg workflow successfully reproduced on M18K V2; not identical original 2025 paper subset/protocol/metric",
   "exact_original_benchmark_reproduced": false,
   "two_class_test_evaluated": true,
@@ -34,5 +34,16 @@
   "day3_area_sample_images": 30,
   "day3_qualitative_sample_reviewed": true,
   "day3_qualitative_sample_images": 12,
-  "paper_draft_updated": true
+  "paper_draft_updated": true,
+  "day4_area_full_test_evaluated": true,
+  "day4_area_full_test_images": 450,
+  "day4_area_matched_gt_instances": 68794,
+  "day4_inference_notebook_executed": true,
+  "day4_inference_demo_images": 10,
+  "day4_otsu_from_scratch_verified": true,
+  "day4_otsu_evaluation_images": 10,
+  "day4_course_report_drafted": true,
+  "day4_dataset_qc_cleared": false,
+  "demo_video_completed": false,
+  "presentation_completed": false
 }

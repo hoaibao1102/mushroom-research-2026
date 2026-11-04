@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-04",
+  "source_notebook": "08_experiments/notebooks/Day4_WB_Only_Final_Inference_Executed.ipynb",
+  "checkpoint_sha256": "93d993ec6b48c1fca9d59178afe11377ef20afa3ed0c304841e4d6b36d447961",
+  "test_images_sampled": 10,
+  "test_images_available": 450,
+  "seed": 42,
+  "predicted_wb_instances": 1551,
+  "mean_predicted_mask_area_px2_rounded": 3520.11,
+  "export_zip_size_mib_rounded": 14.22,
+  "notes": "Demo only, not ground-truth counting accuracy. Mask area at original image resolution in px2. Actual exported Colab ZIP is external and not included."
+}

@@ -1,0 +1,260 @@
+{
+  "sample": {
+    "images_evaluated": 450,
+    "test_images_total": 450,
+    "all_test_images": true,
+    "test_wb_annotations_in_coco": 70192,
+    "image_list": "see area_per_image.csv (one row per evaluated image, sorted by filename)",
+    "gt_reference_instances": 70192,
+    "gt_excluded": {}
+  },
+  "match_rule": "one-to-one greedy by descending mask IoU, IoU >= 0.5; masks at original resolution; GT = pycocotools-rasterised COCO polygons (non-crowd, non-zero area)",
+  "area_definition": "A_px2 = sum(mask > 0) per instance; unit px2 (not mm2); relative_error_pct = 100*|pred-GT|/GT",
+  "overall": {
+    "images": 450,
+    "gt_reference": 70192,
+    "predicted": 72182,
+    "matched": 68794,
+    "unmatched_predictions": 3388,
+    "unmatched_gt": 1398,
+    "match_coverage": 0.980083200364714,
+    "matched_over_predictions": 0.9530630905211825,
+    "mae_px2": 211.41426577899236,
+    "mean_relative_error_pct": 8.81468091086432,
+    "median_relative_error_pct": 7.3116175000000005,
+    "mean_mask_iou": 0.8903582509375818,
+    "median_mask_iou": 0.9020870000000001,
+    "mean_signed_error_px2": 165.48322528127454,
+    "pct_pred_larger_than_gt": 86.1150681745501,
+    "matched_pred_over_gt_area_ratio": 1.045552539949818
+  },
+  "image_level_total_area_ratio_pred_over_gt": {
+    "mean": 1.067906470043092,
+    "min": 1.00981026165009,
+    "max": 1.2618207385172866,
+    "note": "sum of per-instance areas incl. unmatched predictions; overlaps not removed"
+  },
+  "by_size_terciles": {
+    "gt_area_thresholds_px2": [
+      2093.0,
+      3904.0
+    ],
+    "bins": [
+      {
+        "label": "small (0-33%)",
+        "gt_area_range_px2": [
+          0.0,
+          2093.0
+        ],
+        "n_gt": 23378,
+        "n_matched": 22057,
+        "match_coverage": 0.943493883137993,
+        "gt_area_mean_px2": 1427.9858094935848,
+        "mae_px2": 206.14816158135739,
+        "mean_relative_error_pct": 15.400984078161127,
+        "median_relative_error_pct": 14.285714,
+        "mean_signed_error_px2": 202.7644738631727,
+        "pct_pred_smaller_than_gt": 1.7228090855510723,
+        "mean_mask_iou": 0.8415076612413294
+      },
+      {
+        "label": "medium (33-66%)",
+        "gt_area_range_px2": [
+          2093.0,
+          3904.0
+        ],
+        "n_gt": 23413,
+        "n_matched": 23368,
+        "match_coverage": 0.9980779908597788,
+        "gt_area_mean_px2": 2911.0884970900374,
+        "mae_px2": 220.99709003765832,
+        "mean_relative_error_pct": 7.886718786246148,
+        "median_relative_error_pct": 7.645928,
+        "mean_signed_error_px2": 205.8865114686751,
+        "pct_pred_smaller_than_gt": 6.4746662102019865,
+        "mean_mask_iou": 0.897012421602191
+      },
+      {
+        "label": "large (66-100%)",
+        "gt_area_range_px2": [
+          3904.0,
+          null
+        ],
+        "n_gt": 23401,
+        "n_matched": 23369,
+        "match_coverage": 0.9986325370710654,
+        "gt_area_mean_px2": 6435.507766699474,
+        "mae_px2": 206.80230219521587,
+        "mean_relative_error_pct": 3.52607335243271,
+        "median_relative_error_pct": 2.882945,
+        "mean_signed_error_px2": 89.89349137746588,
+        "pct_pred_smaller_than_gt": 32.53455432410458,
+        "mean_mask_iou": 0.9298123481107451
+      }
+    ]
+  },
+  "by_size_percentile_bins": {
+    "gt_area_thresholds_px2": [
+      2081.0,
+      3849.0,
+      6984.0,
+      12603.089999999997
+    ],
+    "bins": [
+      {
+        "label": "0-33%",
+        "gt_area_range_px2": [
+          0.0,
+          2081.0
+        ],
+        "n_gt": 23149,
+        "n_matched": 21831,
+        "match_coverage": 0.9430644952265756,
+        "gt_area_mean_px2": 1421.1700792451102,
+        "mae_px2": 205.89171361824927,
+        "mean_relative_error_pct": 15.445836269387568,
+        "median_relative_error_pct": 14.321608,
+        "mean_signed_error_px2": 202.53117127021207,
+        "pct_pred_smaller_than_gt": 1.7269021116760568,
+        "mean_mask_iou": 0.8411669956483899
+      },
+      {
+        "label": "33-66%",
+        "gt_area_range_px2": [
+          2081.0,
+          3849.0
+        ],
+        "n_gt": 23174,
+        "n_matched": 23128,
+        "match_coverage": 0.9980150168292051,
+        "gt_area_mean_px2": 2883.601262538914,
+        "mae_px2": 221.4369162919405,
+        "mean_relative_error_pct": 7.970695453087167,
+        "median_relative_error_pct": 7.748004,
+        "mean_signed_error_px2": 206.68406260809408,
+        "pct_pred_smaller_than_gt": 6.329989622967831,
+        "mean_mask_iou": 0.8964565698720166
+      },
+      {
+        "label": "66-90%",
+        "gt_area_range_px2": [
+          3849.0,
+          6984.0
+        ],
+        "n_gt": 16847,
+        "n_matched": 16821,
+        "match_coverage": 0.998456698521992,
+        "gt_area_mean_px2": 5094.793175197669,
+        "mae_px2": 199.13875512751918,
+        "mean_relative_error_pct": 4.034369676297485,
+        "median_relative_error_pct": 3.496749,
+        "mean_signed_error_px2": 139.75156054931335,
+        "pct_pred_smaller_than_gt": 22.584864157897865,
+        "mean_mask_iou": 0.9241231279947685
+      },
+      {
+        "label": "90-99%",
+        "gt_area_range_px2": [
+          6984.0,
+          12603.089999999997
+        ],
+        "n_gt": 6320,
+        "n_matched": 6312,
+        "match_coverage": 0.9987341772151899,
+        "gt_area_mean_px2": 8908.350126742713,
+        "mae_px2": 216.4711660329531,
+        "mean_relative_error_pct": 2.4631326825095057,
+        "median_relative_error_pct": 2.0049010000000003,
+        "mean_signed_error_px2": -13.569708491761723,
+        "pct_pred_smaller_than_gt": 53.564638783269956,
+        "mean_mask_iou": 0.9414372148288974
+      },
+      {
+        "label": "99-100%",
+        "gt_area_range_px2": [
+          12603.089999999997,
+          null
+        ],
+        "n_gt": 702,
+        "n_matched": 702,
+        "match_coverage": 1.0,
+        "gt_area_mean_px2": 14627.156695156695,
+        "mae_px2": 301.6225071225071,
+        "mean_relative_error_pct": 2.0561776766381765,
+        "median_relative_error_pct": 1.734643,
+        "mean_signed_error_px2": -117.52564102564102,
+        "pct_pred_smaller_than_gt": 67.66381766381767,
+        "mean_mask_iou": 0.9508752834757835
+      }
+    ]
+  },
+  "previous_30_image_evaluation": {
+    "images": 30,
+    "gt_reference": 4970,
+    "predicted": 5146,
+    "matched": 4900,
+    "unmatched_predictions": 246,
+    "unmatched_gt": 70,
+    "match_coverage": 0.9859154929577465,
+    "mae_px2": 207.4,
+    "mean_relative_error_pct": 8.799715146122448,
+    "median_relative_error_pct": 7.344207,
+    "mean_mask_iou": 0.89,
+    "mean_signed_error_px2": 160.75020408163266,
+    "matched_pred_over_gt_area_ratio": 1.0452452860925296
+  },
+  "previous_30_images_recomputed_in_this_run": {
+    "images": 30,
+    "gt_reference": 4970,
+    "predicted": 5146,
+    "matched": 4900,
+    "unmatched_predictions": 246,
+    "unmatched_gt": 70,
+    "match_coverage": 0.9859154929577465,
+    "matched_over_predictions": 0.952195880295375,
+    "mae_px2": 207.4,
+    "mean_relative_error_pct": 8.799715146122448,
+    "median_relative_error_pct": 7.344207,
+    "mean_mask_iou": 0.8899699457142857,
+    "median_mask_iou": 0.9020485,
+    "mean_signed_error_px2": 160.75020408163266,
+    "pct_pred_larger_than_gt": 85.59183673469389,
+    "matched_pred_over_gt_area_ratio": 1.0452452860925296
+  },
+  "all_pred_sizes_match_coco_image_size": true,
+  "model": {
+    "path": "/content/wb_yolov8n_seg.pt",
+    "sha256": "93d993ec6b48c1fca9d59178afe11377ef20afa3ed0c304841e4d6b36d447961",
+    "names": {
+      "0": "WB"
+    },
+    "train_args": {
+      "imgsz": "640",
+      "epochs": "10",
+      "data": "/content/M18K_V2_work/yolo_v2_wb/data.yaml",
+      "model": "yolov8n-seg.pt",
+      "seed": "42"
+    }
+  },
+  "inference": {
+    "imgsz": 640,
+    "imgsz_source": "checkpoint train_args",
+    "conf": 0.25,
+    "nms_iou": 0.7,
+    "max_det": 1000,
+    "retina_masks": true,
+    "classes": null,
+    "device_requested": "None",
+    "device_used": "cpu",
+    "note": "settings identical to the 30-image evaluation; not tuned"
+  },
+  "versions": {
+    "python": "3.13.16",
+    "numpy": "2.4.6",
+    "ultralytics": "8.4.202",
+    "torch": "2.11.0+cu130",
+    "pycocotools": "2.0.11",
+    "opencv-python": "5.0.0.93",
+    "matplotlib": "3.10.0"
+  }
+}

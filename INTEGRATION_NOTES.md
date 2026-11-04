@@ -31,3 +31,15 @@ This is a **repository file bundle**, not a Git commit or push. It was created f
 4. Ensure Git does not include raw data, source COCO JSON, big WB-label ZIP, checkpoints or credentials.
 
 The source snapshot's historical `setup_reports/` and candidate C01/C02 are preserved untouched.
+
+## Day 4 merge patch (2026-11-04)
+
+The Day 4 patch ZIP preserves the `mushroom-research-2026/` root and contains **only newly added or modified files relative to the Day 3 repository snapshot**. Extract into the **parent directory of the repository**, or copy the contents of its `mushroom-research-2026/` directory into your clone after reviewing differences. Existing Day 1–3 files not modified by this patch are not included.
+
+- `README.md`, `START_HERE.md`, project state/board, results indexes, experiment registry, `.gitignore`, tests and validator have been updated for Day 4.
+- New executed Colab notebooks are under `08_experiments/notebooks/`; area/QC source under `07_source_code/evaluation/`; all new metrics and evidence under `09_results/`; English IVP course draft under `10_research_paper/drafts/`.
+- Selected small PNGs and the compressed matched-mask CSV have explicit `.gitignore` exceptions. Raw dataset, checkpoints and output ZIP archives stay excluded.
+- Source ZIP hashes are recorded in `12_reproducibility/manifests/DAY4_EVIDENCE_2026-11-04.json`.
+- Run `python scripts/validate_workspace.py` and `python -m unittest discover -s tests -v`; neither means the original dataset has been freshly audited.
+
+The source repository snapshot was the previously delivered **Day 3 full repository ZIP**; if there are newer uncommitted local changes, merge selectively rather than blindly overwriting them.

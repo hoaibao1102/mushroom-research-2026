@@ -7,3 +7,11 @@
 **Day 3 — additional analysis**: `reports/Day3_Prediction_Area_and_Error_Analysis_2026-11-03.md`, 30-image numeric data in `area_evaluation/`, 12-image matched-mask outputs in `wb_error_analysis/`, and reviewed qualitative findings in `reports/Day3_WB_Qualitative_Review_2026-11-03.md`. Curated original figures are under `10_research_paper/figures/` for tracked publication review.
 
 Do not conflate Day 3 sample metrics with the Day 2 full-test AP scores. The 30-image area result uses only matched masks and reports **px²**, not physical units. Suspected annotation errors and five perceptual-hash matches are unconfirmed.
+
+## Day 4 — Full-test area, inference MVP, classical comparison (2026-11-04)
+
+- [`reports/Day4_Full_Test_Area_And_MVP_2026-11-04.md`](reports/Day4_Full_Test_Area_And_MVP_2026-11-04.md) summarizes the new evidence and distinguishes it from the earlier samples.
+- [`area_evaluation/day4_full_test/`](area_evaluation/day4_full_test/) preserves the submitted **450-image WB area evaluation**, JSON, per-image CSV, compressed 68,794 matched-instance records, source-derived README, and 4 figures. MAE **211.41 px²**, mean relative absolute error **8.81%** (on matched masks only).
+- [`inference_demo/`](inference_demo/) preserves the **10-image WB-only demo** result log transcription, 2 sample figures and checkpoint details; 1,551 predicted instances, not ground-truth counts.
+- [`otsu_baseline/`](otsu_baseline/) contains the **10-image Otsu baseline/ablation** summary, OpenCV matching note and 3 example figures; this is a foreground-union comparison, not instance AP.
+- [`dataset_qc/day4_submitted/`](dataset_qc/day4_submitted/) keeps the team's original QC submission. **See the separate caveats** in [`reports/Day4_QC_Interpretation_2026-11-04.md`](reports/Day4_QC_Interpretation_2026-11-04.md) before citing its conclusions.

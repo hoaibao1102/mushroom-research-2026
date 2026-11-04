@@ -90,3 +90,10 @@ Thumbs.db
 *.csv.tmp
 # Small, reviewed EDA plots in this results directory are allowed
 !09_results/visualizations/*.png
+
+# Small curated Day 4 evidence (not raw dataset images or generated output archives)
+!09_results/area_evaluation/day4_full_test/area_matches.csv.gz
+!09_results/area_evaluation/day4_full_test/figures/*.png
+!09_results/dataset_qc/day4_submitted/figures/*.png
+!09_results/otsu_baseline/figures/*.png
+!09_results/inference_demo/figures/*.png

@@ -10,3 +10,11 @@
 **Day 3 completed:** 30-image sample area diagnostic and 12-image qualitative review using the existing WB-only checkpoint. They are **not additional full-test model AP scores**.
 
 **Benchmark limitation:** V2 is not the original M18K paper's 2,000-image dataset; methods/protocols/metric definitions differ. Do not infer superior performance from the numerical AP values alone.
+
+## Day 4 (November 4) — no new training
+
+- **WB inference MVP:** `notebooks/Day4_WB_Only_Final_Inference_Executed.ipynb`; 10 reproducibly sampled test images, predicted instance masks/counts/px² areas and outputs. Summary under `09_results/inference_demo/`.
+- **Otsu baseline + ablations:** `notebooks/Day4_Otsu_Baseline_Ablation_Executed.ipynb`; scratch Otsu vs OpenCV 10/10 exact matches, same 10 images as YOLO, foreground union IoU/Dice and count error. Summary under `09_results/otsu_baseline/`.
+- **Full-test area:** submitted script `07_source_code/evaluation/day4_full_test_area_evaluation.py`, 450-image matched-mask diagnostics under `09_results/area_evaluation/day4_full_test/`.
+
+Day 4 experiments are recorded in `experiment_registry.csv`. Their sampling/evaluation definitions differ; do not compare Otsu union IoU to full-test YOLO instance mAP as if identical.

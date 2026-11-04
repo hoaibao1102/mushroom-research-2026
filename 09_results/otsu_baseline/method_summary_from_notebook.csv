@@ -1,0 +1,5 @@
+method,images,mean_union_IoU,mean_union_Dice,count_MAE,mean_runtime_ms
+Otsu_full,10,0.8662,0.9269,121.2,19.314
+Otsu_no_blur,10,0.8709,0.9296,122.1,16.5123
+Otsu_no_morph,10,0.8648,0.926,122.5,17.4163
+YOLO_WB_only,10,0.9201,0.9583,7.3,2797.765

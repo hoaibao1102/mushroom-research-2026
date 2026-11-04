@@ -1,4 +1,4 @@
-"""Validate Team 10 repo structure and Day 1–3 result consistency; not dataset QC."""
+"""Validate Team 10 repo structure and Days 1–4 evidence consistency; not dataset QC."""
 import argparse, csv, json, sys
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
@@ -38,6 +38,19 @@ def validate(root):
         with (root/'09_results/wb_error_analysis/Khang_error_observations_REVIEWED.csv').open(newline='',encoding='utf-8-sig') as f:rows=list(csv.DictReader(f))
         check(len(rows)==12 and sum(int(r['missed_instances_iou50']) for r in rows)==42 and sum(int(r['extra_instances_iou50']) for r in rows)==94,'Day 3 qualitative sample counts consistent')
     except (OSError,ValueError,KeyError,TypeError,json.JSONDecodeError) as exc:check(False,'Metrics validation failed: '+str(exc))
+    # Day 4: check submitted summaries and representative deliverables (no inference rerun).
+    try:
+        a4=json.loads((root/'09_results/area_evaluation/day4_full_test/area_metrics.json').read_text())
+        o4=a4['overall']
+        check(a4['sample']['images_evaluated']==450 and o4['gt_reference']==70192 and o4['matched']==68794,'Day 4 full-test WB area sample and matched counts')
+        check(o4['unmatched_predictions']==3388 and o4['unmatched_gt']==1398 and abs(o4['mae_px2']-211.41426577899236)<1e-5,'Day 4 area exclusions and error from submitted metrics')
+        demo=json.loads((root/'09_results/inference_demo/Day4_WB_Demo_Summary.json').read_text())
+        check(demo['test_images_sampled']==10 and demo['predicted_wb_instances']==1551,'Day 4 inference MVP summary')
+        with (root/'09_results/otsu_baseline/method_summary_from_notebook.csv').open(newline='',encoding='utf8') as f: otsu={x['method']:x for x in csv.DictReader(f)}
+        check(abs(float(otsu['Otsu_full']['mean_union_IoU'])-0.8662)<0.0001 and abs(float(otsu['YOLO_WB_only']['mean_union_IoU'])-0.9201)<0.0001,'Day 4 Otsu/YOLO sample foreground-IoU summaries')
+        check((root/'08_experiments/notebooks/Day4_WB_Only_Final_Inference_Executed.ipynb').is_file() and (root/'08_experiments/notebooks/Day4_Otsu_Baseline_Ablation_Executed.ipynb').is_file(),'Day 4 executed notebooks available')
+        check((root/'10_research_paper/drafts/M18K_IVP_Course_Project_Report_2026-11-04.docx').is_file(),'Day 4 English IVP course draft available')
+    except (OSError,ValueError,KeyError,TypeError,json.JSONDecodeError,csv.Error) as exc:check(False,'Day 4 summary validation failed: '+str(exc))
     figures=list((root/'10_research_paper/figures').glob('Day3_*.png'))
     check(len(figures)==16,'16 original Day 3 figures are available (12 prediction, 4 area)')
     excluded_ext={'.jpg','.jpeg','.png','.webp','.bmp','.npy','.npz','.pt','.pth','.ckpt','.onnx','.zst','.zip','.7z','.tar','.sqlite','.db'}
@@ -50,7 +63,10 @@ def validate(root):
         elif p.is_file() and p.suffix.lower() in excluded_ext:
             if rel.parent==Path('09_results/visualizations') and p.name in eda_images:continue
             if rel.parent==Path('10_research_paper/figures') and p.name.startswith('Day3_') and p.suffix.lower()=='.png':continue
+            day4_fig_dirs={Path('09_results/area_evaluation/day4_full_test/figures'),Path('09_results/dataset_qc/day4_submitted/figures'),Path('09_results/otsu_baseline/figures'),Path('09_results/inference_demo/figures')}
+            if p.suffix.lower()=='.png' and rel.parent in day4_fig_dirs and p.stat().st_size<=3*1024*1024:continue
             unexpected.append(rel.as_posix())
+    check((root/'09_results/area_evaluation/day4_full_test/area_matches.csv.gz').is_file(),'Compressed Day 4 matched-mask records available')
     check(not unexpected,'No unapproved heavy/model/raw payloads: '+str(unexpected[:10]))
     return checks
 

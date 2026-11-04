@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-04",
+  "source_files": [
+    {
+      "filename": "Day4_Area_Evaluation-20261104T055846Z-1-001.zip",
+      "sha256": "11bd6ffa98062f6e4a5fe4ddd5ebd01bb386526b603a05604de9c5230f0dc3ec",
+      "purpose": "full-test WB area evaluation: code, 450-image metrics, matches and images"
+    },
+    {
+      "filename": "4_11_Dataset_QC-20261104T055823Z-1-001.zip",
+      "sha256": "180449016559e618e9693728ef91ae93941dc7e9524525d512fa1a931dac6682",
+      "purpose": "submitted dataset QC: not conclusive on original dHash pair list"
+    },
+    {
+      "filename": "M18K_WB_Only_Final_Inference (2).ipynb",
+      "sha256": "3f0b0f98831ecd6aa017ac31aae6cd77552f6f324571bad56bc34a2ab7a09fce",
+      "purpose": "executed clean WB-only demo notebook"
+    },
+    {
+      "filename": "M18K_Otsu_Baseline_Ablation (1).ipynb",
+      "sha256": "57b581c376ac6e27b66baafe416d90776667aa54608c70591617493bd7cc423a",
+      "purpose": "executed Otsu baseline and ablation notebook"
+    },
+    {
+      "filename": "M18K_IVP_Course_Project_Report_2026-11-04.docx",
+      "sha256": "f46cd4bfe09761e4b918f85159a9d7bb8b64767ed42a00aa072f902b6cc2cdca",
+      "purpose": "editable course report draft"
+    },
+    {
+      "filename": "M18K_IVP_Course_Project_Report_2026-11-04.pdf",
+      "sha256": "f4871432429fc8a59d20d4fffad3b5608fe80edb655153c09dbf73702c04fa81",
+      "purpose": "PDF review copy of course report"
+    }
+  ],
+  "new_evidence": {
+    "area_full_test": "09_results/area_evaluation/day4_full_test/area_metrics.json",
+    "inference_executed": "08_experiments/notebooks/Day4_WB_Only_Final_Inference_Executed.ipynb",
+    "otsu_executed": "08_experiments/notebooks/Day4_Otsu_Baseline_Ablation_Executed.ipynb",
+    "course_report": "10_research_paper/drafts/M18K_IVP_Course_Project_Report_2026-11-04.docx"
+  },
+  "limitations": [
+    "Submitted QC compared a different five pairs than initial Day3 hash screen",
+    "Original 2025 benchmark equivalence not established",
+    "Area measurement is px2 conditional on GT matching",
+    "Ten-image Otsu comparison is illustrative only",
+    "No raw RGB-D, large COCO, best.pt, or Colab output ZIP included",
+    "Demo video and slides still pending"
+  ],
+  "fresh_external_reexecution_by_packager": false
+}
