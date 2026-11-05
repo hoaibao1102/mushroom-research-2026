@@ -1,0 +1,9 @@
+﻿image_id,filename,gt_count,baseline_count,modified_count,baseline_signed_error,modified_signed_error,baseline_abs_error,modified_abs_error,baseline_matched_tp,baseline_unmatched_gt_fn,baseline_unmatched_pred_fp,baseline_match_method,modified_matched_tp,modified_unmatched_gt_fn,modified_unmatched_pred_fp,modified_match_method
+32,004078.png,222,221,220,-1,-2,1,2,217,5,4,mask_IoU,217,5,3,mask_IoU
+332,004378.png,219,222,219,3,0,3,0,216,3,6,mask_IoU,216,3,3,mask_IoU
+165,004211.png,219,222,219,3,0,3,0,216,3,6,mask_IoU,216,3,3,mask_IoU
+435,004481.png,214,219,216,5,2,5,2,211,3,8,mask_IoU,211,3,5,mask_IoU
+38,004084.png,207,212,209,5,2,5,2,203,4,9,mask_IoU,203,4,6,mask_IoU
+267,004313.png,209,213,207,4,-2,4,2,203,6,10,mask_IoU,203,6,4,mask_IoU
+171,004217.png,211,210,208,-1,-3,1,3,201,10,9,mask_IoU,200,11,8,mask_IoU
+101,004147.png,212,217,216,5,4,5,4,207,5,10,mask_IoU,207,5,9,mask_IoU

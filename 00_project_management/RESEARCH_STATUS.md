@@ -1,18 +1,22 @@
-# Research status — 4 November 2026 (Day 4)
+# Research status — 5 November 2026 (Day 5)
 
-| Stage | Status | Evidence / qualification |
-| --- | --- | --- |
-| Day 1 — M18K V2 EDA | **DONE** | 4,495 COCO-indexed RGB images, 700,589 original annotations; RGB/depth filename matches |
-| Day 2 — YOLOv8n-seg paper-approach reproduction on V2 | **DONE** | Two-class and WB-only checkpoints, both reported held-out test results; **not** an exact original 2025 benchmark reproduction |
-| Day 3 — sampled WB mask-area and qualitative review | **DONE** | 30-image matched-mask area evaluation, 12 qualitative prediction figures |
-| Day 4 — WB full-test predicted area | **DONE (submitted)** | 450 images, 68,794 matched WB masks, area MAE 211.41 px², mean relative error 8.81%; unmatched detections tracked separately |
-| Day 4 — WB-only inference MVP | **DONE (executed notebook)** | 10 test images; 1,551 detected WB instances; masks/counts/px² area and CSV/ZIP export |
-| Day 4 — scratch Otsu and classical baseline | **DONE (10-image demo experiment)** | 10/10 agreement with OpenCV, 10-image same-data comparison, two simple ablations; not full-test semantic/instance benchmark |
-| Day 4 — English IVP course report | **DRAFT PREPARED** | Editable Word and review PDF; still needs submission metadata, source citation check and final edit |
-| Day 4 — dataset QC | **SUBMITTED; ISSUES OPEN** | Tested five different pairs than original Day 3 flags; exact hashes do not clear near-duplicate scene overlap; two GT anomalies unresolved |
-| Demo video and 12–15-minute slides | **NOT DONE** | Final course deliverables still pending |
-| Four techniques across three course lessons | **NEEDS LESSON MAPPING** | Scratch Otsu, grayscale/Gaussian, morphology and connected components demonstrated; actual chapter mapping not established |
-| Formal upstream source/license approval and research gates | **NOT VERIFIED** | Existing G0/G1/G2 status remains needs-more-evidence |
-| Physical mm², depth-calibrated or 3D surface area | **NOT IMPLEMENTED** | Current area in px² only |
+| Stage | Status | What the evidence says |
+|---|---|---|
+| Day 1 — M18K V2 EDA | **Done** | 4,495 indexed RGB images and 700,589 original annotations were audited. |
+| Day 2 — YOLOv8n-seg reproduction on V2 | **Done** | Two-class and WB-only models have held-out test results. This reproduces the approach on V2, not the exact original paper benchmark. |
+| Day 3 — area and prediction review | **Done** | 30-image mask-area analysis and 12-image qualitative review. |
+| Day 4 — course MVP experiments | **Done** | Full 450-image WB area evaluation, 10-image inference notebook, scratch Otsu verification and small baseline/ablation. |
+| Day 5 — dense-scene counting | **Preliminary result** | NMS IoU 0.70 → 0.50 reduced count MAE from 3.375 to 1.875 on eight selected dense images. Full 450-image validation is still needed. |
+| Day 5 — RGB-D feasibility | **Feasibility study complete** | 30 images / 4,970 WB masks inspected. Depth units and intrinsics are not verified; no mm² estimate was made. |
+| Day 5 — WB-only Gradio demo | **Working** | User confirmed the Colab app launched, loaded a random test image and ran inference. Checkpoint stays in Drive. |
+| Course report and slides | **Prepared** | Word/PDF report and editable presentation are in `10_research_paper/submission/`. They predate the Day 5 member findings. |
+| Demo video | **Open** | The live app can be shown; a separate recording has not been made. |
+| Dataset QC and permissions | **Open** | Earlier duplicate/annotation concerns and formal source/license approval remain unresolved. |
 
-See `00_project_management/TASK_BOARD.md` and `09_results/reports/Day4_Full_Test_Area_And_MVP_2026-11-04.md`. No retraining was needed on Day 4.
+## Current research questions
+
+1. Does the lower NMS IoU setting improve counting across all 450 test images, or only the selected dense scenes?
+2. Can the upstream dataset release provide verified depth units, intrinsics and RGB-depth alignment? If not, physical area needs a separately calibrated data source.
+3. Can the course report be updated to include the Day 5 NMS and RGB-D findings before submission?
+
+See `00_project_management/TASK_BOARD.md` for the current follow-up work.

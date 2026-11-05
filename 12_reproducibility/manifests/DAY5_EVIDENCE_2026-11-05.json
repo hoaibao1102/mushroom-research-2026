@@ -1,0 +1,79 @@
+{
+  "date": "2026-11-05",
+  "base_repository": "M18K_Team10_Day4_Merge_Patch.zip applied to M18K_Team10_Repository_Updated_Through_Day3.zip",
+  "source_files": [
+    {
+      "filename": "5_11_Dense_Counting-20261105T103504Z-1-001.zip",
+      "sha256": "5ea94b19ccf74584329abc94a303c660e3dc6c0faca033d6452449071c7b612f",
+      "purpose": "Khang Day 5 dense-scene NMS comparison, source, CSV and figures"
+    },
+    {
+      "filename": "Day5_RGBD_Size.zip",
+      "sha256": "f2a4200840e3f14551bb7007aafbdea3c8affa5829e2a76e5ed16002f5868601",
+      "purpose": "Thinh Day 5 RGB-D measurement feasibility scripts, data and figures"
+    },
+    {
+      "filename": "M18K_WB_Gradio_Demo_Fixed.zip",
+      "sha256": "a059007320722f0182f179ca24a583eebc235bf298bf60d67fdb196b108704ef",
+      "purpose": "WB-only Gradio demo package; user confirmed successful Colab run"
+    },
+    {
+      "filename": "M18K_IVP_Final_Project_Report_2026-11-05.docx",
+      "sha256": "d15ceb7380af0a6fb91707deac60db97f6a56e57e600afa8acd191b0b92acfa6",
+      "purpose": "Course report prepared earlier on 5 November, before Day 5 member findings"
+    },
+    {
+      "filename": "M18K_IVP_Final_Project_Report_2026-11-05.pdf",
+      "sha256": "e0dfcea6e990e9bd3698261a419b226fad0af3b17343150553dfceed3694b5de",
+      "purpose": "PDF course report prepared earlier on 5 November, before Day 5 member findings"
+    },
+    {
+      "filename": "M18K_IVP_Final_Presentation_2026-11-05.pptx",
+      "sha256": "4535cce2962d4bf6e6d33f20fb3da77b10b5ad53551fcc573bf3f8e739da929c",
+      "purpose": "Presentation prepared earlier on 5 November, before Day 5 member findings"
+    }
+  ],
+  "recorded_results": {
+    "dense_counting": {
+      "images": 8,
+      "gt_instances": 1713,
+      "baseline_nms_iou": 0.7,
+      "modified_nms_iou": 0.5,
+      "baseline_count_mae": 3.375,
+      "modified_count_mae": 1.875,
+      "images_improved": 6,
+      "images_worsened": 2,
+      "full_test_validation": false,
+      "visual_confirmation": "PENDING"
+    },
+    "rgbd_feasibility": {
+      "images": 30,
+      "wb_masks": 4970,
+      "mean_valid_depth_fraction": 0.9309218980856934,
+      "masks_valid_lt_50pct": 301,
+      "masks_zero_valid": 132,
+      "test_depth_dtype_counts": {
+        "float32": 340,
+        "uint16": 110
+      },
+      "depth_scale_verified": false,
+      "intrinsics_verified": false,
+      "rgb_depth_alignment_verified": false,
+      "physical_area_mm2_computed": false
+    },
+    "gradio_demo": {
+      "status": "USER_CONFIRMED_WORKING_IN_COLAB",
+      "model": "existing WB-only YOLOv8n-seg checkpoint",
+      "checkpoint_included": false
+    }
+  },
+  "limitations": [
+    "NMS comparison covers eight selected dense images only; full-test evaluation is pending.",
+    "Selection file marks visual confirmation as pending.",
+    "RGB-D depth scale, camera intrinsics and RGB-depth alignment remain unverified; no mm2 values are reported.",
+    "The final course report and presentation were prepared before the Day 5 member findings arrived.",
+    "No raw RGB-D dataset, COCO JSON, model checkpoint or output archive is included."
+  ],
+  "external_reexecution_by_integrator": false,
+  "gradio_user_confirmation_received": true
+}

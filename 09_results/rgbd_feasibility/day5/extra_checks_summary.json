@@ -1,0 +1,24 @@
+{
+  "test_depth_files": 450,
+  "dtype_counts": {
+    "float32": 340,
+    "uint16": 110
+  },
+  "sample_images": 30,
+  "wb_masks": 4970,
+  "left_invalid_band_width_px": {
+    "min": 0,
+    "median": 49,
+    "max": 61
+  },
+  "low_validity_masks_below_50pct": 301,
+  "low_validity_mask_centres": {
+    "leftmost_10pct": 199,
+    "middle_80pct": 0,
+    "rightmost_10pct": 102
+  },
+  "mask_pixels_raw_depth_above_5000": 588,
+  "mask_pixels_total": 17481201,
+  "fraction_above_5000": 3.36e-05,
+  "note": "Values transcribed from the submitted Day 5 findings and extra_checks.py output summary; this is a supporting summary, not a separate rerun."
+}

@@ -1,0 +1,291 @@
+{
+  "script": "depth_area.py",
+  "unit_of_area": "px2 (physical area NOT computed)",
+  "inventory": {
+    "root": "/content/drive/MyDrive/Colab Notebooks/M18K_Reproduction/M18KV2",
+    "top_level": [
+      "test/",
+      "train/",
+      "valid/"
+    ],
+    "splits": {
+      "train": {
+        "annotations_coco.json": {
+          "bytes": 2116825714
+        },
+        "depth/": {
+          "n_files": 3596,
+          "extensions": {
+            ".npy": 3596
+          }
+        },
+        "labels/": {
+          "n_files": 3596,
+          "extensions": {
+            ".txt": 3596
+          }
+        },
+        "rgb/": {
+          "n_files": 3596,
+          "extensions": {
+            ".png": 3596
+          }
+        }
+      },
+      "valid": {
+        "annotations_coco.json": {
+          "bytes": 266297504
+        },
+        "depth/": {
+          "n_files": 449,
+          "extensions": {
+            ".npy": 449
+          }
+        },
+        "labels/": {
+          "n_files": 449,
+          "extensions": {
+            ".txt": 449
+          }
+        },
+        "rgb/": {
+          "n_files": 449,
+          "extensions": {
+            ".png": 449
+          }
+        }
+      },
+      "test": {
+        "annotations_coco.json": {
+          "bytes": 263527865
+        },
+        "depth/": {
+          "n_files": 450,
+          "extensions": {
+            ".npy": 450
+          }
+        },
+        "labels/": {
+          "n_files": 450,
+          "extensions": {
+            ".txt": 450
+          }
+        },
+        "rgb/": {
+          "n_files": 450,
+          "extensions": {
+            ".png": 450
+          }
+        }
+      }
+    },
+    "doc_files": [
+      {
+        "path": "valid/annotations_coco.json",
+        "bytes": 266297504
+      },
+      {
+        "path": "test/annotations_coco.json",
+        "bytes": 263527865
+      },
+      {
+        "path": "train/annotations_coco.json",
+        "bytes": 2116825714
+      }
+    ],
+    "keyword_hits": []
+  },
+  "coco_schema": {
+    "top_level_keys": [
+      "info",
+      "licenses",
+      "categories",
+      "images",
+      "annotations"
+    ],
+    "info": null,
+    "image_keys": {
+      "id": 450,
+      "license": 450,
+      "file_name": 450,
+      "height": 450,
+      "width": 450,
+      "date_captured": 450
+    },
+    "annotation_keys": {
+      "id": 70289,
+      "image_id": 70289,
+      "category_id": 70289,
+      "bbox": 70289,
+      "area": 70289,
+      "segmentation": 70289,
+      "iscrowd": 70289
+    },
+    "n_images": 450,
+    "licenses_sample": {
+      "id": 1,
+      "url": "https://creativecommons.org/licenses/by/4.0/",
+      "name": "CC BY 4.0"
+    },
+    "info_head": "{\n    \"year\": \"2024\",\n    \"version\": \"1\",\n    \"description\": \"Auto-labeled with Ultralytics YOLO segmentation (shuffled+renamed)\",\n    \"contributor\": \"\",\n    \"url\": \"https://public.roboflow.com/object-detection/undefined\",\n    \"date_created\": \"2025-11-08T21:47:05Z\"\n  }"
+  },
+  "depth_dirs_found": [
+    "depth"
+  ],
+  "depth_naming_example": {
+    "rgb": "004058.png",
+    "depth": "test/depth/004058.npy"
+  },
+  "depth_format_first5": [
+    {
+      "readable": true,
+      "shape": [
+        720,
+        1280
+      ],
+      "dtype": "uint16",
+      "channels": 1,
+      "looks_like_scalar_depth": true,
+      "min": 0.0,
+      "max": 2621.0,
+      "frac_zero": 0.064462890625,
+      "n_unique": 480,
+      "nonzero_percentiles_1_50_99": [
+        2002.0,
+        2283.0,
+        2503.0
+      ],
+      "note": null,
+      "file": "004058.npy"
+    },
+    {
+      "readable": true,
+      "shape": [
+        720,
+        1280
+      ],
+      "dtype": "float32",
+      "channels": 1,
+      "looks_like_scalar_depth": true,
+      "min": 0.0,
+      "max": 3530.0,
+      "frac_zero": 0.04836263020833333,
+      "n_unique": 572,
+      "nonzero_percentiles_1_50_99": [
+        2123.0,
+        2520.0,
+        2824.0
+      ],
+      "note": null,
+      "file": "004059.npy"
+    },
+    {
+      "readable": true,
+      "shape": [
+        720,
+        1280
+      ],
+      "dtype": "float32",
+      "channels": 1,
+      "looks_like_scalar_depth": true,
+      "min": 0.0,
+      "max": 2960.0,
+      "frac_zero": 0.05328667534722222,
+      "n_unique": 670,
+      "nonzero_percentiles_1_50_99": [
+        1999.0,
+        2327.0,
+        2691.0
+      ],
+      "note": null,
+      "file": "004061.npy"
+    },
+    {
+      "readable": true,
+      "shape": [
+        720,
+        1280
+      ],
+      "dtype": "float32",
+      "channels": 1,
+      "looks_like_scalar_depth": true,
+      "min": 0.0,
+      "max": 3617.0,
+      "frac_zero": 0.05136610243055555,
+      "n_unique": 488,
+      "nonzero_percentiles_1_50_99": [
+        2122.0,
+        2360.0,
+        2770.0
+      ],
+      "note": null,
+      "file": "004062.npy"
+    },
+    {
+      "readable": true,
+      "shape": [
+        720,
+        1280
+      ],
+      "dtype": "float32",
+      "channels": 1,
+      "looks_like_scalar_depth": true,
+      "min": 0.0,
+      "max": 2969.0,
+      "frac_zero": 0.04795572916666667,
+      "n_unique": 417,
+      "nonzero_percentiles_1_50_99": [
+        2283.0,
+        2557.0,
+        2890.0
+      ],
+      "note": null,
+      "file": "004090.npy"
+    }
+  ],
+  "depth_validity_in_wb_masks": {
+    "images": 30,
+    "instances": 4970,
+    "mean_valid_fraction": 0.9309218980856934,
+    "median_valid_fraction": 0.997589652967318,
+    "p05_valid_fraction": 0.2628514320715741,
+    "instances_valid_lt_50pct": 301,
+    "instances_valid_lt_90pct": 452,
+    "instances_zero_valid": 132,
+    "depth_size_matches_rgb_and_coco_images": 30
+  },
+  "unit_plausibility": {
+    "raw_depth_in_masks_percentiles_1_5_50_95_99": [
+      2044.0,
+      2141.0,
+      2399.0,
+      2676.0,
+      2781.0
+    ],
+    "nominal_camera_height_mm": 150,
+    "implied_median_mm_if_unit_1mm": 2399.0,
+    "implied_median_mm_if_unit_0p1mm": 239.9,
+    "implied_median_mm_if_unit_1m": 2399000.0,
+    "note": "plausibility only: camera was ~15 cm above the WB beds and caps stand above the bed (so expect roughly 70-150 mm); this does NOT verify units or intrinsics"
+  },
+  "alignment_scan": {
+    "images": 30,
+    "mean_ratio_at_zero": 1.3019959347797214,
+    "min_ratio_at_zero": 0.4533447373240597,
+    "best_shift_counts": {
+      "(-2, 8)": 5,
+      "(0, 8)": 3,
+      "(2, 8)": 3,
+      "(2, -10)": 2,
+      "(-2, 10)": 2,
+      "(2, 4)": 1,
+      "(4, 10)": 1,
+      "(2, 10)": 1
+    },
+    "images_best_shift_is_zero": 0,
+    "interpretation_guide": "ratio>1 = depth discontinuities concentrate on mask boundaries; best shift (0,0) in most images supports pixel alignment of depth to RGB/masks. Consistency evidence only, not a calibration."
+  },
+  "intrinsics_or_units_text_found_in_dataset_files": false,
+  "calibration_verified": false,
+  "calibration_note": "Set to False by design: verified calibration requires documented depth units AND camera intrinsics (and depth-to-colour alignment). Review keyword_hits / doc_files manually."
+}

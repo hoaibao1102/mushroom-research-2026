@@ -1,4 +1,4 @@
-# Integration notes — repository update through Day 3 (2026-11-03)
+# Integration notes — repository updates through Day 5 (2026-11-05)
 
 This is a **repository file bundle**, not a Git commit or push. It was created from the previously supplied **30 October 2026 Team 10 repository snapshot** and the uploaded Day 2/Day 3 evidence. The user's latest displayed file tree includes `file_list.txt` whereas the earlier snapshot did not; a new file list is generated here. **If your live clone was edited after that snapshot, compare diffs and do not blindly replace those newer changes.** A fresh repo ZIP would enable a truly exact in-place merge.
 
@@ -43,3 +43,15 @@ The Day 4 patch ZIP preserves the `mushroom-research-2026/` root and contains **
 - Run `python scripts/validate_workspace.py` and `python -m unittest discover -s tests -v`; neither means the original dataset has been freshly audited.
 
 The source repository snapshot was the previously delivered **Day 3 full repository ZIP**; if there are newer uncommitted local changes, merge selectively rather than blindly overwriting them.
+
+
+## Day 5 merge patch (2026-11-05)
+
+This update is based on the Day 4 repository state. It adds the two Day 5 member submissions, the working WB-only Gradio app, and the report/presentation files prepared earlier on 5 November. The patch contains only new or changed files relative to the Day 4 state.
+
+- Khang's dense-scene NMS comparison is preserved with its source script, fixed image list, CSV and figures. It covers eight selected images only; visual confirmation is still marked pending and the full test set has not been evaluated at NMS IoU 0.50.
+- Thịnh's RGB-D feasibility study is preserved with both scripts, results, figures, and the original Vietnamese findings plus an English summary. The study does not verify depth scale, intrinsics or alignment, and no mm² values are reported.
+- The Gradio app and Colab launcher are included. The user confirmed that the app ran successfully in Colab. No checkpoint or dataset is bundled.
+- The Word/PDF course report and presentation are included under `10_research_paper/submission/`. They were created before the Day 5 member findings arrived and do not yet include those results.
+
+The archive does not contain raw RGB-D data, COCO JSON files, model weights or generated output ZIPs. Review the diff before merging into a live clone. The integration checks validate repository records only; they do not rerun the submitted experiments.

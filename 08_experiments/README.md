@@ -1,4 +1,4 @@
-# M18K V2 experiments — Day 2 training, Day 3 analyses
+# M18K V2 experiments — Day 2 to Day 5
 
 **Day 2 completed:** two independent YOLOv8n-seg experiments on the indexed V2 release at RGB 640, 10 epochs, seed 42, Tesla T4; test split contains 450 images. The completed two-class experiment evaluates BB and WB; the WB-only experiment uses WB-only labels. Both are recorded in `experiment_registry.csv` and `configs/day2_*.yaml`.
 
@@ -18,3 +18,10 @@
 - **Full-test area:** submitted script `07_source_code/evaluation/day4_full_test_area_evaluation.py`, 450-image matched-mask diagnostics under `09_results/area_evaluation/day4_full_test/`.
 
 Day 4 experiments are recorded in `experiment_registry.csv`. Their sampling/evaluation definitions differ; do not compare Otsu union IoU to full-test YOLO instance mAP as if identical.
+
+
+## Day 5 — follow-up experiments and live demo
+
+- `configs/day5_dense_counting.json` records Khang's eight-image NMS comparison. The only changed inference setting was NMS IoU (0.70 to 0.50). The counting MAE fell from 3.375 to 1.875 on this selected sample; full-test validation is still needed.
+- `notebooks/Day5_WB_Only_Gradio_Demo.ipynb` launches the interactive app around the existing WB-only checkpoint. The user confirmed that it worked in Colab. It is a demo, not a new benchmark.
+- Thịnh's RGB-D feasibility scripts are in `07_source_code/features/day5_rgbd_feasibility/`; outputs are in `09_results/rgbd_feasibility/day5/`. The study did not verify depth scale or intrinsics, so it reports no mm² values.

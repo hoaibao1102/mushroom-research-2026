@@ -1,0 +1,16 @@
+{
+  "checkpoint": "/content/drive/MyDrive/M18K_Reproduction/best.pt",
+  "checkpoint_sha256": "93d993ec6b48c1fca9d59178afe11377ef20afa3ed0c304841e4d6b36d447961",
+  "data_yaml": "/content/drive/MyDrive/M18K_Reproduction/data.yaml",
+  "test_rgb": "/content/drive/MyDrive/M18K_Reproduction/M18K_V2_data/M18KV2/test/rgb",
+  "annotation": "/content/drive/MyDrive/M18K_Reproduction/M18K_V2_data/M18KV2/test/annotations_coco.json",
+  "ultralytics_version": "8.4.202",
+  "device": "0",
+  "imgsz": 640,
+  "confidence": 0.25,
+  "baseline_nms_iou": 0.7,
+  "modified_nms_iou": 0.5,
+  "max_det": 3000,
+  "selected_images": 8,
+  "only_change": "NMS IoU 0.70 -> 0.50"
+}

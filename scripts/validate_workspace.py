@@ -1,4 +1,4 @@
-"""Validate Team 10 repo structure and Days 1–4 evidence consistency; not dataset QC."""
+"""Validate Team 10 repo structure and Days 1–5 evidence consistency; not dataset QC."""
 import argparse, csv, json, sys
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
@@ -50,6 +50,23 @@ def validate(root):
         check(abs(float(otsu['Otsu_full']['mean_union_IoU'])-0.8662)<0.0001 and abs(float(otsu['YOLO_WB_only']['mean_union_IoU'])-0.9201)<0.0001,'Day 4 Otsu/YOLO sample foreground-IoU summaries')
         check((root/'08_experiments/notebooks/Day4_WB_Only_Final_Inference_Executed.ipynb').is_file() and (root/'08_experiments/notebooks/Day4_Otsu_Baseline_Ablation_Executed.ipynb').is_file(),'Day 4 executed notebooks available')
         check((root/'10_research_paper/drafts/M18K_IVP_Course_Project_Report_2026-11-04.docx').is_file(),'Day 4 English IVP course draft available')
+        check((root/'08_experiments/notebooks/Day5_WB_Only_Gradio_Demo.ipynb').is_file(),'Day 5 Gradio launcher notebook available')
+        check((root/'07_source_code/demo/app.py').is_file(),'Day 5 Gradio app source available')
+        check((root/'10_research_paper/submission/M18K_IVP_Final_Project_Report_2026-11-05.pdf').is_file() and (root/'10_research_paper/submission/M18K_IVP_Final_Presentation_2026-11-05.pptx').is_file(),'Course report and presentation files available')
+        dense=list(csv.DictReader((root/'09_results/dense_counting/day5_nms/comparison.csv').open(newline='',encoding='utf-8-sig')))
+        check(len(dense)==8 and abs(sum(float(r['baseline_abs_error']) for r in dense)/8-3.375)<1e-9 and abs(sum(float(r['modified_abs_error']) for r in dense)/8-1.875)<1e-9,'Day 5 dense-scene counting MAE matches submitted CSV')
+        check(sum(float(r['modified_abs_error'])<float(r['baseline_abs_error']) for r in dense)==6 and sum(float(r['modified_abs_error'])>float(r['baseline_abs_error']) for r in dense)==2,'Day 5 per-image NMS outcomes: six improved, two worsened')
+        selected=list(csv.DictReader((root/'09_results/dense_counting/day5_nms/selected_images.csv').open(newline='',encoding='utf-8-sig')))
+        check(len(selected)==8 and all(r['visual_confirmation']=='PENDING' for r in selected),'Day 5 dense-image selection remains flagged for visual confirmation')
+        depth=json.loads((root/'09_results/rgbd_feasibility/day5/depth_inspection.json').read_text())
+        dv=depth['depth_validity_in_wb_masks']
+        check(dv['images']==30 and dv['instances']==4970 and dv['instances_valid_lt_50pct']==301 and dv['instances_zero_valid']==132,'Day 5 RGB-D feasibility sample and valid-depth counts')
+        ex=json.loads((root/'09_results/rgbd_feasibility/day5/extra_checks_summary.json').read_text())
+        check(ex['test_depth_files']==450 and ex['dtype_counts']=={'float32':340,'uint16':110},'Day 5 test depth dtype inventory')
+        check(depth['calibration_verified'] is False and (root/'09_results/rgbd_feasibility/day5/findings.md').is_file(),'Day 5 RGB-D report keeps physical calibration unverified')
+        st=json.loads((root/'00_project_management/project_state.json').read_text(encoding='utf-8'))
+        check(st.get('day5_dense_full_test_validated') is False and st.get('day5_rgbd_physical_area_mm2_computed') is False,'Day 5 limitations recorded without full-test or mm2 claims')
+        check(st.get('day5_gradio_demo_user_confirmed_working') is True and st.get('presentation_completed') is True and st.get('demo_video_completed') is False,'Day 5 demo, slides and video status recorded')
     except (OSError,ValueError,KeyError,TypeError,json.JSONDecodeError,csv.Error) as exc:check(False,'Day 4 summary validation failed: '+str(exc))
     figures=list((root/'10_research_paper/figures').glob('Day3_*.png'))
     check(len(figures)==16,'16 original Day 3 figures are available (12 prediction, 4 area)')
@@ -65,6 +82,8 @@ def validate(root):
             if rel.parent==Path('10_research_paper/figures') and p.name.startswith('Day3_') and p.suffix.lower()=='.png':continue
             day4_fig_dirs={Path('09_results/area_evaluation/day4_full_test/figures'),Path('09_results/dataset_qc/day4_submitted/figures'),Path('09_results/otsu_baseline/figures'),Path('09_results/inference_demo/figures')}
             if p.suffix.lower()=='.png' and rel.parent in day4_fig_dirs and p.stat().st_size<=3*1024*1024:continue
+            day5_fig_dirs={Path('09_results/dense_counting/day5_nms/figures'),Path('09_results/rgbd_feasibility/day5/figures')}
+            if p.suffix.lower() in {'.png','.jpg','.jpeg'} and rel.parent in day5_fig_dirs and p.stat().st_size<=3*1024*1024:continue
             unexpected.append(rel.as_posix())
     check((root/'09_results/area_evaluation/day4_full_test/area_matches.csv.gz').is_file(),'Compressed Day 4 matched-mask records available')
     check(not unexpected,'No unapproved heavy/model/raw payloads: '+str(unexpected[:10]))

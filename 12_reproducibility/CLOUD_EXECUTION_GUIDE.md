@@ -1,4 +1,4 @@
-# Colab / Drive reproduction guide — status through Day 3 (2026-11-03)
+# Colab / Drive reproduction guide — status through Day 5 (2026-11-05)
 
 ## Input locations and dependencies
 
@@ -36,3 +36,25 @@ Use `08_experiments/notebooks/Day4_Otsu_Baseline_Ablation_Executed.ipynb` for th
 Full-test area evaluator source `07_source_code/evaluation/day4_full_test_area_evaluation.py` is preserved with submitted metrics in `09_results/area_evaluation/day4_full_test/`. Its recorded inference uses 640 px, confidence 0.25, NMS IoU 0.7, max_det 1000, original-resolution masks, greedy one-to-one IoU≥0.5. The area unit is **px²**, not mm².
 
 Review `12_reproducibility/manifests/DAY4_EVIDENCE_2026-11-04.json` for exact source ZIP/notebook hashes. Day 4 code and metrics were submitted as executed by the team; this integration did **not** rerun full Colab execution. Dataset QC flags remain open. See `09_results/reports/Day4_QC_Interpretation_2026-11-04.md`.
+
+
+## Day 5 paths and commands
+
+### Dense-scene NMS comparison
+
+Khang's script is `07_source_code/evaluation/day5_dense_counting/improve_counting.py`. In Colab, mount Drive and ensure the script can find the existing WB-only checkpoint, WB-only `data.yaml`, `test/rgb` and `test/annotations_coco.json`. It compares NMS IoU 0.70 with 0.50 at confidence 0.25 and image size 640. The submitted eight-image results are in `09_results/dense_counting/day5_nms/`; the full 450-image test split has not been evaluated at the modified setting.
+
+### RGB-D feasibility
+
+The scripts `07_source_code/features/day5_rgbd_feasibility/depth_area.py` and `extra_checks.py` inspect the depth maps and calibration evidence. Run them with the V2 root, for example:
+
+```bash
+python depth_area.py --data-root "/content/drive/MyDrive/Colab Notebooks/M18K_Reproduction/M18KV2" --split test --n 30 --seed 42
+python extra_checks.py --data-root "/content/drive/MyDrive/Colab Notebooks/M18K_Reproduction/M18KV2" --split test
+```
+
+The scripts check feasibility only. Depth scale, intrinsics and RGB-depth alignment remain unverified, so the output does not contain physical mm².
+
+### Gradio demo
+
+Open `08_experiments/notebooks/Day5_WB_Only_Gradio_Demo.ipynb` in Colab and run all cells. It mounts Drive, uses `/content/drive/MyDrive/M18K_Reproduction/M18K_V2_data/M18KV2/test/rgb`, downloads the existing WB-only checkpoint, and starts a temporary Gradio share URL. The app and its dependencies are in `07_source_code/demo/`. The user confirmed the app worked on 5 November. The checkpoint and raw dataset are not in Git.

@@ -3,7 +3,10 @@ mushroom-research-2026/
 |   |-- meetings/
 |   |   `-- .gitkeep
 |   |-- milestones/
-|   |   `-- .gitkeep
+|   |   |-- .gitkeep
+|   |   |-- DAY1_DAY2_DAY3_2026-11-03.md
+|   |   |-- DAY4_2026-11-04.md
+|   |   `-- DAY5_2026-11-05.md
 |   |-- weekly_reports/
 |   |   `-- .gitkeep
 |   |-- DECISION_LOG.md
@@ -29,7 +32,8 @@ mushroom-research-2026/
 |   |-- methodology_comparison/
 |   |   `-- .gitkeep
 |   |-- paper_summaries/
-|   |   `-- .gitkeep
+|   |   |-- .gitkeep
+|   |   `-- P002_M18K_2025.md
 |   |-- papers/
 |   |   `-- .gitkeep
 |   |-- research_gap_analysis/
@@ -44,9 +48,11 @@ mushroom-research-2026/
 |   |-- excluded_datasets/
 |   |   `-- EXCLUDED_DATASETS.csv
 |   |-- screening_reports/
-|   |   `-- .gitkeep
+|   |   |-- .gitkeep
+|   |   `-- C03_SCREENING_2026-10-30.md
 |   |-- source_verification/
-|   |   `-- .gitkeep
+|   |   |-- .gitkeep
+|   |   `-- C03_M18K_SOURCE_REVIEW.md
 |   `-- DATASET_SELECTION_CRITERIA.md
 |-- 04_dataset_candidates/
 |   |-- C01_substrate_contamination/
@@ -65,21 +71,33 @@ mushroom-research-2026/
 |   |   |-- source/
 |   |   |   `-- .gitkeep
 |   |   `-- README.md
-|   `-- C02_mushr_harvest_readiness/
+|   |-- C02_mushr_harvest_readiness/
+|   |   |-- analysis/
+|   |   |   `-- .gitkeep
+|   |   |-- dataset_metadata/
+|   |   |   `-- .gitkeep
+|   |   |-- literature/
+|   |   |   `-- .gitkeep
+|   |   |-- qc/
+|   |   |   `-- .gitkeep
+|   |   |-- raw/
+|   |   |   `-- .gitkeep
+|   |   |-- reports/
+|   |   |   `-- .gitkeep
+|   |   |-- source/
+|   |   |   `-- .gitkeep
+|   |   `-- README.md
+|   `-- C03_m18k_v2/
 |       |-- analysis/
-|       |   `-- .gitkeep
+|       |   `-- M18K_V2_Research_EDA_Executed_2026-10-30.ipynb
 |       |-- dataset_metadata/
-|       |   `-- .gitkeep
-|       |-- literature/
-|       |   `-- .gitkeep
+|       |   `-- V2_DATASET_RECORD.md
 |       |-- qc/
-|       |   `-- .gitkeep
-|       |-- raw/
-|       |   `-- .gitkeep
+|       |   `-- V2_QC_OPEN_ISSUES.md
 |       |-- reports/
-|       |   `-- .gitkeep
+|       |   `-- README.md
 |       |-- source/
-|       |   `-- .gitkeep
+|       |   `-- PROVENANCE_TO_COMPLETE.md
 |       `-- README.md
 |-- 05_research_protocols/
 |   |-- DATA_LEAKAGE_CHECKLIST.md
@@ -92,51 +110,207 @@ mushroom-research-2026/
 |   `-- README.md
 |-- 07_source_code/
 |   |-- data/
-|   |   `-- .gitkeep
+|   |   |-- .gitkeep
+|   |   `-- build_wb_dataset.py
+|   |-- demo/
+|   |   |-- app.py
+|   |   |-- README.md
+|   |   `-- requirements.txt
 |   |-- evaluation/
-|   |   `-- .gitkeep
+|   |   |-- day5_dense_counting/
+|   |   |   |-- improve_counting.py
+|   |   |   `-- README.md
+|   |   |-- .gitkeep
+|   |   |-- area_evaluation.py
+|   |   |-- day4_full_test_area_evaluation.py
+|   |   |-- day4_submitted_dataset_qc.py
+|   |   `-- mask_area.py
 |   |-- features/
+|   |   |-- day5_rgbd_feasibility/
+|   |   |   |-- depth_area.py
+|   |   |   |-- extra_checks.py
+|   |   |   `-- README.md
 |   |   `-- .gitkeep
 |   |-- models/
 |   |   `-- .gitkeep
 |   |-- training/
 |   |   `-- .gitkeep
-|   `-- utils/
-|       `-- .gitkeep
+|   |-- utils/
+|   |   `-- .gitkeep
+|   `-- README.md
 |-- 08_experiments/
 |   |-- checkpoints/
 |   |   `-- .gitkeep
 |   |-- comparisons/
 |   |   `-- .gitkeep
 |   |-- configs/
-|   |   `-- .gitkeep
+|   |   |-- .gitkeep
+|   |   |-- day2_two_class_rgb.yaml
+|   |   |-- day2_wb_only_rgb.yaml
+|   |   |-- day5_dense_counting.json
+|   |   `-- wb_dataset_TEMPLATE.yaml
+|   |-- notebooks/
+|   |   |-- Day2_Two_Class_Baseline_Workflow.ipynb
+|   |   |-- Day2_WB_Only_Training_and_Day3_Error_Analysis.ipynb
+|   |   |-- Day3_WB_Predicted_Area_Evaluation.ipynb
+|   |   |-- Day4_Otsu_Baseline_Ablation_Executed.ipynb
+|   |   |-- Day4_WB_Only_Final_Inference_Executed.ipynb
+|   |   |-- Day5_WB_Only_Gradio_Demo.ipynb
+|   |   `-- README.md
 |   |-- runs/
 |   |   `-- .gitkeep
-|   `-- experiment_registry.csv
+|   |-- experiment_registry.csv
+|   `-- README.md
 |-- 09_results/
+|   |-- area_evaluation/
+|   |   |-- day4_full_test/
+|   |   |   |-- figures/
+|   |   |   |   |-- error_by_size.png
+|   |   |   |   |-- median_mae_004153.png
+|   |   |   |   |-- most_unmatched_004250.png
+|   |   |   |   `-- worst_mae_004252.png
+|   |   |   |-- area_findings.md
+|   |   |   |-- area_matches.csv.gz
+|   |   |   |-- area_metrics.json
+|   |   |   |-- area_per_image.csv
+|   |   |   `-- README.md
+|   |   |-- area_examples_index.csv
+|   |   |-- area_findings.md
+|   |   |-- mask_area_matches.csv
+|   |   |-- mask_area_summary.json
+|   |   |-- per_image_summary.csv
+|   |   |-- selected_test_images.csv
+|   |   |-- unmatched_gt.csv
+|   |   `-- unmatched_predictions.csv
+|   |-- dataset_qc/
+|   |   `-- day4_submitted/
+|   |       |-- figures/
+|   |       |   |-- ann_check_004252.png
+|   |       |   `-- ann_check_004472.png
+|   |       |-- annotation_checks.csv
+|   |       |-- duplicate_checks.csv
+|   |       |-- qc_findings.md
+|   |       `-- README.md
+|   |-- dense_counting/
+|   |   `-- day5_nms/
+|   |       |-- figures/
+|   |       |   |-- comparison_01_004378.jpg
+|   |       |   |-- comparison_02_004217.jpg
+|   |       |   `-- comparison_03_004481.jpg
+|   |       |-- comparison.csv
+|   |       |-- findings.md
+|   |       |-- README.md
+|   |       |-- run_config.json
+|   |       `-- selected_images.csv
 |   |-- error_analysis/
 |   |   `-- .gitkeep
+|   |-- gradio_demo/
+|   |   `-- README.md
+|   |-- inference_demo/
+|   |   |-- figures/
+|   |   |   |-- wb_inference_01.png
+|   |   |   `-- wb_inference_02.png
+|   |   |-- Day4_WB_Demo_Image_Counts.csv
+|   |   |-- Day4_WB_Demo_Summary.json
+|   |   `-- README.md
 |   |-- metrics/
-|   |   `-- .gitkeep
+|   |   |-- .gitkeep
+|   |   |-- Day2_Two_Class_Heldout_Test_2026-11-02.json
+|   |   |-- Day2_WB_Only_Heldout_Test_2026-11-02.json
+|   |   |-- v2_eda_raw_category_counts_2026-10-30.csv
+|   |   |-- v2_eda_split_summary_2026-10-30.csv
+|   |   |-- wb_area_sanity.csv
+|   |   |-- wb_conversion_summary.json
+|   |   `-- wb_rebuild_verification.json
+|   |-- otsu_baseline/
+|   |   |-- figures/
+|   |   |   |-- otsu_comparison_01.png
+|   |   |   |-- otsu_comparison_02.png
+|   |   |   `-- otsu_comparison_03.png
+|   |   |-- Day4_Otsu_Findings_Executed.md
+|   |   |-- method_summary_from_notebook.csv
+|   |   `-- README.md
 |   |-- reports/
-|   |   `-- .gitkeep
+|   |   |-- .gitkeep
+|   |   |-- Day2_WB_Dataset_and_Mask_Validation_2026-11-02.md
+|   |   |-- Day2_YOLOv8n_Seg_Reproduction_2026-11-02.md
+|   |   |-- Day3_Prediction_Area_and_Error_Analysis_2026-11-03.md
+|   |   |-- Day3_WB_Area_Submitted_Report_2026-11-03.docx
+|   |   |-- Day3_WB_Qualitative_Review_2026-11-03.md
+|   |   |-- Day4_Full_Test_Area_And_MVP_2026-11-04.md
+|   |   |-- Day4_QC_Interpretation_2026-11-04.md
+|   |   |-- Day5_Research_Development_2026-11-05.md
+|   |   `-- M18K_V2_EDA_2026-10-30.md
+|   |-- rgbd_feasibility/
+|   |   `-- day5/
+|   |       |-- figures/
+|   |       |   |-- depth_validity_summary.png
+|   |       |   |-- lowest_depth_validity_004058.png
+|   |       |   `-- typical_004103.png
+|   |       |-- depth_inspection.json
+|   |       |-- extra_checks_summary.json
+|   |       |-- findings.md
+|   |       |-- findings_vi.md
+|   |       |-- README.md
+|   |       `-- results.csv
 |   |-- statistical_analysis/
 |   |   `-- .gitkeep
-|   `-- visualizations/
-|       `-- .gitkeep
+|   |-- visualizations/
+|   |   |-- .gitkeep
+|   |   |-- m18k_v2_composition.png
+|   |   |-- m18k_v2_rgb_depth_examples.png
+|   |   |-- m18k_v2_rgb_depth_pairing.png
+|   |   |-- m18k_v2_segmentation_examples.png
+|   |   `-- README.md
+|   |-- wb_error_analysis/
+|   |   |-- inference_config.json
+|   |   |-- Khang_error_observations_REVIEWED.csv
+|   |   |-- original_error_observations.csv
+|   |   |-- original_wb_error_findings.md
+|   |   |-- selected_examples.csv
+|   |   `-- similarity_spotcheck.csv
+|   `-- README.md
 |-- 10_research_paper/
 |   |-- drafts/
-|   |   `-- .gitkeep
+|   |   |-- .gitkeep
+|   |   |-- M18K_IVP_Course_Project_Report_2026-11-04.docx
+|   |   |-- M18K_IVP_Course_Project_Report_2026-11-04.pdf
+|   |   |-- M18K_V2_Day3_Research_Draft_2026-11-03.docx
+|   |   |-- M18K_V2_Day3_Research_Draft_2026-11-03.md
+|   |   `-- README.md
 |   |-- figures/
-|   |   `-- .gitkeep
+|   |   |-- .gitkeep
+|   |   |-- Day3_Area_best_mae_114_004160.png
+|   |   |-- Day3_Area_median_mae_379_004425.png
+|   |   |-- Day3_Area_most_unmatched_216_004262.png
+|   |   |-- Day3_Area_worst_mae_327_004373.png
+|   |   |-- Day3_WB_Prediction_img_165_004211.png
+|   |   |-- Day3_WB_Prediction_img_193_004239.png
+|   |   |-- Day3_WB_Prediction_img_206_004252.png
+|   |   |-- Day3_WB_Prediction_img_252_004298.png
+|   |   |-- Day3_WB_Prediction_img_26_004072.png
+|   |   |-- Day3_WB_Prediction_img_278_004324.png
+|   |   |-- Day3_WB_Prediction_img_304_004350.png
+|   |   |-- Day3_WB_Prediction_img_32_004078.png
+|   |   |-- Day3_WB_Prediction_img_345_004391.png
+|   |   |-- Day3_WB_Prediction_img_426_004472.png
+|   |   |-- Day3_WB_Prediction_img_438_004484.png
+|   |   |-- Day3_WB_Prediction_img_88_004134.png
+|   |   `-- README.md
 |   |-- outline/
-|   |   `-- .gitkeep
+|   |   |-- .gitkeep
+|   |   `-- PROPOSED_M18K_PAPER_STRUCTURE.md
 |   |-- references/
 |   |   `-- .gitkeep
 |   |-- submission/
-|   |   `-- .gitkeep
+|   |   |-- .gitkeep
+|   |   |-- M18K_IVP_Final_Presentation_2026-11-05.pptx
+|   |   |-- M18K_IVP_Final_Project_Report_2026-11-05.docx
+|   |   |-- M18K_IVP_Final_Project_Report_2026-11-05.pdf
+|   |   `-- README.md
 |   `-- tables/
-|       `-- .gitkeep
+|       |-- .gitkeep
+|       `-- DAY2_DAY3_RESULTS.md
 |-- 11_field_validation/
 |   |-- deployment_feasibility/
 |   |   `-- .gitkeep
@@ -144,14 +318,24 @@ mushroom-research-2026/
 |   |   `-- .gitkeep
 |   |-- protocols/
 |   |   `-- .gitkeep
-|   `-- validation_reports/
-|       `-- .gitkeep
+|   |-- validation_reports/
+|   |   `-- .gitkeep
+|   `-- README.md
 |-- 12_reproducibility/
 |   |-- dependency_snapshots/
 |   |   `-- .gitkeep
 |   |-- environments/
 |   |   `-- .gitkeep
+|   |-- logs/
+|   |   |-- dataset_conversion_and_mask_area_logs.txt
+|   |   |-- two_class_train_and_test_log_summary.txt
+|   |   |-- WB_only_corrected_heldout_test_log_summary.txt
+|   |   `-- WB_only_training_validation_log_notebook.txt
 |   |-- manifests/
+|   |   |-- DAY2_DAY3_EVIDENCE.json
+|   |   |-- DAY4_EVIDENCE_2026-11-04.json
+|   |   |-- DAY5_EVIDENCE_2026-11-05.json
+|   |   |-- EDA_RUN_2026-10-30.md
 |   |   |-- EVIDENCE_TEMPLATE.md
 |   |   `-- workspace_requirements.json
 |   `-- CLOUD_EXECUTION_GUIDE.md
@@ -159,6 +343,7 @@ mushroom-research-2026/
 |   |-- show_project_status.py
 |   `-- validate_workspace.py
 |-- setup_reports/
+|   |-- README.md
 |   |-- validation_evidence.json
 |   |-- validation_output.txt
 |   |-- WORKSPACE_TREE.txt
@@ -167,5 +352,8 @@ mushroom-research-2026/
 |   `-- test_workspace.py
 |-- .gitattributes
 |-- .gitignore
+|-- file_list.txt
+|-- INTEGRATION_NOTES.md
 |-- README.md
+|-- requirements.txt
 `-- START_HERE.md

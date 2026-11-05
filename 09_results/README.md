@@ -1,4 +1,4 @@
-# Results — Day 1 EDA, Day 2 reproduction, Day 3 additional evaluation
+# Results — Day 1 EDA through Day 5 research follow-up
 
 **Day 1 — EDA**: `reports/M18K_V2_EDA_2026-10-30.md`, `metrics/v2_eda_*.csv`, `visualizations/*.png`. V2: 4,495 indexed images; 700,589 annotations.
 
@@ -15,3 +15,11 @@ Do not conflate Day 3 sample metrics with the Day 2 full-test AP scores. The 30-
 - [`inference_demo/`](inference_demo/) preserves the **10-image WB-only demo** result log transcription, 2 sample figures and checkpoint details; 1,551 predicted instances, not ground-truth counts.
 - [`otsu_baseline/`](otsu_baseline/) contains the **10-image Otsu baseline/ablation** summary, OpenCV matching note and 3 example figures; this is a foreground-union comparison, not instance AP.
 - [`dataset_qc/day4_submitted/`](dataset_qc/day4_submitted/) keeps the team's original QC submission. **See the separate caveats** in [`reports/Day4_QC_Interpretation_2026-11-04.md`](reports/Day4_QC_Interpretation_2026-11-04.md) before citing its conclusions.
+
+
+## Day 5 — research follow-up (2026-11-05)
+
+- `reports/Day5_Research_Development_2026-11-05.md` brings together both member submissions and the live demo status.
+- `dense_counting/day5_nms/` contains the eight-image comparison of NMS IoU 0.70 and 0.50. Counting MAE improved from 3.375 to 1.875, but the sample was selected for dense scenes and is not a full-test result.
+- `rgbd_feasibility/day5/` contains the 30-image / 4,970-mask depth feasibility study, the 450-file depth dtype inventory, source findings and figures. Calibration is not verified; physical area remains unreported.
+- `gradio_demo/` records the user's confirmation that the WB-only app ran successfully in Colab. It is not an accuracy benchmark.

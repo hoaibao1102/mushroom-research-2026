@@ -25,12 +25,24 @@ class WorkspaceTests(unittest.TestCase):
         self.assertEqual(s['day4_otsu_evaluation_images'],10)
         self.assertFalse(s['day4_dataset_qc_cleared'])
         self.assertFalse(s['demo_video_completed'])
-        self.assertFalse(s['presentation_completed'])
+        self.assertTrue(s['presentation_completed'])
     def test_day4_registry_entries(self):
         with (ROOT/'08_experiments/experiment_registry.csv').open(newline='') as f: ids={row['experiment_id'] for row in csv.DictReader(f)}
         self.assertIn('EXP-M18K-V2-DAY4-AREA-20261104',ids)
         self.assertIn('EXP-M18K-V2-DAY4-OTSU-20261104',ids)
         self.assertIn('EXP-M18K-V2-DAY4-DEMO-20261104',ids)
+
+    def test_day5_evidence_is_recorded_with_appropriate_limits(self):
+        s=json.loads((ROOT/'00_project_management/project_state.json').read_text())
+        self.assertEqual(s['day5_dense_counting_sample_images'],8)
+        self.assertFalse(s['day5_dense_full_test_validated'])
+        self.assertFalse(s['day5_rgbd_calibration_verified'])
+        self.assertFalse(s['day5_rgbd_physical_area_mm2_computed'])
+        self.assertTrue(s['day5_gradio_demo_user_confirmed_working'])
+    def test_day5_registry_entries(self):
+        with (ROOT/'08_experiments/experiment_registry.csv').open(newline='') as f: ids={r['experiment_id'] for r in csv.DictReader(f)}
+        self.assertIn('EXP-M18K-V2-DAY5-DENSE-NMS-20261105',ids)
+        self.assertIn('EXP-M18K-V2-DAY5-RGBD-FEASIBILITY-20261105',ids)
     def test_validator_rejects_missing_eda(self):
         with tempfile.TemporaryDirectory() as t:
             dst=Path(t)/'repo';shutil.copytree(ROOT,dst,ignore=shutil.ignore_patterns('.git','__pycache__'))

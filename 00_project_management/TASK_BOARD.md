@@ -1,18 +1,20 @@
-# Research task board — status through Day 4 (2026-11-04)
+# Research task board — status through Day 5 (2026-11-05)
 
-| Task | Status | Evidence / next action |
-| --- | --- | --- |
-| Day 1 — EDA | DONE | `09_results/reports/M18K_V2_EDA_2026-10-30.md` |
-| Day 2 — two-class and WB-only YOLO held-out tests | DONE | `09_results/metrics/Day2_*` |
-| Day 3 — 30-image area and 12-image qualitative review | DONE | `09_results/area_evaluation/`, `09_results/wb_error_analysis/` |
-| Day 4 — 450-image matched mask-area evaluation | DONE (submitted) | `09_results/area_evaluation/day4_full_test/` |
-| Day 4 — executed WB-only inference demonstration | DONE | `08_experiments/notebooks/Day4_WB_Only_Final_Inference_Executed.ipynb` |
-| Day 4 — from-scratch Otsu / OpenCV verification | DONE (10 images) | `08_experiments/notebooks/Day4_Otsu_Baseline_Ablation_Executed.ipynb` |
-| Day 4 — Otsu versus YOLO / blur and morphology ablation | DONE (10 images) | `09_results/otsu_baseline/` |
-| Day 4 — course report template Word/PDF | DRAFT DONE | `10_research_paper/drafts/M18K_IVP_Course_Project_Report_2026-11-04.*` |
-| Deliverable — demo video | TO DO | Record short notebook run with original RGB, masks, counts and px² area |
-| Deliverable — slides + oral preparation | TO DO | Prepare 12–15-minute presentation and 5–8-minute Q&A |
-| Deliverable — final report fields, citation/AI use/IEEE refs | TO REVIEW | Fill team identities, repo URL, confirm class/course lesson mapping and source citations |
-| Dataset QC (five earlier perceptual-hash pairs and 2 suspicious images) | OPEN, DEFERRED | Current Day 4 QC does not resolve old flag list; transparently acknowledge in report |
-| Source/license and formal research gate approval | HUMAN REVIEW NEEDED | Avoid false closure of dataset selection, G0/G1/G2 |
-| Depth-calibrated mm²/3D area and new training | OUT OF MVP SCOPE | Demonstration and measured evaluation use px² |
+| Work | Status | Evidence / next step |
+|---|---|---|
+| Day 1 — M18K V2 EDA | Done | `09_results/reports/M18K_V2_EDA_2026-10-30.md` |
+| Day 2 — two-class and WB-only YOLO tests | Done | `09_results/metrics/Day2_*` |
+| Day 3 — mask-area sample and qualitative review | Done | `09_results/area_evaluation/`, `09_results/wb_error_analysis/` |
+| Day 4 — full-test area, Otsu baseline/ablation and inference notebook | Done | `09_results/area_evaluation/day4_full_test/`, `09_results/otsu_baseline/`, `08_experiments/notebooks/` |
+| Day 5 — NMS counting comparison | Preliminary result | Eight selected dense images; validate on all 450 test images before making a general claim. |
+| Day 5 — RGB-D feasibility | Done | Calibration information is insufficient for mm²; see `09_results/rgbd_feasibility/day5/`. |
+| Day 5 — WB-only Gradio demo | Working | User confirmed successful Colab run; app and launcher are in `07_source_code/demo/` and `08_experiments/notebooks/`. |
+| English report and presentation | Prepared | `10_research_paper/submission/`; add team details, course-lesson mapping and the Day 5 findings if they are to appear in the final report. |
+| Demo video | Open | Can be recorded from the working Gradio app. |
+| Dataset duplicate/annotation QC | Open | Original flags have not been conclusively resolved. |
+| Dataset source/license review | Open | Formal approval remains a separate project gate. |
+
+## Next research work
+
+- Check whether the NMS 0.50 result holds on the full 450-image test set using the same checkpoint and fixed evaluation settings.
+- Look for original depth-scale, camera-intrinsics and alignment metadata; if unavailable, plan a small calibrated measurement capture rather than reporting guessed mm² values.

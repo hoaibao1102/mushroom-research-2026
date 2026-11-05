@@ -97,3 +97,9 @@ Thumbs.db
 !09_results/dataset_qc/day4_submitted/figures/*.png
 !09_results/otsu_baseline/figures/*.png
 !09_results/inference_demo/figures/*.png
+
+# Small Day 5 evidence figures
+!09_results/dense_counting/day5_nms/figures/*.jpg
+!09_results/dense_counting/day5_nms/figures/*.png
+!09_results/rgbd_feasibility/day5/figures/*.png
+!09_results/rgbd_feasibility/day5/figures/*.jpg

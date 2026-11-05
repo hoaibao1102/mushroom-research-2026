@@ -1,4 +1,4 @@
-# Day 4 inference + Otsu / full-test area (Python >=3.9; Colab recommended)
+# M18K V2 analysis and inference dependencies (Day 1–5) (Python >=3.9; Colab recommended)
 # The executed Colab notebooks install their own core packages; this file is for setup documentation.
 Ultralytics>=8.4,<9
 gdown>=5,<6
@@ -11,3 +11,5 @@ scipy>=1.10
 psutil>=5.9
 ijson>=3.2
 Pillow>=10
+
+# Gradio app has a small, pinned dependency list in 07_source_code/demo/requirements.txt.

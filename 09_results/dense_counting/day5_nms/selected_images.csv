@@ -1,0 +1,9 @@
+﻿image_id,filename,gt_count,max_bbox_overlap,selection_rule,visual_confirmation
+32,004078.png,222,0.7906976744186046,Top 50% count rank + 50% bbox overlap rank,PENDING
+332,004378.png,219,0.6873636183296965,Top 50% count rank + 50% bbox overlap rank,PENDING
+165,004211.png,219,0.6873636183296965,Top 50% count rank + 50% bbox overlap rank,PENDING
+435,004481.png,214,0.6744813627930512,Top 50% count rank + 50% bbox overlap rank,PENDING
+38,004084.png,207,0.9382716049382716,Top 50% count rank + 50% bbox overlap rank,PENDING
+267,004313.png,209,0.76,Top 50% count rank + 50% bbox overlap rank,PENDING
+171,004217.png,211,0.68,Top 50% count rank + 50% bbox overlap rank,PENDING
+101,004147.png,212,0.6642170717919729,Top 50% count rank + 50% bbox overlap rank,PENDING
