@@ -1,23 +1,23 @@
 # Decision log
 
-| ID | Date | Decision | Basis | Scientific consequence | Owner |
+| ID | Date | Decision | Basis | Consequence / qualification | Owner |
 |---|---|---|---|---|---|
 | D000 | 2026-10-23 | Initialize fresh WP-00 workspace only | User WP-00 specification | No selection or verified scientific claims | User-requested scope |
-| D001 | 2026-10-23 | Exclude hf55tkx489 / Annotated Oyster Mushroom Images | User explicitly abandoned DS-02 | No import/reuse; C02 identity remains unverified | User-requested exclusion |
+| D001 | 2026-10-23 | Exclude hf55tkx489 / Annotated Oyster Mushroom Images | Explicit user instruction | Remains excluded from download, import, training, derivative labels and reuse of dataset conclusions unless the user explicitly reverses this decision | User-requested scope |
+| D002 | 2026-10-30 | Use M18K V2 as a provisional working dataset for the prior Day 1–5 experiments | Executed V2 notebook and subsequent user-submitted experiments | Existing results remain valid only for their M18K V2/white-button scope; not a general mushroom model | Project workflow |
+| D003 | 2026-10-30 | Do not claim model reproduction from EDA-only work | Uploaded notebook had `RUN_TRAIN=False` | EDA-only record | Evidence-based status |
+| D004 | 2026-11-02 | Record two-class and WB-only YOLOv8n-seg results as approach reproduction on V2 | Submitted train/test evidence | Not the original paper's exact numerical benchmark | Submitted experiment evidence |
+| D005 | 2026-11-03 | Record area sample and qualitative findings as additional analysis | Submitted notebook, CSVs and report | px² only; matched-mask sample only; QC flags remain open | Submitted experiment evidence |
+| D006 | 2026-11-04 | Record the WB-only inference MVP, full-test area analysis and Otsu checks | Submitted Day 4 notebooks and results | Course/demo evidence scoped to M18K V2 and WB-only model | Submitted experiment evidence |
+| D007 | 2026-11-04 | Preserve dataset QC flags not cleared by submitted Day 4 checks | Day 4 source comparison and missing hash evidence | No claim of fully verified labels or leak-free splits | Integration review |
+| D008 | 2026-11-05 | Treat lower-NMS counting result as a preliminary eight-image pilot | Same-checkpoint NMS 0.70 vs 0.50 comparison | Full 450-image validation still required before general improvement claim | Submitted experiment evidence |
+| D009 | 2026-11-05 | Do not convert M18K mask area to mm² with uncalibrated depth export | Depth scale/intrinsics/alignment not verified | Retain px² measurements | Submitted feasibility evidence |
+| D010 | 2026-11-05 | Retain the WB-only Gradio app as a working M18K inference demo | User confirmed Colab app launched | Demo evidence, not a general mushroom deployment | User confirmation |
+| D011 | 2026-11-08 | Set the product objective as general mushroom growth monitoring from fixed horizontal camera views | User-provided Vietnamese project brief | Detect mushrooms, track clusters by view/grow unit across daily captures, measure growth and compare batches/conditions | User-approved project scope |
+| D012 | 2026-11-08 | Separate Colab training from local inference/application | User-approved deployment requirement | Colab is used for training/export; local app runs inference, tracking, storage and dashboard without a live Colab session | User-approved architecture |
+| D013 | 2026-11-08 | Prioritize AMD local acceleration and keep CPU inference mandatory | User's RX 5500 XT target and AMD-first preference | ONNX/DirectML is a candidate to test, not yet a verified success; NVIDIA provider remains future extension | User-approved runtime priority |
+| D014 | 2026-11-08 | Use public papers/datasets as reusable foundations rather than require exact reproduction of each paper | User clarified project goal | Wang et al. findings can inform stage logic without obtaining its request-only dataset; source-specific results are not represented as reproduced | User-approved implementation scope |
+| D015 | 2026-11-08 | Make model updates human-reviewed and regression-tested | User's incremental model-improvement requirement | Predictions are candidate labels only; candidate models must pass regression checks before deployment | System design decision |
+| D016 | 2026-11-08 | Keep model architecture provisional through Increment 1 | Existing YOLOv8 work is reusable; public Mask R-CNN alternatives need annotation/runtime inspection | Prototype YOLO-seg first, compare/adapt Mask R-CNN components as needed, and decide based on data fit and local deployment test | Engineering decision |
 
-Future template: decision ID, timestamp, owner/reviewer, alternatives, evidence paths, uncertainty, outcome, affected state/protocol version, reversal conditions. Do not invent team approvals.
-| D002 | 2026-10-30 | Use M18K V2 as the **provisional working dataset** for Team 10 integration | User-directed research focus in this conversation; executed V2 notebook | Add C03 and recorded EDA; **not** a team-lead selection or G0/G1 approval | Project preparation (approval pending) |
-| D003 | 2026-10-30 | Do not claim model reproduction from today's work | Uploaded completed notebook has `RUN_TRAIN=False`; no held-out scores | EDA-only record; model experiments remain planned | Evidence-based status update |
-
-Future project decisions require reviewer, rationale, evidence location and team approval where appropriate.
-
-| D004 | 2026-11-02 | Record two-class and WB-only YOLOv8n-seg results as Day 2 reproduction of the **approach on V2** | Completed user-supplied training/test evidence | Do not claim original numerical benchmark matched or exceeded | Research lead/user workflow; formal gate approval not inferred |
-| D005 | 2026-11-03 | Record 30-image area and 12-image qualitative findings as Day 3 additional analysis | Submitted notebooks, CSVs, figures and reviewed report | px² only, sample-level errors only; leave raw annotation and leakage verification open | Research lead/user workflow; formal gate approval not inferred |
-
-| D006 | 2026-11-04 | Deliver an IVP **MVP** using the existing WB-only model, full-test area measurement, scratch Otsu, and simple ablations rather than retraining | Course rubric and executed Day 4 notebooks | Course-report and demo evidence are additional to the research reproduction; leave slides/video as pending | Research lead/user workflow; no formal gate approval implied |
-| D007 | 2026-11-04 | Preserve submitted Day 4 QC but keep earlier original dHash-pair and anomaly flags unresolved | Day 4 submitted QC CSV compared different pairs and one file hash missing | Do not claim leak-free test data or entirely verified annotations | Integration review; independent data audit still pending |
-
-
-| D008 | 2026-11-05 | Treat the NMS IoU 0.70 vs 0.50 comparison as a promising pilot only | Submitted same-checkpoint comparison on eight selected dense test images; count MAE 3.375 → 1.875 | Do not claim full-test improvement until the setting is evaluated on all 450 test images; selected-image visual confirmation remains pending | Research lead / submitted Day 5 evidence |
-| D009 | 2026-11-05 | Do not convert mask area to mm² using the current exported depth maps | 30-image / 4,970-mask feasibility study found depth units and intrinsics unverified and RGB-depth alignment uncertain | Continue reporting px² only until scale, intrinsics, alignment and an independent measurement check are available | Research lead / submitted Day 5 evidence |
-| D010 | 2026-11-05 | Keep the WB-only Gradio app as the live project demo | User confirmed the Colab app launched and random test-image inference worked | Demo confirms the inference workflow; it is not a new accuracy benchmark. A separate demo video remains open | Research lead / user confirmation |
+Future decisions require date, rationale, evidence path, owner/reviewer and reversal conditions. Do not invent formal team approvals.

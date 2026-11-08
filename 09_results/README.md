@@ -23,3 +23,10 @@ Do not conflate Day 3 sample metrics with the Day 2 full-test AP scores. The 30-
 - `dense_counting/day5_nms/` contains the eight-image comparison of NMS IoU 0.70 and 0.50. Counting MAE improved from 3.375 to 1.875, but the sample was selected for dense scenes and is not a full-test result.
 - `rgbd_feasibility/day5/` contains the 30-image / 4,970-mask depth feasibility study, the 450-file depth dtype inventory, source findings and figures. Calibration is not verified; physical area remains unreported.
 - `gradio_demo/` records the user's confirmation that the WB-only app ran successfully in Colab. It is not an accuracy benchmark.
+
+
+## Day 6 — system requirements and source audit (2026-11-08)
+
+- The active target is the general mushroom growth-monitoring application described in `00_project_management/PROJECT_CHARTER.md`.
+- Increment 0 records the source/data audit, target requirements and Colab-training/local-inference architecture in `03_dataset_discovery/SOURCE_DATA_AUDIT_DAY6.md`, `00_project_management/SYSTEM_REQUIREMENTS.md` and `00_project_management/SYSTEM_ARCHITECTURE.md`.
+- No new dataset archive was downloaded and no model was trained in Day 6. The next increment is dataset ingestion and annotation-schema validation.

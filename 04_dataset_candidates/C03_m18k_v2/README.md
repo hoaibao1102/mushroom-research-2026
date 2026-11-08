@@ -1,27 +1,29 @@
 # C03 — M18K V2 RGB-D mushroom dataset
 
-**Status:** active working candidate; **not** formally selected / gate-approved.
+**Role in the current system:** supporting software/data reference and historical experiment baseline. It is not the selected general-mushroom production dataset.
 
-- Dataset family: M18K; working V2 release; archived on analyst's Google Drive, not in this repository.
-- Problem: 2D detection and instance segmentation of Baby Bella (BB) and White Button (WB) mushrooms; RGB-D information for future fusion/pose experiments.
-- COCO annotations observed: `train/annotations_coco.json`, `valid/annotations_coco.json`, `test/annotations_coco.json`; paired `rgb/` and `depth/` directories.
-- Split: 3,596 train / 449 val / 450 test (the repository-provided split, no reshuffling).
-- Scientific comparison: V2 is not interchangeable with the original paper's 2,000-image, 70/10/20 benchmark.
+- Dataset family: M18K; prior V2 release; original files are stored outside this source-only repository.
+- Species: button mushroom (*Agaricus bisporus*), including Baby Bella (BB) and White Button (WB) labels in the prior V2 experiments.
+- The prior local V2 audit indexed 4,495 annotated RGB entries and 700,589 annotations. The upstream repository advertises a 4,652-image V2 archive; the discrepancy remains documented in the historical QC record.
+- Prior local split: 3,596 train / 449 validation / 450 test images; the submitted split was retained without reshuffling.
+- The upstream repository separately lists a 2,121-image growth-monitoring subset. It is a distinct asset and must not be conflated with the V2 detection archive.
+- RGB-D scale, intrinsics and exact alignment in the prior local export remain unverified; no physical mm² result was produced.
 
-## Contents
+## Reusable evidence and components
 
-- [`analysis/`](analysis/): the *executed* research notebook with saved outputs (not independently rerun).
-- [`dataset_metadata/`](dataset_metadata/): dataset composition and metadata limitations.
-- [`qc/`](qc/): quality-control findings and outstanding reviews.
-- [`reports/`](reports/): link to the central EDA research report in `09_results/`.
-- [`source/`](source/): provenance checklist; needs archive hash and license confirmation.
-- `raw/`: ignored directory reserved for local data; do not add raw files or checkpoints to Git.
+- [`analysis/`](analysis/): executed M18K V2 EDA notebook with saved outputs; not independently rerun in this repository update.
+- [`dataset_metadata/`](dataset_metadata/): historical V2 inventory and scope.
+- [`qc/`](qc/): open data-quality and provenance questions.
+- [`reports/`](reports/): links to earlier EDA reports.
+- [`source/`](source/): provenance and source-review records.
+- Existing Day 2–5 notebooks, evaluation code, WB-only checkpoint references and Gradio demo remain in the main experiment/source folders.
 
-## Immediate questions
+## Reuse boundaries
 
-1. Why does the V2 COCO audit give only **858 BB** versus **699,731 WB**?
-2. Are frames near-duplicates across train/val/test or from shared trays/scenes?
-3. Are RGB-depth arrays calibrated and aligned, beyond filename correspondence?
-4. How does the advertised release total of **4,652** relate to 4,495 annotated RGB entries?
+- Reuse the YOLOv8-seg data conversion, model training, evaluation, area measurement and UI workflows as engineering starting points.
+- Use the existing WB-only checkpoint only as a regression/demo artifact for its own domain.
+- Inspect the separate growth-monitoring subset before using it in temporal analytics.
+- Do not infer multi-species capability from M18K metrics or mix its source-specific classes with oyster maturity labels without an explicit mapping.
+- Do not convert depth to physical measurements until the sensor scale, intrinsics and RGB-depth alignment are verified.
 
-**Day 2/3 update (3 November):** The executed EDA notebook in this candidate folder remains an EDA-only record. The **subsequently completed** two-class/WB-only YOLOv8n-seg training and test evaluations are filed separately under `08_experiments/` and `09_results/reports/Day2_YOLOv8n_Seg_Reproduction_2026-11-02.md`. Day 3's sample area and error review is under `09_results/reports/Day3_Prediction_Area_and_Error_Analysis_2026-11-03.md`. These later experiments do not imply formal dataset-selection or QC gate approval.
+All raw files and checkpoints remain outside Git. The source repository is listed as Apache-2.0; dataset-specific terms must be checked separately.

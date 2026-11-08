@@ -1,34 +1,35 @@
-> **Historical alternative as of 2026-10-30:** Team 10 is currently analyzing C03 M18K V2. This earlier candidate remains in the registry for continuity; it was not selected, independently verified or discarded by a formal new decision.
+# C02 — MushR oyster mushroom image and maturity source
 
-# C02 — Oyster Mushroom Harvest Readiness
+## Source identity
 
-## Identification and source
-- Candidate ID: C02
-- Dataset URL (user supplied, not retrieved): https://www.kaggle.com/datasets/etcelab/mushr-annotated-dataset-oyster-mushrooms
-- Identifier: `etcelab/mushr-annotated-dataset-oyster-mushrooms`
-- Version: UNKNOWN
-- Candidate status: PENDING_VERIFICATION; selection decision: PENDING.
+- Paper: [MushR: A Smart, Automated, and Scalable Indoor Harvesting System for Gourmet Mushrooms](https://doi.org/10.3390/agriculture13081533)
+- Model/code: [ETCE-LAB/mushr-mask-r-cnn](https://github.com/ETCE-LAB/mushr-mask-r-cnn)
+- Parent system: [ETCE-LAB/MushR](https://github.com/ETCE-LAB/MushR)
+- Raw hourly full-scene images: [Kaggle dataset](https://www.kaggle.com/datasets/etcelab/mushr-project-raw-image-dataset-oyster-mushrooms)
+- Species: oyster mushroom (*Pleurotus* spp.; paper-specific setup).
 
-## Known task definition
-SOURCE_CLAIM from WP-00 specification: Recognition of oyster mushroom harvest-readiness states. Expected direction: CV_CLASSIFICATION_OR_DETECTION_NOT_VERIFIED. This is a proposed task, not a verified account of the actual labels.
+## What is verified from public sources
 
-## Known metadata
-Only the supplied source URL, candidate name and identifier are recorded. Dataset payload, number of files, independent units, classes, collection conditions, licensing, authors, image resolutions, annotation format and splits are UNKNOWN. No dataset has been downloaded.
+- The paper describes 34,400 hourly full-scene images captured over ten months from three views in two grow tents.
+- The annotated model dataset contains 2,759 training and 541 test fruitbody instances in three maturity classes: `Not-Ready`, `Ready` and `Overdue`.
+- The public model repository exposes two COCO annotation JSON files, Detectron2 training/inference/evaluation scripts and model configurations.
+- The repository links to release `p1`, which lists three assets; the actual weights still need to be downloaded and inspected.
+- Model repository licence is listed as GPL-3.0. The parent system repository is listed as AGPL-3.0. Raw dataset terms must be checked separately before data reuse or redistribution.
 
-## Literature and unverified information
-Possible associated paper supplied by user: https://www.mdpi.com/2077-0472/13/8/1533 . Relationship is NOT_VERIFIED. Title, authors, DOI and metadata have not been checked. C02 is not assumed to be DS-02; exact identity and overlap must be checked separately.
+## Intended system contribution
 
-## Potential research questions — HYPOTHESIS only
-- Is the proposed task operationally meaningful compared with a non-ML workflow?
-- Can a reproducible baseline generalize across biological units, batches or acquisition conditions?
-- Could a lightweight approach meet a later agreed resource budget without losing meaningful performance?
-No gap, improvement or deployment benefit is confirmed.
+C02 can supply an established instance-segmentation implementation and source-specific maturity examples. Its raw images also provide repeated views over time. The three maturity labels are **not** a universal mushroom-stage taxonomy and must not be merged directly with Wang's seven stages or labels from other species.
 
-## Verification requirements
-Record dated primary-source evidence for identity, ownership, version, access, license and annotation semantics. Check exclusion registry against exact identifiers and provenance. Document exact paper-dataset relationship or state unresolved. Later authorized QC must establish integrity, independent units, duplicates and grouping before selection/training.
+Potential reusable methods include fruitbody Mask R-CNN inference, DBSCAN-style grouping into flushes and area-weighted maturity aggregation. Grouping and maturity outputs should be adapted to the system's cluster records rather than treated as persistent cross-day track identities.
 
-## Current gate status
-G0: NEEDS_MORE_EVIDENCE. G1–G6: NEEDS_MORE_EVIDENCE. No gate passed. Training NOT authorized.
+## Increment 1 checks — not yet completed
 
-## Next actionable steps
-WP-01 only after authorization: verify the supplied source, record license/version/access and explicit source claims in `source/`, complete metadata and relationship verification in `dataset_metadata/`, record contradictions and produce a screening report. Do not download in WP-00; later authorized original data belongs in `raw/` (ignored), with checksums in versioned metadata. No DS-02 artifacts may be imported.
+1. Download only the repository source and two annotation JSONs first; record commit/release and SHA-256.
+2. Inspect COCO category IDs/names, image paths, segmentation format, annotation counts and train/test separation.
+3. Inspect the `p1` assets and determine architecture/runtime compatibility before obtaining model weights.
+4. Resolve the referenced raw-image filenames against the Kaggle archive and acquire only a matching subset needed for schema and visual tests.
+5. Verify Kaggle data terms separately from repository code licences.
+
+## Status
+
+**Source identified; data schema and file matching pending.** No raw images, annotations or checkpoints are stored in this repository. See `03_dataset_discovery/SOURCE_DATA_AUDIT_DAY6.md` for the overall source audit.

@@ -16,6 +16,8 @@ def main():
         print('Current work package: ' + state['current_work_package'])
         print('Current gate: ' + state['current_gate'] + ' / ' + state['gates'][state['current_gate']])
         print('Dataset selected: ' + ('YES' if state['dataset_selected'] else 'NO'))
+        print('Legacy experiment candidate: ' + str(state.get('legacy_experiment_candidate_id')))
+        print('Increment 0 complete: ' + ('YES' if state.get('increment_0_completed') else 'NO'))
         print('Selected candidate: ' + str(state['selected_candidate_id']))
         print('Training authorized: ' + ('YES' if state['training_authorized'] else 'NO'))
         for row in candidates:

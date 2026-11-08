@@ -1,3 +1,5 @@
+> **Historical source review (30 October 2026):** retain for provenance of the earlier M18K V2 analysis. Current system source roles are defined in `SOURCE_DATA_AUDIT_DAY6.md`.
+
 # C03 M18K dataset source record — review incomplete
 
 | Item | Evidence and status |

@@ -1,34 +1,31 @@
-# Dataset selection criteria — proposed rubric v1
+# Dataset selection criteria — general mushroom monitoring
 
-No candidate is scored in WP-00. Unknown = NOT_VERIFIED (never a zero). These are prospective team policy thresholds, not dataset facts. Review thresholds before accessing evaluation outcomes.
+The first release needs a useful combination of whole-scene mushroom recognition, optional instance masks, repeated-view imagery for cluster tracking, and enough metadata to group results by camera, cultivation unit, batch and date. No single candidate is assumed to satisfy every task.
 
-## Hard exclusions vs blockers
-- Confirmed exact excluded identity `hf55tkx489` or confirmed prohibited reuse of its artifacts: NO-GO. Name similarity alone is not proof; unresolved overlap is BLOCKED pending evidence.
-- Confirmed lack of legal permission for intended research, irreparable provenance/integrity, no usable target labels, or unavoidable train/test leakage invalidating the question: NO-GO with evidence.
-- Unknown license/access, independent units, metadata or unresolved exclusion identity: BLOCKED / NEEDS_MORE_EVIDENCE, not automatic exclusion. Do not add to exclusion registry without confirmation and a decision.
-- No reproducible assessment path within declared resources: BLOCKED until scoped or NO-GO after review.
+## Required evidence by task
 
-## Weighted preferences
-Score 0–4 only with evidence. Common levels: 0 = verified unacceptable, 1 = weak/major documented limitations, 2 = usable with mitigation, 3 = strong/reproducible, 4 = independently validated and fully documented. Criterion-specific anchors below override generic interpretation. Values 1 and 3 require explicit evidence between neighboring anchors. Missing evidence is NOT_VERIFIED.
+| System task | Required dataset evidence | Current candidates / role |
+|---|---|---|
+| General mushroom recognition | Full-scene images with reliable mushroom/non-mushroom labels across more than one useful species | MushR and Charisis for oyster scenes; M18K as button-mushroom supporting data; target-site images later needed for domain fit |
+| Instance segmentation | Full-scene masks or polygons with image-to-annotation correspondence | MushR COCO; Charisis masks; M18K annotations as a supporting format/model workflow |
+| Cluster tracking and growth | Ordered repeated captures from the same camera/view, stable grow-unit or experiment identifiers, and preferably reviewed temporal IDs | Charisis as primary temporal source; MushR hourly capture series; inspect M18K growth subset as a separate supporting source |
+| Maturity/developmental stage | Explicit class definitions, stage examples and source/species information | MushR oyster maturity classes; Wang seven-stage concepts; target-site stage definitions may be required |
+| Species breadth | Representative examples from multiple cultivated species | Optional six-species image collection for image-level classification/robustness; target-scene examples remain necessary |
+| Environmental analysis | Timestamped sensor readings linkable to a cultivation unit/batch | Site-provided sensor exports; define a source-agnostic schema |
+| Depth/3D extension | Aligned RGB-depth pairs with verified scale, intrinsics and calibration | M18K RGB-D as optional; MushroomSegDepth only after code licence and dataset availability are resolved |
 
-| Criterion | Weight | 0 anchor | 2 anchor | 4 anchor |
-|---|---:|---|---|---|
-| Provenance | 10 | Origin disproven/untraceable | Origin/version traceable, partial collection context | Origin, collectors, collection protocol and version independently corroborated |
-| Accessibility | 5 | Confirmed unavailable legally | Stable documented access with manual steps | Public versioned retrieval reproducible from instructions |
-| License | 8 | Explicit intended-use prohibition | Research permission confirmed, redistribution limits recorded | Clear reusable license, attribution/derivative obligations resolved |
-| Annotation quality | 10 | Audit shows unusable targets | Defined taxonomy and audited sample with disagreements documented | Expert-reviewed protocol plus adjudication and inter-rater evidence |
-| Dataset integrity | 7 | Irrecoverably corrupt | Checksummed manifest; all load failures accounted for | Complete reproducible manifest; zero unexplained integrity failures |
-| Independent samples | 10 | No defensible independent test | Group IDs known, feasible test uncertainty estimate | Adequate per-group/class precision justified by prospective sample/CI analysis |
-| Duplicate/leakage risk | 10 | Unavoidable contamination | Exact/near-duplicate groups controlled, residual risk explicit | Specimen/batch/time groups validated and leakage audits independently reproduced |
-| Class distribution | 5 | Target class unassessable | Per-group class counts support declared metric with caveats | All target classes have justified evaluation precision and group coverage |
-| Baseline reproducibility | 10 | No recoverable method or baseline | Method/config largely recoverable, missing details explicit | Code/license/config/splits/versions sufficient for independent reproduction |
-| Paper relevance | 5 | No relevant scientific context | Problem/method relevant, exact data relation unresolved | Exact data/method relation verified and strong context comparison |
-| Research gap evidence | 7 | Hypothesis contradicted without resolution | Specific testable question supported but incomplete | Triangulated gap, prior-art search and counterevidence reviewed |
-| Computational feasibility | 5 | Confirmed exceeds declared budget | Estimated feasible with recorded assumptions | Measured/reproducible resource evidence within approved budget |
-| Mushroom domain relevance | 5 | No cultivation relevance | Practitioner problem plausible, not yet broadly corroborated | Cultivation decision and benefit validated with contextual evidence |
-| Real-world validation feasibility | 3 | Confirmed infeasible/unsafe | Plausible site/protocol with unresolved logistics | Consented independent site, safety and measurement protocol feasible |
+## Selection and split principles
 
-Weights sum to 100. Weighted total = sum(weight × score / 4), out of 100, only when all required evidence is available; otherwise report coverage and observed subtotal, never renormalize unknowns to make a candidate win. Also report raw criterion scores, evidence and uncertainty. No universal sample-count or accuracy threshold is fabricated: specify required precision and resource budget before scoring.
+- Select and combine sources by role; do not force a single dataset to solve every task.
+- Inspect real archive contents and annotation semantics before training.
+- Preserve source-specific labels and category IDs. Do not merge maturity taxonomies across species without a documented mapping and human review.
+- Split by independent time-lapse experiment, sequence, camera capture, cultivation cycle, tray or batch wherever such IDs exist. Adjacent frames/crops from one scene must not leak across train/validation/test.
+- Distinguish full-scene frames from cropped objects. Crop counts are not independent scene counts.
+- A dataset that contains only object crops or image-level species labels cannot validate whole-scene cluster tracking.
+- Dataset licences and code licences are checked separately. Unknown terms block redistribution, not necessarily private exploratory inspection.
+- “Available on request” is not a public download and is not required for the first system build.
+- Excluded source identifiers listed in `excluded_datasets/EXCLUDED_DATASETS.csv` are not candidates for retrieval, import or analysis.
 
-## Selection procedure
-Two reviewers independently score evidence, reconcile disagreements, record counterevidence and hard blockers, and write a signed decision comparing C01, C02 and any additional candidates. Proposed recommendation threshold: at least 70/100, no hard exclusions, no unresolved critical blockers, G0/G1 GO; threshold is policy, not a result. Below threshold: gather evidence, narrow scope, add candidates or NO-GO. Baseline reproducibility/gap scores reflect available evidence, not a claim that G2/G3 have passed. Final selection requires an explicit decision, not the highest score alone.
+## Current selection status
+
+No single production dataset has been selected. Increment 1 should first validate small samples from Charisis and MushR, then inspect M18K's growth-monitoring subset only if it contributes a distinct need. Model architecture selection remains pending annotation-schema and local-runtime evidence.

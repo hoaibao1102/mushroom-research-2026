@@ -1,5 +1,6 @@
-# M18K V2 analysis and inference dependencies (Day 1–5) (Python >=3.9; Colab recommended)
-# The executed Colab notebooks install their own core packages; this file is for setup documentation.
+# Base utilities for historical YOLOv8/COCO experiments and Increment 0 dataset inspection.
+# The production inference/training environment will be pinned after Increment 1 validates the data
+# adapters and the chosen model/export path. Run model-specific setups in isolated Colab/runtime files.
 Ultralytics>=8.4,<9
 gdown>=5,<6
 numpy>=1.24
@@ -12,4 +13,4 @@ psutil>=5.9
 ijson>=3.2
 Pillow>=10
 
-# Gradio app has a small, pinned dependency list in 07_source_code/demo/requirements.txt.
+# The historical Gradio demo has its own small dependency list in 07_source_code/demo/requirements.txt.

@@ -83,7 +83,8 @@
     "04_dataset_candidates/C03_m18k_v2/dataset_metadata",
     "04_dataset_candidates/C03_m18k_v2/qc",
     "04_dataset_candidates/C03_m18k_v2/reports",
-    "04_dataset_candidates/C03_m18k_v2/source"
+    "04_dataset_candidates/C03_m18k_v2/source",
+    "04_dataset_candidates/C04_charisis_tracking"
   ],
   "files": [
     ".gitattributes",
@@ -123,7 +124,16 @@
     "04_dataset_candidates/C03_m18k_v2/qc/V2_QC_OPEN_ISSUES.md",
     "04_dataset_candidates/C03_m18k_v2/analysis/M18K_V2_Research_EDA_Executed_2026-10-30.ipynb",
     "09_results/reports/M18K_V2_EDA_2026-10-30.md",
-    "INTEGRATION_NOTES.md"
+    "INTEGRATION_NOTES.md",
+    "00_project_management/SYSTEM_REQUIREMENTS.md",
+    "00_project_management/SYSTEM_ARCHITECTURE.md",
+    "00_project_management/milestones/DAY6_2026-11-08.md",
+    "01_domain_research/TARGET_SYSTEM_REQUIREMENTS.md",
+    "03_dataset_discovery/SOURCE_DATA_AUDIT_DAY6.md",
+    "03_dataset_discovery/SOURCE_CODE_REGISTRY.csv",
+    "03_dataset_discovery/SOURCE_VERIFICATION_README.md",
+    "07_source_code/data/inspect_dataset.py",
+    "04_dataset_candidates/C04_charisis_tracking/README.md"
   ],
   "csv_headers": {
     "03_dataset_discovery/candidate_registry/CANDIDATE_REGISTRY.csv": [
@@ -171,7 +181,7 @@
       "reported_results",
       "author_stated_limitations",
       "independently_observed_limitations",
-      "proposed_hypothesis",
+      "proposed_system_adaptation",
       "supporting_evidence",
       "contradictory_evidence",
       "gap_verification_status"
@@ -194,5 +204,14 @@
       "completed_at",
       "notes"
     ]
+  },
+  "optional_files": [
+    "10_research_paper/drafts/M18K_IVP_Course_Project_Report_2026-11-04.docx",
+    "10_research_paper/submission/M18K_IVP_Final_Project_Report_2026-11-05.pdf",
+    "10_research_paper/submission/M18K_IVP_Final_Presentation_2026-11-05.pptx",
+    "09_results/area_evaluation/day4_full_test/area_matches.csv.gz"
+  ],
+  "optional_globs": {
+    "10_research_paper/figures/Day3_*.png": 16
   }
 }

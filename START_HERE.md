@@ -1,23 +1,31 @@
 # Start here
 
-The project is now documented through **Day 5 (5 November 2026)**. Start with `README.md` for the short overview.
+The current system specification is in place through **Day 6 — Increment 0**. The project is a local-first, multi-species mushroom growth monitor with Colab-based training and AMD-first local inference.
 
-## Most useful files
+## Read these first
 
-- `09_results/reports/Day2_YOLOv8n_Seg_Reproduction_2026-11-02.md` — the two YOLO reproduction results.
-- `09_results/reports/Day4_Full_Test_Area_And_MVP_2026-11-04.md` — full-test area results and the course MVP experiments.
-- `09_results/reports/Day5_Research_Development_2026-11-05.md` — the dense-scene NMS comparison, RGB-D feasibility study and Gradio demo status.
-- `08_experiments/notebooks/Day5_WB_Only_Gradio_Demo.ipynb` — launches the interactive WB-only demo in Colab.
-- `10_research_paper/submission/` — current course report and presentation files. The documents were prepared before the Day 5 findings and may need a final update.
+1. [`README.md`](README.md) — project overview and repository navigation.
+2. [`00_project_management/PROJECT_CHARTER.md`](00_project_management/PROJECT_CHARTER.md) — system goal and scope.
+3. [`00_project_management/SYSTEM_REQUIREMENTS.md`](00_project_management/SYSTEM_REQUIREMENTS.md) — functional and deployment requirements.
+4. [`00_project_management/SYSTEM_ARCHITECTURE.md`](00_project_management/SYSTEM_ARCHITECTURE.md) — training/inference split and component boundaries.
+5. [`03_dataset_discovery/SOURCE_DATA_AUDIT_DAY6.md`](03_dataset_discovery/SOURCE_DATA_AUDIT_DAY6.md) — source and dataset facts, direct links and known gaps.
+6. [`00_project_management/RESEARCH_STATUS.md`](00_project_management/RESEARCH_STATUS.md) — current progress and next work.
 
-## Running the demo
+## Existing working material
 
-Open the Day 5 Gradio notebook in Colab, run it from top to bottom, and authorize Drive access. It uses the existing WB-only checkpoint and the M18K V2 `test/rgb` folder. No training is required. See `07_source_code/demo/README.md` for details.
+- `08_experiments/notebooks/Day2_WB_Only_Training_and_Day3_Error_Analysis.ipynb` — executed WB-only YOLOv8n-seg training and analysis material; note the incorrect legacy test cell documented in `12_reproducibility/CLOUD_EXECUTION_GUIDE.md`.
+- `08_experiments/notebooks/Day5_WB_Only_Gradio_Demo.ipynb` and `07_source_code/demo/app.py` — previously run WB-only inference demo.
+- `07_source_code/evaluation/` — mask-area evaluation, dense-scene NMS comparison and RGB-D feasibility utilities.
 
-## Important caveats
+These are useful starting components. Their M18K results and checkpoints remain specific to the white-button/baby-bella dataset.
 
-- The Day 5 NMS comparison covers eight selected dense images only; full-test validation is pending.
-- The RGB-D study did not establish depth units, intrinsics or alignment. Physical area in mm² is not reported.
-- Dataset QC, source/license approval and the separate demo video remain open.
+## Repository checks
 
-Run `python scripts/validate_workspace.py` and `python -m unittest discover -s tests -v` for repository checks. These do not rerun model inference or audit the raw dataset.
+```bash
+python scripts/validate_workspace.py
+python -m unittest discover -s tests -v
+```
+
+## Next work package
+
+**Increment 1 — dataset integration:** implement repeatable public-data downloads, archive checks, dataset inventory, annotation validation and mask visualizations. Training starts only after the data loaders pass on actual downloaded samples.

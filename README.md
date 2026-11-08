@@ -1,44 +1,72 @@
-# Mushroom Research 2026 — Team 10
+# Mushroom Growth Monitoring System — Team 10
 
-This repository contains our M18K V2 mushroom detection and instance-segmentation work, from the initial dataset audit through the first follow-up experiments.
+A local-first computer-vision system for observing mushroom growth in real cultivation environments. The target setup uses fixed horizontal camera views of mushroom clusters growing from columns, bags, racks or trays. The system is designed to recognize mushrooms across more than one species, associate the same visible cluster across daily captures, measure its development, and summarize results by cultivation unit and batch.
 
-**Updated 5 November 2026.** We reproduced the YOLOv8n-seg workflow on M18K V2, measured WB mask-area error in px², built a working WB-only Gradio demo, and tried a lower NMS IoU on eight selected crowded images. We also checked whether the exported depth maps can support physical measurements; the required calibration details are not verified, so we have not reported mm².
+## System objectives
 
-## What we did
+1. **Recognize mushrooms:** detect mushrooms in real cultivation scenes and optionally segment their visible boundaries.
+2. **Track clusters over time:** associate visible clusters across captures from the same fixed camera and cultivation position.
+3. **Measure growth:** retain image-space area and dimensions, cluster counts, growth changes and optional maturity estimates. Physical units require camera calibration or a known reference object.
+4. **Compare cultivation units:** organize results by camera, column/tray, batch and date, with optional temperature, humidity and other environmental records.
+5. **Improve through reviewed data:** save daily images and model predictions, queue uncertain examples for human review, and train candidate model versions in controlled batches. Promote a new model only after regression checks against a fixed validation set.
 
-| Day | Work |
-|---|---|
-| **Day 1 — EDA** | Inspected M18K V2 images, RGB/depth pairing, annotations and class balance. |
-| **Day 2 — Reproduction** | Trained and evaluated two-class and WB-only YOLOv8n-seg models on M18K V2. This reproduces the paper's approach on V2, not its exact benchmark protocol. |
-| **Day 3 — Model analysis** | Reviewed predictions and measured mask-area error on a 30-image sample. |
-| **Day 4 — Course MVP** | Evaluated WB mask area across all 450 test images, implemented Otsu from scratch, ran a small baseline/ablation, and completed the inference notebook. |
-| **Day 5 — Follow-up research** | Compared NMS settings on eight dense images, checked RGB-D measurement feasibility, and launched the WB-only Gradio demo. |
+## Runtime strategy
 
-## Main results
+- **Training and model experiments:** Google Colab GPU.
+- **Production inference and application:** local computer; no running Colab session is required.
+- **Primary local acceleration target:** AMD GPU support, investigated through an ONNX-compatible execution provider such as DirectML.
+- **Fallback:** CPU inference must remain functional.
+- **Future extension:** NVIDIA/CUDA execution-provider support can be added behind the same runtime interface.
 
-- The two-class model's overall mask AP@50 was **0.4995** and AP@50:95 was **0.3963**. WB performance was high; BB performance was very low because the V2 annotations are extremely imbalanced.
-- The independently trained WB-only model reached mask AP@50 **0.9906** and AP@50:95 **0.7974** on 450 held-out test images.
-- The full-test WB mask-area analysis matched **68,794** instances. Mean absolute area error was **211.41 px²** and mean relative absolute error was **8.81%**, calculated on matched instances only.
-- On the eight-image dense-scene sample, changing NMS IoU from **0.70 to 0.50** reduced counting MAE from **3.375 to 1.875**. This is preliminary; the full 450-image test set has not been checked at the new setting.
-- The RGB-D feasibility study covered **30 images and 4,970 WB masks**. Depth units and camera intrinsics are not verified, and RGB-depth alignment is uncertain. We did not calculate mm².
+AMD acceleration is a target, not yet a verified capability. The exported model graph and the user's RX 5500 XT / driver stack must pass a real inference test before GPU support is described as working.
 
-## Interactive demo
+## Research and implementation foundations
 
-The WB-only Gradio app was run successfully in Colab. Open [`08_experiments/notebooks/Day5_WB_Only_Gradio_Demo.ipynb`](08_experiments/notebooks/Day5_WB_Only_Gradio_Demo.ipynb) and run it with the team's Drive dataset. The app loads a random test image or accepts an RGB upload, shows instance masks and counts, measures mask area in px², and exports images and CSVs. The model checkpoint stays in Drive.
+| Source | Reusable contribution | Scope limitation |
+|---|---|---|
+| Charisis et al. (2025) | Mask-based cluster association, temporal tracking, occlusion/reappearance handling, growth curves and relative sizing | Oyster mushroom time-lapse data and fixed farm setup; adapt the methods to our camera/column identifiers |
+| MushR (2023) | Detectron2 Mask R-CNN code, COCO annotations, pretrained-release assets, maturity classes and flush-level grouping | Oyster-specific maturity labels; code is GPL-3.0 and the parent project is AGPL-3.0 |
+| Wang et al. (2025) | Seven-stage developmental classification concepts and real-time segmentation architecture | *Pleurotus pulmonarius*; dataset is described as available on request, so exact training reproduction is not required |
+| M18K / existing Day 1–5 work | Working YOLOv8n-seg data/training/inference workflow, localizable model interface, area evaluation and Gradio MVP | White-button / baby-bella data; existing WB-only weights are not a general mushroom model |
+| MushroomSegDepth (2026) | Optional segmentation plus monocular depth-estimation design | Its 705-pair training dataset is not currently linked as a public download; optional extension only |
 
-## Where things are
+See [`03_dataset_discovery/SOURCE_DATA_AUDIT_DAY6.md`](03_dataset_discovery/SOURCE_DATA_AUDIT_DAY6.md) and the source registries for verified access paths, labels, known limitations and license notes.
 
-- Experiment notebooks and configurations: [`08_experiments`](08_experiments/README.md)
-- Source code: [`07_source_code`](07_source_code/README.md)
-- Results and reports: [`09_results`](09_results/README.md)
-- Course report and slides: [`10_research_paper/submission`](10_research_paper/submission/README.md)
-- Colab paths and reproducibility notes: [`12_reproducibility/CLOUD_EXECUTION_GUIDE.md`](12_reproducibility/CLOUD_EXECUTION_GUIDE.md)
-- Current status: [`00_project_management/RESEARCH_STATUS.md`](00_project_management/RESEARCH_STATUS.md)
+## Development record
 
-The report and slide deck were prepared earlier on 5 November, before the Day 5 member results arrived. Those new findings are documented separately and have not yet been added to the course report. A separate demo video is still outstanding.
+| Day | Work | Reuse in the current system |
+|---|---|---|
+| Days 1–5 | M18K V2 EDA; two-class and WB-only YOLOv8n-seg experiments; mask-area analysis; NMS pilot; RGB-D feasibility; working WB-only Gradio app | Reuse the data inspection, segmentation, inference, area-measurement, evaluation and UI components as starting points. The saved model is WB-specific and is not presented as a general mushroom detector. |
+| **Day 6 — Increment 0** | Target requirements, public source/data audit, system architecture, model/runtime strategy and implementation gates | Establishes the build specification and selects the next data-pipeline work package. |
 
-## Dataset and model files
+Earlier M18K V2 metrics remain scoped to their original white-button/baby-bella dataset and evaluation splits. They are not evidence of multi-species field performance.
 
-The M18K V2 RGB-D dataset, COCO JSON files, WB-label archive and model checkpoints are stored outside Git in the team's Google Drive. No raw dataset or checkpoint is included here. The working V2 export contains **4,495 indexed RGB images** and **700,589 original annotations**; the difference from the upstream V2 count of 4,652 images remains unexplained.
+## Repository guide
 
-We do not claim an exact numerical reproduction of the original M18K paper, verified scene-level split independence, formal dataset/license approval, calibrated physical area, or full-test improvement from the eight-image NMS experiment.
+- [`00_project_management/`](00_project_management/) — charter, decisions, status, milestones and task board.
+- [`01_domain_research/`](01_domain_research/) — cultivation workflow, target scene and open application questions.
+- [`02_literature_review/`](02_literature_review/) — paper registry, methods and research gaps.
+- [`03_dataset_discovery/`](03_dataset_discovery/) — public source audit and dataset/code registries.
+- [`04_dataset_candidates/`](04_dataset_candidates/) — dataset-specific metadata, QC and analysis.
+- [`05_research_protocols/`](05_research_protocols/) — data QC, leakage and experiment procedures.
+- [`06_selected_research/`](06_selected_research/) — active system scope and reusable methods.
+- [`07_source_code/`](07_source_code/) — existing data, evaluation, model and demo code.
+- [`08_experiments/`](08_experiments/) and [`09_results/`](09_results/) — experiments and evidence.
+- [`12_reproducibility/`](12_reproducibility/) — Colab/local deployment and execution notes.
+
+## Current status — Day 6
+
+**Increment 0 is complete.** The target system and deployment split are documented, public datasets and source repositories are catalogued, and source access, licensing and dataset limitations are identified. No new model has been trained in this increment. The next task is Increment 1: implement and test dataset download, extraction, inventory, annotation validation and visualization in Colab.
+
+Run workspace consistency checks:
+
+```bash
+python scripts/validate_workspace.py
+python -m unittest discover -s tests -v
+```
+
+These checks validate repository metadata and utility code; they do not certify model accuracy, dataset quality or AMD GPU compatibility.
+
+## Data and model storage
+
+Raw datasets, credentials, large annotation archives, model checkpoints and runtime outputs remain outside Git (for example, in Colab storage/Google Drive during training and in a local data directory during inference). Dataset acquisition scripts must record source URL, version, retrieval date and archive hash. Check each upstream dataset's licence separately from its code repository's licence.
