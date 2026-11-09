@@ -12,3 +12,11 @@ Saved Colab output is evidence of execution, but runtime Drive paths must be ada
 - `Day4_Otsu_Baseline_Ablation_Executed.ipynb`: custom histogram/variance Otsu, 10/10 OpenCV mask agreement, 10-image classical/YOLO union mask metrics, blur/morphology ablations, CPU runtime observation. Requires test `annotations_coco.json` in addition to RGB and checkpoint.
 
 All notebook output is **user-submitted executed evidence**. The integration step did not rerun GPU inference, training, or full dataset audits.
+
+## New notebooks — prepared, not run
+
+- [Charisis cluster tracking](Charisis_Oyster_Cluster_Growth_Tracking.ipynb)
+- [MushR maturity segmentation](MushR_Oyster_Maturity_Instance_Segmentation.ipynb)
+- [Run guide](NOTEBOOK_GUIDE.md)
+
+Neither notebook has completed a real-data or Colab GPU run.

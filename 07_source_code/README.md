@@ -1,15 +1,20 @@
-# Source code and implementation assets
+# Verified source scripts (submitted by team)
 
-This directory keeps project-owned utilities and adapters. Historical M18K code remains available as a reference, but dataset-specific class assumptions must not leak into the general system.
+- `data/build_wb_dataset.py`: prepare WB-only labels from source COCO, create/rebuild symlink-backed YOLO dataset, and validate exported labels. `--mode rebuild` requires the **separate** `wb_yolo_labels.zip` and accessible original RGB directory. The archive itself is not committed.
+- `evaluation/mask_area.py`: calculate original-resolution mask area as `count_nonzero(mask > 0)`; includes synthetic and real-COCO checks.
+- `evaluation/area_evaluation.py`: sample 30 WB test images, infer from a saved checkpoint, match masks to COCO GT at IoU >= 0.5, calculate px² error and export tables/overlays. Does not train a model.
 
-## Existing components
+These scripts were supplied in `wb_task_repo-20261103T073720Z-1-001.zip`. Python bytecode caches are excluded. The uploaded notebook shows the executed area experiment; this repository integration did not rerun it against the Drive dataset. The training notebook also used a separately packaged WB label archive (`image_map.csv` mapping); do not assume identical archive manifests without comparing them.
 
-- `data/inspect_dataset.py`: dependency-light inventory tool for folders, image types, COCO JSON, image references, categories, segmentation types and basic annotation consistency.
-- `data/build_wb_dataset.py`: M18K V2 White Button-only COCO-to-YOLO conversion/rebuild utility. Keep it isolated as a historical data-preparation tool; do not use its WB-only filtering for general data.
-- `evaluation/`: mask-area, full-test area and dataset-QC scripts from Days 1–5.
-- `features/day5_rgbd_feasibility/`: M18K-specific depth-file feasibility checks; no physical-unit calibration was established.
-- `demo/app.py`: previously user-confirmed Gradio inference demo around the WB-only M18K checkpoint. It is a working UI prototype and regression fixture, not the general detector.
+## Day 4 source additions
 
-## New project implementation boundaries
+- `evaluation/day4_full_test_area_evaluation.py`: Thịnh's submitted script for full **450-image** WB predicted-vs-GT mask-area error analysis; outputs JSON, compressed matched-mask CSV, per-image CSV and figures. Needs the original dataset/COCO JSON and WB-only checkpoint.
+- `evaluation/day4_submitted_dataset_qc.py`: original Day 4 QC script. Its report compares a **different set of five image pairs** than Khang's original Day 3 dHash flags, so it is preserved as submitted but **not** a verified clearance of split leakage.
+- Scratch Otsu is in the executed `08_experiments/notebooks/Day4_Otsu_Baseline_Ablation_Executed.ipynb`; this is the authoritative implementation and comparison run.
 
-The production application should separate dataset adapters, model adapters, inference providers, temporal tracking, growth analytics, persistence and UI. New adapters should retain the original source category IDs/labels and create an explicit mapping to the project schema. Do not copy third-party code into this directory until the source licence has been checked and its attribution/terms are retained.
+
+## Day 5 additions
+
+- `evaluation/day5_dense_counting/improve_counting.py`: compares the existing WB-only checkpoint at NMS IoU 0.70 and 0.50 on eight selected dense test images. Outputs are preserved under `09_results/dense_counting/day5_nms/`.
+- `features/day5_rgbd_feasibility/depth_area.py` and `extra_checks.py`: inspect depth-file formats, valid depth inside WB masks and possible RGB-depth alignment. These scripts do not calculate mm².
+- `demo/app.py`: Gradio app for WB-only inference, counting, px² mask areas and CSV/image export. Run instructions and demo dependencies are in `demo/README.md` and `demo/requirements.txt`.

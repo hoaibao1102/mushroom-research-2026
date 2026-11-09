@@ -25,3 +25,10 @@ Day 4 experiments are recorded in `experiment_registry.csv`. Their sampling/eval
 - `configs/day5_dense_counting.json` records Khang's eight-image NMS comparison. The only changed inference setting was NMS IoU (0.70 to 0.50). The counting MAE fell from 3.375 to 1.875 on this selected sample; full-test validation is still needed.
 - `notebooks/Day5_WB_Only_Gradio_Demo.ipynb` launches the interactive app around the existing WB-only checkpoint. The user confirmed that it worked in Colab. It is a demo, not a new benchmark.
 - Thịnh's RGB-D feasibility scripts are in `07_source_code/features/day5_rgbd_feasibility/`; outputs are in `09_results/rgbd_feasibility/day5/`. The study did not verify depth scale or intrinsics, so it reports no mm² values.
+
+## Day 7 — oyster-paper notebooks
+
+- [Charisis notebook](notebooks/Charisis_Oyster_Cluster_Growth_Tracking.ipynb): time-lapse cluster segmentation and tracking.
+- [MushR notebook](notebooks/MushR_Oyster_Maturity_Instance_Segmentation.ipynb): maturity segmentation and spatial flush grouping.
+
+Both use TorchVision adaptations. They are prepared but have not been run on the real datasets or in Colab. See the [run guide](notebooks/NOTEBOOK_GUIDE.md).
