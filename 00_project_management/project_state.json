@@ -1,9 +1,9 @@
 {
   "project_name": "Mushroom Research 2026 — Team 10",
   "created_at": "2026-10-23T16:30:47+07:00",
-  "status_as_of": "2026-11-08",
-  "current_phase": "DAY 6 — INCREMENT 0: SYSTEM REQUIREMENTS, SOURCE AUDIT AND ARCHITECTURE (COMPLETE)",
-  "current_work_package": "WP-06 / Increment 0: general mushroom monitoring requirements, source roles and local-first architecture",
+  "status_as_of": "2026-11-10",
+  "current_phase": "DAY 8 — LOCAL APPLICATION PROTOTYPE; RESEARCH VALIDATION OPEN",
+  "current_work_package": "WP-08 / local application prototype and research handoff",
   "working_candidate_id": null,
   "dataset_selected": false,
   "selected_candidate_id": null,
@@ -21,11 +21,11 @@
     "G2": "PENDING_MODEL_PROTOTYPE",
     "G3": "PENDING_TRACKING_AND_MEASUREMENT",
     "G4": "PENDING_LOCAL_AMD_CPU_RUNTIME_TEST",
-    "G5": "PENDING_APPLICATION_INTEGRATION",
+    "G5": "PROTOTYPE_IMPLEMENTED; CHECKPOINT_INFERENCE_AND_TARGET_RUNTIME_VALIDATION_PENDING",
     "G6": "PENDING_FIELD_VALIDATION"
   },
-  "next_work_package": "WP-07 / Increment 1: retrieve small Charisis and MushR samples in Colab, inspect annotation/sequence schemas, and build source-specific dataset adapters plus visualization tests.",
-  "status_note": "Day 6 Increment 0 establishes the general mushroom monitoring specification, public source roles, local-first runtime and model-update lifecycle. Days 1–5 remain preserved as domain-scoped M18K engineering evidence. No dataset archives were downloaded, no upstream model code was executed and no new model was trained in Day 6.",
+  "next_work_package": "WP-09 / research validation: dataset schemas, model evidence, measurement calibration and target-runtime checks",
+  "status_note": "Day 8 records a local Streamlit application prototype built from the Day 6 system design. Seven application unit tests pass. The bundled app snapshot has no trained checkpoint, so trained-model inference quality is not established by this archive. AMD acceleration, physical-area calibration, multi-species model quality and field validation remain open. The research repository retains a prototype snapshot; ongoing application development is intended for a separate repository.",
   "baseline_scope": "YOLOv8n-seg workflow successfully reproduced on M18K V2; not identical original 2025 paper subset/protocol/metric",
   "exact_original_benchmark_reproduced": false,
   "two_class_test_evaluated": true,
@@ -92,5 +92,16 @@
     "unit_tests_failed": 0,
     "python_compile_check": "PASS",
     "scope": "Repository structure, project metadata, exclusion controls, and dependency-light dataset-inspection utility only. No dataset download, model training, target-machine AMD test, or field validation."
-  }
+  },
+  "day8_application_prototype_created": true,
+  "day8_application_unit_tests_passed": 7,
+  "day8_application_unit_tests_total": 7,
+  "day8_app_system_check_passed": true,
+  "day8_app_registry_active_model": "mushr_maturity / colab-1794297278",
+  "day8_app_checkpoint_found_in_archive": false,
+  "day8_app_amd_runtime_verified": false,
+  "day8_app_end_to_end_trained_inference_verified": false,
+  "day8_app_repository_separation_decided": true,
+  "application_repository_url": null,
+  "application_source_snapshot": "13_local_application/"
 }

@@ -13,10 +13,6 @@ Saved Colab output is evidence of execution, but runtime Drive paths must be ada
 
 All notebook output is **user-submitted executed evidence**. The integration step did not rerun GPU inference, training, or full dataset audits.
 
-## New notebooks — prepared, not run
+## New notebooks — preparation notes only
 
-- [Charisis cluster tracking](Charisis_Oyster_Cluster_Growth_Tracking.ipynb)
-- [MushR maturity segmentation](MushR_Oyster_Maturity_Instance_Segmentation.ipynb)
-- [Run guide](NOTEBOOK_GUIDE.md)
-
-Neither notebook has completed a real-data or Colab GPU run.
+The Day 7 Charisis and MushR notebook preparation is documented in the [run guide](NOTEBOOK_GUIDE.md) and [Day 7 report](../../09_results/reports/Day7_Notebook_Preparation_2026-11-09.md). The notebook files themselves are not included in this source archive. No real-data or Colab GPU result is evidenced here.

@@ -8,7 +8,8 @@
 | 4 — 4 Nov | Full-test area, inference MVP and Otsu baseline | [Full-test area and MVP](reports/Day4_Full_Test_Area_And_MVP_2026-11-04.md) · [QC interpretation](reports/Day4_QC_Interpretation_2026-11-04.md) | `area_evaluation/day4_full_test/`, `inference_demo/`, `otsu_baseline/` |
 | 5 — 5 Nov | NMS comparison, RGB-D check and Gradio demo | [Research development](reports/Day5_Research_Development_2026-11-05.md) | `dense_counting/day5_nms/`, `rgbd_feasibility/day5/`, `gradio_demo/` |
 | 6 — 8 Nov | Charisis, MushR and Wang paper/source review | [Paper and source review](reports/Day6_Paper_Source_Review_2026-11-08.md) | `../03_dataset_discovery/source_verification/CHARISIS_AND_MUSHR_PAPER_SOURCES_2026-11-09.md` |
-| 7 — 9 Nov | Two independent Colab notebooks prepared | [Notebook preparation](reports/Day7_Notebook_Preparation_2026-11-09.md) | `../08_experiments/notebooks/` |
+| 7 — 9 Nov | Charisis and MushR notebook preparation | [Notebook preparation](reports/Day7_Notebook_Preparation_2026-11-09.md) | `../08_experiments/notebooks/` |
+| 8 — 10 Nov | Local application prototype and research handoff | [Application prototype](reports/Day8_Local_Application_Prototype_2026-11-10.md) | `../13_local_application/` (reference snapshot) |
 
 ## Notes on the results
 
@@ -16,4 +17,5 @@
 - Day 3 area and qualitative checks use selected samples. Day 4 area results cover all 450 WB test images and matched masks only.
 - Day 5's lower-NMS result uses eight selected dense images; the full test set has not been evaluated at that setting.
 - The RGB-D export has no verified depth scale, camera intrinsics or RGB-depth alignment. No mm² measurements were made.
-- The Day 6 work was source screening. The Day 7 notebooks have not yet run against the real Charisis or MushR datasets.
+- The Day 6 work was source screening. Day 7 recorded notebook preparation; notebook files and real-data training evidence are not included in this source archive.
+- Day 8 records a local application prototype. Its seven unit tests pass, but the bundled model registry has no checkpoint, so the archive does not establish trained-model inference quality or AMD acceleration.

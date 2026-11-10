@@ -1,11 +1,11 @@
 # Running the Charisis and MushR notebooks
 
-The notebooks are independent. Use a fresh Google Colab GPU runtime for each one.
+The workflows are independent. The notebook files are not bundled in this source archive; use the separate team notebook copies when available. Run each workflow in a fresh Google Colab GPU runtime.
 
 | Notebook | Data | Task |
 |---|---|---|
-| [Charisis](Charisis_Oyster_Cluster_Growth_Tracking.ipynb) | [Zenodo 15041243](https://zenodo.org/records/15041243) | Oyster-cluster segmentation and time-lapse tracking |
-| [MushR](MushR_Oyster_Maturity_Instance_Segmentation.ipynb) | [GitHub annotations](https://github.com/ETCE-LAB/mushr-mask-r-cnn) and [Kaggle images](https://www.kaggle.com/datasets/etcelab/mushr-project-raw-image-dataset-oyster-mushrooms) | Maturity segmentation and spatial flush grouping |
+| Charisis workflow | [Zenodo 15041243](https://zenodo.org/records/15041243) | Oyster-cluster segmentation and time-lapse tracking |
+| MushR workflow | [GitHub annotations](https://github.com/ETCE-LAB/mushr-mask-r-cnn) and [Kaggle images](https://www.kaggle.com/datasets/etcelab/mushr-project-raw-image-dataset-oyster-mushrooms) | Maturity segmentation and spatial flush grouping |
 
 ## Run order
 
@@ -18,7 +18,7 @@ MushR requires Kaggle credentials. Add `KAGGLE_USERNAME` and `KAGGLE_KEY` in Col
 
 ## Run files
 
-Each notebook writes a `results/` directory and a `model_bundle.zip`.
+Each notebook is expected to write a `results/` directory and a `model_bundle.zip`.
 
 **Charisis expected results:** `run_manifest.json`, `zenodo_file_manifest.csv`, `resolved_image_manifest.csv`, training history, `test_detections.csv`, `cluster_tracks.csv`, `cluster_track_summary.csv` and `predicted_track_masks/`.
 

@@ -1,8 +1,8 @@
 # Mushroom Research 2026 — Team 10
 
-The first five days focused on M18K V2: dataset checks, YOLOv8n-seg experiments, mask-area evaluation and an inference demo. On Day 6 we reviewed oyster-mushroom papers and their data/code sources. Day 7 produced two separate Colab notebooks for testing those workflows.
+This repository is the research workspace for the mushroom-monitoring project: literature and source reviews, dataset audits, experiments, evaluation evidence, reproducibility and field-validation planning. The first five days focused on M18K V2; Day 6 onward defines and investigates the broader mushroom growth-monitoring system.
 
-**Updated 9 November 2026.** The M18K results below are from the earlier experiments. The Charisis and MushR notebooks are prepared but have not been run on their real datasets.
+**Updated 10 November 2026.** M18K results below remain scoped to the white-button dataset. The Day 8 local application is a prototype; its presence does not establish model accuracy, physical-size measurement or AMD acceleration.
 
 ## Daily reports
 
@@ -14,7 +14,8 @@ The first five days focused on M18K V2: dataset checks, YOLOv8n-seg experiments,
 | 4 | Full-test area evaluation, inference demo and Otsu baseline | [Full-test area and MVP](09_results/reports/Day4_Full_Test_Area_And_MVP_2026-11-04.md) · [QC review](09_results/reports/Day4_QC_Interpretation_2026-11-04.md) |
 | 5 | Dense-scene NMS test, RGB-D check and Gradio demo | [Research development](09_results/reports/Day5_Research_Development_2026-11-05.md) |
 | 6 | Oyster-paper and source review | [Paper and source review](09_results/reports/Day6_Paper_Source_Review_2026-11-08.md) |
-| 7 | Two paper-based Colab notebooks | [Notebook preparation](09_results/reports/Day7_Notebook_Preparation_2026-11-09.md) |
+| 7 | Charisis and MushR notebook preparation | [Notebook preparation](09_results/reports/Day7_Notebook_Preparation_2026-11-09.md) |
+| 8 | Local application prototype and research handoff | [Application prototype](09_results/reports/Day8_Local_Application_Prototype_2026-11-10.md) |
 
 ## M18K V2 results
 
@@ -26,18 +27,24 @@ The first five days focused on M18K V2: dataset checks, YOLOv8n-seg experiments,
 
 The WB-only [Gradio demo](08_experiments/notebooks/Day5_WB_Only_Gradio_Demo.ipynb) was launched successfully in Colab. It runs inference with the saved checkpoint; it does not train a model.
 
-## Oyster-paper notebooks
+## Oyster-paper research
 
-- [Charisis — cluster growth tracking](08_experiments/notebooks/Charisis_Oyster_Cluster_Growth_Tracking.ipynb): time-lapse oyster-cluster segmentation and tracking.
-- [MushR — maturity segmentation](08_experiments/notebooks/MushR_Oyster_Maturity_Instance_Segmentation.ipynb): fruitbody maturity segmentation and spatial flush grouping.
+Day 6 reviewed Charisis et al. for temporal cluster tracking and MushR for maturity-labelled segmentation and spatial grouping. Day 7 documented two separate TorchVision notebook adaptations. They are not exact MMDetection/Detectron2 reproductions, and the source-specific labels and metrics must remain separate. See the [Day 6 source review](09_results/reports/Day6_Paper_Source_Review_2026-11-08.md), [Day 7 notebook preparation](09_results/reports/Day7_Notebook_Preparation_2026-11-09.md) and [notebook run notes](08_experiments/notebooks/NOTEBOOK_GUIDE.md). Notebook files and real-data training evidence are not included in this source archive.
 
-Both use TorchVision adaptations of the papers' Mask R-CNN model families. Neither is an exact MMDetection/Detectron2 reproduction. The real data downloads, Colab smoke runs and GPU training are still pending. Keep their datasets, class names and metrics separate from each other and from M18K V2. Run instructions are in the [notebook guide](08_experiments/notebooks/NOTEBOOK_GUIDE.md).
+## Local application
+
+A Streamlit prototype now connects cultivation records, image capture, model bundles, segmentation inference, tracking, pixel-area measurements, maturity grouping, environmental records and human review. The Day 8 code snapshot is retained in [`13_local_application/`](13_local_application/) for reference; it is not the intended home for ongoing app development.
+
+**Application development repository:** _URL pending — add the separate app repository here._
+
+The bundled app tests pass **7/7**. However, this source archive contains model-registry metadata without a trained checkpoint, so it does not verify trained-model inference. AMD acceleration, physical-area calibration and field performance remain open. The Charisis tracker and MushR per-image flush grouping are different workflows, not interchangeable IDs.
 
 ## Repository links
 
 - [Daily reports and result files](09_results/README.md)
 - [Experiment notebooks and configs](08_experiments/README.md)
-- [Current tasks](00_project_management/TASK_BOARD.md)
+- [Current research tasks](00_project_management/TASK_BOARD.md)
+- [Project status](00_project_management/RESEARCH_STATUS.md)
 - [Colab and Drive notes](12_reproducibility/CLOUD_EXECUTION_GUIDE.md)
 
 Raw datasets, large annotation files and model checkpoints are stored outside Git. The working M18K V2 export contains **4,495 indexed RGB images** and **700,589 annotations**; the difference from the upstream V2 count of 4,652 images remains unexplained. Dataset QC, source permissions and physical-area calibration remain open.
