@@ -29,7 +29,7 @@ The WB-only [Gradio demo](08_experiments/notebooks/Day5_WB_Only_Gradio_Demo.ipyn
 
 ## Oyster-paper research
 
-Day 6 reviewed Charisis et al. for temporal cluster tracking and MushR for maturity-labelled segmentation and spatial grouping. Day 7 documented two separate TorchVision notebook adaptations. They are not exact MMDetection/Detectron2 reproductions, and the source-specific labels and metrics must remain separate. See the [Day 6 source review](09_results/reports/Day6_Paper_Source_Review_2026-11-08.md), [Day 7 notebook preparation](09_results/reports/Day7_Notebook_Preparation_2026-11-09.md) and [notebook run notes](08_experiments/notebooks/NOTEBOOK_GUIDE.md). Notebook files and real-data training evidence are not included in this source archive.
+Day 6 reviewed Charisis et al. for temporal cluster tracking and MushR for maturity-labelled segmentation and spatial grouping. Day 7 documented two separate TorchVision notebook adaptations. They are not exact MMDetection/Detectron2 reproductions, and the source-specific labels and metrics must remain separate. See the [Day 6 source review](09_results/reports/Day6_Paper_Source_Review_2026-11-08.md), [Day 7 notebook preparation](09_results/reports/Day7_Notebook_Preparation_2026-11-09.md) and [notebook run notes](08_experiments/notebooks/NOTEBOOK_GUIDE.md).
 
 ## Local application
 
@@ -37,7 +37,6 @@ A Streamlit prototype now connects cultivation records, image capture, model bun
 
 **Application development repository:** [FungiCirno](https://github.com/h-nam-sys/FungiCirno)
 
-The bundled app tests pass **7/7**. However, this source archive contains model-registry metadata without a trained checkpoint, so it does not verify trained-model inference. AMD acceleration, physical-area calibration and field performance remain open. The Charisis tracker and MushR per-image flush grouping are different workflows, not interchangeable IDs.
 
 ## Repository links
 
