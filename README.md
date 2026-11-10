@@ -35,7 +35,7 @@ Day 6 reviewed Charisis et al. for temporal cluster tracking and MushR for matur
 
 A Streamlit prototype now connects cultivation records, image capture, model bundles, segmentation inference, tracking, pixel-area measurements, maturity grouping, environmental records and human review. The Day 8 code snapshot is retained in [`13_local_application/`](13_local_application/) for reference; it is not the intended home for ongoing app development.
 
-**Application development repository:** _URL pending — add the separate app repository here._
+**Application development repository:** [FungiCirno](https://github.com/h-nam-sys/FungiCirno)
 
 The bundled app tests pass **7/7**. However, this source archive contains model-registry metadata without a trained checkpoint, so it does not verify trained-model inference. AMD acceleration, physical-area calibration and field performance remain open. The Charisis tracker and MushR per-image flush grouping are different workflows, not interchangeable IDs.
 
